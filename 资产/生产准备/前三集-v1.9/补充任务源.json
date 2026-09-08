@@ -13,8 +13,8 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "rain-soaked ink-blue travel robe over smoky-gray layers, old bandaging concealed under the left shoulder, both feet grounded, right hand holding a plain sheathed travel blade",
-      "checks": "受袭前未有这次擦破；原顾熟练克制；全身左右以角色自身为准"
+      "costume_en": "ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, sheltered dry torso with only slightly damp hems, old bandaging concealed at his own left shoulder, right hand holding the same plain sheathed travel blade",
+      "checks": "受袭前未有这次擦破；原顾熟练克制；全身左右以角色自身为准；乘封闭车时受顶壁遮雨，离车受袭后才逐渐雨湿，不让完整车顶漏成露天。 用于车内及第一波：旧肩受震牵痛，没有本次新擦破；下车后衣料逐步雨湿。"
     },
     {
       "key": "C01-RAIN-POST",
@@ -29,8 +29,8 @@
         "GJ-EP01-SC02",
         "GJ-EP01-SC03"
       ],
-      "costume_en": "rain-soaked ink-blue travel robe with a small fresh abrasion tear and restrained blood stain on his own left shoulder, right hand shielding that shoulder, tense but upright stance",
-      "checks": "只有左肩旧伤震动加擦伤；不露深伤、不改脸"
+      "costume_en": "ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, rain-soaked opaque brocade with a small fresh abrasion tear and restrained blood on his own left shoulder, right hand shielding that shoulder, tense upright stance",
+      "checks": "只有左肩旧伤震动加擦伤；不露深伤、不改脸 第二波黄祁第一击后才出现新擦破，第一波不得提前复用此态。"
     },
     {
       "key": "C01-DRY",
@@ -70,8 +70,8 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "wet black and charcoal travel clothes, plain dark rain hat, lower-face cloth covering only the lower half of the face, brows and eyes visible, right hand at a plain sheathed blade",
-      "checks": "面罩是可脱外观，不替代独立脸；无徽记；本次制作用右手持刃"
+      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel clothes, plain dark rain hat, lower-face cloth covering only the lower half of the face, brows and eyes visible, right hand at a plain sheathed blade",
+      "checks": "面罩是可脱外观，不替代独立脸；无徽记；本次制作用右手持刃 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
       "key": "C06-RAIN-POST",
@@ -84,8 +84,8 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound",
-      "checks": "无新增伤口；只改停手戒备表演与面巾偏动，不画右上臂血伤；撤退仍可独立行动"
+      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound",
+      "checks": "无新增伤口；只改停手戒备表演与面巾偏动，不画右上臂血伤；撤退仍可独立行动 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
       "key": "C07-RAIN",
@@ -99,7 +99,7 @@
         "GJ-EP01-SC01"
       ],
       "costume_en": "ordinary gray-brown rain hat over tied hair, wet gray-brown short travel coat with dark blue inner collar, damp fitted sleeves, grounded stance",
-      "checks": "无新增血伤，无黄祁伤血转沾；脸与灰褐雨衣同母版"
+      "checks": "无新增血伤，无黄祁伤血转沾；脸与灰褐雨衣同母版 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
       "key": "C02-FEAR",
@@ -145,7 +145,7 @@
         "GJ-EP01-SC01"
       ],
       "costume_en": "deep ink-green short travel coat with a pale gray inner collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
-      "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客"
+      "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
       "key": "C58-RAIN",
@@ -159,7 +159,7 @@
         "GJ-EP01-SC01"
       ],
       "costume_en": "charcoal travel robe with brown outer sleeves and dark gray cross-collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
-      "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客"
+      "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
       "key": "C59-RAIN",
@@ -173,7 +173,7 @@
         "GJ-EP01-SC01"
       ],
       "costume_en": "gray-blue fitted-sleeve short travel robe, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
-      "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客"
+      "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     }
   ],
   "extras": [
@@ -233,7 +233,7 @@
       ],
       "phase": "B",
       "parent": null,
-      "body_en": "One plain standing bronze mirror on a modest dark wooden support, softly imperfect ordinary reflective surface, three-quarter object view, neutral background, angled diffuse light.",
+      "body_en": "One ordinary round bronze mirror in a substantial carved dark-hardwood stand with localized gilded relief and dark floral ornament, softly imperfect ordinary reflective surface, isolated three-quarter object study, diffuse neutral light, no magical glow.",
       "checks": "普通反射、不出现第二人格；镜内人需后制匹配",
       "ratio": "4:3"
     },
@@ -245,7 +245,7 @@
       ],
       "phase": "B",
       "parent": null,
-      "body_en": "The inside of a plain Chinese timber study door with one simple horizontal wooden bolt mounted on the door, worn contact marks, close object detail, warm practical lamp illumination.",
+      "body_en": "Inside face of a finely carved dark-hardwood study door with restrained gilt edging and one ordinary horizontal wooden inner bolt, functional clear mounting and subtle contact wear, close detail under localized lamp light, no coded mechanism.",
       "checks": "开闭两态同构件，原顾亲手闩、今顾亲手开；不是密码机关",
       "ratio": "4:3"
     },
@@ -257,8 +257,8 @@
       ],
       "phase": "B",
       "parent": null,
-      "body_en": "One modest oil lamp on an aged wooden desk, a small steady flame sheltered by a plain pale shade, warm localized light with quick falloff into the room, realistic soot-free everyday object.",
-      "checks": "光源不漂浮；定灯座位置后才延展夜景",
+      "body_en": "One refined shaded period oil lamp on the thick-topped deeply carved dark-hardwood desk of an ancestral Chinese mansion, worked bronze foot and localized gilding on the desk apron. A small flame illuminates only the adjacent surface against cool night ambience; ordinary functional household lamp, no modern electric fixture or LED strip.",
+      "checks": "保留案灯小光源及可见灯芯；书桌更厚重精工但灯、杯、镜落位不改。",
       "ratio": "4:3"
     },
     {
@@ -269,8 +269,8 @@
       ],
       "phase": "A",
       "parent": "MB-ENV-S03-HALL",
-      "body_en": "One small portable wooden side table, four plain legs, enough tabletop for one narrow paper and a writing brush, fine repaired joinery, isolated three-quarter object view under diffuse light.",
-      "checks": "不同于前厅固定大案；门外人只能伸手够到它",
+      "body_en": "One smaller portable period dark-hardwood side table belonging to an ancestral Chinese mansion, a visibly thick tabletop edge, finely carved cloud-scroll apron and sturdy compact legs, local gilding integrated into the carving. Clearly smaller than the fixed reception table, still movable by one adult as required by the scene. Tabletop reserved for a paper and brush, isolated three-quarter view in neutral-white daylight, no slim modern console or folding table.",
+      "checks": "重工但仍为可移动小案，石可按台本单人搬回；不扩大为固定大案，不因精雕阻挡纸笔与门道。",
       "ratio": "4:3"
     },
     {
@@ -281,20 +281,20 @@
       ],
       "phase": "B",
       "parent": "MB-ENV-S03-HALL",
-      "body_en": "One substantial old wooden reception table, broad heavy top, plain strong legs, refined worn joinery and a dark satin wood surface, isolated three-quarter object view under diffuse light.",
-      "checks": "真票在更里面；不移动到门槛、不与小案互换",
+      "body_en": "One fixed heavy dark-hardwood table from the reception hall of an ancestral Chinese mansion, broad exceptionally thick top, deep multi-layer cloud-scroll carved apron, stout structural legs and visible traditional joinery. Dark tonal relief, selective gilding and small mother-of-pearl inlay, imposing usable proportions, isolated three-quarter view in neutral-white daylight; not a modern slab desk, no floating top or thin metal legs.",
+      "checks": "固定大案宽厚、深雕、粗足，主从明显；真票在更里面，不移动到门槛、不与小案互换。",
       "ratio": "4:3"
     },
     {
       "key": "P01-HORSE",
-      "name": "小车双匹棕色牵引马",
+      "name": "P01四匹牵引马与封闭车绑定",
       "asset_ids": [
         "P01"
       ],
       "phase": "B",
       "parent": "MB-P01-BASE",
-      "body_en": "Exactly two ordinary adult brown draft horses standing calmly side by side, plain matching period leather harness for a paired team, no riding saddles, full bodies visible in a front three-quarter view, natural proportions, neutral ground and diffuse daylight, no rider, no driver, no cart, no additional horses.",
-      "checks": "正好两匹普通棕色牵引马，并排双挽、各自身体和挽具可辨；不生成单马、串列或第三匹。仅属P01，不复用P19八匹骑乘马；全队十匹马。沿用MB-P01-HORSE任务号，父母版为空车，之后按双马车具关系核对组合；不新增车夫，不作真实驾驭或挽具安装教学。",
+      "body_en": "Exactly four ordinary adult brown draft horses abreast in a single row, four separate heads and four distinct bodies, natural individual differences, coordinated dark travel harness with restrained bronze-colored fittings, attached in front of the selected stately enclosed four-wheel carriage. Preserve the selected solid roof, right-side door, ebony-brown lacquer, discreet carved trim and front driver bench, no driver and no passengers. Full team and carriage visible in a calm three-quarter front-side continuity study on broad level ground, diffuse daylight, no other horses, no tandem pairs, no magical features.",
+      "checks": "恰好四匹棕色牵引马并列，连P19四匹坐骑全队八马；不借坐骑补数，不添加车夫。四马与已选封闭豪华车同框，车门、踏阶、外驾座及前行灯可定位；不可改成两马、前后两排或敞棚。此为静态视觉计划，不是挽具装配或动物安全认证。",
       "ratio": "4:3"
     },
     {
@@ -307,27 +307,13 @@
         "P21",
         "C17",
         "C20",
-        "C22",
         "C23"
       ],
       "phase": "B",
       "parent": null,
       "body_en": "One plain sheathed period travel blade with a modest dark handle, restrained worn metal fittings and a cloth-wrapped grip, isolated side view under diffuse light, fictional film prop design.",
-      "checks": "仅母形提案；不自动分给所有九卒，不加神兵纹章或现实制作参数；九卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 C01旅刀只共用外观族，不属于九卒P21；杜环首、石短刀和其余腰刀在个体映射中区分。",
+      "checks": "仅母形提案；不自动分给所有五卒，不加神兵纹章或现实制作参数；五卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 C01旅刀只共用外观族，不属于五卒P21；杜环首、石短刀和其余腰刀在个体映射中区分。",
       "ratio": "4:3"
-    },
-    {
-      "key": "WEAPON-SPEAR",
-      "name": "罗百泉长兵外观",
-      "asset_ids": [
-        "C19",
-        "P21"
-      ],
-      "phase": "B",
-      "parent": null,
-      "body_en": "One plain long wooden-shafted spear film prop with restrained dark-metal fittings, full side silhouette against neutral gray, soft even light.",
-      "checks": "老枪手视觉附件；不以长度数据或实际战术指导出图；九卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。",
-      "ratio": "16:9"
     },
     {
       "key": "WEAPON-BOW",
@@ -339,7 +325,7 @@
       "phase": "B",
       "parent": null,
       "body_en": "One simple short traditional bow wrapped in dark rain-protection cloth beside one closed cloth arrow pouch, curved silhouette still readable under the tied covering, isolated object study, diffuse light, no drawn bow, no loose arrow, no hands.",
-      "checks": "开篇防雨包裹，非现代复合弓；军中重械不凭空出现；九卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 弓包本场留鞍侧，崔改腰刀，不新增放箭镜头；封口箭袋不得变成现代箭匣。",
+      "checks": "开篇防雨包裹，非现代复合弓；军中重械不凭空出现；五卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 弓包本场留鞍侧，崔改腰刀，不新增放箭镜头；封口箭袋不得变成现代箭匣。",
       "ratio": "4:3"
     },
     {
@@ -376,7 +362,7 @@
       "phase": "B",
       "parent": "MB-ENV-S01",
       "body_en": "One partially visible adult figure behind a large woodland tree in dense bamboo beside a wet road at night, a plain dark-gray sleeve extending just beyond the trunk, the rest of the body concealed, face and bare hands fully occluded, no visible weapon or insignia, cool ambient light through canopy gaps, restrained fabric texture, single quiet frame.",
-      "checks": "仅探索灰袖、树干遮挡与林侧位置；性别年龄脸和境界未锁，不借温宁殷母版；不是第六刺客",
+      "checks": "仅探索灰袖、树干遮挡与林侧位置；性别年龄脸和境界未锁，不借温宁殷母版；不计刺客人数。出手在第二波最后一击，不计任一波刺客；第一波已退林。",
       "ratio": "16:9"
     },
     {
@@ -396,44 +382,42 @@
       "ratio": "16:9"
     },
     {
-      "key": "WEAPON-LONG-BLADE",
-      "name": "孟宽步战长刀与鞘",
-      "asset_ids": [
-        "C18",
-        "P21"
-      ],
-      "phase": "B",
-      "parent": null,
-      "body_en": "One plain fully sheathed long infantry blade film prop, noticeably longer silhouette than a waist blade, simple dark wood handle and restrained dark metal fittings, isolated full side view on neutral gray, no hands, no blood, no supernatural glow.",
-      "checks": "孟本人兵器，非大斩马刀；鞍侧携行、下马取用，不改成骑战",
-      "ratio": "16:9"
-    },
-    {
-      "key": "WEAPON-SHORT-SPEAR",
-      "name": "伍成短矛",
-      "asset_ids": [
-        "C21",
-        "P21"
-      ],
-      "phase": "B",
-      "parent": null,
-      "body_en": "One plain short wooden-shafted spear film prop, compact overall silhouette distinctly shorter than the long-spear family, restrained dark metal tip, isolated full side view on neutral gray, diffuse light.",
-      "checks": "短矛与罗长枪不能同长同体量，不给结构图与制造规格",
-      "ratio": "16:9"
-    },
-    {
       "key": "WEAPON-SHIELD",
-      "name": "石段木芯皮面短盾母形",
+      "name": "石照川木芯皮面短盾母形",
       "asset_ids": [
         "C17",
-        "C22",
         "P21"
       ],
       "phase": "B",
       "parent": null,
       "body_en": "One modest wooden short shield film prop with a matte dark-brown leather facing, softened corners, plain cloth edging and subtle old wear, isolated three-quarter object study on neutral gray, no emblem, no giant tower shield, no metal mirror polish.",
-      "checks": "一母形派生石段两件，划痕与体量分别锁定；不变无敌盾，无血迹或碎裂新增伤",
+      "checks": "仅映射C17石照川，不扩成两面盾；旧盾不是无敌盾，场后擦痕与持盾手一致。",
       "ratio": "4:3"
+    },
+    {
+      "key": "P01-CABIN",
+      "name": "封闭车厢内饰与右门连续性",
+      "asset_ids": [
+        "P01"
+      ],
+      "phase": "B",
+      "parent": "MB-P01-BASE",
+      "ratio": "4:3",
+      "body_en": "Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler and a small bag. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow.",
+      "checks": "沿BASE同一车体；内座、实体隔板、右门及踏阶方位固定。封闭不是密封无门，锦垫不塞满通路；P02位于座旁，韩在外驾座不能隔墙扶包；不新增隐室或机关。"
+    },
+    {
+      "key": "P01-RAIN-STOP",
+      "name": "雨夜受阻马车｜右门开启空车态",
+      "asset_ids": [
+        "P01",
+        "S01"
+      ],
+      "phase": "B",
+      "parent": "MB-P01-BASE",
+      "ratio": "16:9",
+      "body_en": "The selected enclosed luxurious four-wheel carriage standing immobilized beside the broad passing bay in the selected dense bamboo and woodland road at rainy night, a damaged wheel assembly caught beside an old broken timber, intact solid cabin and roof, right-side passenger door open and boarding step visible, wet ebony lacquer and restrained gilt-bronze highlights, one small enclosed travel lantern at the front providing local warm light, cool forest ambience outside its reach. Empty state study, no people, no horses, no shattered cabin, no visible bridge deck, no magical effects.",
+      "checks": "只改已选BASE的雨湿、车轮受阻与右门状态；厢体未碎，不能下场恢复行驶。四匹牵引马在分层组合时补齐，空车图本身不证明整队数量。林道宽度同时留出四驾、四匹坐骑及扶人出口；危及动物的动作不得实拍冒险。"
     }
   ],
   "manual_tasks": [
@@ -449,8 +433,8 @@
         "P20",
         "P21"
       ],
-      "deliverable": "无人物二维平面图，标南正门、北厅、东书房、西卧房、西厢、侧道、后院、外库、同街短墙。",
-      "acceptance": "通路、视线、门槛、小案与固定大案都对上；尺寸由选版后确定，不能用生成漂亮院图反改拓扑。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 西厢另留卸甲和兵器器物区，远离铺盖、通道及室外马匹脚边；1-4以后衣甲不在人物身上。"
+      "deliverable": "无人物二维平面图，标南正门、北厅、东书房、西卧房、西厢、侧道、后院、外库、同街短墙。 标五个独立架子床位、器物行囊分区、侧缘花木及四马室外空地；大书房外围分区与紧邻案窗门行动区分别量尺。",
+      "acceptance": "护送五人含韩青、不含顾砚：六人、P01四匹牵引马＋P19四匹坐骑共八马、一辆封闭车；遇袭四骑下马、五人地面归旌，第一波十名遮面刺客先耗力并有序交接退林；第二波黄祁、罗顺及C57—59共五人接手，黄近宗师专杀，另四人牵制。C60使第二波撤走，第一波不重新加入，巡灯后到，五卒未胜。受阻车与四匹牵引马留林道待巡防接手，韩扶顾、另四人牵坐骑回府；室外系马、室内卸内甲器物区及人物通路分开。封闭厢右门与踏阶支持上下车，车壁保持实体遮挡，四驾宽度须平面确认；马匹、湿地、器物、危险动作另由专业团队评估，本计划不代表安全获批。 固定大案与轻小案不同物；无中央水池；杯落处裸石、柜紧邻窗、韩顾伯紧邻门。 高门世家建筑验收：梁柱檐口、案桌柜屏床的体量与重工可见，非现代新中式别墅。白昼及雨后初晴晨景明亮自然、不偏暖黄；夜戏不改白天。主案固定、小案可搬、窗下柜不加高、五床与照料通路不变。"
     },
     {
       "key": "TEXT-DOCS",
@@ -463,7 +447,7 @@
         "P08",
         "P17"
       ],
-      "deliverable": "军引姓名、旧票有限字样、E1a、E1b、收件纸、九人路凭的可编辑字层；具体见文书后制与非MJ任务。",
+      "deliverable": "军引姓名、旧票有限字样、E1a、E1b、收件纸、五人路凭的可编辑字层；具体见文书后制与非MJ任务。",
       "acceptance": "E1a不署接收人，E1b无梁朔，P08两纸与刀分别记；未定车行名等字段不制作可读特写。"
     },
     {
@@ -487,39 +471,31 @@
     },
     {
       "key": "P16-NINE",
-      "name": "九片阵甲对应表",
+      "name": "五片阵甲对应表",
       "asset_ids": [
         "P16",
         "C03",
         "C16",
         "C17",
-        "C18",
-        "C19",
         "C20",
-        "C21",
-        "C22",
         "C23"
       ],
-      "deliverable": "同族母形的九片磨耗变体、对应角色与隐蔽佩置位置表，单片独立文件。",
-      "acceptance": "九片各归九人、无第十片；近景个体磨耗不混、非勋章不是现代电子板。"
+      "deliverable": "五片同族铜片分别对应C03、C16、C17、C20、C23，独立磨耗与佩置表；兼容任务ID沿用，不由ID中的NINE推导数量。",
+      "acceptance": "五片分属五人，无第六片；三人一应仅三片随当段响应，五人归旌有完整接续，衣料与内甲不透光，外衣暗纹不自亮。"
     },
     {
       "key": "ENSEMBLE",
-      "name": "九卒辨识排版",
+      "name": "五卒辨识排版",
       "asset_ids": [
         "C03",
         "C16",
         "C17",
-        "C18",
-        "C19",
         "C20",
-        "C21",
-        "C22",
         "C23",
         "P20",
         "P21"
       ],
-      "deliverable": "选中九人后人工拼接角色编号与中性全身图；另排顾砚作对照，不塞进九人名单。 开场使用九张ARMOR，另核对同源FULL卸甲便衣，不把甲色盖掉个人标记。",
+      "deliverable": "五张同源FULL与ARMOR人工排版：韩灰青玄蓝、杜玄褐古铜及褐围巾、石深靛墨蓝、崔灰青及深灰短披肩、许深青蓝黑；精工劲装外穿、轻皮内甲内穿。",
       "acceptance": "精确人数、各自脸和身高比例检查；拼版只验证造型，不称已完成阵战镜头。"
     },
     {
@@ -534,7 +510,7 @@
         "P21"
       ],
       "deliverable": "选中的竹木林道空底、短促铜纹、兵器接触处雨线与少量湿叶偏折分层；车灯属于P01人车绑定，不固定在树上。",
-      "acceptance": "不画全天罩、不裂地、不填地、不召魂；前三集仅归旌局部反应和神秘介入的刃偏雨散，没有世隙。 竹林不整体发光或倒伏，地面完整；桥身保持在转弯和植被之后。 九片接续局部明暗反映持续受压；神秘介入另层，只作刃偏及短雨散，不画更大的军阵光效。 铜片仅经真实甲襟开口短暂可见，不穿透皮甲，不把九套轻甲外再贴九片发光铜。"
+      "acceptance": "不画全天罩、不裂地、不填地、不召魂；前三集仅归旌局部反应和神秘介入的刃偏雨散，没有世隙。 竹林不整体发光或倒伏，地面完整；桥身保持在转弯和植被之后。 五片接续局部明暗反映持续受压；神秘介入另层，只作刃偏及短雨散，不画更大的军阵光效。 铜片仅经真实甲襟开口短暂可见，不穿透皮甲，不把五套轻甲外再贴五片发光铜。 外衣暗纹只反射已有车灯和冷夜光，不自发光；铜片必须从衣襟与内甲同时露隙处短闪，禁止透视织物或把暗纹做成电路。 第一波后的耗力带入第二波，铜片不熄灭重启成满状态；第一波退开不是特效轰退。"
     },
     {
       "key": "INTEGRATION",
@@ -549,7 +525,7 @@
         "S03"
       ],
       "deliverable": "选脸、干衣和空间后做顾砚单人入书房、顾伯扶右臂、门内三人站位三张独立检查图。",
-      "acceptance": "同脸、左伤、右侧扶持、头身比例、同光源及通路一致；不同时改脸衣服背景。"
+      "acceptance": "同脸、左伤、右侧扶持、头身比例、同光源及通路一致；不同时改脸衣服背景。 富贵家物不挤占案窗门行动区，扩书房不改变伤者可达距离；衣装依本轮暗纹母版。 高门世家建筑验收：梁柱檐口、案桌柜屏床的体量与重工可见，非现代新中式别墅。白昼及雨后初晴晨景明亮自然、不偏暖黄；夜戏不改白天。主案固定、小案可搬、窗下柜不加高、五床与照料通路不变。"
     },
     {
       "key": "AUDIO",
@@ -567,11 +543,11 @@
         "C15",
         "C16",
         "C20",
-        "C22",
         "C23",
-        "C06"
+        "C06",
+        "C17"
       ],
-      "deliverable": "按实际台词的声位表、现代记忆一句、雨/林侧轻鸣/轮/杯/灯/门/街/水/纸与克制音乐的分轨计划。 黄祁一声“撤”，林侧金铁轻鸣独立声轨；C60无对白无传音。 马蹄、喷鼻、鞍具与下马衣料分轨，不能用马嘶遮掉神秘介入轻鸣。 另列皮甲受雨与摩擦、短盾闷响、兵器短促相接；重击感不靠爆炸，杜新增一声“接”按台本录。",
+      "deliverable": "按当前逐句对白列声位；石照川说“盐？”，许照邻接跑腿，四位独立旧同袍不在前三集发声。黄祁只一句“撤”，C60无对白。原顾／今顾同源嗓音区分反应；单列四驾挽具、四骑马蹄、厢门、雨打实体车顶、锦衣、内甲轻响、短盾承压、铜片短鸣；林侧介入不是爆炸或龙吟。 第一波十人仅动作与衣料群声，无新增实名对白；第二波黄仍只说“撤”，两波脚步与五卒呼吸耗力分别建轨。 声位按发行第1—3集拆轨，R01仅韩杜黄必要短句，R02杨舟只6秒记忆段，R03王寿末段仅门外声；后续门口露脸对白不提前。本源人物声位集合含后续预备，执行必须按scene_ids过滤。",
       "acceptance": "C01/C02生理声线同源、反应节律有别；杨舟仅记忆声音，无跨世通信；此项不在MJ制作。"
     },
     {
@@ -593,8 +569,8 @@
         "P20",
         "P21"
       ],
-      "deliverable": "林道遇袭战、门边止暴、试窗三段分别作低风险预演或数字预演，之后再锁镜头与时长。",
-      "acceptance": "五人、九卒、原顾和林侧C60分组清楚；四人牵制与黄单攻可读，九卒仅勉力抵挡；刃偏—黄戒备—撤令—五人退走因果清楚；无现实刃器危险操作、车辆/湿地/高差由专业人员评估；不是文字已批准安全。 林道宽段须保留车辆与护人活动空间；密竹、树根、湿地及车灯另审，不能以窄竹缝代替整阵空间。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 依据承锋架、回垒式、接隙式、护行步、留弦式、束锋式核对可见接续与吃力；四人牵制加黄专攻不能写成单挑胜利，弓本场不射；韩—段—韩扶人交接与收刀腾手明确。 双马停车与受阻反应只作分离预演，不让动物参与真实刃器交锋；不能把牵引马消失或脱队写成新增剧情。"
+      "deliverable": "林道遇袭战、门边止暴、试窗三段分别作低风险预演或数字预演，之后再锁镜头与时长。 按发行映射先完成R01林战与R02伤体试窗，R03无新增打斗；原3-3门口三人一应为后续预备。详制作交接的A01—A12动作节拍与帧窗。",
+      "acceptance": "护送五人含韩青、不含顾砚：六人、P01四匹牵引马＋P19四匹坐骑共八马、一辆封闭车；遇袭四骑下马、五人地面归旌，第一波十名遮面刺客先耗力并有序交接退林；第二波黄祁、罗顺及C57—59共五人接手，黄近宗师专杀，另四人牵制。C60使第二波撤走，第一波不重新加入，巡灯后到，五卒未胜。受阻车与四匹牵引马留林道待巡防接手，韩扶顾、另四人牵坐骑回府；室外系马、室内卸内甲器物区及人物通路分开。封闭厢右门与踏阶支持上下车，车壁保持实体遮挡，四驾宽度须平面确认；马匹、湿地、器物、危险动作另由专业团队评估，本计划不代表安全获批。 高门世家建筑验收：梁柱檐口、案桌柜屏床的体量与重工可见，非现代新中式别墅。白昼及雨后初晴晨景明亮自然、不偏暖黄；夜戏不改白天。主案固定、小案可搬、窗下柜不加高、五床与照料通路不变。"
     },
     {
       "key": "BACKGROUND",
@@ -608,12 +584,12 @@
         "P20",
         "P21"
       ],
-      "deliverable": "匿名成人群演外观族、汤摊锅碗、铺盖、木盆、粮袋等摆设清单；按景别选普通图库授权素材或原创后制。",
-      "acceptance": "不将路人变情报角色；九人铺盖分件摆放，数量由人工核；近景新增面孔才另排任务。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 西厢另留卸甲和兵器器物区，远离铺盖、通道及室外马匹脚边；1-4以后衣甲不在人物身上。"
+      "deliverable": "匿名成人群演外观族、汤摊锅碗、独立床上被褥、木盆粮袋；另列顾府冬梅常绿山石、深木雕饰鎏金家具及普通生活用具。按权利核验使用原创或授权素材，不从参考图提取未授权人物。",
+      "acceptance": "护送五人含韩青、不含顾砚：六人、P01四匹牵引马＋P19四匹坐骑共八马、一辆封闭车；遇袭四骑下马、五人地面归旌，第一波十名遮面刺客先耗力并有序交接退林；第二波黄祁、罗顺及C57—59共五人接手，黄近宗师专杀，另四人牵制。C60使第二波撤走，第一波不重新加入，巡灯后到，五卒未胜。受阻车与四匹牵引马留林道待巡防接手，韩扶顾、另四人牵坐骑回府；室外系马、室内卸内甲器物区及人物通路分开。封闭厢右门与踏阶支持上下车，车壁保持实体遮挡，四驾宽度须平面确认；马匹、湿地、器物、危险动作另由专业团队评估，本计划不代表安全获批。"
     },
     {
       "key": "PLAN-FOREST",
-      "name": "林道五对九与介入拓扑",
+      "name": "林道五卒、两波刺客与神秘介入拓扑",
       "asset_ids": [
         "S01",
         "P01",
@@ -623,11 +599,7 @@
         "C07",
         "C16",
         "C17",
-        "C18",
-        "C19",
         "C20",
-        "C21",
-        "C22",
         "C23",
         "C57",
         "C58",
@@ -637,44 +609,87 @@
         "P20",
         "P21"
       ],
-      "deliverable": "非战术示意平面及因果分层：来路、会车宽段、人车、前方林口、五刺客退出侧隙、C60独立高树遮挡区；逐拍核恰好五刺客、九卒加原顾及一名介入者。",
-      "acceptance": "空间须容纳人物与车辆，四人牵制、黄单攻、C60介入和两条退出路线可读；不提供现实围杀站位或器械操作，仍须专业动作安全审阅。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 P01双马并排与中央车辕、车灯各自位置清楚；两马随车留场待查，八匹坐骑牵回。"
+      "deliverable": "林道非战术平面与分层：四驾封闭豪华车外形及车轮受阻点、韩外驾座、顾厢内座、右门踏阶与扶人可行地、四匹坐骑外缘空地、五卒归旌、第一波十人／第二波五人及C60遮脸树位，标明来路和前方林口；不提供现实围杀阵位。 按P01四驾完整行车包络核定至少八辆并行的通行宽度；右侧林缘局部受阻，近邻林隙进退及C60树位不跨整幅路，唯一官道贯通。 第一波十个独立人形先后出入、第二波五人接手，十人离场位置与第二波进场时间不得跳接；详POST-WAVES。",
+      "acceptance": "护送五人含韩青、不含顾砚：六人、P01四匹牵引马＋P19四匹坐骑共八马、一辆封闭车；遇袭四骑下马、五人地面归旌，第一波十名遮面刺客先耗力并有序交接退林；第二波黄祁、罗顺及C57—59共五人接手，黄近宗师专杀，另四人牵制。C60使第二波撤走，第一波不重新加入，巡灯后到，五卒未胜。受阻车与四匹牵引马留林道待巡防接手，韩扶顾、另四人牵坐骑回府；室外系马、室内卸内甲器物区及人物通路分开。封闭厢右门与踏阶支持上下车，车壁保持实体遮挡，四驾宽度须平面确认；马匹、湿地、器物、危险动作另由专业团队评估，本计划不代表安全获批。 空景不画八辆车，不借缩马兑现宽度；五阵不扩大覆盖全路，桥仍不可见。"
     },
     {
       "key": "HORSES",
-      "name": "八匹坐骑个体与骑手映射",
+      "name": "四匹坐骑个体与骑手映射",
       "asset_ids": [
         "P19",
         "C16",
         "C17",
-        "C18",
-        "C19",
         "C20",
-        "C21",
-        "C22",
         "C23"
       ],
-      "deliverable": "母形通过后分件派生H01—H08八匹马的毛色斑记、鞍具与湿态；逐项人工核对C16—C23映射及鞍侧行李位置，保存八份已选个体供骑乘绑定使用。",
-      "acceptance": "八匹不复制成同一身份、不复用P01牵引马；八骑加韩驾车，顾砚坐车；人物身份数不增加。此为后制/外部制作计划，未有实际马匹图。"
+      "deliverable": "四匹骑乘马H01杜、H02石、H05崔、H08许的毛色、斑记、旅鞍、雨湿与侧行李映射；H03/H04/H06/H07停用且不复用。",
+      "acceptance": "不复制一匹为四个身份；不与P01四驾混用；韩只驾车。尚未生成个体或骑乘图，外部执行前须专业动物与结构审阅。"
     },
     {
       "key": "KIT",
-      "name": "九卒衣甲兵器个体映射与收装连续性",
+      "name": "五卒衣甲兵器个体映射与收装连续性",
       "asset_ids": [
         "C03",
         "C16",
         "C17",
-        "C18",
-        "C19",
         "C20",
-        "C21",
-        "C22",
         "C23",
         "P20",
         "P21"
       ],
-      "deliverable": "由已选空甲与兵器族母形制作九人一人一套衣甲、各件兵器归属、静态佩持及鞍侧携行的对应表；P20-C03/C16—C23与P21个人件分开，标注骑行、下马取兵、接人腾手、收装牵马、1-3卸甲入库状态。",
-      "acceptance": "杜环首刀，石短盾短刀，孟长刀，罗长枪，崔裹短弓封口箭袋腰刀，伍短矛，段短盾腰刀，韩许腰刀；恰九套皮甲而非九件兵器；原顾不穿甲不计P21，刺客另族，P16不穿透皮甲发光；没有同时双手扶人与挥刀。只做影视外观和连续性，动作、护具、道具刃器及动物交互另请专业团队安全审阅。"
+      "deliverable": "五人FULL→外劲装内轻甲ARMOR→RAIN/MOUNTED的衣甲兵器映射，P20仅五副；C03、C16、C23刀，C17短盾短刀，C20包弓闭口箭囊及腰刀。1-3解外襟取内甲，随后仍同色精工无甲劲装。",
+      "acceptance": "没有孟长刀、罗长枪、伍短矛或段第二面盾混入五人套件；韩与许扶顾和持刀不占同一只手，顾不临时披甲。衣料不透明、不外披胸甲、暗纹不发光；冷暖五套配色与同袍共同剪裁并存。只是造型文字，实际武器道具与动作须专业审阅。"
+    },
+    {
+      "key": "WAVES",
+      "name": "两波刺杀人数与交接连续性表",
+      "asset_ids": [
+        "S01",
+        "C01",
+        "C03",
+        "C16",
+        "C17",
+        "C20",
+        "C23",
+        "C06",
+        "C07",
+        "C57",
+        "C58",
+        "C59",
+        "C60",
+        "P01",
+        "P19"
+      ],
+      "deliverable": "逐阶段人数表与独立人形核对：第一波S01-W1-01至10；十人退到侧后林隙，第二波C06/C07/C57/C58/C59接手；C60独立介入。记录五卒耗力、顾旧伤牵动与第二波新擦伤时点、十人离场和五人后撤。",
+      "acceptance": "两波10＋5为十五个不同刺客，含护送六人及C60全段22个不同身体；不复制角色、不叠成十五人同时围攻。第一波无新增尸体俘虏，交接退林非五卒取胜；第二波结束前五卒不恢复满状态。人数核对不等于动作安全批准。"
+    },
+    {
+      "key": "RHYTHM3",
+      "name": "前三发行集分镜、钩子与试读节奏验收",
+      "asset_ids": [
+        "S01",
+        "S03",
+        "S04",
+        "S05",
+        "C01",
+        "C02",
+        "P04"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP01-SC04",
+        "GJ-EP01-SC05",
+        "GJ-EP01-SC06",
+        "GJ-EP02-SC01",
+        "GJ-EP02-SC02",
+        "GJ-EP02-SC03",
+        "GJ-EP02-SC04",
+        "GJ-EP02-SC05"
+      ],
+      "deliverable": "按发行前三集.json逐镜预演，24fps工作时基、71个连续帧窗、180／195／180秒，片名尾签已计入。绑定当前逐句台本做试读、声音与动作占时表；GJ-EP03门口单元为后续预备，不在前三发行集。",
+      "acceptance": "两波10＋5、高手介入、五卒未胜、第二波添伤不可删；第二集原顾清醒回家与自主隐瞒不可略去；第三集以精准索票收尾而非提前亮王寿脸。字数不能代替试读，超时先删重复信息或延后非关键插镜，不倍速吞台词，不冒充已生成分镜或音视频。"
     }
   ],
   "mounts": [
@@ -689,29 +704,9 @@
       "horse_en": "black-bay coat without white facial markings"
     },
     {
-      "rider": "C18",
-      "horse_id": "P19-H03",
-      "horse_en": "chestnut coat with a short narrow white nose stripe"
-    },
-    {
-      "rider": "C19",
-      "horse_id": "P19-H04",
-      "horse_en": "dark gray coat with black mane and tail"
-    },
-    {
       "rider": "C20",
       "horse_id": "P19-H05",
       "horse_en": "dark brown coat with a tiny white forehead spot"
-    },
-    {
-      "rider": "C21",
-      "horse_id": "P19-H06",
-      "horse_en": "light bay coat without white facial markings"
-    },
-    {
-      "rider": "C22",
-      "horse_id": "P19-H07",
-      "horse_en": "reddish brown coat with a small white forehead star"
     },
     {
       "rider": "C23",
@@ -722,66 +717,272 @@
   "veteran_gear": [
     {
       "id": "C03",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
+      "armor_en": "thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet",
       "standing_en": "one plain waist blade sheathed at his belt, both hands free",
       "mounted_en": "one plain sheathed waist blade, hands free for driving, no riding mount",
-      "checks": "灰蓝窄袖与年轻清爽的脸不变，皮甲腰侧留出坐车的衣摆层次，素灰蓝束发。腰刀与鞘；驾车和扶原顾时在鞘内，别人接住伤者后才腾手参与。"
+      "checks": "灰青与玄蓝提花劲装，墨银同色阶折水暗纹，玄蓝分层腰封配墨银小扣；素灰青束发，袖口收紧，保留年轻紧凑的体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。",
+      "palette_zh": "灰青、玄蓝、墨银",
+      "pattern_zh": "折水暗纹"
     },
     {
       "id": "C16",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
+      "armor_en": "thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet",
       "standing_en": "one plain ring-pommel military blade sheathed at his waist",
       "mounted_en": "one ring-pommel military blade sheathed at his waist",
-      "checks": "鬓微白、短褐围巾、深褐灰旅衣；甲领低于围巾，边线整洁但有旧折痕。素环首军刀与鞘，环首形与韩、许的素柄腰刀区分；不添令旗或将军金甲。"
+      "checks": "玄褐与深棕劲装，古铜低对比断山回纹，深棕宽腰封配古铜旧扣；保留短褐围巾、灰鬓与沉稳宽肩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。",
+      "palette_zh": "玄褐、深棕、古铜",
+      "pattern_zh": "断山回纹"
     },
     {
       "id": "C17",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
+      "armor_en": "thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet",
       "standing_en": "one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt",
       "mounted_en": "one modest leather-faced wooden short shield stowed at the saddle side, one short blade sheathed at his belt",
-      "checks": "宽肩方脸、靛布外褂露袖；轻甲按宽肩裁量，右下护摆有同色旧补边。木芯皮面短盾与短刀鞘；盾在鞍侧带来，下马取下，不是重型巨盾。"
-    },
-    {
-      "id": "C18",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
-      "standing_en": "one plain long infantry blade fully sheathed, held at rest beside his body",
-      "mounted_en": "one fully sheathed long infantry blade carried along the saddle side, clear of the horse legs",
-      "checks": "浓眉短须、烟灰褂与赭腰带；甲下腰带保持可见，甲摆比宽肩人物更利落。步战长刀与鞘；骑行收在鞍侧，下马才取，不作马上大开大合斩击。"
-    },
-    {
-      "id": "C19",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
-      "standing_en": "one plain long wooden-shafted spear film prop at rest beside him, full silhouette visible",
-      "mounted_en": "one plain long spear film prop stowed along the saddle side, no attack pose",
-      "checks": "长脸、灰短须、灰褐衣；甲下摆磨得软，仍站稳行走，不预演后篇膝伤。素木杆长枪；完整枪杆轮廓清楚，不用夸张刃头；鞍侧携行，下马取用。"
+      "checks": "深靛与墨蓝劲装，宽窄相间折脊暗纹，墨蓝压边腰封；宽肩挺整、不加巨肩甲，保留方脸与真实体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。",
+      "palette_zh": "深靛、墨蓝",
+      "pattern_zh": "折脊暗纹"
     },
     {
       "id": "C20",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
+      "armor_en": "thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet",
       "standing_en": "one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt",
       "mounted_en": "one cloth-wrapped short bow and closed arrow pouch stowed at the saddle side, one waist blade sheathed at his belt",
-      "checks": "瘦长身形、灰蓝内衣与收短的深灰披肩；皮甲不遮净披肩识别，不添射手面罩。裹短弓、封口箭袋与腰刀；开场弓包留鞍侧，改腰刀接阵，不开弓不放箭。"
-    },
-    {
-      "id": "C21",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
-      "standing_en": "one plain short spear film prop at rest beside him, visibly shorter than the long-spear family",
-      "mounted_en": "one plain short spear film prop stowed at the saddle side, no attack pose",
-      "checks": "清瘦、浅褐短衣，甲轮廓贴合但不塑成壮汉；布绑腿与窄袖清楚。短矛；与罗的长枪保持明显长短和体量差，不改成第二名弓手。"
-    },
-    {
-      "id": "C22",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
-      "standing_en": "one modest leather-faced wooden short shield resting beside him, one waist blade sheathed at his belt",
-      "mounted_en": "one modest leather-faced wooden short shield stowed at the saddle side, one waist blade sheathed at his belt",
-      "checks": "宽背、暖灰衣、米白颈巾；轻甲按体量适配，领缘保留巾角，不是厨役制服。木芯皮面短盾与腰刀鞘；接住伤者时腰刀在鞘内，一手扶人不同时挥刀。"
+      "checks": "灰青疏羽暗纹劲装、深灰窄边腰封与深灰短披肩；保留瘦长肩颈，披肩不遮脸和手臂，不加射手面罩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。",
+      "palette_zh": "灰青、深灰",
+      "pattern_zh": "疏羽暗纹"
     },
     {
       "id": "C23",
-      "armor_en": "short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps",
+      "armor_en": "thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet",
       "standing_en": "one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately",
       "mounted_en": "one plain waist blade sheathed at his belt, modest square-mouth personal travel bag at saddle side",
-      "checks": "窄脸、蓝布衣、方口私包；甲缘有细整旧补线，行囊归属与顾砚P02分开。腰刀与鞘；先放稳取回的P02才用刀，脱险收刀后再把P02放到H08鞍侧。"
+      "checks": "深青与蓝黑密格折线暗纹劲装，蓝黑精整腰封与低调细扣；保留窄脸、方口私包，P02仍是顾砚的另一个包。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。",
+      "palette_zh": "深青、蓝黑",
+      "pattern_zh": "密格折线"
+    }
+  ],
+  "retired_tasks": [
+    {
+      "id": "MB-C18-FACE",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C18-FULL",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C18-ARMOR",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C18-RAIN",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C18-MOUNTED",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C19-FACE",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C19-FULL",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C19-ARMOR",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C19-RAIN",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C19-MOUNTED",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C21-FACE",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C21-FULL",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C21-ARMOR",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C21-RAIN",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C21-MOUNTED",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C22-FACE",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C22-FULL",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C22-ARMOR",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C22-RAIN",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-C22-MOUNTED",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-WEAPON-SPEAR",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-WEAPON-LONG-BLADE",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    },
+    {
+      "id": "MB-WEAPON-SHORT-SPEAR",
+      "reason": "不在当前五人护送队及前三集生产范围；编号停用，不复用。"
+    }
+  ],
+  "retired_mount_ids": [
+    {
+      "id": "P19-H03",
+      "reason": "对应骑手不在当前护送队；停用、不复用。"
+    },
+    {
+      "id": "P19-H04",
+      "reason": "对应骑手不在当前护送队；停用、不复用。"
+    },
+    {
+      "id": "P19-H06",
+      "reason": "对应骑手不在当前护送队；停用、不复用。"
+    },
+    {
+      "id": "P19-H07",
+      "reason": "对应骑手不在当前护送队；停用、不复用。"
+    }
+  ],
+  "first_wave": [
+    {
+      "id": "S01-W1-01",
+      "name": "第一波01｜高瘦长躯",
+      "body_en": "tall lean build, long narrow torso, slim shoulders",
+      "costume_en": "charcoal jacket, narrow slate collar and a flat black waist sash",
+      "rank": "有限行息",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-02",
+      "name": "第一波02｜中等宽肩",
+      "body_en": "medium-height broad-shouldered build, thick neck, compact waist",
+      "costume_en": "blackened brown jacket, wide charcoal waist sash and short gray shoulder cape",
+      "rank": "有限行息",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-03",
+      "name": "第一波03｜短身敦实",
+      "body_en": "short stocky build, broad chest, short thick lower legs",
+      "costume_en": "deep gray jacket, double narrow brown waist ties",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-04",
+      "name": "第一波04｜高身宽背",
+      "body_en": "tall broad-backed build, long arms, heavy upper body",
+      "costume_en": "blue-black jacket, dark square quilted shoulder edging",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-05",
+      "name": "第一波05｜中等修长",
+      "body_en": "medium-height slender build, narrow hips, upright posture",
+      "costume_en": "ash-brown jacket, narrow ink-gray lapel edging",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-06",
+      "name": "第一波06｜短身轻瘦",
+      "body_en": "short light-framed build, narrow shoulders, compact limbs",
+      "costume_en": "charcoal-blue jacket, crossed muted-brown sash layers",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-07",
+      "name": "第一波07｜中等厚背",
+      "body_en": "medium-height heavy-backed build, sturdy waist, thick forearms",
+      "costume_en": "dark tea-brown jacket, a short black side shoulder drape",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-08",
+      "name": "第一波08｜高身窄腰",
+      "body_en": "tall long-legged build, slim waist, slightly sloping shoulders",
+      "costume_en": "black-gray jacket, narrow blue-gray collar band",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-09",
+      "name": "第一波09｜中等匀实体型",
+      "body_en": "medium-height balanced sturdy build, straight shoulders, proportionate legs",
+      "costume_en": "dark gray-brown jacket, broad black waist sash with a low cloth knot",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
+    },
+    {
+      "id": "S01-W1-10",
+      "name": "第一波10｜宽肩短腰",
+      "body_en": "medium-height broad-shouldered build, short torso, long lower legs",
+      "costume_en": "ink-blue jacket, muted gray layered lapel edge and narrow sash",
+      "rank": "成熟炼身",
+      "face_status": "concealed_no_identity_master",
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ]
     }
   ]
 }

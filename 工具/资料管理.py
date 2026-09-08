@@ -160,7 +160,7 @@ def build(assets, episodes, by_id, subareas, scenes):
         if uses:
             text += table(["剧集", "场次", "呈现方式"], [[link(by_id[s["episode_id"]], path.parent), link(dict(by_id[s["episode_id"]], anchor=s["id"].lower()), path.parent, s["id"] + "（" + s["alias"] + "）"), mode] for s, mode in uses])
         else:
-            text += "现有前三集无明确呈现登记。大纲人物、隐去物件和停用资产不据此判为已出镜。\n"
+            text += "现有详细工作单元无明确呈现登记。大纲人物、隐去物件和停用资产不据此判为已出镜。\n"
         block(path, "USAGE", text)
     write(index / "资产总表.md", "# 资产总表\n\n[返回入口](../README.md) · [按场次查资产](场次资产表.md) · [剧集总表](剧集总表.md)\n\n本表自动生成。可用 Ctrl+F 搜编号、姓名、别名或标签。文字设定与大纲登记都不表示已有图片、配音或视频。未具名背景人物不强行分配角色编号。P05停用保留，不参与当前剧集。\n\n" + table(["编号与资产卡", "类别", "别名", "标签", "状态", "已有台本呈现"], asset_rows))
     ep_rows, ep_csv = [], []
@@ -172,8 +172,8 @@ def build(assets, episodes, by_id, subareas, scenes):
         if not ep.get("scenes"):
             continue
         path = ROOT / ep["path"]
-        scene_index = "## 场次检索\n\n下表与末尾资产清单由同一份场次登记生成。仅明确出镜者计入；未具名背景、隐去物件和声效的边界见[场次资产表](../../索引/场次资产表.md)。原场号作为别名保留；对白以本页当前修订稿为准。\n\n"
-        scene_index += table(["场次编号", "旧场号", "场景", "出镜角色", "仅画外声", "编号道具"], [[f'<a id="{s["id"].lower()}"></a>{s["id"]}', s["alias"], "、".join(s.get("location_ids", [])), "、".join(s.get("character_ids", [])), "、".join(s.get("voice_only_ids", [])), "、".join(s.get("prop_ids", []))] for s in ep["scenes"]])
+        scene_index = "## 场次检索\n\n下表与末尾资产清单由同一份场次登记生成。仅明确出镜者计入；未具名背景、隐去物件和声效的边界见[场次资产表](../../索引/场次资产表.md)。原场号作为别名保留；GJ-EP为创作单元号，发行映射见前三集制作交接；对白以本页当前修订稿为准。\n\n"
+        scene_index += table(["场次编号", "旧场号", "发行集", "场景", "出镜角色", "仅画外声", "编号道具"], [[f'<a id="{s["id"].lower()}"></a>{s["id"]}', s["alias"], s.get("release_episode_id", "后续待拆"), "、".join(s.get("location_ids", [])), "、".join(s.get("character_ids", [])), "、".join(s.get("voice_only_ids", [])), "、".join(s.get("prop_ids", []))] for s in ep["scenes"]])
         if "<!-- AUTO:SCENES:START -->" not in read(path):
             source = read(path)
             source, changed = re.subn(r"## 场次检索\n[\s\S]*?(?=## 台本原文)", "<!-- AUTO:SCENES:START -->\n<!-- AUTO:SCENES:END -->\n\n", source, count=1)
@@ -190,7 +190,7 @@ def build(assets, episodes, by_id, subareas, scenes):
                 if matches:
                     rows.append([category, link(item, path.parent), "；".join(s["alias"] + " " + mode for s, mode in matches)])
         block(path, "ASSETS", "## 本集资产调用清单\n\n由场次登记自动汇总。仅声音、隐去物件与可见角色分别处理；衣伤和物件交接须同时查[连续性](../../资产/连续性.md)。\n\n" + table(["类别", "资产卡", "场次与呈现"], rows))
-    write(index / "剧集总表.md", "# 剧集总表\n\n[返回剧集目录](../剧集/README.md) · [资产总表](资产总表.md)\n\n归京36个工作集，前三集为详细剧本；后三篇各12个剧情单元，尚未拆为发行剧集，总集数未锁定。\n\n" + table(["编号与入口", "篇章", "粒度", "完成状态", "事件摘要"], ep_rows))
+    write(index / "剧集总表.md", "# 剧集总表\n\n[返回剧集目录](../剧集/README.md) · [资产总表](资产总表.md)\n\n归京36个工作单元，前3单元为详细剧本；前三发行集为GJ-R01—03（180／195／180秒），原门口单元留后续待拆；后三篇各12个剧情单元，尚未拆为发行剧集，总集数未锁定。\n\n" + table(["编号与入口", "篇章", "粒度", "完成状态", "事件摘要"], ep_rows))
     scene_rows, scene_csv = [], []
     subarea_names = {sub["id"]: sub["name"] for item in assets for sub in item.get("subareas", [])}
     for s in scenes:
@@ -199,7 +199,7 @@ def build(assets, episodes, by_id, subareas, scenes):
         row = [s["id"] + "（" + s["alias"] + "）", link(by_id[s["episode_id"]], index), s["name"], names("location_ids"), names("character_ids"), names("voice_only_ids"), names("prop_ids"), s.get("notes", "")]
         scene_rows.append(row)
         scene_csv.append([s["id"], s["alias"], s["episode_id"], s["name"], names("location_ids"), names("character_ids"), names("voice_only_ids"), names("prop_ids"), s.get("notes", "")])
-    write(index / "场次资产表.md", "# 场次资产表\n\n[资产总表](资产总表.md) · [剧集总表](剧集总表.md) · [连续性](../资产/连续性.md)\n\n16场已有台本。场号保留原别名；场景子区归所属主资产。未具名背景、仅声音、作者隐去物件以备注区分，不能据‘留在府中’推成‘本场出镜’。本表列现有编号资产，零散布景小物仍见场景卡和原文。\n\n" + table(["场次", "剧集", "名称", "场景", "出镜角色", "仅画外声", "编号道具", "备注"], scene_rows))
+    write(index / "场次资产表.md", "# 场次资产表\n\n[资产总表](资产总表.md) · [剧集总表](剧集总表.md) · [连续性](../资产/连续性.md)\n\n3个工作单元16场已有台本，其中前三发行集11场、后续门口预备5场。场号保留原别名；场景子区归所属主资产。未具名背景、仅声音、作者隐去物件以备注区分，不能据‘留在府中’推成‘本场出镜’。本表列现有编号资产，零散布景小物仍见场景卡和原文。\n\n" + table(["场次", "剧集", "名称", "场景", "出镜角色", "仅画外声", "编号道具", "备注"], scene_rows))
     write(DATA / "检索索引.json", json.dumps(records, ensure_ascii=False, indent=2) + "\n")
     csv_export(index / "导出" / "资产总表.csv", ["编号", "名称", "类别", "别名", "标签", "状态", "已有台本呈现", "文档路径"], asset_csv)
     csv_export(index / "导出" / "剧集总表.csv", ["编号", "名称", "篇章", "粒度", "状态", "文档路径", "摘要"], ep_csv)

@@ -9,10 +9,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PACK = ROOT / '资产/生产准备/前三集-v1.9'
-VETS = ['C03', *[f'C{i:02}' for i in range(16, 24)]]
+VETS = ['C03', 'C16', 'C17', 'C20', 'C23']
 CORE = {'C01', 'C03', 'C04', 'C06', 'C12', 'C14', 'C16'}
 ASSASSINS = {'C06', 'C07', 'C57', 'C58', 'C59'}
-FIRST_CAST = {f'C{i:02}' for i in range(1, 24)} | {'C57', 'C58', 'C59', 'C60'}
+FIRST_CAST = ({f'C{i:02}' for i in range(1, 24)} | {'C57', 'C58', 'C59', 'C60'}) - {'C18', 'C19', 'C21', 'C22'}
 FACE_CAST = FIRST_CAST - {'C02', 'C05', 'C60'}
 
 
@@ -30,9 +30,65 @@ def validate(data):
     if len(ids) != len(set(ids)):
         raise ValueError('重复任务编号')
     by_id = {t['id']: t for t in tasks}
+    release = data['release_plan']
+    if release['fps'] != {'numerator': 24, 'denominator': 1} or release['duration_verified']:
+        raise ValueError('发行时基须为待验证24fps草案')
+    deliveries = release['episodes']
+    if [e['id'] for e in deliveries] != ['GJ-R01', 'GJ-R02', 'GJ-R03'] or [e['duration_seconds'] for e in deliveries] != [180, 195, 180]:
+        raise ValueError('前三发行集须180／195／180秒')
+    expected_scenes = [[f'GJ-EP01-SC01'], [f'GJ-EP01-SC{i:02}' for i in range(2, 7)], [f'GJ-EP02-SC{i:02}' for i in range(1, 6)]]
+    shot_ids = set()
+    for delivery, expected in zip(deliveries, expected_scenes):
+        if delivery['scene_ids'] != expected:
+            raise ValueError('发行场次映射失配或后续门口戏提前')
+        if any(data['scene_release_map'].get(sid) != delivery['id'] for sid in expected):
+            raise ValueError('场次源的发行映射失配')
+        if list(dict.fromkeys(s['scene_id'] for s in delivery['shots'])) != expected or [expected.index(s['scene_id']) for s in delivery['shots'] if s['scene_id'] in expected] != sorted(expected.index(s['scene_id']) for s in delivery['shots'] if s['scene_id'] in expected):
+            raise ValueError('分镜场次顺序倒置')
+        cursor = 0
+        totals = {key: 0 for key in expected}
+        previous = []
+        for shot in delivery['shots']:
+            if shot['id'] in shot_ids or shot['scene_id'] not in totals:
+                raise ValueError('分镜编号或场次失配')
+            shot_ids.add(shot['id'])
+            if not all(type(shot[k]) is int for k in ('start_frame', 'end_frame')) or shot['start_frame'] != cursor or shot['end_frame'] <= cursor:
+                raise ValueError('分镜帧窗重叠、空隙或非整数')
+            if shot['depends_on'] != previous or shot['media_status'] != 'not_generated':
+                raise ValueError('分镜相邻依赖或媒体状态不实')
+            if not all(shot.get(k) for k in ('beat', 'camera', 'action', 'sound', 'end_state')):
+                raise ValueError('分镜缺因果、运镜或声音')
+            totals[shot['scene_id']] += shot['end_frame'] - cursor
+            cursor = shot['end_frame']
+            previous = [shot['id']]
+        if cursor != delivery['duration_seconds'] * 24 or any(total != data['scene_budgets'][sid] * 24 for sid, total in totals.items()):
+            raise ValueError('分镜与场次／发行时长不一致')
+    if 'POST-RHYTHM3' not in by_id:
+        raise ValueError('缺前三发行集节奏验收')
+    for task in tasks:
+        expected = [e['id'] for e in deliveries if set(task['scene_ids']) & set(e['scene_ids'])]
+        if task['release_episode_ids'] != expected:
+            raise ValueError('任务发行关联失配')
+        if task['release_scope'] != ('current_first_three' if expected else 'followup_reserve'):
+            raise ValueError('后续任务未隔离')
+    expected_instances = [f'S01-W1-{i:02}' for i in range(1,11)]
+    if [p['id'] for p in data.get('first_wave_instances',[])] != expected_instances:
+        raise ValueError('第一波必须十个独立遮面实例')
+    waves = data.get('assault_waves',[])
+    if len(waves) != 2 or [w['count'] for w in waves] != [10,5] or waves[0].get('instance_ids') != expected_instances or set(waves[1].get('character_ids',[])) != ASSASSINS:
+        raise ValueError('两波刺客须10＋5且第二波沿现有五人')
+    wave_tasks=[t for t in tasks if t['category']=='第一波遮面实例']
+    if len(wave_tasks)!=10 or {t['id'] for t in wave_tasks}!={'MB-'+i for i in expected_instances}:
+        raise ValueError('第一波十个实例任务缺失或复用')
+    if 'POST-WAVES' not in by_id:
+        raise ValueError('缺两波人数交接核对')
     first = sorted(t['first_batch'] for t in tasks if t['first_batch'])
-    if first != list(range(1, 13)):
-        raise ValueError('首批须为连续12项')
+    if first != list(range(1, 21)):
+        raise ValueError('首批须为连续20项服装母版')
+    expected_first = [f'MB-{cid}-{suffix}' for cid in ('C01','C03','C16','C04','C06')
+                      for suffix in ('FULL','FULL-3Q','FULL-BACK','COSTUME-DETAIL')]
+    if [t['id'] for t in sorted((t for t in tasks if t['first_batch']), key=lambda t:t['first_batch'])] != expected_first:
+        raise ValueError('首批五人服装视角失配，不是五卒合照或肖像批次')
     seen, active = set(), set()
 
     def visit(key):
@@ -63,7 +119,7 @@ def validate(data):
                 raise ValueError('提示词或模型参数不合规')
     faces = {t['asset_ids'][0] for t in tasks if t['id'].endswith('-FACE')}
     if faces != FACE_CAST:
-        raise ValueError('必须24张独立身份脸，C01/C02同脸、C05仅声、C60遮脸')
+        raise ValueError('必须20张独立身份脸，C01/C02同脸、C05仅声、C60遮脸')
     mystery = [t for t in tasks if t['method'] == 'MJ' and 'C60' in t['asset_ids']]
     if len(mystery) != 1 or mystery[0]['id'] != 'MB-C60-SILHOUETTE':
         raise ValueError('C60仅允许遮脸轮廓任务，不能自动制作身份脸')
@@ -74,7 +130,9 @@ def validate(data):
 
 def build_data():
     cfg = read(PACK / '视觉任务源.json')
+    architecture = cfg['architecture_direction']
     extra = read(PACK / '补充任务源.json')
+    release = read(ROOT / '索引/数据/发行前三集.json')
     eps = read(ROOT / '索引/数据/episodes.json')[:3]
     registry = {}
     for name in ('characters', 'locations', 'props'):
@@ -82,16 +140,21 @@ def build_data():
             registry[item['id']] = item
     scenes = [s for e in eps for s in e['scenes']]
     char = {c['id']: c for c in cfg['characters']}
+    priority = cfg['costume_priority']
+    first_wave = extra['first_wave']
     gear = {g['id']: g for g in extra['veteran_gear']}
     tasks = []
 
     def add(key, title, category, assets, body='', ratio='4:3', deps=(), first=0,
             checks='', scene_ids=None, phase='B', method='MJ'):
+        if method == 'MJ' and category in ('空间', '空间光态') and set(assets) & set(architecture['scope_asset_ids']):
+            body += ' ' + architecture['family_en']
+            checks += ' ' + architecture['checks']
         used = scene_ids or [s['id'] for s in scenes if set(assets) &
                                 set(s['character_ids'] + (s['voice_only_ids'] if method != 'MJ' else []) + s['location_ids'] + s['prop_ids'])]
         paths = sorted({registry[a]['path'] for a in assets if a in registry} |
                        {e['path'] for e in eps if any(s['id'] in used for s in e['scenes'])} |
-                       {'剧集/前三集重写与生产交接-v1.9.md', '资产/美术风格与造型总则.md'})
+                       {'剧集/前三集重写与生产交接-v1.9.md', '资产/美术风格与造型总则.md', '参考/第一集视觉讨论-采用边界.md'})
         # S03-W/S06-K 为现有场景子区，源登记不一定独列。
         for a in assets:
             if a not in registry and a.split('-')[0] in registry:
@@ -122,7 +185,16 @@ def build_data():
             '3:4', first=c['first_batch'], checks=c['checks'], phase=c['tier'])
         add(f'MB-{cid}-FULL', c['name'] + '｜全身干衣', '衣装', aids,
             actor(c, 'Front-facing full-length standing costume study, both hands relaxed and visible, feet included'),
-            '2:3', deps=[f'MB-{cid}-FACE'], checks=c['checks'] + '；衣型、体量和脸沿已选母版；干衣无新伤', phase=c['tier'])
+            '2:3', deps=[f'MB-{cid}-FACE'], first=priority.index(cid)*4+1 if cid in priority else 0,
+            checks=c['checks'] + '；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手', phase=c['tier'])
+        if cid in priority:
+            for offset, suffix, label, view, ratio in [
+                (2, 'FULL-3Q', '四分之三全身', 'Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable', '2:3'),
+                (3, 'FULL-BACK', '背面全身', 'Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable', '2:3'),
+                (4, 'COSTUME-DETAIL', '领襟腰封织物细节', 'Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram', '4:3')]:
+                add(f'MB-{cid}-{suffix}', c['name'] + '｜' + label, '服装结构', aids,
+                    actor(c, view), ratio, [f'MB-{cid}-FULL'], first=priority.index(cid)*4+offset,
+                    checks=c['checks'] + '；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲')
         if cid in CORE:
             for suffix, label, angle in [('PROFILE', '侧脸', 'clean left profile head-and-shoulders portrait'),
                                           ('THREEQUARTER', '四分之三脸', 'three-quarter head-and-shoulders portrait')]:
@@ -145,16 +217,23 @@ def build_data():
         g = gear[cid]
         costume = c['costume_en'] + ', ' + g['armor_en']
         used = [s['id'] for s in scenes[:3] if cid in s['character_ids']]
-        add(f'MB-{cid}-ARMOR', c['name'] + '｜归途轻甲与佩兵', '轻甲衣装', [cid, 'P20', 'P21'],
+        add(f'MB-{cid}-ARMOR', c['name'] + '｜外劲装内轻甲与佩兵', '轻甲衣装', [cid, 'P20', 'P21'],
             actor(c, 'Full-length neutral standing costume study, equipment at rest, no combat pose', costume + ', ' + g['standing_en']),
             '2:3', [f'MB-{cid}-FULL', 'MB-P20-BASE', 'POST-KIT'],
-            checks=c['checks'] + '；' + g['checks'] + '；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL', scene_ids=used)
-        add(f'MB-{cid}-RAIN', c['name'] + '｜归途湿甲', '衣伤状态', [cid, 'P20', 'P21'],
-            actor(c, 'Full-length standing costume continuity study', costume + ', ' + g['standing_en'] + ', rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems'),
-            '2:3', [f'MB-{cid}-ARMOR'], checks=c['checks'] + '；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服', scene_ids=used)
+            checks=c['checks'] + '；' + g['checks'] + '；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL', scene_ids=used)
+        add(f'MB-{cid}-RAIN', c['name'] + '｜雨湿劲装内甲', '衣伤状态', [cid, 'P20', 'P21'],
+            actor(c, 'Full-length standing costume continuity study', costume + ', ' + g['standing_en'] + ', rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems'),
+            '2:3', [f'MB-{cid}-ARMOR'], checks=c['checks'] + '；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装', scene_ids=used)
     for e in extra['extras']:
         add('MB-' + e['key'], e['name'], '补充近景件', e['asset_ids'], e['body_en'], e['ratio'],
             [e['parent']] if e['parent'] else [], checks=e['checks'], phase=e['phase'])
+    for person in first_wave:
+        add('MB-' + person['id'], person['name'], '第一波遮面实例', ['S01'],
+            'One fictional adult masked assailant, ' + person['body_en'] + ', wearing ' + person['costume_en'] +
+            '. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. ' + cfg['style_en'],
+            '2:3', checks='仅'+person['id']+'第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。',
+            scene_ids=person['scene_ids'])
+        tasks[-1]['instance_ids'] = [person['id']]
     for m in extra.get('mounts', []):
         c = char[m['rider']]
         add('MB-' + m['rider'] + '-MOUNTED', c['name'] + '｜单人骑乘绑定', '骑乘绑定',
@@ -164,15 +243,23 @@ def build_data():
             checks=f"骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对{m['horse_id']}，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
             scene_ids=['GJ-EP01-SC01'])
     for key, label, change, used in [
-        ('S02', '清晨街口', 'Replace night lighting with cool early-morning daylight; preserve the selected street geometry and stall placement.', ['GJ-EP02-SC03', 'GJ-EP03-SC02', 'GJ-EP03-SC04']),
+        ('S02', '雨停初晴街口', 'Bright clear winter morning after rain, natural neutral-white daylight and skylight, damp paving retained, no amber or yellow cast, lamps unlit; preserve the selected street geometry and practical stall placement.', ['GJ-EP02-SC03', 'GJ-EP03-SC02', 'GJ-EP03-SC04']),
         ('S03-COURT', '雨后夜院', 'Replace daylight with restrained warm practical lamps and cool wet-night ambient light; preserve every door and passage.', ['GJ-EP01-SC03', 'GJ-EP01-SC04']),
         ('S03-HALL', '夜间前厅', 'Replace daylight with warm practical lamp light and cool night fill; preserve the fixed large table and door geometry.', ['GJ-EP01-SC03']),
         ('S03-W', '夜间西厢', 'Replace daylight with warm practical lamps and cool night fill; preserve sleeping and luggage zones.', ['GJ-EP01-SC03', 'GJ-EP02-SC02']),
-        ('S05', '清晨卧房', 'Replace night lighting with gentle cool morning window light; preserve bed, doors and furniture.', ['GJ-EP02-SC05'])]:
+        ('S05', '初晴明亮卧房', architecture['morning_en'] + ' Light enters through existing lattice windows, reflected from pale plaster; preserve the substantial carved bed, doors, furniture and bedside care space.', ['GJ-EP02-SC05'])]:
         e = next(e for e in cfg['environments'] if e['key'] == key)
         add('MB-LIGHT-' + key, label, '空间光态', e['asset_ids'],
             'Edit the selected empty set master. ' + change + ' High-end Chinese costume drama set, readable shadows, empty room or street, one frame.',
             '16:9', ['MB-ENV-' + key], checks='与父母版同一拓扑及机位；只改昼夜光态，不新增建筑', scene_ids=used)
+    for key, parent, label, body, used in [
+        ('S04-DAY', 'S04', '高门大书房明媚日光材质校验', architecture['daylight_en'] + ' Preserve the massive carved desk, freestanding cabinets and heavy screens, ordinary mirror, low window cabinet, inner door bolt and compact uncluttered action area; incense unlit.', ['GJ-EP01-SC04','GJ-EP01-SC05','GJ-EP01-SC06']),
+        ('S01-DAY', 'S01', '宽阔官道日间尺度校验', 'The same extraordinarily broad official road and right-side passing bay between dense bamboo and woodland trees in clear neutral daylight, readable compacted-earth roadbed and drainage edges, no people, horses or vehicles. Preserve the bend, unseen bridge, unbroken route and near-verge local action area.', ['GJ-EP01-SC01']),
+        ('S03-COURT-OVERCAST', 'S03-COURT', '外院雨停初晴明媚晨光', architecture['morning_en'] + ' Preserve the tall solid gates, heavy colonnades, winter plum garden margins and clear central route; no people or animals. White plaster remains neutral, carved wood stays readable beneath deep eaves.', ['GJ-EP02-SC05','GJ-EP03-SC01','GJ-EP03-SC02','GJ-EP03-SC03','GJ-EP03-SC04','GJ-EP03-SC05']),
+        ('S03-HALL-OVERCAST', 'S03-HALL', '前厅雨停初晴明媚晨光', architecture['morning_en'] + ' Daylight enters from the south courtyard, reflected by pale plaster and stone. Preserve the fixed massive carved table deep inside, large grouped display objects and the smaller portable table by the door; no blown-out white surfaces.', ['GJ-EP02-SC05','GJ-EP03-SC01','GJ-EP03-SC05'])]:
+        e = next(e for e in cfg['environments'] if e['key'] == parent)
+        add('MB-LIGHT-' + key, label, '空间光态', e['asset_ids'], body, '16:9', ['MB-ENV-' + parent],
+            checks='同一空间、同机位只改光态；S04日景仅材质校验，夜戏不改白天；现行晨戏为雨停初晴、湿石仍在，白墙青石保色。OVERCAST沿用兼容编号，不代表当前阴天。金饰不是全局暖滤镜', scene_ids=used)
     add('MB-TEST-C01-BLOOM', '顾砚高光扩散单变量对照（选做）', '风格测试', ['C01', 'C02'],
         'Edit the selected portrait. Preserve identity, pose, clothing, background, framing and color balance. Add only a restrained soft highlight bloom around the existing light-facing edge, keeping eyes and skin texture crisp.',
         '3:4', ['MB-C01-FACE'], checks='只比较高光扩散有／无；不以磨皮、改脸替代柔光，其他参数与母版相同', phase='OPTIONAL')
@@ -180,16 +267,21 @@ def build_data():
         'PLAN-COURT': [], 'TEXT-DOCS': [f'MB-P{i:02}-BASE' for i in (3, 4, 6, 7, 8, 17)],
         'P09-BROKEN': ['MB-P09-BASE'], 'P06-STATE': ['POST-TEXT-DOCS'],
         'P16-NINE': ['MB-P16-BASE'], 'ENSEMBLE': [f'MB-{c}-ARMOR' for c in VETS],
-        'KIT': ['MB-P20-BASE', *['MB-WEAPON-' + key for key in ('BLADE', 'SPEAR', 'BOW', 'LONG-BLADE', 'SHORT-SPEAR', 'SHIELD')]],
+        'KIT': ['MB-P20-BASE', *['MB-WEAPON-' + key for key in ('BLADE', 'BOW', 'SHIELD')]],
         'FX-COPPER': ['POST-P16-NINE', 'MB-P20-BASE', 'MB-ENV-S01'],
         'INTEGRATION': ['MB-C01-DRY', 'MB-C03-FULL', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-ENV-S04', 'MB-ENV-S03-COURT'],
         'AUDIO': [], 'ACTION': ['POST-PLAN-COURT', 'POST-PLAN-FOREST'],
-        'PLAN-FOREST': [], 'HORSES': ['MB-P19-BASE'], 'BACKGROUND': ['POST-PLAN-COURT']}
+        'PLAN-FOREST': [], 'HORSES': ['MB-P19-BASE'], 'BACKGROUND': ['POST-PLAN-COURT'],
+        'WAVES': [*['MB-'+p['id'] for p in first_wave], 'MB-C06-RAIN-PRE', 'MB-C07-RAIN',
+                  'MB-C57-RAIN', 'MB-C58-RAIN', 'MB-C59-RAIN', 'POST-PLAN-FOREST'],
+        'RHYTHM3': ['POST-AUDIO', 'POST-ACTION', 'POST-WAVES']}
     for e in extra['manual_tasks']:
         add('POST-' + e['key'], e['name'], '非MJ交接', e['asset_ids'],
-            deps=manual_deps[e['key']], checks=e['deliverable'] + ' 验收：' + e['acceptance'], method='POST')
+            deps=manual_deps[e['key']], checks=e['deliverable'] + ' 验收：' + e['acceptance'], method='POST', scene_ids=e.get('scene_ids'))
     # 光态与群体图的形状依赖不是选漂亮图之后再反改平面图。
     for t in tasks:
+        t['release_episode_ids'] = [e['id'] for e in release['episodes'] if set(t['scene_ids']) & set(e['scene_ids'])]
+        t['release_scope'] = 'current_first_three' if t['release_episode_ids'] else 'followup_reserve'
         if 'S01' in t['asset_ids'] and t['method'] == 'MJ':
             t['depends_on'].append('POST-PLAN-FOREST')
             t['status'] = 'awaiting_parent_selection'
@@ -198,41 +290,72 @@ def build_data():
             t['status'] = 'awaiting_parent_selection'
     visible = sorted({a for s in scenes for a in s['character_ids'] + s['location_ids'] + s['prop_ids']})
     paths = {p for t in tasks for p in t['source_paths']} | {
-        '索引/数据/episodes.json', '资产/生产准备/前三集-v1.9/视觉任务源.json',
+        '索引/数据/episodes.json', '索引/数据/发行前三集.json', '资产/生产准备/前三集-v1.9/视觉任务源.json',
         '资产/生产准备/前三集-v1.9/补充任务源.json', '工具/前三集生产准备.py'}
     data = dict(format='jingshi-production-working-draft', canonical=False, revision='v1.9',
                 baseline_commit=cfg['baseline_commit'], media_status='not_generated',
                 model=cfg['model'], manual_preflight_required=True,
                 scene_ids=[s['id'] for s in scenes], visible_asset_ids=visible,
+                release_plan=release, scene_budgets={s['id']: s['duration_estimate_seconds'] for s in scenes},
+                scene_release_map={s['id']: s.get('release_episode_id') for s in scenes},
+                first_wave_instances=first_wave, assault_waves=eps[0]['scenes'][0]['assault_waves'],
+                retired_tasks=extra.get('retired_tasks', []),
                 source_sha256={p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(paths)}, tasks=tasks)
     validate(data)
     return data
+
+
+def render_release(release):
+    text = '# 前三发行集：节奏、运镜与逐镜交接\n\n'
+    text += release['planning_unit'] + '\n\n'
+    text += '本页由[发行分镜源](../../../索引/数据/发行前三集.json)生成；剧情与动作系统见[制作交接](../../../剧集/前三集重写与生产交接-v1.9.md)。原场次编号不变。24/1 fps仅为剪辑工作假设，16:9，帧窗左闭右开；71镜均为文字计划，未试读、未生成、未进行动作安全验收。片名与尾签画内叠加且已经计时，不另加片头片尾或上一集回顾。\n\n'
+    text += '相邻切镜优先接动作完成或视线落点；跨场省略明确保留前后状态。林道以车旁同侧轴线为基准，书房以案—窗—门局部三角为基准；具体焦段是视角意向，机位尺寸与最终格式待母版和预演复核。\n'
+    def stamp(frame):
+        seconds, ff = divmod(frame, 24)
+        mm, ss = divmod(seconds, 60)
+        return f'{mm:02}:{ss:02}:{ff:02}'
+    for ep in release['episodes']:
+        text += f"\n## {ep['id']}《{ep['name']}》｜{ep['duration_seconds']}秒\n\n"
+        turns = '；'.join(item.rstrip('。；') for item in ep['reversals']) + '。'
+        text += f"主问题：{ep['story_question']}\n\n开头钩子：{ep['opening_hook']}\n\n反转：{turns}\n\n结尾钩子：{ep['ending_hook']}\n\n"
+        text += '| 镜号／场次 | 时间码／帧窗 | 叙事节拍 | 运镜与构图 | 可见动作 | 声音／对白入口 | 镜末变化 |\n|---|---|---|---|---|---|---|\n'
+        for shot in ep['shots']:
+            window = f"{stamp(shot['start_frame'])}–{stamp(shot['end_frame'])} / [{shot['start_frame']},{shot['end_frame']})"
+            text += f"| {shot['id']}／{shot['scene_id']} | {window} | {shot['beat']} | {shot['camera']} | {shot['action']} | {shot['sound']} | {shot['end_state']} |\n"
+    text += '\n## 验收与减法顺序\n\n先用当前对白和静帧／占位板验证占时，再录可替换的临时声音；不宣称已经有录音。每镜检查空间、接触结果、视线、衣伤、道具归属、声音先后。超时优先压空景、重复反应和走路过渡；不删十人退出、韩许换手、黄撤令、原顾清醒回家、今顾选择开门、旧票用途差异。若仍超出约3分钟，提出新的分集边界供复核，不能默默加速成片。\n'
+    return text
 
 
 def render(data):
     tasks = data['tasks']
     mj = [t for t in tasks if t['method'] == 'MJ']
     ordered = sorted(mj, key=lambda t: (not bool(t['first_batch']), t['first_batch'] or 999, t['id']))
-    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；{len(FACE_CAST)}张独立身份脸、1个遮脸轮廓、16场，全部尚未生成或选版。'
-    overview = '# 前三集资产任务清单 v1.9\n\n' + counts + '\n\n[使用说明](README.md) · [英文提示词](MJ提示词.md) · [文书与后制](文书后制与非MJ任务.md)\n\n优先级A/B/C是探索批次，不是成片可删等级。所有角色仍须覆盖；首批序号1—12只确定审美方向。带依赖任务须先验收前置，不能按表格行序盲跑。\n\n| 任务 | 名称／类别 | 批次／首批序 | 资产 | 场次 | 前置 | 验收 |\n|---|---|---|---|---|---|---|\n'
-    prompts = '# MJ母版探索提示词 v1.9\n\n以下是执行前待检查的文字投影，不是已经批准的母版。模型V8.2；使用前按[README](README.md)检查账户设置。派生项正文须配合已选父母版输入，不能仅靠文字重抽。不得把父任务编号当作图片链接。\n\n首批12项置前；其余按ID排列便于检索，实际按依赖执行。每框仅一张图。\n'
+    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；{len(FACE_CAST)}张独立身份脸、C60一个遮脸轮廓、另有第一波十个遮面群演实例、16场，全部尚未生成或选版。'
+    current = [t for t in tasks if t['release_scope'] == 'current_first_three']
+    counts += f" 这是前三发行集与后续门口预备的合计；当前前三集关联{len(current)}项，后续专用{len(tasks)-len(current)}项。前三发行集11场、180／195／180秒，详[逐镜节奏](前三集节奏与分镜.md)。"
+    overview = '# 前三集资产任务清单 v1.9\n\n' + counts + '\n\n[使用说明](README.md) · [英文提示词](MJ提示词.md) · [文书与后制](文书后制与非MJ任务.md)\n\n优先级A/B/C是探索批次，不是成片可删等级。首批1—20为顾砚、韩青、杜长庚、顾伯、黄祁各四项服装母版，不是护送队名单；已有身份选图可先登记复用，未提供不算通过。带依赖任务须先验收前置，不能按行序盲跑。\n\n| 任务 | 名称／类别 | 批次／首批序 | 资产 | 场次 | 前置 | 验收 |\n|---|---|---|---|---|---|---|\n'
+    prompts = '# MJ母版探索提示词 v1.9\n\n以下是执行前待检查的文字投影，不是已经批准的母版。模型V8.2；使用前按[README](README.md)检查账户设置，基线关闭Personalization并清除遗留引用。派生项正文须配合已选父母版输入，不能仅靠文字重抽。不得把父任务编号当作图片链接。\n\n首批20项服装图置前；其余按ID排列便于检索，实际按依赖执行。每框仅一张图。既有THREEQUARTER仍为侧脸，不与新增FULL-3Q混同。\n'
     for t in tasks:
         target = 'MJ提示词.md#' + t['id'].lower() if t['method'] == 'MJ' else '文书后制与非MJ任务.md'
-        overview += f"| [{t['id']}]({target}) | {t['name']}／{t['category']} | {t['phase']}／{t['first_batch'] or '—'} | {', '.join(t['asset_ids'])} | {', '.join(t['scene_ids'])} | {', '.join(t['depends_on']) or '执行前检查'} | {t['acceptance']} |\n"
+        scope = ', '.join(t['release_episode_ids']) or '后续专用预备'
+        overview += f"| [{t['id']}]({target}) | {t['name']}／{t['category']} | {t['phase']}／{t['first_batch'] or '—'} | {', '.join(t['asset_ids'])} | {scope}：{', '.join(t['scene_ids'])} | {', '.join(t['depends_on']) or '执行前检查'} | {t['acceptance']} |\n"
     for t in ordered:
         prompts += f"\n<a id=\"{t['id'].lower()}\"></a>\n\n## {t['id']}｜{t['name']}\n\n"
         prompts += f"首批：{t['first_batch'] or '扩展'}；前置：{', '.join(t['depends_on']) or '无图像前置，先检查设置'}。\n\n"
+        prompts += '发行用途：' + (', '.join(t['release_episode_ids']) or '后续专用预备，不进入前三发行集') + '。场次关联不自动授权露脸或台词。\n\n'
         prompts += '来源：' + ' · '.join(f'[{Path(p).stem}](<{link(p)}>)' for p in t['source_paths']) + '\n\n'
         prompts += f"```text\n{t['projection']}\n```\n\n验收：{t['acceptance']}。\n\n状态：尚未生成；拟存文件名 `{t['planned_filename']}`，实际文件为空。\n"
+    overview += '\n## 停用编号\n\n' + '\n'.join(f"- {r['id']}：{r['reason']}" for r in data['retired_tasks']) + '\n'
     out = {'生产任务.json': json.dumps(data, ensure_ascii=False, indent=2) + '\n',
-           '资产任务清单.md': overview, 'MJ提示词.md': prompts}
+           '资产任务清单.md': overview, 'MJ提示词.md': prompts,
+           '前三集节奏与分镜.md': render_release(data['release_plan'])}
     buf = io.StringIO(newline='')
     writer = csv.writer(buf)
-    writer.writerow(['任务ID', '名称', '工序', '批次', '首批序', '资产ID', '场次', '前置任务', '验收条件', '英文提示词', '状态', '拟定文件名'])
+    writer.writerow(['任务ID', '名称', '工序', '批次', '首批序', '资产ID', '场次', '前置任务', '验收条件', '英文提示词', '状态', '拟定文件名', '发行集', '制作范围'])
     for t in tasks:
         writer.writerow([t['id'], t['name'], t['method'], t['phase'], t['first_batch'] or '',
                          ';'.join(t['asset_ids']), ';'.join(t['scene_ids']), ';'.join(t['depends_on']),
-                         t['acceptance'], t['projection'], t['status'], t['planned_filename']])
+                         t['acceptance'], t['projection'], t['status'], t['planned_filename'], ';'.join(t['release_episode_ids']), t['release_scope']])
     out['资产任务清单.csv'] = '\ufeff' + buf.getvalue()
     buf = io.StringIO(newline='')
     writer = csv.writer(buf)

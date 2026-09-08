@@ -1,0 +1,1217 @@
+{
+  "format": "jingshi-release-storyboard-working-draft",
+  "canonical": false,
+  "maturity": "draft",
+  "fps": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "aspect_ratio": "16:9",
+  "duration_verified": false,
+  "media_status": "not_generated",
+  "scope": "前三发行集；GJ-EP为稳定创作单元号，非发行号。旧门口单元作为后续预备保留。",
+  "episodes": [
+    {
+      "id": "GJ-R01",
+      "name": "林道惊杀",
+      "duration_seconds": 180,
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "story_question": "五名老卒能否把伤者活着带出林道？",
+      "opening_hook": "开头5秒车轮受阻、旧伤被牵动；片名压在画内，不先播空景。",
+      "reversals": [
+        "十人退开不等于胜利，第二波五人更强。",
+        "五卒已接不住最后一击，改变局面的却是林侧第三人。"
+      ],
+      "ending_hook": "黄已撤，巡防接手留场车马；原顾回望空树，没有喊出称呼。救者是谁，为何只救此刻？",
+      "shots": [
+        {
+          "id": "GJ-R01-SH001",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "阻车",
+          "camera": "近景／低位固定，视线由轮缘移到车灯，镜头不同时旋转",
+          "action": "车轮受阻，厢内震动传来；灯晃后留下未稳的暖光",
+          "sound": "木轮闷响先于乐句；马嘶不过量",
+          "end_state": "车已停，事故成为眼前危险",
+          "start_frame": 0,
+          "end_frame": 120,
+          "depends_on": [],
+          "transition_in": "直接入戏，不追加片头",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH002",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "地理",
+          "camera": "全景／路中侧偏正交看右侧会车区；28–35mm意向，短侧移后停",
+          "action": "交代封闭四驾、四匹骑乘马、同侧竹木与前方转弯；不需八辆实车",
+          "sound": "雨叶、八马错蹄、罩灯轻碰；题名画内叠字",
+          "end_state": "知道只有一条宽路，战斗仍局限车旁",
+          "start_frame": 120,
+          "end_frame": 288,
+          "depends_on": [
+            "GJ-R01-SH001"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH003",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "伤者",
+          "camera": "厢内中近景／50mm意向，保持门窗方向；固定",
+          "action": "原顾右手护左肩，P02在座旁；实体前壁把韩隔在外面",
+          "sound": "厢顶雨密、衣料轻擦；无伤情旁白",
+          "end_state": "他有旧伤，不能当第六名健全阵员",
+          "start_frame": 288,
+          "end_frame": 456,
+          "depends_on": [
+            "GJ-R01-SH002"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH004",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "卸骑",
+          "camera": "中全景／沿四名骑手短横移，停在韩开右门处",
+          "action": "四骑接连下马；杜褐巾、石短盾、崔弓包、许蓝黑腰封可认，韩下驾座",
+          "sound": "落地脚步与开门同层，别替五人逐个念名字",
+          "end_state": "马和人分开，扶人路径可读",
+          "start_frame": 456,
+          "end_frame": 624,
+          "depends_on": [
+            "GJ-R01-SH003"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH005",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "十人显形",
+          "camera": "中远景／同侧林隙两层深度；小摇移而非十张脸快切",
+          "action": "十名固定遮面实例由前后遮挡出现，最后一人停下后人数可核",
+          "sound": "衣料脚步建立第一波较密节律，无刺客对白",
+          "end_state": "第一波恰好十人，第二波未入战团",
+          "start_frame": 624,
+          "end_frame": 768,
+          "depends_on": [
+            "GJ-R01-SH004"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH006",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "下车",
+          "camera": "双人中景／门外同轴固定",
+          "action": "韩沿踏阶扶顾到实地；石取盾，崔把弓留在鞍旁",
+          "sound": "韩“下来”；声音朝顾，不朝观众解说",
+          "end_state": "顾离开实体车厢，无刀穿墙",
+          "start_frame": 768,
+          "end_frame": 960,
+          "depends_on": [
+            "GJ-R01-SH005"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH007",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "腾手",
+          "camera": "中全景／门—包落点—顾右臂保持在同一可读区域",
+          "action": "许取P02放稳，再接顾右臂；韩确认托稳后才拔刀；四坐骑留避让区",
+          "sound": "包落、衣料、刀鞘声顺序不颠倒",
+          "end_state": "许双手扶人且刀在鞘，韩终于可以接阵",
+          "start_frame": 960,
+          "end_frame": 1224,
+          "depends_on": [
+            "GJ-R01-SH006"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH008",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "合阵",
+          "camera": "中全景／35–50mm意向，固定先看全身支撑",
+          "action": "石先承压、杜随接，韩补近侧，崔引回接续，许扶顾仍维持阵中联系",
+          "sound": "杜“合”；盾闷、刃短响，不做同声大合唱",
+          "end_state": "五人在地面组成归旌，顾不计阵员",
+          "start_frame": 1224,
+          "end_frame": 1416,
+          "depends_on": [
+            "GJ-R01-SH007"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH009",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "铜片",
+          "camera": "局部近景从衣襟真实开隙短后移至衣身受力，单一后移后停",
+          "action": "铜片沿五人接续短闪，完整布甲不透光；该视角只见真实缝隙可见部分，后移显示同一次接续的衣身受力",
+          "sound": "短鸣低于呼吸；雨叶局部偏开后落回",
+          "end_state": "阵法是接续反馈，不是外罩护盾",
+          "start_frame": 1416,
+          "end_frame": 1584,
+          "depends_on": [
+            "GJ-R01-SH008"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH010",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "初次承压",
+          "camera": "中全景／车旁轴线固定，拍完整的一次受压—接上—稳住",
+          "action": "第一波推进被接住；五卒只守住脚下，许和顾没有得到离车通道",
+          "sound": "密脚步、盾受力、连续雨声",
+          "end_state": "接住攻击不等于击退敌人",
+          "start_frame": 1584,
+          "end_frame": 1800,
+          "depends_on": [
+            "GJ-R01-SH009"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH011",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "轮换",
+          "camera": "双层中景／轻跟杜退接与崔接领，终点在许顾位置",
+          "action": "杜与崔轮替，韩石补回；许只能扶着顾短挪，动一下便要等同伴",
+          "sound": "布甲摩擦、换气增加；不报六种兵形名",
+          "end_state": "军旅协作可见，负担开始积累",
+          "start_frame": 1800,
+          "end_frame": 1992,
+          "depends_on": [
+            "GJ-R01-SH010"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH012",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "耗力",
+          "camera": "近景／韩石肩背与呼吸，缓推止于视线",
+          "action": "呼吸变重，盾沿仍稳；杜看同伴而非露出胜笑",
+          "sound": "伴奏降密度，让疲惫进入前景",
+          "end_state": "观众感到再来一轮会更难",
+          "start_frame": 1992,
+          "end_frame": 2160,
+          "depends_on": [
+            "GJ-R01-SH011"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH013",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "交接",
+          "camera": "中远景／林缘同轴固定，明确前后层次",
+          "action": "罗顺小手势；第一波十人退过林隙，末人退出后第二波才压入",
+          "sound": "第一波脚步渐退；保留1秒有呼吸的空隙，不完全静音",
+          "end_state": "观众原以为退敌，实际是换人",
+          "start_frame": 2160,
+          "end_frame": 2352,
+          "depends_on": [
+            "GJ-R01-SH012"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH014",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "五人接手",
+          "camera": "中全景／从灰领褐袖额带移到黄，短横移后稳住",
+          "action": "第二波五人体量独立；黄从候机林影进入近处，不横越宽路",
+          "sound": "脚步变少，配乐只留低压长音",
+          "end_state": "人数变少，威胁反而集中",
+          "start_frame": 2352,
+          "end_frame": 2496,
+          "depends_on": [
+            "GJ-R01-SH013"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH015",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "新伤",
+          "camera": "顾许中近景／同侧遮挡与反应，不展示实际致伤方法",
+          "action": "黄逼近；顾右手刀鞘半挡，旧肩动作停住；左肩出现本次新擦破",
+          "sound": "刃器短响后顾吸气；不夸张喷血",
+          "end_state": "第二波才添擦伤，顾更依赖扶持",
+          "start_frame": 2496,
+          "end_frame": 2640,
+          "depends_on": [
+            "GJ-R01-SH014"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH016",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "牵制",
+          "camera": "中全景／同一车旁基准机位，前中后景都能归位",
+          "action": "罗顺等四人持续牵制，黄保持专取顾；第一波不在背景回场",
+          "sound": "四路衣步与五卒呼吸分层，不做满屏金属噪声",
+          "end_state": "无法抽出一人单独护送离开",
+          "start_frame": 2640,
+          "end_frame": 2832,
+          "depends_on": [
+            "GJ-R01-SH015"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH017",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "接重压",
+          "camera": "中景／石盾受力到杜韩接上，小幅跟随停住",
+          "action": "石肩背压低，杜韩先后接住；黄未后退，顾仅多得一次喘息",
+          "sound": "杜“接”可作下一镜声音桥；无胜利乐句",
+          "end_state": "五卒救下一次，不是实力反超",
+          "start_frame": 2832,
+          "end_frame": 3024,
+          "depends_on": [
+            "GJ-R01-SH016"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH018",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "阵限",
+          "camera": "三层中景／许顾近层、杜崔中层、车壁后层，焦点单次交接",
+          "action": "许扶顾挪半段又停；铜片断续，外衣带泥，无人重置体力",
+          "sound": "喘息盖过旋律，崔不开弓",
+          "end_state": "五人阵仍在，但已接不过眼前压力",
+          "start_frame": 3024,
+          "end_frame": 3192,
+          "depends_on": [
+            "GJ-R01-SH017"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH019",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "最后空当",
+          "camera": "原顾视线附近中近景／缓近，保留杜韩在可见边缘",
+          "action": "顾抬刀鞘只到半途，韩仍陷在上一轮接续，许未松手",
+          "sound": "抽去低频乐句，保留雨与短促呼吸",
+          "end_state": "观众看明白这次同伴来不及",
+          "start_frame": 3192,
+          "end_frame": 3336,
+          "depends_on": [
+            "GJ-R01-SH018"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH020",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "介入",
+          "camera": "刃侧与雨近景／固定，随后保持偏开终态",
+          "action": "林侧金铁轻鸣，黄刃偏开，雨散；无穿刺、震飞或特效光柱",
+          "sound": "极短金铁声为唯一新增音色",
+          "end_state": "危险被第三种力量改变",
+          "start_frame": 3336,
+          "end_frame": 3456,
+          "depends_on": [
+            "GJ-R01-SH019"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH021",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "灰袖",
+          "camera": "双层中景固定，焦点从黄移到树干后的灰袖；不绕树揭秘",
+          "action": "黄由逼杀变戒备；灰袖收回，脸与手仍遮住",
+          "sound": "雨声回来，救者无台词、无专属识别旋律",
+          "end_state": "仅确认有人介入，不确认身份或境界",
+          "start_frame": 3456,
+          "end_frame": 3600,
+          "depends_on": [
+            "GJ-R01-SH020"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH022",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "撤令",
+          "camera": "黄中近景／固定，焦点留在眼神与收住的半步",
+          "action": "黄试移半步又收住，发出撤令",
+          "sound": "黄仅“撤”；不得提前铺巡灯声",
+          "end_state": "撤退由救者威慑触发",
+          "start_frame": 3600,
+          "end_frame": 3720,
+          "depends_on": [
+            "GJ-R01-SH021"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH023",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "第二波退",
+          "camera": "中远景／跟到侧方林隙即停，不追进树林",
+          "action": "罗顺回看、招呼三人，五人自行退出；黄面巾偏动只露侧脸一瞬",
+          "sound": "脚步离开；杜“别追。带人走”接下镜",
+          "end_state": "黄无新伤，五卒也无追击余力",
+          "start_frame": 3720,
+          "end_frame": 3864,
+          "depends_on": [
+            "GJ-R01-SH022"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH024",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "离场交接",
+          "camera": "中全景／同轴给扶人与马的接续，不用兵器特写掩盖换手",
+          "action": "韩收刀接回顾，许收P02到H08，石收盾，四骑由四卒牵走；固定四驾留场",
+          "sound": "刀归鞘、包带、牵马脚步顺序可核",
+          "end_state": "六人离开、八马分成留场四与带回四",
+          "start_frame": 3864,
+          "end_frame": 4032,
+          "depends_on": [
+            "GJ-R01-SH023"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R01-SH025",
+          "scene_id": "GJ-EP01-SC01",
+          "beat": "救者悬念",
+          "camera": "中全景跟离车方向，最后稳在顾回望与空树的同轴视线",
+          "action": "移动巡灯此时才到；杜报位置交待查场。顾回望灰袖消失处，不唤称呼；末2秒题名尾签在画内",
+          "sound": "报位置只作短环境交代，无新增解释对白；雨声跨下集第一镜",
+          "end_state": "整场脱险但未获胜；救者是谁尚无答案",
+          "start_frame": 4032,
+          "end_frame": 4320,
+          "depends_on": [
+            "GJ-R01-SH024"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        }
+      ]
+    },
+    {
+      "id": "GJ-R02",
+      "name": "归来非我",
+      "duration_seconds": 195,
+      "scene_ids": [
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP01-SC04",
+        "GJ-EP01-SC05",
+        "GJ-EP01-SC06"
+      ],
+      "story_question": "同伴已经送他回家，醒来的人为何又想逃？",
+      "opening_hook": "湿血袖掠过热汤；刚从死局回来的人对家人很熟，后半集却完全陌生。",
+      "reversals": [
+        "华贵熟宅与照料看似恢复安全，原顾却主动隐瞒、独处上闩。",
+        "同一张脸再睁眼，动作、认识和目标都变了。",
+        "试图独自逃离失败，今顾改为亲自开门求助。"
+      ],
+      "ending_hook": "韩说救者没看清；今顾听见自己的名字，选择让陌生老人扶他坐下。能否相信这家人？",
+      "shots": [
+        {
+          "id": "GJ-R02-SH001",
+          "scene_id": "GJ-EP01-SC02",
+          "beat": "归途",
+          "camera": "街边中景固定，湿袖掠过前景热汤",
+          "action": "韩扶顾，四卒各牵一马同向经过；孙停勺，周欲起，丁按住",
+          "sound": "雨声承上集，汤摊近处沸声",
+          "end_state": "外人看见伤者，未解释顾家往事",
+          "start_frame": 0,
+          "end_frame": 120,
+          "depends_on": [],
+          "transition_in": "直接入戏，不追加片头",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH002",
+          "scene_id": "GJ-EP01-SC02",
+          "beat": "余温",
+          "camera": "汤摊中近景固定，不额外追三人身份",
+          "action": "孙换满碗，三人回自己的生活；人物行进不断",
+          "sound": "孙“趁热”，作进入顾府的声音余韵",
+          "end_state": "世界没有为男主停摆",
+          "start_frame": 120,
+          "end_frame": 240,
+          "depends_on": [
+            "GJ-R02-SH001"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH003",
+          "scene_id": "GJ-EP01-SC03",
+          "beat": "入府",
+          "camera": "门院中全景小退让路，止在门侧；不横扫全宅；门框、粗柱和深檐显高门体量，不新增巡宅镜头",
+          "action": "顾伯接扶右侧；五床与粮钱短对白。杜等牵马沿墙，不入卧区",
+          "sound": "“西厢五张床”“粮钱我们带了”",
+          "end_state": "高门世家大宅精养华贵，五卒仍自担生活",
+          "start_frame": 240,
+          "end_frame": 432,
+          "depends_on": [
+            "GJ-R02-SH002"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH004",
+          "scene_id": "GJ-EP01-SC03",
+          "beat": "物归位",
+          "camera": "西厢中全景固定，取局部连续动作；其他区域以相邻切镜补足",
+          "action": "许卸P02交韩放前厅，顾伯已接顾；韩才卸甲。五副内甲收器物区",
+          "sound": "皮甲、包、木器自然声；不加换装音乐段",
+          "end_state": "人和包有交接，甲与铺盖分区",
+          "start_frame": 432,
+          "end_frame": 624,
+          "depends_on": [
+            "GJ-R02-SH003"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH005",
+          "scene_id": "GJ-EP01-SC03",
+          "beat": "熟悉照料",
+          "camera": "前厅双人中景固定，灯仅来自原有灯具",
+          "action": "顾伯露出药箱与粥；顾以右手压外襟，说还记着，顾伯答怕冷热了两回",
+          "sound": "留对白和一次原顾欲言又止的停顿",
+          "end_state": "原顾认得这个家，没有先演失忆",
+          "start_frame": 624,
+          "end_frame": 816,
+          "depends_on": [
+            "GJ-R02-SH004"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH006",
+          "scene_id": "GJ-EP01-SC03",
+          "beat": "外库省略",
+          "camera": "门外中景固定，不跟进库内",
+          "action": "顾问干衣位置，自己进外库；以同一门框前后状态切接，出时浅灰衣已包扎",
+          "sound": "“我认得”；省略时间用环境声变化，不播服药或施法声",
+          "end_state": "他有独处机会，观众不见P13或最后操作",
+          "start_frame": 816,
+          "end_frame": 1008,
+          "depends_on": [
+            "GJ-R02-SH005"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH007",
+          "scene_id": "GJ-EP01-SC03",
+          "beat": "隐瞒",
+          "camera": "原顾中近景缓近，停在勺停处",
+          "action": "韩报托案与往山上信；原顾勺停，只让韩歇一会，顾伯端走空碗",
+          "sound": "韩报信与原顾答话为主，末留眼神停顿",
+          "end_state": "人仍清醒，却没说出所藏决定",
+          "start_frame": 1008,
+          "end_frame": 1200,
+          "depends_on": [
+            "GJ-R02-SH006"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH008",
+          "scene_id": "GJ-EP01-SC04",
+          "beat": "上闩",
+          "camera": "书房门内中景固定，案门邻接可见",
+          "action": "原顾掠案沿、亲手上闩，远书架不用镜头巡视；宽厚案沿与粗足可见，不改变到门的近距。",
+          "sound": "木闩落声清楚，不做阴谋轰鸣",
+          "end_state": "主动隔开同伴，不是被关入",
+          "start_frame": 1200,
+          "end_frame": 1344,
+          "depends_on": [
+            "GJ-R02-SH007"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH009",
+          "scene_id": "GJ-EP01-SC04",
+          "beat": "时间省略",
+          "camera": "廊下中全景固定，内外视线明确",
+          "action": "顾伯挂湿衣，韩近廊，杜外院交接；灯芯前后状态剪接表示一段时间过去",
+          "sound": "雨渐稀，不预示刺客潜入；短停顿有叙事目的",
+          "end_state": "门外有人照料，却不知门内全部念头",
+          "start_frame": 1344,
+          "end_frame": 1536,
+          "depends_on": [
+            "GJ-R02-SH008"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH010",
+          "scene_id": "GJ-EP01-SC04",
+          "beat": "杯落",
+          "camera": "先守廊下反应，不切回门内补原因",
+          "action": "杯落声，顾伯韩立即起身到门；以声音切入下一场",
+          "sound": "单次瓷声；不连播两次伪造两只杯",
+          "end_state": "家并未排除危险，观众等待门内答案",
+          "start_frame": 1536,
+          "end_frame": 1680,
+          "depends_on": [
+            "GJ-R02-SH009"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH011",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "同脸异人",
+          "camera": "地面近景到同脸中近景，单次升高停住",
+          "action": "今顾吸气，右手撑地、左肩牵痛；碎瓷水迹与湿衣已分处",
+          "sound": "喘息；顾伯隔门问，今顾“等一下”",
+          "end_state": "身体连续，意识反应不连续",
+          "start_frame": 1680,
+          "end_frame": 1872,
+          "depends_on": [
+            "GJ-R02-SH010"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH012",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "验手",
+          "camera": "手部与脸同框中近景固定，焦点从手到眼一次",
+          "action": "摊指、收拢，察觉茧的位置陌生；不出现现代文字界面",
+          "sound": "顾伯“好。我们就在门口”，随后留呼吸",
+          "end_state": "他不认识自己的身体，但可思考",
+          "start_frame": 1872,
+          "end_frame": 2064,
+          "depends_on": [
+            "GJ-R02-SH011"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH013",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "现代片段",
+          "camera": "现代鞋手绳局部固定，清楚落稳地面",
+          "action": "主动收工局部记忆；不展示现代正脸、坠落或事故",
+          "sound": "杨舟仅记忆声“下次再来”；不是跨世喊话",
+          "end_state": "观众得到异来背景，不获死亡方式答案",
+          "start_frame": 2064,
+          "end_frame": 2208,
+          "depends_on": [
+            "GJ-R02-SH012"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH014",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "镜前",
+          "camera": "书房中近景固定，镜子与本人同框，保持左右物理关系",
+          "action": "扶案起身，摸眉骨、转肩，同步牵痛；铜镜只有一次反射",
+          "sound": "呼吸与衣料，镜子不响",
+          "end_state": "不是镜中另有人，确为同一伤体",
+          "start_frame": 2208,
+          "end_frame": 2400,
+          "depends_on": [
+            "GJ-R02-SH013"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH015",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "陌生门影",
+          "camera": "今顾中景缓退露出门影，止在案边",
+          "action": "想说名字又咽回；看见门外一老一少，不能确认谁可信",
+          "sound": "外院交接只作环境，听不成完整秘谈",
+          "end_state": "选择隐去来处，目标由辨身体转为找退路",
+          "start_frame": 2400,
+          "end_frame": 2640,
+          "depends_on": [
+            "GJ-R02-SH014"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH016",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "估窗",
+          "camera": "中全景固定含案、紧邻窗下矮柜及门，不跨院",
+          "action": "沿案到柜，先看落差、探柜面；眼神完成一次估量",
+          "sound": "小步、木柜轻触；不加天才算式音",
+          "end_state": "现代经验只表现为观察和试探",
+          "start_frame": 2640,
+          "end_frame": 2880,
+          "depends_on": [
+            "GJ-R02-SH015"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH017",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "伤体制约",
+          "camera": "同轴中景看完整起动与停止，不仅拍膝痛脸",
+          "action": "重心刚移，旧肩撑不住；膝碰柜角，立即收回靠柜坐下",
+          "sound": "衣料与低声吸气，碰痛声克制",
+          "end_state": "方法想得到，身体却执行不了",
+          "start_frame": 2880,
+          "end_frame": 3120,
+          "depends_on": [
+            "GJ-R02-SH016"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH018",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "自嘲",
+          "camera": "中近景固定，先把疼缓过再说一句",
+          "action": "顾伯隔门想扶；今顾看窗，低声自嘲，不冲观众挤笑",
+          "sound": "“算得挺好。没算自己。”；对白后留回气",
+          "end_state": "短暂轻松来自真挫折，不消除恐惧",
+          "start_frame": 3120,
+          "end_frame": 3360,
+          "depends_on": [
+            "GJ-R02-SH017"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH019",
+          "scene_id": "GJ-EP01-SC05",
+          "beat": "改选求助",
+          "camera": "中景单次由窗转向门，终点稳定",
+          "action": "不再找第二条逃路，缓缓扶案站起，目标改成门闩",
+          "sound": "配乐稍回暖但不替代门外脚步",
+          "end_state": "主动求助代替独自逃离",
+          "start_frame": 3360,
+          "end_frame": 3600,
+          "depends_on": [
+            "GJ-R02-SH018"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH020",
+          "scene_id": "GJ-EP01-SC06",
+          "beat": "开门",
+          "camera": "门内中景固定，保持顾伯韩前后空间",
+          "action": "顾拨闩开门；顾伯拨开脚边瓷片扶右侧；韩不挤近，杜仍外院",
+          "sound": "顾伯叫“顾砚”；此处姓名应听清",
+          "end_state": "今顾从别人嘴里接到身份",
+          "start_frame": 3600,
+          "end_frame": 3816,
+          "depends_on": [
+            "GJ-R02-SH019"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH021",
+          "scene_id": "GJ-EP01-SC06",
+          "beat": "伤从何来",
+          "camera": "今顾近景接韩中近景，同侧正反打",
+          "action": "今顾看韩手上血问伤；韩如实说先十后五，后来的有人只冲他",
+          "sound": "“两拨。先十个，后五个。”；无战斗复播",
+          "end_state": "今顾获得转述，不拥有原顾记忆",
+          "start_frame": 3816,
+          "end_frame": 4032,
+          "depends_on": [
+            "GJ-R02-SH020"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH022",
+          "scene_id": "GJ-EP01-SC06",
+          "beat": "救者未知",
+          "camera": "韩中近景固定，停顿后只答所见",
+          "action": "今顾问是否认得，韩说不认得、最后一下未拦、林侧有人出手",
+          "sound": "“没看清。只见灰袖。”保留，不补实名或师门",
+          "end_state": "第一集观众所见成为主角有限信息",
+          "start_frame": 4032,
+          "end_frame": 4248,
+          "depends_on": [
+            "GJ-R02-SH021"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH023",
+          "scene_id": "GJ-EP01-SC06",
+          "beat": "同伴是否齐",
+          "camera": "中景从顾视线看廊外再回到顾伯，不新增露脸群演",
+          "action": "今顾问同返者，韩答五个一个不少；顾伯以为他放心",
+          "sound": "“五个。一个不少。”指护送队，不指刺客",
+          "end_state": "关心同伴被善意误读，非身份坦白",
+          "start_frame": 4248,
+          "end_frame": 4464,
+          "depends_on": [
+            "GJ-R02-SH022"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R02-SH024",
+          "scene_id": "GJ-EP01-SC06",
+          "beat": "请求留下",
+          "camera": "双人中景微退，留出韩退廊位置，末2秒画内尾签",
+          "action": "今顾不假认熟人，只请扶坐；顾伯托稳，韩合门挡风而非上锁",
+          "sound": "“劳烦……扶我坐一会儿。”；请郎中的声音接下一集",
+          "end_state": "逃离者选择暂留，关系仍需下一集检验",
+          "start_frame": 4464,
+          "end_frame": 4680,
+          "depends_on": [
+            "GJ-R02-SH023"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        }
+      ]
+    },
+    {
+      "id": "GJ-R03",
+      "name": "先过今夜",
+      "duration_seconds": 180,
+      "scene_ids": [
+        "GJ-EP02-SC01",
+        "GJ-EP02-SC02",
+        "GJ-EP02-SC03",
+        "GJ-EP02-SC04",
+        "GJ-EP02-SC05"
+      ],
+      "story_question": "他能否不暴露来处，又从陌生人的照料里找到可相信的边界？",
+      "opening_hook": "开头直接听见‘连我也不大认得’，观众等他如何不暴露来处。",
+      "reversals": [
+        "韩不收军引，不限制去留，警戒变成可以商量。",
+        "今顾接受扶持与甜粥，安全感刚形成，门外却精准索要旧票。"
+      ],
+      "ending_hook": "门未开、来客未露脸，今顾护近旧票；下一步是独立核验而非立刻交票或凭空识破。",
+      "shots": [
+        {
+          "id": "GJ-R03-SH001",
+          "scene_id": "GJ-EP02-SC01",
+          "beat": "问诊",
+          "camera": "床边三人中景固定，顾伯问、张济等、今顾答同框",
+          "action": "张济收包扎物；顾伯说认不出自己，今顾只承认字识人不识",
+          "sound": "顾伯与今顾短句，郎中不强定因",
+          "end_state": "前中期隐秘维持，异常却被诚实承认",
+          "start_frame": 0,
+          "end_frame": 240,
+          "depends_on": [],
+          "transition_in": "直接入戏，不追加片头",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH002",
+          "scene_id": "GJ-EP02-SC01",
+          "beat": "不替人定因",
+          "camera": "张济中近景转门口中景，同轴小摇",
+          "action": "张济嘱先歇再不适叫他，随顾伯到门口继续出诊",
+          "sound": "诊物轻碰，非神医诊魂音效",
+          "end_state": "医者有边界与其他病人",
+          "start_frame": 240,
+          "end_frame": 480,
+          "depends_on": [
+            "GJ-R03-SH001"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH003",
+          "scene_id": "GJ-EP02-SC01",
+          "beat": "年号",
+          "camera": "顾伯今顾双人中景固定",
+          "action": "今顾问哪年，顾伯答年号日期；今顾不追问现代历史",
+          "sound": "年号保持清晰，不加年表旁白",
+          "end_state": "只获得当地日期，不获得世界全知",
+          "start_frame": 480,
+          "end_frame": 720,
+          "depends_on": [
+            "GJ-R03-SH002"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH004",
+          "scene_id": "GJ-EP02-SC01",
+          "beat": "照护退让",
+          "camera": "手与脸同框中近景，慢近后停",
+          "action": "今顾避探额头；顾伯改拉被角、放水在右侧，今顾自取",
+          "sound": "“成。不碰。水在右手边。”",
+          "end_state": "建立第一次可拒绝的照护",
+          "start_frame": 720,
+          "end_frame": 960,
+          "depends_on": [
+            "GJ-R03-SH003"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH005",
+          "scene_id": "GJ-EP02-SC02",
+          "beat": "询问许可",
+          "camera": "门内中景固定含韩与床边空位",
+          "action": "韩举行囊问能否放，今顾点头，韩放下",
+          "sound": "“能放这儿么？”；动作后才有包落声",
+          "end_state": "同伴尊重界限，不替他占据空间",
+          "start_frame": 960,
+          "end_frame": 1176,
+          "depends_on": [
+            "GJ-R03-SH004"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH006",
+          "scene_id": "GJ-EP02-SC02",
+          "beat": "分物",
+          "camera": "桌沿与双人同框中景，不拍超长无字纸特写",
+          "action": "军引、布套、零钱依次分开放，今顾问哪样给官里看",
+          "sound": "对白顺序与实物落点一致",
+          "end_state": "身份凭证、私票、钱不是同一物",
+          "start_frame": 1176,
+          "end_frame": 1416,
+          "depends_on": [
+            "GJ-R03-SH005"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH007",
+          "scene_id": "GJ-EP02-SC02",
+          "beat": "不能少",
+          "camera": "布套近景接今顾反应，焦点只从手到眼",
+          "action": "韩说军引雨花补核、旧票一张不能少；今顾翻看又按原折收回",
+          "sound": "“一张不能少”不要加神秘咒音",
+          "end_state": "记住重要性，却不提前看懂案件",
+          "start_frame": 1416,
+          "end_frame": 1656,
+          "depends_on": [
+            "GJ-R03-SH006"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH008",
+          "scene_id": "GJ-EP02-SC02",
+          "beat": "救者不可依赖",
+          "camera": "双人中景固定",
+          "action": "今顾问救者，韩答没留话，不能等下一回",
+          "sound": "雨后夜静与克制对白",
+          "end_state": "问题从等高手转到眼前能做什么",
+          "start_frame": 1656,
+          "end_frame": 1848,
+          "depends_on": [
+            "GJ-R03-SH007"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH009",
+          "scene_id": "GJ-EP02-SC02",
+          "beat": "去留权",
+          "camera": "含军引与韩双手的中景，固定不遮取放",
+          "action": "今顾问换住处；韩不收走军引，说天亮挑",
+          "sound": "“送你回来，不是关你回来。”",
+          "end_state": "警惕被行动回应，信任有可验证依据",
+          "start_frame": 1848,
+          "end_frame": 2064,
+          "depends_on": [
+            "GJ-R03-SH008"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH010",
+          "scene_id": "GJ-EP02-SC02",
+          "beat": "同伴边界",
+          "camera": "卧房至廊道中景小摇后稳住",
+          "action": "顾伯放鞋不替决策；杜外院点头，韩报师父已托信；今顾不再试站",
+          "sound": "报信不能变成师父授权控制人",
+          "end_state": "五卒守的是当前安全，不是囚禁",
+          "start_frame": 2064,
+          "end_frame": 2304,
+          "depends_on": [
+            "GJ-R03-SH009"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH011",
+          "scene_id": "GJ-EP02-SC02",
+          "beat": "留下灯",
+          "camera": "床边中近景固定，韩退出仍可见门侧空间",
+          "action": "今顾说怕请留灯，韩挪灯退廊；今顾松开被角",
+          "sound": "“留。我在外头。”留一次呼吸停顿",
+          "end_state": "选择依靠当下的人，不暴露来处",
+          "start_frame": 2304,
+          "end_frame": 2520,
+          "depends_on": [
+            "GJ-R03-SH010"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH012",
+          "scene_id": "GJ-EP02-SC03",
+          "beat": "翌晨自查",
+          "camera": "街口中全景固定，天光接夜灯切换；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "赵孟从桥道方向查到邻街，文袋收记录",
+          "sound": "赵“开门的先问”",
+          "end_state": "官面调查已独立运行",
+          "start_frame": 2520,
+          "end_frame": 2640,
+          "depends_on": [
+            "GJ-R03-SH011"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH013",
+          "scene_id": "GJ-EP02-SC03",
+          "beat": "距离",
+          "camera": "街边中景小跟到顾府邻墙即停；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "两人继续走，顾府与同街西巷方向可辨",
+          "sound": "“夜里收得晚的，回头来”",
+          "end_state": "后续请人有实际近距，不靠瞬移",
+          "start_frame": 2640,
+          "end_frame": 2760,
+          "depends_on": [
+            "GJ-R03-SH012"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH014",
+          "scene_id": "GJ-EP02-SC04",
+          "beat": "钱各有主",
+          "camera": "西厢中景固定，五床不必同画面排成宿舍；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "许分还路凭与家钱，只留下共同饭钱账；重雕床柱与厚柜框清楚，仍非现代套房。",
+          "sound": "“家里那份别动。饭钱另算。”",
+          "end_state": "同伴非主角私兵，有各自生活",
+          "start_frame": 2760,
+          "end_frame": 2928,
+          "depends_on": [
+            "GJ-R03-SH013"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH015",
+          "scene_id": "GJ-EP02-SC04",
+          "beat": "轻松一下",
+          "camera": "石许顾伯中景固定，崔在背景门侧；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "石问盐，顾伯纠正第二罐，许忍笑，石立即换",
+          "sound": "“盐？”“第二罐。你手里那个甜。”",
+          "end_state": "战斗人物也会过日子，笑料只一次",
+          "start_frame": 2928,
+          "end_frame": 3120,
+          "depends_on": [
+            "GJ-R03-SH014"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH016",
+          "scene_id": "GJ-EP02-SC04",
+          "beat": "血与轮休",
+          "camera": "韩井边中景缓近停在洗手反应；不把血误成伤口；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "韩洗掉顾的干血，拿干衣；杜来到相连短廊",
+          "sound": "流水、衣料、杜“洗净再来”",
+          "end_state": "首战负担仍留在生活里",
+          "start_frame": 3120,
+          "end_frame": 3312,
+          "depends_on": [
+            "GJ-R03-SH015"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH017",
+          "scene_id": "GJ-EP02-SC04",
+          "beat": "守门接续",
+          "camera": "杜中景小跟到外院后停；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "杜回正门可见位置；韩换衣，许为杜留水碗",
+          "sound": "“前头我看着。”回接院中声",
+          "end_state": "不会为下集骗局把所有人诱离",
+          "start_frame": 3312,
+          "end_frame": 3480,
+          "depends_on": [
+            "GJ-R03-SH016"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH018",
+          "scene_id": "GJ-EP02-SC05",
+          "beat": "仍在这里",
+          "camera": "卧房近景固定，目光由手到晨窗；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "今顾醒来，确认未回现代；顾伯来扶右侧，他没躲",
+          "sound": "不重播岩壁记忆，只有晨声",
+          "end_state": "接受扶持与前夜避触形成回收",
+          "start_frame": 3480,
+          "end_frame": 3624,
+          "depends_on": [
+            "GJ-R03-SH017"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH019",
+          "scene_id": "GJ-EP02-SC05",
+          "beat": "饭与私物",
+          "camera": "前厅中景固定，布套和食物空间分开；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "入厅确认行囊布套，再坐；顾伯端粥放糖罐想取走",
+          "sound": "今顾“留下吧”",
+          "end_state": "先确认私物，再主动接受口味",
+          "start_frame": 3624,
+          "end_frame": 3792,
+          "depends_on": [
+            "GJ-R03-SH018"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH020",
+          "scene_id": "GJ-EP02-SC05",
+          "beat": "松一口气",
+          "camera": "双人中近景缓近，止在松肩处；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "添糖尝粥、道谢；顾伯转勺柄，回一句趁热",
+          "sound": "对白温暖但不播结局式满乐",
+          "end_state": "片刻安全刚建立",
+          "start_frame": 3792,
+          "end_frame": 3960,
+          "depends_on": [
+            "GJ-R03-SH019"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH021",
+          "scene_id": "GJ-EP02-SC05",
+          "beat": "精准索票",
+          "camera": "先厅内中景听门声，切内院杜背向门；禁止切门外正脸；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "叩门，杜问，王寿仅门外声自称巡防、索北路旧票",
+          "sound": "门声切断暖音乐，王台词前景清晰",
+          "end_state": "他连旧票都知道；真伪尚未核",
+          "start_frame": 3960,
+          "end_frame": 4176,
+          "depends_on": [
+            "GJ-R03-SH020"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        },
+        {
+          "id": "GJ-R03-SH022",
+          "scene_id": "GJ-EP02-SC05",
+          "beat": "护票",
+          "camera": "今顾手与脸同框近景固定，末2秒画内尾签；雨停初晴的明媚中性自然光，湿石仍在，非暖黄",
+          "action": "放勺，右手挪近褐色布套，望门；不出刀、不抢先说假差",
+          "sound": "布套摩擦后留静听，门仍没开",
+          "end_state": "主动保留核验机会，钩子是交不交与如何核",
+          "start_frame": 4176,
+          "end_frame": 4320,
+          "depends_on": [
+            "GJ-R03-SH021"
+          ],
+          "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+          "media_status": "not_generated"
+        }
+      ]
+    }
+  ],
+  "planning_unit": "71个分镜工作单元；其中含组合覆盖或时间省略，帧窗是单元预算，不等于每行都是一次不间断拍摄。正式子镜、试读时长与具体机位待预演细化；保留父ID，新增子号不复用。",
+  "architecture_binding": {
+    "source_path": "资产/美术风格与造型总则.md",
+    "scope": [
+      "S03",
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "intent": "高门世家大宅；厚梁深檐与重工贵重陈设，不是现代新中式豪宅；明媚自然白昼，夜光局部。",
+    "preserve": "全部71个分镜工作单元及180／195／180秒不变；固定大案、可搬小案、案窗门邻接、五床与照料通路不变。"
+  }
+}

@@ -13,29 +13,29 @@
   "model": "8.2",
   "capability_verified_at": "2026-09-08",
   "manual_preflight_required": true,
-  "reference_policy": "本包基础任务纯文字、无上传引用；派生任务须先选同一资产母版并检查使用权。",
+  "reference_policy": "既有选脸由用户提供原图和记录后复用；派生项绑定已验收父图。分享图仅用于美术观察，权利未核不得上传。",
   "settings": {
     "raw": true,
     "stylize": 75,
     "chaos": 0,
     "weird": 0,
-    "personalization": "executor_must_disable_or_record",
+    "personalization": "off_for_baseline_executor_must_verify",
     "moodboard": "off_for_baseline",
     "pinned_references": "clear_for_baseline",
     "quality": "do_not_send",
     "hd": "not_assumed"
   },
-  "style_en": "Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+  "style_en": "Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors.",
   "characters": [
     {
       "id": "C01",
       "name": "顾砚共用古代身份",
       "age": 24,
       "tier": "A",
-      "first_batch": 1,
+      "first_batch": 0,
       "identity_en": "a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build",
       "hair_en": "long black hair in one neat topknot with a plain dark wooden pin",
-      "costume_en": "fitted ink-blue cross-collar travel robe, smoky-gray inner collar, dense cotton twill and fine wool, narrow sleeves, plain belt",
+      "costume_en": "ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots",
       "checks": "同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸",
       "shares": [
         "C02"
@@ -46,10 +46,10 @@
       "name": "韩青",
       "age": 25,
       "tier": "A",
-      "first_batch": 2,
+      "first_batch": 0,
       "identity_en": "a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms",
       "hair_en": "black hair in a compact topknot tied with gray-blue cloth",
-      "costume_en": "gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs",
+      "costume_en": "gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
       "checks": "比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军",
       "shares": []
     },
@@ -58,11 +58,11 @@
       "name": "顾伯",
       "age": 64,
       "tier": "A",
-      "first_batch": 3,
+      "first_batch": 0,
       "identity_en": "a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders",
       "hair_en": "gray-black hair in a modest small topknot",
-      "costume_en": "smoky-tea long cotton robe with warm-gray inner collar, fine old repairs, sleeves suited to carrying a bowl",
-      "checks": "64岁、圆方脸灰短须，旧而整洁；不去皱变青年、不仙师化",
+      "costume_en": "tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes",
+      "checks": "64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化",
       "shares": []
     },
     {
@@ -70,10 +70,10 @@
       "name": "杜长庚",
       "age": 43,
       "tier": "A",
-      "first_batch": 4,
+      "first_batch": 0,
       "identity_en": "a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders",
       "hair_en": "black hair bound in a plain topknot",
-      "costume_en": "brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt",
+      "costume_en": "blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
       "checks": "43岁灰鬓、褐围巾、宽肩；不穿将军甲",
       "shares": []
     },
@@ -85,7 +85,7 @@
       "first_batch": 0,
       "identity_en": "a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build",
       "hair_en": "black hair bound close to the head, face unobscured in this identity study",
-      "costume_en": "matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt",
+      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry",
       "checks": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤",
       "shares": []
     },
@@ -205,32 +205,8 @@
       "first_batch": 0,
       "identity_en": "a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build",
       "hair_en": "plain tightly bound black hair",
-      "costume_en": "indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt",
+      "costume_en": "deep indigo and ink-blue martial jacket, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
       "checks": "宽肩方脸靛布，不夸张巨人化；搬物动作稳定",
-      "shares": []
-    },
-    {
-      "id": "C18",
-      "name": "孟宽",
-      "age": 36,
-      "tier": "C",
-      "first_batch": 0,
-      "identity_en": "a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders",
-      "hair_en": "plain bound black hair",
-      "costume_en": "smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt",
-      "checks": "粗眉短须赭腰带，与孟达绝不共脸",
-      "shares": []
-    },
-    {
-      "id": "C19",
-      "name": "罗百泉",
-      "age": 45,
-      "tier": "C",
-      "first_batch": 0,
-      "identity_en": "a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance",
-      "hair_en": "black-and-gray hair tied simply",
-      "costume_en": "gray-brown travel layers with a lighter inner collar, long clean vertical lines",
-      "checks": "45岁灰短须，前三集正常步态不提前跛行",
       "shares": []
     },
     {
@@ -241,32 +217,8 @@
       "first_batch": 0,
       "identity_en": "a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture",
       "hair_en": "black hair bound away from the eyes",
-      "costume_en": "dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton",
+      "costume_en": "gray-cyan martial jacket with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
       "checks": "瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件",
-      "shares": []
-    },
-    {
-      "id": "C21",
-      "name": "伍成",
-      "age": 29,
-      "tier": "C",
-      "first_batch": 0,
-      "identity_en": "a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms",
-      "hair_en": "plain bound black hair",
-      "costume_en": "light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer",
-      "checks": "29岁轻瘦不幼态，浅褐短褂；跑腿不是杂耍",
-      "shares": []
-    },
-    {
-      "id": "C22",
-      "name": "段平生",
-      "age": 40,
-      "tier": "C",
-      "first_batch": 0,
-      "identity_en": "a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin",
-      "hair_en": "plain bound black hair",
-      "costume_en": "warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer",
-      "checks": "宽厚、米白领巾；厨房与战阵同一人，不能减出九卒",
       "shares": []
     },
     {
@@ -277,7 +229,7 @@
       "first_batch": 0,
       "identity_en": "a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame",
       "hair_en": "neatly bound black hair",
-      "costume_en": "blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings",
+      "costume_en": "deep blue-green and blue-black martial jacket, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
       "checks": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊",
       "shares": []
     },
@@ -325,9 +277,9 @@
       "asset_ids": [
         "S01"
       ],
-      "first_batch": 8,
-      "body_en": "An empty old cart road winding through dense bamboo interwoven with tall dark woodland trees, wet winter foliage arching overhead. A broad passing bay at the bend, muddy wheel ruts, shallow puddles and scattered bamboo leaves, continuous walkable ground beside the cart track. The road leads toward a distant forest opening; the stone bridge beyond remains hidden by the bend and vegetation. Rainy night, cool diffuse light through canopy gaps, irregular leaf shadows, deep green and charcoal tones, readable ground and layered trunks. Live-action Chinese costume drama set, no people, no vehicles, no lanterns, no visible bridge deck. A separate empty roadside holding verge beside the passing bay has room for eight unmounted horses, outside the ground-action space; no horses present in this empty set study.",
-      "checks": "竹丛与高树密集，道弯宽段可供一车与护送人员活动；前方林口通桥，主战区不出现桥面或护栏；空底仅冷夜光，车灯在人车绑定时加入；不生世隙，不把九人合成一体 宽段与外缘避让空地分开，能容车、十匹马和地面动作；无人空底不生成马。 车道需容双马并排牵引，不只容单马车宽；另八匹坐骑的外缘避让区不并入两匹牵引马位置。",
+      "first_batch": 0,
+      "body_en": "An extraordinarily broad single official road through dense bamboo and tall woodland trees, wide enough for at least eight complete horse-drawn carriage travel envelopes side by side. Compacted-earth roadbed, drainage edges and wheel ruts, no modern lane markings. A right-side passing bay close to the forest edge has a continuous clear passenger-exit and ground-action area, plus a separate verge for four unmounted riding horses; no horses in the empty plate. The road leads to a forest opening; the bridge is screened by the bend and trees, no visible bridge deck. Rainy winter night, cool diffuse sky fill, shallow puddles and layered trunks. No people, vehicles or horses, no lanterns. Canopies border the road without closing its full width.",
+      "checks": "至少八辆P01完整四驾行车包络并行，不按裸车厢或缩马计；唯一官道无支路，近林右侧会车区下车合阵，刺客不横越整幅路、C60局部树位；桥隐藏、车灯另合成。先过POST-PLAN-FOREST。",
       "state": "night_rain",
       "ratio": "16:9"
     },
@@ -338,8 +290,8 @@
         "S02"
       ],
       "first_batch": 0,
-      "body_en": "An ordinary street in a fictional Chinese capital, layered timber shopfronts, a small covered soup stall beside a continuous walkway, a steaming pot and bowls under warm practical stall lanterns, damp stone paving, cool rainy night beyond the awning. Empty of identifiable people, lived-in rather than a palace avenue.",
-      "checks": "摊位不堵全街；顾府、短墙与西巷相接另由人工平面图锁定",
+      "body_en": "A broad capital street with layered handsome timber shopfronts, deep tiled eaves and refined carved facade details, a small covered everyday soup stall beside an unobstructed continuous walkway. Ordinary pot and bowls, practical stall lanterns, damp stone paving and cool rainy night beyond the awning. Rich urban architectural depth, maintained surfaces and natural working life, no palace gate, no royal procession, no identifiable people.",
+      "checks": "城景开阔精整，汤摊仍实用；不增加人物或改变顾府与同街西巷关系。",
       "state": "night",
       "ratio": "16:9"
     },
@@ -349,10 +301,10 @@
       "asset_ids": [
         "S03"
       ],
-      "first_batch": 7,
-      "body_en": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center. An empty temporary horse-holding space runs along the outer wall outside the west lodging wing, clear of all doors and the side passage, with room for eight horses; no animals present.",
-      "checks": "南正门北前厅、西厢临外院；无中央水池，无额外秘道 西厢室外沿墙预留八匹马空地，入口和西侧道不堵；空景不画马，卧具区不改马厩。",
-      "state": "morning",
+      "first_batch": 0,
+      "body_en": "The spacious ceremonial courtyard of an ancestral Chinese mansion, seen beneath its south veranda toward the lofty north reception hall. Tall solid timber gates, broad carved stone plinths and layered column bays establish formal depth; white plaster, blue-gray paving and selective white-marble accents. Winter plum, evergreen shrubs, sculptural rocks and large celadon vessels occupy garden margins. The east study and west guest-room passages keep their existing connections. No central pool or additional gateway across the clear route. A separate empty holding area for four riding horses remains outside the west wing along the wall, clear of doors. Empty environment, no people or animals. Bright natural neutral-white daylight from the courtyard and existing lattice openings, with skylight and reflected light from pale plaster and stone; white walls stay white, blue-gray stone stays gray, dark wood grain remains readable in shade, no amber or yellow cast, lamps unlit.",
+      "checks": "南门北厅、东书房西卧房、西厢临院；冬梅侧缘成丛，主道无池、门道不堵；四马只在西厢外，精养华贵不作破宅。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
+      "state": "clear_day_design_master",
       "ratio": "16:9"
     },
     {
@@ -361,10 +313,10 @@
       "asset_ids": [
         "S03"
       ],
-      "first_batch": 6,
-      "body_en": "A modest old Chinese reception hall facing south into an open courtyard, a fixed large wooden table in the hall and a separate small portable table beside its doorway, east passage toward a study, west passage toward a bedroom. Fine repaired timber joinery, faded paint and a rain basin in one corner, overcast morning light from the south opening.",
-      "checks": "固定大案与可移动小案分开，真票在内、来人隔门",
-      "state": "morning",
+      "first_batch": 0,
+      "body_en": "A lofty south-facing reception hall in an ancestral Chinese mansion. A fixed heavy dark-hardwood table stands deep inside: exceptionally thick broad top, deep cloud-scroll carved apron, stout structural legs, fine joinery and selective gilding. Substantial high-backed chairs, freestanding tall cabinets, long display tables and thick-framed carved screens furnish distinct side bays; large porcelain, bronze vessels and scholar rocks arranged in measured groups. A separate smaller portable side table stands by the doorway. East passage to the study, west to the bedroom, central aisle clear. Hand-worked white plaster and dressed pale stone, empty hall. Bright natural neutral-white daylight from the courtyard and existing lattice openings, with skylight and reflected light from pale plaster and stone; white walls stay white, blue-gray stone stays gray, dark wood grain remains readable in shade, no amber or yellow cast, lamps unlit.",
+      "checks": "固定大案深处，门边小案可搬且不能互换；重工鎏金暗纹、陈设丰富、通道完整；真票始终在内。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
+      "state": "clear_day_design_master",
       "ratio": "16:9"
     },
     {
@@ -375,9 +327,9 @@
         "S03-W"
       ],
       "first_batch": 0,
-      "body_en": "A practical west guest room opening east onto an old Chinese courtyard, folded temporary bedding, separate personal travel bags along the inner wall, a low bench and plain iron cooking pot. Neatly used timber and cotton, soft cool morning light from the open east-facing door, empty room with a clear passage to the courtyard.",
-      "checks": "是九卒临住处，不是外库；九套铺盖与包后期逐件摆，不靠MJ数数",
-      "state": "morning",
+      "body_en": "A richly furnished west guest-room suite opening east onto the ancestral mansion courtyard. Individual carved hardwood canopy beds with stout posts and layered carved cornices, ivory brocade bedding, pale-jade curtains, substantial freestanding cabinets and framed screens. Local gilding and fine inlay follow the carving. Show one coherent room view; other beds remain in adjoining rooms of the existing five-bed plan. Separate personal-luggage, dry-equipment and meal-preparation zones; an ordinary travel cooking pot is kept off the beds. Clear exit, empty room, no floor pallets or horses. Bright clear winter morning after rain, damp stone retained, natural neutral-white daylight and skylight, no amber or yellow cast, lamps unlit.",
+      "checks": "正式独立架子床，总计五床由平面逐间核数，不强求单图五床；行囊、器物、饭食与床具分区；马只在室外。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
+      "state": "clear_morning_after_rain",
       "ratio": "16:9"
     },
     {
@@ -386,9 +338,9 @@
       "asset_ids": [
         "S04"
       ],
-      "first_batch": 5,
-      "body_en": "A small old Chinese study, an inward-bolted wooden door to the corridor, a paper lattice window facing the inner courtyard with a low wooden cabinet directly beneath it, a desk and a plain standing bronze mirror on the desk. Warm oil lamp on the desk, weak cool night light through the paper window, polished aged timber, empty room, no symbols or altar.",
-      "checks": "窗朝府内、窗下柜、门内闩、铜镜案灯位置可复现；无祭坛、暗门光",
+      "first_batch": 0,
+      "body_en": "A lofty expansive ancestral Chinese study with writing, reading, reception and resting zones separated by heavy carved beams and thick-framed screens. A monumental but usable dark-hardwood writing desk: thick broad top, deeply carved cloud-scroll apron, stout legs, selective gilding and small mother-of-pearl inlay. Freestanding book cabinets, substantial display shelves, long tables, large porcelain and bronze vessels, scholar rocks and a carved daybed occupy the perimeter. A plain bronze mirror, shaded oil lamp and cup retain their fixed usable desk positions. The ordinary inward door bolt, courtyard lattice window and low cabinet directly beneath it remain in a compact clear action area. Bare stone at the cup-fall position; rugs only in the distant sitting zone. Cool night window light and localized warm desk lamp, no glowing mechanism, empty room.",
+      "checks": "大书房四功能区，家具深木重雕鎏金暗纹；案窗门动作邻接不放大；普通铜镜、杯落裸石、柜在窗下、内闩可见；无密室线索。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
       "state": "night",
       "ratio": "16:9"
     },
@@ -399,8 +351,8 @@
         "S05"
       ],
       "first_batch": 0,
-      "body_en": "A small Chinese bedroom separate from the study, a plain wooden bed against the inner wall, low bedside table, cloth screen and clear access from the corridor door. A sheltered oil lamp lights the bed gently, cool night ambience at a paper window, warm-gray bedding and repaired fine timber, no mirror or broken cup.",
-      "checks": "与书房分房；不复制碎杯、铜镜、松窗闩",
+      "body_en": "The private bedchamber of an ancestral Chinese mansion, separate from the study. A substantial carved dark-hardwood canopy bed against the inner wall, stout posts, layered deeply carved cornice, selective gilding and dark tonal ornament. Ivory brocade bedding and pale-jade silk curtains tied aside, a thick-topped bedside table, large freestanding wardrobe and heavy carved screen. The familiar bed height and clear bedside care space remain connected directly to the corridor door. Cool night ambience and one sheltered local warm bedside lamp, no mirror or broken cup, empty room.",
+      "checks": "正式豪华床具，床边容照料者、帘侧收不遮伤者；与书房分室，不复制铜镜碎杯窗闩。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
       "state": "night",
       "ratio": "16:9"
     },
@@ -411,9 +363,9 @@
         "S06"
       ],
       "first_batch": 0,
-      "body_en": "A small rear courtyard behind an old Chinese reception hall, a well and washing basin along the side, a short covered passage leading back to the front courtyard. Damp gray paving, plain wooden water bucket, cool overcast morning with soft sky reflections in the basin, empty safe walkway.",
-      "checks": "韩在府内洗手，不外出；井与外库门不混成同一点",
-      "state": "morning",
+      "body_en": "The spacious working rear courtyard of the same ancestral Chinese mansion, substantial carved timber framing and carefully dressed blue-gray paving. A practical stone well, ordinary washing basin, wooden bucket and laundry rack occupy the side beside winter evergreen planting. The existing short covered passage back to the hall remains clear. Craftsmanship is coherent with the mansion but utility objects remain practical, no people. Bright clear winter morning after rain, damp stone retained, natural neutral-white daylight and skylight, no amber or yellow cast, lamps unlit.",
+      "checks": "后院华贵木作与实用井桶并存；韩府内洗手、杜廊口交接，井与外库不混点。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
+      "state": "clear_morning_after_rain",
       "ratio": "16:9"
     },
     {
@@ -424,8 +376,8 @@
         "S06-K"
       ],
       "first_batch": 0,
-      "body_en": "The exterior doorway of an ordinary old storage room beside a rear courtyard passage, simple unsealed wooden door, worn threshold and plain wall, warm spill from a corridor oil lantern against a cool rainy night. Door partly ajar into unlit ordinary storage, contents not visible.",
-      "checks": "第一集无封条、不展示里面、无遗信或发光机关",
+      "body_en": "The exterior storage-room doorway on the east rear passage of an ancestral Chinese mansion. Thick dark timber door leaves, deeply framed carved borders and carefully worked bronze fittings, solid threshold and textured pale plaster. Lower ceremonial rank than the main hall, no treasury display. Door slightly ajar but storage interior not displayed. Cool rainy-night ambience and local warm spill from the existing corridor lamp. No seal, guards or glowing mechanism.",
+      "checks": "外库外观精整，等级低于正厅；首夜无封、不展示内部，不以奢华暴露隐室或遗信。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
       "state": "night",
       "ratio": "16:9"
     },
@@ -440,21 +392,33 @@
       "checks": "只有主动收工局部；不画坠崖、尸体、现代正脸",
       "state": "day",
       "ratio": "16:9"
+    },
+    {
+      "key": "S03-CORRIDOR",
+      "name": "顾府连廊与书房门口夜景",
+      "asset_ids": [
+        "S03"
+      ],
+      "first_batch": 0,
+      "body_en": "A deep covered veranda of the ancestral Chinese mansion, massive carved timber columns and layered beam brackets, thick-framed lattice transoms, fine gilded relief and dressed blue-gray stone. Winter plum at the courtyard edge. Study door and adjacent seated waiting area remain close together; ordinary laundry rack stays clear of the walking line. North hall and courtyard gateway appear through successive column frames without compressing distance. Cool clear night ambience and small sheltered practical lamps illuminating only nearby wood, no global yellow or blue tint, empty set.",
+      "checks": "同一POST-PLAN-COURT平面；韩与顾伯在书房紧邻廊下，外院杜另有距离，不能隔院瞬移；衣架不挡门。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。",
+      "state": "night",
+      "ratio": "16:9"
     }
   ],
   "props": [
     {
       "id": "P01",
-      "name": "双轮敞棚小车",
+      "name": "四驾封闭精致豪华马车｜空车母版",
       "first_batch": 0,
-      "body_en": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, one central draw pole for a side-by-side two-horse team and visible wheel hubs, one small enclosed travel lantern fixed at the front, side three-quarter view on neutral ground, diffuse studio light, complete unobstructed cart silhouette, no horses, no people.",
-      "checks": "双轮低敞棚车，双马并排牵引用中央车辕外观，一盏有罩小行灯固定车前；空车不生成马。两匹牵引马另做，与车具组合时核接触及遮挡，不复用单马双侧辕构型；受阻连两马留林道，绝非王寿租车。车具仅影视外观，结构和动物安全由专业团队审阅。",
+      "body_en": "One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy.",
+      "checks": "四马并列牵引的封闭豪华车，固定四轮、实体顶、右侧铰接门及踏阶、独立外驾座；精雕深漆与克制鎏铜，不改成露天敞棚或帝王龙辇。车厢不透明，车灯不自动照穿侧壁；与已选四匹牵引马合成时核验数量及比例。空车探索尚未生成；结构、驾乘与动物安全须专业审阅。",
       "ratio": "4:3"
     },
     {
       "id": "P02",
       "name": "顾砚软口私人行囊",
-      "first_batch": 9,
+      "first_batch": 0,
       "body_en": "One small soft-mouthed dark cloth travel bag, tied opening, worn dense cotton, modest bulge from folded papers and personal belongings, three-quarter object view on warm-gray ground, soft side light revealing seams.",
       "checks": "软口和小体量，不用许照邻方口包；军引、布套、零钱可容纳",
       "ratio": "4:3"
@@ -470,7 +434,7 @@
     {
       "id": "P04",
       "name": "褐色布套与旧票",
-      "first_batch": 10,
+      "first_batch": 0,
       "body_en": "One small brown cloth sleeve with several folded yellowed paper slips resting beside its opening, neat old creases, understated everyday military supply paperwork, top-down view on neutral cloth under diffuse light, blank surfaces for later lettering.",
       "checks": "先定套与票的比例；闭合/打开派生不得变成新证物或秘籍",
       "ratio": "4:3"
@@ -478,7 +442,7 @@
     {
       "id": "P06",
       "name": "E1a领条空底",
-      "first_batch": 11,
+      "first_batch": 0,
       "body_en": "One narrow plain off-white paper slip laid flat, gently uneven handmade edges, a large clear lower area for later recipient and return-location lettering, top-down evenly lit object photograph, no writing.",
       "checks": "必须保留收件人空白；无车行印、无官府大印，文字后制",
       "ratio": "4:3"
@@ -550,9 +514,9 @@
     {
       "id": "P16",
       "name": "单片退制阵甲",
-      "first_batch": 12,
+      "first_batch": 0,
       "body_en": "One small worn copper-colored fictional training plate with restrained engraved channels, a plain attachment loop and edge wear, dark neutral background, raking side light showing shallow relief, unlit metal.",
-      "checks": "一片母形、无悬浮；九人的旧磨痕后期做个体变体，不让新图增加法力",
+      "checks": "一片母形、无悬浮；五人的旧磨痕后期做个体变体，不让新图增加法力",
       "ratio": "4:3"
     },
     {
@@ -560,7 +524,7 @@
       "name": "退籍路凭空底",
       "first_batch": 0,
       "body_en": "One modest folded retirement travel paper wrapped in plain dry cloth, blank paper face with a small reserved equipment-record area, flat object study under diffuse light.",
-      "checks": "九人分属姓名后制，不能用顾砚军引；不变召令",
+      "checks": "五人分属姓名后制，不能用顾砚军引；不变召令",
       "ratio": "4:3"
     },
     {
@@ -577,15 +541,34 @@
       "body_en": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor.",
       "ratio": "4:3",
       "first_batch": 0,
-      "checks": "只探索单匹骑乘马母形，不是八匹成组结果；旅鞍不同于P01挽具，后续按H01—H08派生个体与绑定骑手"
+      "checks": "单匹普通骑乘马母形；后制分别锁定H01、H02、H05、H08四匹，保持各自骑手映射；不是P01四驾牵引马，不新加韩青坐骑。"
     },
     {
       "id": "P20",
-      "name": "九卒轻皮甲空甲母形",
-      "body_en": "One fictional period short light leather armor costume displayed on a faceless neutral torso stand, matte dark-brown leather, soft shoulder edges, thin padded lining, short split skirt panels, cloth-bound edges and sparse dark rivets, visible empty collar opening, carefully maintained wear, no metal breastplate, no glowing marks, no helmet, no weapons, no modern tactical vest, isolated three-quarter costume study, diffuse neutral light.",
+      "name": "五卒轻皮内甲独立母形",
+      "body_en": "One removed fictional period light leather under-armor on a faceless neutral torso stand, thin close-fitting dark-brown leather panels, soft shoulder edges, compact short lower panels, discreet cloth-bound seams and concealed fastenings, subtle maintained wear, isolated three-quarter costume study in diffuse light, no outer jacket, no long armored skirt, no glowing marks, no weapons.",
       "ratio": "4:3",
       "first_batch": 0,
-      "checks": "P20只是九套同形轻甲母形；不改变各人衣色、不替代P16导息铜片、不穿透发光；再按九人体量派生，非实物防护性能证明"
+      "checks": "只做单独取下的P20内甲母形；正式出场穿在高级劲装里面，只露局部暗皮边与受力轮廓。五人各自体量适配，非外披胸甲；P16另计，外衣不透明，暗纹非导息电路；无实物防护验证。"
     }
-  ]
+  ],
+  "costume_priority": [
+    "C01",
+    "C03",
+    "C16",
+    "C04",
+    "C06"
+  ],
+  "architecture_direction": {
+    "scope_asset_ids": [
+      "S03",
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "family_en": "An ancestral compound of a prestigious old Chinese lineage, strictly period architecture: massive timber columns, deep tiled eaves, layered carved beam brackets with localized gilding and substantial door frames. Rich craftsmanship within a solemn axial hierarchy, not an imperial palace. No modern New Chinese villa, panoramic glass walls, LED strips, modern sofa grouping or glossy marble tiles.",
+    "daylight_en": "Bright natural neutral-white daylight from the courtyard and existing lattice openings, with skylight and reflected light from pale plaster and stone; white walls stay white, blue-gray stone stays gray, dark wood grain remains readable in shade, no amber or yellow cast, lamps unlit.",
+    "morning_en": "Bright clear winter morning after rain, damp stone retained, natural neutral-white daylight and skylight, no amber or yellow cast, lamps unlit.",
+    "checks": "高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。"
+  }
 }
