@@ -1,0 +1,476 @@
+{
+  "format": "jingshi-production-working-draft",
+  "revision": "v1.9",
+  "states": [
+    {
+      "key": "C01-RAIN-PRE",
+      "name": "原顾雨夜受袭前",
+      "asset_ids": [
+        "C01"
+      ],
+      "owner": "C01",
+      "parent": "MB-C01-FULL",
+      "scenes": [
+        "GJ-EP01-SC01"
+      ],
+      "costume_en": "rain-soaked ink-blue travel robe over smoky-gray layers, old bandaging concealed under the left shoulder, both feet grounded, right hand holding a plain sheathed travel blade",
+      "checks": "受袭前未有这次擦破；原顾熟练克制；全身左右以角色自身为准"
+    },
+    {
+      "key": "C01-RAIN-POST",
+      "name": "原顾雨夜受袭后",
+      "asset_ids": [
+        "C01"
+      ],
+      "owner": "C01",
+      "parent": "MB-C01-RAIN-PRE",
+      "scenes": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "costume_en": "rain-soaked ink-blue travel robe with a small fresh abrasion tear and restrained blood stain on his own left shoulder, right hand shielding that shoulder, tense but upright stance",
+      "checks": "只有左肩旧伤震动加擦伤；不露深伤、不改脸"
+    },
+    {
+      "key": "C01-DRY",
+      "name": "浅灰干衣与左肩包扎",
+      "asset_ids": [
+        "C01",
+        "C02",
+        "P14"
+      ],
+      "owner": "C01",
+      "parent": "MB-C01-FULL",
+      "scenes": [
+        "GJ-EP01-SC03",
+        "GJ-EP01-SC04",
+        "GJ-EP01-SC05",
+        "GJ-EP01-SC06",
+        "GJ-EP02-SC01",
+        "GJ-EP02-SC02",
+        "GJ-EP02-SC05",
+        "GJ-EP03-SC01",
+        "GJ-EP03-SC02",
+        "GJ-EP03-SC03",
+        "GJ-EP03-SC04",
+        "GJ-EP03-SC05"
+      ],
+      "costume_en": "dry pale-gray inner robe with smoky-gray edging, plain layered cross-collar, bandaging at his own left shoulder, injury-side sleeve worn loose, natural upright resting pose, no weapon in hand",
+      "checks": "C01换衣后与C02同一母版；左臂不作承重；膝碰痛不擅添可见开放伤"
+    },
+    {
+      "key": "C06-RAIN-PRE",
+      "name": "黄祁雨夜遮面状态",
+      "asset_ids": [
+        "C06"
+      ],
+      "owner": "C06",
+      "parent": "MB-C06-FULL",
+      "scenes": [
+        "GJ-EP01-SC01"
+      ],
+      "costume_en": "wet black and charcoal travel clothes, plain dark rain hat, lower-face cloth covering only the lower half of the face, brows and eyes visible, right hand at a plain sheathed blade",
+      "checks": "面罩是可脱外观，不替代独立脸；无徽记；本次制作用右手持刃"
+    },
+    {
+      "key": "C06-RAIN-POST",
+      "name": "黄祁败退伤衣",
+      "asset_ids": [
+        "C06"
+      ],
+      "owner": "C06",
+      "parent": "MB-C06-RAIN-PRE",
+      "scenes": [
+        "GJ-EP01-SC01"
+      ],
+      "costume_en": "wet black and charcoal travel layers, displaced lower-face cloth showing part of his side face, a small torn area and restrained blood stain on his own right upper arm, right arm lowered, guarded standing posture",
+      "checks": "右上臂新伤，与顾砚左肩不同；不因换角度换侧"
+    },
+    {
+      "key": "C07-RAIN",
+      "name": "罗顺雨帽与湿衣",
+      "asset_ids": [
+        "C07"
+      ],
+      "owner": "C07",
+      "parent": "MB-C07-FULL",
+      "scenes": [
+        "GJ-EP01-SC01"
+      ],
+      "costume_en": "ordinary gray-brown rain hat over tied hair, wet gray-brown short travel coat with dark blue inner collar, damp fitted sleeves, grounded stance",
+      "checks": "无黄祁同款伤口；接触转沾须后续按实际动作"
+    },
+    {
+      "key": "C02-FEAR",
+      "name": "今顾收住的害怕",
+      "asset_ids": [
+        "C02"
+      ],
+      "owner": "C01",
+      "parent": "MB-C01-DRY",
+      "scenes": [
+        "GJ-EP01-SC05",
+        "GJ-EP01-SC06",
+        "GJ-EP02-SC02"
+      ],
+      "costume_en": "dry pale-gray cross-collar inner robe, loose left shoulder wrapping, lips parting slightly before he holds back a question, eyes alert and unsure, head-and-shoulders portrait",
+      "checks": "同脸、只变表演；不换瞳色，不化妆成第二个人"
+    },
+    {
+      "key": "C02-FOCUS",
+      "name": "今顾问清再交",
+      "asset_ids": [
+        "C02"
+      ],
+      "owner": "C01",
+      "parent": "MB-C01-DRY",
+      "scenes": [
+        "GJ-EP03-SC01",
+        "GJ-EP03-SC02",
+        "GJ-EP03-SC05"
+      ],
+      "costume_en": "dry pale-gray cross-collar inner robe, left sleeve loose, calm direct gaze with a slight tightening at the mouth, head-and-shoulders portrait",
+      "checks": "认真来自选择，不靠邪魅笑或新战斗装备"
+    }
+  ],
+  "extras": [
+    {
+      "key": "BAG-C23",
+      "name": "许照邻方口包",
+      "asset_ids": [
+        "C23"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One square-mouthed structured blue-cloth travel satchel with a fitted cover flap, carefully tied bindings and visible edge repairs, neutral object study with soft side light.",
+      "checks": "与P02软口小行囊必须一眼区分；非新P号",
+      "ratio": "4:3"
+    },
+    {
+      "key": "P10-BOWL",
+      "name": "热粥碗",
+      "asset_ids": [
+        "P10"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One plain warm-gray ceramic bowl containing softly steaming rice porridge, simple everyday vessel, tabletop object view, diffuse side light and subtle glaze reflections.",
+      "checks": "冷热改变蒸汽，不改变碗；不能复制书房碎杯",
+      "ratio": "4:3"
+    },
+    {
+      "key": "P10-WATER",
+      "name": "温水杯",
+      "asset_ids": [
+        "P10"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One straight-sided plain brown ceramic water cup with warm water, modest daily vessel, neutral object view, diffuse side light.",
+      "checks": "与P09 pale圆口杯母形不同；顾伯留右手边",
+      "ratio": "4:3"
+    },
+    {
+      "key": "P18-POUCH",
+      "name": "共同饭钱袋",
+      "asset_ids": [
+        "P18"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One small plain dark-gray drawstring coin pouch, modest weight sagging at the bottom, intact cotton cord and fine old stitches, isolated object study, diffuse light.",
+      "checks": "合凑饭钱，不把各人安家钱都装在此袋",
+      "ratio": "4:3"
+    },
+    {
+      "key": "S04-MIRROR",
+      "name": "书房铜镜实体",
+      "asset_ids": [
+        "S04"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One plain standing bronze mirror on a modest dark wooden support, softly imperfect ordinary reflective surface, three-quarter object view, neutral background, angled diffuse light.",
+      "checks": "普通反射、不出现第二人格；镜内人需后制匹配",
+      "ratio": "4:3"
+    },
+    {
+      "key": "S04-LATCH",
+      "name": "书房门内闩",
+      "asset_ids": [
+        "S04"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "The inside of a plain Chinese timber study door with one simple horizontal wooden bolt mounted on the door, worn contact marks, close object detail, warm practical lamp illumination.",
+      "checks": "开闭两态同构件，原顾亲手闩、今顾亲手开；不是密码机关",
+      "ratio": "4:3"
+    },
+    {
+      "key": "S04-LAMP",
+      "name": "书房案灯",
+      "asset_ids": [
+        "S04"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One modest oil lamp on an aged wooden desk, a small steady flame sheltered by a plain pale shade, warm localized light with quick falloff into the room, realistic soot-free everyday object.",
+      "checks": "光源不漂浮；定灯座位置后才延展夜景",
+      "ratio": "4:3"
+    },
+    {
+      "key": "S03-TABLE",
+      "name": "门院可移动小案",
+      "asset_ids": [
+        "S03"
+      ],
+      "phase": "A",
+      "parent": "MB-ENV-S03-HALL",
+      "body_en": "One small portable wooden side table, four plain legs, enough tabletop for one narrow paper and a writing brush, fine repaired joinery, isolated three-quarter object view under diffuse light.",
+      "checks": "不同于前厅固定大案；门外人只能伸手够到它",
+      "ratio": "4:3"
+    },
+    {
+      "key": "S03-LARGE",
+      "name": "前厅固定大案",
+      "asset_ids": [
+        "S03"
+      ],
+      "phase": "B",
+      "parent": "MB-ENV-S03-HALL",
+      "body_en": "One substantial old wooden reception table, broad heavy top, plain strong legs, refined worn joinery and a dark satin wood surface, isolated three-quarter object view under diffuse light.",
+      "checks": "真票在更里面；不移动到门槛、不与小案互换",
+      "ratio": "4:3"
+    },
+    {
+      "key": "P01-HORSE",
+      "name": "小车配套棕马",
+      "asset_ids": [
+        "P01"
+      ],
+      "phase": "B",
+      "parent": "MB-P01-BASE",
+      "body_en": "One ordinary brown travelling horse with plain period leather harness, standing calmly on neutral ground in full side view, realistic proportions, diffuse daylight, no rider.",
+      "checks": "原创造型细化，一马双轮车；无独立车夫、不作驾驭教学",
+      "ratio": "4:3"
+    },
+    {
+      "key": "WEAPON-BLADE",
+      "name": "旅用刀鞘外观族",
+      "asset_ids": [
+        "C01",
+        "C03",
+        "C16"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One plain sheathed period travel blade with a modest dark handle, restrained worn metal fittings and a cloth-wrapped grip, isolated side view under diffuse light, fictional film prop design.",
+      "checks": "仅母形提案；不自动分给所有九卒，不加神兵纹章或现实制作参数",
+      "ratio": "4:3"
+    },
+    {
+      "key": "WEAPON-SPEAR",
+      "name": "罗百泉长兵外观",
+      "asset_ids": [
+        "C19"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One plain long wooden-shafted spear film prop with restrained dark-metal fittings, full side silhouette against neutral gray, soft even light.",
+      "checks": "老枪手视觉附件；不以长度数据或实际战术指导出图",
+      "ratio": "16:9"
+    },
+    {
+      "key": "WEAPON-BOW",
+      "name": "崔望野裹弓",
+      "asset_ids": [
+        "C20"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One simple traditional bow wrapped in dark rain-protection cloth, curved silhouette still readable under the tied covering, horizontal isolated object study, diffuse light.",
+      "checks": "开篇防雨包裹，非现代复合弓；军中重械不凭空出现",
+      "ratio": "4:3"
+    },
+    {
+      "key": "KITCHEN-SALT",
+      "name": "灶边糖盐双罐组",
+      "asset_ids": [
+        "S03-W"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "A matched pair of ordinary squat unglazed gray kitchen storage jars with simple lids, slightly different rim wear, placed side by side, granulated sugar in the left jar and fine salt in the right jar, no lettering, isolated prop set study, neutral soft light.",
+      "checks": "一组两只灶用罐，先拿糖后换盐；不复用前厅小糖罐P15，不靠生成汉字辨认，摆位与罐口磨耗人工锁定",
+      "ratio": "4:3"
+    },
+    {
+      "key": "C11-KIT",
+      "name": "郎中诊具包",
+      "asset_ids": [
+        "C11"
+      ],
+      "phase": "B",
+      "parent": null,
+      "body_en": "One modest blue-gray cloth medical satchel resting closed, simple compartments and neat bindings, plain daily professional equipment, isolated object view under diffuse light.",
+      "checks": "与顾伯P10箱区分，不给现代听诊器或仙医法器",
+      "ratio": "4:3"
+    }
+  ],
+  "manual_tasks": [
+    {
+      "key": "PLAN-COURT",
+      "name": "顾府拓扑确认图",
+      "asset_ids": [
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "deliverable": "无人物二维平面图，标南正门、北厅、东书房、西卧房、西厢、侧道、后院、外库、同街短墙。",
+      "acceptance": "通路、视线、门槛、小案与固定大案都对上；尺寸由选版后确定，不能用生成漂亮院图反改拓扑。"
+    },
+    {
+      "key": "TEXT-DOCS",
+      "name": "六类文书后期正字",
+      "asset_ids": [
+        "P03",
+        "P04",
+        "P06",
+        "P07",
+        "P08",
+        "P17"
+      ],
+      "deliverable": "军引姓名、旧票有限字样、E1a、E1b、收件纸、九人路凭的可编辑字层；具体见文书后制与非MJ任务。",
+      "acceptance": "E1a不署接收人，E1b无梁朔，P08两纸与刀分别记；未定车行名等字段不制作可读特写。"
+    },
+    {
+      "key": "P09-BROKEN",
+      "name": "碎杯同源派生",
+      "asset_ids": [
+        "P09",
+        "S04"
+      ],
+      "deliverable": "选中完整杯后制作同器形碎片和地面水痕的分层图；不用重新抽一个杯子。",
+      "acceptance": "釉色、杯口曲率同源，碎片只留书房；破碎形态不证明实际碰撞安全。"
+    },
+    {
+      "key": "P06-STATE",
+      "name": "E1a空白到墨点皱角",
+      "asset_ids": [
+        "P06"
+      ],
+      "deliverable": "同一正字底稿的平整、滴墨、皱角三态，编辑软件保留图层。",
+      "acceptance": "墨点不变签名；皱角不遮正文；不靠每次重新生成变纸形。"
+    },
+    {
+      "key": "P16-NINE",
+      "name": "九片阵甲对应表",
+      "asset_ids": [
+        "P16",
+        "C03",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23"
+      ],
+      "deliverable": "同族母形的九片磨耗变体、对应角色与隐蔽佩置位置表，单片独立文件。",
+      "acceptance": "九片各归九人、无第十片；近景个体磨耗不混、非勋章不是现代电子板。"
+    },
+    {
+      "key": "ENSEMBLE",
+      "name": "九卒辨识排版",
+      "asset_ids": [
+        "C03",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23"
+      ],
+      "deliverable": "选中九人后人工拼接角色编号与中性全身图；另排顾砚作对照，不塞进九人名单。",
+      "acceptance": "精确人数、各自脸和身高比例检查；拼版只验证造型，不称已完成阵战镜头。"
+    },
+    {
+      "key": "FX-COPPER",
+      "name": "合息效果分层测试",
+      "asset_ids": [
+        "P16",
+        "S01",
+        "S03"
+      ],
+      "deliverable": "同一空场底的无光／短促暗纹／兵器接触雨线偏折三个独立层；叠合后看得见实体接触。",
+      "acceptance": "不画全天罩、不裂地、不填地、不召魂；前三集只有归旌有限效果，没有世隙。"
+    },
+    {
+      "key": "INTEGRATION",
+      "name": "人景同框绑定测试",
+      "asset_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C16",
+        "S04",
+        "S03"
+      ],
+      "deliverable": "选脸、干衣和空间后做顾砚单人入书房、顾伯扶右臂、门内三人站位三张独立检查图。",
+      "acceptance": "同脸、左伤、右侧扶持、头身比例、同光源及通路一致；不同时改脸衣服背景。"
+    },
+    {
+      "key": "AUDIO",
+      "name": "配音与声场清单",
+      "asset_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C08",
+        "C11",
+        "C12",
+        "C14",
+        "C15",
+        "C16",
+        "C20",
+        "C22",
+        "C23"
+      ],
+      "deliverable": "按实际台词的声位表、现代记忆一句、雨/轮/杯/灯/门/街/水/纸与克制音乐的分轨计划。",
+      "acceptance": "C01/C02生理声线同源、反应节律有别；杨舟仅记忆声音，无跨世通信；此项不在MJ制作。"
+    },
+    {
+      "key": "ACTION",
+      "name": "动作与空间安全审阅",
+      "asset_ids": [
+        "S01",
+        "S03",
+        "S04",
+        "P01",
+        "P11"
+      ],
+      "deliverable": "桥战、门边止暴、试窗三段分别作低风险预演或数字预演，之后再锁镜头与时长。",
+      "acceptance": "九卒胜果与退路清楚；无现实刃器危险操作、车辆/湿地/高差由专业人员评估；不是文字已批准安全。"
+    },
+    {
+      "key": "BACKGROUND",
+      "name": "街景群演与常用摆设",
+      "asset_ids": [
+        "S02",
+        "S03-W",
+        "S06",
+        "S03"
+      ],
+      "deliverable": "匿名成人群演外观族、汤摊锅碗、铺盖、木盆、粮袋等摆设清单；按景别选普通图库授权素材或原创后制。",
+      "acceptance": "不将路人变情报角色；九人铺盖分件摆放，数量由人工核；近景新增面孔才另排任务。"
+    }
+  ]
+}

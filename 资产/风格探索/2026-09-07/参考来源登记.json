@@ -1,0 +1,185 @@
+{
+  "format": "jingshi-reference-register",
+  "referenceAssets": [
+    {
+      "id": "raw-ningqingyan-20260907",
+      "path": "raw/ningqingyan/ningqingyan.png",
+      "sha256": "a1ba8c6df6cde2d7f96921bfd601c27db95c7806e28bcafe786d6ac521ca3111",
+      "width": 1904,
+      "height": 2544,
+      "decodeStatus": "complete",
+      "visualStatus": "observed",
+      "declaredTarget": "C27",
+      "selectionStatus": "candidate_reference",
+      "roles": [
+        {
+          "role": "appearance",
+          "scope": "C27 clothing and ornaments",
+          "preserve": [
+            "moon-white icy-blue silver family",
+            "layered embroidery"
+          ],
+          "exclude": [
+            "automatic transfer to other character identities"
+          ]
+        },
+        {
+          "role": "style",
+          "scope": "proposal for general light and fabric treatment",
+          "borrow": [
+            "soft directional light",
+            "fine layered fabric"
+          ],
+          "exclude": [
+            "face identity",
+            "all-character pale skin",
+            "all-scene daytime lighting"
+          ]
+        }
+      ],
+      "author": null,
+      "generator": null,
+      "sourcePrompt": null,
+      "presentAtRecheck": true
+    },
+    {
+      "id": "raw-yinzhaoye-20260907",
+      "path": "raw/yinzhaoye/yinzhaoye.png",
+      "sha256": "dc240f5668a5548223ca5eabaecb2e0e41aac01a8e1d7f5660476cdfd5dac46d",
+      "width": 1904,
+      "height": 2544,
+      "decodeStatus": "complete",
+      "visualStatus": "observed",
+      "declaredTarget": "C28",
+      "selectionStatus": "candidate_reference",
+      "roles": [
+        {
+          "role": "performance",
+          "scope": "C28 still portrait",
+          "borrow": [
+            "turned shoulders",
+            "responsive gaze",
+            "small smile"
+          ],
+          "exclude": [
+            "inferred temporal performance",
+            "identity proof"
+          ]
+        },
+        {
+          "role": "appearance",
+          "scope": "C28 wardrobe comparison",
+          "replace": [
+            "dominant pale clothing with proposed red-plum family"
+          ],
+          "exclude": [
+            "automatic face replacement"
+          ]
+        }
+      ],
+      "author": null,
+      "generator": null,
+      "sourcePrompt": null,
+      "presentAtRecheck": true
+    },
+    {
+      "id": "raw-yuanluo-20260907",
+      "path": "raw/building/yuanluo.png",
+      "sha256": "14eefb80a8795430f02fdb4cd1c5a996c1cc372f8bb437c59564fe3246bee9fe",
+      "width": 2944,
+      "height": 1648,
+      "decodeStatus": "complete",
+      "visualStatus": "observed",
+      "declaredTarget": "architecture reference",
+      "selectionStatus": "style_candidate_not_scene_master",
+      "roles": [
+        {
+          "role": "material",
+          "scope": "architectural finish",
+          "borrow": [
+            "detailed dark timber",
+            "gray roof tile",
+            "light plaster walls"
+          ],
+          "exclude": [
+            "signage",
+            "unverified real location"
+          ]
+        },
+        {
+          "role": "composition",
+          "scope": "architectural depth",
+          "borrow": [
+            "framed view through a dark portico",
+            "layered eaves"
+          ],
+          "exclude": [
+            "central pool in S03",
+            "full geography inferred from single frame",
+            "reference figures"
+          ]
+        }
+      ],
+      "author": null,
+      "generator": null,
+      "sourcePrompt": null,
+      "presentAtRecheck": true
+    },
+    {
+      "id": "raw-chengshi-full-20260907",
+      "path": "raw/building/chengshi.png",
+      "sha256": "51684ce915218cba80b10dcdf39d2c95959fe913217e654e97613816ea6a0a89",
+      "width": 2944,
+      "height": 1648,
+      "byteLength": 7721064,
+      "decodeStatus": "complete",
+      "visualStatus": "observed",
+      "declaredTarget": "city architecture reference",
+      "selectionStatus": "style_candidate_not_city_map",
+      "roles": [
+        {
+          "role": "material",
+          "scope": "city architecture treatment",
+          "borrow": [
+            "layered gray roofs",
+            "dark timber",
+            "localized red cloth",
+            "working waterfront"
+          ],
+          "exclude": [
+            "specific dynastic or real-location claims"
+          ]
+        },
+        {
+          "role": "composition",
+          "scope": "urban scale",
+          "borrow": [
+            "high viewpoint",
+            "atmospheric depth",
+            "boats and human-scale activity"
+          ],
+          "exclude": [
+            "fixed city topology",
+            "new aerial shot in first episode",
+            "automatic identification of foreground bridge as S01"
+          ]
+        }
+      ],
+      "author": null,
+      "generator": null,
+      "sourcePrompt": null,
+      "readHistory": [
+        {
+          "sha256": "b69c0154f10807175d5297a36275e0206a0e4a54963a5d42da943a6665d2506d",
+          "byteLength": 935125,
+          "decodeStatus": "truncated",
+          "visualStatus": "not_observed"
+        },
+        {
+          "state": "temporarily_absent_at_intermediate_recheck"
+        }
+      ],
+      "presentAtRecheck": true
+    }
+  ]
+}

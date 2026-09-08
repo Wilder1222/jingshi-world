@@ -1,0 +1,539 @@
+{
+  "format": "jingshi-production-working-draft",
+  "canonical": false,
+  "revision": "v1.9",
+  "baseline_commit": "e0f44e1",
+  "scope": [
+    "GJ-EP01",
+    "GJ-EP02",
+    "GJ-EP03"
+  ],
+  "media_status": "not_generated",
+  "surface": "Midjourney web",
+  "model": "8.2",
+  "capability_verified_at": "2026-09-08",
+  "manual_preflight_required": true,
+  "reference_policy": "本包基础任务纯文字、无上传引用；派生任务须先选同一资产母版并检查使用权。",
+  "settings": {
+    "raw": true,
+    "stylize": 75,
+    "chaos": 0,
+    "weird": 0,
+    "personalization": "executor_must_disable_or_record",
+    "moodboard": "off_for_baseline",
+    "pinned_references": "clear_for_baseline",
+    "quality": "do_not_send",
+    "hd": "not_assumed"
+  },
+  "style_en": "Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+  "characters": [
+    {
+      "id": "C01",
+      "name": "顾砚共用古代身份",
+      "age": 24,
+      "tier": "A",
+      "first_batch": 1,
+      "identity_en": "a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build",
+      "hair_en": "long black hair in one neat topknot with a plain dark wooden pin",
+      "costume_en": "fitted ink-blue cross-collar travel robe, smoky-gray inner collar, dense cotton twill and fine wool, narrow sleeves, plain belt",
+      "checks": "同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸",
+      "shares": [
+        "C02"
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "韩青",
+      "age": 25,
+      "tier": "A",
+      "first_batch": 2,
+      "identity_en": "a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms",
+      "hair_en": "black hair in a compact topknot tied with gray-blue cloth",
+      "costume_en": "gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs",
+      "checks": "比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军",
+      "shares": []
+    },
+    {
+      "id": "C04",
+      "name": "顾伯",
+      "age": 64,
+      "tier": "A",
+      "first_batch": 3,
+      "identity_en": "a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders",
+      "hair_en": "gray-black hair in a modest small topknot",
+      "costume_en": "smoky-tea long cotton robe with warm-gray inner collar, fine old repairs, sleeves suited to carrying a bowl",
+      "checks": "64岁、圆方脸灰短须，旧而整洁；不去皱变青年、不仙师化",
+      "shares": []
+    },
+    {
+      "id": "C16",
+      "name": "杜长庚",
+      "age": 43,
+      "tier": "A",
+      "first_batch": 4,
+      "identity_en": "a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders",
+      "hair_en": "black hair bound in a plain topknot",
+      "costume_en": "brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt",
+      "checks": "43岁灰鬓、褐围巾、宽肩；不穿将军甲",
+      "shares": []
+    },
+    {
+      "id": "C06",
+      "name": "黄祁",
+      "age": 34,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build",
+      "hair_en": "black hair bound close to the head, face unobscured in this identity study",
+      "costume_en": "matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt",
+      "checks": "与罗顺脸形体量不同；身份母版不蒙面，桥夜状态另做；新伤固定角色自身右上臂",
+      "shares": []
+    },
+    {
+      "id": "C07",
+      "name": "罗顺",
+      "age": 26,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders",
+      "hair_en": "black hair tied simply, ordinary gray-brown rain hat worn back to show the face",
+      "costume_en": "gray-brown short travel coat with dark blue inner collar, fitted dense cotton sleeves",
+      "checks": "26岁方圆脸，雨帽和灰褐衣；不共用黄祁、马六的脸",
+      "shares": []
+    },
+    {
+      "id": "C08",
+      "name": "孙福生",
+      "age": 49,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a broad balanced face, open brows and eyes, smile creases, short tidy beard, sturdy upper body and broad hands",
+      "hair_en": "plain tied black hair with a few gray strands",
+      "costume_en": "warm chestnut short cotton jacket and pale-gray cloth apron, neat collar seams",
+      "checks": "49岁汤摊主人，围腰短须；人物普通但体面，不夸张油污",
+      "shares": []
+    },
+    {
+      "id": "C09",
+      "name": "周成",
+      "age": 36,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a broad forehead, thick eyebrows, bright eyes, rounded jaw, light wheat skin, strong working shoulders",
+      "hair_en": "simply bound black hair",
+      "costume_en": "faded ochre short cotton robe with light-brown inner collar, neat repairs at elbows",
+      "checks": "宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记",
+      "shares": []
+    },
+    {
+      "id": "C10",
+      "name": "丁茂",
+      "age": 39,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a narrow rectangular face, straight relaxed brows, softly defined eye sockets, clear lip line, slender upright frame",
+      "hair_en": "simply bound black hair",
+      "costume_en": "gray-green short robe with smoky-brown inner collar, matte close-woven cotton",
+      "checks": "窄长脸灰绿衣，不画阴险神情或密探面罩",
+      "shares": []
+    },
+    {
+      "id": "C11",
+      "name": "张济",
+      "age": 58,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a long face, clear nose bridge, slim eyebrows, attentive eyes with age lines, gray temples, neatly trimmed moustache, straight back",
+      "hair_en": "graying hair in a plain tied knot",
+      "costume_en": "blue-gray long cotton-linen robe with moon-white inner collar, clean practical cuffs",
+      "checks": "58岁细长面、灰鬓，与顾伯分开；不是发光仙医",
+      "shares": []
+    },
+    {
+      "id": "C12",
+      "name": "王寿",
+      "age": 31,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture",
+      "hair_en": "neatly bound black hair",
+      "costume_en": "faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases",
+      "checks": "真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹",
+      "shares": []
+    },
+    {
+      "id": "C13",
+      "name": "马六",
+      "age": 27,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a long diamond-shaped face, straight brow tails, rounded eyes, defined lips, light neck and shoulders, lean balanced frame",
+      "hair_en": "plain tied black hair",
+      "costume_en": "light-gray short travel clothes with gray-green inner collar, neatly pressed side seams",
+      "checks": "27岁轻巧匀长；西巷正侧脸须同人，不蒙面",
+      "shares": []
+    },
+    {
+      "id": "C14",
+      "name": "赵平",
+      "age": 40,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders",
+      "hair_en": "black hair neatly bound for duty",
+      "costume_en": "deep indigo duty robe with black edges, low-sheen cotton twill, plain belt",
+      "checks": "40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明",
+      "shares": []
+    },
+    {
+      "id": "C15",
+      "name": "孟达",
+      "age": 22,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a long oval youthful adult face, gently lifted brows, broad eyes, light clean jaw, straight shoulders",
+      "hair_en": "black hair neatly bound for duty",
+      "costume_en": "indigo-teal duty robe, lighter than the senior officer's, pale-gray inner collar, narrow sleeves",
+      "checks": "22岁成人、无孟宽短须壮实体量；不是少年儿童",
+      "shares": []
+    },
+    {
+      "id": "C17",
+      "name": "石照川",
+      "age": 38,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build",
+      "hair_en": "plain tightly bound black hair",
+      "costume_en": "indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt",
+      "checks": "宽肩方脸靛布，不夸张巨人化；搬物动作稳定",
+      "shares": []
+    },
+    {
+      "id": "C18",
+      "name": "孟宽",
+      "age": 36,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders",
+      "hair_en": "plain bound black hair",
+      "costume_en": "smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt",
+      "checks": "粗眉短须赭腰带，与孟达绝不共脸",
+      "shares": []
+    },
+    {
+      "id": "C19",
+      "name": "罗百泉",
+      "age": 45,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance",
+      "hair_en": "black-and-gray hair tied simply",
+      "costume_en": "gray-brown travel layers with a lighter inner collar, long clean vertical lines",
+      "checks": "45岁灰短须，前三集正常步态不提前跛行",
+      "shares": []
+    },
+    {
+      "id": "C20",
+      "name": "崔望野",
+      "age": 34,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture",
+      "hair_en": "black hair bound away from the eyes",
+      "costume_en": "dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton",
+      "checks": "瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件",
+      "shares": []
+    },
+    {
+      "id": "C21",
+      "name": "伍成",
+      "age": 29,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms",
+      "hair_en": "plain bound black hair",
+      "costume_en": "light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer",
+      "checks": "29岁轻瘦不幼态，浅褐短褂；跑腿不是杂耍",
+      "shares": []
+    },
+    {
+      "id": "C22",
+      "name": "段平生",
+      "age": 40,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin",
+      "hair_en": "plain bound black hair",
+      "costume_en": "warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer",
+      "checks": "宽厚、米白领巾；厨房与战阵同一人，不能减出九卒",
+      "shares": []
+    },
+    {
+      "id": "C23",
+      "name": "许照邻",
+      "age": 32,
+      "tier": "C",
+      "first_batch": 0,
+      "identity_en": "a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame",
+      "hair_en": "neatly bound black hair",
+      "costume_en": "blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings",
+      "checks": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊",
+      "shares": []
+    }
+  ],
+  "environments": [
+    {
+      "key": "S01",
+      "name": "桥头完整空间",
+      "asset_ids": [
+        "S01"
+      ],
+      "first_batch": 8,
+      "body_en": "A low old stone bridge with an intact traversable deck, a continuous muddy footpath beside the cart route, worn parapets and open space at the approach for a small escort. Empty night setting, cold rain, low warm spill from a practical approach lantern, wet stone reflections, readable dark timber and gray masonry.",
+      "checks": "桥面完整、泥道连续；不生成世隙、裂空或九人一体图",
+      "state": "night_rain",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S02",
+      "name": "南街汤摊与街口",
+      "asset_ids": [
+        "S02"
+      ],
+      "first_batch": 0,
+      "body_en": "An ordinary street in a fictional Chinese capital, layered timber shopfronts, a small covered soup stall beside a continuous walkway, a steaming pot and bowls under warm practical stall lanterns, damp stone paving, cool rainy night beyond the awning. Empty of identifiable people, lived-in rather than a palace avenue.",
+      "checks": "摊位不堵全街；顾府、短墙与西巷相接另由人工平面图锁定",
+      "state": "night",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S03-COURT",
+      "name": "顾府外院",
+      "asset_ids": [
+        "S03"
+      ],
+      "first_batch": 7,
+      "body_en": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center.",
+      "checks": "南正门北前厅、西厢临外院；无中央水池，无额外秘道",
+      "state": "morning",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S03-HALL",
+      "name": "前厅固定大案",
+      "asset_ids": [
+        "S03"
+      ],
+      "first_batch": 6,
+      "body_en": "A modest old Chinese reception hall facing south into an open courtyard, a fixed large wooden table in the hall and a separate small portable table beside its doorway, east passage toward a study, west passage toward a bedroom. Fine repaired timber joinery, faded paint and a rain basin in one corner, overcast morning light from the south opening.",
+      "checks": "固定大案与可移动小案分开，真票在内、来人隔门",
+      "state": "morning",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S03-W",
+      "name": "外院西厢",
+      "asset_ids": [
+        "S03",
+        "S03-W"
+      ],
+      "first_batch": 0,
+      "body_en": "A practical west guest room opening east onto an old Chinese courtyard, folded temporary bedding, separate personal travel bags along the inner wall, a low bench and plain iron cooking pot. Neatly used timber and cotton, soft cool morning light from the open east-facing door, empty room with a clear passage to the courtyard.",
+      "checks": "是九卒临住处，不是外库；九套铺盖与包后期逐件摆，不靠MJ数数",
+      "state": "morning",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S04",
+      "name": "书房",
+      "asset_ids": [
+        "S04"
+      ],
+      "first_batch": 5,
+      "body_en": "A small old Chinese study, an inward-bolted wooden door to the corridor, a paper lattice window facing the inner courtyard with a low wooden cabinet directly beneath it, a desk and a plain standing bronze mirror on the desk. Warm oil lamp on the desk, weak cool night light through the paper window, polished aged timber, empty room, no symbols or altar.",
+      "checks": "窗朝府内、窗下柜、门内闩、铜镜案灯位置可复现；无祭坛、暗门光",
+      "state": "night",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S05",
+      "name": "卧房",
+      "asset_ids": [
+        "S05"
+      ],
+      "first_batch": 0,
+      "body_en": "A small Chinese bedroom separate from the study, a plain wooden bed against the inner wall, low bedside table, cloth screen and clear access from the corridor door. A sheltered oil lamp lights the bed gently, cool night ambience at a paper window, warm-gray bedding and repaired fine timber, no mirror or broken cup.",
+      "checks": "与书房分房；不复制碎杯、铜镜、松窗闩",
+      "state": "night",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S06-WELL",
+      "name": "后院井边",
+      "asset_ids": [
+        "S06"
+      ],
+      "first_batch": 0,
+      "body_en": "A small rear courtyard behind an old Chinese reception hall, a well and washing basin along the side, a short covered passage leading back to the front courtyard. Damp gray paving, plain wooden water bucket, cool overcast morning with soft sky reflections in the basin, empty safe walkway.",
+      "checks": "韩在府内洗手，不外出；井与外库门不混成同一点",
+      "state": "morning",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S06-K",
+      "name": "外库门前",
+      "asset_ids": [
+        "S06",
+        "S06-K"
+      ],
+      "first_batch": 0,
+      "body_en": "The exterior doorway of an ordinary old storage room beside a rear courtyard passage, simple unsealed wooden door, worn threshold and plain wall, warm spill from a corridor oil lantern against a cool rainy night. Door partly ajar into unlit ordinary storage, contents not visible.",
+      "checks": "第一集无封条、不展示里面、无遗信或发光机关",
+      "state": "night",
+      "ratio": "16:9"
+    },
+    {
+      "key": "S07",
+      "name": "现代岩壁局部",
+      "asset_ids": [
+        "S07"
+      ],
+      "first_batch": 0,
+      "body_en": "A close view of an outdoor climbing rock face meeting firm flat ground, a small section of a slack climbing rope, cool diffuse daylight, realistic rough stone and ordinary vegetation at the edge, no people or cliff fall, contemporary outdoor photographic finish.",
+      "checks": "只有主动收工局部；不画坠崖、尸体、现代正脸",
+      "state": "day",
+      "ratio": "16:9"
+    }
+  ],
+  "props": [
+    {
+      "id": "P01",
+      "name": "双轮敞棚小车",
+      "first_batch": 0,
+      "body_en": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, plain shafts and visible wheel hubs, side three-quarter view on neutral ground, diffuse studio light, separated silhouette.",
+      "checks": "本轮原创形制提案；只在桥头，绝非王寿租车；马另做",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P02",
+      "name": "顾砚软口私人行囊",
+      "first_batch": 9,
+      "body_en": "One small soft-mouthed dark cloth travel bag, tied opening, worn dense cotton, modest bulge from folded papers and personal belongings, three-quarter object view on warm-gray ground, soft side light revealing seams.",
+      "checks": "软口和小体量，不用许照邻方口包；军引、布套、零钱可容纳",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P03",
+      "name": "军引空底与雨损",
+      "first_batch": 0,
+      "body_en": "One folded off-white travel document with a softly water-stained lower corner, visible paper fibers and a reserved clear area for lettering, top-down view under even diffuse light, plain background, no writing.",
+      "checks": "正字另贴顾砚；雨损角不吞姓名，军引不与退籍路凭共版",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P04",
+      "name": "褐色布套与旧票",
+      "first_batch": 10,
+      "body_en": "One small brown cloth sleeve with several folded yellowed paper slips resting beside its opening, neat old creases, understated everyday military supply paperwork, top-down view on neutral cloth under diffuse light, blank surfaces for later lettering.",
+      "checks": "先定套与票的比例；闭合/打开派生不得变成新证物或秘籍",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P06",
+      "name": "E1a领条空底",
+      "first_batch": 11,
+      "body_en": "One narrow plain off-white paper slip laid flat, gently uneven handmade edges, a large clear lower area for later recipient and return-location lettering, top-down evenly lit object photograph, no writing.",
+      "checks": "必须保留收件人空白；无车行印、无官府大印，文字后制",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P07",
+      "name": "E1b租单空底",
+      "first_batch": 0,
+      "body_en": "One small folded warm-tan rental paper with a visible horizontal crease, blank reserved blocks for a date, pickup place, return place and deposit, top-down flat object view, diffuse light.",
+      "checks": "与E1a纸形色阶、折痕可区分；不能写梁朔或共用徽记",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P08",
+      "name": "东巡所收件纸空底",
+      "first_batch": 0,
+      "body_en": "One fresh small pale paper receipt, a clear ruled layout with separate blank item lines and a lower signing area, top-down flat view, soft even light, no lettering.",
+      "checks": "领条租单两行，刀另注；准确汉字由后制，不由MJ证明",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P09",
+      "name": "完整杯母形",
+      "first_batch": 0,
+      "body_en": "One small plain pale ceramic drinking cup with a modest rounded lip and subtle glaze variation, isolated three-quarter view, soft side light, neutral background.",
+      "checks": "完整/碎裂必须同杯，碎片单独延展；不是毒杯",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P10",
+      "name": "布药箱",
+      "first_batch": 0,
+      "body_en": "One modest cloth-wrapped wooden medicine box with plain compartments closed, warm-gray cotton wrap, careful old stitching, neutral tabletop object view, soft side lighting.",
+      "checks": "顾伯照护物，普通无神医符纹；张济诊具另在摆设项",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P11",
+      "name": "王寿短刃外观",
+      "first_batch": 0,
+      "body_en": "One plain compact theatrical short blade with a simple dark handle and a matching closed scabbard beside it, dull low-gloss metal, neutral horizontal product view, diffuse light.",
+      "checks": "仅外观道具概念，不给尺寸磨刃或操作方法；不加上游徽记",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P12",
+      "name": "现代袖与绳局部",
+      "first_batch": 0,
+      "body_en": "A cropped chalk-dusted adult Chinese man's hand withdrawing from rock after a climb, ordinary gray-blue modern outdoor sleeve, slack rope at the side and stable ground below, diffuse daylight, no face in frame.",
+      "checks": "现代29岁陈渡局部，不是杨舟，不是坠落，不作绳具操作教程",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P14",
+      "name": "浅灰干衣版型",
+      "first_batch": 0,
+      "body_en": "One folded pale-gray cross-collar inner robe made of dense soft cotton, smoky-gray edging, precise plain seams, neutral tabletop view under diffuse light, no embroidery or jewellery.",
+      "checks": "穿上后的原顾今顾共版；不增华服或第二套脸",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P15",
+      "name": "糖罐与勺",
+      "first_batch": 0,
+      "body_en": "One small plain glazed sugar jar with its lid beside it and a simple wooden spoon, pale granular sugar just visible at the mouth, warm-gray background, soft object lighting.",
+      "checks": "与厨房盐罐位置区分，药杯/碎杯不共用；三集形制连续",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P16",
+      "name": "单片退制阵甲",
+      "first_batch": 12,
+      "body_en": "One small worn copper-colored fictional training plate with restrained engraved channels, a plain attachment loop and edge wear, dark neutral background, raking side light showing shallow relief, unlit metal.",
+      "checks": "一片母形、无悬浮；九人的旧磨痕后期做个体变体，不让新图增加法力",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P17",
+      "name": "退籍路凭空底",
+      "first_batch": 0,
+      "body_en": "One modest folded retirement travel paper wrapped in plain dry cloth, blank paper face with a small reserved equipment-record area, flat object study under diffuse light.",
+      "checks": "九人分属姓名后制，不能用顾砚军引；不变召令",
+      "ratio": "4:3"
+    },
+    {
+      "id": "P18",
+      "name": "共同饭钱账",
+      "first_batch": 0,
+      "body_en": "One very thin hand-bound household ledger lying closed on neutral cloth, plain faded blue-gray paper cover, slight page wear, a simple blank label area, soft top lighting.",
+      "checks": "许的伙食账，不是顾府发军饷；钱袋另拆单物任务",
+      "ratio": "4:3"
+    }
+  ]
+}
