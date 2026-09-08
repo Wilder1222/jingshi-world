@@ -11,6 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 PACK = ROOT / '资产/生产准备/前三集-v1.9'
 VETS = ['C03', *[f'C{i:02}' for i in range(16, 24)]]
 CORE = {'C01', 'C03', 'C04', 'C06', 'C12', 'C14', 'C16'}
+ASSASSINS = {'C06', 'C07', 'C57', 'C58', 'C59'}
+FIRST_CAST = {f'C{i:02}' for i in range(1, 24)} | {'C57', 'C58', 'C59', 'C60'}
+FACE_CAST = FIRST_CAST - {'C02', 'C05', 'C60'}
 
 
 def read(path):
@@ -59,8 +62,11 @@ def validate(data):
             if not t['prompt_en'] or any(x in t['projection'] for x in ('--oref', '--cref', '--q ', '--hd', '::')):
                 raise ValueError('提示词或模型参数不合规')
     faces = {t['asset_ids'][0] for t in tasks if t['id'].endswith('-FACE')}
-    if faces != {f'C{i:02}' for i in range(1, 24)} - {'C02', 'C05'}:
-        raise ValueError('必须21张独立身份脸，C01/C02同脸、C05无脸')
+    if faces != FACE_CAST:
+        raise ValueError('必须24张独立身份脸，C01/C02同脸、C05仅声、C60遮脸')
+    mystery = [t for t in tasks if t['method'] == 'MJ' and 'C60' in t['asset_ids']]
+    if len(mystery) != 1 or mystery[0]['id'] != 'MB-C60-SILHOUETTE':
+        raise ValueError('C60仅允许遮脸轮廓任务，不能自动制作身份脸')
     coverage = {a for t in tasks if t['method'] == 'MJ' for a in t['asset_ids']}
     if not set(data['visible_asset_ids']) <= coverage:
         raise ValueError('可见资产未覆盖：' + str(set(data['visible_asset_ids']) - coverage))
@@ -76,6 +82,7 @@ def build_data():
             registry[item['id']] = item
     scenes = [s for e in eps for s in e['scenes']]
     char = {c['id']: c for c in cfg['characters']}
+    gear = {g['id']: g for g in extra['veteran_gear']}
     tasks = []
 
     def add(key, title, category, assets, body='', ratio='4:3', deps=(), first=0,
@@ -135,13 +142,27 @@ def build_data():
             checks=s['checks'], scene_ids=s['scenes'])
     for cid in VETS:
         c = char[cid]
-        add(f'MB-{cid}-RAIN', c['name'] + '｜归途湿衣', '衣伤状态', [cid],
-            actor(c, 'Full-length standing costume continuity study', c['costume_en'] + ', rain-soaked cloth, restrained road mud at hems'),
-            '2:3', [f'MB-{cid}-FULL'], checks=c['checks'] + '；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干',
-            scene_ids=[s['id'] for s in scenes[:3] if cid in s['character_ids']])
+        g = gear[cid]
+        costume = c['costume_en'] + ', ' + g['armor_en']
+        used = [s['id'] for s in scenes[:3] if cid in s['character_ids']]
+        add(f'MB-{cid}-ARMOR', c['name'] + '｜归途轻甲与佩兵', '轻甲衣装', [cid, 'P20', 'P21'],
+            actor(c, 'Full-length neutral standing costume study, equipment at rest, no combat pose', costume + ', ' + g['standing_en']),
+            '2:3', [f'MB-{cid}-FULL', 'MB-P20-BASE', 'POST-KIT'],
+            checks=c['checks'] + '；' + g['checks'] + '；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL', scene_ids=used)
+        add(f'MB-{cid}-RAIN', c['name'] + '｜归途湿甲', '衣伤状态', [cid, 'P20', 'P21'],
+            actor(c, 'Full-length standing costume continuity study', costume + ', ' + g['standing_en'] + ', rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems'),
+            '2:3', [f'MB-{cid}-ARMOR'], checks=c['checks'] + '；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服', scene_ids=used)
     for e in extra['extras']:
         add('MB-' + e['key'], e['name'], '补充近景件', e['asset_ids'], e['body_en'], e['ratio'],
             [e['parent']] if e['parent'] else [], checks=e['checks'], phase=e['phase'])
+    for m in extra.get('mounts', []):
+        c = char[m['rider']]
+        add('MB-' + m['rider'] + '-MOUNTED', c['name'] + '｜单人骑乘绑定', '骑乘绑定',
+            [m['rider'], 'P19', 'P20', 'P21'],
+            f"One fictional Chinese man, age {c['age']}, {c['identity_en']}, {c['hair_en']}, wearing {c['costume_en']}, {gear[m['rider']]['armor_en']}, seated naturally on one ordinary adult riding horse, {m['horse_en']}. {gear[m['rider']]['mounted_en']}. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. " + cfg['style_en'],
+            '4:3', [f"MB-{m['rider']}-ARMOR", 'POST-HORSES'],
+            checks=f"骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对{m['horse_id']}，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+            scene_ids=['GJ-EP01-SC01'])
     for key, label, change, used in [
         ('S02', '清晨街口', 'Replace night lighting with cool early-morning daylight; preserve the selected street geometry and stall placement.', ['GJ-EP02-SC03', 'GJ-EP03-SC02', 'GJ-EP03-SC04']),
         ('S03-COURT', '雨后夜院', 'Replace daylight with restrained warm practical lamps and cool wet-night ambient light; preserve every door and passage.', ['GJ-EP01-SC03', 'GJ-EP01-SC04']),
@@ -158,15 +179,20 @@ def build_data():
     manual_deps = {
         'PLAN-COURT': [], 'TEXT-DOCS': [f'MB-P{i:02}-BASE' for i in (3, 4, 6, 7, 8, 17)],
         'P09-BROKEN': ['MB-P09-BASE'], 'P06-STATE': ['POST-TEXT-DOCS'],
-        'P16-NINE': ['MB-P16-BASE'], 'ENSEMBLE': [f'MB-{c}-FULL' for c in VETS],
-        'FX-COPPER': ['POST-P16-NINE', 'MB-ENV-S01'],
+        'P16-NINE': ['MB-P16-BASE'], 'ENSEMBLE': [f'MB-{c}-ARMOR' for c in VETS],
+        'KIT': ['MB-P20-BASE', *['MB-WEAPON-' + key for key in ('BLADE', 'SPEAR', 'BOW', 'LONG-BLADE', 'SHORT-SPEAR', 'SHIELD')]],
+        'FX-COPPER': ['POST-P16-NINE', 'MB-P20-BASE', 'MB-ENV-S01'],
         'INTEGRATION': ['MB-C01-DRY', 'MB-C03-FULL', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-ENV-S04', 'MB-ENV-S03-COURT'],
-        'AUDIO': [], 'ACTION': ['POST-PLAN-COURT'], 'BACKGROUND': ['POST-PLAN-COURT']}
+        'AUDIO': [], 'ACTION': ['POST-PLAN-COURT', 'POST-PLAN-FOREST'],
+        'PLAN-FOREST': [], 'HORSES': ['MB-P19-BASE'], 'BACKGROUND': ['POST-PLAN-COURT']}
     for e in extra['manual_tasks']:
         add('POST-' + e['key'], e['name'], '非MJ交接', e['asset_ids'],
             deps=manual_deps[e['key']], checks=e['deliverable'] + ' 验收：' + e['acceptance'], method='POST')
     # 光态与群体图的形状依赖不是选漂亮图之后再反改平面图。
     for t in tasks:
+        if 'S01' in t['asset_ids'] and t['method'] == 'MJ':
+            t['depends_on'].append('POST-PLAN-FOREST')
+            t['status'] = 'awaiting_parent_selection'
         if t['category'] == '空间' and any(a.startswith(('S03', 'S04', 'S05', 'S06')) for a in t['asset_ids']):
             t['depends_on'].append('POST-PLAN-COURT')
             t['status'] = 'awaiting_parent_selection'
@@ -187,7 +213,7 @@ def render(data):
     tasks = data['tasks']
     mj = [t for t in tasks if t['method'] == 'MJ']
     ordered = sorted(mj, key=lambda t: (not bool(t['first_batch']), t['first_batch'] or 999, t['id']))
-    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；21张独立身份脸、16场，全部尚未生成或选版。'
+    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；{len(FACE_CAST)}张独立身份脸、1个遮脸轮廓、16场，全部尚未生成或选版。'
     overview = '# 前三集资产任务清单 v1.9\n\n' + counts + '\n\n[使用说明](README.md) · [英文提示词](MJ提示词.md) · [文书与后制](文书后制与非MJ任务.md)\n\n优先级A/B/C是探索批次，不是成片可删等级。所有角色仍须覆盖；首批序号1—12只确定审美方向。带依赖任务须先验收前置，不能按表格行序盲跑。\n\n| 任务 | 名称／类别 | 批次／首批序 | 资产 | 场次 | 前置 | 验收 |\n|---|---|---|---|---|---|---|\n'
     prompts = '# MJ母版探索提示词 v1.9\n\n以下是执行前待检查的文字投影，不是已经批准的母版。模型V8.2；使用前按[README](README.md)检查账户设置。派生项正文须配合已选父母版输入，不能仅靠文字重抽。不得把父任务编号当作图片链接。\n\n首批12项置前；其余按ID排列便于检索，实际按依赖执行。每框仅一张图。\n'
     for t in tasks:
@@ -232,7 +258,7 @@ def main():
             stale.append(name)
     if stale:
         raise SystemExit('生产派生件过期：' + ', '.join(stale))
-    print(f"{args.command}: {len(data['tasks'])} tasks, 21 faces, 16 scenes; media not generated.")
+    print(f"{args.command}: {len(data['tasks'])} tasks, {len(FACE_CAST)} faces, 1 concealed figure, 16 scenes; media not generated.")
 
 
 if __name__ == '__main__':

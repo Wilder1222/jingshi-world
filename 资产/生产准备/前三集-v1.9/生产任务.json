@@ -47,6 +47,10 @@
     "C21",
     "C22",
     "C23",
+    "C57",
+    "C58",
+    "C59",
+    "C60",
     "P01",
     "P02",
     "P03",
@@ -63,6 +67,9 @@
     "P16",
     "P17",
     "P18",
+    "P19",
+    "P20",
+    "P21",
     "S01",
     "S02",
     "S03",
@@ -74,47 +81,51 @@
     "S07"
   ],
   "source_sha256": {
-    "剧集/01-归京/GJ-EP01-归京.md": "dd04a5509f85fbe0cba0f9a892a3dea081e173607e70ec346d033efad2c30ef4",
-    "剧集/01-归京/GJ-EP02-先过今夜.md": "5a5e7b592fccee5432c769ea9c9f12191781bde929a97f02e4f3ceb90f795be8",
-    "剧集/01-归京/GJ-EP03-门外的人.md": "58afc8975a82301cbaf15cfec3c41e55809d9a34f5c508ea5b9af130eb21bac9",
-    "剧集/前三集重写与生产交接-v1.9.md": "5ae5a05da1bc61ef4e6faee6bc40e511828c6d41eb58beec9c280d10a9cb996a",
-    "工具/前三集生产准备.py": "f07257334f06b185f2d8ea67fed5966254e363bfc20b5bea140c1ce5c12f2e65",
-    "索引/数据/episodes.json": "3f2fc0a8f244caf216730b6d8f6e8c00f95bc3a834429bcf1dff4cebf9469dbf",
-    "资产/场景/S01-春泽桥与入城接道.md": "c44b8d6b984886b855cdecde3c31d1ac9f3bf837b13a9e53ead20c5cbd5c8578",
+    "剧集/01-归京/GJ-EP01-归京.md": "4731df590ca0d093b676965116e04049263bc39554a50c5e3f5ceb0bd256e024",
+    "剧集/01-归京/GJ-EP02-先过今夜.md": "e68d9675afcff04d70c38054d7572d16ca700ed47255ddcff5dc146a5a25cb68",
+    "剧集/01-归京/GJ-EP03-门外的人.md": "161f61680eb53be3a680ee5ca5fb9d3ebfd5d6fccaf291f2584dfce0594ca0b4",
+    "剧集/前三集重写与生产交接-v1.9.md": "368604aab745cba36dc7100ed88ce6b337e8af51835c39236033d2456ca7b20c",
+    "工具/前三集生产准备.py": "39502121d1bc5fa3c75b50ec7295a37494d45da69d723542bc4e9c17e24163e4",
+    "索引/数据/episodes.json": "bba68e2cc8de0248138a789f6bc7a777323215ccd5a5e9e37f94fa2c92b97ce9",
+    "资产/场景/S01-春泽桥前竹木密林道.md": "062e6733c74cf67ce354499538a77f1495a855d31661ae75863fd5d02bf73f32",
     "资产/场景/S02-南街汤摊与顾府外街口.md": "cf711a3dd3023327c87aeb8f812f42738246adb783aa89ee9225979ce5daf026",
-    "资产/场景/S03-顾府门院前厅与西厢.md": "0391ea7c6db01cacb25d02d6f600f0e3aa7e9c4f7ac9b1de4485e367c313e94e",
+    "资产/场景/S03-顾府门院前厅与西厢.md": "b8c90583c2232afb3aa906913598e41f029ebd72beaaf8f31f1c7ae2761c9c8c",
     "资产/场景/S04-书房.md": "d5eecd68c053aeef36f2fe2d806f603833f2cb93060cfe508f17290a24737f97",
     "资产/场景/S05-卧房.md": "8f64d0cada867a28125dadb63bf12f3291b641ec8d68b1779197faaefb9c089b",
     "资产/场景/S06-后院与外库门口.md": "b15495e5d7eefb4b93d97260baaab543ecf7d84e9557cf3d28a3c410782786e4",
     "资产/场景/S07-现代岩壁局部.md": "21b7e8707a15ed6a4be3483a6410bfa54515d47c966f44a9acc9937f65481e8c",
-    "资产/生产准备/前三集-v1.9/补充任务源.json": "3db167719f7c89de335d7038ea9ec346584c06ee6c95ca5924e22fabb30d0e3a",
-    "资产/生产准备/前三集-v1.9/视觉任务源.json": "3ec6928eda33fa17a89c6e6ba027f69834eaa281a4c59eab99df3fbdedfafb1e",
-    "资产/美术风格与造型总则.md": "15f40463732e0e3417b480b58c944dc61d23af0ed48929d5ebf921f91905da01",
-    "资产/角色/C01-顾砚（原顾）.md": "e2cc466495b30dd93ed9bbdf5b38961f40ea7a7e592a2bcdf47489463489750a",
-    "资产/角色/C02-陈渡（今顾）.md": "3528b9706b7833efd1b22b52297edc797ef4d01f76e7a9bb21c3feb739317f52",
-    "资产/角色/C03-韩青.md": "59a0b93d5502f3879a0aeae2092c858c34fbf27a4642d8fb9dd2655532cb0a52",
+    "资产/生产准备/前三集-v1.9/补充任务源.json": "17183f9db259563fae3c7e70521209bf57625e3a153672a61d0184b193a0273e",
+    "资产/生产准备/前三集-v1.9/视觉任务源.json": "e5930ca07fd4224786ae9794e2e19ef1ab5085bca75bebd57688fdf2d1e71cbb",
+    "资产/美术风格与造型总则.md": "5b652bda5195ddd122f3f42653a3679d2cc82bdfe521f97531870d85a1e67143",
+    "资产/角色/C01-顾砚（原顾）.md": "66d2686806bbfaf1cb2829c3a8fcb55c638811bd6fdfa5a0e2e6d9b19a5e83a3",
+    "资产/角色/C02-陈渡（今顾）.md": "d1df1321c361b4caaec0c8f48a365aa1b47db182a249e75aec79a55699a55e59",
+    "资产/角色/C03-韩青.md": "131563296d89910e7cb03aa8991efb86af1c9ff92cf8b9026462a28f3c5addd7",
     "资产/角色/C04-顾伯.md": "7a44ac820cce29d83f470a68470249102a69cef2a1aae046a2a3390f9090a362",
     "资产/角色/C05-杨舟.md": "c08e1a3428ad029e6a93f0679f1f4214b97c313c71f9e23c830b6f6b5c4dc51e",
-    "资产/角色/C06-黄祁.md": "1430cfc4e44927588a013e036774008e75416f2d75bb7404986f412fe1cc1bdc",
-    "资产/角色/C07-罗顺.md": "f7816f3302edbc88310293352d6ff7b90249505a8ef518a1dfa194000b2640a5",
+    "资产/角色/C06-黄祁.md": "b58298e42bae7b3274a896b4a58f3f6d259befbd083b8d31efcbb118284bb71e",
+    "资产/角色/C07-罗顺.md": "69f2f2e33410cc7ccfdc58b163b4a04510435485e6da117034e4518105cb0029",
     "资产/角色/C08-孙福生.md": "f1d8c0aabce752d9cb3764e8ceca807bbb320e800a553c95fa38509613ff7203",
     "资产/角色/C09-周成.md": "710fa940a24f62d6ec7809b0545394b3939e91e6801e56dc36b957a452433aba",
     "资产/角色/C10-丁茂.md": "bf9a765ddc77dca31e29f4bfeb38cdbdeb3786b33c90dec60961c6ee005b5d15",
-    "资产/角色/C11-张济.md": "34eace3d13bd37391130f1ab805621d3428357a700dad2885e4bed15fe886c2d",
-    "资产/角色/C12-王寿.md": "399311d4141c92959c994b6d6d7811c61480cd878d98ce1b78bc008b951c450f",
-    "资产/角色/C13-马六.md": "bb3afddb7682f64939f9fbb387b9d8cfe06e3027988e4d9b4a583ec55c1cbb48",
-    "资产/角色/C14-赵平.md": "2def2724c7b41f8b661133e2d8e9de1610e11dcd328948563c413cac77f1f573",
+    "资产/角色/C11-张济.md": "72e9820d4b5011b463760a0613a9a667ff07fa63bc38d80a63e4f4a3f2b41ce0",
+    "资产/角色/C12-王寿.md": "963189ec4c1778a74d6d94e29ce18782aa9893d0e72e4061f602e2d75dadaccb",
+    "资产/角色/C13-马六.md": "cd35b75f762f21ef8f3ba2dec16f27a5eb5e673c51cd39ae77b70f2e71de0a83",
+    "资产/角色/C14-赵平.md": "b44e63f877468a351528934c1b9a61f3ea03109c1919e561e05069cff0ac54d9",
     "资产/角色/C15-孟达.md": "6f734404b49807253101524492a220f1c324ca20de082ecfa6a844b64dd55017",
-    "资产/角色/C16-杜长庚.md": "037343970bc9849e36c41af774eec8bc56c5124254766d46f5e692a18577c094",
-    "资产/角色/C17-石照川.md": "4fca82d2979f5b0b21465f642aaae04d075cfa13ffadef4d2b2344115ae9f3aa",
-    "资产/角色/C18-孟宽.md": "c839c1d457cc7feb274461a8bc4d55df5a5e2d457078c867993eefdf9567908c",
-    "资产/角色/C19-罗百泉.md": "8da233a8d38f95c2360e0b0647aa6bf59c580e3487f8a0f7ab48944f61cdca00",
-    "资产/角色/C20-崔望野.md": "4097d8b0054c6bdae4750caca9356820dc43cb3a2896e8789454ae76c628ae09",
-    "资产/角色/C21-伍成.md": "bffa9c2712ac41079c2b4a67086395bcce83f461f2bd5147fe9a8a277c90c786",
-    "资产/角色/C22-段平生.md": "b2fde30b18a0c3d9e758e3f1c4cc154e2b0397008830aa28bc695ddcfbfbbdf8",
-    "资产/角色/C23-许照邻.md": "09cd28c59b31f0668291bb4d82205c033d94b4ce43af1f1812aa14582d0f7a6c",
-    "资产/道具/P01-敞棚小车.md": "b16e10a04de60ad55480bb5210d6e9e264784db945b14fb327487ab540db45c9",
-    "资产/道具/P02-顾砚私人小行囊.md": "39dd45378eedca0f61e21a184327ae20e4126beb550dcc5f43a2c9096330824d",
+    "资产/角色/C16-杜长庚.md": "ea22dc787f8a3411d489d183bef0b3ee3a545b3e70af7d4feec46bb7cfbab5c3",
+    "资产/角色/C17-石照川.md": "3cdd04d5b79ca121681abe5db23314ffe6e55e2365d1ccd8dcb13ba7c56e6b92",
+    "资产/角色/C18-孟宽.md": "501a501a63cb698782770afa24e8f02e2386526dd65061b882cb765ed4a88cdd",
+    "资产/角色/C19-罗百泉.md": "7273c18ade9c84cb5f06eaa26f0e8005c25b7733e963bfe1aedcd26db2e1dcb2",
+    "资产/角色/C20-崔望野.md": "8b5019491d8c856a363a584d9dae15290910f7053ea7c5eac2d5f438b711b0d7",
+    "资产/角色/C21-伍成.md": "41ad338ccb2c08d3bf4a48dcfafc3edb3dcd82e13741bc7fd9d497dfbab5d259",
+    "资产/角色/C22-段平生.md": "6f12dfd6c71d623ebb224ea27de3d71dc45e2fdaf3826ef1cb3f4a72ff59184c",
+    "资产/角色/C23-许照邻.md": "cac1590c7430b416a69ec05c23571e69c9e462b0e66f47870a103fb386aff4e6",
+    "资产/角色/C57-灰领刺客.md": "72443b724982cdf7d8287a7e27d0f34e04cc1a55d5da80d1d520184aa92a213b",
+    "资产/角色/C58-褐袖刺客.md": "9b9d65b5487ec1f8cf4ffce87f5627dd3ff53a68ee0e38bcc772d31a3e28daf6",
+    "资产/角色/C59-窄额带刺客.md": "8cd5cce77cb142596a37b76dcf8b8248a59012e0a35bd1df956c824ef3d8663f",
+    "资产/角色/C60-林侧神秘人.md": "3642291422025ce571054d5154b049c9b7164447f020ee5947b9478247385daa",
+    "资产/道具/P01-敞棚小车.md": "b51dc52ce089f2e25c38de37383e6cc1618c8e5aafcde7b7e37eead36b10d342",
+    "资产/道具/P02-顾砚私人小行囊.md": "37e1792aec42763e7a6db0519c88d3b14c15f04de7951034a4a3090573652568",
     "资产/道具/P03-原顾军引.md": "143742b5e02ac726be8548a87806923e3594717f98e82cbae94f89587878eeb0",
     "资产/道具/P04-北路旧票与褐色小布套.md": "cad069eb0f39fe979fc7b62f4f47b04b543c464d8923de5a365a524b766d476b",
     "资产/道具/P06-王寿手写领条.md": "233de33bc7d78bc994a69606164c155269d186632d9f44fa3bdb2b2fd99767fd",
@@ -128,7 +139,10 @@
     "资产/道具/P15-小糖罐糖与粥勺.md": "8747e50195451107965347d8cc1b3bb72883ef205928da22fa0f074e79570347",
     "资产/道具/P16-九片退制阵甲铜片.md": "0e5e75d677edd721e33460620cbc7828f8c82ebf24df81dad595e7b90823f66e",
     "资产/道具/P17-九人各自退籍路凭.md": "f2a488691ca1a2d81884d4595e9c746c85ba4879bc5d67913c159c9992fe4b65",
-    "资产/道具/P18-共同饭钱袋与小账.md": "9426b0849ef4e33bcadecbafb043d8e0a5a054aaff0e75bca13674fed879fc73"
+    "资产/道具/P18-共同饭钱袋与小账.md": "9426b0849ef4e33bcadecbafb043d8e0a5a054aaff0e75bca13674fed879fc73",
+    "资产/道具/P19-八卒坐骑与鞍具.md": "445cd292bbc082f56e1e8c3a333da98b81834c816af11ba73602293b11b209dc",
+    "资产/道具/P20-九卒轻皮甲.md": "57f81a6c87204528f8bf71942c78c5b129dda0c92bdb6f0196b265318ec3312c",
+    "资产/道具/P21-九卒携行兵器.md": "36a78bb7aff1a985da40d2d488bc65345a74fc0a82c945e68b06c0f4be42ae31"
   },
   "tasks": [
     {
@@ -911,7 +925,7 @@
         "资产/角色/C06-黄祁.md"
       ],
       "depends_on": [],
-      "acceptance": "与罗顺脸形体量不同；身份母版不蒙面，桥夜状态另做；新伤固定角色自身右上臂",
+      "acceptance": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤",
       "prompt_en": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
@@ -945,7 +959,7 @@
       "depends_on": [
         "MB-C06-FACE"
       ],
-      "acceptance": "与罗顺脸形体量不同；身份母版不蒙面，桥夜状态另做；新伤固定角色自身右上臂；衣型、体量和脸沿已选母版；干衣无新伤",
+      "acceptance": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；衣型、体量和脸沿已选母版；干衣无新伤",
       "prompt_en": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
@@ -979,7 +993,7 @@
       "depends_on": [
         "MB-C06-FACE"
       ],
-      "acceptance": "与罗顺脸形体量不同；身份母版不蒙面，桥夜状态另做；新伤固定角色自身右上臂；只改视角，耳鼻下颌与选脸同源",
+      "acceptance": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；只改视角，耳鼻下颌与选脸同源",
       "prompt_en": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
@@ -1013,7 +1027,7 @@
       "depends_on": [
         "MB-C06-FACE"
       ],
-      "acceptance": "与罗顺脸形体量不同；身份母版不蒙面，桥夜状态另做；新伤固定角色自身右上臂；只改视角，耳鼻下颌与选脸同源",
+      "acceptance": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；只改视角，耳鼻下颌与选脸同源",
       "prompt_en": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
@@ -2358,8 +2372,206 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
+      "id": "MB-C57-FACE",
+      "name": "灰领刺客｜正脸身份",
+      "category": "身份",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C57"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C57-灰领刺客.md"
+      ],
+      "depends_on": [],
+      "acceptance": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
+      "prompt_en": "Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C57-FACE__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-C57-FULL",
+      "name": "灰领刺客｜全身干衣",
+      "category": "衣装",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C57"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C57-灰领刺客.md"
+      ],
+      "depends_on": [
+        "MB-C57-FACE"
+      ],
+      "acceptance": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；衣型、体量和脸沿已选母版；干衣无新伤",
+      "prompt_en": "Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C57-FULL__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C58-FACE",
+      "name": "褐袖刺客｜正脸身份",
+      "category": "身份",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C58"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C58-褐袖刺客.md"
+      ],
+      "depends_on": [],
+      "acceptance": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
+      "prompt_en": "Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C58-FACE__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-C58-FULL",
+      "name": "褐袖刺客｜全身干衣",
+      "category": "衣装",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C58"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C58-褐袖刺客.md"
+      ],
+      "depends_on": [
+        "MB-C58-FACE"
+      ],
+      "acceptance": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；衣型、体量和脸沿已选母版；干衣无新伤",
+      "prompt_en": "Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C58-FULL__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C59-FACE",
+      "name": "窄额带刺客｜正脸身份",
+      "category": "身份",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C59"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C59-窄额带刺客.md"
+      ],
+      "depends_on": [],
+      "acceptance": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
+      "prompt_en": "Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C59-FACE__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-C59-FULL",
+      "name": "窄额带刺客｜全身干衣",
+      "category": "衣装",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C59"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C59-窄额带刺客.md"
+      ],
+      "depends_on": [
+        "MB-C59-FACE"
+      ],
+      "acceptance": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；衣型、体量和脸沿已选母版；干衣无新伤",
+      "prompt_en": "Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C59-FULL__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
       "id": "MB-ENV-S01",
-      "name": "桥头完整空间",
+      "name": "春泽桥前竹木密林道空景",
       "category": "空间",
       "method": "MJ",
       "phase": "A",
@@ -2373,16 +2585,18 @@
       "source_paths": [
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
-        "资产/场景/S01-春泽桥与入城接道.md",
+        "资产/场景/S01-春泽桥前竹木密林道.md",
         "资产/美术风格与造型总则.md"
       ],
-      "depends_on": [],
-      "acceptance": "桥面完整、泥道连续；不生成世隙、裂空或九人一体图",
-      "prompt_en": "A low old stone bridge with an intact traversable deck, a continuous muddy footpath beside the cart route, worn parapets and open space at the approach for a small escort. Empty night setting, cold rain, low warm spill from a practical approach lantern, wet stone reflections, readable dark timber and gray masonry.",
+      "depends_on": [
+        "POST-PLAN-FOREST"
+      ],
+      "acceptance": "竹丛与高树密集，道弯宽段可供一车与护送人员活动；前方林口通桥，主战区不出现桥面或护栏；空底仅冷夜光，车灯在人车绑定时加入；不生世隙，不把九人合成一体 宽段与外缘避让空地分开，能容车、十匹马和地面动作；无人空底不生成马。 车道需容双马并排牵引，不只容单马车宽；另八匹坐骑的外缘避让区不并入两匹牵引马位置。",
+      "prompt_en": "An empty old cart road winding through dense bamboo interwoven with tall dark woodland trees, wet winter foliage arching overhead. A broad passing bay at the bend, muddy wheel ruts, shallow puddles and scattered bamboo leaves, continuous walkable ground beside the cart track. The road leads toward a distant forest opening; the stone bridge beyond remains hidden by the bend and vegetation. Rainy night, cool diffuse light through canopy gaps, irregular leaf shadows, deep green and charcoal tones, readable ground and layered trunks. Live-action Chinese costume drama set, no people, no vehicles, no lanterns, no visible bridge deck. A separate empty roadside holding verge beside the passing bay has room for eight unmounted horses, outside the ground-action space; no horses present in this empty set study.",
       "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
-      "projection": "A low old stone bridge with an intact traversable deck, a continuous muddy footpath beside the cart route, worn parapets and open space at the approach for a small escort. Empty night setting, cold rain, low warm spill from a practical approach lantern, wet stone reflections, readable dark timber and gray masonry. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "projection": "An empty old cart road winding through dense bamboo interwoven with tall dark woodland trees, wet winter foliage arching overhead. A broad passing bay at the bend, muddy wheel ruts, shallow puddles and scattered bamboo leaves, continuous walkable ground beside the cart track. The road leads toward a distant forest opening; the stone bridge beyond remains hidden by the bend and vegetation. Rainy night, cool diffuse light through canopy gaps, irregular leaf shadows, deep green and charcoal tones, readable ground and layered trunks. Live-action Chinese costume drama set, no people, no vehicles, no lanterns, no visible bridge deck. A separate empty roadside holding verge beside the passing bay has room for eight unmounted horses, outside the ground-action space; no horses present in this empty set study. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
+      "status": "awaiting_parent_selection",
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "MB-ENV-S01__v01__candidate.png",
@@ -2462,10 +2676,10 @@
       "depends_on": [
         "POST-PLAN-COURT"
       ],
-      "acceptance": "南正门北前厅、西厢临外院；无中央水池，无额外秘道",
-      "prompt_en": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center.",
+      "acceptance": "南正门北前厅、西厢临外院；无中央水池，无额外秘道 西厢室外沿墙预留八匹马空地，入口和西侧道不堵；空景不画马，卧具区不改马厩。",
+      "prompt_en": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center. An empty temporary horse-holding space runs along the outer wall outside the west lodging wing, clear of all doors and the side passage, with room for eight horses; no animals present.",
       "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
-      "projection": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "projection": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center. An empty temporary horse-holding space runs along the outer wall outside the west lodging wing, clear of all doors and the side passage, with room for eight horses; no animals present. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -2764,10 +2978,10 @@
         "资产/道具/P01-敞棚小车.md"
       ],
       "depends_on": [],
-      "acceptance": "本轮原创形制提案；只在桥头，绝非王寿租车；马另做",
-      "prompt_en": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, plain shafts and visible wheel hubs, side three-quarter view on neutral ground, diffuse studio light, separated silhouette.",
+      "acceptance": "双轮低敞棚车，双马并排牵引用中央车辕外观，一盏有罩小行灯固定车前；空车不生成马。两匹牵引马另做，与车具组合时核接触及遮挡，不复用单马双侧辕构型；受阻连两马留林道，绝非王寿租车。车具仅影视外观，结构和动物安全由专业团队审阅。",
+      "prompt_en": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, one central draw pole for a side-by-side two-horse team and visible wheel hubs, one small enclosed travel lantern fixed at the front, side three-quarter view on neutral ground, diffuse studio light, complete unobstructed cart silhouette, no horses, no people.",
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, plain shafts and visible wheel hubs, side three-quarter view on neutral ground, diffuse studio light, separated silhouette. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, one central draw pole for a side-by-side two-horse team and visible wheel hubs, one small enclosed travel lantern fixed at the front, side three-quarter view on neutral ground, diffuse studio light, complete unobstructed cart silhouette, no horses, no people. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "ready_for_exploration",
       "media_status": "not_generated",
@@ -3289,6 +3503,74 @@
       "reference_slot": "none"
     },
     {
+      "id": "MB-P19-BASE",
+      "name": "普通骑乘马与旅鞍母形",
+      "category": "道具",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "P19"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md"
+      ],
+      "depends_on": [],
+      "acceptance": "只探索单匹骑乘马母形，不是八匹成组结果；旅鞍不同于P01挽具，后续按H01—H08派生个体与绑定骑手",
+      "prompt_en": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-P19-BASE__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-P20-BASE",
+      "name": "九卒轻皮甲空甲母形",
+      "category": "道具",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "P20"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/道具/P20-九卒轻皮甲.md"
+      ],
+      "depends_on": [],
+      "acceptance": "P20只是九套同形轻甲母形；不改变各人衣色、不替代P16导息铜片、不穿透发光；再按九人体量派生，非实物防护性能证明",
+      "prompt_en": "One fictional period short light leather armor costume displayed on a faceless neutral torso stand, matte dark-brown leather, soft shoulder edges, thin padded lining, short split skirt panels, cloth-bound edges and sparse dark rivets, visible empty collar opening, carefully maintained wear, no metal breastplate, no glowing marks, no helmet, no weapons, no modern tactical vest, isolated three-quarter costume study, diffuse neutral light.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional period short light leather armor costume displayed on a faceless neutral torso stand, matte dark-brown leather, soft shoulder edges, thin padded lining, short split skirt panels, cloth-bound edges and sparse dark rivets, visible empty collar opening, carefully maintained wear, no metal breastplate, no glowing marks, no helmet, no weapons, no modern tactical vest, isolated three-quarter costume study, diffuse neutral light. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-P20-BASE__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
       "id": "MB-C01-RAIN-PRE",
       "name": "原顾雨夜受袭前",
       "category": "衣伤表演状态",
@@ -3445,7 +3727,7 @@
     },
     {
       "id": "MB-C06-RAIN-POST",
-      "name": "黄祁败退伤衣",
+      "name": "黄祁受惊撤退湿衣",
       "category": "衣伤表演状态",
       "method": "MJ",
       "phase": "B",
@@ -3465,10 +3747,10 @@
       "depends_on": [
         "MB-C06-RAIN-PRE"
       ],
-      "acceptance": "右上臂新伤，与顾砚左肩不同；不因换角度换侧",
-      "prompt_en": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. wet black and charcoal travel layers, displaced lower-face cloth showing part of his side face, a small torn area and restrained blood stain on his own right upper arm, right arm lowered, guarded standing posture. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "无新增伤口；只改停手戒备表演与面巾偏动，不画右上臂血伤；撤退仍可独立行动",
+      "prompt_en": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. wet black and charcoal travel layers, displaced lower-face cloth showing part of his side face, a small torn area and restrained blood stain on his own right upper arm, right arm lowered, guarded standing posture. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3499,7 +3781,7 @@
       "depends_on": [
         "MB-C07-FULL"
       ],
-      "acceptance": "无黄祁同款伤口；接触转沾须后续按实际动作",
+      "acceptance": "无新增血伤，无黄祁伤血转沾；脸与灰褐雨衣同母版",
       "prompt_en": "Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face. ordinary gray-brown rain hat over tied hair, wet gray-brown short travel coat with dark blue inner collar, damp fitted sleeves, grounded stance. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face. ordinary gray-brown rain hat over tied hair, wet gray-brown short travel coat with dark blue inner collar, damp fitted sleeves, grounded stance. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
@@ -3585,14 +3867,118 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C03-RAIN",
-      "name": "韩青｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C57-RAIN",
+      "name": "灰领刺客雨夜湿衣",
+      "category": "衣伤表演状态",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C03"
+        "C57"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C57-灰领刺客.md"
+      ],
+      "depends_on": [
+        "MB-C57-FULL"
+      ],
+      "acceptance": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客",
+      "prompt_en": "Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C57-RAIN__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C58-RAIN",
+      "name": "褐袖刺客雨夜湿衣",
+      "category": "衣伤表演状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C58"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C58-褐袖刺客.md"
+      ],
+      "depends_on": [
+        "MB-C58-FULL"
+      ],
+      "acceptance": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客",
+      "prompt_en": "Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C58-RAIN__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C59-RAIN",
+      "name": "窄额带刺客雨夜湿衣",
+      "category": "衣伤表演状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C59"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C59-窄额带刺客.md"
+      ],
+      "depends_on": [
+        "MB-C59-FULL"
+      ],
+      "acceptance": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客",
+      "prompt_en": "Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C59-RAIN__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C03-ARMOR",
+      "name": "韩青｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C03",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3603,15 +3989,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C03-韩青.md"
+        "资产/角色/C03-韩青.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C03-FULL"
+        "MB-C03-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；灰蓝窄袖与年轻清爽的脸不变，皮甲腰侧留出坐车的衣摆层次，素灰蓝束发。腰刀与鞘；驾车和扶原顾时在鞘内，别人接住伤者后才腾手参与。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, both hands free. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, both hands free. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C03-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C03-RAIN",
+      "name": "韩青｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C03",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C03-韩青.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C03-ARMOR"
+      ],
+      "acceptance": "比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, both hands free, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-blue narrow-sleeved travel jacket, thin wool inner layer, plain waist belt, neatly finished cotton cuffs, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, both hands free, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3621,14 +4051,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C16-RAIN",
-      "name": "杜长庚｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C16-ARMOR",
+      "name": "杜长庚｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C16"
+        "C16",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3639,15 +4071,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C16-杜长庚.md"
+        "资产/角色/C16-杜长庚.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C16-FULL"
+        "MB-C16-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "43岁灰鬓、褐围巾、宽肩；不穿将军甲；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "43岁灰鬓、褐围巾、宽肩；不穿将军甲；鬓微白、短褐围巾、深褐灰旅衣；甲领低于围巾，边线整洁但有旧折痕。素环首军刀与鞘，环首形与韩、许的素柄腰刀区分；不添令旗或将军金甲。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain ring-pommel military blade sheathed at his waist. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain ring-pommel military blade sheathed at his waist. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C16-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C16-RAIN",
+      "name": "杜长庚｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C16",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C16-杜长庚.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C16-ARMOR"
+      ],
+      "acceptance": "43岁灰鬓、褐围巾、宽肩；不穿将军甲；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain ring-pommel military blade sheathed at his waist, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain ring-pommel military blade sheathed at his waist, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3657,14 +4133,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C17-RAIN",
-      "name": "石照川｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C17-ARMOR",
+      "name": "石照川｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C17"
+        "C17",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3675,15 +4153,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C17-石照川.md"
+        "资产/角色/C17-石照川.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C17-FULL"
+        "MB-C17-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "宽肩方脸靛布，不夸张巨人化；搬物动作稳定；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "宽肩方脸靛布，不夸张巨人化；搬物动作稳定；宽肩方脸、靛布外褂露袖；轻甲按宽肩裁量，右下护摆有同色旧补边。木芯皮面短盾与短刀鞘；盾在鞍侧带来，下马取下，不是重型巨盾。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C17-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C17-RAIN",
+      "name": "石照川｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C17",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C17-石照川.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C17-ARMOR"
+      ],
+      "acceptance": "宽肩方脸靛布，不夸张巨人化；搬物动作稳定；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3693,14 +4215,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C18-RAIN",
-      "name": "孟宽｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C18-ARMOR",
+      "name": "孟宽｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C18"
+        "C18",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3711,15 +4235,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C18-孟宽.md"
+        "资产/角色/C18-孟宽.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C18-FULL"
+        "MB-C18-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "粗眉短须赭腰带，与孟达绝不共脸；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders. plain bound black hair. smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "粗眉短须赭腰带，与孟达绝不共脸；浓眉短须、烟灰褂与赭腰带；甲下腰带保持可见，甲摆比宽肩人物更利落。步战长刀与鞘；骑行收在鞍侧，下马才取，不作马上大开大合斩击。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders. plain bound black hair. smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long infantry blade fully sheathed, held at rest beside his body. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders. plain bound black hair. smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders. plain bound black hair. smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long infantry blade fully sheathed, held at rest beside his body. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C18-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C18-RAIN",
+      "name": "孟宽｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C18",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C18-孟宽.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C18-ARMOR"
+      ],
+      "acceptance": "粗眉短须赭腰带，与孟达绝不共脸；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders. plain bound black hair. smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long infantry blade fully sheathed, held at rest beside his body, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders. plain bound black hair. smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long infantry blade fully sheathed, held at rest beside his body, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3729,14 +4297,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C19-RAIN",
-      "name": "罗百泉｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C19-ARMOR",
+      "name": "罗百泉｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C19"
+        "C19",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3747,15 +4317,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C19-罗百泉.md"
+        "资产/角色/C19-罗百泉.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C19-FULL"
+        "MB-C19-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "45岁灰短须，前三集正常步态不提前跛行；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance. black-and-gray hair tied simply. gray-brown travel layers with a lighter inner collar, long clean vertical lines, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "45岁灰短须，前三集正常步态不提前跛行；长脸、灰短须、灰褐衣；甲下摆磨得软，仍站稳行走，不预演后篇膝伤。素木杆长枪；完整枪杆轮廓清楚，不用夸张刃头；鞍侧携行，下马取用。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance. black-and-gray hair tied simply. gray-brown travel layers with a lighter inner collar, long clean vertical lines, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long wooden-shafted spear film prop at rest beside him, full silhouette visible. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance. black-and-gray hair tied simply. gray-brown travel layers with a lighter inner collar, long clean vertical lines, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance. black-and-gray hair tied simply. gray-brown travel layers with a lighter inner collar, long clean vertical lines, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long wooden-shafted spear film prop at rest beside him, full silhouette visible. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C19-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C19-RAIN",
+      "name": "罗百泉｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C19-罗百泉.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C19-ARMOR"
+      ],
+      "acceptance": "45岁灰短须，前三集正常步态不提前跛行；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance. black-and-gray hair tied simply. gray-brown travel layers with a lighter inner collar, long clean vertical lines, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long wooden-shafted spear film prop at rest beside him, full silhouette visible, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance. black-and-gray hair tied simply. gray-brown travel layers with a lighter inner collar, long clean vertical lines, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain long wooden-shafted spear film prop at rest beside him, full silhouette visible, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3765,14 +4379,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C20-RAIN",
-      "name": "崔望野｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C20-ARMOR",
+      "name": "崔望野｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C20"
+        "C20",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3783,15 +4399,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C20-崔望野.md"
+        "资产/角色/C20-崔望野.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C20-FULL"
+        "MB-C20-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；瘦长身形、灰蓝内衣与收短的深灰披肩；皮甲不遮净披肩识别，不添射手面罩。裹短弓、封口箭袋与腰刀；开场弓包留鞍侧，改腰刀接阵，不开弓不放箭。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C20-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C20-RAIN",
+      "name": "崔望野｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C20",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C20-崔望野.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C20-ARMOR"
+      ],
+      "acceptance": "瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3801,14 +4461,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C21-RAIN",
-      "name": "伍成｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C21-ARMOR",
+      "name": "伍成｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C21"
+        "C21",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3819,15 +4481,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C21-伍成.md"
+        "资产/角色/C21-伍成.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C21-FULL"
+        "MB-C21-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "29岁轻瘦不幼态，浅褐短褂；跑腿不是杂耍；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms. plain bound black hair. light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "29岁轻瘦不幼态，浅褐短褂；跑腿不是杂耍；清瘦、浅褐短衣，甲轮廓贴合但不塑成壮汉；布绑腿与窄袖清楚。短矛；与罗的长枪保持明显长短和体量差，不改成第二名弓手。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms. plain bound black hair. light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain short spear film prop at rest beside him, visibly shorter than the long-spear family. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms. plain bound black hair. light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms. plain bound black hair. light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain short spear film prop at rest beside him, visibly shorter than the long-spear family. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C21-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C21-RAIN",
+      "name": "伍成｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C21",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C21-伍成.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C21-ARMOR"
+      ],
+      "acceptance": "29岁轻瘦不幼态，浅褐短褂；跑腿不是杂耍；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms. plain bound black hair. light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain short spear film prop at rest beside him, visibly shorter than the long-spear family, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms. plain bound black hair. light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain short spear film prop at rest beside him, visibly shorter than the long-spear family, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3837,14 +4543,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C22-RAIN",
-      "name": "段平生｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C22-ARMOR",
+      "name": "段平生｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C22"
+        "C22",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3855,15 +4563,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C22-段平生.md"
+        "资产/角色/C22-段平生.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C22-FULL"
+        "MB-C22-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "宽厚、米白领巾；厨房与战阵同一人，不能减出九卒；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin. plain bound black hair. warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "宽厚、米白领巾；厨房与战阵同一人，不能减出九卒；宽背、暖灰衣、米白颈巾；轻甲按体量适配，领缘保留巾角，不是厨役制服。木芯皮面短盾与腰刀鞘；接住伤者时腰刀在鞘内，一手扶人不同时挥刀。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin. plain bound black hair. warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one waist blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin. plain bound black hair. warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin. plain bound black hair. warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one waist blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C22-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C22-RAIN",
+      "name": "段平生｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C22",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C22-段平生.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C22-ARMOR"
+      ],
+      "acceptance": "宽厚、米白领巾；厨房与战阵同一人，不能减出九卒；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin. plain bound black hair. warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one waist blade sheathed at his belt, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin. plain bound black hair. warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one modest leather-faced wooden short shield resting beside him, one waist blade sheathed at his belt, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -3873,14 +4625,16 @@
       "reference_slot": "executor: selected parent master, rights checked"
     },
     {
-      "id": "MB-C23-RAIN",
-      "name": "许照邻｜归途湿衣",
-      "category": "衣伤状态",
+      "id": "MB-C23-ARMOR",
+      "name": "许照邻｜归途轻甲与佩兵",
+      "category": "轻甲衣装",
       "method": "MJ",
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C23"
+        "C23",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -3891,15 +4645,59 @@
         "剧集/01-归京/GJ-EP01-归京.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C23-许照邻.md"
+        "资产/角色/C23-许照邻.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C23-FULL"
+        "MB-C23-FULL",
+        "MB-P20-BASE",
+        "POST-KIT"
       ],
-      "acceptance": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；只改湿度与下摆泥痕，不新增本人伤口；回府后渐干",
-      "prompt_en": "Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "acceptance": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；窄脸、蓝布衣、方口私包；甲缘有细整旧补线，行囊归属与顾砚P02分开。腰刀与鞘；先放稳取回的P02才用刀，脱险收刀后再把P02放到H08鞍侧。；只加P20轻甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL",
+      "prompt_en": "Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C23-ARMOR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C23-RAIN",
+      "name": "许照邻｜归途湿甲",
+      "category": "衣伤状态",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C23",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C23-许照邻.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C23-ARMOR"
+      ],
+      "acceptance": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后常服",
+      "prompt_en": "Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately, rain-darkened matte leather, rain-soaked cloth, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -4252,7 +5050,7 @@
     },
     {
       "id": "MB-P01-HORSE",
-      "name": "小车配套棕马",
+      "name": "小车双匹棕色牵引马",
       "category": "补充近景件",
       "method": "MJ",
       "phase": "B",
@@ -4272,10 +5070,10 @@
       "depends_on": [
         "MB-P01-BASE"
       ],
-      "acceptance": "原创造型细化，一马双轮车；无独立车夫、不作驾驭教学",
-      "prompt_en": "One ordinary brown travelling horse with plain period leather harness, standing calmly on neutral ground in full side view, realistic proportions, diffuse daylight, no rider.",
+      "acceptance": "正好两匹普通棕色牵引马，并排双挽、各自身体和挽具可辨；不生成单马、串列或第三匹。仅属P01，不复用P19八匹骑乘马；全队十匹马。沿用MB-P01-HORSE任务号，父母版为空车，之后按双马车具关系核对组合；不新增车夫，不作真实驾驭或挽具安装教学。",
+      "prompt_en": "Exactly two ordinary adult brown draft horses standing calmly side by side, plain matching period leather harness for a paired team, no riding saddles, full bodies visible in a front three-quarter view, natural proportions, neutral ground and diffuse daylight, no rider, no driver, no cart, no additional horses.",
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "One ordinary brown travelling horse with plain period leather harness, standing calmly on neutral ground in full side view, realistic proportions, diffuse daylight, no rider. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Exactly two ordinary adult brown draft horses standing calmly side by side, plain matching period leather harness for a paired team, no riding saddles, full bodies visible in a front three-quarter view, natural proportions, neutral ground and diffuse daylight, no rider, no driver, no cart, no additional horses. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "awaiting_parent_selection",
       "media_status": "not_generated",
@@ -4294,7 +5092,12 @@
       "asset_ids": [
         "C01",
         "C03",
-        "C16"
+        "C16",
+        "P21",
+        "C17",
+        "C20",
+        "C22",
+        "C23"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -4319,10 +5122,15 @@
         "资产/美术风格与造型总则.md",
         "资产/角色/C01-顾砚（原顾）.md",
         "资产/角色/C03-韩青.md",
-        "资产/角色/C16-杜长庚.md"
+        "资产/角色/C16-杜长庚.md",
+        "资产/角色/C17-石照川.md",
+        "资产/角色/C20-崔望野.md",
+        "资产/角色/C22-段平生.md",
+        "资产/角色/C23-许照邻.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [],
-      "acceptance": "仅母形提案；不自动分给所有九卒，不加神兵纹章或现实制作参数",
+      "acceptance": "仅母形提案；不自动分给所有九卒，不加神兵纹章或现实制作参数；九卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 C01旅刀只共用外观族，不属于九卒P21；杜环首、石短刀和其余腰刀在个体映射中区分。",
       "prompt_en": "One plain sheathed period travel blade with a modest dark handle, restrained worn metal fittings and a cloth-wrapped grip, isolated side view under diffuse light, fictional film prop design.",
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One plain sheathed period travel blade with a modest dark handle, restrained worn metal fittings and a cloth-wrapped grip, isolated side view under diffuse light, fictional film prop design. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
@@ -4342,7 +5150,8 @@
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C19"
+        "C19",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -4357,10 +5166,11 @@
         "剧集/01-归京/GJ-EP03-门外的人.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C19-罗百泉.md"
+        "资产/角色/C19-罗百泉.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [],
-      "acceptance": "老枪手视觉附件；不以长度数据或实际战术指导出图",
+      "acceptance": "老枪手视觉附件；不以长度数据或实际战术指导出图；九卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。",
       "prompt_en": "One plain long wooden-shafted spear film prop with restrained dark-metal fittings, full side silhouette against neutral gray, soft even light.",
       "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
       "projection": "One plain long wooden-shafted spear film prop with restrained dark-metal fittings, full side silhouette against neutral gray, soft even light. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
@@ -4380,7 +5190,8 @@
       "phase": "B",
       "first_batch": 0,
       "asset_ids": [
-        "C20"
+        "C20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -4397,13 +5208,14 @@
         "剧集/01-归京/GJ-EP03-门外的人.md",
         "剧集/前三集重写与生产交接-v1.9.md",
         "资产/美术风格与造型总则.md",
-        "资产/角色/C20-崔望野.md"
+        "资产/角色/C20-崔望野.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [],
-      "acceptance": "开篇防雨包裹，非现代复合弓；军中重械不凭空出现",
-      "prompt_en": "One simple traditional bow wrapped in dark rain-protection cloth, curved silhouette still readable under the tied covering, horizontal isolated object study, diffuse light.",
+      "acceptance": "开篇防雨包裹，非现代复合弓；军中重械不凭空出现；九卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 弓包本场留鞍侧，崔改腰刀，不新增放箭镜头；封口箭袋不得变成现代箭匣。",
+      "prompt_en": "One simple short traditional bow wrapped in dark rain-protection cloth beside one closed cloth arrow pouch, curved silhouette still readable under the tied covering, isolated object study, diffuse light, no drawn bow, no loose arrow, no hands.",
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "One simple traditional bow wrapped in dark rain-protection cloth, curved silhouette still readable under the tied covering, horizontal isolated object study, diffuse light. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One simple short traditional bow wrapped in dark rain-protection cloth beside one closed cloth arrow pouch, curved silhouette still readable under the tied covering, isolated object study, diffuse light, no drawn bow, no loose arrow, no hands. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
       "status": "ready_for_exploration",
       "media_status": "not_generated",
@@ -4477,6 +5289,538 @@
       "planned_filename": "MB-C11-KIT__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none"
+    },
+    {
+      "id": "MB-C60-SILHOUETTE",
+      "name": "林侧神秘人遮挡轮廓",
+      "category": "补充近景件",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C60",
+        "S01"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/场景/S01-春泽桥前竹木密林道.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C60-林侧神秘人.md"
+      ],
+      "depends_on": [
+        "MB-ENV-S01",
+        "POST-PLAN-FOREST"
+      ],
+      "acceptance": "仅探索灰袖、树干遮挡与林侧位置；性别年龄脸和境界未锁，不借温宁殷母版；不是第六刺客",
+      "prompt_en": "One partially visible adult figure behind a large woodland tree in dense bamboo beside a wet road at night, a plain dark-gray sleeve extending just beyond the trunk, the rest of the body concealed, face and bare hands fully occluded, no visible weapon or insignia, cool ambient light through canopy gaps, restrained fabric texture, single quiet frame.",
+      "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One partially visible adult figure behind a large woodland tree in dense bamboo beside a wet road at night, a plain dark-gray sleeve extending just beyond the trunk, the rest of the body concealed, face and bare hands fully occluded, no visible weapon or insignia, cool ambient light through canopy gaps, restrained fabric texture, single quiet frame. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C60-SILHOUETTE__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-WEAPON-ASSASSIN",
+      "name": "五刺客普通刃器外观族",
+      "category": "补充近景件",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C06",
+        "C07",
+        "C57",
+        "C58",
+        "C59"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C06-黄祁.md",
+        "资产/角色/C07-罗顺.md",
+        "资产/角色/C57-灰领刺客.md",
+        "资产/角色/C58-褐袖刺客.md",
+        "资产/角色/C59-窄额带刺客.md"
+      ],
+      "depends_on": [],
+      "acceptance": "普通虚构影视道具母形；五名持有者分别登记使用件，不把五人合成一把漂浮武器；神秘人的器物未定，不共用此编号",
+      "prompt_en": "One plain period blade film prop beside its dark undecorated sheath, modest straight silhouette, restrained worn metal and simple cloth grip, isolated horizontal object study in soft diffuse light, no emblem, no supernatural glow.",
+      "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One plain period blade film prop beside its dark undecorated sheath, modest straight silhouette, restrained worn metal and simple cloth grip, isolated horizontal object study in soft diffuse light, no emblem, no supernatural glow. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-WEAPON-ASSASSIN__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-WEAPON-LONG-BLADE",
+      "name": "孟宽步战长刀与鞘",
+      "category": "补充近景件",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C18",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP02-SC04",
+        "GJ-EP03-SC05"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/01-归京/GJ-EP02-先过今夜.md",
+        "剧集/01-归京/GJ-EP03-门外的人.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C18-孟宽.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [],
+      "acceptance": "孟本人兵器，非大斩马刀；鞍侧携行、下马取用，不改成骑战",
+      "prompt_en": "One plain fully sheathed long infantry blade film prop, noticeably longer silhouette than a waist blade, simple dark wood handle and restrained dark metal fittings, isolated full side view on neutral gray, no hands, no blood, no supernatural glow.",
+      "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One plain fully sheathed long infantry blade film prop, noticeably longer silhouette than a waist blade, simple dark wood handle and restrained dark metal fittings, isolated full side view on neutral gray, no hands, no blood, no supernatural glow. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-WEAPON-LONG-BLADE__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-WEAPON-SHORT-SPEAR",
+      "name": "伍成短矛",
+      "category": "补充近景件",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C21",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP02-SC04",
+        "GJ-EP03-SC02",
+        "GJ-EP03-SC03",
+        "GJ-EP03-SC05"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/01-归京/GJ-EP02-先过今夜.md",
+        "剧集/01-归京/GJ-EP03-门外的人.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C21-伍成.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [],
+      "acceptance": "短矛与罗长枪不能同长同体量，不给结构图与制造规格",
+      "prompt_en": "One plain short wooden-shafted spear film prop, compact overall silhouette distinctly shorter than the long-spear family, restrained dark metal tip, isolated full side view on neutral gray, diffuse light.",
+      "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One plain short wooden-shafted spear film prop, compact overall silhouette distinctly shorter than the long-spear family, restrained dark metal tip, isolated full side view on neutral gray, diffuse light. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-WEAPON-SHORT-SPEAR__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-WEAPON-SHIELD",
+      "name": "石段木芯皮面短盾母形",
+      "category": "补充近景件",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C17",
+        "C22",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP02-SC04",
+        "GJ-EP03-SC02",
+        "GJ-EP03-SC03",
+        "GJ-EP03-SC04",
+        "GJ-EP03-SC05"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/01-归京/GJ-EP02-先过今夜.md",
+        "剧集/01-归京/GJ-EP03-门外的人.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C17-石照川.md",
+        "资产/角色/C22-段平生.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [],
+      "acceptance": "一母形派生石段两件，划痕与体量分别锁定；不变无敌盾，无血迹或碎裂新增伤",
+      "prompt_en": "One modest wooden short shield film prop with a matte dark-brown leather facing, softened corners, plain cloth edging and subtle old wear, isolated three-quarter object study on neutral gray, no emblem, no giant tower shield, no metal mirror polish.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One modest wooden short shield film prop with a matte dark-brown leather facing, softened corners, plain cloth edging and subtle old wear, isolated three-quarter object study on neutral gray, no emblem, no giant tower shield, no metal mirror polish. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "ready_for_exploration",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-WEAPON-SHIELD__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "MB-C16-MOUNTED",
+      "name": "杜长庚｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C16",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C16-杜长庚.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C16-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H01，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders, black hair bound in a plain topknot, wearing brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, dark bay coat with a small white forehead star. one ring-pommel military blade sheathed at his waist. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders, black hair bound in a plain topknot, wearing brown fine-wool scarf, dark brown-gray fitted travel layers, narrow cuffs, plain cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, dark bay coat with a small white forehead star. one ring-pommel military blade sheathed at his waist. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C16-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C17-MOUNTED",
+      "name": "石照川｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C17",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C17-石照川.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C17-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H02，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build, plain tightly bound black hair, wearing indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, black-bay coat without white facial markings. one modest leather-faced wooden short shield stowed at the saddle side, one short blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build, plain tightly bound black hair, wearing indigo cotton outer jacket over dark-gray fine wool, narrow cuffs and plain belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, black-bay coat without white facial markings. one modest leather-faced wooden short shield stowed at the saddle side, one short blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C17-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C18-MOUNTED",
+      "name": "孟宽｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C18",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C18-孟宽.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C18-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H03，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders, plain bound black hair, wearing smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, chestnut coat with a short narrow white nose stripe. one fully sheathed long infantry blade carried along the saddle side, clear of the horse legs. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 36, a broad rectangular face, thick natural brows, lively eyes, short beard, strong jaw and muscular shoulders, plain bound black hair, wearing smoky-gray travel coat over dark-brown layers, clearly visible ochre cloth belt, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, chestnut coat with a short narrow white nose stripe. one fully sheathed long infantry blade carried along the saddle side, clear of the horse legs. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C18-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C19-MOUNTED",
+      "name": "罗百泉｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C19",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C19-罗百泉.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C19-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H04，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance, black-and-gray hair tied simply, wearing gray-brown travel layers with a lighter inner collar, long clean vertical lines, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, dark gray coat with black mane and tail. one plain long spear film prop stowed along the saddle side, no attack pose. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 45, a long face, open relaxed brows, clear nose, neat short gray beard, lean strong frame, upright balanced stance, black-and-gray hair tied simply, wearing gray-brown travel layers with a lighter inner collar, long clean vertical lines, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, dark gray coat with black mane and tail. one plain long spear film prop stowed along the saddle side, no attack pose. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C19-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C20-MOUNTED",
+      "name": "崔望野｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C20",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C20-崔望野.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C20-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H05，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture, black hair bound away from the eyes, wearing dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, dark brown coat with a tiny white forehead spot. one cloth-wrapped short bow and closed arrow pouch stowed at the saddle side, one waist blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture, black hair bound away from the eyes, wearing dark-gray short fine-wool shoulder cape over gray-blue close-woven cotton, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, dark brown coat with a tiny white forehead spot. one cloth-wrapped short bow and closed arrow pouch stowed at the saddle side, one waist blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C20-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C21-MOUNTED",
+      "name": "伍成｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C21",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C21-伍成.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C21-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H06，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms, plain bound black hair, wearing light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, light bay coat without white facial markings. one plain short spear film prop stowed at the saddle side, no attack pose. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 29, a narrow diamond face with modest cheek fullness, open brow tails, bright eyes, light lean adult frame with strong arms, plain bound black hair, wearing light-brown short cotton jacket with warm-gray inner collar, thin wool underlayer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, light bay coat without white facial markings. one plain short spear film prop stowed at the saddle side, no attack pose. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C21-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C22-MOUNTED",
+      "name": "段平生｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C22",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C22-段平生.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C22-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H07，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin, plain bound black hair, wearing warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, reddish brown coat with a small white forehead star. one modest leather-faced wooden short shield stowed at the saddle side, one waist blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 40, a broad rounded jaw, open thick eyebrows, gentle eyes, thick shoulders and naturally solid waist, warm sun-touched skin, plain bound black hair, wearing warm-gray cotton travel coat, off-white woven neck cloth, fine-wool inner layer, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, reddish brown coat with a small white forehead star. one modest leather-faced wooden short shield stowed at the saddle side, one waist blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C22-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "MB-C23-MOUNTED",
+      "name": "许照邻｜单人骑乘绑定",
+      "category": "骑乘绑定",
+      "method": "MJ",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C23",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C23-许照邻.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-C23-ARMOR",
+        "POST-HORSES"
+      ],
+      "acceptance": "骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H08，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。",
+      "prompt_en": "One fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame, neatly bound black hair, wearing blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, gray-brown coat with a pale muzzle. one plain waist blade sheathed at his belt, modest square-mouth personal travel bag at saddle side. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics.",
+      "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame, neatly bound black hair, wearing blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings, short fitted matte dark-brown light leather armor over the existing narrow-sleeved travel clothing, soft shoulder edges, short split protective skirt panels, restrained dark rivets and cloth edging, visible personal collar and sleeve colors, plain cloth leg wraps and worn boots, no helmet, no gold ornaments, no modern tactical straps, seated naturally on one ordinary adult riding horse, gray-brown coat with a pale muzzle. one plain waist blade sheathed at his belt, modest square-mouth personal travel bag at saddle side. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Lavish, high-end Chinese costume idol drama aesthetic, refined casting and fitted costume construction, luminous directional face modelling, natural skin texture, rich translucent color, readable dark fabrics. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "MB-C23-MOUNTED__v01__candidate.png",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
     },
     {
       "id": "MB-LIGHT-S02",
@@ -4717,9 +6061,14 @@
         "S03",
         "S04",
         "S05",
-        "S06"
+        "S06",
+        "P19",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
         "GJ-EP01-SC03",
         "GJ-EP01-SC04",
         "GJ-EP01-SC05",
@@ -4743,10 +6092,13 @@
         "资产/场景/S04-书房.md",
         "资产/场景/S05-卧房.md",
         "资产/场景/S06-后院与外库门口.md",
-        "资产/美术风格与造型总则.md"
+        "资产/美术风格与造型总则.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [],
-      "acceptance": "无人物二维平面图，标南正门、北厅、东书房、西卧房、西厢、侧道、后院、外库、同街短墙。 验收：通路、视线、门槛、小案与固定大案都对上；尺寸由选版后确定，不能用生成漂亮院图反改拓扑。",
+      "acceptance": "无人物二维平面图，标南正门、北厅、东书房、西卧房、西厢、侧道、后院、外库、同街短墙。 验收：通路、视线、门槛、小案与固定大案都对上；尺寸由选版后确定，不能用生成漂亮院图反改拓扑。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 西厢另留卸甲和兵器器物区，远离铺盖、通道及室外马匹脚边；1-4以后衣甲不在人物身上。",
       "prompt_en": "",
       "provider_tail": "",
       "projection": "",
@@ -4973,7 +6325,9 @@
         "C20",
         "C21",
         "C22",
-        "C23"
+        "C23",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -5004,20 +6358,22 @@
         "资产/角色/C20-崔望野.md",
         "资产/角色/C21-伍成.md",
         "资产/角色/C22-段平生.md",
-        "资产/角色/C23-许照邻.md"
+        "资产/角色/C23-许照邻.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "MB-C03-FULL",
-        "MB-C16-FULL",
-        "MB-C17-FULL",
-        "MB-C18-FULL",
-        "MB-C19-FULL",
-        "MB-C20-FULL",
-        "MB-C21-FULL",
-        "MB-C22-FULL",
-        "MB-C23-FULL"
+        "MB-C03-ARMOR",
+        "MB-C16-ARMOR",
+        "MB-C17-ARMOR",
+        "MB-C18-ARMOR",
+        "MB-C19-ARMOR",
+        "MB-C20-ARMOR",
+        "MB-C21-ARMOR",
+        "MB-C22-ARMOR",
+        "MB-C23-ARMOR"
       ],
-      "acceptance": "选中九人后人工拼接角色编号与中性全身图；另排顾砚作对照，不塞进九人名单。 验收：精确人数、各自脸和身高比例检查；拼版只验证造型，不称已完成阵战镜头。",
+      "acceptance": "选中九人后人工拼接角色编号与中性全身图；另排顾砚作对照，不塞进九人名单。 开场使用九张ARMOR，另核对同源FULL卸甲便衣，不把甲色盖掉个人标记。 验收：精确人数、各自脸和身高比例检查；拼版只验证造型，不称已完成阵战镜头。",
       "prompt_en": "",
       "provider_tail": "",
       "projection": "",
@@ -5039,10 +6395,14 @@
       "asset_ids": [
         "P16",
         "S01",
-        "S03"
+        "S03",
+        "C60",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
         "GJ-EP01-SC03",
         "GJ-EP01-SC04",
         "GJ-EP01-SC06",
@@ -5061,16 +6421,20 @@
         "剧集/01-归京/GJ-EP02-先过今夜.md",
         "剧集/01-归京/GJ-EP03-门外的人.md",
         "剧集/前三集重写与生产交接-v1.9.md",
-        "资产/场景/S01-春泽桥与入城接道.md",
+        "资产/场景/S01-春泽桥前竹木密林道.md",
         "资产/场景/S03-顾府门院前厅与西厢.md",
         "资产/美术风格与造型总则.md",
-        "资产/道具/P16-九片退制阵甲铜片.md"
+        "资产/角色/C60-林侧神秘人.md",
+        "资产/道具/P16-九片退制阵甲铜片.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
         "POST-P16-NINE",
+        "MB-P20-BASE",
         "MB-ENV-S01"
       ],
-      "acceptance": "同一空场底的无光／短促暗纹／兵器接触雨线偏折三个独立层；叠合后看得见实体接触。 验收：不画全天罩、不裂地、不填地、不召魂；前三集只有归旌有限效果，没有世隙。",
+      "acceptance": "选中的竹木林道空底、短促铜纹、兵器接触处雨线与少量湿叶偏折分层；车灯属于P01人车绑定，不固定在树上。 验收：不画全天罩、不裂地、不填地、不召魂；前三集仅归旌局部反应和神秘介入的刃偏雨散，没有世隙。 竹林不整体发光或倒伏，地面完整；桥身保持在转弯和植被之后。 九片接续局部明暗反映持续受压；神秘介入另层，只作刃偏及短雨散，不画更大的军阵光效。 铜片仅经真实甲襟开口短暂可见，不穿透皮甲，不把九套轻甲外再贴九片发光铜。",
       "prompt_en": "",
       "provider_tail": "",
       "projection": "",
@@ -5170,7 +6534,8 @@
         "C16",
         "C20",
         "C22",
-        "C23"
+        "C23",
+        "C06"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
@@ -5201,6 +6566,7 @@
         "资产/角色/C03-韩青.md",
         "资产/角色/C04-顾伯.md",
         "资产/角色/C05-杨舟.md",
+        "资产/角色/C06-黄祁.md",
         "资产/角色/C08-孙福生.md",
         "资产/角色/C11-张济.md",
         "资产/角色/C12-王寿.md",
@@ -5212,7 +6578,7 @@
         "资产/角色/C23-许照邻.md"
       ],
       "depends_on": [],
-      "acceptance": "按实际台词的声位表、现代记忆一句、雨/轮/杯/灯/门/街/水/纸与克制音乐的分轨计划。 验收：C01/C02生理声线同源、反应节律有别；杨舟仅记忆声音，无跨世通信；此项不在MJ制作。",
+      "acceptance": "按实际台词的声位表、现代记忆一句、雨/林侧轻鸣/轮/杯/灯/门/街/水/纸与克制音乐的分轨计划。 黄祁一声“撤”，林侧金铁轻鸣独立声轨；C60无对白无传音。 马蹄、喷鼻、鞍具与下马衣料分轨，不能用马嘶遮掉神秘介入轻鸣。 另列皮甲受雨与摩擦、短盾闷响、兵器短促相接；重击感不靠爆炸，杜新增一声“接”按台本录。 验收：C01/C02生理声线同源、反应节律有别；杨舟仅记忆声音，无跨世通信；此项不在MJ制作。",
       "prompt_en": "",
       "provider_tail": "",
       "projection": "",
@@ -5236,10 +6602,20 @@
         "S03",
         "S04",
         "P01",
-        "P11"
+        "P11",
+        "C06",
+        "C07",
+        "C57",
+        "C58",
+        "C59",
+        "C60",
+        "P19",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
         "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
         "GJ-EP01-SC03",
         "GJ-EP01-SC04",
         "GJ-EP01-SC05",
@@ -5259,17 +6635,27 @@
         "剧集/01-归京/GJ-EP02-先过今夜.md",
         "剧集/01-归京/GJ-EP03-门外的人.md",
         "剧集/前三集重写与生产交接-v1.9.md",
-        "资产/场景/S01-春泽桥与入城接道.md",
+        "资产/场景/S01-春泽桥前竹木密林道.md",
         "资产/场景/S03-顾府门院前厅与西厢.md",
         "资产/场景/S04-书房.md",
         "资产/美术风格与造型总则.md",
+        "资产/角色/C06-黄祁.md",
+        "资产/角色/C07-罗顺.md",
+        "资产/角色/C57-灰领刺客.md",
+        "资产/角色/C58-褐袖刺客.md",
+        "资产/角色/C59-窄额带刺客.md",
+        "资产/角色/C60-林侧神秘人.md",
         "资产/道具/P01-敞棚小车.md",
-        "资产/道具/P11-王寿短刃.md"
+        "资产/道具/P11-王寿短刃.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
-        "POST-PLAN-COURT"
+        "POST-PLAN-COURT",
+        "POST-PLAN-FOREST"
       ],
-      "acceptance": "桥战、门边止暴、试窗三段分别作低风险预演或数字预演，之后再锁镜头与时长。 验收：九卒胜果与退路清楚；无现实刃器危险操作、车辆/湿地/高差由专业人员评估；不是文字已批准安全。",
+      "acceptance": "林道遇袭战、门边止暴、试窗三段分别作低风险预演或数字预演，之后再锁镜头与时长。 验收：五人、九卒、原顾和林侧C60分组清楚；四人牵制与黄单攻可读，九卒仅勉力抵挡；刃偏—黄戒备—撤令—五人退走因果清楚；无现实刃器危险操作、车辆/湿地/高差由专业人员评估；不是文字已批准安全。 林道宽段须保留车辆与护人活动空间；密竹、树根、湿地及车灯另审，不能以窄竹缝代替整阵空间。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 依据承锋架、回垒式、接隙式、护行步、留弦式、束锋式核对可见接续与吃力；四人牵制加黄专攻不能写成单挑胜利，弓本场不射；韩—段—韩扶人交接与收刀腾手明确。 双马停车与受阻反应只作分离预演，不让动物参与真实刃器交锋；不能把牵引马消失或脱队写成新增剧情。",
       "prompt_en": "",
       "provider_tail": "",
       "projection": "",
@@ -5292,9 +6678,13 @@
         "S02",
         "S03-W",
         "S06",
-        "S03"
+        "S03",
+        "P19",
+        "P20",
+        "P21"
       ],
       "scene_ids": [
+        "GJ-EP01-SC01",
         "GJ-EP01-SC02",
         "GJ-EP01-SC03",
         "GJ-EP01-SC04",
@@ -5318,12 +6708,15 @@
         "资产/场景/S02-南街汤摊与顾府外街口.md",
         "资产/场景/S03-顾府门院前厅与西厢.md",
         "资产/场景/S06-后院与外库门口.md",
-        "资产/美术风格与造型总则.md"
+        "资产/美术风格与造型总则.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
       ],
       "depends_on": [
         "POST-PLAN-COURT"
       ],
-      "acceptance": "匿名成人群演外观族、汤摊锅碗、铺盖、木盆、粮袋等摆设清单；按景别选普通图库授权素材或原创后制。 验收：不将路人变情报角色；九人铺盖分件摆放，数量由人工核；近景新增面孔才另排任务。",
+      "acceptance": "匿名成人群演外观族、汤摊锅碗、铺盖、木盆、粮袋等摆设清单；按景别选普通图库授权素材或原创后制。 验收：不将路人变情报角色；九人铺盖分件摆放，数量由人工核；近景新增面孔才另排任务。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 西厢另留卸甲和兵器器物区，远离铺盖、通道及室外马匹脚边；1-4以后衣甲不在人物身上。",
       "prompt_en": "",
       "provider_tail": "",
       "projection": "",
@@ -5332,6 +6725,230 @@
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "POST-BACKGROUND__v01__working",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "POST-PLAN-FOREST",
+      "name": "林道五对九与介入拓扑",
+      "category": "非MJ交接",
+      "method": "POST",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "S01",
+        "P01",
+        "C01",
+        "C03",
+        "C06",
+        "C07",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C57",
+        "C58",
+        "C59",
+        "C60",
+        "P19",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP01-SC04",
+        "GJ-EP01-SC06",
+        "GJ-EP02-SC02",
+        "GJ-EP02-SC04",
+        "GJ-EP02-SC05",
+        "GJ-EP03-SC01",
+        "GJ-EP03-SC02",
+        "GJ-EP03-SC03",
+        "GJ-EP03-SC04",
+        "GJ-EP03-SC05"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/01-归京/GJ-EP02-先过今夜.md",
+        "剧集/01-归京/GJ-EP03-门外的人.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/场景/S01-春泽桥前竹木密林道.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C01-顾砚（原顾）.md",
+        "资产/角色/C03-韩青.md",
+        "资产/角色/C06-黄祁.md",
+        "资产/角色/C07-罗顺.md",
+        "资产/角色/C16-杜长庚.md",
+        "资产/角色/C17-石照川.md",
+        "资产/角色/C18-孟宽.md",
+        "资产/角色/C19-罗百泉.md",
+        "资产/角色/C20-崔望野.md",
+        "资产/角色/C21-伍成.md",
+        "资产/角色/C22-段平生.md",
+        "资产/角色/C23-许照邻.md",
+        "资产/角色/C57-灰领刺客.md",
+        "资产/角色/C58-褐袖刺客.md",
+        "资产/角色/C59-窄额带刺客.md",
+        "资产/角色/C60-林侧神秘人.md",
+        "资产/道具/P01-敞棚小车.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [],
+      "acceptance": "非战术示意平面及因果分层：来路、会车宽段、人车、前方林口、五刺客退出侧隙、C60独立高树遮挡区；逐拍核恰好五刺客、九卒加原顾及一名介入者。 验收：空间须容纳人物与车辆，四人牵制、黄单攻、C60介入和两条退出路线可读；不提供现实围杀站位或器械操作，仍须专业动作安全审阅。 八匹坐骑与P01两匹拉车马分计；遇袭八人下马、九人地面合阵，马匹避让区和回府系马区不堵通路；动物与刃器、湿地下马须专业团队分离审阅。 P01双马并排与中央车辕、车灯各自位置清楚；两马随车留场待查，八匹坐骑牵回。",
+      "prompt_en": "",
+      "provider_tail": "",
+      "projection": "",
+      "manual_preflight_required": true,
+      "status": "planned",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "POST-PLAN-FOREST__v01__working",
+      "input_references": [],
+      "reference_slot": "none"
+    },
+    {
+      "id": "POST-HORSES",
+      "name": "八匹坐骑个体与骑手映射",
+      "category": "非MJ交接",
+      "method": "POST",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "P19",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP01-SC04",
+        "GJ-EP01-SC06",
+        "GJ-EP02-SC02",
+        "GJ-EP02-SC04",
+        "GJ-EP02-SC05",
+        "GJ-EP03-SC01",
+        "GJ-EP03-SC02",
+        "GJ-EP03-SC03",
+        "GJ-EP03-SC04",
+        "GJ-EP03-SC05"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/01-归京/GJ-EP02-先过今夜.md",
+        "剧集/01-归京/GJ-EP03-门外的人.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C16-杜长庚.md",
+        "资产/角色/C17-石照川.md",
+        "资产/角色/C18-孟宽.md",
+        "资产/角色/C19-罗百泉.md",
+        "资产/角色/C20-崔望野.md",
+        "资产/角色/C21-伍成.md",
+        "资产/角色/C22-段平生.md",
+        "资产/角色/C23-许照邻.md",
+        "资产/道具/P19-八卒坐骑与鞍具.md"
+      ],
+      "depends_on": [
+        "MB-P19-BASE"
+      ],
+      "acceptance": "母形通过后分件派生H01—H08八匹马的毛色斑记、鞍具与湿态；逐项人工核对C16—C23映射及鞍侧行李位置，保存八份已选个体供骑乘绑定使用。 验收：八匹不复制成同一身份、不复用P01牵引马；八骑加韩驾车，顾砚坐车；人物身份数不增加。此为后制/外部制作计划，未有实际马匹图。",
+      "prompt_en": "",
+      "provider_tail": "",
+      "projection": "",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "POST-HORSES__v01__working",
+      "input_references": [],
+      "reference_slot": "executor: selected parent master, rights checked"
+    },
+    {
+      "id": "POST-KIT",
+      "name": "九卒衣甲兵器个体映射与收装连续性",
+      "category": "非MJ交接",
+      "method": "POST",
+      "phase": "B",
+      "first_batch": 0,
+      "asset_ids": [
+        "C03",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "P20",
+        "P21"
+      ],
+      "scene_ids": [
+        "GJ-EP01-SC01",
+        "GJ-EP01-SC02",
+        "GJ-EP01-SC03",
+        "GJ-EP01-SC04",
+        "GJ-EP01-SC06",
+        "GJ-EP02-SC02",
+        "GJ-EP02-SC04",
+        "GJ-EP02-SC05",
+        "GJ-EP03-SC01",
+        "GJ-EP03-SC02",
+        "GJ-EP03-SC03",
+        "GJ-EP03-SC04",
+        "GJ-EP03-SC05"
+      ],
+      "source_paths": [
+        "剧集/01-归京/GJ-EP01-归京.md",
+        "剧集/01-归京/GJ-EP02-先过今夜.md",
+        "剧集/01-归京/GJ-EP03-门外的人.md",
+        "剧集/前三集重写与生产交接-v1.9.md",
+        "资产/美术风格与造型总则.md",
+        "资产/角色/C03-韩青.md",
+        "资产/角色/C16-杜长庚.md",
+        "资产/角色/C17-石照川.md",
+        "资产/角色/C18-孟宽.md",
+        "资产/角色/C19-罗百泉.md",
+        "资产/角色/C20-崔望野.md",
+        "资产/角色/C21-伍成.md",
+        "资产/角色/C22-段平生.md",
+        "资产/角色/C23-许照邻.md",
+        "资产/道具/P20-九卒轻皮甲.md",
+        "资产/道具/P21-九卒携行兵器.md"
+      ],
+      "depends_on": [
+        "MB-P20-BASE",
+        "MB-WEAPON-BLADE",
+        "MB-WEAPON-SPEAR",
+        "MB-WEAPON-BOW",
+        "MB-WEAPON-LONG-BLADE",
+        "MB-WEAPON-SHORT-SPEAR",
+        "MB-WEAPON-SHIELD"
+      ],
+      "acceptance": "由已选空甲与兵器族母形制作九人一人一套衣甲、各件兵器归属、静态佩持及鞍侧携行的对应表；P20-C03/C16—C23与P21个人件分开，标注骑行、下马取兵、接人腾手、收装牵马、1-3卸甲入库状态。 验收：杜环首刀，石短盾短刀，孟长刀，罗长枪，崔裹短弓封口箭袋腰刀，伍短矛，段短盾腰刀，韩许腰刀；恰九套皮甲而非九件兵器；原顾不穿甲不计P21，刺客另族，P16不穿透皮甲发光；没有同时双手扶人与挥刀。只做影视外观和连续性，动作、护具、道具刃器及动物交互另请专业团队安全审阅。",
+      "prompt_en": "",
+      "provider_tail": "",
+      "projection": "",
+      "manual_preflight_required": true,
+      "status": "awaiting_parent_selection",
+      "media_status": "not_generated",
+      "actual_file": null,
+      "planned_filename": "POST-KIT__v01__working",
       "input_references": [],
       "reference_slot": "executor: selected parent master, rights checked"
     }

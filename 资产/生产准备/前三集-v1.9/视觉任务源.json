@@ -86,7 +86,7 @@
       "identity_en": "a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build",
       "hair_en": "black hair bound close to the head, face unobscured in this identity study",
       "costume_en": "matte black narrow-sleeved travel jacket over charcoal layers, plain dark belt",
-      "checks": "与罗顺脸形体量不同；身份母版不蒙面，桥夜状态另做；新伤固定角色自身右上臂",
+      "checks": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤",
       "shares": []
     },
     {
@@ -280,18 +280,54 @@
       "costume_en": "blue cotton travel clothes with smoky-gray inner layers, carefully finished bindings",
       "checks": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊",
       "shares": []
+    },
+    {
+      "id": "C57",
+      "name": "灰领刺客",
+      "age": 32,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "tall slender build, long oval face, straight fine brows, narrow jaw",
+      "hair_en": "low tied black hair",
+      "costume_en": "deep ink-green short travel coat with a pale gray inner collar",
+      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
+      "shares": []
+    },
+    {
+      "id": "C58",
+      "name": "褐袖刺客",
+      "age": 38,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose",
+      "hair_en": "compact tied black hair",
+      "costume_en": "charcoal travel robe with brown outer sleeves and dark gray cross-collar",
+      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
+      "shares": []
+    },
+    {
+      "id": "C59",
+      "name": "窄额带刺客",
+      "age": 29,
+      "tier": "B",
+      "first_batch": 0,
+      "identity_en": "short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes",
+      "hair_en": "low tied black hair with a narrow dark gray forehead band",
+      "costume_en": "gray-blue fitted-sleeve short travel robe",
+      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
+      "shares": []
     }
   ],
   "environments": [
     {
       "key": "S01",
-      "name": "桥头完整空间",
+      "name": "春泽桥前竹木密林道空景",
       "asset_ids": [
         "S01"
       ],
       "first_batch": 8,
-      "body_en": "A low old stone bridge with an intact traversable deck, a continuous muddy footpath beside the cart route, worn parapets and open space at the approach for a small escort. Empty night setting, cold rain, low warm spill from a practical approach lantern, wet stone reflections, readable dark timber and gray masonry.",
-      "checks": "桥面完整、泥道连续；不生成世隙、裂空或九人一体图",
+      "body_en": "An empty old cart road winding through dense bamboo interwoven with tall dark woodland trees, wet winter foliage arching overhead. A broad passing bay at the bend, muddy wheel ruts, shallow puddles and scattered bamboo leaves, continuous walkable ground beside the cart track. The road leads toward a distant forest opening; the stone bridge beyond remains hidden by the bend and vegetation. Rainy night, cool diffuse light through canopy gaps, irregular leaf shadows, deep green and charcoal tones, readable ground and layered trunks. Live-action Chinese costume drama set, no people, no vehicles, no lanterns, no visible bridge deck. A separate empty roadside holding verge beside the passing bay has room for eight unmounted horses, outside the ground-action space; no horses present in this empty set study.",
+      "checks": "竹丛与高树密集，道弯宽段可供一车与护送人员活动；前方林口通桥，主战区不出现桥面或护栏；空底仅冷夜光，车灯在人车绑定时加入；不生世隙，不把九人合成一体 宽段与外缘避让空地分开，能容车、十匹马和地面动作；无人空底不生成马。 车道需容双马并排牵引，不只容单马车宽；另八匹坐骑的外缘避让区不并入两匹牵引马位置。",
       "state": "night_rain",
       "ratio": "16:9"
     },
@@ -314,8 +350,8 @@
         "S03"
       ],
       "first_batch": 7,
-      "body_en": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center.",
-      "checks": "南正门北前厅、西厢临外院；无中央水池，无额外秘道",
+      "body_en": "An old Chinese family courtyard seen from its south gate toward the north reception hall, west guest-room doors facing the open courtyard, east and west covered passages. Faded dark-red gate paint, refined weathered timber, blue-gray stone paving, a rain-catching basin kept beside a wall, no central pool. Cool overcast morning through the open sky, soft reflected light from pale plaster, empty walkable center. An empty temporary horse-holding space runs along the outer wall outside the west lodging wing, clear of all doors and the side passage, with room for eight horses; no animals present.",
+      "checks": "南正门北前厅、西厢临外院；无中央水池，无额外秘道 西厢室外沿墙预留八匹马空地，入口和西侧道不堵；空景不画马，卧具区不改马厩。",
       "state": "morning",
       "ratio": "16:9"
     },
@@ -411,8 +447,8 @@
       "id": "P01",
       "name": "双轮敞棚小车",
       "first_batch": 0,
-      "body_en": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, plain shafts and visible wheel hubs, side three-quarter view on neutral ground, diffuse studio light, separated silhouette.",
-      "checks": "本轮原创形制提案；只在桥头，绝非王寿租车；马另做",
+      "body_en": "A low two-wheeled wooden travelling cart with an open-sided cloth canopy, worn working timber, one central draw pole for a side-by-side two-horse team and visible wheel hubs, one small enclosed travel lantern fixed at the front, side three-quarter view on neutral ground, diffuse studio light, complete unobstructed cart silhouette, no horses, no people.",
+      "checks": "双轮低敞棚车，双马并排牵引用中央车辕外观，一盏有罩小行灯固定车前；空车不生成马。两匹牵引马另做，与车具组合时核接触及遮挡，不复用单马双侧辕构型；受阻连两马留林道，绝非王寿租车。车具仅影视外观，结构和动物安全由专业团队审阅。",
       "ratio": "4:3"
     },
     {
@@ -534,6 +570,22 @@
       "body_en": "One very thin hand-bound household ledger lying closed on neutral cloth, plain faded blue-gray paper cover, slight page wear, a simple blank label area, soft top lighting.",
       "checks": "许的伙食账，不是顾府发军饷；钱袋另拆单物任务",
       "ratio": "4:3"
+    },
+    {
+      "id": "P19",
+      "name": "普通骑乘马与旅鞍母形",
+      "body_en": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor.",
+      "ratio": "4:3",
+      "first_batch": 0,
+      "checks": "只探索单匹骑乘马母形，不是八匹成组结果；旅鞍不同于P01挽具，后续按H01—H08派生个体与绑定骑手"
+    },
+    {
+      "id": "P20",
+      "name": "九卒轻皮甲空甲母形",
+      "body_en": "One fictional period short light leather armor costume displayed on a faceless neutral torso stand, matte dark-brown leather, soft shoulder edges, thin padded lining, short split skirt panels, cloth-bound edges and sparse dark rivets, visible empty collar opening, carefully maintained wear, no metal breastplate, no glowing marks, no helmet, no weapons, no modern tactical vest, isolated three-quarter costume study, diffuse neutral light.",
+      "ratio": "4:3",
+      "first_batch": 0,
+      "checks": "P20只是九套同形轻甲母形；不改变各人衣色、不替代P16导息铜片、不穿透发光；再按九人体量派生，非实物防护性能证明"
     }
   ]
 }
