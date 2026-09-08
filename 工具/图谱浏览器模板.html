@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>人物 · 事件 · 情节图谱</title>
+<style>
+:root{color-scheme:light;--paper:#f5f3ed;--panel:#fffefa;--ink:#253335;--muted:#677371;--line:#dcded4;--char:#356582;--event:#ac6240;--plot:#61794a;--shadow:0 8px 30px #263c3310;font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);line-height:1.65}button,input,select,textarea{font:inherit}button,a,input,select,textarea{outline-offset:4px}button{cursor:pointer}button:disabled{cursor:default;opacity:.55}a{color:var(--char);overflow-wrap:anywhere}button{color:inherit}header{padding:30px 34px 22px;border-bottom:1px solid var(--line);background:var(--panel)}.eyebrow{font-size:11px;letter-spacing:.22em;color:var(--muted)}h1{font:600 clamp(24px,3vw,36px)/1.3 "Songti SC",SimSun,serif;margin:9px 0}h2{font-size:19px;margin:0 0 12px}h3{font-size:14px;margin:24px 0 10px}p{margin:0 0 12px}.meta,.muted{color:var(--muted);font-size:12px}.header-bottom{display:flex;justify-content:space-between;gap:20px;align-items:end}.intro{max-width:860px;margin:0;color:var(--muted)}.badge{font-size:11px;background:#ebece5;border-radius:4px;padding:3px 7px;white-space:nowrap}.workspace{display:grid;grid-template-columns:235px minmax(380px,1fr) 365px;gap:20px;padding:24px 28px;max-width:1860px;margin:auto;align-items:start}.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);min-width:0}.sidebar{padding:16px;position:sticky;top:18px}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;padding:3px;background:#eeeee7;border-radius:8px;margin-bottom:18px}.tabs button{border:0;background:transparent;padding:7px 0;font-size:13px;border-radius:5px}.tabs button[aria-pressed=true]{background:var(--ink);color:white}.field-label{display:block;font-size:12px;color:var(--muted);margin:12px 0 5px}input,select,textarea{width:100%;color:var(--ink);background:white;border:1px solid #ccd2c9;border-radius:6px;padding:9px 10px}input:focus,select:focus,textarea:focus{outline:2px solid #6a8995}.list-summary{margin:16px 0 9px;color:var(--muted);font-size:12px}.node-list{display:flex;flex-direction:column;gap:5px;max-height:64vh;overflow:auto;padding:2px}.node-button{border:1px solid transparent;background:transparent;border-radius:7px;text-align:left;padding:9px 10px;width:100%}.node-button:hover{background:#f1f1e9}.node-button[aria-pressed=true]{border-color:#9caeab;background:#eaf0ea}.node-name{display:block;font-weight:600}.node-subtitle{display:block;color:var(--muted);font-size:11px;margin-top:3px}.graph-panel{overflow:hidden}.graph-heading{display:flex;align-items:start;justify-content:space-between;gap:12px;padding:20px 22px 14px;border-bottom:1px solid var(--line)}.graph-heading h2{margin:0 0 4px}.legend{display:flex;gap:13px;flex-wrap:wrap;color:var(--muted);font-size:11px;margin:14px 22px 0}.legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}.graph-canvas{overflow:auto;padding:8px 8px 0;min-height:350px;background-image:radial-gradient(#dfe3d7 .8px,transparent .8px);background-size:18px 18px}svg{display:block;width:100%;min-width:450px}svg .graph-node{cursor:pointer}svg .graph-node:hover rect,svg .graph-node:focus rect{stroke-width:3}svg .graph-node:focus{outline:none}svg text{font-family:"Microsoft YaHei","PingFang SC",sans-serif}svg .edge-label{fill:var(--muted);font-size:11px}.graph-note{padding:10px 22px 17px;color:var(--muted);font-size:12px;margin:0}.details-panel{padding:22px;overflow-wrap:anywhere}.details-panel h2{font:600 24px/1.4 "Songti SC",SimSun,serif;margin:7px 0 9px}.tag-row{display:flex;flex-wrap:wrap;gap:6px}.fact{padding:10px 0;border-bottom:1px solid #eceee5}.fact-label{display:block;font-size:11px;color:var(--muted);margin-bottom:3px}.fact-value{white-space:pre-wrap;font-size:13px}.entry{border:1px solid var(--line);background:#fafbf6;border-radius:8px;padding:12px;margin:9px 0;font-size:12px}.entry p:last-child{margin:0}.entry-title{display:flex;justify-content:space-between;gap:8px;align-items:start;margin-bottom:7px}.jump{padding:0;border:0;background:transparent;color:var(--char);text-align:left;text-decoration:underline;text-underline-offset:3px}.entry .fact{border:0;padding:3px 0}.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{border:1px solid #cbd8d3;background:#eef4f0;border-radius:5px;padding:4px 7px;font-size:12px;color:#36565c}.sources{font-size:11px;margin-top:12px}.sources summary{cursor:pointer;color:var(--muted)}.sources ul{margin:7px 0 0;padding-left:17px}.sources li+li{margin-top:4px}.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:11px;min-width:300px}th,td{text-align:left;vertical-align:top;padding:8px 6px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:400;background:#f0f1e9}.empty{padding:32px 15px;text-align:center;color:var(--muted)}.note-panel{margin-top:20px;padding:20px 22px}.note-panel>summary{cursor:pointer;font-weight:600;list-style-position:outside}.note-intro{font-size:12px;color:var(--muted);margin-top:12px}.note-fields{display:grid;grid-template-columns:1fr 1fr;gap:5px 15px}textarea{resize:vertical;min-height:88px;font-size:12px}.actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:15px}.action{padding:7px 12px;border:1px solid #bdc9c0;border-radius:6px;background:white;font-size:12px}.action.primary{background:var(--ink);color:white;border-color:var(--ink)}#note-status{font-size:11px;color:var(--muted)}footer{padding:0 28px 25px;max-width:1860px;margin:auto;color:var(--muted);font-size:11px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:1250px){.workspace{grid-template-columns:220px minmax(380px,1fr)}.details-panel{grid-column:2}.main-column{grid-row:1}.sidebar{grid-row:1/3}.node-list{max-height:66vh}}@media(max-width:720px){header{padding:22px 18px}.header-bottom{display:block}.header-bottom .badge{display:inline-block;margin-top:12px}.workspace{display:flex;flex-direction:column;padding:16px;gap:16px}.sidebar,.main-column,.details-panel{width:100%}.sidebar{position:static}.node-list{max-height:220px}.note-fields{grid-template-columns:1fr}.graph-heading{padding:17px}.details-panel{padding:18px}footer{padding:0 18px 20px}}@media print{.sidebar,.note-panel{display:none}.workspace{display:block}.panel{box-shadow:none;margin:12px 0;break-inside:avoid}.details-panel{width:100%}.graph-canvas{min-height:0}a{color:inherit}}
+.main-column{min-width:0}.graph-canvas svg{min-width:880px}.graph-canvas:focus-visible{outline:2px solid #6a8995;outline-offset:-3px}@media print{.graph-canvas svg{min-width:0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">STORY ATLAS / 创作推演工作台</div>
+  <h1 id="page-title">人物 · 事件 · 情节图谱</h1>
+  <div class="header-bottom"><p class="intro" id="description">从人物动机进入事件，从事件后果追踪下一步压力。</p><span class="badge" id="version">本地资料</span></div>
+  <p style="margin:15px 0 0;padding:12px 15px;border-left:3px solid var(--event);background:#f5eee2;font-size:12px"><strong>作者全剧视图，包含后续安排。</strong>角色标签“陈渡／今顾”不等于剧中公开姓名。知识以事件知情表为准，未列出不代表知情。前四篇同伴与女主不知穿越，后三篇不预设公开。分组、篇章及阶段标签用于定位资料，关系聚合图不是某个时点的完整历史快照。</p>
+</header>
+<main class="workspace">
+  <aside class="panel sidebar" aria-label="图谱索引">
+    <div class="tabs" aria-label="节点类型">
+      <button type="button" data-mode="characters" aria-pressed="true">人物</button>
+      <button type="button" data-mode="events" aria-pressed="false">事件</button>
+      <button type="button" data-mode="plotlines" aria-pressed="false">情节线</button>
+    </div>
+    <label class="field-label" for="search">查找当前类型</label><input type="search" id="search" placeholder="姓名、动机、事件…" autocomplete="off">
+    <label class="field-label" for="filter" id="filter-label">人物分组</label><select id="filter"><option value="">全部分组</option></select>
+    <div class="list-summary" id="list-summary" aria-live="polite"></div><div class="node-list" id="node-list"></div>
+  </aside>
+  <section class="main-column" aria-label="关系图与推演便签">
+    <section class="panel graph-panel">
+      <div class="graph-heading"><div><h2 id="graph-title">局部关系图</h2><div class="muted" id="graph-subtitle">选中节点及一跳邻居</div></div><span class="badge">一跳视图</span></div>
+      <div class="legend"><span><i style="background:var(--char)"></i>人物</span><span><i style="background:var(--event)"></i>事件</span><span><i style="background:var(--plot)"></i>情节线</span><span>箭头表示关系 / 因果方向</span></div>
+      <div class="graph-canvas" id="graph-canvas" tabindex="0" role="region" aria-label="局部关系图，可横向滚动" aria-describedby="graph-note"></div><p class="graph-note" id="graph-note">点击节点可继续追踪。窄屏可横向滚动，完整连接见详情面板。</p>
+    </section>
+    <details class="panel note-panel" id="note-panel">
+      <summary>手动推演便签</summary>
+      <p class="note-intro">在一个条件发生变化后，逐项检验人物的行动。这里是手动推演稿，不会自动计算、生成剧情或改写设定；便签仅保留在当前页面，关闭前请复制或下载。</p>
+      <label class="field-label" for="note-anchor">推演挂靠</label><input type="text" id="note-anchor" placeholder="首次填写便签时记录当前节点，可自行改写" aria-describedby="note-anchor-help">
+      <p class="muted" id="note-anchor-help" style="margin-top:6px">首次填写时记录人物、事件或情节线的名称与编号；此后切换节点不改变挂靠，可在这里手动修改。</p>
+      <div class="note-fields">
+        <div><label class="field-label" for="note-trigger">① 触发变化</label><textarea id="note-trigger" placeholder="哪件事发生了？与既有前提相比，改变了什么？"></textarea></div>
+        <div><label class="field-label" for="note-evidence">② 所知证据</label><textarea id="note-evidence" placeholder="谁知道什么？从哪条渠道得知？是否存在误判？"></textarea></div>
+        <div><label class="field-label" for="note-action">③ 可选行动</label><textarea id="note-action" placeholder="他想得到什么？有哪些选项？哪项触及底线？"></textarea></div>
+        <div><label class="field-label" for="note-cost">④ 代价</label><textarea id="note-cost" placeholder="资源、人情、身份或信任会损失多少？"></textarea></div>
+        <div><label class="field-label" for="note-reaction">⑤ 反应</label><textarea id="note-reaction" placeholder="对手、同伴与旁观者各会怎样回应？"></textarea></div>
+        <div><label class="field-label" for="note-next">⑥ 下一事件</label><textarea id="note-next" placeholder="后果会产生什么新压力？迫使谁作下一次选择？"></textarea></div>
+      </div>
+      <div class="actions"><button type="button" class="action primary" id="copy-note">复制推演稿</button><button type="button" class="action" id="download-note">下载 Markdown</button><span id="note-status" role="status"></span></div>
+    </details>
+  </section>
+  <aside class="panel details-panel" id="details" aria-label="节点详情" aria-live="polite"></aside>
+</main>
+<footer id="footer">全部内容随本地文件载入，无需联网。图谱中未写明的内容应视为待定，不能当作既定事实。</footer>
+<script type="application/json" id="graph-data">__GRAPH_DATA__</script>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const array = value => Array.isArray(value) ? value : [];
+  const compact = value => array(value).map(String).join('、');
+  const text = value => Array.isArray(value) ? compact(value) : String(value ?? '');
+  let data;
+  try { data = JSON.parse($('graph-data').textContent); }
+  catch (_) { $('graph-canvas').innerHTML = '<p class="empty">图谱数据尚未生成。请使用资料构建工具生成完整页面。</p>'; $('details').textContent = '此文件是图谱浏览器模板。'; return; }
+  const types = ['characters','events','plotlines'];
+  for (const key of [...types,'relations','causal_edges']) data[key] = array(data[key]);
+  const maps = Object.fromEntries(types.map(type => [type,new Map(data[type].map(item => [String(item.id),item]))]));
+  const modeNames = {characters:'人物',events:'事件',plotlines:'情节线'};
+  const colors = {characters:'#356582',events:'#ac6240',plotlines:'#61794a'};
+  const state = {mode:'characters',id:'C02',query:'',filter:''};
+  const name = (type,id) => maps[type].get(String(id))?.name || String(id || '未指定');
+  const get = () => maps[state.mode].get(String(state.id));
+  const chips = (type,ids) => '<div class="chips">' + array(ids).map(id => '<button class="chip" type="button" data-jump="'+type+'" data-id="'+escape(id)+'">'+escape(name(type,id))+'</button>').join('') + '</div>';
+  const jump = (type,id,label) => '<button class="jump" type="button" data-jump="'+type+'" data-id="'+escape(id)+'">'+escape(label || name(type,id))+'</button>';
+  const fact = (label,value) => '<div class="fact"><span class="fact-label">'+escape(label)+'</span><div class="fact-value">'+escape(text(value) || '待补充')+'</div></div>';
+  const facts = pairs => pairs.map(([label,value]) => fact(label,value)).join('');
+  const tags = values => '<div class="tag-row">'+values.filter(Boolean).map(value => '<span class="badge">'+escape(value)+'</span>').join('')+'</div>';
+  const sourceLinks = values => {
+    const sources = [...new Set(array(values).map(String))];
+    if (!sources.length) return '';
+    return '<details class="sources"><summary>查看资料来源（'+sources.length+'）</summary><ul>'+sources.map(source => {
+      const normalized = source.replace(/\\/g,'/').replace(/^\.\//,'');
+      const [path,...fragments] = normalized.split('#');
+      const safe = path && !/^(?:\/|[a-z]+:)/i.test(path) && !path.split('/').includes('..');
+      const url = '../'+path.split('/').map(encodeURIComponent).join('/')+(fragments.length ? '#'+encodeURIComponent(fragments.join('#')) : '');
+      return '<li>'+(safe ? '<a target="_blank" rel="noopener" href="'+escape(url)+'">'+escape(source)+'</a>' : escape(source))+'</li>';
+    }).join('')+'</ul></details>';
+  };
+  const relatedEvents = id => data.events.filter(event => array(event.participants).map(String).includes(String(id)));
+  const relations = id => data.relations.filter(relation => String(relation.from) === String(id) || String(relation.to) === String(id));
+  const eventOrder = events => [...events].sort((a,b) => (Number(a.order) || 0)-(Number(b.order) || 0));
+  const meta = data.meta || {};
+  document.title = meta.title || '人物 · 事件 · 情节图谱'; $('page-title').textContent = document.title;
+  if (meta.description) $('description').textContent = meta.description;
+  $('version').textContent = [meta.version && '版本 '+meta.version,meta.updated && '更新 '+meta.updated].filter(Boolean).join(' · ') || '本地资料';
+  $('footer').textContent = data.characters.length+' 位人物 · '+data.relations.length+' 条人物关系 · '+data.events.length+' 个事件 · '+data.causal_edges.length+' 条因果连接 · '+data.plotlines.length+' 条情节线。全部内容随本地文件载入，无需联网。未写明的内容视为待定。';
+
+  function updateFilter() {
+    const key = state.mode === 'characters' ? 'group' : 'arc';
+    const disabled = state.mode === 'plotlines';
+    $('filter-label').textContent = disabled ? '情节线范围' : state.mode === 'characters' ? '人物分组' : '所属篇章';
+    $('filter').disabled = disabled;
+    const choices = disabled ? [] : [...new Set(data[state.mode].map(item => item[key]).filter(Boolean))];
+    $('filter').innerHTML = '<option value="">'+(disabled ? '全部情节线' : state.mode === 'characters' ? '全部分组' : '全部篇章')+'</option>'+choices.map(value => '<option value="'+escape(value)+'">'+escape(value)+'</option>').join('');
+    $('filter').value = state.filter;
+    $('search').placeholder = state.mode === 'characters' ? '姓名、动机、底线…' : state.mode === 'events' ? '事件、选择、后果…' : '情节线、悬念、回收…';
+    document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.mode === state.mode)));
+  }
+  function renderList() {
+    const query = state.query.trim().toLocaleLowerCase();
+    const items = data[state.mode].filter(item => (!state.filter || (state.mode === 'characters' ? item.group : item.arc) === state.filter) && (!query || JSON.stringify(item).toLocaleLowerCase().includes(query)));
+    if (!items.some(item => String(item.id) === String(state.id))) state.id = items[0]?.id ?? null;
+    $('list-summary').textContent = '显示 '+items.length+' / '+data[state.mode].length+' '+(state.mode === 'characters' ? '位人物' : state.mode === 'events' ? '个事件' : '条情节线');
+    $('node-list').innerHTML = items.length ? items.map(item => '<button type="button" class="node-button" data-select="'+escape(item.id)+'" aria-pressed="'+(String(item.id) === String(state.id))+'"><span class="node-name">'+escape(item.name)+'</span><span class="node-subtitle">'+escape([item.group || item.arc || item.id,item.stage || item.status].filter(Boolean).join(' · '))+'</span></button>').join('') : '<div class="empty">没有匹配项。可修改关键词或筛选。</div>';
+    renderDetails(); renderGraph();
+  }
+  function select(type,id) {
+    if (!maps[type]?.has(String(id))) return;
+    if (state.mode !== type) { state.mode = type; state.query = ''; state.filter = ''; $('search').value = ''; updateFilter(); }
+    state.id = String(id);
+    const item = get();
+    if (state.filter && (type === 'characters' ? item.group : item.arc) !== state.filter) { state.filter = ''; $('filter').value = ''; }
+    if (state.query && !JSON.stringify(item).toLocaleLowerCase().includes(state.query.trim().toLocaleLowerCase())) { state.query = ''; $('search').value = ''; }
+    renderList();
+  }
+  function renderDetails() {
+    const item = get();
+    if (!item) { $('details').innerHTML = '<div class="empty">选择节点后查看行为逻辑与资料依据。</div>'; return; }
+    let html = '<div class="eyebrow">'+modeNames[state.mode]+' / '+escape(item.id)+'</div><h2>'+escape(item.name)+'</h2>'+tags([item.group || item.arc,item.stage,item.status]);
+    if (state.mode === 'characters') {
+      html += facts([['想得到什么',item.want],['最怕失去什么',item.fear],['不能越过的底线',item.bottom_line],['可调用资源',item.resources],['认知盲点',item.blind_spot],['行为规则',item.behavior_rule]]);
+      const links = relations(item.id);
+      html += '<h3>直接人物关系 · '+links.length+'</h3>'+(links.length ? links.map(relation => {
+        const target = String(relation.from) === String(item.id) ? relation.to : relation.from;
+        const arrow = relation.direction === '双向' ? '↔' : String(relation.from) === String(item.id) ? '→' : '←';
+        return '<article class="entry"><div class="entry-title"><strong>'+escape(item.name)+' '+arrow+' '+jump('characters',target)+'</strong><span class="badge">'+escape(relation.label)+'</span></div>'+tags([relation.stage,relation.status])+facts([['关系依据',relation.basis],['变化触发',relation.trigger],['关系边界',relation.boundary]])+sourceLinks(relation.sources)+'</article>';
+      }).join('') : '<p class="muted">暂无明确登记的直接关系。</p>');
+      const events = eventOrder(relatedEvents(item.id));
+      html += '<h3>参与事件 · '+events.length+'</h3>'+(events.length ? events.map(event => '<article class="entry"><div class="entry-title">'+jump('events',event.id)+'<span class="badge">'+escape(event.arc || event.stage || '')+'</span></div><p>'+escape(event.choice || event.goal || '选择待补充')+'</p></article>').join('') : '<p class="muted">暂无登记事件。</p>');
+    } else if (state.mode === 'events') {
+      html += '<h3>涉及身份</h3><p class="muted">跨场、回忆或画外声不等于同时在场；写新场时请回台本核对。</p>'+chips('characters',item.participants)+facts([['事件目标',item.goal],['触发条件',item.trigger],['阻碍',item.obstacle],['关键选择',item.choice],['付出的代价',item.cost],['已知 / 预计结果',item.result],['施加给下一步的压力',item.next_pressure],['关联任务',item.task_ids]]);
+      html += '<h3>知情变化</h3>'+(array(item.knowledge).length ? '<div class="table-wrap"><table><thead><tr><th>人物</th><th>事前所知</th><th>事后所知</th><th>信息渠道</th></tr></thead><tbody>'+item.knowledge.map(row => '<tr><td>'+jump('characters',row.who)+'</td><td>'+escape(row.before || '待补充')+'</td><td>'+escape(row.after || '待补充')+'</td><td>'+escape(row.channel || '待补充')+'</td></tr>').join('')+'</tbody></table></div>' : '<p class="muted">尚未登记知情变化；不要假设所有参与者共享信息。</p>');
+      const edges = data.causal_edges.filter(edge => String(edge.from) === String(item.id) || String(edge.to) === String(item.id));
+      html += '<h3>相邻因果 · '+edges.length+'</h3>'+(edges.length ? edges.map(edge => {
+        const incoming = String(edge.to) === String(item.id);
+        return '<article class="entry"><div class="entry-title"><span>'+ (incoming ? '前因 ← ' : '后果 → ')+jump('events',incoming ? edge.from : edge.to)+'</span></div><p>'+escape(edge.label || '关系待补充')+'</p>'+tags([edge.kind,edge.status])+sourceLinks(edge.sources)+'</article>';
+      }).join('') : '<p class="muted">暂无明确登记的前后因果。</p>');
+      const plots = data.plotlines.filter(plot => array(plot.event_ids).map(String).includes(String(item.id)));
+      if (plots.length) html += '<h3>所在情节线</h3>'+chips('plotlines',plots.map(plot => plot.id));
+    } else {
+      html += facts([['持续追问',item.question],['回收 / 兑现',item.payoff]])+'<h3>事件链 · '+array(item.event_ids).length+'</h3>';
+      html += array(item.event_ids).map((id,index) => {
+        const event = maps.events.get(String(id));
+        return '<article class="entry"><div class="entry-title"><span>'+String(index+1).padStart(2,'0')+' · '+jump('events',id)+'</span></div><p>'+escape(event?.next_pressure || event?.result || '事件资料待补充')+'</p>'+tags([event?.arc,event?.status])+'</article>';
+      }).join('');
+    }
+    $('details').innerHTML = html+sourceLinks(item.sources);
+  }
+  function graphLinks(item) {
+    const links = [];
+    const add = (type,id,label,out,both,side) => {
+      if (!maps[type].has(String(id)) || (type === state.mode && String(id) === String(item.id))) return;
+      const key = type+':'+id, existing = links.find(link => link.key === key);
+      if (existing) { if (!existing.labels.includes(label)) existing.labels.push(label); if (existing.out !== out) existing.both = true; existing.both ||= both; }
+      else links.push({key,type,id,labels:[label],out,both,side});
+    };
+    if (state.mode === 'characters') {
+      relations(item.id).forEach(relation => { const out = String(relation.from) === String(item.id); add('characters',out ? relation.to : relation.from,relation.label || '关联',out,relation.direction === '双向','left'); });
+      relatedEvents(item.id).forEach(event => add('events',event.id,'参与',true,false,'right'));
+    } else if (state.mode === 'events') {
+      data.causal_edges.forEach(edge => {
+        if (String(edge.to) === String(item.id)) add('events',edge.from,edge.label || edge.kind || '前因',false,false,'left');
+        if (String(edge.from) === String(item.id)) add('events',edge.to,edge.label || edge.kind || '后果',true,false,'right');
+      });
+      array(item.participants).forEach((id,index) => add('characters',id,'参与',false,false,index % 2 ? 'right' : 'left'));
+    } else array(item.event_ids).forEach((id,index) => add('events',id,'事件 '+(index+1),true,false,index % 2 ? 'right' : 'left'));
+    return links;
+  }
+  function renderGraph() {
+    const item = get();
+    if (!item) { $('graph-title').textContent = '局部关系图'; $('graph-subtitle').textContent = '选中节点及一跳邻居'; $('graph-canvas').innerHTML = '<div class="empty">请从左侧索引选择节点。</div>'; $('graph-note').textContent = '无匹配节点。'; return; }
+    const links = graphLinks(item);
+    const visible = [...links.filter(link => link.side === 'left').slice(0,7),...links.filter(link => link.side !== 'left').slice(0,7)];
+    if (visible.length < 14) visible.push(...links.filter(link => !visible.includes(link)).slice(0,14-visible.length));
+    let left = visible.filter(link => link.side === 'left'), right = visible.filter(link => link.side !== 'left');
+    if (Math.abs(left.length-right.length) > 4) { left = visible.filter((_,index) => index % 2 === 0); right = visible.filter((_,index) => index % 2 === 1); }
+    const height = Math.max(440,Math.max(left.length,right.length)*94+40), cy = height/2;
+    $('graph-title').textContent = item.name+' · 局部关系';
+    $('graph-subtitle').textContent = state.mode === 'characters' ? '关系边界、关联事件与人物行为' : state.mode === 'events' ? '前因后果、涉及身份与知情变化' : '围绕同一个问题推进的事件链';
+    let svg = '<svg viewBox="0 0 880 '+height+'" role="group" aria-label="'+escape(item.name)+'的一跳关系图"><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8a9993"/></marker></defs>';
+    const positions = [];
+    [left,right].forEach((group,sideIndex) => group.forEach((link,index) => {
+      const x = sideIndex ? 754 : 126, y = height/2+(index-(group.length-1)/2)*94;
+      positions.push({...link,x,y});
+      const startX = sideIndex ? 526 : 354, endX = sideIndex ? x-88 : x+88;
+      svg += '<path d="M '+startX+' '+cy+' C '+(sideIndex ? 595 : 285)+' '+cy+', '+(sideIndex ? 595 : 285)+' '+y+', '+endX+' '+y+'" fill="none" stroke="#abb7af" stroke-width="1.5"'+(link.out || link.both ? ' marker-end="url(#arrow)"' : '')+(!link.out || link.both ? ' marker-start="url(#arrow)"' : '')+'/>';
+    }));
+    positions.forEach(link => {
+      const label = link.labels.join(' / '), short = Array.from(label).slice(0,14).join('')+(Array.from(label).length > 14 ? '…' : '');
+      const labelX = link.x < 440 ? 275 : 605, labelY = link.y+(cy-link.y)*.08;
+      svg += '<g><title>'+escape(label)+'</title><rect x="'+(labelX-83)+'" y="'+(labelY-10)+'" width="166" height="21" rx="5" fill="#fffefa" fill-opacity=".96"/><text class="edge-label" x="'+labelX+'" y="'+(labelY+5)+'" text-anchor="middle">'+escape(short)+'</text></g>';
+    });
+    const node = (type,id,x,y,selected) => {
+      const label = name(type,id), chars = Array.from(label), rows = chars.length <= 10 ? [label] : [chars.slice(0,10).join(''),chars.slice(10,19).join('')+(chars.length > 19 ? '…' : '')];
+      const color = colors[type];
+      return '<g class="graph-node" tabindex="0" role="button" aria-label="查看'+modeNames[type]+'：'+escape(label)+'" data-jump="'+type+'" data-id="'+escape(id)+'"><title>'+escape(label)+'</title><rect x="'+(x-86)+'" y="'+(y-35)+'" width="172" height="70" rx="11" fill="'+(selected ? color : '#fffefa')+'" stroke="'+color+'" stroke-width="'+(selected ? 2.5 : 1.4)+'"/><text x="'+x+'" y="'+(y-(rows.length > 1 ? 8 : 0))+'" text-anchor="middle" fill="'+(selected ? '#fff' : color)+'" font-size="14" font-weight="600">'+rows.map((row,index) => '<tspan x="'+x+'" dy="'+(index ? 19 : 0)+'">'+escape(row)+'</tspan>').join('')+'</text><text x="'+x+'" y="'+(y+25)+'" text-anchor="middle" font-size="10" fill="'+(selected ? '#ffffffbf' : '#788680')+'">'+(selected ? '当前'+modeNames[type] : modeNames[type])+'</text></g>';
+    };
+    positions.forEach(link => { svg += node(link.type,link.id,link.x,link.y,false); });
+    svg += node(state.mode,item.id,440,cy,true)+'</svg>';
+    $('graph-canvas').innerHTML = svg;
+    $('graph-canvas').scrollLeft = Math.max(0,($('graph-canvas').scrollWidth-$('graph-canvas').clientWidth)/2);
+    $('graph-note').textContent = (links.length > visible.length ? '共 '+links.length+' 个相邻节点，图上分侧展示 '+visible.length+' 个；完整连接见详情面板。' : '共 '+links.length+' 个相邻节点。')+' 图中文字保持原尺寸，窄屏可横向滚动查看。点击节点继续追踪；键盘可用 Tab 定位、Enter 或空格选择。箭头表达资料中记录的关系方向，不等同于控制或强弱。';
+  }
+  document.addEventListener('click',event => {
+    const target = event.target.closest('[data-mode],[data-select],[data-jump]');
+    if (!target) return;
+    if (target.dataset.mode) { state.mode = target.dataset.mode; state.id = null; state.filter = ''; state.query = ''; $('search').value = ''; updateFilter(); renderList(); }
+    else if (target.dataset.select !== undefined) select(state.mode,target.dataset.select);
+    else select(target.dataset.jump,target.dataset.id);
+  });
+  $('graph-canvas').addEventListener('keydown',event => {
+    if ((event.key === 'Enter' || event.key === ' ') && event.target.matches('[data-jump]')) { event.preventDefault(); select(event.target.dataset.jump,event.target.dataset.id); $('graph-canvas').querySelector('[data-jump][aria-label]')?.focus(); }
+  });
+  $('search').addEventListener('input',event => { state.query = event.target.value; renderList(); });
+  $('filter').addEventListener('change',event => { state.filter = event.target.value; renderList(); });
+  const noteLabels = [['trigger','触发变化'],['evidence','所知证据'],['action','可选行动'],['cost','代价'],['reaction','反应'],['next','下一事件']];
+  let noteAnchorCaptured = false;
+  const captureNoteAnchor = () => {
+    if (noteAnchorCaptured) return;
+    noteAnchorCaptured = true;
+    const item = get();
+    if (!$('note-anchor').value.trim()) $('note-anchor').value = item ? modeNames[state.mode]+' · '+item.id+' · '+item.name : '未指定';
+  };
+  noteLabels.forEach(([key]) => $('note-'+key).addEventListener('input',captureNoteAnchor));
+  $('note-anchor').addEventListener('input',() => { noteAnchorCaptured = true; });
+  const noteText = () => '# 手动推演稿\n\n此稿为手动填写的推演便签，未经资料核验，不改变既有设定。\n\n推演挂靠：'+($('note-anchor').value.trim() || '未指定')+'\n\n'+noteLabels.map(([key,label]) => '## '+label+'\n\n'+($('note-'+key).value.trim() || '待补充')).join('\n\n')+'\n';
+  $('copy-note').addEventListener('click',async () => {
+    const content = noteText();
+    try { if (!navigator.clipboard?.writeText) throw new Error('clipboard unavailable'); await navigator.clipboard.writeText(content); $('note-status').textContent = '已复制推演稿。'; }
+    catch (_) {
+      const temporary = document.createElement('textarea'); temporary.value = content; temporary.setAttribute('aria-label','推演稿复制内容'); document.body.append(temporary); temporary.select();
+      let copied = false; try { copied = document.execCommand('copy'); } catch (_) { /* local browser may deny clipboard */ }
+      temporary.remove(); $('note-status').textContent = copied ? '已复制推演稿。' : '浏览器未允许复制，请使用下载 Markdown。';
+    }
+  });
+  $('download-note').addEventListener('click',() => {
+    const url = URL.createObjectURL(new Blob([noteText()],{type:'text/markdown;charset=utf-8'}));
+    const link = document.createElement('a'); link.href = url; link.download = '手动推演稿-'+new Date().toISOString().slice(0,10)+'.md'; document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url),1000); $('note-status').textContent = '已发起 Markdown 下载。';
+  });
+  updateFilter(); renderList();
+})();
+</script>
+</body>
+</html>
