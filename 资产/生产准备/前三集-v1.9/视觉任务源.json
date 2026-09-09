@@ -25,7 +25,7 @@
     "quality": "do_not_send",
     "hd": "not_assumed"
   },
-  "style_en": "Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors.",
+  "style_en": "Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors.",
   "characters": [
     {
       "id": "C01",
@@ -34,12 +34,15 @@
       "tier": "A",
       "first_batch": 0,
       "identity_en": "a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build",
-      "hair_en": "long black hair in one neat topknot with a plain dark wooden pin",
-      "costume_en": "ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots",
-      "checks": "同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸",
+      "hair_en": "long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut",
+      "costume_en": "ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots",
+      "checks": "同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
       "shares": [
         "C02"
-      ]
+      ],
+      "studio_background_en": "Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder"
     },
     {
       "id": "C03",
@@ -48,10 +51,13 @@
       "tier": "A",
       "first_batch": 0,
       "identity_en": "a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms",
-      "hair_en": "black hair in a compact topknot tied with gray-blue cloth",
-      "costume_en": "gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
-      "checks": "比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军",
-      "shares": []
+      "hair_en": "black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut",
+      "costume_en": "medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
+      "checks": "比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C04",
@@ -60,10 +66,13 @@
       "tier": "A",
       "first_batch": 0,
       "identity_en": "a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders",
-      "hair_en": "gray-black hair in a modest small topknot",
-      "costume_en": "tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes",
-      "checks": "64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化",
-      "shares": []
+      "hair_en": "gray-black hair in a modest small topknot, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes",
+      "checks": "64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C16",
@@ -72,10 +81,13 @@
       "tier": "A",
       "first_batch": 0,
       "identity_en": "a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders",
-      "hair_en": "black hair bound in a plain topknot",
-      "costume_en": "blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
-      "checks": "43岁灰鬓、褐围巾、宽肩；不穿将军甲",
-      "shares": []
+      "hair_en": "black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
+      "checks": "43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C06",
@@ -84,10 +96,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build",
-      "hair_en": "black hair bound close to the head, face unobscured in this identity study",
-      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry",
-      "checks": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤",
-      "shares": []
+      "hair_en": "black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry",
+      "checks": "与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C07",
@@ -96,10 +111,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders",
-      "hair_en": "black hair tied simply, ordinary gray-brown rain hat worn back to show the face",
+      "hair_en": "black hair tied simply, ordinary gray-brown rain hat worn back to show the face, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut",
       "costume_en": "gray-brown short travel coat with dark blue inner collar, fitted dense cotton sleeves",
-      "checks": "26岁方圆脸，雨帽和灰褐衣；不共用黄祁、马六的脸",
-      "shares": []
+      "checks": "26岁方圆脸，雨帽和灰褐衣；不共用黄祁、马六的脸；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C08",
@@ -108,10 +126,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a broad balanced face, open brows and eyes, smile creases, short tidy beard, sturdy upper body and broad hands",
-      "hair_en": "plain tied black hair with a few gray strands",
+      "hair_en": "plain tied black hair with a few gray strands, neatly secured period long hair with tidy temples, no modern cropped haircut",
       "costume_en": "warm chestnut short cotton jacket and pale-gray cloth apron, neat collar seams",
-      "checks": "49岁汤摊主人，围腰短须；人物普通但体面，不夸张油污",
-      "shares": []
+      "checks": "49岁汤摊主人，围腰短须；人物普通但体面，不夸张油污；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C09",
@@ -120,10 +141,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a broad forehead, thick eyebrows, bright eyes, rounded jaw, light wheat skin, strong working shoulders",
-      "hair_en": "simply bound black hair",
+      "hair_en": "simply bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut",
       "costume_en": "faded ochre short cotton robe with light-brown inner collar, neat repairs at elbows",
-      "checks": "宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记",
-      "shares": []
+      "checks": "宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C10",
@@ -132,10 +156,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a narrow rectangular face, straight relaxed brows, softly defined eye sockets, clear lip line, slender upright frame",
-      "hair_en": "simply bound black hair",
+      "hair_en": "simply bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut",
       "costume_en": "gray-green short robe with smoky-brown inner collar, matte close-woven cotton",
-      "checks": "窄长脸灰绿衣，不画阴险神情或密探面罩",
-      "shares": []
+      "checks": "窄长脸灰绿衣，不画阴险神情或密探面罩；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C11",
@@ -144,10 +171,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a long face, clear nose bridge, slim eyebrows, attentive eyes with age lines, gray temples, neatly trimmed moustache, straight back",
-      "hair_en": "graying hair in a plain tied knot",
+      "hair_en": "graying hair in a plain tied knot, neatly secured period long hair with tidy temples, no modern cropped haircut",
       "costume_en": "blue-gray long cotton-linen robe with moon-white inner collar, clean practical cuffs",
-      "checks": "58岁细长面、灰鬓，与顾伯分开；不是发光仙医",
-      "shares": []
+      "checks": "58岁细长面、灰鬓，与顾伯分开；不是发光仙医；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C12",
@@ -156,10 +186,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture",
-      "hair_en": "neatly bound black hair",
+      "hair_en": "neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut",
       "costume_en": "faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases",
-      "checks": "真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹",
-      "shares": []
+      "checks": "真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C13",
@@ -168,10 +201,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a long diamond-shaped face, straight brow tails, rounded eyes, defined lips, light neck and shoulders, lean balanced frame",
-      "hair_en": "plain tied black hair",
-      "costume_en": "light-gray short travel clothes with gray-green inner collar, neatly pressed side seams",
-      "checks": "27岁轻巧匀长；西巷正侧脸须同人，不蒙面",
-      "shares": []
+      "hair_en": "plain tied black hair, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut",
+      "costume_en": "light-gray short travel clothes with gray-green inner collar, neatly pressed side seams, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams",
+      "checks": "27岁轻巧匀长；西巷正侧脸须同人，不蒙面；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C14",
@@ -180,10 +216,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders",
-      "hair_en": "black hair neatly bound for duty",
+      "hair_en": "black hair neatly bound for duty, neatly secured period long hair with tidy temples, no modern cropped haircut",
       "costume_en": "deep indigo duty robe with black edges, low-sheen cotton twill, plain belt",
-      "checks": "40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明",
-      "shares": []
+      "checks": "40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C15",
@@ -192,10 +231,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a long oval youthful adult face, gently lifted brows, broad eyes, light clean jaw, straight shoulders",
-      "hair_en": "black hair neatly bound for duty",
-      "costume_en": "indigo-teal duty robe, lighter than the senior officer's, pale-gray inner collar, narrow sleeves",
-      "checks": "22岁成人、无孟宽短须壮实体量；不是少年儿童",
-      "shares": []
+      "hair_en": "black hair neatly bound for duty, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut",
+      "costume_en": "indigo-teal duty robe, lighter than the senior officer's, pale-gray inner collar, narrow sleeves, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams",
+      "checks": "22岁成人、无孟宽短须壮实体量；不是少年儿童；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C17",
@@ -204,10 +246,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build",
-      "hair_en": "plain tightly bound black hair",
-      "costume_en": "deep indigo and ink-blue martial jacket, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
-      "checks": "宽肩方脸靛布，不夸张巨人化；搬物动作稳定",
-      "shares": []
+      "hair_en": "plain tightly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "deep indigo silk-wool outer jacket with muted earth-green side layers and stone-gray cotton collar edging, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
+      "checks": "宽肩方脸靛布，不夸张巨人化；搬物动作稳定；深靛丝毛、土青侧层、石灰棉领边，墨蓝腰封；胸肩留量。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information medium-light stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C20",
@@ -216,10 +261,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture",
-      "hair_en": "black hair bound away from the eyes",
-      "costume_en": "gray-cyan martial jacket with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
-      "checks": "瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件",
-      "shares": []
+      "hair_en": "black hair bound away from the eyes, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "gray-cyan silk-wool outer jacket with bamboo-green inner layer and smoky-blue silk collar with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
+      "checks": "瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；灰青丝毛、竹青中层、烟蓝绸领，短毛披肩不延长。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted warm gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C23",
@@ -228,10 +276,13 @@
       "tier": "C",
       "first_batch": 0,
       "identity_en": "a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame",
-      "hair_en": "neatly bound black hair",
-      "costume_en": "deep blue-green and blue-black martial jacket, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
-      "checks": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊",
-      "shares": []
+      "hair_en": "neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "deep blue-green silk-wool outer jacket with celadon-gray cotton inner collar and blue-black edging, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots",
+      "checks": "窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青丝毛、青瓷灰棉领、蓝黑腰封；格折纹不是线索。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C57",
@@ -240,10 +291,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "tall slender build, long oval face, straight fine brows, narrow jaw",
-      "hair_en": "low tied black hair",
-      "costume_en": "deep ink-green short travel coat with a pale gray inner collar",
-      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
-      "shares": []
+      "hair_en": "low tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "deep ink-green short travel coat with a pale gray inner collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams",
+      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C58",
@@ -252,10 +306,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose",
-      "hair_en": "compact tied black hair",
-      "costume_en": "charcoal travel robe with brown outer sleeves and dark gray cross-collar",
-      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
-      "shares": []
+      "hair_en": "compact tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut",
+      "costume_en": "charcoal travel robe with brown outer sleeves and dark gray cross-collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams",
+      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     },
     {
       "id": "C59",
@@ -264,10 +321,13 @@
       "tier": "B",
       "first_batch": 0,
       "identity_en": "short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes",
-      "hair_en": "low tied black hair with a narrow dark gray forehead band",
-      "costume_en": "gray-blue fitted-sleeve short travel robe",
-      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记",
-      "shares": []
+      "hair_en": "low tied black hair with a narrow dark gray forehead band, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut",
+      "costume_en": "gray-blue fitted-sleeve short travel robe, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams",
+      "checks": "原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "shares": [],
+      "studio_background_en": "Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture",
+      "portrait_light_en": "Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow",
+      "grooming_en": "Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup"
     }
   ],
   "environments": [
@@ -499,7 +559,7 @@
       "id": "P14",
       "name": "浅灰干衣版型",
       "first_batch": 0,
-      "body_en": "One folded pale-gray cross-collar inner robe made of dense soft cotton, smoky-gray edging, precise plain seams, neutral tabletop view under diffuse light, no embroidery or jewellery.",
+      "body_en": "One folded pale-gray cross-collar inner robe made of dense soft cotton, smoky-gray edging, precise plain seams, neutral tabletop view under diffuse light, no embroidery or jewellery. Opaque fine cotton cloth with smoky-gray silk-twill bound collar edging, soft matte folds; no travel outer robe.",
       "checks": "穿上后的原顾今顾共版；不增华服或第二套脸",
       "ratio": "4:3"
     },
@@ -570,5 +630,11 @@
     "daylight_en": "Bright natural neutral-white daylight from the courtyard and existing lattice openings, with skylight and reflected light from pale plaster and stone; white walls stay white, blue-gray stone stays gray, dark wood grain remains readable in shade, no amber or yellow cast, lamps unlit.",
     "morning_en": "Bright clear winter morning after rain, damp stone retained, natural neutral-white daylight and skylight, no amber or yellow cast, lamps unlit.",
     "checks": "高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。"
+  },
+  "portrait_direction": {
+    "background_policy": "按衣色与肤色选择低信息摄影棚背景，不固定单色；弱木格仅虚化局部，不成为剧情场景。",
+    "light_policy": "中性白平衡、有方向的大面积柔光；脸和织物保留细节，不加暖金逆光或梦幻泛光。",
+    "checks": "按裁幅验收：身份脸与发髻完整；全身衣装含手脚；背面核发结与背缝；细节核领襟腰封。背景服务人物，真实肌理与年龄不磨掉。",
+    "source_path": "资产/角色服装系统.md"
   }
 }

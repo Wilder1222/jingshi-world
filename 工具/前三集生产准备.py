@@ -128,8 +128,22 @@ def validate(data):
         raise ValueError('可见资产未覆盖：' + str(set(data['visible_asset_ids']) - coverage))
 
 
+def validate_visual_source(cfg):
+    fields = ('studio_background_en', 'portrait_light_en', 'grooming_en',
+              'identity_en', 'hair_en', 'costume_en', 'checks')
+    ids = [c['id'] for c in cfg['characters']]
+    if len(ids) != len(set(ids)):
+        raise ValueError('重复人物视觉源编号')
+    for c in cfg['characters']:
+        if not all(isinstance(c.get(k), str) and c[k].strip() for k in fields):
+            raise ValueError(c['id'] + '：缺人物摄影或衣装字段')
+    if not cfg.get('portrait_direction', {}).get('source_path'):
+        raise ValueError('缺人物服装系统来源')
+
+
 def build_data():
     cfg = read(PACK / '视觉任务源.json')
+    validate_visual_source(cfg)
     architecture = cfg['architecture_direction']
     extra = read(PACK / '补充任务源.json')
     release = read(ROOT / '索引/数据/发行前三集.json')
@@ -155,6 +169,8 @@ def build_data():
         paths = sorted({registry[a]['path'] for a in assets if a in registry} |
                        {e['path'] for e in eps if any(s['id'] in used for s in e['scenes'])} |
                        {'剧集/前三集重写与生产交接-v1.9.md', '资产/美术风格与造型总则.md', '参考/第一集视觉讨论-采用边界.md'})
+        if any(a.startswith('C') for a in assets):
+            paths.append(cfg['portrait_direction']['source_path'])
         # S03-W/S06-K 为现有场景子区，源登记不一定独列。
         for a in assets:
             if a not in registry and a.split('-')[0] in registry:
@@ -172,16 +188,24 @@ def build_data():
                           planned_filename=f'{key}__v01__candidate.png' if method == 'MJ' else f'{key}__v01__working',
                           input_references=[], reference_slot='executor: selected parent master, rights checked' if deps else 'none'))
 
-    def actor(c, view, costume=None):
-        return (f"Single fictional Chinese man, age {c['age']}, {c['identity_en']}. "
-                f"{c['hair_en']}. {costume or c['costume_en']}. {view}. "
-                'Plain warm-gray studio background, one subject, one frame. ' + cfg['style_en'])
+    def actor(c, view, costume=None, background=None, framing='person'):
+        subject = f"Single fictional Chinese man, age {c['age']}, {c['identity_en']}. {c['hair_en']}. "
+        grooming = c['grooming_en'] + '. '
+        if framing == 'back':
+            subject = f"Rear view of the same selected costumed person. {c['hair_en']}. "
+            grooming = ''
+        elif framing == 'detail':
+            subject = 'Detail crop of the same selected costume. '
+            grooming = ''
+        return (subject + f"{costume or c['costume_en']}. {view}. "
+                + grooming + f"{background or c['studio_background_en']}. {c['portrait_light_en']}. "
+                'One subject, one frame. ' + cfg['style_en'])
 
     for c in cfg['characters']:
         cid = c['id']
         aids = [cid, *c['shares']]
         add(f'MB-{cid}-FACE', c['name'] + '｜正脸身份', '身份', aids,
-            actor(c, 'Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light'),
+            actor(c, 'Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights'),
             '3:4', first=c['first_batch'], checks=c['checks'], phase=c['tier'])
         add(f'MB-{cid}-FULL', c['name'] + '｜全身干衣', '衣装', aids,
             actor(c, 'Front-facing full-length standing costume study, both hands relaxed and visible, feet included'),
@@ -193,13 +217,13 @@ def build_data():
                 (3, 'FULL-BACK', '背面全身', 'Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable', '2:3'),
                 (4, 'COSTUME-DETAIL', '领襟腰封织物细节', 'Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram', '4:3')]:
                 add(f'MB-{cid}-{suffix}', c['name'] + '｜' + label, '服装结构', aids,
-                    actor(c, view), ratio, [f'MB-{cid}-FULL'], first=priority.index(cid)*4+offset,
+                    actor(c, view, framing='back' if suffix == 'FULL-BACK' else 'detail' if suffix == 'COSTUME-DETAIL' else 'person'), ratio, [f'MB-{cid}-FULL'], first=priority.index(cid)*4+offset,
                     checks=c['checks'] + '；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲')
         if cid in CORE:
             for suffix, label, angle in [('PROFILE', '侧脸', 'clean left profile head-and-shoulders portrait'),
                                           ('THREEQUARTER', '四分之三脸', 'three-quarter head-and-shoulders portrait')]:
                 add(f'MB-{cid}-{suffix}', c['name'] + '｜' + label, '身份视角', aids,
-                    actor(c, angle + ', neutral relaxed expression'), '3:4', [f'MB-{cid}-FACE'],
+                    actor(c, angle + ', full topknot included with headroom, neutral relaxed expression'), '3:4', [f'MB-{cid}-FACE'],
                     checks=c['checks'] + '；只改视角，耳鼻下颌与选脸同源', phase=c['tier'])
     for e in cfg['environments']:
         add('MB-ENV-' + e['key'], e['name'], '空间', e['asset_ids'], e['body_en'], e['ratio'],
@@ -209,7 +233,7 @@ def build_data():
             first=p['first_batch'], checks=p['checks'])
     for s in extra['states']:
         add('MB-' + s['key'], s['name'], '衣伤表演状态', s['asset_ids'],
-            actor(char[s['owner']], 'Head-and-shoulders performance study' if s['key'] in ('C02-FEAR', 'C02-FOCUS') else 'Single full-length standing costume continuity study', s['costume_en']),
+            actor(char[s['owner']], 'Head-and-shoulders performance study' if s['key'] in ('C02-FEAR', 'C02-FOCUS') else 'Single full-length standing costume continuity study', s['costume_en'], s.get('studio_background_en')),
             '3:4' if s['key'] in ('C02-FEAR', 'C02-FOCUS') else '2:3', [s['parent']],
             checks=s['checks'], scene_ids=s['scenes'])
     for cid in VETS:
@@ -261,8 +285,8 @@ def build_data():
         add('MB-LIGHT-' + key, label, '空间光态', e['asset_ids'], body, '16:9', ['MB-ENV-' + parent],
             checks='同一空间、同机位只改光态；S04日景仅材质校验，夜戏不改白天；现行晨戏为雨停初晴、湿石仍在，白墙青石保色。OVERCAST沿用兼容编号，不代表当前阴天。金饰不是全局暖滤镜', scene_ids=used)
     add('MB-TEST-C01-BLOOM', '顾砚高光扩散单变量对照（选做）', '风格测试', ['C01', 'C02'],
-        'Edit the selected portrait. Preserve identity, pose, clothing, background, framing and color balance. Add only a restrained soft highlight bloom around the existing light-facing edge, keeping eyes and skin texture crisp.',
-        '3:4', ['MB-C01-FACE'], checks='只比较高光扩散有／无；不以磨皮、改脸替代柔光，其他参数与母版相同', phase='OPTIONAL')
+        'Edit the selected portrait. Preserve identity, pose, clothing, background, framing and color balance. Test only barely visible local optical highlight spill at the existing light-facing edge, keeping eyes and skin texture crisp. No golden halo, dreamy glow, soft-focus face or warm color cast.',
+        '3:4', ['MB-C01-FACE'], checks='只比较极弱局部高光扩散有／无；身份基线无新增扩散，不以磨皮、改脸替代柔光，其他参数与母版相同；禁止金色光晕与梦幻泛光，不作任何生产项必需前置', phase='OPTIONAL')
     manual_deps = {
         'PLAN-COURT': [], 'TEXT-DOCS': [f'MB-P{i:02}-BASE' for i in (3, 4, 6, 7, 8, 17)],
         'P09-BROKEN': ['MB-P09-BASE'], 'P06-STATE': ['POST-TEXT-DOCS'],

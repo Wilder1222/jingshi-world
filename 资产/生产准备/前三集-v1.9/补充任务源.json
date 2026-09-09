@@ -13,8 +13,8 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, sheltered dry torso with only slightly damp hems, old bandaging concealed at his own left shoulder, right hand holding the same plain sheathed travel blade",
-      "checks": "受袭前未有这次擦破；原顾熟练克制；全身左右以角色自身为准；乘封闭车时受顶壁遮雨，离车受袭后才逐渐雨湿，不让完整车顶漏成露天。 用于车内及第一波：旧肩受震牵痛，没有本次新擦破；下车后衣料逐步雨湿。"
+      "costume_en": "ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, sheltered dry torso with only slightly damp hems, old bandaging concealed at his own left shoulder, right hand holding the same plain sheathed travel blade",
+      "checks": "受袭前未有这次擦破；原顾熟练克制；全身左右以角色自身为准；乘封闭车时受顶壁遮雨，离车受袭后才逐渐雨湿，不让完整车顶漏成露天。 用于车内及第一波：旧肩受震牵痛，没有本次新擦破；下车后衣料逐步雨湿。；脸部无疤、擦伤与血污；肩伤与既定包扎不删除"
     },
     {
       "key": "C01-RAIN-POST",
@@ -29,8 +29,8 @@
         "GJ-EP01-SC02",
         "GJ-EP01-SC03"
       ],
-      "costume_en": "ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, rain-soaked opaque brocade with a small fresh abrasion tear and restrained blood on his own left shoulder, right hand shielding that shoulder, tense upright stance",
-      "checks": "只有左肩旧伤震动加擦伤；不露深伤、不改脸 第二波黄祁第一击后才出现新擦破，第一波不得提前复用此态。"
+      "costume_en": "ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, rain-soaked opaque brocade with a small fresh abrasion tear and restrained blood on his own left shoulder, right hand shielding that shoulder, tense upright stance",
+      "checks": "只有左肩旧伤震动加擦伤；不露深伤、不改脸 第二波黄祁第一击后才出现新擦破，第一波不得提前复用此态。；脸部无疤、擦伤与血污；肩伤与既定包扎不删除"
     },
     {
       "key": "C01-DRY",
@@ -56,8 +56,9 @@
         "GJ-EP03-SC04",
         "GJ-EP03-SC05"
       ],
-      "costume_en": "dry pale-gray inner robe with smoky-gray edging, plain layered cross-collar, bandaging at his own left shoulder, injury-side sleeve worn loose, natural upright resting pose, no weapon in hand",
-      "checks": "C01换衣后与C02同一母版；左臂不作承重；膝碰痛不擅添可见开放伤"
+      "costume_en": "dry pale-gray inner robe with smoky-gray edging, plain layered cross-collar, bandaging at his own left shoulder, injury-side sleeve worn loose, natural upright resting pose, no weapon in hand, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe",
+      "checks": "C01换衣后与C02同一母版；左臂不作承重；膝碰痛不擅添可见开放伤；脸部无疤、擦伤与血污；肩伤与既定包扎不删除",
+      "studio_background_en": "Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture"
     },
     {
       "key": "C06-RAIN-PRE",
@@ -70,7 +71,7 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel clothes, plain dark rain hat, lower-face cloth covering only the lower half of the face, brows and eyes visible, right hand at a plain sheathed blade",
+      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel clothes, plain dark rain hat, lower-face cloth covering only the lower half of the face, brows and eyes visible, right hand at a plain sheathed blade",
       "checks": "面罩是可脱外观，不替代独立脸；无徽记；本次制作用右手持刃 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
@@ -84,7 +85,7 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound",
+      "costume_en": "ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound",
       "checks": "无新增伤口；只改停手戒备表演与面巾偏动，不画右上臂血伤；撤退仍可独立行动 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
@@ -114,8 +115,9 @@
         "GJ-EP01-SC06",
         "GJ-EP02-SC02"
       ],
-      "costume_en": "dry pale-gray cross-collar inner robe, loose left shoulder wrapping, lips parting slightly before he holds back a question, eyes alert and unsure, head-and-shoulders portrait",
-      "checks": "同脸、只变表演；不换瞳色，不化妆成第二个人"
+      "costume_en": "dry pale-gray cross-collar inner robe, loose left shoulder wrapping, lips parting slightly before he holds back a question, eyes alert and unsure, head-and-shoulders portrait, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe",
+      "checks": "同脸、只变表演；不换瞳色，不化妆成第二个人；脸部无疤、擦伤与血污；肩伤与既定包扎不删除",
+      "studio_background_en": "Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture"
     },
     {
       "key": "C02-FOCUS",
@@ -130,8 +132,9 @@
         "GJ-EP03-SC02",
         "GJ-EP03-SC05"
       ],
-      "costume_en": "dry pale-gray cross-collar inner robe, left sleeve loose, calm direct gaze with a slight tightening at the mouth, head-and-shoulders portrait",
-      "checks": "认真来自选择，不靠邪魅笑或新战斗装备"
+      "costume_en": "dry pale-gray cross-collar inner robe, left sleeve loose, calm direct gaze with a slight tightening at the mouth, head-and-shoulders portrait, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe",
+      "checks": "认真来自选择，不靠邪魅笑或新战斗装备；脸部无疤、擦伤与血污；肩伤与既定包扎不删除",
+      "studio_background_en": "Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture"
     },
     {
       "key": "C57-RAIN",
@@ -144,7 +147,7 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "deep ink-green short travel coat with a pale gray inner collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
+      "costume_en": "deep ink-green short travel coat with a pale gray inner collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
       "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
@@ -158,7 +161,7 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "charcoal travel robe with brown outer sleeves and dark gray cross-collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
+      "costume_en": "charcoal travel robe with brown outer sleeves and dark gray cross-collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
       "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     },
     {
@@ -172,7 +175,7 @@
       "scenes": [
         "GJ-EP01-SC01"
       ],
-      "costume_en": "gray-blue fitted-sleeve short travel robe, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
+      "costume_en": "gray-blue fitted-sleeve short travel robe, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side",
       "checks": "只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。"
     }
   ],
@@ -496,7 +499,7 @@
         "P21"
       ],
       "deliverable": "五张同源FULL与ARMOR人工排版：韩灰青玄蓝、杜玄褐古铜及褐围巾、石深靛墨蓝、崔灰青及深灰短披肩、许深青蓝黑；精工劲装外穿、轻皮内甲内穿。",
-      "acceptance": "精确人数、各自脸和身高比例检查；拼版只验证造型，不称已完成阵战镜头。"
+      "acceptance": "精确人数、各自脸和身高比例检查；拼版只验证造型，不称已完成阵战镜头。；核五种衣层明度、棉绸丝毛反射和内甲遮挡，同一剧情衣套不因换背景改色"
     },
     {
       "key": "FX-COPPER",

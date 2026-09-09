@@ -431,5 +431,80 @@ class ProductionTests(unittest.TestCase):
         self.assertIn('白墙不泛暖黄', script)
 
 
+    def test_portrait_source_missing_fields_and_duplicate_rejected(self):
+        cfg = production.read(production.PACK / '视觉任务源.json')
+        for key in ('studio_background_en', 'portrait_light_en', 'grooming_en', 'costume_en'):
+            broken = copy.deepcopy(cfg)
+            broken['characters'][0][key] = ' '
+            with self.assertRaisesRegex(ValueError, '缺人物摄影或衣装字段'):
+                production.validate_visual_source(broken)
+        broken = copy.deepcopy(cfg)
+        broken['characters'].append(broken['characters'][0])
+        with self.assertRaisesRegex(ValueError, '重复人物'):
+            production.validate_visual_source(broken)
+
+    def test_studio_background_and_crop_propagation(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        cfg = production.read(production.PACK / '视觉任务源.json')
+        self.assertGreaterEqual(len({c['studio_background_en'] for c in cfg['characters']}), 4)
+        for c in cfg['characters']:
+            for suffix in ('FACE', 'FULL'):
+                body = tasks[f"MB-{c['id']}-{suffix}"]['prompt_en']
+                self.assertIn(c['studio_background_en'], body)
+                self.assertIn(c['portrait_light_en'], body)
+                self.assertIn(c['grooming_en'], body)
+            self.assertIn('full topknot included', tasks[f"MB-{c['id']}-FACE"]['prompt_en'])
+        self.assertNotIn('natural catchlights', tasks['MB-C01-FULL-BACK']['prompt_en'])
+        self.assertNotIn('full topknot included', tasks['MB-C01-COSTUME-DETAIL']['prompt_en'])
+        self.assertNotIn('defined cheekbones', tasks['MB-C01-FULL-BACK']['prompt_en'])
+        self.assertNotIn('natural skin', tasks['MB-C01-COSTUME-DETAIL']['prompt_en'].lower())
+        self.assertNotIn('black hair', tasks['MB-C01-COSTUME-DETAIL']['prompt_en'])
+
+    def test_face_without_wounds_preserves_shoulder_and_change(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        for key in ('C01-FACE', 'C01-FULL', 'C01-RAIN-PRE', 'C01-RAIN-POST', 'C01-DRY', 'C02-FEAR', 'C02-FOCUS'):
+            self.assertIn('uninjured face without scars, cuts or blood', tasks['MB-' + key]['prompt_en'])
+        self.assertIn('fresh abrasion tear', tasks['MB-C01-RAIN-POST']['prompt_en'])
+        self.assertIn('own left shoulder', tasks['MB-C01-RAIN-POST']['prompt_en'])
+        for key in ('C01-DRY', 'C02-FEAR', 'C02-FOCUS'):
+            body = tasks['MB-' + key]['prompt_en']
+            self.assertIn('opaque fine cotton', body)
+            self.assertIn('medium stone-green gray', body)
+            self.assertNotIn('ink-teal and blackened ink travel martial robe', body)
+
+    def test_material_layers_reach_rain_and_detail_tasks(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        for cid, phrase in {'C03': 'tea-white silk collar', 'C16': 'chestnut-brown silk-wool',
+                            'C17': 'stone-gray cotton', 'C20': 'bamboo-green inner layer',
+                            'C23': 'celadon-gray cotton'}.items():
+            for suffix in ('FULL', 'ARMOR', 'RAIN'):
+                self.assertIn(phrase, tasks[f'MB-{cid}-{suffix}']['prompt_en'])
+        self.assertIn('cotton padding layer', tasks['MB-C04-COSTUME-DETAIL']['prompt_en'])
+        self.assertIn('silk-twill', tasks['MB-P14-BASE']['prompt_en'])
+        self.assertIn('woven brocade panels', tasks['MB-C01-RAIN-POST']['prompt_en'])
+
+    def test_portrait_language_does_not_pollute_empty_assets(self):
+        for task in self.data['tasks']:
+            if task['category'] in ('空间', '空间光态', '道具'):
+                for phrase in ('Natural skin texture', 'soft face light', 'natural catchlights', 'studio backdrop'):
+                    self.assertNotIn(phrase, task['prompt_en'])
+        bloom = next(t for t in self.data['tasks'] if t['id'] == 'MB-TEST-C01-BLOOM')
+        self.assertEqual(bloom['phase'], 'OPTIONAL')
+        self.assertIn('No golden halo', bloom['prompt_en'])
+        self.assertFalse(any(bloom['id'] in t['depends_on'] for t in self.data['tasks']))
+
+    def test_wardrobe_sources_and_heroines_remain_future(self):
+        registry = production.read(ROOT / '索引/数据/characters.json')
+        for cid, age, color in [('C25', '二十', '暖杏'), ('C27', '二十二', '青瓷'), ('C28', '十九', '杏白')]:
+            c = next(c for c in registry if c['id'] == cid)
+            card = (ROOT / c['path']).read_text(encoding='utf-8')
+            self.assertIn(age, card)
+            self.assertIn(color, c['visual_design']['服装与色彩'])
+            self.assertIn('资产/角色服装系统.md', c['source_paths'])
+            self.assertFalse(any(cid in t['asset_ids'] for t in self.data['tasks']))
+        self.assertIn('资产/角色服装系统.md', self.data['source_sha256'])
+        self.assertEqual(len(self.data['release_plan']['episodes'][0]['shots']), 25)
+
+
 if __name__ == '__main__':
     unittest.main()

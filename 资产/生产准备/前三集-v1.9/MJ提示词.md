@@ -12,13 +12,13 @@
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C01-FULL__v01__candidate.png`，实际文件为空。
 
@@ -30,13 +30,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C01-FULL-3Q__v01__candidate.png`，实际文件为空。
 
@@ -48,13 +48,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Rear view of the same selected costumed person. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C01-FULL-BACK__v01__candidate.png`，实际文件为空。
 
@@ -66,13 +66,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+Detail crop of the same selected costume. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C01-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
 
@@ -84,13 +84,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C03-FULL__v01__candidate.png`，实际文件为空。
 
@@ -102,13 +102,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C03-FULL-3Q__v01__candidate.png`，实际文件为空。
 
@@ -120,13 +120,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Rear view of the same selected costumed person. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C03-FULL-BACK__v01__candidate.png`，实际文件为空。
 
@@ -138,13 +138,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+Detail crop of the same selected costume. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C03-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
 
@@ -156,13 +156,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C16-FULL__v01__candidate.png`，实际文件为空。
 
@@ -174,13 +174,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C16-FULL-3Q__v01__candidate.png`，实际文件为空。
 
@@ -192,13 +192,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Rear view of the same selected costumed person. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C16-FULL-BACK__v01__candidate.png`，实际文件为空。
 
@@ -210,13 +210,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+Detail crop of the same selected costume. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C16-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
 
@@ -228,13 +228,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C04-FULL__v01__candidate.png`，实际文件为空。
 
@@ -246,13 +246,13 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C04-FULL-3Q__v01__candidate.png`，实际文件为空。
 
@@ -264,13 +264,13 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Rear view of the same selected costumed person. gray-black hair in a modest small topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C04-FULL-BACK__v01__candidate.png`，实际文件为空。
 
@@ -282,13 +282,13 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+Detail crop of the same selected costume. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C04-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
 
@@ -300,13 +300,13 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C06-FULL__v01__candidate.png`，实际文件为空。
 
@@ -318,13 +318,13 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C06-FULL-3Q__v01__candidate.png`，实际文件为空。
 
@@ -336,13 +336,13 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Rear view of the same selected costumed person. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C06-FULL-BACK__v01__candidate.png`，实际文件为空。
 
@@ -354,13 +354,13 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+Detail crop of the same selected costume. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Single continuous close crop from the lower neck to the waist, visible collar edging, woven tonal pattern and sash hardware at realistic scale, no collage or diagram. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
+验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C06-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
 
@@ -372,7 +372,7 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
 One square-mouthed structured blue-cloth travel satchel with a fitted cover flap, carefully tied bindings and visible edge repairs, neutral object study with soft side light. --ar 4:3 --v 8.2 --raw --s 75 --c 0
@@ -390,13 +390,13 @@ One square-mouthed structured blue-cloth travel satchel with a fitted cover flap
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [P14-顾伯所备干衣](<../../道具/P14-顾伯所备干衣.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>) · [P14-顾伯所备干衣](<../../道具/P14-顾伯所备干衣.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. dry pale-gray inner robe with smoky-gray edging, plain layered cross-collar, bandaging at his own left shoulder, injury-side sleeve worn loose, natural upright resting pose, no weapon in hand. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. dry pale-gray inner robe with smoky-gray edging, plain layered cross-collar, bandaging at his own left shoulder, injury-side sleeve worn loose, natural upright resting pose, no weapon in hand, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：C01换衣后与C02同一母版；左臂不作承重；膝碰痛不擅添可见开放伤。
+验收：C01换衣后与C02同一母版；左臂不作承重；膝碰痛不擅添可见开放伤；脸部无疤、擦伤与血污；肩伤与既定包扎不删除。
 
 状态：尚未生成；拟存文件名 `MB-C01-DRY__v01__candidate.png`，实际文件为空。
 
@@ -408,13 +408,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸。
+验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C01-FACE__v01__candidate.png`，实际文件为空。
 
@@ -426,13 +426,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；只改视角，耳鼻下颌与选脸同源。
+验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C01-PROFILE__v01__candidate.png`，实际文件为空。
 
@@ -444,13 +444,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, rain-soaked opaque brocade with a small fresh abrasion tear and restrained blood on his own left shoulder, right hand shielding that shoulder, tense upright stance. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, rain-soaked opaque brocade with a small fresh abrasion tear and restrained blood on his own left shoulder, right hand shielding that shoulder, tense upright stance. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：只有左肩旧伤震动加擦伤；不露深伤、不改脸 第二波黄祁第一击后才出现新擦破，第一波不得提前复用此态。。
+验收：只有左肩旧伤震动加擦伤；不露深伤、不改脸 第二波黄祁第一击后才出现新擦破，第一波不得提前复用此态。；脸部无疤、擦伤与血污；肩伤与既定包扎不删除。
 
 状态：尚未生成；拟存文件名 `MB-C01-RAIN-POST__v01__candidate.png`，实际文件为空。
 
@@ -462,13 +462,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, sheltered dry torso with only slightly damp hems, old bandaging concealed at his own left shoulder, right hand holding the same plain sheathed travel blade. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots, sheltered dry torso with only slightly damp hems, old bandaging concealed at his own left shoulder, right hand holding the same plain sheathed travel blade. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：受袭前未有这次擦破；原顾熟练克制；全身左右以角色自身为准；乘封闭车时受顶壁遮雨，离车受袭后才逐渐雨湿，不让完整车顶漏成露天。 用于车内及第一波：旧肩受震牵痛，没有本次新擦破；下车后衣料逐步雨湿。。
+验收：受袭前未有这次擦破；原顾熟练克制；全身左右以角色自身为准；乘封闭车时受顶壁遮雨，离车受袭后才逐渐雨湿，不让完整车顶漏成露天。 用于车内及第一波：旧肩受震牵痛，没有本次新擦破；下车后衣料逐步雨湿。；脸部无疤、擦伤与血污；肩伤与既定包扎不删除。
 
 状态：尚未生成；拟存文件名 `MB-C01-RAIN-PRE__v01__candidate.png`，实际文件为空。
 
@@ -480,13 +480,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. ink-teal and blackened ink travel martial robe, densely woven silk-wool brocade with dark-gold tone-on-tone flowing geometric embroidery, smoky-gray inner collar, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. three-quarter head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；只改视角，耳鼻下颌与选脸同源。
+验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C01-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
@@ -498,13 +498,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. dry pale-gray cross-collar inner robe, loose left shoulder wrapping, lips parting slightly before he holds back a question, eyes alert and unsure, head-and-shoulders portrait. Head-and-shoulders performance study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. dry pale-gray cross-collar inner robe, loose left shoulder wrapping, lips parting slightly before he holds back a question, eyes alert and unsure, head-and-shoulders portrait, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe. Head-and-shoulders performance study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：同脸、只变表演；不换瞳色，不化妆成第二个人。
+验收：同脸、只变表演；不换瞳色，不化妆成第二个人；脸部无疤、擦伤与血污；肩伤与既定包扎不删除。
 
 状态：尚未生成；拟存文件名 `MB-C02-FEAR__v01__candidate.png`，实际文件为空。
 
@@ -516,13 +516,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：后续专用预备，不进入前三发行集。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin. dry pale-gray cross-collar inner robe, left sleeve loose, calm direct gaze with a slight tightening at the mouth, head-and-shoulders portrait. Head-and-shoulders performance study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. dry pale-gray cross-collar inner robe, left sleeve loose, calm direct gaze with a slight tightening at the mouth, head-and-shoulders portrait, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe. Head-and-shoulders performance study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：认真来自选择，不靠邪魅笑或新战斗装备。
+验收：认真来自选择，不靠邪魅笑或新战斗装备；脸部无疤、擦伤与血污；肩伤与既定包扎不删除。
 
 状态：尚未生成；拟存文件名 `MB-C02-FOCUS__v01__candidate.png`，实际文件为空。
 
@@ -534,13 +534,13 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, both hands free. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, both hands free. Full-length neutral standing costume study, equipment at rest, no combat pose. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；灰青与玄蓝提花劲装，墨银同色阶折水暗纹，玄蓝分层腰封配墨银小扣；素灰青束发，袖口收紧，保留年轻紧凑的体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；灰青与玄蓝提花劲装，墨银同色阶折水暗纹，玄蓝分层腰封配墨银小扣；素灰青束发，袖口收紧，保留年轻紧凑的体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C03-ARMOR__v01__candidate.png`，实际文件为空。
 
@@ -552,13 +552,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C03-FACE__v01__candidate.png`，实际文件为空。
 
@@ -570,13 +570,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；只改视角，耳鼻下颌与选脸同源。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C03-PROFILE__v01__candidate.png`，实际文件为空。
 
@@ -588,13 +588,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, both hands free, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, both hands free, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
 
 状态：尚未生成；拟存文件名 `MB-C03-RAIN__v01__candidate.png`，实际文件为空。
 
@@ -606,13 +606,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth. gray-cyan and blackened navy martial jacket, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. three-quarter head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；只改视角，耳鼻下颌与选脸同源。
+验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C03-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
@@ -624,13 +624,13 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化。
+验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C04-FACE__v01__candidate.png`，实际文件为空。
 
@@ -642,13 +642,13 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；只改视角，耳鼻下颌与选脸同源。
+验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C04-PROFILE__v01__candidate.png`，实际文件为空。
 
@@ -660,13 +660,13 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 发行用途：GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C04-顾伯](<../../角色/C04-顾伯.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk-wool fabric, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 64, a round-square face, full forehead and cheeks, gently drooping outer eyes, fine eye wrinkles, rounded nose, neat short gray-white beard, relaxed but upright shoulders. gray-black hair in a modest small topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. tea-brown and muted old-gold long robe with densely worked dark tonal jacquard, warm-gray layered inner collar, fine silk face fabric over a light cotton padding layer and matte cotton lining, neatly bound lapels and a refined narrow waist sash, sleeves gathered enough for carrying bowls, clean maintained hem and dark cloth shoes. three-quarter head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted blue gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；只改视角，耳鼻下颌与选脸同源。
+验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C04-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
@@ -678,13 +678,13 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤。
+验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C06-FACE__v01__candidate.png`，实际文件为空。
 
@@ -696,13 +696,13 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；只改视角，耳鼻下颌与选脸同源。
+验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C06-PROFILE__v01__candidate.png`，实际文件为空。
 
@@ -714,10 +714,10 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel layers, displaced lower-face cloth revealing part of his side face, unbroken sleeves without blood stains, tense arrested posture and wary sideways gaze, right arm held close without a wound. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：无新增伤口；只改停手戒备表演与面巾偏动，不画右上臂血伤；撤退仍可独立行动 只属第二波，不在第一波十人中出现；使用独立本人母版。。
@@ -732,10 +732,10 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel clothes, plain dark rain hat, lower-face cloth covering only the lower half of the face, brows and eyes visible, right hand at a plain sheathed blade. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry, wet black and charcoal travel clothes, plain dark rain hat, lower-face cloth covering only the lower half of the face, brows and eyes visible, right hand at a plain sheathed blade. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：面罩是可脱外观，不替代独立脸；无徽记；本次制作用右手持刃 只属第二波，不在第一波十人中出现；使用独立本人母版。。
@@ -750,13 +750,13 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely worked opaque silk-wool fabric, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a long rectangular face with high clear cheekbones, angled brows, narrow eyes, tall wiry athletic build. black hair bound close to the head, face unobscured in this identity study, neatly secured period long hair with tidy temples, no modern cropped haircut. ink-black and deep charcoal fitted martial clothes, extremely dark cool tonal woven ornament, finely woven matte opaque silk-wool outer fabric and dense charcoal cotton lining with small supple leather sash edging, narrow sleeves, layered dark waist sash and restrained dark fittings, practical split hem, quiet fabric sheen, no insignia or bright gold jewelry. three-quarter head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium smoky taupe studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；只改视角，耳鼻下颌与选脸同源。
+验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C06-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
@@ -768,13 +768,13 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face. gray-brown short travel coat with dark blue inner collar, fitted dense cotton sleeves. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. gray-brown short travel coat with dark blue inner collar, fitted dense cotton sleeves. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：26岁方圆脸，雨帽和灰褐衣；不共用黄祁、马六的脸。
+验收：26岁方圆脸，雨帽和灰褐衣；不共用黄祁、马六的脸；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C07-FACE__v01__candidate.png`，实际文件为空。
 
@@ -786,13 +786,13 @@ Single fictional Chinese man, age 26, a short square-round face, thick straight 
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face. gray-brown short travel coat with dark blue inner collar, fitted dense cotton sleeves. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. gray-brown short travel coat with dark blue inner collar, fitted dense cotton sleeves. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：26岁方圆脸，雨帽和灰褐衣；不共用黄祁、马六的脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：26岁方圆脸，雨帽和灰褐衣；不共用黄祁、马六的脸；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C07-FULL__v01__candidate.png`，实际文件为空。
 
@@ -804,10 +804,10 @@ Single fictional Chinese man, age 26, a short square-round face, thick straight 
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face. ordinary gray-brown rain hat over tied hair, wet gray-brown short travel coat with dark blue inner collar, damp fitted sleeves, grounded stance. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 26, a short square-round face, thick straight brows, broad eyes, solid nose wings and jaw, strong neck and shoulders. black hair tied simply, ordinary gray-brown rain hat worn back to show the face, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ordinary gray-brown rain hat over tied hair, wet gray-brown short travel coat with dark blue inner collar, damp fitted sleeves, grounded stance. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：无新增血伤，无黄祁伤血转沾；脸与灰褐雨衣同母版 只属第二波，不在第一波十人中出现；使用独立本人母版。。
@@ -822,13 +822,13 @@ Single fictional Chinese man, age 26, a short square-round face, thick straight 
 
 发行用途：GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C08-孙福生](<../../角色/C08-孙福生.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C08-孙福生](<../../角色/C08-孙福生.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 49, a broad balanced face, open brows and eyes, smile creases, short tidy beard, sturdy upper body and broad hands. plain tied black hair with a few gray strands. warm chestnut short cotton jacket and pale-gray cloth apron, neat collar seams. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 49, a broad balanced face, open brows and eyes, smile creases, short tidy beard, sturdy upper body and broad hands. plain tied black hair with a few gray strands, neatly secured period long hair with tidy temples, no modern cropped haircut. warm chestnut short cotton jacket and pale-gray cloth apron, neat collar seams. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：49岁汤摊主人，围腰短须；人物普通但体面，不夸张油污。
+验收：49岁汤摊主人，围腰短须；人物普通但体面，不夸张油污；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C08-FACE__v01__candidate.png`，实际文件为空。
 
@@ -840,13 +840,13 @@ Single fictional Chinese man, age 49, a broad balanced face, open brows and eyes
 
 发行用途：GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C08-孙福生](<../../角色/C08-孙福生.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C08-孙福生](<../../角色/C08-孙福生.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 49, a broad balanced face, open brows and eyes, smile creases, short tidy beard, sturdy upper body and broad hands. plain tied black hair with a few gray strands. warm chestnut short cotton jacket and pale-gray cloth apron, neat collar seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 49, a broad balanced face, open brows and eyes, smile creases, short tidy beard, sturdy upper body and broad hands. plain tied black hair with a few gray strands, neatly secured period long hair with tidy temples, no modern cropped haircut. warm chestnut short cotton jacket and pale-gray cloth apron, neat collar seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：49岁汤摊主人，围腰短须；人物普通但体面，不夸张油污；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：49岁汤摊主人，围腰短须；人物普通但体面，不夸张油污；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C08-FULL__v01__candidate.png`，实际文件为空。
 
@@ -858,13 +858,13 @@ Single fictional Chinese man, age 49, a broad balanced face, open brows and eyes
 
 发行用途：GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C09-周成](<../../角色/C09-周成.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C09-周成](<../../角色/C09-周成.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 36, a broad forehead, thick eyebrows, bright eyes, rounded jaw, light wheat skin, strong working shoulders. simply bound black hair. faded ochre short cotton robe with light-brown inner collar, neat repairs at elbows. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 36, a broad forehead, thick eyebrows, bright eyes, rounded jaw, light wheat skin, strong working shoulders. simply bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. faded ochre short cotton robe with light-brown inner collar, neat repairs at elbows. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记。
+验收：宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C09-FACE__v01__candidate.png`，实际文件为空。
 
@@ -876,13 +876,13 @@ Single fictional Chinese man, age 36, a broad forehead, thick eyebrows, bright e
 
 发行用途：GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C09-周成](<../../角色/C09-周成.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C09-周成](<../../角色/C09-周成.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 36, a broad forehead, thick eyebrows, bright eyes, rounded jaw, light wheat skin, strong working shoulders. simply bound black hair. faded ochre short cotton robe with light-brown inner collar, neat repairs at elbows. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 36, a broad forehead, thick eyebrows, bright eyes, rounded jaw, light wheat skin, strong working shoulders. simply bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. faded ochre short cotton robe with light-brown inner collar, neat repairs at elbows. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C09-FULL__v01__candidate.png`，实际文件为空。
 
@@ -894,13 +894,13 @@ Single fictional Chinese man, age 36, a broad forehead, thick eyebrows, bright e
 
 发行用途：GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C10-丁茂](<../../角色/C10-丁茂.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C10-丁茂](<../../角色/C10-丁茂.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 39, a narrow rectangular face, straight relaxed brows, softly defined eye sockets, clear lip line, slender upright frame. simply bound black hair. gray-green short robe with smoky-brown inner collar, matte close-woven cotton. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 39, a narrow rectangular face, straight relaxed brows, softly defined eye sockets, clear lip line, slender upright frame. simply bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. gray-green short robe with smoky-brown inner collar, matte close-woven cotton. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：窄长脸灰绿衣，不画阴险神情或密探面罩。
+验收：窄长脸灰绿衣，不画阴险神情或密探面罩；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C10-FACE__v01__candidate.png`，实际文件为空。
 
@@ -912,13 +912,13 @@ Single fictional Chinese man, age 39, a narrow rectangular face, straight relaxe
 
 发行用途：GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C10-丁茂](<../../角色/C10-丁茂.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C10-丁茂](<../../角色/C10-丁茂.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 39, a narrow rectangular face, straight relaxed brows, softly defined eye sockets, clear lip line, slender upright frame. simply bound black hair. gray-green short robe with smoky-brown inner collar, matte close-woven cotton. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 39, a narrow rectangular face, straight relaxed brows, softly defined eye sockets, clear lip line, slender upright frame. simply bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. gray-green short robe with smoky-brown inner collar, matte close-woven cotton. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：窄长脸灰绿衣，不画阴险神情或密探面罩；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：窄长脸灰绿衣，不画阴险神情或密探面罩；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C10-FULL__v01__candidate.png`，实际文件为空。
 
@@ -930,13 +930,13 @@ Single fictional Chinese man, age 39, a narrow rectangular face, straight relaxe
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C11-张济](<../../角色/C11-张济.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C11-张济](<../../角色/C11-张济.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 58, a long face, clear nose bridge, slim eyebrows, attentive eyes with age lines, gray temples, neatly trimmed moustache, straight back. graying hair in a plain tied knot. blue-gray long cotton-linen robe with moon-white inner collar, clean practical cuffs. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 58, a long face, clear nose bridge, slim eyebrows, attentive eyes with age lines, gray temples, neatly trimmed moustache, straight back. graying hair in a plain tied knot, neatly secured period long hair with tidy temples, no modern cropped haircut. blue-gray long cotton-linen robe with moon-white inner collar, clean practical cuffs. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：58岁细长面、灰鬓，与顾伯分开；不是发光仙医。
+验收：58岁细长面、灰鬓，与顾伯分开；不是发光仙医；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C11-FACE__v01__candidate.png`，实际文件为空。
 
@@ -948,13 +948,13 @@ Single fictional Chinese man, age 58, a long face, clear nose bridge, slim eyebr
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C11-张济](<../../角色/C11-张济.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C11-张济](<../../角色/C11-张济.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 58, a long face, clear nose bridge, slim eyebrows, attentive eyes with age lines, gray temples, neatly trimmed moustache, straight back. graying hair in a plain tied knot. blue-gray long cotton-linen robe with moon-white inner collar, clean practical cuffs. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 58, a long face, clear nose bridge, slim eyebrows, attentive eyes with age lines, gray temples, neatly trimmed moustache, straight back. graying hair in a plain tied knot, neatly secured period long hair with tidy temples, no modern cropped haircut. blue-gray long cotton-linen robe with moon-white inner collar, clean practical cuffs. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：58岁细长面、灰鬓，与顾伯分开；不是发光仙医；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：58岁细长面、灰鬓，与顾伯分开；不是发光仙医；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C11-FULL__v01__candidate.png`，实际文件为空。
 
@@ -966,7 +966,7 @@ Single fictional Chinese man, age 58, a long face, clear nose bridge, slim eyebr
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C11-张济](<../../角色/C11-张济.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C11-张济](<../../角色/C11-张济.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
 One modest blue-gray cloth medical satchel resting closed, simple compartments and neat bindings, plain daily professional equipment, isolated object view under diffuse light. --ar 4:3 --v 8.2 --raw --s 75 --c 0
@@ -984,13 +984,13 @@ One modest blue-gray cloth medical satchel resting closed, simple compartments a
 
 发行用途：后续专用预备，不进入前三发行集。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>)
+来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹。
+验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C12-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1002,13 +1002,13 @@ Single fictional Chinese man, age 31, an oval face, short defined brows, full sh
 
 发行用途：后续专用预备，不进入前三发行集。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>)
+来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C12-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1020,13 +1020,13 @@ Single fictional Chinese man, age 31, an oval face, short defined brows, full sh
 
 发行用途：后续专用预备，不进入前三发行集。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>)
+来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；只改视角，耳鼻下颌与选脸同源。
+验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C12-PROFILE__v01__candidate.png`，实际文件为空。
 
@@ -1038,13 +1038,13 @@ Single fictional Chinese man, age 31, an oval face, short defined brows, full sh
 
 发行用途：后续专用预备，不进入前三发行集。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>)
+来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C12-王寿](<../../角色/C12-王寿.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 31, an oval face, short defined brows, full shaped lips, level direct gaze, medium build and ordinary upright posture. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. faded ink-blue official-style short robe with gray-black edging, dense cotton, old creases. three-quarter head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；只改视角，耳鼻下颌与选脸同源。
+验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C12-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
@@ -1056,13 +1056,13 @@ Single fictional Chinese man, age 31, an oval face, short defined brows, full sh
 
 发行用途：后续专用预备，不进入前三发行集。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C13-马六](<../../角色/C13-马六.md>)
+来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C13-马六](<../../角色/C13-马六.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 27, a long diamond-shaped face, straight brow tails, rounded eyes, defined lips, light neck and shoulders, lean balanced frame. plain tied black hair. light-gray short travel clothes with gray-green inner collar, neatly pressed side seams. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 27, a long diamond-shaped face, straight brow tails, rounded eyes, defined lips, light neck and shoulders, lean balanced frame. plain tied black hair, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. light-gray short travel clothes with gray-green inner collar, neatly pressed side seams, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：27岁轻巧匀长；西巷正侧脸须同人，不蒙面。
+验收：27岁轻巧匀长；西巷正侧脸须同人，不蒙面；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C13-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1074,13 +1074,13 @@ Single fictional Chinese man, age 27, a long diamond-shaped face, straight brow 
 
 发行用途：后续专用预备，不进入前三发行集。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C13-马六](<../../角色/C13-马六.md>)
+来源：[GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C13-马六](<../../角色/C13-马六.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 27, a long diamond-shaped face, straight brow tails, rounded eyes, defined lips, light neck and shoulders, lean balanced frame. plain tied black hair. light-gray short travel clothes with gray-green inner collar, neatly pressed side seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 27, a long diamond-shaped face, straight brow tails, rounded eyes, defined lips, light neck and shoulders, lean balanced frame. plain tied black hair, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. light-gray short travel clothes with gray-green inner collar, neatly pressed side seams, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：27岁轻巧匀长；西巷正侧脸须同人，不蒙面；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：27岁轻巧匀长；西巷正侧脸须同人，不蒙面；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C13-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1092,13 +1092,13 @@ Single fictional Chinese man, age 27, a long diamond-shaped face, straight brow 
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明。
+验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C14-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1110,13 +1110,13 @@ Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C14-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1128,13 +1128,13 @@ Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；只改视角，耳鼻下颌与选脸同源。
+验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C14-PROFILE__v01__candidate.png`，实际文件为空。
 
@@ -1146,13 +1146,13 @@ Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C14-赵平](<../../角色/C14-赵平.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep-set attentive eyes, short neat jaw beard, sturdy upright shoulders. black hair neatly bound for duty, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo duty robe with black edges, low-sheen cotton twill, plain belt. three-quarter head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；只改视角，耳鼻下颌与选脸同源。
+验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C14-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
@@ -1164,13 +1164,13 @@ Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C15-孟达](<../../角色/C15-孟达.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C15-孟达](<../../角色/C15-孟达.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 22, a long oval youthful adult face, gently lifted brows, broad eyes, light clean jaw, straight shoulders. black hair neatly bound for duty. indigo-teal duty robe, lighter than the senior officer's, pale-gray inner collar, narrow sleeves. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 22, a long oval youthful adult face, gently lifted brows, broad eyes, light clean jaw, straight shoulders. black hair neatly bound for duty, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. indigo-teal duty robe, lighter than the senior officer's, pale-gray inner collar, narrow sleeves, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：22岁成人、无孟宽短须壮实体量；不是少年儿童。
+验收：22岁成人、无孟宽短须壮实体量；不是少年儿童；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C15-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1182,13 +1182,13 @@ Single fictional Chinese man, age 22, a long oval youthful adult face, gently li
 
 发行用途：GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C15-孟达](<../../角色/C15-孟达.md>)
+来源：[GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C15-孟达](<../../角色/C15-孟达.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 22, a long oval youthful adult face, gently lifted brows, broad eyes, light clean jaw, straight shoulders. black hair neatly bound for duty. indigo-teal duty robe, lighter than the senior officer's, pale-gray inner collar, narrow sleeves. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 22, a long oval youthful adult face, gently lifted brows, broad eyes, light clean jaw, straight shoulders. black hair neatly bound for duty, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. indigo-teal duty robe, lighter than the senior officer's, pale-gray inner collar, narrow sleeves, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：22岁成人、无孟宽短须壮实体量；不是少年儿童；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：22岁成人、无孟宽短须壮实体量；不是少年儿童；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C15-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1200,13 +1200,13 @@ Single fictional Chinese man, age 22, a long oval youthful adult face, gently li
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain ring-pommel military blade sheathed at his waist. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain ring-pommel military blade sheathed at his waist. Full-length neutral standing costume study, equipment at rest, no combat pose. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；玄褐与深棕劲装，古铜低对比断山回纹，深棕宽腰封配古铜旧扣；保留短褐围巾、灰鬓与沉稳宽肩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；玄褐与深棕劲装，古铜低对比断山回纹，深棕宽腰封配古铜旧扣；保留短褐围巾、灰鬓与沉稳宽肩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C16-ARMOR__v01__candidate.png`，实际文件为空。
 
@@ -1218,13 +1218,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C16-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1236,10 +1236,10 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-One fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders, black hair bound in a plain topknot, wearing blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, dark bay coat with a small white forehead star. one ring-pommel military blade sheathed at his waist. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+One fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders, black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut, wearing muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, dark bay coat with a small white forehead star. one ring-pommel military blade sheathed at his waist. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H01，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。。
@@ -1254,13 +1254,13 @@ One fictional Chinese man, age 43, a rectangular-square face, broad jaw, low str
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. clean left profile head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；只改视角，耳鼻下颌与选脸同源。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C16-PROFILE__v01__candidate.png`，实际文件为空。
 
@@ -1272,13 +1272,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain ring-pommel military blade sheathed at his waist, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain ring-pommel military blade sheathed at his waist, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
 
 状态：尚未生成；拟存文件名 `MB-C16-RAIN__v01__candidate.png`，实际文件为空。
 
@@ -1290,13 +1290,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot. blackened brown and deep-brown martial jacket, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. three-quarter head-and-shoulders portrait, neutral relaxed expression. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low straight thick eyebrows, narrow calm eyes, straight broad nose, lightly graying temples, broad shoulders. black hair bound in a plain topknot, neatly secured period long hair with tidy temples, no modern cropped haircut. muted chestnut-brown silk-wool outer jacket with blackened-brown side layers and tea-gray cotton inner collar, muted antique-bronze broken-mountain tone-on-tone jacquard, broad deep-brown waist sash with a small antique-bronze clasp, short brown fine-wool scarf, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. three-quarter head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；只改视角，耳鼻下颌与选脸同源。
+验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C16-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
@@ -1308,13 +1308,13 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. deep indigo and ink-blue martial jacket, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo silk-wool outer jacket with muted earth-green side layers and stone-gray cotton collar edging, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；深靛与墨蓝劲装，宽窄相间折脊暗纹，墨蓝压边腰封；宽肩挺整、不加巨肩甲，保留方脸与真实体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
+验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；深靛丝毛、土青侧层、石灰棉领边，墨蓝腰封；胸肩留量。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；深靛与墨蓝劲装，宽窄相间折脊暗纹，墨蓝压边腰封；宽肩挺整、不加巨肩甲，保留方脸与真实体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C17-ARMOR__v01__candidate.png`，实际文件为空。
 
@@ -1326,13 +1326,13 @@ Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. deep indigo and ink-blue martial jacket, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo silk-wool outer jacket with muted earth-green side layers and stone-gray cotton collar edging, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定。
+验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；深靛丝毛、土青侧层、石灰棉领边，墨蓝腰封；胸肩留量。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C17-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1344,13 +1344,13 @@ Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. deep indigo and ink-blue martial jacket, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo silk-wool outer jacket with muted earth-green side layers and stone-gray cotton collar edging, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；深靛丝毛、土青侧层、石灰棉领边，墨蓝腰封；胸肩留量。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C17-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1362,10 +1362,10 @@ Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [角色服装系统](<../../角色服装系统.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-One fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build, plain tightly bound black hair, wearing deep indigo and ink-blue martial jacket, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, black-bay coat without white facial markings. one modest leather-faced wooden short shield stowed at the saddle side, one short blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+One fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build, plain tightly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut, wearing deep indigo silk-wool outer jacket with muted earth-green side layers and stone-gray cotton collar edging, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, black-bay coat without white facial markings. one modest leather-faced wooden short shield stowed at the saddle side, one short blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H02，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。。
@@ -1380,13 +1380,13 @@ One fictional Chinese man, age 38, a square face, broad flat brow ridge, open ey
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair. deep indigo and ink-blue martial jacket, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open eyes, weighty jaw, broad chest and shoulders, proportionate sturdy build. plain tightly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep indigo silk-wool outer jacket with muted earth-green side layers and stone-gray cotton collar edging, broad and narrow ridge-fold tone-on-tone jacquard, structured ink-blue waist sash with finely bound edges, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one modest leather-faced wooden short shield resting beside him, one short blade sheathed at his belt, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
+验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；深靛丝毛、土青侧层、石灰棉领边，墨蓝腰封；胸肩留量。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
 
 状态：尚未生成；拟存文件名 `MB-C17-RAIN__v01__candidate.png`，实际文件为空。
 
@@ -1398,13 +1398,13 @@ Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. gray-cyan martial jacket with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes, neatly secured period long hair with tidy temples, no modern cropped haircut. gray-cyan silk-wool outer jacket with bamboo-green inner layer and smoky-blue silk collar with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt. Full-length neutral standing costume study, equipment at rest, no combat pose. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted warm gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；灰青疏羽暗纹劲装、深灰窄边腰封与深灰短披肩；保留瘦长肩颈，披肩不遮脸和手臂，不加射手面罩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
+验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；灰青丝毛、竹青中层、烟蓝绸领，短毛披肩不延长。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；灰青疏羽暗纹劲装、深灰窄边腰封与深灰短披肩；保留瘦长肩颈，披肩不遮脸和手臂，不加射手面罩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C20-ARMOR__v01__candidate.png`，实际文件为空。
 
@@ -1416,13 +1416,13 @@ Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, 
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. gray-cyan martial jacket with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes, neatly secured period long hair with tidy temples, no modern cropped haircut. gray-cyan silk-wool outer jacket with bamboo-green inner layer and smoky-blue silk collar with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted warm gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件。
+验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；灰青丝毛、竹青中层、烟蓝绸领，短毛披肩不延长。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C20-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1434,13 +1434,13 @@ Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, 
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. gray-cyan martial jacket with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes, neatly secured period long hair with tidy temples, no modern cropped haircut. gray-cyan silk-wool outer jacket with bamboo-green inner layer and smoky-blue silk collar with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted warm gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；灰青丝毛、竹青中层、烟蓝绸领，短毛披肩不延长。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C20-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1452,10 +1452,10 @@ Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, 
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [角色服装系统](<../../角色服装系统.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-One fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture, black hair bound away from the eyes, wearing gray-cyan martial jacket with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, dark brown coat with a tiny white forehead spot. one cloth-wrapped short bow and closed arrow pouch stowed at the saddle side, one waist blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+One fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture, black hair bound away from the eyes, neatly secured period long hair with tidy temples, no modern cropped haircut, wearing gray-cyan silk-wool outer jacket with bamboo-green inner layer and smoky-blue silk collar with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, dark brown coat with a tiny white forehead spot. one cloth-wrapped short bow and closed arrow pouch stowed at the saddle side, one waist blade sheathed at his belt. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H05，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。。
@@ -1470,13 +1470,13 @@ One fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fin
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes. gray-cyan martial jacket with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fine firm brows, elongated eyes, tall slim frame and open neck posture. black hair bound away from the eyes, neatly secured period long hair with tidy temples, no modern cropped haircut. gray-cyan silk-wool outer jacket with bamboo-green inner layer and smoky-blue silk collar with sparse feather-like tone-on-tone jacquard, dark-gray waist sash with narrow edging, short dark-gray fine-wool shoulder cape, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one short bow wrapped in dark rain cloth beside a closed arrow pouch, one plain waist blade sheathed at his belt, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted warm gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
+验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；灰青丝毛、竹青中层、烟蓝绸领，短毛披肩不延长。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
 
 状态：尚未生成；拟存文件名 `MB-C20-RAIN__v01__candidate.png`，实际文件为空。
 
@@ -1488,13 +1488,13 @@ Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, 
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. deep blue-green and blue-black martial jacket, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately. Full-length neutral standing costume study, equipment at rest, no combat pose. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep blue-green silk-wool outer jacket with celadon-gray cotton inner collar and blue-black edging, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately. Full-length neutral standing costume study, equipment at rest, no combat pose. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青与蓝黑密格折线暗纹劲装，蓝黑精整腰封与低调细扣；保留窄脸、方口私包，P02仍是顾砚的另一个包。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
+验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青丝毛、青瓷灰棉领、蓝黑腰封；格折纹不是线索。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；深青与蓝黑密格折线暗纹劲装，蓝黑精整腰封与低调细扣；保留窄脸、方口私包，P02仍是顾砚的另一个包。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C23-ARMOR__v01__candidate.png`，实际文件为空。
 
@@ -1506,13 +1506,13 @@ Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. deep blue-green and blue-black martial jacket, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep blue-green silk-wool outer jacket with celadon-gray cotton inner collar and blue-black edging, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊。
+验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青丝毛、青瓷灰棉领、蓝黑腰封；格折纹不是线索。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C23-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1524,13 +1524,13 @@ Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. deep blue-green and blue-black martial jacket, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep blue-green silk-wool outer jacket with celadon-gray cotton inner collar and blue-black edging, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青丝毛、青瓷灰棉领、蓝黑腰封；格折纹不是线索。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C23-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1542,10 +1542,10 @@ Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [角色服装系统](<../../角色服装系统.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-One fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame, neatly bound black hair, wearing deep blue-green and blue-black martial jacket, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, gray-brown coat with a pale muzzle. one plain waist blade sheathed at his belt, modest square-mouth personal travel bag at saddle side. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+One fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame, neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut, wearing deep blue-green silk-wool outer jacket with celadon-gray cotton inner collar and blue-black edging, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, seated naturally on one ordinary adult riding horse, gray-brown coat with a pale muzzle. one plain waist blade sheathed at his belt, modest square-mouth personal travel bag at saddle side. Plain period travel saddle and modest side luggage, full rider and horse visible in a three-quarter side view, all four hooves supported on level ground, quiet neutral pose, diffuse daylight, plain background, one rider and one horse only. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H08，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。。
@@ -1560,13 +1560,13 @@ One fictional Chinese man, age 32, a narrow face, defined brows, concentrated ey
 
 发行用途：GJ-R01, GJ-R02。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [角色服装系统](<../../角色服装系统.md>) · [P20-五卒轻皮甲](<../../道具/P20-五卒轻皮甲.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
-Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair. deep blue-green and blue-black martial jacket, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated eyes, clear nose and jaw, evenly proportioned lean strong frame. neatly bound black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep blue-green silk-wool outer jacket with celadon-gray cotton inner collar and blue-black edging, fine grid-and-fold tone-on-tone jacquard, precisely layered blue-black waist sash with a small dark clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots, thin fitted light leather armor worn under the outer martial jacket and over an inner shirt, fully opaque outer fabric remains dominant, only a narrow dark leather edge visible at a naturally parted side lapel, subtle localized under-armor contour beneath the cloth, no exterior leather breastplate, no exposed armored skirt, no helmet, one plain waist blade sheathed at his belt, personal square-mouth cloth bag placed separately, rain-soaked opaque richly woven outer jacket with subtle wet tonal patterns and localized under-armor contour, restrained road mud at hems. Full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
+验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青丝毛、青瓷灰棉领、蓝黑腰封；格折纹不是线索。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
 
 状态：尚未生成；拟存文件名 `MB-C23-RAIN__v01__candidate.png`，实际文件为空。
 
@@ -1578,13 +1578,13 @@ Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep ink-green short travel coat with a pale gray inner collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记。
+验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C57-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1596,13 +1596,13 @@ Single fictional Chinese man, age 32, tall slender build, long oval face, straig
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep ink-green short travel coat with a pale gray inner collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C57-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1614,10 +1614,10 @@ Single fictional Chinese man, age 32, tall slender build, long oval face, straig
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair. deep ink-green short travel coat with a pale gray inner collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 32, tall slender build, long oval face, straight fine brows, narrow jaw. low tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. deep ink-green short travel coat with a pale gray inner collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。。
@@ -1632,13 +1632,13 @@ Single fictional Chinese man, age 32, tall slender build, long oval face, straig
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. charcoal travel robe with brown outer sleeves and dark gray cross-collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记。
+验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C58-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1650,13 +1650,13 @@ Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad 
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. charcoal travel robe with brown outer sleeves and dark gray cross-collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C58-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1668,10 +1668,10 @@ Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad 
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair. charcoal travel robe with brown outer sleeves and dark gray cross-collar, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad long face, low straight brows, broad straight nose. compact tied black hair, neatly secured period long hair with tidy temples, no modern cropped haircut. charcoal travel robe with brown outer sleeves and dark gray cross-collar, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。。
@@ -1686,13 +1686,13 @@ Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad 
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe. Front-facing head-and-shoulders portrait, neutral relaxed expression, unobstructed face, soft even face light. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. gray-blue fitted-sleeve short travel robe, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing head-and-shoulders identity portrait, full topknot included with headroom, neutral relaxed expression, unobstructed face, natural catchlights. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记。
+验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
 状态：尚未生成；拟存文件名 `MB-C59-FACE__v01__candidate.png`，实际文件为空。
 
@@ -1704,13 +1704,13 @@ Single fictional Chinese man, age 29, short compact lean build, diamond-shaped f
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. gray-blue fitted-sleeve short travel robe, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams. Front-facing full-length standing costume study, both hands relaxed and visible, feet included. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
+验收：原创成年身份工作提案；与另四名刺客脸形和体量不同；真名未定、不带门派徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C59-FULL__v01__candidate.png`，实际文件为空。
 
@@ -1722,10 +1722,10 @@ Single fictional Chinese man, age 29, short compact lean build, diamond-shaped f
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band. gray-blue fitted-sleeve short travel robe, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Plain warm-gray studio background, one subject, one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+Single fictional Chinese man, age 29, short compact lean build, diamond-shaped face, defined cheekbones, short jaw, narrow eyes. low tied black hair with a narrow dark gray forehead band, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. gray-blue fitted-sleeve short travel robe, densely woven matte cotton outer fabric with an opaque lined interior and neat bound seams, rain-soaked cloth, damp hems, no fresh wounds, plain period sheathed blade at the side. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Low-information muted stone-green gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。。
@@ -1740,7 +1740,7 @@ Single fictional Chinese man, age 29, short compact lean build, diamond-shaped f
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C60-林侧神秘人](<../../角色/C60-林侧神秘人.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C60-林侧神秘人](<../../角色/C60-林侧神秘人.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
 One partially visible adult figure behind a large woodland tree in dense bamboo beside a wet road at night, a plain dark-gray sleeve extending just beyond the trunk, the rest of the body concealed, face and bare hands fully occluded, no visible weapon or insignia, cool ambient light through canopy gaps, restrained fabric texture, single quiet frame. --ar 16:9 --v 8.2 --raw --s 75 --c 0
@@ -2427,7 +2427,7 @@ A cropped chalk-dusted adult Chinese man's hand withdrawing from rock after a cl
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [P14-顾伯所备干衣](<../../道具/P14-顾伯所备干衣.md>)
 
 ```text
-One folded pale-gray cross-collar inner robe made of dense soft cotton, smoky-gray edging, precise plain seams, neutral tabletop view under diffuse light, no embroidery or jewellery. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+One folded pale-gray cross-collar inner robe made of dense soft cotton, smoky-gray edging, precise plain seams, neutral tabletop view under diffuse light, no embroidery or jewellery. Opaque fine cotton cloth with smoky-gray silk-twill bound collar edging, soft matte folds; no travel outer robe. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：穿上后的原顾今顾共版；不增华服或第二套脸。
@@ -2571,7 +2571,7 @@ One removed fictional period light leather under-armor on a faceless neutral tor
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, tall lean build, long narrow torso, slim shoulders, wearing charcoal jacket, narrow slate collar and a flat black waist sash. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, tall lean build, long narrow torso, slim shoulders, wearing charcoal jacket, narrow slate collar and a flat black waist sash. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-01第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2589,7 +2589,7 @@ One fictional adult masked assailant, tall lean build, long narrow torso, slim s
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, medium-height broad-shouldered build, thick neck, compact waist, wearing blackened brown jacket, wide charcoal waist sash and short gray shoulder cape. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, medium-height broad-shouldered build, thick neck, compact waist, wearing blackened brown jacket, wide charcoal waist sash and short gray shoulder cape. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-02第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2607,7 +2607,7 @@ One fictional adult masked assailant, medium-height broad-shouldered build, thic
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, short stocky build, broad chest, short thick lower legs, wearing deep gray jacket, double narrow brown waist ties. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, short stocky build, broad chest, short thick lower legs, wearing deep gray jacket, double narrow brown waist ties. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-03第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2625,7 +2625,7 @@ One fictional adult masked assailant, short stocky build, broad chest, short thi
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, tall broad-backed build, long arms, heavy upper body, wearing blue-black jacket, dark square quilted shoulder edging. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, tall broad-backed build, long arms, heavy upper body, wearing blue-black jacket, dark square quilted shoulder edging. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-04第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2643,7 +2643,7 @@ One fictional adult masked assailant, tall broad-backed build, long arms, heavy 
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, medium-height slender build, narrow hips, upright posture, wearing ash-brown jacket, narrow ink-gray lapel edging. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, medium-height slender build, narrow hips, upright posture, wearing ash-brown jacket, narrow ink-gray lapel edging. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-05第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2661,7 +2661,7 @@ One fictional adult masked assailant, medium-height slender build, narrow hips, 
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, short light-framed build, narrow shoulders, compact limbs, wearing charcoal-blue jacket, crossed muted-brown sash layers. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, short light-framed build, narrow shoulders, compact limbs, wearing charcoal-blue jacket, crossed muted-brown sash layers. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-06第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2679,7 +2679,7 @@ One fictional adult masked assailant, short light-framed build, narrow shoulders
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, medium-height heavy-backed build, sturdy waist, thick forearms, wearing dark tea-brown jacket, a short black side shoulder drape. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, medium-height heavy-backed build, sturdy waist, thick forearms, wearing dark tea-brown jacket, a short black side shoulder drape. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-07第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2697,7 +2697,7 @@ One fictional adult masked assailant, medium-height heavy-backed build, sturdy w
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, tall long-legged build, slim waist, slightly sloping shoulders, wearing black-gray jacket, narrow blue-gray collar band. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, tall long-legged build, slim waist, slightly sloping shoulders, wearing black-gray jacket, narrow blue-gray collar band. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-08第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2715,7 +2715,7 @@ One fictional adult masked assailant, tall long-legged build, slim waist, slight
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, medium-height balanced sturdy build, straight shoulders, proportionate legs, wearing dark gray-brown jacket, broad black waist sash with a low cloth knot. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, medium-height balanced sturdy build, straight shoulders, proportionate legs, wearing dark gray-brown jacket, broad black waist sash with a low cloth knot. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-09第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2733,7 +2733,7 @@ One fictional adult masked assailant, medium-height balanced sturdy build, strai
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [S01-春泽桥前竹木密林道](<../../场景/S01-春泽桥前竹木密林道.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>)
 
 ```text
-One fictional adult masked assailant, medium-height broad-shouldered build, short torso, long lower legs, wearing ink-blue jacket, muted gray layered lapel edge and narrow sash. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action Chinese costume drama, finely constructed fitted clothes, richly woven opaque fabric, natural skin texture, directional soft face light, readable dark tonal ornament, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
+One fictional adult masked assailant, medium-height broad-shouldered build, short torso, long lower legs, wearing ink-blue jacket, muted gray layered lapel edge and narrow sash. Fine tightly woven opaque period travel cloth with restrained dark tonal texture, hood and lower-face wrap concealing identifying facial detail. Full-length neutral standing pose, hands relaxed at the sides, feet visible, ordinary sheathed blade at waist, no combat pose, no insignia. Slightly rain-damp clothing, neutral gray background, diffuse light, one subject and one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：仅S01-W1-10第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
@@ -2838,13 +2838,13 @@ One ordinary round bronze mirror in a substantial carved dark-hardwood stand wit
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C02-陈渡（今顾）](<../../角色/C02-陈渡（今顾）.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
-Edit the selected portrait. Preserve identity, pose, clothing, background, framing and color balance. Add only a restrained soft highlight bloom around the existing light-facing edge, keeping eyes and skin texture crisp. --ar 3:4 --v 8.2 --raw --s 75 --c 0
+Edit the selected portrait. Preserve identity, pose, clothing, background, framing and color balance. Test only barely visible local optical highlight spill at the existing light-facing edge, keeping eyes and skin texture crisp. No golden halo, dreamy glow, soft-focus face or warm color cast. --ar 3:4 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：只比较高光扩散有／无；不以磨皮、改脸替代柔光，其他参数与母版相同。
+验收：只比较极弱局部高光扩散有／无；身份基线无新增扩散，不以磨皮、改脸替代柔光，其他参数与母版相同；禁止金色光晕与梦幻泛光，不作任何生产项必需前置。
 
 状态：尚未生成；拟存文件名 `MB-TEST-C01-BLOOM__v01__candidate.png`，实际文件为空。
 
@@ -2856,7 +2856,7 @@ Edit the selected portrait. Preserve identity, pose, clothing, background, frami
 
 发行用途：GJ-R01。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C06-黄祁](<../../角色/C06-黄祁.md>) · [C07-罗顺](<../../角色/C07-罗顺.md>) · [C57-灰领刺客](<../../角色/C57-灰领刺客.md>) · [C58-褐袖刺客](<../../角色/C58-褐袖刺客.md>) · [C59-窄额带刺客](<../../角色/C59-窄额带刺客.md>) · [角色服装系统](<../../角色服装系统.md>)
 
 ```text
 One plain period blade film prop beside its dark undecorated sheath, modest straight silhouette, restrained worn metal and simple cloth grip, isolated horizontal object study in soft diffuse light, no emblem, no supernatural glow. --ar 16:9 --v 8.2 --raw --s 75 --c 0
@@ -2874,7 +2874,7 @@ One plain period blade film prop beside its dark undecorated sheath, modest stra
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C01-顾砚（原顾）](<../../角色/C01-顾砚（原顾）.md>) · [C03-韩青](<../../角色/C03-韩青.md>) · [C16-杜长庚](<../../角色/C16-杜长庚.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [C23-许照邻](<../../角色/C23-许照邻.md>) · [角色服装系统](<../../角色服装系统.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
 One plain sheathed period travel blade with a modest dark handle, restrained worn metal fittings and a cloth-wrapped grip, isolated side view under diffuse light, fictional film prop design. --ar 4:3 --v 8.2 --raw --s 75 --c 0
@@ -2892,7 +2892,7 @@ One plain sheathed period travel blade with a modest dark handle, restrained wor
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C20-崔望野](<../../角色/C20-崔望野.md>) · [角色服装系统](<../../角色服装系统.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
 One simple short traditional bow wrapped in dark rain-protection cloth beside one closed cloth arrow pouch, curved silhouette still readable under the tied covering, isolated object study, diffuse light, no drawn bow, no loose arrow, no hands. --ar 4:3 --v 8.2 --raw --s 75 --c 0
@@ -2910,7 +2910,7 @@ One simple short traditional bow wrapped in dark rain-protection cloth beside on
 
 发行用途：GJ-R01, GJ-R02, GJ-R03。场次关联不自动授权露脸或台词。
 
-来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
+来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [GJ-EP02-先过今夜](<../../../剧集/01-归京/GJ-EP02-先过今夜.md>) · [GJ-EP03-门外的人](<../../../剧集/01-归京/GJ-EP03-门外的人.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [C17-石照川](<../../角色/C17-石照川.md>) · [角色服装系统](<../../角色服装系统.md>) · [P21-五卒携行兵器](<../../道具/P21-五卒携行兵器.md>)
 
 ```text
 One modest wooden short shield film prop with a matte dark-brown leather facing, softened corners, plain cloth edging and subtle old wear, isolated three-quarter object study on neutral gray, no emblem, no giant tower shield, no metal mirror polish. --ar 4:3 --v 8.2 --raw --s 75 --c 0
