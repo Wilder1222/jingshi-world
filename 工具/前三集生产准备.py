@@ -24,7 +24,168 @@ def link(path):
     return os.path.relpath(ROOT / path, PACK).replace('\\', '/')
 
 
+def load_masters():
+    """读取已选身份／建筑视觉母版；视觉选用不等于空间验收。"""
+    masters = read(ROOT / '资产/媒体/母版登记.json')['masters']
+    characters = {c['id']: c for c in read(ROOT / '索引/数据/characters.json')}
+    locations = {s['id']: s for s in read(ROOT / '索引/数据/locations.json')}
+    seen, assets, task_ids = set(), set(), set()
+    for master in masters:
+        key = master['id']
+        if key in seen or master['status'] != 'selected' or master['scope'] not in ('portrait_identity', 'architecture_visual', 'ordinary_assassin_group'):
+            raise ValueError('母版编号重复或选用范围错误')
+        seen.add(key)
+        path = (ROOT / master['path']).resolve()
+        if not path.is_relative_to((ROOT / '资产/媒体').resolve()) or not path.is_file():
+            raise ValueError('母版文件缺失或越界')
+        if hashlib.sha256(path.read_bytes()).hexdigest() != master['sha256']:
+            raise ValueError('母版文件校验不符')
+        if master.get('source_kind') == 'user_attachment_edited':
+            original = (ROOT / master['original_path']).resolve()
+            if not original.is_relative_to((ROOT / '参考').resolve()) or not original.is_file():
+                raise ValueError('修图缺原始用户参考或路径越界')
+            if hashlib.sha256(original.read_bytes()).hexdigest() != master['original_sha256']:
+                raise ValueError('修图原始参考校验不符')
+            if master['sha256'] == master['original_sha256']:
+                raise ValueError('修图产物不能冒充未修改原图')
+            generation = master.get('generation', {})
+            if generation.get('tool') != 'image_gen.imagegen' or not generation.get('prompts') or not all(generation['prompts']):
+                raise ValueError('修图缺生成工具或提示词记录')
+            if master.get('style_review', {}).get('status') != 'passed_visual_review':
+                raise ValueError('修图母版尚未完成视觉复核')
+        if not master['asset_ids'] or not master['selection_basis']:
+            raise ValueError('母版缺角色或选用依据')
+        if master['scope'] == 'ordinary_assassin_group':
+            if master['asset_ids'] != ['S01'] or master.get('group_key') != 'S01-W1' or master.get('instance_id') is not None:
+                raise ValueError('普通刺客组不能冒充具名角色或已分配实例')
+            if master['task_ids'] or master['reference_task_ids'] != ['POST-WAVES'] or not master.get('unverified'):
+                raise ValueError('普通刺客组仅可供波次核对，不完成全身实例任务')
+            if master.get('framing') not in ('full_body', 'feet_cropped'):
+                raise ValueError('普通刺客须记录完整裁幅')
+            continue
+        if master['scope'] == 'architecture_visual':
+            if master['task_ids'] or master.get('spatial_status') != 'not_verified':
+                raise ValueError('建筑视觉母版不能冒充空间或光态任务验收')
+            for sid in master['asset_ids']:
+                if sid not in locations or key not in locations[sid].get('architecture_master_ids', []):
+                    raise ValueError('建筑母版与场景登记不一致')
+            if not master.get('visual_slot') or not master.get('unverified'):
+                raise ValueError('建筑母版缺用途或未核验范围')
+            continue
+        for cid in master['asset_ids']:
+            if cid in assets or cid not in characters:
+                raise ValueError('肖像角色重复或不存在')
+            assets.add(cid)
+            if characters[cid].get('portrait_master_id') != key or characters[cid]['visual_key'] != master['visual_key']:
+                raise ValueError('角色与肖像母版绑定不一致')
+        for task_id in master['task_ids']:
+            if task_id in task_ids:
+                raise ValueError('任务绑定多个肖像母版')
+            task_ids.add(task_id)
+    shared = [m for m in masters if set(m['asset_ids']) & {'C01', 'C02'}]
+    if shared and (len(shared) != 1 or set(shared[0]['asset_ids']) != {'C01', 'C02'}):
+        raise ValueError('C01/C02必须共用同一母版')
+    return masters
+
+
+def bind_masters(tasks, masters):
+    by_id = {t['id']: t for t in tasks}
+    selected = {}
+    for master in masters:
+        for tid in master['task_ids']:
+            if tid not in by_id or tid != 'MB-' + master['asset_ids'][0] + '-FACE':
+                raise ValueError('肖像只能完成对应身份脸任务')
+            selected[tid] = master
+    def ancestors(tid, seen=None, images_only=False):
+        seen = set() if seen is None else seen
+        for dep in by_id[tid]['depends_on']:
+            if images_only and by_id[dep]['method'] != 'MJ':
+                continue
+            if dep not in seen:
+                seen.add(dep)
+                ancestors(dep, seen, images_only)
+        return seen
+    for m in masters:
+        if m['scope'] == 'architecture_visual':
+            for tid in m['reference_task_ids']:
+                if tid not in by_id or (by_id[tid]['category'] not in ('空间', '空间光态') and tid != 'POST-PLAN-COURT'):
+                    raise ValueError('建筑引用任务不存在或不属于空间工序')
+                if not set(m['asset_ids']) & set(by_id[tid]['asset_ids']):
+                    raise ValueError('建筑引用跨越登记场景范围')
+    for t in tasks:
+        master = selected.get(t['id'])
+        t['selected_master_id'] = master['id'] if master else None
+        if master:
+            t.update(status='selected_external_master', media_status='selected', actual_file=master['path'])
+        t['input_references'] = [dict(master_id=m['id'], path=m['path'], sha256=m['sha256'], purpose='portrait_identity')
+                                 for tid, m in sorted(selected.items()) if tid in ancestors(t['id'])]
+        lineage = {t['id']} | ancestors(t['id'], images_only=True)
+        t['input_references'] += [dict(master_id=m['id'], path=m['path'], sha256=m['sha256'],
+                                      purpose='architecture_visual', visual_slot=m['visual_slot'],
+                                      constraints=m['derivation_rule'])
+                                  for m in masters if m['scope'] == 'architecture_visual'
+                                  and set(m['reference_task_ids']) & lineage]
+        if t['id'] == 'POST-WAVES':
+            t['input_references'] += [dict(master_id=m['id'], path=m['path'], sha256=m['sha256'],
+                                          purpose='ordinary_assassin_group', constraints=m['derivation_rule'])
+                                      for m in masters if m['scope'] == 'ordinary_assassin_group']
+        t['unresolved_dependencies'] = [dep for dep in t['depends_on'] if dep not in selected]
+        if t['depends_on'] and not t['unresolved_dependencies'] and not master:
+            t['status'] = 'ready_for_exploration'
+        if t['input_references']:
+            t['reference_slot'] = 'Use each registered image only for its stated purpose; unresolved clothing/space parents remain required.'
+
+
+def load_pending_masters():
+    registry = read(ROOT / '资产/媒体/母版登记.json')
+    candidates = registry.get('pending_masters', [])
+    seen = {m['id'] for m in registry['masters']}
+    for m in candidates:
+        if m['id'] in seen or m['status'] != 'pending_identity_confirmation' or m['scope'] != 'masked_portrait_reference':
+            raise ValueError('蒙面候选编号或状态不合法')
+        seen.add(m['id'])
+        if m['task_ids'] or m['reference_task_ids'] or not m['candidate_asset_ids'] or not set(m['candidate_asset_ids']) <= ASSASSINS:
+            raise ValueError('蒙面候选不能确认身份、分配第一波实例或自动执行任务')
+        if not m.get('matching_basis') or not m.get('unverified'):
+            raise ValueError('蒙面候选缺匹配依据或核对范围')
+        path = (ROOT / m['path']).resolve()
+        if not path.is_relative_to((ROOT / '资产/媒体/待核对').resolve()) or not path.is_file():
+            raise ValueError('蒙面候选文件缺失或路径越界')
+        if hashlib.sha256(path.read_bytes()).hexdigest() != m['sha256']:
+            raise ValueError('蒙面候选文件校验不符')
+    return candidates
+
+
+def load_matched_references():
+    registry = read(ROOT / '资产/媒体/母版登记.json')
+    refs = registry.get('matched_references', [])
+    valid = {c['id'] for c in read(ROOT / '索引/数据/characters.json')} | {'P19', 'S06'}
+    seen = {m['id'] for m in registry['masters'] + registry.get('pending_masters', [])}
+    for m in refs:
+        if m['id'] in seen or m['scope'] != 'matched_asset_reference':
+            raise ValueError('匹配参考编号重复或范围错误')
+        seen.add(m['id'])
+        if not m['asset_ids'] or not set(m['asset_ids']) <= valid:
+            raise ValueError('匹配参考资产不存在')
+        if m['confidence'] not in ('high', 'medium', 'low') or m['status'] != ('matched_reference' if m['confidence'] == 'high' else 'candidate_reference'):
+            raise ValueError('匹配参考置信度与状态不一致')
+        if m['task_ids'] or m['reference_task_ids'] or not m['matching_basis'] or not m['unverified']:
+            raise ValueError('匹配参考不能自动选版或缺少核对依据')
+        path = (ROOT / m['path']).resolve()
+        if not path.is_relative_to((ROOT / '资产/媒体/资产匹配').resolve()) or not path.is_file():
+            raise ValueError('匹配参考缺失或越界')
+        if hashlib.sha256(path.read_bytes()).hexdigest() != m['sha256']:
+            raise ValueError('匹配参考校验不符')
+    return refs
+
+
 def validate(data):
+    if data['selected_masters'] != load_masters():
+        raise ValueError('生产母版与选用源登记不一致')
+    if data['pending_master_candidates'] != load_pending_masters():
+        raise ValueError('蒙面候选与源登记不一致')
+    if data['matched_asset_references'] != load_matched_references():
+        raise ValueError('匹配参考与源登记不一致')
     tasks = data['tasks']
     ids = [t['id'] for t in tasks]
     if len(ids) != len(set(ids)):
@@ -106,8 +267,10 @@ def validate(data):
 
     for t in tasks:
         visit(t['id'])
-        if t['actual_file'] is not None or t['media_status'] != 'not_generated':
-            raise ValueError('任务计划不能冒充实际媒体')
+        master = next((m for m in data['selected_masters'] if t['id'] in m['task_ids']), None)
+        if (t['actual_file'], t['media_status'], t['selected_master_id']) != (
+                master['path'] if master else None, 'selected' if master else 'not_generated', master['id'] if master else None):
+            raise ValueError('任务媒体必须对应已登记母版；不能冒充实际媒体')
         if not t['scene_ids'] or not set(t['scene_ids']) <= set(data['scene_ids']):
             raise ValueError('场次失配：' + t['id'])
         if not t['acceptance'] or not t['source_paths']:
@@ -313,11 +476,16 @@ def build_data():
             t['depends_on'].append('POST-PLAN-COURT')
             t['status'] = 'awaiting_parent_selection'
     visible = sorted({a for s in scenes for a in s['character_ids'] + s['location_ids'] + s['prop_ids']})
+    masters = load_masters()
+    pending = load_pending_masters()
+    matched = load_matched_references()
+    bind_masters(tasks, masters)
     paths = {p for t in tasks for p in t['source_paths']} | {
         '索引/数据/episodes.json', '索引/数据/发行前三集.json', '资产/生产准备/前三集-v1.9/视觉任务源.json',
-        '资产/生产准备/前三集-v1.9/补充任务源.json', '工具/前三集生产准备.py'}
+        '资产/生产准备/前三集-v1.9/补充任务源.json', '工具/前三集生产准备.py',
+        '资产/媒体/母版登记.json', '索引/数据/characters.json', '索引/数据/locations.json'} | {m['path'] for m in masters} | {m['original_path'] for m in masters if m.get('original_path')} | {m['path'] for m in pending} | {m['path'] for m in matched}
     data = dict(format='jingshi-production-working-draft', canonical=False, revision='v1.9',
-                baseline_commit=cfg['baseline_commit'], media_status='not_generated',
+                baseline_commit=cfg['baseline_commit'], media_status='partially_selected', selected_masters=masters, pending_master_candidates=pending, matched_asset_references=matched,
                 model=cfg['model'], manual_preflight_required=True,
                 scene_ids=[s['id'] for s in scenes], visible_asset_ids=visible,
                 release_plan=release, scene_budgets={s['id']: s['duration_estimate_seconds'] for s in scenes},
@@ -354,9 +522,14 @@ def render(data):
     tasks = data['tasks']
     mj = [t for t in tasks if t['method'] == 'MJ']
     ordered = sorted(mj, key=lambda t: (not bool(t['first_batch']), t['first_batch'] or 999, t['id']))
-    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；{len(FACE_CAST)}张独立身份脸、C60一个遮脸轮廓、另有第一波十个遮面群演实例、16场，全部尚未生成或选版。'
+    selected_count = sum(t['media_status'] == 'selected' for t in tasks)
+    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；{len(FACE_CAST)}张独立身份脸、C60一个遮脸轮廓、另有第一波十个遮面群演实例、16场。已有{selected_count}项使用用户选定母版，其余{len(tasks)-selected_count}项未完成；全库母版登记见[媒体库](../../媒体/README.md)。'
     current = [t for t in tasks if t['release_scope'] == 'current_first_three']
     counts += f" 这是前三发行集与后续门口预备的合计；当前前三集关联{len(current)}项，后续专用{len(tasks)-len(current)}项。前三发行集11场、180／195／180秒，详[逐镜节奏](前三集节奏与分镜.md)。"
+    if data['matched_asset_references']:
+        counts += f" 另有{len(data['matched_asset_references'])}张混合资产匹配参考已登记，置信度与冲突见[媒体登记](../../媒体/README.md)，不计已选任务。"
+    if data['pending_master_candidates']:
+        counts += f" 另有{len(data['pending_master_candidates'])}张蒙面半身参考待核对身份，未绑定FACE、全身或第一波实例；详[媒体登记](../../媒体/README.md)。"
     overview = '# 前三集资产任务清单 v1.9\n\n' + counts + '\n\n[使用说明](README.md) · [英文提示词](MJ提示词.md) · [文书与后制](文书后制与非MJ任务.md)\n\n优先级A/B/C是探索批次，不是成片可删等级。首批1—20为顾砚、韩青、杜长庚、顾伯、黄祁各四项服装母版，不是护送队名单；已有身份选图可先登记复用，未提供不算通过。带依赖任务须先验收前置，不能按行序盲跑。\n\n| 任务 | 名称／类别 | 批次／首批序 | 资产 | 场次 | 前置 | 验收 |\n|---|---|---|---|---|---|---|\n'
     prompts = '# MJ母版探索提示词 v1.9\n\n以下是执行前待检查的文字投影，不是已经批准的母版。模型V8.2；使用前按[README](README.md)检查账户设置，基线关闭Personalization并清除遗留引用。派生项正文须配合已选父母版输入，不能仅靠文字重抽。不得把父任务编号当作图片链接。\n\n首批20项服装图置前；其余按ID排列便于检索，实际按依赖执行。每框仅一张图。既有THREEQUARTER仍为侧脸，不与新增FULL-3Q混同。\n'
     for t in tasks:
@@ -368,18 +541,30 @@ def render(data):
         prompts += f"首批：{t['first_batch'] or '扩展'}；前置：{', '.join(t['depends_on']) or '无图像前置，先检查设置'}。\n\n"
         prompts += '发行用途：' + (', '.join(t['release_episode_ids']) or '后续专用预备，不进入前三发行集') + '。场次关联不自动授权露脸或台词。\n\n'
         prompts += '来源：' + ' · '.join(f'[{Path(p).stem}](<{link(p)}>)' for p in t['source_paths']) + '\n\n'
-        prompts += f"```text\n{t['projection']}\n```\n\n验收：{t['acceptance']}。\n\n状态：尚未生成；拟存文件名 `{t['planned_filename']}`，实际文件为空。\n"
+        prompts += f"```text\n{t['projection']}\n```\n\n验收：{t['acceptance']}。\n\n"
+        if t['media_status'] == 'selected':
+            prompts += f"状态：用户已选[肖像母版](<{link(t['actual_file'])}>)，复用本图；以上文字为原任务方向，无需重新海选。\n"
+        else:
+            prompts += f"状态：尚未生成；拟存文件名 `{t['planned_filename']}`，实际文件为空。\n"
+        if t['input_references']:
+            prompts += '\n母版图像引用：' + ' · '.join(f"[{r['master_id']}](<{link(r['path'])}>)（{r['purpose']}）" for r in t['input_references']) + '。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。\n'
+        for r in t['input_references']:
+            if r['purpose'] in ('architecture_visual', 'ordinary_assassin_group'):
+                prompts += '\n引用边界：' + r['constraints'] + '\n'
+        if t['unresolved_dependencies']:
+            prompts += '\n尚缺前置：' + '、'.join(t['unresolved_dependencies']) + '。\n'
     overview += '\n## 停用编号\n\n' + '\n'.join(f"- {r['id']}：{r['reason']}" for r in data['retired_tasks']) + '\n'
     out = {'生产任务.json': json.dumps(data, ensure_ascii=False, indent=2) + '\n',
            '资产任务清单.md': overview, 'MJ提示词.md': prompts,
            '前三集节奏与分镜.md': render_release(data['release_plan'])}
     buf = io.StringIO(newline='')
     writer = csv.writer(buf)
-    writer.writerow(['任务ID', '名称', '工序', '批次', '首批序', '资产ID', '场次', '前置任务', '验收条件', '英文提示词', '状态', '拟定文件名', '发行集', '制作范围'])
+    writer.writerow(['任务ID', '名称', '工序', '批次', '首批序', '资产ID', '场次', '前置任务', '验收条件', '英文提示词', '状态', '拟定文件名', '发行集', '制作范围', '实际文件', '母版图像引用', '尚缺前置'])
     for t in tasks:
         writer.writerow([t['id'], t['name'], t['method'], t['phase'], t['first_batch'] or '',
                          ';'.join(t['asset_ids']), ';'.join(t['scene_ids']), ';'.join(t['depends_on']),
-                         t['acceptance'], t['projection'], t['status'], t['planned_filename'], ';'.join(t['release_episode_ids']), t['release_scope']])
+                         t['acceptance'], t['projection'], t['status'], t['planned_filename'], ';'.join(t['release_episode_ids']), t['release_scope'],
+                         t['actual_file'] or '', ';'.join(r['path'] for r in t['input_references']), ';'.join(t['unresolved_dependencies'])])
     out['资产任务清单.csv'] = '\ufeff' + buf.getvalue()
     buf = io.StringIO(newline='')
     writer = csv.writer(buf)
@@ -405,7 +590,7 @@ def main():
             stale.append(name)
     if stale:
         raise SystemExit('生产派生件过期：' + ', '.join(stale))
-    print(f"{args.command}: {len(data['tasks'])} tasks, {len(FACE_CAST)} faces, 1 concealed figure, 16 scenes; media not generated.")
+    print(f"{args.command}: {len(data['tasks'])} tasks, {len(FACE_CAST)} faces, 1 concealed figure, 16 scenes; {len(data['selected_masters'])} registered masters, {sum(t['media_status']=='selected' for t in data['tasks'])} selected task; remaining task outputs pending.")
 
 
 if __name__ == '__main__':

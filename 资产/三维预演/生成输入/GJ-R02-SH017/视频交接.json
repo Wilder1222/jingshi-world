@@ -1,0 +1,30 @@
+{
+  "source_shot_id": "GJ-R02-SH017",
+  "source_scene_id": "GJ-EP01-SC05",
+  "source_video": "资产/三维预演/视频/GJ-R02-SH017.mp4",
+  "source_video_sha256": "9c0bf0e8b7cdeba3d268ea2c235b560b9dfabdae21da9bbdfaf6ecc63beb1d56",
+  "camera_track": "资产/三维预演/相机/GJ-R02-SH017.json",
+  "duration_seconds": 10.0,
+  "source_fps": [
+    24,
+    1
+  ],
+  "aspect_ratio": "16:9",
+  "prompt_working": "基于本镜三维预演，保留原视频相机、构图、透视、时长和所有建筑边缘。镜号GJ-R02-SH017。运镜：同轴中景看完整起动与停止，不仅拍膝痛脸。动作依据：重心刚移，旧肩撑不住；膝碰柜角，立即收回靠柜坐下。背景为高门世家古宅或既有寒季林道；依场景区分，不把林道改成宅院。将代理体替换为已验收角色后才能生成正式人物镜头；当前未绑定身份参考。门窗、柱列、柜案、车马数量和所属状态不得变化。C60脸与手保持不可见。",
+  "provider": null,
+  "model": null,
+  "task_id": null,
+  "returned_video": null,
+  "status": "awaiting_video_account_and_character_binding",
+  "unknown_capabilities": [
+    "video-conditioned geometry fidelity",
+    "frame rate",
+    "depth input",
+    "identity binding"
+  ],
+  "do_not_submit_without": [
+    "available_authenticated_video_model",
+    "reviewed_model_input_mapping"
+  ],
+  "fallback": "retain original rendered background; no account purchase or autonomous paid upgrade"
+}

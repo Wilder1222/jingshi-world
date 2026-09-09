@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import re
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('production', ROOT / '工具/前三集生产准备.py')
@@ -17,12 +18,212 @@ class ProductionTests(unittest.TestCase):
     def setUpClass(cls):
         cls.data = production.build_data()
 
+    def test_matched_references_are_tracked_without_selecting_tasks(self):
+        refs = self.data['matched_asset_references']
+        self.assertEqual(len(refs), 17)
+        self.assertEqual([m['asset_ids'][0] for m in refs[:9]], ['P19', 'S06', 'C03', 'C16', 'C04', 'C06', 'C17', 'C20', 'C23'])
+        keys = {m['id'] for m in refs}
+        for m in refs:
+            self.assertEqual(self.data['source_sha256'][m['path']], m['sha256'])
+        for task in self.data['tasks']:
+            self.assertNotIn(task['selected_master_id'], keys)
+            self.assertFalse(keys & {m['master_id'] for m in task['input_references']})
+        self.assertEqual(refs[2]['status'], 'candidate_reference')
+        self.assertEqual(refs[1]['candidate_subarea'], 'S06-K')
+
     def test_counts_and_nonmedia_status(self):
         tasks = self.data['tasks']
         self.assertEqual(len(tasks), 178)
         self.assertEqual(sum(t['method'] == 'MJ' for t in tasks), 162)
-        self.assertTrue(all(t['actual_file'] is None for t in tasks))
+        selected = [t for t in tasks if t['actual_file'] is not None]
+        self.assertEqual([t['id'] for t in selected], ['MB-C01-FACE'])
+        self.assertEqual(selected[0]['media_status'], 'selected')
+        self.assertTrue(all(t['media_status'] == 'not_generated' for t in tasks if t not in selected))
         self.assertEqual(len(self.data['scene_ids']), 16)
+
+    def test_masked_candidates_do_not_count_as_selected_or_seven_identities(self):
+        candidates = self.data['pending_master_candidates']
+        self.assertEqual(len(candidates), 7)
+        self.assertEqual([m['candidate_asset_ids'] for m in candidates], [['C57'], ['C57'], ['C58'], ['C58'], ['C59'], ['C06'], ['C07']])
+        self.assertEqual(len(self.data['selected_masters']), 21)
+        ids = {m['id'] for m in candidates}
+        for t in self.data['tasks']:
+            self.assertFalse(ids & {ref['master_id'] for ref in t['input_references']})
+        self.assertEqual(len(self.data['first_wave_instances']), 10)
+
+    def test_masked_candidate_hash_rejected(self):
+        original_read = production.read
+        def fake_read(path):
+            data = original_read(path)
+            if path.name == '母版登记.json':
+                data['pending_masters'][0]['sha256'] = '0' * 64
+            return data
+        with patch.object(production, 'read', side_effect=fake_read):
+            with self.assertRaisesRegex(ValueError, '校验'):
+                production.load_pending_masters()
+
+    def test_ordinary_group_references_keep_instances_unassigned(self):
+        group = [m for m in self.data['selected_masters'] if m['scope'] == 'ordinary_assassin_group']
+        self.assertEqual(len(group), 5)
+        self.assertEqual([m['framing'] for m in group], ['full_body', 'feet_cropped', 'feet_cropped', 'full_body', 'full_body'])
+        ids = {m['id'] for m in group}
+        for t in self.data['tasks']:
+            refs = ids & {ref['master_id'] for ref in t['input_references']}
+            self.assertEqual(refs, ids if t['id'] == 'POST-WAVES' else set())
+        self.assertTrue(all(m['instance_id'] is None and not m['task_ids'] for m in group))
+
+    def test_ordinary_group_rejects_implicit_cast_or_task_binding(self):
+        original_read = production.read
+        for field, value in [('asset_ids', ['C57']), ('instance_id', 'S01-W1-01'), ('task_ids', ['MB-S01-W1-01']), ('reference_task_ids', ['MB-C57-RAIN'])]:
+            def fake_read(path):
+                data = original_read(path)
+                if path.name == '母版登记.json':
+                    next(m for m in data['masters'] if m['scope'] == 'ordinary_assassin_group')[field] = value
+                return data
+            with patch.object(production, 'read', side_effect=fake_read):
+                with self.assertRaises(ValueError):
+                    production.load_masters()
+
+    def test_masked_candidate_cannot_autobind_or_become_selected(self):
+        original_read = production.read
+        for field, value in [('status', 'selected'), ('task_ids', ['MB-C57-FACE']), ('reference_task_ids', ['MB-C57-RAIN']), ('candidate_asset_ids', ['C60'])]:
+            def fake_read(path):
+                data = original_read(path)
+                if path.name == '母版登记.json':
+                    data['pending_masters'][0][field] = value
+                return data
+            with patch.object(production, 'read', side_effect=fake_read):
+                with self.assertRaises(ValueError):
+                    production.load_pending_masters()
+
+    def test_current_face_count_in_entry_points(self):
+        for filename in ['README.md', '讨论状态.md', '索引/核验记录.md']:
+            content = (ROOT / filename).read_text(encoding='utf-8')
+            self.assertNotIn('113张', content)
+            self.assertIn('18张', content)
+
+    def test_portrait_sharing_and_later_cast_scope(self):
+        masters = {m['id']: m for m in self.data['selected_masters']}
+        self.assertEqual(masters['portrait-C01']['asset_ids'], ['C01', 'C02'])
+        self.assertEqual(masters['portrait-C27']['task_ids'], [])
+        self.assertEqual(masters['portrait-C28']['task_ids'], [])
+        self.assertFalse(any(set(t['asset_ids']) & {'C27', 'C28'} for t in self.data['tasks']))
+
+    def test_portrait_does_not_complete_clothing(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        full = tasks['MB-C01-FULL']
+        self.assertEqual(full['input_references'][0]['master_id'], 'portrait-C01')
+        self.assertEqual(full['status'], 'ready_for_exploration')
+        self.assertIsNone(full['actual_file'])
+        back = tasks['MB-C01-FULL-BACK']
+        self.assertIn('MB-C01-FULL', back['unresolved_dependencies'])
+        self.assertEqual(back['status'], 'awaiting_parent_selection')
+
+    def test_portrait_hash_and_path_rejected(self):
+        original_read = production.read
+        for field, value in [('sha256', '0' * 64), ('path', '../outside.jpg')]:
+            def fake_read(path):
+                data = original_read(path)
+                if path.name == '母版登记.json':
+                    data['masters'][0][field] = value
+                return data
+            with patch.object(production, 'read', side_effect=fake_read):
+                with self.assertRaises(ValueError):
+                    production.load_masters()
+
+    def test_unregistered_portrait_selection_rejected(self):
+        data = copy.deepcopy(self.data)
+        data['selected_masters'][0]['task_ids'] = ['MB-C03-FACE']
+        with self.assertRaises(ValueError):
+            production.validate(data)
+
+    def test_architecture_selected_without_spatial_completion(self):
+        masters = [m for m in self.data['selected_masters'] if m['scope'] == 'architecture_visual']
+        self.assertEqual(len(masters), 13)
+        for m in masters:
+            self.assertEqual(m['task_ids'], [])
+            self.assertEqual(m['spatial_status'], 'not_verified')
+        tasks = {t['id']: t for t in self.data['tasks']}
+        for tid in ['MB-ENV-S04', 'MB-ENV-S05', 'MB-ENV-S03-HALL', 'MB-ENV-S03-CORRIDOR']:
+            self.assertIsNone(tasks[tid]['actual_file'])
+            self.assertIn('POST-PLAN-COURT', tasks[tid]['unresolved_dependencies'])
+            self.assertEqual(tasks[tid]['status'], 'awaiting_parent_selection')
+
+    def test_architecture_routing_and_secondary_room_isolation(self):
+        refs = {t['id']: {r['master_id'] for r in t['input_references']} for t in self.data['tasks']}
+        self.assertIn('architecture-S04-STUDY', refs['MB-ENV-S04'])
+        self.assertIn('architecture-S04-STUDY', refs['MB-LIGHT-S04-DAY'])
+        self.assertNotIn('architecture-S04-STUDY', refs['MB-ENV-S05'])
+        self.assertIn('architecture-S03-OVERVIEW', refs['MB-ENV-S03-W'])
+        self.assertFalse(any('architecture-S05-SECONDARY' in values for values in refs.values()))
+        for tid in ['MB-ENV-S01', 'MB-ENV-S02', 'MB-ENV-S07', 'MB-C01-FULL']:
+            self.assertFalse(any(key.startswith('architecture-') for key in refs[tid]))
+
+    def test_garden_is_not_court_reverse_view(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        garden = next(m for m in self.data['selected_masters'] if m['id'] == 'architecture-S03-GARDEN')
+        self.assertEqual(garden['reference_task_ids'], [])
+        self.assertEqual(garden['identification']['exact_spatial_mapping'], 'pending')
+        for tid in ['MB-ENV-S03-COURT', 'MB-LIGHT-S03-COURT', 'MB-LIGHT-S03-COURT-OVERCAST']:
+            refs = {r['master_id'] for r in tasks[tid]['input_references']}
+            self.assertIn('architecture-S03-COURT', refs)
+            self.assertNotIn('architecture-S03-GARDEN', refs)
+            self.assertIsNone(tasks[tid]['actual_file'])
+            self.assertTrue(tasks[tid]['unresolved_dependencies'])
+
+    def test_edited_architecture_keeps_original_and_separate_layout(self):
+        edited = [m for m in self.data['selected_masters'] if m.get('source_kind') == 'user_attachment_edited']
+        self.assertEqual(len(edited), 5)
+        self.assertEqual(len({m['original_path'] for m in edited}), 5)
+        for m in edited:
+            self.assertNotEqual(m['sha256'], m['original_sha256'])
+            self.assertEqual(m['reference_task_ids'], ['POST-PLAN-COURT'])
+            self.assertEqual(m['style_review']['status'], 'passed_visual_review')
+        ids = {m['id'] for m in edited}
+        for t in self.data['tasks']:
+            if t['method'] == 'MJ':
+                self.assertFalse(ids & {r['master_id'] for r in t['input_references']})
+
+    def test_edited_original_hash_rejected(self):
+        original_read = production.read
+        def fake_read(path):
+            data = original_read(path)
+            if path.name == '母版登记.json':
+                next(m for m in data['masters'] if m.get('source_kind') == 'user_attachment_edited')['original_sha256'] = '0' * 64
+            return data
+        with patch.object(production, 'read', side_effect=fake_read):
+            with self.assertRaisesRegex(ValueError, '原始参考校验'):
+                production.load_masters()
+
+    def test_edited_missing_prompt_or_review_rejected(self):
+        original_read = production.read
+        for field in ['generation', 'style_review']:
+            def fake_read(path):
+                data = original_read(path)
+                if path.name == '母版登记.json':
+                    next(m for m in data['masters'] if m.get('source_kind') == 'user_attachment_edited')[field] = {}
+                return data
+            with patch.object(production, 'read', side_effect=fake_read):
+                with self.assertRaises(ValueError):
+                    production.load_masters()
+
+    def test_architecture_cannot_complete_task_via_registry(self):
+        original_read = production.read
+        def fake_read(path):
+            data = original_read(path)
+            if path.name == '母版登记.json':
+                next(m for m in data['masters'] if m['scope'] == 'architecture_visual')['task_ids'] = ['MB-ENV-S04']
+            return data
+        with patch.object(production, 'read', side_effect=fake_read):
+            with self.assertRaises(ValueError):
+                production.load_masters()
+
+    def test_architecture_rejects_cross_scene_and_nonspatial_target(self):
+        for tid in ['MB-ENV-S01', 'MB-C01-FULL', 'NO-SUCH-TASK']:
+            masters = copy.deepcopy(self.data['selected_masters'])
+            next(m for m in masters if m['id'] == 'architecture-S04-STUDY')['reference_task_ids'] = [tid]
+            with self.assertRaises(ValueError):
+                production.bind_masters(copy.deepcopy(self.data['tasks']), masters)
 
     def test_script_budgets_and_cast(self):
         episodes = json.loads((ROOT / '索引/数据/episodes.json').read_text(encoding='utf-8'))[:3]

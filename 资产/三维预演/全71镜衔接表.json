@@ -1,0 +1,857 @@
+{
+  "source_sha256": "9aef54570526980a5f36a157d0ed401901b5a50a638e031ce16e2f5c2b7b0b9c",
+  "shots": [
+    {
+      "id": "GJ-R01-SH001",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        0,
+        120
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "近景／低位固定，视线由轮缘移到车灯，镜头不同时旋转"
+    },
+    {
+      "id": "GJ-R01-SH002",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        120,
+        288
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "rendered",
+      "final_media_status": "not_generated",
+      "camera_intent": "全景／路中侧偏正交看右侧会车区；28–35mm意向，短侧移后停"
+    },
+    {
+      "id": "GJ-R01-SH003",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        288,
+        456
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "厢内中近景／50mm意向，保持门窗方向；固定"
+    },
+    {
+      "id": "GJ-R01-SH004",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        456,
+        624
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景／沿四名骑手短横移，停在韩开右门处"
+    },
+    {
+      "id": "GJ-R01-SH005",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        624,
+        768
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中远景／同侧林隙两层深度；小摇移而非十张脸快切"
+    },
+    {
+      "id": "GJ-R01-SH006",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        768,
+        960
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "双人中景／门外同轴固定"
+    },
+    {
+      "id": "GJ-R01-SH007",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        960,
+        1224
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景／门—包落点—顾右臂保持在同一可读区域"
+    },
+    {
+      "id": "GJ-R01-SH008",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        1224,
+        1416
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景／35–50mm意向，固定先看全身支撑"
+    },
+    {
+      "id": "GJ-R01-SH009",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        1416,
+        1584
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "局部近景从衣襟真实开隙短后移至衣身受力，单一后移后停"
+    },
+    {
+      "id": "GJ-R01-SH010",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        1584,
+        1800
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景／车旁轴线固定，拍完整的一次受压—接上—稳住"
+    },
+    {
+      "id": "GJ-R01-SH011",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        1800,
+        1992
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "双层中景／轻跟杜退接与崔接领，终点在许顾位置"
+    },
+    {
+      "id": "GJ-R01-SH012",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        1992,
+        2160
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "近景／韩石肩背与呼吸，缓推止于视线"
+    },
+    {
+      "id": "GJ-R01-SH013",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        2160,
+        2352
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中远景／林缘同轴固定，明确前后层次"
+    },
+    {
+      "id": "GJ-R01-SH014",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        2352,
+        2496
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景／从灰领褐袖额带移到黄，短横移后稳住"
+    },
+    {
+      "id": "GJ-R01-SH015",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        2496,
+        2640
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "顾许中近景／同侧遮挡与反应，不展示实际致伤方法"
+    },
+    {
+      "id": "GJ-R01-SH016",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        2640,
+        2832
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景／同一车旁基准机位，前中后景都能归位"
+    },
+    {
+      "id": "GJ-R01-SH017",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        2832,
+        3024
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中景／石盾受力到杜韩接上，小幅跟随停住"
+    },
+    {
+      "id": "GJ-R01-SH018",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        3024,
+        3192
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "三层中景／许顾近层、杜崔中层、车壁后层，焦点单次交接"
+    },
+    {
+      "id": "GJ-R01-SH019",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        3192,
+        3336
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "原顾视线附近中近景／缓近，保留杜韩在可见边缘"
+    },
+    {
+      "id": "GJ-R01-SH020",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        3336,
+        3456
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "刃侧与雨近景／固定，随后保持偏开终态"
+    },
+    {
+      "id": "GJ-R01-SH021",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        3456,
+        3600
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "rendered",
+      "final_media_status": "not_generated",
+      "camera_intent": "双层中景固定，焦点从黄移到树干后的灰袖；不绕树揭秘"
+    },
+    {
+      "id": "GJ-R01-SH022",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        3600,
+        3720
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "黄中近景／固定，焦点留在眼神与收住的半步"
+    },
+    {
+      "id": "GJ-R01-SH023",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        3720,
+        3864
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中远景／跟到侧方林隙即停，不追进树林"
+    },
+    {
+      "id": "GJ-R01-SH024",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        3864,
+        4032
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景／同轴给扶人与马的接续，不用兵器特写掩盖换手"
+    },
+    {
+      "id": "GJ-R01-SH025",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_frame_window": [
+        4032,
+        4320
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景跟离车方向，最后稳在顾回望与空树的同轴视线"
+    },
+    {
+      "id": "GJ-R02-SH001",
+      "source_scene_id": "GJ-EP01-SC02",
+      "source_frame_window": [
+        0,
+        120
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "街边中景固定，湿袖掠过前景热汤"
+    },
+    {
+      "id": "GJ-R02-SH002",
+      "source_scene_id": "GJ-EP01-SC02",
+      "source_frame_window": [
+        120,
+        240
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "汤摊中近景固定，不额外追三人身份"
+    },
+    {
+      "id": "GJ-R02-SH003",
+      "source_scene_id": "GJ-EP01-SC03",
+      "source_frame_window": [
+        240,
+        432
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "门院中全景小退让路，止在门侧；不横扫全宅；门框、粗柱和深檐显高门体量，不新增巡宅镜头"
+    },
+    {
+      "id": "GJ-R02-SH004",
+      "source_scene_id": "GJ-EP01-SC03",
+      "source_frame_window": [
+        432,
+        624
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "西厢中全景固定，取局部连续动作；其他区域以相邻切镜补足"
+    },
+    {
+      "id": "GJ-R02-SH005",
+      "source_scene_id": "GJ-EP01-SC03",
+      "source_frame_window": [
+        624,
+        816
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "前厅双人中景固定，灯仅来自原有灯具"
+    },
+    {
+      "id": "GJ-R02-SH006",
+      "source_scene_id": "GJ-EP01-SC03",
+      "source_frame_window": [
+        816,
+        1008
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "门外中景固定，不跟进库内"
+    },
+    {
+      "id": "GJ-R02-SH007",
+      "source_scene_id": "GJ-EP01-SC03",
+      "source_frame_window": [
+        1008,
+        1200
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "原顾中近景缓近，停在勺停处"
+    },
+    {
+      "id": "GJ-R02-SH008",
+      "source_scene_id": "GJ-EP01-SC04",
+      "source_frame_window": [
+        1200,
+        1344
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "书房门内中景固定，案门邻接可见"
+    },
+    {
+      "id": "GJ-R02-SH009",
+      "source_scene_id": "GJ-EP01-SC04",
+      "source_frame_window": [
+        1344,
+        1536
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "廊下中全景固定，内外视线明确"
+    },
+    {
+      "id": "GJ-R02-SH010",
+      "source_scene_id": "GJ-EP01-SC04",
+      "source_frame_window": [
+        1536,
+        1680
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "先守廊下反应，不切回门内补原因"
+    },
+    {
+      "id": "GJ-R02-SH011",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        1680,
+        1872
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "地面近景到同脸中近景，单次升高停住"
+    },
+    {
+      "id": "GJ-R02-SH012",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        1872,
+        2064
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "手部与脸同框中近景固定，焦点从手到眼一次"
+    },
+    {
+      "id": "GJ-R02-SH013",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        2064,
+        2208
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "现代鞋手绳局部固定，清楚落稳地面"
+    },
+    {
+      "id": "GJ-R02-SH014",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        2208,
+        2400
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "书房中近景固定，镜子与本人同框，保持左右物理关系"
+    },
+    {
+      "id": "GJ-R02-SH015",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        2400,
+        2640
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "今顾中景缓退露出门影，止在案边"
+    },
+    {
+      "id": "GJ-R02-SH016",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        2640,
+        2880
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "rendered",
+      "final_media_status": "not_generated",
+      "camera_intent": "中全景固定含案、紧邻窗下矮柜及门，不跨院"
+    },
+    {
+      "id": "GJ-R02-SH017",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        2880,
+        3120
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "rendered",
+      "final_media_status": "not_generated",
+      "camera_intent": "同轴中景看完整起动与停止，不仅拍膝痛脸"
+    },
+    {
+      "id": "GJ-R02-SH018",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        3120,
+        3360
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中近景固定，先把疼缓过再说一句"
+    },
+    {
+      "id": "GJ-R02-SH019",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_frame_window": [
+        3360,
+        3600
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "rendered",
+      "final_media_status": "not_generated",
+      "camera_intent": "中景单次由窗转向门，终点稳定"
+    },
+    {
+      "id": "GJ-R02-SH020",
+      "source_scene_id": "GJ-EP01-SC06",
+      "source_frame_window": [
+        3600,
+        3816
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "门内中景固定，保持顾伯韩前后空间"
+    },
+    {
+      "id": "GJ-R02-SH021",
+      "source_scene_id": "GJ-EP01-SC06",
+      "source_frame_window": [
+        3816,
+        4032
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "今顾近景接韩中近景，同侧正反打"
+    },
+    {
+      "id": "GJ-R02-SH022",
+      "source_scene_id": "GJ-EP01-SC06",
+      "source_frame_window": [
+        4032,
+        4248
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "韩中近景固定，停顿后只答所见"
+    },
+    {
+      "id": "GJ-R02-SH023",
+      "source_scene_id": "GJ-EP01-SC06",
+      "source_frame_window": [
+        4248,
+        4464
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "中景从顾视线看廊外再回到顾伯，不新增露脸群演"
+    },
+    {
+      "id": "GJ-R02-SH024",
+      "source_scene_id": "GJ-EP01-SC06",
+      "source_frame_window": [
+        4464,
+        4680
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "双人中景微退，留出韩退廊位置，末2秒画内尾签"
+    },
+    {
+      "id": "GJ-R03-SH001",
+      "source_scene_id": "GJ-EP02-SC01",
+      "source_frame_window": [
+        0,
+        240
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "床边三人中景固定，顾伯问、张济等、今顾答同框"
+    },
+    {
+      "id": "GJ-R03-SH002",
+      "source_scene_id": "GJ-EP02-SC01",
+      "source_frame_window": [
+        240,
+        480
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "张济中近景转门口中景，同轴小摇"
+    },
+    {
+      "id": "GJ-R03-SH003",
+      "source_scene_id": "GJ-EP02-SC01",
+      "source_frame_window": [
+        480,
+        720
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "顾伯今顾双人中景固定"
+    },
+    {
+      "id": "GJ-R03-SH004",
+      "source_scene_id": "GJ-EP02-SC01",
+      "source_frame_window": [
+        720,
+        960
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "手与脸同框中近景，慢近后停"
+    },
+    {
+      "id": "GJ-R03-SH005",
+      "source_scene_id": "GJ-EP02-SC02",
+      "source_frame_window": [
+        960,
+        1176
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "门内中景固定含韩与床边空位"
+    },
+    {
+      "id": "GJ-R03-SH006",
+      "source_scene_id": "GJ-EP02-SC02",
+      "source_frame_window": [
+        1176,
+        1416
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "桌沿与双人同框中景，不拍超长无字纸特写"
+    },
+    {
+      "id": "GJ-R03-SH007",
+      "source_scene_id": "GJ-EP02-SC02",
+      "source_frame_window": [
+        1416,
+        1656
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "布套近景接今顾反应，焦点只从手到眼"
+    },
+    {
+      "id": "GJ-R03-SH008",
+      "source_scene_id": "GJ-EP02-SC02",
+      "source_frame_window": [
+        1656,
+        1848
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "双人中景固定"
+    },
+    {
+      "id": "GJ-R03-SH009",
+      "source_scene_id": "GJ-EP02-SC02",
+      "source_frame_window": [
+        1848,
+        2064
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "含军引与韩双手的中景，固定不遮取放"
+    },
+    {
+      "id": "GJ-R03-SH010",
+      "source_scene_id": "GJ-EP02-SC02",
+      "source_frame_window": [
+        2064,
+        2304
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "卧房至廊道中景小摇后稳住"
+    },
+    {
+      "id": "GJ-R03-SH011",
+      "source_scene_id": "GJ-EP02-SC02",
+      "source_frame_window": [
+        2304,
+        2520
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "床边中近景固定，韩退出仍可见门侧空间"
+    },
+    {
+      "id": "GJ-R03-SH012",
+      "source_scene_id": "GJ-EP02-SC03",
+      "source_frame_window": [
+        2520,
+        2640
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "街口中全景固定，天光接夜灯切换；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH013",
+      "source_scene_id": "GJ-EP02-SC03",
+      "source_frame_window": [
+        2640,
+        2760
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "街边中景小跟到顾府邻墙即停；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH014",
+      "source_scene_id": "GJ-EP02-SC04",
+      "source_frame_window": [
+        2760,
+        2928
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "西厢中景固定，五床不必同画面排成宿舍；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH015",
+      "source_scene_id": "GJ-EP02-SC04",
+      "source_frame_window": [
+        2928,
+        3120
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "石许顾伯中景固定，崔在背景门侧；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH016",
+      "source_scene_id": "GJ-EP02-SC04",
+      "source_frame_window": [
+        3120,
+        3312
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "韩井边中景缓近停在洗手反应；不把血误成伤口；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH017",
+      "source_scene_id": "GJ-EP02-SC04",
+      "source_frame_window": [
+        3312,
+        3480
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "杜中景小跟到外院后停；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH018",
+      "source_scene_id": "GJ-EP02-SC05",
+      "source_frame_window": [
+        3480,
+        3624
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "卧房近景固定，目光由手到晨窗；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH019",
+      "source_scene_id": "GJ-EP02-SC05",
+      "source_frame_window": [
+        3624,
+        3792
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "前厅中景固定，布套和食物空间分开；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH020",
+      "source_scene_id": "GJ-EP02-SC05",
+      "source_frame_window": [
+        3792,
+        3960
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "双人中近景缓近，止在松肩处；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH021",
+      "source_scene_id": "GJ-EP02-SC05",
+      "source_frame_window": [
+        3960,
+        4176
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "先厅内中景听门声，切内院杜背向门；禁止切门外正脸；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    },
+    {
+      "id": "GJ-R03-SH022",
+      "source_scene_id": "GJ-EP02-SC05",
+      "source_frame_window": [
+        4176,
+        4320
+      ],
+      "role": "original release parent unchanged",
+      "previs_status": "not_previsualized",
+      "final_media_status": "not_generated",
+      "camera_intent": "今顾手与脸同框近景固定，末2秒画内尾签；雨停初晴的明媚中性自然光，湿石仍在，非暖黄"
+    }
+  ]
+}

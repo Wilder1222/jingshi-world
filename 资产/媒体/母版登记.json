@@ -1,0 +1,1838 @@
+{
+  "schema": "jingshi-selected-masters-v1",
+  "masters": [
+    {
+      "id": "portrait-C27",
+      "visual_key": "face-C27",
+      "asset_ids": [
+        "C27"
+      ],
+      "name": "宁清晏",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "path": "资产/媒体/C27/C27-肖像母版.jpg",
+      "sha256": "4c509ea3201741640956d7626455e5dfa130fd95837fb04bdc1d2aaa6d075a6d",
+      "source_filename": "1-照片-1.jpg",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序指定：宁，殷，顾的肖像照人物母版",
+      "task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "黑发高盘髻、银色簪饰与珍珠垂饰；月白绣纹罩衣、浅蓝灰胸前织纹。脸部比例、五官、肤色及可见妆发以原图为基准。",
+      "locks": [
+        "脸部比例与五官",
+        "肤色与可见妆发特征"
+      ],
+      "unverified": [
+        "未显示的完整体型",
+        "背面发式与服装结构",
+        "服装细节与全部配件",
+        "跨角度与动态一致性"
+      ],
+      "derivation_rule": "使用原图作为身份图像引用；换装与剧情状态单独指定；未显示部位为待验证推演，不能仅凭文字重新抽脸。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "portrait-C28",
+      "visual_key": "face-C28",
+      "asset_ids": [
+        "C28"
+      ],
+      "name": "殷照夜",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "path": "资产/媒体/C28/C28-肖像母版.jpg",
+      "sha256": "331643a7552b7ec353322bec25ff477294788f2dce4c26222e349de9193334cb",
+      "source_filename": "2-照片-2.jpg",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序指定：宁，殷，顾的肖像照人物母版",
+      "task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "黑色长发半束、侧编发与自然鬓丝；黑色暗纹交领衣、灰色内领。锁定脸部与可见妆发；黑衣仅登记为本肖像造型，日常浅色衣套仍按角色服装系统派生。",
+      "locks": [
+        "脸部比例与五官",
+        "肤色与可见妆发特征"
+      ],
+      "unverified": [
+        "未显示的完整体型",
+        "背面发式与服装结构",
+        "服装细节与全部配件",
+        "跨角度与动态一致性"
+      ],
+      "derivation_rule": "使用原图作为身份图像引用；换装与剧情状态单独指定；未显示部位为待验证推演，不能仅凭文字重新抽脸。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "portrait-C01",
+      "visual_key": "face-C01",
+      "asset_ids": [
+        "C01",
+        "C02"
+      ],
+      "name": "顾砚",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "path": "资产/媒体/C01/C01-肖像母版.jpg",
+      "sha256": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308",
+      "source_filename": "3-照片-3.jpg",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序指定：宁，殷，顾的肖像照人物母版",
+      "task_ids": [
+        "MB-C01-FACE"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "黑发半束高髻、深色冠饰与自然鬓丝；深墨青暗金纹外衣、烟灰内领及暗红褐窄衬边。脸部无伤，C01/C02共用；左肩伤按剧情另派生。",
+      "locks": [
+        "脸部比例与五官",
+        "肤色与可见妆发特征"
+      ],
+      "unverified": [
+        "未显示的完整体型",
+        "背面发式与服装结构",
+        "服装细节与全部配件",
+        "跨角度与动态一致性"
+      ],
+      "derivation_rule": "使用原图作为身份图像引用；换装与剧情状态单独指定；未显示部位为待验证推演，不能仅凭文字重新抽脸。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S03-OVERVIEW",
+      "visual_key": "architecture-S03-OVERVIEW",
+      "asset_ids": [
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "name": "顾府全景",
+      "scope": "architecture_visual",
+      "visual_slot": "OVERVIEW",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-全景母版.jpg",
+      "sha256": "01203bcfd167b9dc0b8d336797a746e783f747ac6f7eb051ad2ea4314c9ad7c6",
+      "source_filename": "1-照片-1.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "24F2F902-53A6-4EE7-B086-B48762AD7D86",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序提供：全景，书房，主卧，次卧，连廊，大厅；承接母版登记请求",
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-PLAN-COURT",
+        "MB-ENV-S03-COURT",
+        "MB-ENV-S03-HALL",
+        "MB-ENV-S03-W",
+        "MB-ENV-S03-CORRIDOR",
+        "MB-ENV-S04",
+        "MB-ENV-S05",
+        "MB-ENV-S06-WELL",
+        "MB-ENV-S06-K"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "白墙灰瓦、深木红褐柱梁，多进院落与层叠屋顶，松树山石沿边界，正面高位总览。图中有人物，不是可直接使用的无人空底。",
+      "locks": [
+        "图中可见建筑形制",
+        "木作与家具造型",
+        "材质及装饰工艺"
+      ],
+      "unverified": [
+        "完整平面、尺寸与房间连接",
+        "镜头通行及动作空间",
+        "昼夜光态与季节连续性",
+        "未显示方向及多视图一致性"
+      ],
+      "derivation_rule": "总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S04-STUDY",
+      "visual_key": "architecture-S04-STUDY",
+      "asset_ids": [
+        "S04"
+      ],
+      "name": "顾府书房",
+      "scope": "architecture_visual",
+      "visual_slot": "STUDY",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S04/S04-书房母版.jpg",
+      "sha256": "0a764b4c7671140eece76ae5311cc48b25ef6619e5a6649662516eea16e9a36c",
+      "source_filename": "2-照片-2.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "24F2F902-53A6-4EE7-B086-B48762AD7D86",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序提供：全景，书房，主卧，次卧，连廊，大厅；承接母版登记请求",
+      "task_ids": [],
+      "reference_task_ids": [
+        "MB-ENV-S04"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "厚梁雕木书房、嵌饰大书案、博古架与书柜、窗边榻、格扇窗及石地。日光从窗侧形成长影。",
+      "locks": [
+        "图中可见建筑形制",
+        "木作与家具造型",
+        "材质及装饰工艺"
+      ],
+      "unverified": [
+        "完整平面、尺寸与房间连接",
+        "镜头通行及动作空间",
+        "昼夜光态与季节连续性",
+        "未显示方向及多视图一致性"
+      ],
+      "derivation_rule": "锁书房造型与材质；案窗门行动距离、松闩与矮柜仍按台本核对，日景不能直接完成首夜夜景。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S05-PRIMARY",
+      "visual_key": "architecture-S05-PRIMARY",
+      "asset_ids": [
+        "S05"
+      ],
+      "name": "顾府主卧",
+      "scope": "architecture_visual",
+      "visual_slot": "PRIMARY",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S05/S05-主卧母版.jpg",
+      "sha256": "9aa0be3f19ee7547f14509a89d0796783393d12ed1cd614e1c7332e8c0133650",
+      "source_filename": "3-照片-3.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "24F2F902-53A6-4EE7-B086-B48762AD7D86",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序提供：全景，书房，主卧，次卧，连廊，大厅；承接母版登记请求",
+      "task_ids": [],
+      "reference_task_ids": [
+        "MB-ENV-S05"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "正面主卧，中央重雕大床、粗壮立柱与帐幔，成对立柜、屏风及床边案，日光与米白织物。",
+      "locks": [
+        "图中可见建筑形制",
+        "木作与家具造型",
+        "材质及装饰工艺"
+      ],
+      "unverified": [
+        "完整平面、尺寸与房间连接",
+        "镜头通行及动作空间",
+        "昼夜光态与季节连续性",
+        "未显示方向及多视图一致性"
+      ],
+      "derivation_rule": "作为S05卧房的主卧造型依据，住用身份与平面位置未由图确定；保留郎中与扶人的床边护理空间，夜态另派生。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S05-SECONDARY",
+      "visual_key": "architecture-S05-SECONDARY",
+      "asset_ids": [
+        "S05"
+      ],
+      "name": "顾府次卧",
+      "scope": "architecture_visual",
+      "visual_slot": "SECONDARY",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S05/S05-次卧母版.jpg",
+      "sha256": "8824634acb7c3e496900f2f51e07e31ad09948f0b4dddf40024236d149e46f48",
+      "source_filename": "4-照片-4.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "24F2F902-53A6-4EE7-B086-B48762AD7D86",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序提供：全景，书房，主卧，次卧，连廊，大厅；承接母版登记请求",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "斜向次卧视角，独立雕木架子床与米白帐幔、窗边坐榻、屏风、立柜和小案，格扇日光。",
+      "locks": [
+        "图中可见建筑形制",
+        "木作与家具造型",
+        "材质及装饰工艺"
+      ],
+      "unverified": [
+        "完整平面、尺寸与房间连接",
+        "镜头通行及动作空间",
+        "昼夜光态与季节连续性",
+        "未显示方向及多视图一致性"
+      ],
+      "derivation_rule": "作为卧房类独立次卧造型登记，具体落位、住用人及剧情调用待定；不是主卧的另一个机位，不自动替代S03-W正式五床，也不计现行任务完成。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S03-CORRIDOR",
+      "visual_key": "architecture-S03-CORRIDOR",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府连廊",
+      "scope": "architecture_visual",
+      "visual_slot": "CORRIDOR",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-连廊母版.jpg",
+      "sha256": "807a17c624db4d14c617d386302f121d3d616587f89765e3d8d47b61b49e2aa1",
+      "source_filename": "5-照片-5.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "24F2F902-53A6-4EE7-B086-B48762AD7D86",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序提供：全景，书房，主卧，次卧，连廊，大厅；承接母版登记请求",
+      "task_ids": [],
+      "reference_task_ids": [
+        "MB-ENV-S03-CORRIDOR"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "深木雕梁长廊，院侧开敞柱列与栏杆、内侧格扇门墙，石地、椅案瓷器，院侧开花树木。",
+      "locks": [
+        "图中可见建筑形制",
+        "木作与家具造型",
+        "材质及装饰工艺"
+      ],
+      "unverified": [
+        "完整平面、尺寸与房间连接",
+        "镜头通行及动作空间",
+        "昼夜光态与季节连续性",
+        "未显示方向及多视图一致性"
+      ],
+      "derivation_rule": "锁连廊构件、开敞侧与材质；书房紧邻廊下与外院距离沿现行平面，陈设不挡扶人通行，花树种类与季节按冬梅及常绿设定核对。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S03-HALL",
+      "visual_key": "architecture-S03-HALL",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府大厅",
+      "scope": "architecture_visual",
+      "visual_slot": "HALL",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-大厅母版.jpg",
+      "sha256": "4d6e778b4ee88b64b2158425ae60c0dd5ac858a4014a622ffafd97972ab6b4aa",
+      "source_filename": "6-照片-6.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "24F2F902-53A6-4EE7-B086-B48762AD7D86",
+      "selected_on": "2026-09-09",
+      "selected_by": "user",
+      "selection_basis": "用户按附件顺序提供：全景，书房，主卧，次卧，连廊，大厅；承接母版登记请求",
+      "task_ids": [],
+      "reference_task_ids": [
+        "MB-ENV-S03-HALL"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "正面高敞大厅，厚重梁架、中央深木嵌饰大案与高背椅，两侧陈设与座椅，后部开口通院。",
+      "locks": [
+        "图中可见建筑形制",
+        "木作与家具造型",
+        "材质及装饰工艺"
+      ],
+      "unverified": [
+        "完整平面、尺寸与房间连接",
+        "镜头通行及动作空间",
+        "昼夜光态与季节连续性",
+        "未显示方向及多视图一致性"
+      ],
+      "derivation_rule": "对应现有前厅任务，锁大案与梁架造型；厅内固定大案和门边可搬小案不能合并或互换，后部开口与院落连接待平面核验。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S03-GARDEN",
+      "visual_key": "architecture-S03-GARDEN",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府花园庭院",
+      "scope": "architecture_visual",
+      "visual_slot": "GARDEN",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-花园庭院母版.jpg",
+      "sha256": "dd8426dfff397cf8d618f3eeec02c173d52a309b0ce3f39d7279115b432e3af0",
+      "source_filename": "1-照片-1.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "8755A053-8C9C-45C8-B5E0-D0B7CF26503F",
+      "selected_on": "2026-09-09",
+      "selected_by": "assistant_under_user_delegation",
+      "selection_basis": "用户要求自行识别两张图，承接建筑母版登记；场景名称与编号匹配为助手视觉判断，非用户逐图命名",
+      "identification": {
+        "method": "visual_content_and_existing_scene_catalog",
+        "scene_type_confidence": "high",
+        "exact_spatial_mapping": "pending"
+      },
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "从雕木廊下望向园庭，月洞门居于视线末端，两侧白花树、山石、灌木与厢房，近处栏杆中间留通路。",
+      "locks": [
+        "图中可见庭院构图与建筑形制",
+        "木作栏杆、石铺路与园庭陈设"
+      ],
+      "unverified": [
+        "精确方位及府内落位",
+        "月洞门或厅堂与现行平面的连接",
+        "开花树种及季节连续性",
+        "真实尺寸、机位及昼夜光态"
+      ],
+      "derivation_rule": "图像类型判断为花园庭院；暂归S03园庭视觉，不确定为后院或内院，也不推定方位及月洞门后的连接。月洞门是本图园庭元素，不植入既有正院主通道；未见井与外库，不映射S06。 白花树种无法仅据此图可靠确定，制作仍按冬梅与常绿的季节要求核对。保留原图；夜态与多机位另派生，不能解除POST-PLAN-COURT前置。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S03-COURT",
+      "visual_key": "architecture-S03-COURT",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府正院",
+      "scope": "architecture_visual",
+      "visual_slot": "COURT",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-正院母版.jpg",
+      "sha256": "849310654c21cdbc4a784f44e92c90ef1b79e62f244246a9b6c068d90ea7614e",
+      "source_filename": "2-照片-2.jpg",
+      "source_kind": "user_attachment",
+      "source_batch": "8755A053-8C9C-45C8-B5E0-D0B7CF26503F",
+      "selected_on": "2026-09-09",
+      "selected_by": "assistant_under_user_delegation",
+      "selection_basis": "用户要求自行识别两张图，承接建筑母版登记；场景名称与编号匹配为助手视觉判断，非用户逐图命名",
+      "identification": {
+        "method": "visual_content_and_existing_scene_catalog",
+        "scene_type_confidence": "high",
+        "exact_spatial_mapping": "pending"
+      },
+      "task_ids": [],
+      "reference_task_ids": [
+        "MB-ENV-S03-COURT"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "visual_notes": "从宽门廊内向庭院中轴观看，石铺主路直达对面高大厅堂，两侧厢楼、白花树、山石与瓷缸；空间开敞，轴线与厅堂为主体。",
+      "locks": [
+        "图中可见庭院构图与建筑形制",
+        "木作栏杆、石铺路与园庭陈设"
+      ],
+      "unverified": [
+        "精确方位及府内落位",
+        "月洞门或厅堂与现行平面的连接",
+        "开花树种及季节连续性",
+        "真实尺寸、机位及昼夜光态"
+      ],
+      "derivation_rule": "图像类型判断为正院／前厅外院中轴视角，匹配现有S03-COURT制作项作为视觉输入。对面建筑暂按厅堂视觉理解，不凭小匾字确定名称；南北朝向、门廊身份和全景对应位置待平面核对。 白花树种无法仅据此图可靠确定，制作仍按冬梅与常绿的季节要求核对。保留原图；夜态与多机位另派生，不能解除POST-PLAN-COURT前置。",
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "architecture-S03-PASSAGE",
+      "visual_key": "architecture-S03-PASSAGE",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府穿院连廊",
+      "scope": "architecture_visual",
+      "visual_slot": "PASSAGE",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-穿院连廊母版.png",
+      "sha256": "013e42803aab65b70d437a778593ec78e80b1578c4514b89abeb9ee9786343a8",
+      "original_path": "参考/用户媒体/顾府建筑补充/穿院连廊-用户原图.jpg",
+      "original_sha256": "6d34d81cd9126f554544d75c8ec793ea834e6fea3e7793750143aca319348ca7",
+      "source_filename": "1-照片-1.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "63F53F95-6CC7-4FF8-AE94-9E62AB5EA87A",
+      "selected_on": "2026-09-09",
+      "selected_by": "assistant_under_user_delegation",
+      "selection_basis": "用户要求自动识别；风格不统一时修改后保存。助手按现行顾府母版执行修图并逐张视觉复核。",
+      "identification": {
+        "method": "visual_content_and_existing_scene_catalog",
+        "scene_type_confidence": "high",
+        "exact_spatial_mapping": "pending"
+      },
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-PLAN-COURT"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Use case: style-transfer. Edit only the FIRST input image, which is the exact target; the SECOND input is a style/material reference only, never its layout. Deliver one photorealistic high-end Chinese historical drama environment plate, landscape aspect ratio matching the source (~16:9), no collage, no text, no watermark, no people. Preserve target camera, perspective, crop, main roof contours, column positions, door/window positions, floor path and spatial layout. Match the reference's affluent ancestral mansion craftsmanship: rich dark brown timber, thick well-maintained beams, deeply carved joinery and selective subdued bronze-gold details, clean pale plaster, natural blue-gray stone and gray tile. Real physical textures, refined prosperous old mansion, not a hotel, temple, palace, modern minimalist house or abandoned heritage attraction. Bright clear neutral natural daylight and gentle sky/reflected fill, white plaster stays white, gray paving stays gray, wood shadow details readable; remove global yellow/sepia cast and mist, no HDR glare, unlit lamps. Avoid artificial shiny floors and indiscriminate gilding. Existing trees remain in their original positions, but any seasonal correction uses evergreen pine/shrubs and restrained winter white plum on mostly bare branches, never lush summer foliage or a pink cherry blossom festival. Do not create new courtyards, pools, doorways, buildings or obstacles in the central route. Target: roofed connecting passage with successive rectangular doorframes. Correct heavy amber haze and aged stained plaster; give the timber lintels and existing fascia slightly richer deep carved workmanship consistent with the reference corridor without moving or thickening pillars into the walkway. Retain the receding rectangular openings and stone path, blossom tree silhouettes and garden edge. Turn dense flower clouds into elegant winter plum branches, keep natural unevenness only subtly in well-maintained stone. This is a separate connecting passage, not a copy of the reference long veranda."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/S03/S03-连廊母版.jpg"
+        ],
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\exec-5f3711ed-2b78-476c-a973-afe3cef8bb25.png",
+        "exact_model": "not_exposed"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "original_issues": [
+          "全局偏黄、雾感较重",
+          "白墙污旧、木作工艺偏素"
+        ],
+        "observed_result": [
+          "日光与白墙更中性清透",
+          "连续门洞与主通路仍可辨，木作雕饰加强",
+          "花团调整为疏枝白梅方向"
+        ],
+        "limits": "单张风格复核通过；未做像素级几何保持或跨机位空间验收，细部变化属于生成式修图。"
+      },
+      "visual_notes": "识别为穿院连廊／连续院门通路。与已选长连廊为独立构图，不推定为同一段廊道的反打；门洞顺序、长度与府内落位待核对。",
+      "locks": [
+        "修图后可见造型、木作工艺与配色",
+        "主构图与空间类型"
+      ],
+      "unverified": [
+        "精确府内落位与房间连接",
+        "真实尺寸、相机与跨机位一致性",
+        "修图前后细构件几何差异",
+        "夜态及植被物种／季节连续性"
+      ],
+      "derivation_rule": "识别为穿院连廊／连续院门通路。与已选长连廊为独立构图，不推定为同一段廊道的反打；门洞顺序、长度与府内落位待核对。 以修图后的PNG作为视觉输入，原JPEG只供追溯。不与既有不同构图混成同一空间；当前只挂POST-PLAN-COURT供整体落位核对，需按母版ID明确选用后再派生，不解除既有任务前置。",
+      "width": 1677,
+      "height": 938,
+      "format": "PNG"
+    },
+    {
+      "id": "architecture-S03-RECEPTION",
+      "visual_key": "architecture-S03-RECEPTION",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府会客厅",
+      "scope": "architecture_visual",
+      "visual_slot": "RECEPTION",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-会客厅母版.png",
+      "sha256": "e447f878da151568acfab50a3f9ab07cafea256dee5eec3b0a2f905ab1013dad",
+      "original_path": "参考/用户媒体/顾府建筑补充/会客厅-用户原图.jpg",
+      "original_sha256": "5ce503bbec6824ab3ef6fce55011ec41debfd6e269a2567c2b169a3e5a4e9e5b",
+      "source_filename": "2-照片-2.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "63F53F95-6CC7-4FF8-AE94-9E62AB5EA87A",
+      "selected_on": "2026-09-09",
+      "selected_by": "assistant_under_user_delegation",
+      "selection_basis": "用户要求自动识别；风格不统一时修改后保存。助手按现行顾府母版执行修图并逐张视觉复核。",
+      "identification": {
+        "method": "visual_content_and_existing_scene_catalog",
+        "scene_type_confidence": "high",
+        "exact_spatial_mapping": "pending"
+      },
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-PLAN-COURT"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Use case: style-transfer. Edit only the FIRST input image, which is the exact target; the SECOND input is a style/material reference only, never its layout. Deliver one photorealistic high-end Chinese historical drama environment plate, landscape aspect ratio matching the source (~16:9), no collage, no text, no watermark, no people. Preserve target camera, perspective, crop, main roof contours, column positions, door/window positions, floor path and spatial layout. Match the reference's affluent ancestral mansion craftsmanship: rich dark brown timber, thick well-maintained beams, deeply carved joinery and selective subdued bronze-gold details, clean pale plaster, natural blue-gray stone and gray tile. Real physical textures, refined prosperous old mansion, not a hotel, temple, palace, modern minimalist house or abandoned heritage attraction. Bright clear neutral natural daylight and gentle sky/reflected fill, white plaster stays white, gray paving stays gray, wood shadow details readable; remove global yellow/sepia cast and mist, no HDR glare, unlit lamps. Avoid artificial shiny floors and indiscriminate gilding. Existing trees remain in their original positions, but any seasonal correction uses evergreen pine/shrubs and restrained winter white plum on mostly bare branches, never lush summer foliage or a pink cherry blossom festival. Do not create new courtyards, pools, doorways, buildings or obstacles in the central route. Target: long reception room, empty foreground and seating in the far end. Keep the same open floor, room depth, windows on the right and seating groups in their current locations; do not replace this room with the reference's large frontal central desk. Remove brown-green haze and smoky sunbeams, make day interior clearer and slightly brighter without flattening carved ceiling depth. Retain the already ornate timber structure; refine the existing chairs, side tables and screens into substantial carved high-status dark wood with restrained gold/inlay craft in the reference family. Correct tired/stained stone to maintained natural blue-gray stone, not polished marble. No new lamps or clutter. A refined reception side hall distinct from the already selected main hall."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/S03/S03-大厅母版.jpg"
+        ],
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\exec-1a014d08-acac-49ad-9ecf-772c8ab37454.png",
+        "exact_model": "not_exposed"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "original_issues": [
+          "室内黄灰雾较重、暗部不清",
+          "家具与地面质感需与大厅家族统一"
+        ],
+        "observed_result": [
+          "去除雾幕，白墙及灰石可读",
+          "保留远端座椅区与前方开敞地面",
+          "深木、屏风与家具工艺统一"
+        ],
+        "limits": "单张风格复核通过；未做像素级几何保持或跨机位空间验收，细部变化属于生成式修图。"
+      },
+      "visual_notes": "识别为会客厅／偏厅，前场开敞、远端布置座椅。具体厅名与住用功能待定，不替代现有S03-HALL固定大案及门边可搬小案场景。",
+      "locks": [
+        "修图后可见造型、木作工艺与配色",
+        "主构图与空间类型"
+      ],
+      "unverified": [
+        "精确府内落位与房间连接",
+        "真实尺寸、相机与跨机位一致性",
+        "修图前后细构件几何差异",
+        "夜态及植被物种／季节连续性"
+      ],
+      "derivation_rule": "识别为会客厅／偏厅，前场开敞、远端布置座椅。具体厅名与住用功能待定，不替代现有S03-HALL固定大案及门边可搬小案场景。 以修图后的PNG作为视觉输入，原JPEG只供追溯。不与既有不同构图混成同一空间；当前只挂POST-PLAN-COURT供整体落位核对，需按母版ID明确选用后再派生，不解除既有任务前置。",
+      "width": 1676,
+      "height": 938,
+      "format": "PNG"
+    },
+    {
+      "id": "architecture-S03-AXIAL-COURT",
+      "visual_key": "architecture-S03-AXIAL-COURT",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府中轴庭院",
+      "scope": "architecture_visual",
+      "visual_slot": "AXIAL-COURT",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-中轴庭院母版.png",
+      "sha256": "9eff3e2de8f2a3293b656e79a9d3bd099ea3f4c364c2547e011213cd0cf5246e",
+      "original_path": "参考/用户媒体/顾府建筑补充/中轴庭院-用户原图.jpg",
+      "original_sha256": "5d3aa63dc6d39d104201a125d4a638d85f92fb0e58800b963116d7433ecca06e",
+      "source_filename": "3-照片-3.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "63F53F95-6CC7-4FF8-AE94-9E62AB5EA87A",
+      "selected_on": "2026-09-09",
+      "selected_by": "assistant_under_user_delegation",
+      "selection_basis": "用户要求自动识别；风格不统一时修改后保存。助手按现行顾府母版执行修图并逐张视觉复核。",
+      "identification": {
+        "method": "visual_content_and_existing_scene_catalog",
+        "scene_type_confidence": "high",
+        "exact_spatial_mapping": "pending"
+      },
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-PLAN-COURT"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Use case: style-transfer. Edit only the FIRST input image, which is the exact target; the SECOND input is a style/material reference only, never its layout. Deliver one photorealistic high-end Chinese historical drama environment plate, landscape aspect ratio matching the source (~16:9), no collage, no text, no watermark, no people. Preserve target camera, perspective, crop, main roof contours, column positions, door/window positions, floor path and spatial layout. Match the reference's affluent ancestral mansion craftsmanship: rich dark brown timber, thick well-maintained beams, deeply carved joinery and selective subdued bronze-gold details, clean pale plaster, natural blue-gray stone and gray tile. Real physical textures, refined prosperous old mansion, not a hotel, temple, palace, modern minimalist house or abandoned heritage attraction. Bright clear neutral natural daylight and gentle sky/reflected fill, white plaster stays white, gray paving stays gray, wood shadow details readable; remove global yellow/sepia cast and mist, no HDR glare, unlit lamps. Avoid artificial shiny floors and indiscriminate gilding. Existing trees remain in their original positions, but any seasonal correction uses evergreen pine/shrubs and restrained winter white plum on mostly bare branches, never lush summer foliage or a pink cherry blossom festival. Do not create new courtyards, pools, doorways, buildings or obstacles in the central route. Target: broad axial courtyard with a single-story hall opposite and flanking verandas. Keep exactly this target courtyard layout and its roof/door shapes, not the reference layout. Add restrained deep carved beam fascias and richer dark wood finish to existing structure so the craft quality matches reference. Remove late-afternoon amber cast. Keep tree trunks and gardens at sides, convert overfull pinkish blossom canopy into tasteful winter plum blooms and evergreen low planting, no summer canopy. Do not add a gate, pool or new building on the main axis. Preserve clear paving route and original camera under the eaves.",
+          "Use case: precise-object-edit. Edit this completed courtyard image with ONLY one localized correction: at the far center, inside the main rectangular doorway under the blank reddish plaque, remove the small statue/altar-like decorative silhouette and its furniture pedestal. That central passage must show an empty unobstructed dim stone-floored passage continuing beyond, with an ordinary plain dark wooden screen or door far in the background, no religious objects, no statue, no furniture across the path. Preserve EVERYTHING ELSE exactly: same 16:9 framing, roofs, pillars, carving, trees, rocks, white walls, neutral daylight, paving, composition and texture. No people, no new text, no watermark. Do not redraw the scene or change overall style."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/S03/S03-正院母版.jpg"
+        ],
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\exec-81b614be-a684-482a-ae58-0cdc7a4a9621.png",
+        "exact_model": "not_exposed"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "original_issues": [
+          "暖色晚照、花冠偏繁密",
+          "木作较朴素，与已选正院工艺不一致"
+        ],
+        "observed_result": [
+          "中性日光、侧缘白梅疏枝及常绿",
+          "保留中轴、两侧廊房与主体屋顶轮廓",
+          "复核后去除远端供像式轮廓，改为普通木屏背景"
+        ],
+        "limits": "单张风格复核通过；未做像素级几何保持或跨机位空间验收，细部变化属于生成式修图。"
+      },
+      "visual_notes": "识别为中轴庭院朝对面厅屋视角。与已有正院屋顶形制、陈设不同，保存独立空间造型，不声明同院机位连续；远端普通木屏为修图推演。",
+      "locks": [
+        "修图后可见造型、木作工艺与配色",
+        "主构图与空间类型"
+      ],
+      "unverified": [
+        "精确府内落位与房间连接",
+        "真实尺寸、相机与跨机位一致性",
+        "修图前后细构件几何差异",
+        "夜态及植被物种／季节连续性"
+      ],
+      "derivation_rule": "识别为中轴庭院朝对面厅屋视角。与已有正院屋顶形制、陈设不同，保存独立空间造型，不声明同院机位连续；远端普通木屏为修图推演。 以修图后的PNG作为视觉输入，原JPEG只供追溯。不与既有不同构图混成同一空间；当前只挂POST-PLAN-COURT供整体落位核对，需按母版ID明确选用后再派生，不解除既有任务前置。",
+      "width": 1677,
+      "height": 938,
+      "format": "PNG"
+    },
+    {
+      "id": "architecture-S03-WING-COURT",
+      "visual_key": "architecture-S03-WING-COURT",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府厢房庭院",
+      "scope": "architecture_visual",
+      "visual_slot": "WING-COURT",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-厢房庭院母版.png",
+      "sha256": "d396daecf58d0caf758d64381cb2eeb6e0f2d03b09a3a856a5faf120d2ad869b",
+      "original_path": "参考/用户媒体/顾府建筑补充/厢房庭院-用户原图.jpg",
+      "original_sha256": "8fabf85cf18c5f83119725e89c6fe3b84fe230a4fac19764798aa679d58deb27",
+      "source_filename": "4-照片-4.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "63F53F95-6CC7-4FF8-AE94-9E62AB5EA87A",
+      "selected_on": "2026-09-09",
+      "selected_by": "assistant_under_user_delegation",
+      "selection_basis": "用户要求自动识别；风格不统一时修改后保存。助手按现行顾府母版执行修图并逐张视觉复核。",
+      "identification": {
+        "method": "visual_content_and_existing_scene_catalog",
+        "scene_type_confidence": "high",
+        "exact_spatial_mapping": "pending"
+      },
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-PLAN-COURT"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Use case: style-transfer. Edit only the FIRST input image, which is the exact target; the SECOND input is a style/material reference only, never its layout. Deliver one photorealistic high-end Chinese historical drama environment plate, landscape aspect ratio matching the source (~16:9), no collage, no text, no watermark, no people. Preserve target camera, perspective, crop, main roof contours, column positions, door/window positions, floor path and spatial layout. Match the reference's affluent ancestral mansion craftsmanship: rich dark brown timber, thick well-maintained beams, deeply carved joinery and selective subdued bronze-gold details, clean pale plaster, natural blue-gray stone and gray tile. Real physical textures, refined prosperous old mansion, not a hotel, temple, palace, modern minimalist house or abandoned heritage attraction. Bright clear neutral natural daylight and gentle sky/reflected fill, white plaster stays white, gray paving stays gray, wood shadow details readable; remove global yellow/sepia cast and mist, no HDR glare, unlit lamps. Avoid artificial shiny floors and indiscriminate gilding. Existing trees remain in their original positions, but any seasonal correction uses evergreen pine/shrubs and restrained winter white plum on mostly bare branches, never lush summer foliage or a pink cherry blossom festival. Do not create new courtyards, pools, doorways, buildings or obstacles in the central route. Target: courtyard lined with many wing-room doors, a passage hall at the far end. Preserve all room door bays, roof shapes, steps and corridor clearances. Style correction is materially important: source feels like modest weathered visitor compound. Upgrade ONLY existing timber beam fascias, door panels and plinth details to the wealthy refined carved dark wood family of the reference, with very restrained aged gold highlights. Keep this a subordinate residential wing court, less ceremonial than main hall. Clean stained walls, dark worn paving and gray tiles into maintained genuine traditional materials. Remove small conspicuous red hanging lanterns/tourist-like red labels. Replace bright broadleaf warm-season leaves in existing tree footprints with restrained bare winter branches, some white plum and evergreen shrubs/pine; retain rocks and urns at margins. Bright neutral natural daylight. No beds shown or invented, no claim this court is the known five-bed west wing."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/S03/S03-连廊母版.jpg"
+        ],
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\exec-837cfa4a-b934-4fa5-af3a-6624ec148cbb.png",
+        "exact_model": "not_exposed"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "original_issues": [
+          "厢房建筑偏朴素旧院",
+          "暖季阔叶与小红灯笼不合现行季节与陈设方向"
+        ],
+        "observed_result": [
+          "深木门扇、梁枋与石基精养化",
+          "移除醒目小红灯笼",
+          "植被调整为冬季疏枝、白梅与常绿方向"
+        ],
+        "limits": "单张风格复核通过；未做像素级几何保持或跨机位空间验收，细部变化属于生成式修图。"
+      },
+      "visual_notes": "识别为厢房围合庭院，外观可见多间房门。具体东／西位置待定，不直接指定S03-W五床西厢，也不据外观推定床位数量。",
+      "locks": [
+        "修图后可见造型、木作工艺与配色",
+        "主构图与空间类型"
+      ],
+      "unverified": [
+        "精确府内落位与房间连接",
+        "真实尺寸、相机与跨机位一致性",
+        "修图前后细构件几何差异",
+        "夜态及植被物种／季节连续性"
+      ],
+      "derivation_rule": "识别为厢房围合庭院，外观可见多间房门。具体东／西位置待定，不直接指定S03-W五床西厢，也不据外观推定床位数量。 以修图后的PNG作为视觉输入，原JPEG只供追溯。不与既有不同构图混成同一空间；当前只挂POST-PLAN-COURT供整体落位核对，需按母版ID明确选用后再派生，不解除既有任务前置。",
+      "width": 1677,
+      "height": 938,
+      "format": "PNG"
+    },
+    {
+      "id": "architecture-S03-GATE",
+      "visual_key": "architecture-S03-GATE",
+      "asset_ids": [
+        "S03"
+      ],
+      "name": "顾府院门",
+      "scope": "architecture_visual",
+      "visual_slot": "GATE",
+      "status": "selected",
+      "spatial_status": "not_verified",
+      "path": "资产/媒体/S03/S03-院门母版.png",
+      "sha256": "2d04937563e4434029e0979187649be3230e9998ca011cddd86bfff8fab87a69",
+      "original_path": "参考/用户媒体/顾府建筑补充/院门-用户原图.jpg",
+      "original_sha256": "1b45e377c74e7984201af7c3bdc6dc5a987804cceea87effba9e70cc39f80dc8",
+      "source_filename": "5-照片-5.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "63F53F95-6CC7-4FF8-AE94-9E62AB5EA87A",
+      "selected_on": "2026-09-09",
+      "selected_by": "assistant_under_user_delegation",
+      "selection_basis": "用户要求自动识别；风格不统一时修改后保存。助手按现行顾府母版执行修图并逐张视觉复核。",
+      "identification": {
+        "method": "visual_content_and_existing_scene_catalog",
+        "scene_type_confidence": "high",
+        "exact_spatial_mapping": "pending"
+      },
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-PLAN-COURT"
+      ],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Use case: style-transfer. Edit only the FIRST input image, which is the exact target; the SECOND input is a style/material reference only, never its layout. Deliver one photorealistic high-end Chinese historical drama environment plate, landscape aspect ratio matching the source (~16:9), no collage, no text, no watermark, no people. Preserve target camera, perspective, crop, main roof contours, column positions, door/window positions, floor path and spatial layout. Match the reference's affluent ancestral mansion craftsmanship: rich dark brown timber, thick well-maintained beams, deeply carved joinery and selective subdued bronze-gold details, clean pale plaster, natural blue-gray stone and gray tile. Real physical textures, refined prosperous old mansion, not a hotel, temple, palace, modern minimalist house or abandoned heritage attraction. Bright clear neutral natural daylight and gentle sky/reflected fill, white plaster stays white, gray paving stays gray, wood shadow details readable; remove global yellow/sepia cast and mist, no HDR glare, unlit lamps. Avoid artificial shiny floors and indiscriminate gilding. Existing trees remain in their original positions, but any seasonal correction uses evergreen pine/shrubs and restrained winter white plum on mostly bare branches, never lush summer foliage or a pink cherry blossom festival. Do not create new courtyards, pools, doorways, buildings or obstacles in the central route. Target: frontal freestanding courtyard gateway with gray tiled roof and two side entrances. Preserve target gateway silhouette including its upswept roof, exact opening arrangement, steps, railings and camera; do not replace it with the reference overview's entrance. Match the reference family in richer deeply carved dark timber fascia and detailed brackets, substantial clean stone bases, excellent care, and modest aged bronze-gold craft accents. Keep a private mansion courtyard gateway, no imperial emblems or temple signage. Existing pine stays evergreen, warm-season broadleaf trees on the left and top become sparse winter branches plus restrained evergreen foliage in their current positions; no falling leaves, no autumn-orange foliage. Neutral clear daytime, pale plaster white, stone blue-gray, roof gray. No people from reference. Keep route through main opening clear. This image establishes an independent courtyard gate design only, not an externally verified front entrance."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/S03/S03-全景母版.jpg"
+        ],
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\exec-11bd77bb-da43-44c8-ab8c-c503ea46db2d.png",
+        "exact_model": "not_exposed"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "original_issues": [
+          "木作偏素、局部暖色",
+          "暖季阔叶与已有冬季方向不统一"
+        ],
+        "observed_result": [
+          "门楼雕饰与深木工艺加强、墙石中性",
+          "保留主门、侧门和台阶构成",
+          "前景阔叶减为冬季疏枝，保留松树；远处树叶仍需具体季节连续性核对"
+        ],
+        "limits": "单张风格复核通过；未做像素级几何保持或跨机位空间验收，细部变化属于生成式修图。"
+      },
+      "visual_notes": "识别为院门／门楼，主门与两侧门并列、带石阶。无法仅据图判定府外正门或内院门；不覆盖全景中的既有正门形制，具体落位待定。",
+      "locks": [
+        "修图后可见造型、木作工艺与配色",
+        "主构图与空间类型"
+      ],
+      "unverified": [
+        "精确府内落位与房间连接",
+        "真实尺寸、相机与跨机位一致性",
+        "修图前后细构件几何差异",
+        "夜态及植被物种／季节连续性"
+      ],
+      "derivation_rule": "识别为院门／门楼，主门与两侧门并列、带石阶。无法仅据图判定府外正门或内院门；不覆盖全景中的既有正门形制，具体落位待定。 以修图后的PNG作为视觉输入，原JPEG只供追溯。不与既有不同构图混成同一空间；当前只挂POST-PLAN-COURT供整体落位核对，需按母版ID明确选用后再派生，不解除既有任务前置。",
+      "width": 1676,
+      "height": 938,
+      "format": "PNG"
+    },
+    {
+      "id": "ordinary-assassin-01",
+      "visual_key": "ordinary-assassin-01",
+      "name": "普通刺客造型01",
+      "scope": "ordinary_assassin_group",
+      "status": "selected",
+      "asset_ids": [
+        "S01"
+      ],
+      "group_key": "S01-W1",
+      "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
+      "instance_id": null,
+      "path": "资产/媒体/S01/普通刺客/普通刺客-01.jpg",
+      "sha256": "5328160a67c91c88966cb83dd5e9a1ffa804d61c31cc24fe1b0c4697e39aff94",
+      "source_filename": "1-照片-1.jpg",
+      "source_batch": "E2C293B8-6503-43CF-B2B2-BB4DC724B107",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-10",
+      "selected_by": "user_group_designation",
+      "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-WAVES"
+      ],
+      "framing": "full_body",
+      "visual_notes": "黑灰几何暗纹衣身、斜交革质领片与扣件、肩缘及腕部缠布、长分片衣摆、宽黑腰封；双手双脚完整。",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "locks": [
+        "蒙面与包头形式",
+        "各自可见衣色、衣型、腰封和袖部特征"
+      ],
+      "unverified": [
+        "第一波十个稳定实例中的具体分配",
+        "设定身高体型、现行衣缘与腰封要求",
+        "靴底补全（图2／3）或更多视角",
+        "兵器、雨态与动作连续性"
+      ],
+      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "ordinary-assassin-02",
+      "visual_key": "ordinary-assassin-02",
+      "name": "普通刺客造型02",
+      "scope": "ordinary_assassin_group",
+      "status": "selected",
+      "asset_ids": [
+        "S01"
+      ],
+      "group_key": "S01-W1",
+      "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
+      "instance_id": null,
+      "path": "资产/媒体/S01/普通刺客/普通刺客-02.jpg",
+      "sha256": "57523ca6c4f74880677b01017a51ec7722db93c73e07af0a8ebd2c06c0ea943e",
+      "source_filename": "2-照片-2.jpg",
+      "source_batch": "E2C293B8-6503-43CF-B2B2-BB4DC724B107",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-10",
+      "selected_by": "user_group_designation",
+      "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-WAVES"
+      ],
+      "framing": "feet_cropped",
+      "visual_notes": "灰褐短外衣、灰蓝交领、深色宽腰带，侧垂长头巾与宽松裤；靴底被画面底缘裁切。",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "locks": [
+        "蒙面与包头形式",
+        "各自可见衣色、衣型、腰封和袖部特征"
+      ],
+      "unverified": [
+        "第一波十个稳定实例中的具体分配",
+        "设定身高体型、现行衣缘与腰封要求",
+        "靴底补全（图2／3）或更多视角",
+        "兵器、雨态与动作连续性"
+      ],
+      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "ordinary-assassin-03",
+      "visual_key": "ordinary-assassin-03",
+      "name": "普通刺客造型03",
+      "scope": "ordinary_assassin_group",
+      "status": "selected",
+      "asset_ids": [
+        "S01"
+      ],
+      "group_key": "S01-W1",
+      "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
+      "instance_id": null,
+      "path": "资产/媒体/S01/普通刺客/普通刺客-03.jpg",
+      "sha256": "e3329145de207f31361dd32adaab69a06aa51cc6a4dab3d089a30a7477e6ba6d",
+      "source_filename": "3-照片-3.jpg",
+      "source_batch": "E2C293B8-6503-43CF-B2B2-BB4DC724B107",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-10",
+      "selected_by": "user_group_designation",
+      "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-WAVES"
+      ],
+      "framing": "feet_cropped",
+      "visual_notes": "灰青／墨绿织纹外衣、浅灰宽交领、交叠深绿腰带、不对称深色前臂衣片；双脚下缘被裁切。",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "locks": [
+        "蒙面与包头形式",
+        "各自可见衣色、衣型、腰封和袖部特征"
+      ],
+      "unverified": [
+        "第一波十个稳定实例中的具体分配",
+        "设定身高体型、现行衣缘与腰封要求",
+        "靴底补全（图2／3）或更多视角",
+        "兵器、雨态与动作连续性"
+      ],
+      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "ordinary-assassin-04",
+      "visual_key": "ordinary-assassin-04",
+      "name": "普通刺客造型04",
+      "scope": "ordinary_assassin_group",
+      "status": "selected",
+      "asset_ids": [
+        "S01"
+      ],
+      "group_key": "S01-W1",
+      "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
+      "instance_id": null,
+      "path": "资产/媒体/S01/普通刺客/普通刺客-04.jpg",
+      "sha256": "b9405ce6d68860fc9c9d6597bd7d6d1c7bc224c039548de91909191db3c3541e",
+      "source_filename": "4-照片-4.jpg",
+      "source_batch": "E2C293B8-6503-43CF-B2B2-BB4DC724B107",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-10",
+      "selected_by": "user_group_designation",
+      "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-WAVES"
+      ],
+      "framing": "full_body",
+      "visual_notes": "灰蓝长衣、深色交领、窄额带、打结腰带与侧垂头巾；双手双脚完整。",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "locks": [
+        "蒙面与包头形式",
+        "各自可见衣色、衣型、腰封和袖部特征"
+      ],
+      "unverified": [
+        "第一波十个稳定实例中的具体分配",
+        "设定身高体型、现行衣缘与腰封要求",
+        "靴底补全（图2／3）或更多视角",
+        "兵器、雨态与动作连续性"
+      ],
+      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "ordinary-assassin-05",
+      "visual_key": "ordinary-assassin-05",
+      "name": "普通刺客造型05",
+      "scope": "ordinary_assassin_group",
+      "status": "selected",
+      "asset_ids": [
+        "S01"
+      ],
+      "group_key": "S01-W1",
+      "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
+      "instance_id": null,
+      "path": "资产/媒体/S01/普通刺客/普通刺客-05.jpg",
+      "sha256": "bbee8695692c4f04215a29584f333bf8e9f7f6eecb71ea237cf34d7a4d60e8d0",
+      "source_filename": "5-照片-5.jpg",
+      "source_batch": "E2C293B8-6503-43CF-B2B2-BB4DC724B107",
+      "source_kind": "user_attachment",
+      "selected_on": "2026-09-10",
+      "selected_by": "user_group_designation",
+      "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
+      "task_ids": [],
+      "reference_task_ids": [
+        "POST-WAVES"
+      ],
+      "framing": "full_body",
+      "visual_notes": "黑灰长衣身、褐色外袖和领缘、蓝灰内领、整齐宽黑腰带及深色护臂；双手双脚完整。",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "locks": [
+        "蒙面与包头形式",
+        "各自可见衣色、衣型、腰封和袖部特征"
+      ],
+      "unverified": [
+        "第一波十个稳定实例中的具体分配",
+        "设定身高体型、现行衣缘与腰封要求",
+        "靴底补全（图2／3）或更多视角",
+        "兵器、雨态与动作连续性"
+      ],
+      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    }
+  ],
+  "pending_masters": [
+    {
+      "id": "assassin-reference-01",
+      "scope": "masked_portrait_reference",
+      "status": "pending_identity_confirmation",
+      "path": "资产/媒体/待核对/刺客/刺客人模-01.jpg",
+      "sha256": "2a40d12075dc4f6b26195f0306ad995a66c925e5f085bee0243c6a9c5a148218",
+      "source_filename": "1-照片-1.jpg",
+      "source_batch": "C9D51DCC-492B-4202-A52B-24B17F14789A",
+      "source_kind": "user_attachment",
+      "received_on": "2026-09-10",
+      "identification_by": "assistant",
+      "candidate_asset_ids": [
+        "C57"
+      ],
+      "candidate_name": "灰领刺客",
+      "matching_confidence": "中",
+      "matching_basis": "深墨绿外衣、浅灰宽内领；露发髻和窄黑额带，较接近灰领配色",
+      "conflicts": "低束发设定与露高髻／额带不完全一致；鼻梁可见红痕；缺32岁人物完整面貌与高瘦全身体量",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "unverified": [
+        "确切角色归属与波次",
+        "同类候选是否代表同一人物",
+        "完整无遮面身份与年龄表现",
+        "全身体量、腰封、兵器、雨态和背面",
+        "面部红痕、淤色或污痕的使用边界"
+      ],
+      "allowed_use": "仅作待核对的蒙面头部及上身造型参考；不推演被遮住的真实脸，不确认角色身份，不解除生产依赖。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "assassin-reference-02",
+      "scope": "masked_portrait_reference",
+      "status": "pending_identity_confirmation",
+      "path": "资产/媒体/待核对/刺客/刺客人模-02.jpg",
+      "sha256": "885fbe29136674f263b38456ff8ffc45c0e5e09d34d4cb1d25091eb59984025a",
+      "source_filename": "2-照片-2.jpg",
+      "source_batch": "C9D51DCC-492B-4202-A52B-24B17F14789A",
+      "source_kind": "user_attachment",
+      "received_on": "2026-09-10",
+      "identification_by": "assistant",
+      "candidate_asset_ids": [
+        "C57"
+      ],
+      "candidate_name": "灰领刺客",
+      "matching_confidence": "中",
+      "matching_basis": "深灰墨绿外衣、浅灰交领；大幅缠头布与蒙面巾",
+      "conflicts": "包头明显较厚，区别于图1；鼻梁红痕与眼周暗色需核对，不认定为同一人的另一机位",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "unverified": [
+        "确切角色归属与波次",
+        "同类候选是否代表同一人物",
+        "完整无遮面身份与年龄表现",
+        "全身体量、腰封、兵器、雨态和背面",
+        "面部红痕、淤色或污痕的使用边界"
+      ],
+      "allowed_use": "仅作待核对的蒙面头部及上身造型参考；不推演被遮住的真实脸，不确认角色身份，不解除生产依赖。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "assassin-reference-03",
+      "scope": "masked_portrait_reference",
+      "status": "pending_identity_confirmation",
+      "path": "资产/媒体/待核对/刺客/刺客人模-03.jpg",
+      "sha256": "95ea3c127267ec9897fa21a2880ad7f2291179d2b5dfde61ca6211aa6bf23dd9",
+      "source_filename": "3-照片-3.jpg",
+      "source_batch": "C9D51DCC-492B-4202-A52B-24B17F14789A",
+      "source_kind": "user_attachment",
+      "received_on": "2026-09-10",
+      "identification_by": "assistant",
+      "candidate_asset_ids": [
+        "C58"
+      ],
+      "candidate_name": "褐袖刺客",
+      "matching_confidence": "中",
+      "matching_basis": "棕褐肩袖、深灰交领、炭灰衣身，与褐袖色块关系接近",
+      "conflicts": "全脸、38岁年龄表现、宽厚体型未验证；与图4是同类造型候选，不合并身份",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "unverified": [
+        "确切角色归属与波次",
+        "同类候选是否代表同一人物",
+        "完整无遮面身份与年龄表现",
+        "全身体量、腰封、兵器、雨态和背面",
+        "面部红痕、淤色或污痕的使用边界"
+      ],
+      "allowed_use": "仅作待核对的蒙面头部及上身造型参考；不推演被遮住的真实脸，不确认角色身份，不解除生产依赖。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "assassin-reference-04",
+      "scope": "masked_portrait_reference",
+      "status": "pending_identity_confirmation",
+      "path": "资产/媒体/待核对/刺客/刺客人模-04.jpg",
+      "sha256": "4f518e314ccd652f78246356a15666dc726f675f99fb569dc2a685ea9cda0042",
+      "source_filename": "4-照片-4.jpg",
+      "source_batch": "C9D51DCC-492B-4202-A52B-24B17F14789A",
+      "source_kind": "user_attachment",
+      "received_on": "2026-09-10",
+      "identification_by": "assistant",
+      "candidate_asset_ids": [
+        "C58"
+      ],
+      "candidate_name": "褐袖刺客",
+      "matching_confidence": "中",
+      "matching_basis": "褐色外袖、灰黑衣身和灰色交领，包头较散",
+      "conflicts": "脸颊泥点／污痕较明显，体型及面部未完整呈现；不能由泥点添加受伤剧情",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "unverified": [
+        "确切角色归属与波次",
+        "同类候选是否代表同一人物",
+        "完整无遮面身份与年龄表现",
+        "全身体量、腰封、兵器、雨态和背面",
+        "面部红痕、淤色或污痕的使用边界"
+      ],
+      "allowed_use": "仅作待核对的蒙面头部及上身造型参考；不推演被遮住的真实脸，不确认角色身份，不解除生产依赖。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "assassin-reference-05",
+      "scope": "masked_portrait_reference",
+      "status": "pending_identity_confirmation",
+      "path": "资产/媒体/待核对/刺客/刺客人模-05.jpg",
+      "sha256": "593f512d0d6f100eaf8c86e6a3f6dead00acce85d6acb6cf037183a340251df9",
+      "source_filename": "5-照片-5.jpg",
+      "source_batch": "C9D51DCC-492B-4202-A52B-24B17F14789A",
+      "source_kind": "user_attachment",
+      "received_on": "2026-09-10",
+      "identification_by": "assistant",
+      "candidate_asset_ids": [
+        "C59"
+      ],
+      "candidate_name": "窄额带刺客",
+      "matching_confidence": "中",
+      "matching_basis": "包头下可见窄蓝灰额带，灰蓝衣领与外衣",
+      "conflicts": "包头量大，低束发和精干体型未核；眼外侧红紫色痕迹不自动成为设定伤势",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "unverified": [
+        "确切角色归属与波次",
+        "同类候选是否代表同一人物",
+        "完整无遮面身份与年龄表现",
+        "全身体量、腰封、兵器、雨态和背面",
+        "面部红痕、淤色或污痕的使用边界"
+      ],
+      "allowed_use": "仅作待核对的蒙面头部及上身造型参考；不推演被遮住的真实脸，不确认角色身份，不解除生产依赖。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "assassin-reference-06",
+      "scope": "masked_portrait_reference",
+      "status": "pending_identity_confirmation",
+      "path": "资产/媒体/待核对/刺客/刺客人模-06.jpg",
+      "sha256": "0cefc9df4c1e7ccad5f618237f3fa4d92f6bad9f3c169e07ad32fd53258c9c5d",
+      "source_filename": "6-照片-6.jpg",
+      "source_batch": "C9D51DCC-492B-4202-A52B-24B17F14789A",
+      "source_kind": "user_attachment",
+      "received_on": "2026-09-10",
+      "identification_by": "assistant",
+      "candidate_asset_ids": [
+        "C06"
+      ],
+      "candidate_name": "黄祁",
+      "matching_confidence": "低",
+      "matching_basis": "墨黑衣装、低对比暗纹、整齐深色交领，较接近黄祁的材质方向",
+      "conflicts": "脸颊可见线状擦痕，与黄祁无新增血伤边界冲突；34岁长矩脸、窄眼及精瘦全身体量不能由蒙面图确认",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "unverified": [
+        "确切角色归属与波次",
+        "同类候选是否代表同一人物",
+        "完整无遮面身份与年龄表现",
+        "全身体量、腰封、兵器、雨态和背面",
+        "面部红痕、淤色或污痕的使用边界"
+      ],
+      "allowed_use": "仅作待核对的蒙面头部及上身造型参考；不推演被遮住的真实脸，不确认角色身份，不解除生产依赖。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "assassin-reference-07",
+      "scope": "masked_portrait_reference",
+      "status": "pending_identity_confirmation",
+      "path": "资产/媒体/待核对/刺客/刺客人模-07.jpg",
+      "sha256": "93bd0478561b3b4360b5e99fafb1e5f6b9a5e11bb35179a2794b40e3bd235b1d",
+      "source_filename": "7-照片-7.jpg",
+      "source_batch": "C9D51DCC-492B-4202-A52B-24B17F14789A",
+      "source_kind": "user_attachment",
+      "received_on": "2026-09-10",
+      "identification_by": "assistant",
+      "candidate_asset_ids": [
+        "C07"
+      ],
+      "candidate_name": "罗顺",
+      "matching_confidence": "低",
+      "matching_basis": "灰褐／深褐衣身和较厚肩颈轮廓，可列为罗顺造型候选",
+      "conflicts": "没有设定中的普通灰褐雨帽，暗蓝内领不明确；也可能是其他黑衣刺客造型，不能确认罗顺",
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "unverified": [
+        "确切角色归属与波次",
+        "同类候选是否代表同一人物",
+        "完整无遮面身份与年龄表现",
+        "全身体量、腰封、兵器、雨态和背面",
+        "面部红痕、淤色或污痕的使用边界"
+      ],
+      "allowed_use": "仅作待核对的蒙面头部及上身造型参考；不推演被遮住的真实脸，不确认角色身份，不解除生产依赖。",
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    }
+  ],
+  "matched_references": [
+    {
+      "id": "asset-match-P19-01",
+      "asset_ids": [
+        "P19"
+      ],
+      "candidate_subarea": null,
+      "name": "骑乘马与鞍具",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/P19-参考-01.jpg",
+      "sha256": "487e171b1ee8449526b829260c1fe0627e52e294ae8cb32e7699902f004d8fbe",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\1-照片-1.jpg",
+      "source_filename": "1-照片-1.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "枣骝色骑乘马、旅行鞍垫、马镫与侧袋",
+      "unverified": [
+        "未见足够额部白斑证据，不分配H01/H02/H05/H08或骑手"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 1280,
+      "height": 853,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-S06-02",
+      "asset_ids": [
+        "S06"
+      ],
+      "candidate_subarea": "S06-K",
+      "name": "外库门口夜景",
+      "scope": "matched_asset_reference",
+      "status": "candidate_reference",
+      "confidence": "medium",
+      "path": "资产/媒体/资产匹配/S06-参考-02.jpg",
+      "sha256": "74c51860769c4e77eb714295018120c9f6455ca70d49f465797b3d2a94c85c73",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\2-照片-2.jpg",
+      "source_filename": "2-照片-2.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "封闭双扇木门、储物箱与院落，冷月光配暖灯",
+      "unverified": [
+        "S06-K为候选子区；后院东侧位置、门向及短廊连接未验证，湿地不新增下雨剧情"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 1280,
+      "height": 716,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C03-03",
+      "asset_ids": [
+        "C03"
+      ],
+      "candidate_subarea": null,
+      "name": "韩青",
+      "scope": "matched_asset_reference",
+      "status": "candidate_reference",
+      "confidence": "low",
+      "path": "资产/媒体/资产匹配/C03-参考-03.jpg",
+      "sha256": "c3d439c1fb881335598ca9f08bf71854d39c0555d62d8cef69e6dbbd416e9f5e",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\3-照片-3.jpg",
+      "source_filename": "3-照片-3.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "年轻男性、灰青交领与行旅旧衣",
+      "unverified": [
+        "可见胡须与设定的无须冲突；破损装饰外衣亦不完全符合丝毛衣装，保留候选"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C16-04",
+      "asset_ids": [
+        "C16"
+      ],
+      "candidate_subarea": null,
+      "name": "杜长庚",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C16-参考-04.jpg",
+      "sha256": "6f27bc23b7077a25f3426f0ddbff8c53735c26c8f75986653251b788e7e616d1",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\4-照片-4.jpg",
+      "source_filename": "4-照片-4.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "灰鬓、短须、栗褐暗纹袍和深褐围领",
+      "unverified": [
+        "半身不能验证体型及全套服装"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C04-05",
+      "asset_ids": [
+        "C04"
+      ],
+      "candidate_subarea": null,
+      "name": "顾伯",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C04-参考-05.jpg",
+      "sha256": "ddefee1ce9999ea13fc5cb008b1780007ccdb0575fbb8842634747c449446bc7",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\5-照片-5.jpg",
+      "source_filename": "5-照片-5.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "年长、灰白短须、茶褐外袍与浅茶领",
+      "unverified": [
+        "半身不能验证全套服装与动态"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C06-06",
+      "asset_ids": [
+        "C06"
+      ],
+      "candidate_subarea": null,
+      "name": "黄祁",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C06-参考-06.jpg",
+      "sha256": "2a2c552894c4d30b4581b71ebc022079f6658d205f6eaff8a59391a2bc134879",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\6-照片-6.jpg",
+      "source_filename": "6-照片-6.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "墨黑外衣、深炭暗纹交领、束发与短须",
+      "unverified": [
+        "不能据此确认与既有蒙面候选同一张脸；伤污不写入剧情"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C17-07",
+      "asset_ids": [
+        "C17"
+      ],
+      "candidate_subarea": null,
+      "name": "石照川",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C17-参考-07.jpg",
+      "sha256": "2b0015829812b2c5b778bb454e4682b037265c0e3e3e7b6cd0dcc5584a792ff3",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\7-照片-7.jpg",
+      "source_filename": "7-照片-7.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "方阔面部、深靛蓝外衣与石灰蓝内领",
+      "unverified": [
+        "土绿侧层及全身体型未显示"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C20-08",
+      "asset_ids": [
+        "C20"
+      ],
+      "candidate_subarea": null,
+      "name": "崔望野",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C20-参考-08.jpg",
+      "sha256": "ca42de668ea1e59f0f058047dae747de12e633d32c7660c7491c8d5428b2ea5b",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\8-照片-8.jpg",
+      "source_filename": "8-照片-8.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "瘦长面部、灰青衣、短深灰肩披",
+      "unverified": [
+        "面颊色斑仅记录视觉，不新增受伤状态；内层竹青未充分显示"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C23-09",
+      "asset_ids": [
+        "C23"
+      ],
+      "candidate_subarea": null,
+      "name": "许照邻",
+      "scope": "matched_asset_reference",
+      "status": "candidate_reference",
+      "confidence": "medium",
+      "path": "资产/媒体/资产匹配/C23-参考-09.jpg",
+      "sha256": "515fa678d059bd12a4fbcfac7821f28dd08ee63ab01f7a6640de9f6d62d7de76",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\9-照片-9.jpg",
+      "source_filename": "9-照片-9.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "年轻偏瘦男性、青蓝交领与灰色衣层",
+      "unverified": [
+        "外衣偏灰褐、明显旧化，与深蓝绿丝毛设定有差异；伤污不新增剧情"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C11-10",
+      "asset_ids": [
+        "C11"
+      ],
+      "candidate_subarea": null,
+      "name": "张济",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C11-参考-10.jpg",
+      "sha256": "5acc76aacaa5406c7d3a534269d94a1aff9e0225a4fdc3259f6ebf19e377606e",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\1-照片-1.jpg",
+      "source_filename": "1-照片-1.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "灰鬓短须、较长面部、蓝灰袍与月白内领",
+      "unverified": [
+        "未展示实用袖口和全身体型",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C07-11",
+      "asset_ids": [
+        "C07"
+      ],
+      "candidate_subarea": null,
+      "name": "罗顺",
+      "scope": "matched_asset_reference",
+      "status": "candidate_reference",
+      "confidence": "medium",
+      "path": "资产/媒体/资产匹配/C07-参考-11.jpg",
+      "sha256": "e5292f7ac0f1ec547a13431be690ed0749137d735626a043f2377c291bf6549b",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\2-照片-2.jpg",
+      "source_filename": "2-照片-2.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "灰褐偏青旅衣、深蓝内领、束发与短须",
+      "unverified": [
+        "未戴设定雨帽，脸形偏长；衣料破损不直接写入剧情",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C58-12",
+      "asset_ids": [
+        "C58"
+      ],
+      "candidate_subarea": null,
+      "name": "褐袖刺客",
+      "scope": "matched_asset_reference",
+      "status": "candidate_reference",
+      "confidence": "medium",
+      "path": "资产/媒体/资产匹配/C58-参考-12.jpg",
+      "sha256": "4f1d2d63d1877a1d8737ccd5ebb3c0768e064e3cbbba766e17b270789d74ab1a",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\3-照片-3.jpg",
+      "source_filename": "3-照片-3.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "成熟男性、褐色外衣与暗灰交领、肩部厚重",
+      "unverified": [
+        "整件外衣偏褐且胸前纹样明显，未充分显示炭灰衣身与独立褐袖；不能确认与蒙面图为同一身份",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C08-13",
+      "asset_ids": [
+        "C08"
+      ],
+      "candidate_subarea": null,
+      "name": "孙福生",
+      "scope": "matched_asset_reference",
+      "status": "candidate_reference",
+      "confidence": "medium",
+      "path": "资产/媒体/资产匹配/C08-参考-13.jpg",
+      "sha256": "c1732cf2fe4d23a1c6ed28592b8ac93d9bbe7fa4a9e0d453b76baafc25fe9c6c",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\4-照片-4.jpg",
+      "source_filename": "4-照片-4.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "灰发短须、暖栗褐衣装",
+      "unverified": [
+        "半身未见浅灰围腰，年龄感偏老，面颊痕迹不新增剧情伤势",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C09-14",
+      "asset_ids": [
+        "C09"
+      ],
+      "candidate_subarea": null,
+      "name": "周成",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C09-参考-14.jpg",
+      "sha256": "c5c5320bae90d16cdcc31db8e9f099f59af6de9b04af864d844001c365bdfce5",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\5-照片-5.jpg",
+      "source_filename": "5-照片-5.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "赭黄褐衣、浅褐内领、宽额与劳动者造型",
+      "unverified": [
+        "未显示肘部修补；额颊污痕不能用作常态身份锁定",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C10-15",
+      "asset_ids": [
+        "C10"
+      ],
+      "candidate_subarea": null,
+      "name": "丁茂",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C10-参考-15.jpg",
+      "sha256": "62564d05d0d635c6162674d797b99f279b9b7022005df06f84da9f66f6a28d67",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\6-照片-6.jpg",
+      "source_filename": "6-照片-6.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "窄长面部、灰绿袍与烟褐内领",
+      "unverified": [
+        "面颊淤色仅登记为图像差异，不新增受伤情节",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C57-16",
+      "asset_ids": [
+        "C57"
+      ],
+      "candidate_subarea": null,
+      "name": "灰领刺客",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C57-参考-16.jpg",
+      "sha256": "e355ab3c3ffd2d40a2b13987d2bedd2eb74e3ef79841c1cc10315f3a9396d95a",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\7-照片-7.jpg",
+      "source_filename": "7-照片-7.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "深墨绿外衣、浅灰内领、偏瘦长脸",
+      "unverified": [
+        "未验证全身体量，不与既有蒙面候选自动合并",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    },
+    {
+      "id": "asset-match-C59-17",
+      "asset_ids": [
+        "C59"
+      ],
+      "candidate_subarea": null,
+      "name": "窄额带刺客",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C59-参考-17.jpg",
+      "sha256": "6328a1b794aba468e13b0d3fff0cac69ddf5b15815528036469c13553b1a12c2",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\A47E3FF4-D83A-4C56-85F4-ADC458E0DF8B\\8-照片-8.jpg",
+      "source_filename": "8-照片-8.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "灰蓝衣、深灰额带、较短下颌",
+      "unverified": [
+        "额带偏宽且束发较高，与窄额带低束发要求有差异；不自动认定蒙面配对",
+        "半身参考不完成全身任务；光色偏暖，统一中性白平衡仍需校核"
+      ],
+      "task_ids": [],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG"
+    }
+  ]
+}

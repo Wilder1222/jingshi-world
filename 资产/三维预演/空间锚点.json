@@ -1,0 +1,166 @@
+{
+  "maturity": "working_spatial_model_not_final_design",
+  "units": "meter",
+  "axes": {
+    "x": "east",
+    "y": "north",
+    "z": "up"
+  },
+  "city_map": "diagrammatic_only_not_real_travel_distance",
+  "city_to_manor": {
+    "relation": "Gu_anchor",
+    "translation": [
+      0,
+      -290,
+      0
+    ],
+    "scale": 1,
+    "rotation_deg": 0,
+    "note": "城市图为示意尺度，不据此重算行程"
+  },
+  "anchors": {
+    "S04_DoorAnchor": [
+      10.8,
+      19.12,
+      1.55
+    ],
+    "S04_WindowAnchor": [
+      14.2,
+      19,
+      2.2
+    ],
+    "S04_DeskAnchor": [
+      12.1,
+      21.65,
+      1.255
+    ],
+    "S04_CabinetAnchor": [
+      14.2,
+      20.04,
+      1.155
+    ],
+    "S04_WaitingOutside": [
+      10.8,
+      17.7,
+      0.3
+    ],
+    "S06K_Threshold": [
+      17,
+      29.35,
+      0.3
+    ],
+    "S02_SoupAnchor": [
+      -8,
+      -3.5,
+      0
+    ],
+    "S02_ConstableAnchor": [
+      7,
+      -2.5,
+      0
+    ],
+    "S02_WestLaneMouth": [
+      -28,
+      -7,
+      0
+    ],
+    "S03_MainGateOrigin": [
+      0,
+      0,
+      0
+    ],
+    "S03_HorseHolding": [
+      -11,
+      5,
+      0
+    ],
+    "S01_EightLaneEnvelope_1": [
+      -16.1,
+      25,
+      0
+    ],
+    "S01_EightLaneEnvelope_2": [
+      -11.500000000000002,
+      25,
+      0
+    ],
+    "S01_EightLaneEnvelope_3": [
+      -6.900000000000002,
+      25,
+      0
+    ],
+    "S01_EightLaneEnvelope_4": [
+      -2.3000000000000025,
+      25,
+      0
+    ],
+    "S01_EightLaneEnvelope_5": [
+      2.299999999999997,
+      25,
+      0
+    ],
+    "S01_EightLaneEnvelope_6": [
+      6.899999999999999,
+      25,
+      0
+    ],
+    "S01_EightLaneEnvelope_7": [
+      11.499999999999996,
+      25,
+      0
+    ],
+    "S01_EightLaneEnvelope_8": [
+      16.099999999999994,
+      25,
+      0
+    ],
+    "S01_RoadWidth": [
+      0,
+      25,
+      0
+    ],
+    "S01_RightDoorAnchor": [
+      12.5,
+      1.8,
+      1.1
+    ],
+    "S01_C60FaceAnchor": [
+      19.55,
+      9.1,
+      1.7
+    ],
+    "S01_ExitForward": [
+      11.2,
+      32,
+      0
+    ],
+    "S01_BridgeBeyondBend": [
+      30,
+      70,
+      0
+    ],
+    "CITY_GuAnchor": [
+      0,
+      -290,
+      0
+    ],
+    "CITY_GuizangAnchor": [
+      -330,
+      -210,
+      0
+    ],
+    "S07_SafeFoot": [
+      0,
+      0,
+      0
+    ]
+  },
+  "road": {
+    "width_m": 37,
+    "package_width_m": 4.3,
+    "gap_m": 0.3,
+    "minimum_eight_packages_m": 36.5,
+    "status": "proxy_dimensions_pending_art_review"
+  },
+  "library_sha256": "a067baca0585dca695ed8ea3d91e68478c3878fcc69a1b4e8afd4626e4830b3c"
+}

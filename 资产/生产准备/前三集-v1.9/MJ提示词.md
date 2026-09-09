@@ -22,6 +22,8 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C01-FULL__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
 <a id="mb-c01-full-3q"></a>
 
 ## MB-C01-FULL-3Q｜顾砚共用古代身份｜四分之三全身
@@ -39,6 +41,10 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C01-FULL-3Q__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-FULL。
 
 <a id="mb-c01-full-back"></a>
 
@@ -58,6 +64,10 @@ Rear view of the same selected costumed person. long black hair in one neat topk
 
 状态：尚未生成；拟存文件名 `MB-C01-FULL-BACK__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-FULL。
+
 <a id="mb-c01-costume-detail"></a>
 
 ## MB-C01-COSTUME-DETAIL｜顾砚共用古代身份｜领襟腰封织物细节
@@ -75,6 +85,10 @@ Detail crop of the same selected costume. ink-teal and blackened ink travel mart
 验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C01-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-FULL。
 
 <a id="mb-c03-full"></a>
 
@@ -94,6 +108,8 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 状态：尚未生成；拟存文件名 `MB-C03-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C03-FACE。
+
 <a id="mb-c03-full-3q"></a>
 
 ## MB-C03-FULL-3Q｜韩青｜四分之三全身
@@ -111,6 +127,8 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C03-FULL-3Q__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C03-FULL。
 
 <a id="mb-c03-full-back"></a>
 
@@ -130,6 +148,8 @@ Rear view of the same selected costumed person. black hair in a compact topknot 
 
 状态：尚未生成；拟存文件名 `MB-C03-FULL-BACK__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C03-FULL。
+
 <a id="mb-c03-costume-detail"></a>
 
 ## MB-C03-COSTUME-DETAIL｜韩青｜领襟腰封织物细节
@@ -147,6 +167,8 @@ Detail crop of the same selected costume. medium-value gray-cyan silk-wool outer
 验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C03-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C03-FULL。
 
 <a id="mb-c16-full"></a>
 
@@ -166,6 +188,8 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 状态：尚未生成；拟存文件名 `MB-C16-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C16-FACE。
+
 <a id="mb-c16-full-3q"></a>
 
 ## MB-C16-FULL-3Q｜杜长庚｜四分之三全身
@@ -183,6 +207,8 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C16-FULL-3Q__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C16-FULL。
 
 <a id="mb-c16-full-back"></a>
 
@@ -202,6 +228,8 @@ Rear view of the same selected costumed person. black hair bound in a plain topk
 
 状态：尚未生成；拟存文件名 `MB-C16-FULL-BACK__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C16-FULL。
+
 <a id="mb-c16-costume-detail"></a>
 
 ## MB-C16-COSTUME-DETAIL｜杜长庚｜领襟腰封织物细节
@@ -219,6 +247,8 @@ Detail crop of the same selected costume. muted chestnut-brown silk-wool outer j
 验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C16-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C16-FULL。
 
 <a id="mb-c04-full"></a>
 
@@ -238,6 +268,8 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 状态：尚未生成；拟存文件名 `MB-C04-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C04-FACE。
+
 <a id="mb-c04-full-3q"></a>
 
 ## MB-C04-FULL-3Q｜顾伯｜四分之三全身
@@ -255,6 +287,8 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C04-FULL-3Q__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C04-FULL。
 
 <a id="mb-c04-full-back"></a>
 
@@ -274,6 +308,8 @@ Rear view of the same selected costumed person. gray-black hair in a modest smal
 
 状态：尚未生成；拟存文件名 `MB-C04-FULL-BACK__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C04-FULL。
+
 <a id="mb-c04-costume-detail"></a>
 
 ## MB-C04-COSTUME-DETAIL｜顾伯｜领襟腰封织物细节
@@ -291,6 +327,8 @@ Detail crop of the same selected costume. tea-brown and muted old-gold long robe
 验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C04-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C04-FULL。
 
 <a id="mb-c06-full"></a>
 
@@ -310,6 +348,8 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 状态：尚未生成；拟存文件名 `MB-C06-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C06-FACE。
+
 <a id="mb-c06-full-3q"></a>
 
 ## MB-C06-FULL-3Q｜黄祁｜四分之三全身
@@ -327,6 +367,8 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C06-FULL-3Q__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C06-FULL。
 
 <a id="mb-c06-full-back"></a>
 
@@ -346,6 +388,8 @@ Rear view of the same selected costumed person. black hair bound close to the he
 
 状态：尚未生成；拟存文件名 `MB-C06-FULL-BACK__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C06-FULL。
+
 <a id="mb-c06-costume-detail"></a>
 
 ## MB-C06-COSTUME-DETAIL｜黄祁｜领襟腰封织物细节
@@ -363,6 +407,8 @@ Detail crop of the same selected costume. ink-black and deep charcoal fitted mar
 验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
 状态：尚未生成；拟存文件名 `MB-C06-COSTUME-DETAIL__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C06-FULL。
 
 <a id="mb-bag-c23"></a>
 
@@ -400,6 +446,10 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C01-DRY__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-FULL。
+
 <a id="mb-c01-face"></a>
 
 ## MB-C01-FACE｜顾砚共用古代身份｜正脸身份
@@ -416,7 +466,7 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸。
 
-状态：尚未生成；拟存文件名 `MB-C01-FACE__v01__candidate.png`，实际文件为空。
+状态：用户已选[肖像母版](<../../媒体/C01/C01-肖像母版.jpg>)，复用本图；以上文字为原任务方向，无需重新海选。
 
 <a id="mb-c01-profile"></a>
 
@@ -436,6 +486,8 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C01-PROFILE__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
 <a id="mb-c01-rain-post"></a>
 
 ## MB-C01-RAIN-POST｜原顾雨夜受袭后
@@ -453,6 +505,10 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 验收：只有左肩旧伤震动加擦伤；不露深伤、不改脸 第二波黄祁第一击后才出现新擦破，第一波不得提前复用此态。；脸部无疤、擦伤与血污；肩伤与既定包扎不删除。
 
 状态：尚未生成；拟存文件名 `MB-C01-RAIN-POST__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-RAIN-PRE。
 
 <a id="mb-c01-rain-pre"></a>
 
@@ -472,6 +528,10 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C01-RAIN-PRE__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-FULL。
+
 <a id="mb-c01-threequarter"></a>
 
 ## MB-C01-THREEQUARTER｜顾砚共用古代身份｜四分之三脸
@@ -489,6 +549,8 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C01-THREEQUARTER__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 <a id="mb-c02-fear"></a>
 
@@ -508,6 +570,10 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C02-FEAR__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-DRY。
+
 <a id="mb-c02-focus"></a>
 
 ## MB-C02-FOCUS｜今顾问清再交
@@ -526,6 +592,10 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C02-FOCUS__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：MB-C01-DRY。
+
 <a id="mb-c03-armor"></a>
 
 ## MB-C03-ARMOR｜韩青｜外劲装内轻甲与佩兵
@@ -543,6 +613,8 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；灰青与玄蓝提花劲装，墨银同色阶折水暗纹，玄蓝分层腰封配墨银小扣；素灰青束发，袖口收紧，保留年轻紧凑的体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C03-ARMOR__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C03-FULL、MB-P20-BASE、POST-KIT。
 
 <a id="mb-c03-face"></a>
 
@@ -580,6 +652,8 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 状态：尚未生成；拟存文件名 `MB-C03-PROFILE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C03-FACE。
+
 <a id="mb-c03-rain"></a>
 
 ## MB-C03-RAIN｜韩青｜雨湿劲装内甲
@@ -598,6 +672,8 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 状态：尚未生成；拟存文件名 `MB-C03-RAIN__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C03-ARMOR。
+
 <a id="mb-c03-threequarter"></a>
 
 ## MB-C03-THREEQUARTER｜韩青｜四分之三脸
@@ -615,6 +691,8 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C03-THREEQUARTER__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C03-FACE。
 
 <a id="mb-c04-face"></a>
 
@@ -652,6 +730,8 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 
 状态：尚未生成；拟存文件名 `MB-C04-PROFILE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C04-FACE。
+
 <a id="mb-c04-threequarter"></a>
 
 ## MB-C04-THREEQUARTER｜顾伯｜四分之三脸
@@ -669,6 +749,8 @@ Single fictional Chinese man, age 64, a round-square face, full forehead and che
 验收：64岁圆方脸灰短须，茶褐沉金精工长衫符合管家身份；不去皱变青年、不仙师化；茶褐丝面、轻棉夹层、暖灰棉领；保暖不臃肿，端粥袖口可收。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C04-THREEQUARTER__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C04-FACE。
 
 <a id="mb-c06-face"></a>
 
@@ -706,6 +788,8 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 状态：尚未生成；拟存文件名 `MB-C06-PROFILE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C06-FACE。
+
 <a id="mb-c06-rain-post"></a>
 
 ## MB-C06-RAIN-POST｜黄祁受惊撤退湿衣
@@ -723,6 +807,8 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 验收：无新增伤口；只改停手戒备表演与面巾偏动，不画右上臂血伤；撤退仍可独立行动 只属第二波，不在第一波十人中出现；使用独立本人母版。。
 
 状态：尚未生成；拟存文件名 `MB-C06-RAIN-POST__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C06-RAIN-PRE。
 
 <a id="mb-c06-rain-pre"></a>
 
@@ -742,6 +828,8 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 
 状态：尚未生成；拟存文件名 `MB-C06-RAIN-PRE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C06-FULL。
+
 <a id="mb-c06-threequarter"></a>
 
 ## MB-C06-THREEQUARTER｜黄祁｜四分之三脸
@@ -759,6 +847,8 @@ Single fictional Chinese man, age 34, a long rectangular face with high clear ch
 验收：与另四名刺客脸形体量不同；身份母版不蒙面，林夜遮面与撤态另做；无新增血伤；墨黑哑光丝毛、炭灰棉衬和少量革边；湿态不变亮面皮衣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C06-THREEQUARTER__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C06-FACE。
 
 <a id="mb-c07-face"></a>
 
@@ -796,6 +886,8 @@ Single fictional Chinese man, age 26, a short square-round face, thick straight 
 
 状态：尚未生成；拟存文件名 `MB-C07-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C07-FACE。
+
 <a id="mb-c07-rain"></a>
 
 ## MB-C07-RAIN｜罗顺雨帽与湿衣
@@ -813,6 +905,8 @@ Single fictional Chinese man, age 26, a short square-round face, thick straight 
 验收：无新增血伤，无黄祁伤血转沾；脸与灰褐雨衣同母版 只属第二波，不在第一波十人中出现；使用独立本人母版。。
 
 状态：尚未生成；拟存文件名 `MB-C07-RAIN__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C07-FULL。
 
 <a id="mb-c08-face"></a>
 
@@ -850,6 +944,8 @@ Single fictional Chinese man, age 49, a broad balanced face, open brows and eyes
 
 状态：尚未生成；拟存文件名 `MB-C08-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C08-FACE。
+
 <a id="mb-c09-face"></a>
 
 ## MB-C09-FACE｜周成｜正脸身份
@@ -885,6 +981,8 @@ Single fictional Chinese man, age 36, a broad forehead, thick eyebrows, bright e
 验收：宽额圆下颌、赭褐衣；与丁茂分别选脸，不加新职业徽记；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C09-FULL__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C09-FACE。
 
 <a id="mb-c10-face"></a>
 
@@ -922,6 +1020,8 @@ Single fictional Chinese man, age 39, a narrow rectangular face, straight relaxe
 
 状态：尚未生成；拟存文件名 `MB-C10-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C10-FACE。
+
 <a id="mb-c11-face"></a>
 
 ## MB-C11-FACE｜张济｜正脸身份
@@ -957,6 +1057,8 @@ Single fictional Chinese man, age 58, a long face, clear nose bridge, slim eyebr
 验收：58岁细长面、灰鬓，与顾伯分开；不是发光仙医；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；衣型、体量和脸沿已选母版；干衣无新伤；双手自然垂于身侧可见、不背手。
 
 状态：尚未生成；拟存文件名 `MB-C11-FULL__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C11-FACE。
 
 <a id="mb-c11-kit"></a>
 
@@ -1012,6 +1114,8 @@ Single fictional Chinese man, age 31, an oval face, short defined brows, full sh
 
 状态：尚未生成；拟存文件名 `MB-C12-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C12-FACE。
+
 <a id="mb-c12-profile"></a>
 
 ## MB-C12-PROFILE｜王寿｜侧脸
@@ -1030,6 +1134,8 @@ Single fictional Chinese man, age 31, an oval face, short defined brows, full sh
 
 状态：尚未生成；拟存文件名 `MB-C12-PROFILE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C12-FACE。
+
 <a id="mb-c12-threequarter"></a>
 
 ## MB-C12-THREEQUARTER｜王寿｜四分之三脸
@@ -1047,6 +1153,8 @@ Single fictional Chinese man, age 31, an oval face, short defined brows, full sh
 验收：真假不靠丑脸或破制服判断；与赵平同属近色但非复制衣纹；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C12-THREEQUARTER__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C12-FACE。
 
 <a id="mb-c13-face"></a>
 
@@ -1084,6 +1192,8 @@ Single fictional Chinese man, age 27, a long diamond-shaped face, straight brow 
 
 状态：尚未生成；拟存文件名 `MB-C13-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C13-FACE。
+
 <a id="mb-c14-face"></a>
 
 ## MB-C14-FACE｜赵平｜正脸身份
@@ -1120,6 +1230,8 @@ Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep
 
 状态：尚未生成；拟存文件名 `MB-C14-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C14-FACE。
+
 <a id="mb-c14-profile"></a>
 
 ## MB-C14-PROFILE｜赵平｜侧脸
@@ -1138,6 +1250,8 @@ Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep
 
 状态：尚未生成；拟存文件名 `MB-C14-PROFILE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C14-FACE。
+
 <a id="mb-c14-threequarter"></a>
 
 ## MB-C14-THREEQUARTER｜赵平｜四分之三脸
@@ -1155,6 +1269,8 @@ Single fictional Chinese man, age 40, a nearly square face, broad eyebrows, deep
 验收：40岁短髭深靛服；无万能令牌，和孟达年龄色阶分明；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C14-THREEQUARTER__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C14-FACE。
 
 <a id="mb-c15-face"></a>
 
@@ -1192,6 +1308,8 @@ Single fictional Chinese man, age 22, a long oval youthful adult face, gently li
 
 状态：尚未生成；拟存文件名 `MB-C15-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C15-FACE。
+
 <a id="mb-c16-armor"></a>
 
 ## MB-C16-ARMOR｜杜长庚｜外劲装内轻甲与佩兵
@@ -1209,6 +1327,8 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；玄褐与深棕劲装，古铜低对比断山回纹，深棕宽腰封配古铜旧扣；保留短褐围巾、灰鬓与沉稳宽肩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C16-ARMOR__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C16-FULL、MB-P20-BASE、POST-KIT。
 
 <a id="mb-c16-face"></a>
 
@@ -1246,6 +1366,8 @@ One fictional Chinese man, age 43, a rectangular-square face, broad jaw, low str
 
 状态：尚未生成；拟存文件名 `MB-C16-MOUNTED__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C16-ARMOR、POST-HORSES。
+
 <a id="mb-c16-profile"></a>
 
 ## MB-C16-PROFILE｜杜长庚｜侧脸
@@ -1263,6 +1385,8 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 验收：43岁灰鬓、褐围巾、宽肩；不穿将军甲；栗棕丝毛、玄褐侧层、茶灰棉领；短褐毛围巾及局部古铜扣。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
 状态：尚未生成；拟存文件名 `MB-C16-PROFILE__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C16-FACE。
 
 <a id="mb-c16-rain"></a>
 
@@ -1282,6 +1406,8 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 状态：尚未生成；拟存文件名 `MB-C16-RAIN__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C16-ARMOR。
+
 <a id="mb-c16-threequarter"></a>
 
 ## MB-C16-THREEQUARTER｜杜长庚｜四分之三脸
@@ -1300,6 +1426,8 @@ Single fictional Chinese man, age 43, a rectangular-square face, broad jaw, low 
 
 状态：尚未生成；拟存文件名 `MB-C16-THREEQUARTER__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C16-FACE。
+
 <a id="mb-c17-armor"></a>
 
 ## MB-C17-ARMOR｜石照川｜外劲装内轻甲与佩兵
@@ -1317,6 +1445,8 @@ Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open
 验收：宽肩方脸靛布，不夸张巨人化；搬物动作稳定；深靛丝毛、土青侧层、石灰棉领边，墨蓝腰封；胸肩留量。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；深靛与墨蓝劲装，宽窄相间折脊暗纹，墨蓝压边腰封；宽肩挺整、不加巨肩甲，保留方脸与真实体量。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C17-ARMOR__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C17-FULL、MB-P20-BASE、POST-KIT。
 
 <a id="mb-c17-face"></a>
 
@@ -1354,6 +1484,8 @@ Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open
 
 状态：尚未生成；拟存文件名 `MB-C17-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C17-FACE。
+
 <a id="mb-c17-mounted"></a>
 
 ## MB-C17-MOUNTED｜石照川｜单人骑乘绑定
@@ -1371,6 +1503,8 @@ One fictional Chinese man, age 38, a square face, broad flat brow ridge, open ey
 验收：骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H02，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。。
 
 状态：尚未生成；拟存文件名 `MB-C17-MOUNTED__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C17-ARMOR、POST-HORSES。
 
 <a id="mb-c17-rain"></a>
 
@@ -1390,6 +1524,8 @@ Single fictional Chinese man, age 38, a square face, broad flat brow ridge, open
 
 状态：尚未生成；拟存文件名 `MB-C17-RAIN__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C17-ARMOR。
+
 <a id="mb-c20-armor"></a>
 
 ## MB-C20-ARMOR｜崔望野｜外劲装内轻甲与佩兵
@@ -1407,6 +1543,8 @@ Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, 
 验收：瘦长脸短披肩；辨脸不靠遮眼发缕，弓另归随身附件；灰青丝毛、竹青中层、烟蓝绸领，短毛披肩不延长。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；灰青疏羽暗纹劲装、深灰窄边腰封与深灰短披肩；保留瘦长肩颈，披肩不遮脸和手臂，不加射手面罩。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C20-ARMOR__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C20-FULL、MB-P20-BASE、POST-KIT。
 
 <a id="mb-c20-face"></a>
 
@@ -1444,6 +1582,8 @@ Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, 
 
 状态：尚未生成；拟存文件名 `MB-C20-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C20-FACE。
+
 <a id="mb-c20-mounted"></a>
 
 ## MB-C20-MOUNTED｜崔望野｜单人骑乘绑定
@@ -1461,6 +1601,8 @@ One fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fin
 验收：骑手与已选轻甲母版同脸同衣甲；坐骑必须是已核对P19-H05，人马体量、鞍接触与行李位置一致；长兵盾弓按本人鞍侧归属，不画马上交锋；只验证骑乘外观，不宣称真实骑术或安全。。
 
 状态：尚未生成；拟存文件名 `MB-C20-MOUNTED__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C20-ARMOR、POST-HORSES。
 
 <a id="mb-c20-rain"></a>
 
@@ -1480,6 +1622,8 @@ Single fictional Chinese man, age 34, a narrow face with flat cheekbone planes, 
 
 状态：尚未生成；拟存文件名 `MB-C20-RAIN__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C20-ARMOR。
+
 <a id="mb-c23-armor"></a>
 
 ## MB-C23-ARMOR｜许照邻｜外劲装内轻甲与佩兵
@@ -1497,6 +1641,8 @@ Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated
 验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青丝毛、青瓷灰棉领、蓝黑腰封；格折纹不是线索。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；深青与蓝黑密格折线暗纹劲装，蓝黑精整腰封与低调细扣；保留窄脸、方口私包，P02仍是顾砚的另一个包。 外劲装内轻甲，外层不透明；兵器、手部占用与个人归属沿P21，不新增神兵或开放伤。；只在外劲装里面加P20轻皮内甲及本人P21，不改脸、衣色或境界；1-3卸甲，1-4以后用常服FULL。
 
 状态：尚未生成；拟存文件名 `MB-C23-ARMOR__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C23-FULL、MB-P20-BASE、POST-KIT。
 
 <a id="mb-c23-face"></a>
 
@@ -1534,6 +1680,8 @@ Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated
 
 状态：尚未生成；拟存文件名 `MB-C23-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C23-FACE。
+
 <a id="mb-c23-mounted"></a>
 
 ## MB-C23-MOUNTED｜许照邻｜单人骑乘绑定
@@ -1552,6 +1700,8 @@ One fictional Chinese man, age 32, a narrow face, defined brows, concentrated ey
 
 状态：尚未生成；拟存文件名 `MB-C23-MOUNTED__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C23-ARMOR、POST-HORSES。
+
 <a id="mb-c23-rain"></a>
 
 ## MB-C23-RAIN｜许照邻｜雨湿劲装内甲
@@ -1569,6 +1719,8 @@ Single fictional Chinese man, age 32, a narrow face, defined brows, concentrated
 验收：窄脸青衣，与自己的方口包绑定；不是主角私人小行囊；深青丝毛、青瓷灰棉领、蓝黑腰封；格折纹不是线索。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改湿度与下摆泥痕，不新增本人伤口；甲不透光，1-3卸下，之后同色精工无甲劲装。
 
 状态：尚未生成；拟存文件名 `MB-C23-RAIN__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C23-ARMOR。
 
 <a id="mb-c57-face"></a>
 
@@ -1606,6 +1758,8 @@ Single fictional Chinese man, age 32, tall slender build, long oval face, straig
 
 状态：尚未生成；拟存文件名 `MB-C57-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C57-FACE。
+
 <a id="mb-c57-rain"></a>
 
 ## MB-C57-RAIN｜灰领刺客雨夜湿衣
@@ -1623,6 +1777,8 @@ Single fictional Chinese man, age 32, tall slender build, long oval face, straig
 验收：只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。。
 
 状态：尚未生成；拟存文件名 `MB-C57-RAIN__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C57-FULL。
 
 <a id="mb-c58-face"></a>
 
@@ -1660,6 +1816,8 @@ Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad 
 
 状态：尚未生成；拟存文件名 `MB-C58-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C58-FACE。
+
 <a id="mb-c58-rain"></a>
 
 ## MB-C58-RAIN｜褐袖刺客雨夜湿衣
@@ -1677,6 +1835,8 @@ Single fictional Chinese man, age 38, broad shoulders, thick upper torso, broad 
 验收：只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。。
 
 状态：尚未生成；拟存文件名 `MB-C58-RAIN__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C58-FULL。
 
 <a id="mb-c59-face"></a>
 
@@ -1714,6 +1874,8 @@ Single fictional Chinese man, age 29, short compact lean build, diamond-shaped f
 
 状态：尚未生成；拟存文件名 `MB-C59-FULL__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-C59-FACE。
+
 <a id="mb-c59-rain"></a>
 
 ## MB-C59-RAIN｜窄额带刺客雨夜湿衣
@@ -1731,6 +1893,8 @@ Single fictional Chinese man, age 29, short compact lean build, diamond-shaped f
 验收：只改湿度与泥痕，脸和衣领袖色同母版；单人状态不含其他刺客 只属第二波，不在第一波十人中出现；使用独立本人母版。。
 
 状态：尚未生成；拟存文件名 `MB-C59-RAIN__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-C59-FULL。
 
 <a id="mb-c60-silhouette"></a>
 
@@ -1750,6 +1914,8 @@ One partially visible adult figure behind a large woodland tree in dense bamboo 
 
 状态：尚未生成；拟存文件名 `MB-C60-SILHOUETTE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-ENV-S01、POST-PLAN-FOREST。
+
 <a id="mb-env-s01"></a>
 
 ## MB-ENV-S01｜春泽桥前竹木密林道空景
@@ -1767,6 +1933,8 @@ An extraordinarily broad single official road through dense bamboo and tall wood
 验收：至少八辆P01完整四驾行车包络并行，不按裸车厢或缩马计；唯一官道无支路，近林右侧会车区下车合阵，刺客不横越整幅路、C60局部树位；桥隐藏、车灯另合成。先过POST-PLAN-FOREST。。
 
 状态：尚未生成；拟存文件名 `MB-ENV-S01__v01__candidate.png`，实际文件为空。
+
+尚缺前置：POST-PLAN-FOREST。
 
 <a id="mb-env-s02"></a>
 
@@ -1804,6 +1972,14 @@ A deep covered veranda of the ancestral Chinese mansion, massive carved timber c
 
 状态：尚未生成；拟存文件名 `MB-ENV-S03-CORRIDOR__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-CORRIDOR](<../../媒体/S03/S03-连廊母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：锁连廊构件、开敞侧与材质；书房紧邻廊下与外院距离沿现行平面，陈设不挡扶人通行，花树种类与季节按冬梅及常绿设定核对。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：POST-PLAN-COURT。
+
 <a id="mb-env-s03-court"></a>
 
 ## MB-ENV-S03-COURT｜顾府外院
@@ -1821,6 +1997,14 @@ The spacious ceremonial courtyard of an ancestral Chinese mansion, seen beneath 
 验收：南门北厅、东书房西卧房、西厢临院；冬梅侧缘成丛，主道无池、门道不堵；四马只在西厢外，精养华贵不作破宅。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。 高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。。
 
 状态：尚未生成；拟存文件名 `MB-ENV-S03-COURT__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-COURT](<../../媒体/S03/S03-正院母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：图像类型判断为正院／前厅外院中轴视角，匹配现有S03-COURT制作项作为视觉输入。对面建筑暂按厅堂视觉理解，不凭小匾字确定名称；南北朝向、门廊身份和全景对应位置待平面核对。 白花树种无法仅据此图可靠确定，制作仍按冬梅与常绿的季节要求核对。保留原图；夜态与多机位另派生，不能解除POST-PLAN-COURT前置。
+
+尚缺前置：POST-PLAN-COURT。
 
 <a id="mb-env-s03-hall"></a>
 
@@ -1840,6 +2024,14 @@ A lofty south-facing reception hall in an ancestral Chinese mansion. A fixed hea
 
 状态：尚未生成；拟存文件名 `MB-ENV-S03-HALL__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-HALL](<../../媒体/S03/S03-大厅母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：对应现有前厅任务，锁大案与梁架造型；厅内固定大案和门边可搬小案不能合并或互换，后部开口与院落连接待平面核验。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：POST-PLAN-COURT。
+
 <a id="mb-env-s03-w"></a>
 
 ## MB-ENV-S03-W｜外院西厢
@@ -1857,6 +2049,12 @@ A richly furnished west guest-room suite opening east onto the ancestral mansion
 验收：正式独立架子床，总计五床由平面逐间核数，不强求单图五床；行囊、器物、饭食与床具分区；马只在室外。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。 高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。。
 
 状态：尚未生成；拟存文件名 `MB-ENV-S03-W__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：POST-PLAN-COURT。
 
 <a id="mb-env-s04"></a>
 
@@ -1876,6 +2074,14 @@ A lofty expansive ancestral Chinese study with writing, reading, reception and r
 
 状态：尚未生成；拟存文件名 `MB-ENV-S04__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S04-STUDY](<../../媒体/S04/S04-书房母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：锁书房造型与材质；案窗门行动距离、松闩与矮柜仍按台本核对，日景不能直接完成首夜夜景。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：POST-PLAN-COURT。
+
 <a id="mb-env-s05"></a>
 
 ## MB-ENV-S05｜卧房
@@ -1893,6 +2099,14 @@ The private bedchamber of an ancestral Chinese mansion, separate from the study.
 验收：正式豪华床具，床边容照料者、帘侧收不遮伤者；与书房分室，不复制铜镜碎杯窗闩。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。 高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。。
 
 状态：尚未生成；拟存文件名 `MB-ENV-S05__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S05-PRIMARY](<../../媒体/S05/S05-主卧母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：作为S05卧房的主卧造型依据，住用身份与平面位置未由图确定；保留郎中与扶人的床边护理空间，夜态另派生。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：POST-PLAN-COURT。
 
 <a id="mb-env-s06-k"></a>
 
@@ -1912,6 +2126,12 @@ The exterior storage-room doorway on the east rear passage of an ancestral Chine
 
 状态：尚未生成；拟存文件名 `MB-ENV-S06-K__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：POST-PLAN-COURT。
+
 <a id="mb-env-s06-well"></a>
 
 ## MB-ENV-S06-WELL｜后院井边
@@ -1929,6 +2149,12 @@ The spacious working rear courtyard of the same ancestral Chinese mansion, subst
 验收：后院华贵木作与实用井桶并存；韩府内洗手、杜廊口交接，井与外库不混点。 高门世家古宅，厚梁深檐与大体量重工陈设，非现代新中式豪宅；固定动线与家具用途不变。 高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。。
 
 状态：尚未生成；拟存文件名 `MB-ENV-S06-WELL__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：POST-PLAN-COURT。
 
 <a id="mb-env-s07"></a>
 
@@ -1984,6 +2210,8 @@ The same extraordinarily broad official road and right-side passing bay between 
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S01-DAY__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-ENV-S01、POST-PLAN-FOREST。
+
 <a id="mb-light-s02"></a>
 
 ## MB-LIGHT-S02｜雨停初晴街口
@@ -2001,6 +2229,8 @@ Edit the selected empty set master. Bright clear winter morning after rain, natu
 验收：与父母版同一拓扑及机位；只改昼夜光态，不新增建筑。
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S02__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-ENV-S02。
 
 <a id="mb-light-s03-court"></a>
 
@@ -2020,6 +2250,14 @@ Edit the selected empty set master. Replace daylight with restrained warm practi
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S03-COURT__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-COURT](<../../媒体/S03/S03-正院母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：图像类型判断为正院／前厅外院中轴视角，匹配现有S03-COURT制作项作为视觉输入。对面建筑暂按厅堂视觉理解，不凭小匾字确定名称；南北朝向、门廊身份和全景对应位置待平面核对。 白花树种无法仅据此图可靠确定，制作仍按冬梅与常绿的季节要求核对。保留原图；夜态与多机位另派生，不能解除POST-PLAN-COURT前置。
+
+尚缺前置：MB-ENV-S03-COURT。
+
 <a id="mb-light-s03-court-overcast"></a>
 
 ## MB-LIGHT-S03-COURT-OVERCAST｜外院雨停初晴明媚晨光
@@ -2037,6 +2275,14 @@ Bright clear winter morning after rain, damp stone retained, natural neutral-whi
 验收：同一空间、同机位只改光态；S04日景仅材质校验，夜戏不改白天；现行晨戏为雨停初晴、湿石仍在，白墙青石保色。OVERCAST沿用兼容编号，不代表当前阴天。金饰不是全局暖滤镜 高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。。
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S03-COURT-OVERCAST__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-COURT](<../../媒体/S03/S03-正院母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：图像类型判断为正院／前厅外院中轴视角，匹配现有S03-COURT制作项作为视觉输入。对面建筑暂按厅堂视觉理解，不凭小匾字确定名称；南北朝向、门廊身份和全景对应位置待平面核对。 白花树种无法仅据此图可靠确定，制作仍按冬梅与常绿的季节要求核对。保留原图；夜态与多机位另派生，不能解除POST-PLAN-COURT前置。
+
+尚缺前置：MB-ENV-S03-COURT。
 
 <a id="mb-light-s03-hall"></a>
 
@@ -2056,6 +2302,14 @@ Edit the selected empty set master. Replace daylight with warm practical lamp li
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S03-HALL__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-HALL](<../../媒体/S03/S03-大厅母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：对应现有前厅任务，锁大案与梁架造型；厅内固定大案和门边可搬小案不能合并或互换，后部开口与院落连接待平面核验。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：MB-ENV-S03-HALL。
+
 <a id="mb-light-s03-hall-overcast"></a>
 
 ## MB-LIGHT-S03-HALL-OVERCAST｜前厅雨停初晴明媚晨光
@@ -2073,6 +2327,14 @@ Bright clear winter morning after rain, damp stone retained, natural neutral-whi
 验收：同一空间、同机位只改光态；S04日景仅材质校验，夜戏不改白天；现行晨戏为雨停初晴、湿石仍在，白墙青石保色。OVERCAST沿用兼容编号，不代表当前阴天。金饰不是全局暖滤镜 高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。。
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S03-HALL-OVERCAST__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-HALL](<../../媒体/S03/S03-大厅母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：对应现有前厅任务，锁大案与梁架造型；厅内固定大案和门边可搬小案不能合并或互换，后部开口与院落连接待平面核验。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：MB-ENV-S03-HALL。
 
 <a id="mb-light-s03-w"></a>
 
@@ -2092,6 +2354,12 @@ Edit the selected empty set master. Replace daylight with warm practical lamps a
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S03-W__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：MB-ENV-S03-W。
+
 <a id="mb-light-s04-day"></a>
 
 ## MB-LIGHT-S04-DAY｜高门大书房明媚日光材质校验
@@ -2110,6 +2378,14 @@ Bright natural neutral-white daylight from the courtyard and existing lattice op
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S04-DAY__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S04-STUDY](<../../媒体/S04/S04-书房母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：锁书房造型与材质；案窗门行动距离、松闩与矮柜仍按台本核对，日景不能直接完成首夜夜景。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：MB-ENV-S04。
+
 <a id="mb-light-s05"></a>
 
 ## MB-LIGHT-S05｜初晴明亮卧房
@@ -2127,6 +2403,14 @@ Edit the selected empty set master. Bright clear winter morning after rain, damp
 验收：与父母版同一拓扑及机位；只改昼夜光态，不新增建筑 高门世家大宅、华丽奢华庄重宏大雅致；厚梁深檐、重工大体量陈设，非现代新中式豪宅；日光白不偏黄、夜灯仅局部。私宅非皇宫，不新增院落动线，不抬高窗柜或床面；门边小案可搬。。
 
 状态：尚未生成；拟存文件名 `MB-LIGHT-S05__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S05-PRIMARY](<../../媒体/S05/S05-主卧母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：作为S05卧房的主卧造型依据，住用身份与平面位置未由图确定；保留郎中与扶人的床边护理空间，夜态另派生。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：MB-ENV-S05。
 
 <a id="mb-p01-base"></a>
 
@@ -2164,6 +2448,8 @@ Interior of the selected enclosed Chinese period carriage, empty fitted rear pas
 
 状态：尚未生成；拟存文件名 `MB-P01-CABIN__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-P01-BASE。
+
 <a id="mb-p01-horse"></a>
 
 ## MB-P01-HORSE｜P01四匹牵引马与封闭车绑定
@@ -2182,6 +2468,8 @@ Exactly four ordinary adult brown draft horses abreast in a single row, four sep
 
 状态：尚未生成；拟存文件名 `MB-P01-HORSE__v01__candidate.png`，实际文件为空。
 
+尚缺前置：MB-P01-BASE。
+
 <a id="mb-p01-rain-stop"></a>
 
 ## MB-P01-RAIN-STOP｜雨夜受阻马车｜右门开启空车态
@@ -2199,6 +2487,8 @@ The selected enclosed luxurious four-wheel carriage standing immobilized beside 
 验收：只改已选BASE的雨湿、车轮受阻与右门状态；厢体未碎，不能下场恢复行驶。四匹牵引马在分层组合时补齐，空车图本身不证明整队数量。林道宽度同时留出四驾、四匹坐骑及扶人出口；危及动物的动作不得实拍冒险。。
 
 状态：尚未生成；拟存文件名 `MB-P01-RAIN-STOP__v01__candidate.png`，实际文件为空。
+
+尚缺前置：MB-P01-BASE、POST-PLAN-FOREST。
 
 <a id="mb-p02-base"></a>
 
@@ -2578,6 +2868,8 @@ One fictional adult masked assailant, tall lean build, long narrow torso, slim s
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-01__v01__candidate.png`，实际文件为空。
 
+尚缺前置：POST-PLAN-FOREST。
+
 <a id="mb-s01-w1-02"></a>
 
 ## MB-S01-W1-02｜第一波02｜中等宽肩
@@ -2595,6 +2887,8 @@ One fictional adult masked assailant, medium-height broad-shouldered build, thic
 验收：仅S01-W1-02第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-02__v01__candidate.png`，实际文件为空。
+
+尚缺前置：POST-PLAN-FOREST。
 
 <a id="mb-s01-w1-03"></a>
 
@@ -2614,6 +2908,8 @@ One fictional adult masked assailant, short stocky build, broad chest, short thi
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-03__v01__candidate.png`，实际文件为空。
 
+尚缺前置：POST-PLAN-FOREST。
+
 <a id="mb-s01-w1-04"></a>
 
 ## MB-S01-W1-04｜第一波04｜高身宽背
@@ -2631,6 +2927,8 @@ One fictional adult masked assailant, tall broad-backed build, long arms, heavy 
 验收：仅S01-W1-04第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-04__v01__candidate.png`，实际文件为空。
+
+尚缺前置：POST-PLAN-FOREST。
 
 <a id="mb-s01-w1-05"></a>
 
@@ -2650,6 +2948,8 @@ One fictional adult masked assailant, medium-height slender build, narrow hips, 
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-05__v01__candidate.png`，实际文件为空。
 
+尚缺前置：POST-PLAN-FOREST。
+
 <a id="mb-s01-w1-06"></a>
 
 ## MB-S01-W1-06｜第一波06｜短身轻瘦
@@ -2667,6 +2967,8 @@ One fictional adult masked assailant, short light-framed build, narrow shoulders
 验收：仅S01-W1-06第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-06__v01__candidate.png`，实际文件为空。
+
+尚缺前置：POST-PLAN-FOREST。
 
 <a id="mb-s01-w1-07"></a>
 
@@ -2686,6 +2988,8 @@ One fictional adult masked assailant, medium-height heavy-backed build, sturdy w
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-07__v01__candidate.png`，实际文件为空。
 
+尚缺前置：POST-PLAN-FOREST。
+
 <a id="mb-s01-w1-08"></a>
 
 ## MB-S01-W1-08｜第一波08｜高身窄腰
@@ -2703,6 +3007,8 @@ One fictional adult masked assailant, tall long-legged build, slim waist, slight
 验收：仅S01-W1-08第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-08__v01__candidate.png`，实际文件为空。
+
+尚缺前置：POST-PLAN-FOREST。
 
 <a id="mb-s01-w1-09"></a>
 
@@ -2722,6 +3028,8 @@ One fictional adult masked assailant, medium-height balanced sturdy build, strai
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-09__v01__candidate.png`，实际文件为空。
 
+尚缺前置：POST-PLAN-FOREST。
+
 <a id="mb-s01-w1-10"></a>
 
 ## MB-S01-W1-10｜第一波10｜宽肩短腰
@@ -2739,6 +3047,8 @@ One fictional adult masked assailant, medium-height broad-shouldered build, shor
 验收：仅S01-W1-10第一波成年遮面实例；按独立体量与服装识别，不生成正脸、不复用第二波或五卒；十人交接退林后不再参战，无新增伤口。。
 
 状态：尚未生成；拟存文件名 `MB-S01-W1-10__v01__candidate.png`，实际文件为空。
+
+尚缺前置：POST-PLAN-FOREST。
 
 <a id="mb-s03-large"></a>
 
@@ -2758,6 +3068,14 @@ One fixed heavy dark-hardwood table from the reception hall of an ancestral Chin
 
 状态：尚未生成；拟存文件名 `MB-S03-LARGE__v01__candidate.png`，实际文件为空。
 
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-HALL](<../../媒体/S03/S03-大厅母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：对应现有前厅任务，锁大案与梁架造型；厅内固定大案和门边可搬小案不能合并或互换，后部开口与院落连接待平面核验。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：MB-ENV-S03-HALL。
+
 <a id="mb-s03-table"></a>
 
 ## MB-S03-TABLE｜门院可移动小案
@@ -2775,6 +3093,14 @@ One smaller portable period dark-hardwood side table belonging to an ancestral C
 验收：重工但仍为可移动小案，石可按台本单人搬回；不扩大为固定大案，不因精雕阻挡纸笔与门道。。
 
 状态：尚未生成；拟存文件名 `MB-S03-TABLE__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[architecture-S03-OVERVIEW](<../../媒体/S03/S03-全景母版.jpg>)（architecture_visual） · [architecture-S03-HALL](<../../媒体/S03/S03-大厅母版.jpg>)（architecture_visual）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+引用边界：总体建筑家族；图示院落次序、后部高体量建筑及正门外空间尚未映射到现行平面，不据图新增剧情楼宇、入口或人物。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+引用边界：对应现有前厅任务，锁大案与梁架造型；厅内固定大案和门边可搬小案不能合并或互换，后部开口与院落连接待平面核验。 保留原图，生成时以图像输入锁形制；白天成品按明媚中性自然光校色，夜戏另派生。不把视觉选用等同POST-PLAN-COURT验收。
+
+尚缺前置：MB-ENV-S03-HALL。
 
 <a id="mb-s04-lamp"></a>
 
@@ -2847,6 +3173,8 @@ Edit the selected portrait. Preserve identity, pose, clothing, background, frami
 验收：只比较极弱局部高光扩散有／无；身份基线无新增扩散，不以磨皮、改脸替代柔光，其他参数与母版相同；禁止金色光晕与梦幻泛光，不作任何生产项必需前置。
 
 状态：尚未生成；拟存文件名 `MB-TEST-C01-BLOOM__v01__candidate.png`，实际文件为空。
+
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 <a id="mb-weapon-assassin"></a>
 

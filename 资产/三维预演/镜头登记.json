@@ -1,0 +1,140 @@
+{
+  "format": "jingshi-blender-previs",
+  "blender_version": "5.2.1 LTS",
+  "source_sha256": "9aef54570526980a5f36a157d0ed401901b5a50a638e031ce16e2f5c2b7b0b9c",
+  "shots": [
+    {
+      "id": "GJ-R02-SH016",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_start": 2640,
+      "source_end_exclusive": 2880,
+      "local_frame_start": 1,
+      "local_frame_end_inclusive": 240,
+      "fps": [
+        24,
+        1
+      ],
+      "aspect_ratio": "16:9",
+      "sensor_width_mm": 36.0,
+      "sensor_fit": "HORIZONTAL",
+      "clip_m": [
+        0.05999999865889549,
+        3000.0
+      ],
+      "projection": "PERSP",
+      "camera_axis": "local -Z forward, +Y up",
+      "coordinate_system": "meters; X east,Y north,Z up",
+      "camera_surface_clearance_7cm": true,
+      "test_scope": "six-direction camera rays, not actor collision or action approval",
+      "blend_file": "资产/三维预演/镜头/GJ-R02-SH016.blend",
+      "status": "built_previs_not_final_character_or_scene_master"
+    },
+    {
+      "id": "GJ-R02-SH017",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_start": 2880,
+      "source_end_exclusive": 3120,
+      "local_frame_start": 1,
+      "local_frame_end_inclusive": 240,
+      "fps": [
+        24,
+        1
+      ],
+      "aspect_ratio": "16:9",
+      "sensor_width_mm": 36.0,
+      "sensor_fit": "HORIZONTAL",
+      "clip_m": [
+        0.05999999865889549,
+        3000.0
+      ],
+      "projection": "PERSP",
+      "camera_axis": "local -Z forward, +Y up",
+      "coordinate_system": "meters; X east,Y north,Z up",
+      "camera_surface_clearance_7cm": true,
+      "test_scope": "six-direction camera rays, not actor collision or action approval",
+      "blend_file": "资产/三维预演/镜头/GJ-R02-SH017.blend",
+      "status": "built_previs_not_final_character_or_scene_master"
+    },
+    {
+      "id": "GJ-R02-SH019",
+      "source_scene_id": "GJ-EP01-SC05",
+      "source_start": 3360,
+      "source_end_exclusive": 3600,
+      "local_frame_start": 1,
+      "local_frame_end_inclusive": 240,
+      "fps": [
+        24,
+        1
+      ],
+      "aspect_ratio": "16:9",
+      "sensor_width_mm": 36.0,
+      "sensor_fit": "HORIZONTAL",
+      "clip_m": [
+        0.05999999865889549,
+        3000.0
+      ],
+      "projection": "PERSP",
+      "camera_axis": "local -Z forward, +Y up",
+      "coordinate_system": "meters; X east,Y north,Z up",
+      "camera_surface_clearance_7cm": true,
+      "test_scope": "six-direction camera rays, not actor collision or action approval",
+      "blend_file": "资产/三维预演/镜头/GJ-R02-SH019.blend",
+      "status": "built_previs_not_final_character_or_scene_master"
+    },
+    {
+      "id": "GJ-R01-SH002",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_start": 120,
+      "source_end_exclusive": 288,
+      "local_frame_start": 1,
+      "local_frame_end_inclusive": 168,
+      "fps": [
+        24,
+        1
+      ],
+      "aspect_ratio": "16:9",
+      "sensor_width_mm": 36.0,
+      "sensor_fit": "HORIZONTAL",
+      "clip_m": [
+        0.05999999865889549,
+        3000.0
+      ],
+      "projection": "PERSP",
+      "camera_axis": "local -Z forward, +Y up",
+      "coordinate_system": "meters; X east,Y north,Z up",
+      "camera_surface_clearance_7cm": true,
+      "test_scope": "six-direction camera rays, not actor collision or action approval",
+      "blend_file": "资产/三维预演/镜头/GJ-R01-SH002.blend",
+      "status": "built_previs_not_final_character_or_scene_master"
+    },
+    {
+      "id": "GJ-R01-SH021",
+      "source_scene_id": "GJ-EP01-SC01",
+      "source_start": 3456,
+      "source_end_exclusive": 3600,
+      "local_frame_start": 1,
+      "local_frame_end_inclusive": 144,
+      "fps": [
+        24,
+        1
+      ],
+      "aspect_ratio": "16:9",
+      "sensor_width_mm": 36.0,
+      "sensor_fit": "HORIZONTAL",
+      "clip_m": [
+        0.05999999865889549,
+        3000.0
+      ],
+      "projection": "PERSP",
+      "camera_axis": "local -Z forward, +Y up",
+      "coordinate_system": "meters; X east,Y north,Z up",
+      "camera_surface_clearance_7cm": true,
+      "test_scope": "six-direction camera rays, not actor collision or action approval",
+      "blend_file": "资产/三维预演/镜头/GJ-R01-SH021.blend",
+      "status": "built_previs_not_final_character_or_scene_master"
+    }
+  ],
+  "total_frames": 1032,
+  "ai_generation_status": "not_submitted_account_access_required",
+  "master_sha256": "a067baca0585dca695ed8ea3d91e68478c3878fcc69a1b4e8afd4626e4830b3c"
+}

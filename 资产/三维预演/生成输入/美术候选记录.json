@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "S04 sketch-to-render material candidate",
+  "input_file": "资产/三维预演/生成输入/GJ-R02-SH016/background_start.png",
+  "source_hash_at_submission": null,
+  "source_note": "由该路径三维空景提交；提交时未单独记录输入哈希，随后同模型重新渲染输入，不声称字节链完整",
+  "output_file": "资产/三维预演/生成输入/S04-美术候选.png",
+  "output_sha256": "a4274deec95b641453da5c97587732a1cd1b60754736e6cbca302c42e6c9f6a7",
+  "prompt_file": "资产/三维预演/生成输入/书房美术候选提示词.md",
+  "status": "candidate_not_selected",
+  "review": {
+    "preserved_observation": [
+      "案窗门与窗下柜总体关系",
+      "空景无人物",
+      "夜景局部灯光"
+    ],
+    "deviations_or_unknowns": [
+      "新增梁柱装饰与窗格细节",
+      "家具轮廓和结构边缘需量化",
+      "1%地标阈值未实测",
+      "视频时间一致性未验证"
+    ]
+  }
+}

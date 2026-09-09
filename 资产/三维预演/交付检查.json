@@ -1,0 +1,95 @@
+{
+  "scope": "5 existing parent shots; 43 seconds; remaining 66 shots not previsualized",
+  "videos": [
+    {
+      "id": "GJ-R02-SH016",
+      "role": "Blender material and blocking previs, not final AI video",
+      "file": "资产/三维预演/视频/GJ-R02-SH016.mp4",
+      "sha256": "264dbfb17442e8a8946771eb661e03fe86f52debfcbd413a70cb659b387ae1db",
+      "fps": [
+        24,
+        1
+      ],
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 10.0,
+      "decoded_frames": 240,
+      "decoded_duration_seconds": 10.0,
+      "decode_errors": ""
+    },
+    {
+      "id": "GJ-R02-SH017",
+      "role": "Blender material and blocking previs, not final AI video",
+      "file": "资产/三维预演/视频/GJ-R02-SH017.mp4",
+      "sha256": "9c0bf0e8b7cdeba3d268ea2c235b560b9dfabdae21da9bbdfaf6ecc63beb1d56",
+      "fps": [
+        24,
+        1
+      ],
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 10.0,
+      "decoded_frames": 240,
+      "decoded_duration_seconds": 10.0,
+      "decode_errors": ""
+    },
+    {
+      "id": "GJ-R02-SH019",
+      "role": "Blender material and blocking previs, not final AI video",
+      "file": "资产/三维预演/视频/GJ-R02-SH019.mp4",
+      "sha256": "3ad10a6e7f3ceb621a026aadf301d5bd756ad06d7f5ebbee329f1c2c8fab8652",
+      "fps": [
+        24,
+        1
+      ],
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 10.0,
+      "decoded_frames": 240,
+      "decoded_duration_seconds": 10.0,
+      "decode_errors": ""
+    },
+    {
+      "id": "GJ-R01-SH002",
+      "role": "Blender material and blocking previs, not final AI video",
+      "file": "资产/三维预演/视频/GJ-R01-SH002.mp4",
+      "sha256": "45651572aa32bf53762fd055229ea2378891c867511a9305c593a68e1e3b69fb",
+      "fps": [
+        24,
+        1
+      ],
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 7.0,
+      "decoded_frames": 168,
+      "decoded_duration_seconds": 7.0,
+      "decode_errors": ""
+    },
+    {
+      "id": "GJ-R01-SH021",
+      "role": "Blender material and blocking previs, not final AI video",
+      "file": "资产/三维预演/视频/GJ-R01-SH021.mp4",
+      "sha256": "2af5b42ad33b683c5b901e7aeaf6bd8f96c17daaf9fecd5929d4898165afcf6c",
+      "fps": [
+        24,
+        1
+      ],
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 6.0,
+      "decoded_frames": 144,
+      "decoded_duration_seconds": 6.0,
+      "decode_errors": ""
+    }
+  ],
+  "combined": {
+    "file": "资产/三维预演/视频/五镜技术预演合集.mp4",
+    "sha256": "8f51e2b25ab2bd1f7e105a0f5687f07495f0e2b45add8f84c1e1973ccb58fff4",
+    "decoded_frames": 1032,
+    "decoded_duration_seconds": 43.0,
+    "decode_errors": ""
+  },
+  "ai_video_status": "not_generated",
+  "source_production_task_count": 178,
+  "final_assets_selected": false
+}

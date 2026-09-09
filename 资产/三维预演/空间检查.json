@@ -1,0 +1,49 @@
+{
+  "checks": {
+    "guest_beds_exactly_five": true,
+    "bedroom_bed_separate": true,
+    "four_hitch_horses": true,
+    "four_riding_horses": true,
+    "road_accommodates_eight_packages": true,
+    "package_proxy_contains_actual_carriage": true,
+    "street_and_manor_share_scene": true,
+    "no_central_pond_geometry": true,
+    "study_window_faces_courtyard": true,
+    "rear_store_east_of_yard": true,
+    "no_hero_face_mesh_in_forest": true,
+    "no_central_gate_column": true,
+    "GJ-R02-SH016_camera_clearance": true,
+    "GJ-R02-SH016_library_exists": true,
+    "GJ-R02-SH016_source_frame_count": true,
+    "GJ-R02-SH017_camera_clearance": true,
+    "GJ-R02-SH017_library_exists": true,
+    "GJ-R02-SH017_source_frame_count": true,
+    "GJ-R02-SH019_camera_clearance": true,
+    "GJ-R02-SH019_library_exists": true,
+    "GJ-R02-SH019_source_frame_count": true,
+    "GJ-R01-SH002_camera_clearance": true,
+    "GJ-R01-SH002_library_exists": true,
+    "GJ-R01-SH002_source_frame_count": true,
+    "GJ-R01-SH021_camera_clearance": true,
+    "GJ-R01-SH021_library_exists": true,
+    "GJ-R01-SH021_source_frame_count": true
+  },
+  "passed": true,
+  "mesh_counts": {
+    "CITY_RELATION_ONLY": 322,
+    "FOREST_DAY_SURVEY": 863,
+    "MANOR_DAY": 1927,
+    "MODERN_LOCAL": 14
+  },
+  "measured_carriage_full_width_m": 4.22499942779541,
+  "coverage": "Structural counts, local camera clearance rays and file/timebase bindings only.",
+  "not_verified": [
+    "final character anatomy",
+    "foot-contact animation",
+    "fight choreography",
+    "acoustics",
+    "finished art fidelity",
+    "AI video temporal preservation",
+    "all 71 shots"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "source_shot_id": "GJ-R02-SH016",
+  "source_scene_id": "GJ-EP01-SC05",
+  "source_video": "资产/三维预演/视频/GJ-R02-SH016.mp4",
+  "source_video_sha256": "264dbfb17442e8a8946771eb661e03fe86f52debfcbd413a70cb659b387ae1db",
+  "camera_track": "资产/三维预演/相机/GJ-R02-SH016.json",
+  "duration_seconds": 10.0,
+  "source_fps": [
+    24,
+    1
+  ],
+  "aspect_ratio": "16:9",
+  "prompt_working": "基于本镜三维预演，保留原视频相机、构图、透视、时长和所有建筑边缘。镜号GJ-R02-SH016。运镜：中全景固定含案、紧邻窗下矮柜及门，不跨院。动作依据：沿案到柜，先看落差、探柜面；眼神完成一次估量。背景为高门世家古宅或既有寒季林道；依场景区分，不把林道改成宅院。将代理体替换为已验收角色后才能生成正式人物镜头；当前未绑定身份参考。门窗、柱列、柜案、车马数量和所属状态不得变化。C60脸与手保持不可见。",
+  "provider": null,
+  "model": null,
+  "task_id": null,
+  "returned_video": null,
+  "status": "awaiting_video_account_and_character_binding",
+  "unknown_capabilities": [
+    "video-conditioned geometry fidelity",
+    "frame rate",
+    "depth input",
+    "identity binding"
+  ],
+  "do_not_submit_without": [
+    "available_authenticated_video_model",
+    "reviewed_model_input_mapping"
+  ],
+  "fallback": "retain original rendered background; no account purchase or autonomous paid upgrade"
+}

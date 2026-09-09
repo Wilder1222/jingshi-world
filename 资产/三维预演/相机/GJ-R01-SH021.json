@@ -1,0 +1,5228 @@
+{
+  "id": "GJ-R01-SH021",
+  "source_scene_id": "GJ-EP01-SC01",
+  "source_start": 3456,
+  "source_end_exclusive": 3600,
+  "local_frame_start": 1,
+  "local_frame_end_inclusive": 144,
+  "fps": [
+    24,
+    1
+  ],
+  "aspect_ratio": "16:9",
+  "sensor_width_mm": 36.0,
+  "sensor_fit": "HORIZONTAL",
+  "clip_m": [
+    0.05999999865889549,
+    3000.0
+  ],
+  "projection": "PERSP",
+  "camera_axis": "local -Z forward, +Y up",
+  "coordinate_system": "meters; X east,Y north,Z up",
+  "camera_surface_clearance_7cm": true,
+  "test_scope": "six-direction camera rays, not actor collision or action approval",
+  "source": {
+    "id": "GJ-R01-SH021",
+    "scene_id": "GJ-EP01-SC01",
+    "beat": "灰袖",
+    "camera": "双层中景固定，焦点从黄移到树干后的灰袖；不绕树揭秘",
+    "action": "黄由逼杀变戒备；灰袖收回，脸与手仍遮住",
+    "sound": "雨声回来，救者无台词、无专属识别旋律",
+    "end_state": "仅确认有人介入，不确认身份或境界",
+    "start_frame": 3456,
+    "end_frame": 3600,
+    "depends_on": [
+      "GJ-R01-SH020"
+    ],
+    "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+    "media_status": "not_generated"
+  },
+  "blend_file": "资产/三维预演/镜头/GJ-R01-SH021.blend",
+  "status": "built_previs_not_final_character_or_scene_master",
+  "frames": [
+    {
+      "local_frame": 1,
+      "source_frame": 3456,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 2,
+      "source_frame": 3457,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 3,
+      "source_frame": 3458,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 4,
+      "source_frame": 3459,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 5,
+      "source_frame": 3460,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 6,
+      "source_frame": 3461,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 7,
+      "source_frame": 3462,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 8,
+      "source_frame": 3463,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 9,
+      "source_frame": 3464,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 10,
+      "source_frame": 3465,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 11,
+      "source_frame": 3466,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 12,
+      "source_frame": 3467,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 13,
+      "source_frame": 3468,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 14,
+      "source_frame": 3469,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 15,
+      "source_frame": 3470,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 16,
+      "source_frame": 3471,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 17,
+      "source_frame": 3472,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 18,
+      "source_frame": 3473,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 19,
+      "source_frame": 3474,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 20,
+      "source_frame": 3475,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 21,
+      "source_frame": 3476,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 22,
+      "source_frame": 3477,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 23,
+      "source_frame": 3478,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 24,
+      "source_frame": 3479,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 25,
+      "source_frame": 3480,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 26,
+      "source_frame": 3481,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 27,
+      "source_frame": 3482,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 28,
+      "source_frame": 3483,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 29,
+      "source_frame": 3484,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 30,
+      "source_frame": 3485,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 31,
+      "source_frame": 3486,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 32,
+      "source_frame": 3487,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 33,
+      "source_frame": 3488,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 34,
+      "source_frame": 3489,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 35,
+      "source_frame": 3490,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 36,
+      "source_frame": 3491,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 37,
+      "source_frame": 3492,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 38,
+      "source_frame": 3493,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 39,
+      "source_frame": 3494,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 40,
+      "source_frame": 3495,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 41,
+      "source_frame": 3496,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 42,
+      "source_frame": 3497,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 43,
+      "source_frame": 3498,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 44,
+      "source_frame": 3499,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 45,
+      "source_frame": 3500,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.114608899069282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 46,
+      "source_frame": 3501,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.1170305080992975,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 47,
+      "source_frame": 3502,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.1241857834120035,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 48,
+      "source_frame": 3503,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.1359137705549855,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 49,
+      "source_frame": 3504,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.152054633072316,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 50,
+      "source_frame": 3505,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.1724448645279075,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 51,
+      "source_frame": 3506,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.196925094870766,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 52,
+      "source_frame": 3507,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.2253364646270954,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 53,
+      "source_frame": 3508,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.25751877392792,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 54,
+      "source_frame": 3509,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.293311990478687,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 55,
+      "source_frame": 3510,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.332556668606803,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 56,
+      "source_frame": 3511,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.375094677547807,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 57,
+      "source_frame": 3512,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.420763933458424,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 58,
+      "source_frame": 3513,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.469405851387016,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 59,
+      "source_frame": 3514,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.520860516082621,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 60,
+      "source_frame": 3515,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.5749644641590494,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 61,
+      "source_frame": 3516,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.631559877253969,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 62,
+      "source_frame": 3517,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.690483842704282,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 63,
+      "source_frame": 3518,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.751575164878397,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 64,
+      "source_frame": 3519,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.814669293547285,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 65,
+      "source_frame": 3520,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.879606531126755,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 66,
+      "source_frame": 3521,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 4.946221479008784,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 67,
+      "source_frame": 3522,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.014352397853497,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 68,
+      "source_frame": 3523,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.083833906927138,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 69,
+      "source_frame": 3524,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.1545024077737045,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 70,
+      "source_frame": 3525,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.226193020110148,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 71,
+      "source_frame": 3526,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.298739715524795,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 72,
+      "source_frame": 3527,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.371980223587698,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 73,
+      "source_frame": 3528,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.445745865476459,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 74,
+      "source_frame": 3529,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.519874062660756,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 75,
+      "source_frame": 3530,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.5941943359779875,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 76,
+      "source_frame": 3531,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.668543904079381,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 77,
+      "source_frame": 3532,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.742755193609668,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 78,
+      "source_frame": 3533,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.816660781322697,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 79,
+      "source_frame": 3534,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.89009460545477,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 80,
+      "source_frame": 3535,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 5.962890530038652,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 81,
+      "source_frame": 3536,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.034880174414767,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 82,
+      "source_frame": 3537,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.105897503989371,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 83,
+      "source_frame": 3538,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.175774197269782,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 84,
+      "source_frame": 3539,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.24434275176192,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 85,
+      "source_frame": 3540,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.311438938704355,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 86,
+      "source_frame": 3541,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.376892325562747,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 87,
+      "source_frame": 3542,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.440536456492003,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 88,
+      "source_frame": 3543,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.5022015213321325,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 89,
+      "source_frame": 3544,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.561725457214496,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 90,
+      "source_frame": 3545,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.618935382325314,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 91,
+      "source_frame": 3546,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.6736673185575155,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 92,
+      "source_frame": 3547,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.725750613865627,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 93,
+      "source_frame": 3548,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.77502278538775,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 94,
+      "source_frame": 3549,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.821310490306275,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 95,
+      "source_frame": 3550,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.864451778079388,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 96,
+      "source_frame": 3551,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.9042751349682865,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 97,
+      "source_frame": 3552,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.9406165734814875,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 98,
+      "source_frame": 3553,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 6.973306306087388,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 99,
+      "source_frame": 3554,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.002179200421215,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 100,
+      "source_frame": 3555,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.027067205512544,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 101,
+      "source_frame": 3556,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.047804354604306,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 102,
+      "source_frame": 3557,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.064221710304358,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 103,
+      "source_frame": 3558,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.0761567762373305,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 104,
+      "source_frame": 3559,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.083437938245037,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 105,
+      "source_frame": 3560,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 106,
+      "source_frame": 3561,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 107,
+      "source_frame": 3562,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 108,
+      "source_frame": 3563,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 109,
+      "source_frame": 3564,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 110,
+      "source_frame": 3565,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 111,
+      "source_frame": 3566,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 112,
+      "source_frame": 3567,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 113,
+      "source_frame": 3568,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 114,
+      "source_frame": 3569,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 115,
+      "source_frame": 3570,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 116,
+      "source_frame": 3571,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 117,
+      "source_frame": 3572,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 118,
+      "source_frame": 3573,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 119,
+      "source_frame": 3574,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 120,
+      "source_frame": 3575,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 121,
+      "source_frame": 3576,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 122,
+      "source_frame": 3577,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 123,
+      "source_frame": 3578,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 124,
+      "source_frame": 3579,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 125,
+      "source_frame": 3580,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 126,
+      "source_frame": 3581,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 127,
+      "source_frame": 3582,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 128,
+      "source_frame": 3583,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 129,
+      "source_frame": 3584,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 130,
+      "source_frame": 3585,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 131,
+      "source_frame": 3586,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 132,
+      "source_frame": 3587,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 133,
+      "source_frame": 3588,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 134,
+      "source_frame": 3589,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 135,
+      "source_frame": 3590,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 136,
+      "source_frame": 3591,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 137,
+      "source_frame": 3592,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 138,
+      "source_frame": 3593,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 139,
+      "source_frame": 3594,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 140,
+      "source_frame": 3595,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 141,
+      "source_frame": 3596,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 142,
+      "source_frame": 3597,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 143,
+      "source_frame": 3598,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    },
+    {
+      "local_frame": 144,
+      "source_frame": 3599,
+      "position_m": [
+        14.9,
+        3.0,
+        1.7
+      ],
+      "quaternion_wxyz": [
+        0.679829,
+        0.661053,
+        -0.22138,
+        -0.227668
+      ],
+      "lens_mm": 52.0,
+      "focus_distance_m": 7.085902465262648,
+      "fstop": 4.0,
+      "dof_enabled": true,
+      "landmarks_uv_depth": {
+        "S01_RightDoorAnchor": [
+          1.222505,
+          1.218031,
+          -2.385608
+        ],
+        "S01_C60FaceAnchor": [
+          0.507256,
+          0.57193,
+          7.66713
+        ],
+        "S01_ExitForward": [
+          -0.906987,
+          0.363596,
+          20.962278
+        ]
+      }
+    }
+  ]
+}
