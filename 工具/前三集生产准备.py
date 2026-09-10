@@ -1,11 +1,15 @@
 """从作者维护的任务源生成 MJ 探索交接包；不调用生成服务、不宣布选版。"""
 import argparse
+import sys
 import csv
 import hashlib
 import io
 import json
 import os
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from 母版匹配 import load_generated, render_mapping, render_missing
 
 ROOT = Path(__file__).resolve().parents[1]
 PACK = ROOT / '资产/生产准备/前三集-v1.9'
@@ -30,6 +34,8 @@ def load_masters():
     characters = {c['id']: c for c in read(ROOT / '索引/数据/characters.json')}
     locations = {s['id']: s for s in read(ROOT / '索引/数据/locations.json')}
     seen, assets, task_ids = set(), set(), set()
+    instance_masters = {p['id']: p.get('master_id') for p in read(PACK / '补充任务源.json')['first_wave']}
+    assigned_instances = set()
     for master in masters:
         key = master['id']
         if key in seen or master['status'] != 'selected' or master['scope'] not in ('portrait_identity', 'architecture_visual', 'ordinary_assassin_group'):
@@ -56,9 +62,15 @@ def load_masters():
         if not master['asset_ids'] or not master['selection_basis']:
             raise ValueError('母版缺角色或选用依据')
         if master['scope'] == 'ordinary_assassin_group':
-            if master['asset_ids'] != ['S01'] or master.get('group_key') != 'S01-W1' or master.get('instance_id') is not None:
+            instance = master.get('instance_id')
+            if master['asset_ids'] != ['S01'] or master.get('group_key') != 'S01-W1':
                 raise ValueError('普通刺客组不能冒充具名角色或已分配实例')
-            if master['task_ids'] or master['reference_task_ids'] != ['POST-WAVES'] or not master.get('unverified'):
+            if instance not in instance_masters or instance_masters[instance] != key or instance in assigned_instances:
+                raise ValueError('普通刺客实例重复或与源映射不符')
+            assigned_instances.add(instance)
+            if not master.get('instance_assignment', {}).get('basis'):
+                raise ValueError('普通刺客自动分配缺依据')
+            if master['task_ids'] or master['reference_task_ids'] != ['POST-WAVES', 'MB-' + instance] or not master.get('unverified'):
                 raise ValueError('普通刺客组仅可供波次核对，不完成全身实例任务')
             if master.get('framing') not in ('full_body', 'feet_cropped'):
                 raise ValueError('普通刺客须记录完整裁幅')
@@ -125,10 +137,9 @@ def bind_masters(tasks, masters):
                                       constraints=m['derivation_rule'])
                                   for m in masters if m['scope'] == 'architecture_visual'
                                   and set(m['reference_task_ids']) & lineage]
-        if t['id'] == 'POST-WAVES':
-            t['input_references'] += [dict(master_id=m['id'], path=m['path'], sha256=m['sha256'],
+        t['input_references'] += [dict(master_id=m['id'], path=m['path'], sha256=m['sha256'],
                                           purpose='ordinary_assassin_group', constraints=m['derivation_rule'])
-                                      for m in masters if m['scope'] == 'ordinary_assassin_group']
+                                      for m in masters if m['scope'] == 'ordinary_assassin_group' and t['id'] in m['reference_task_ids']]
         t['unresolved_dependencies'] = [dep for dep in t['depends_on'] if dep not in selected]
         if t['depends_on'] and not t['unresolved_dependencies'] and not master:
             t['status'] = 'ready_for_exploration'
@@ -186,6 +197,8 @@ def validate(data):
         raise ValueError('蒙面候选与源登记不一致')
     if data['matched_asset_references'] != load_matched_references():
         raise ValueError('匹配参考与源登记不一致')
+    if data['generated_assets'] != read(ROOT / '资产/媒体/母版登记.json').get('generated_assets', []):
+        raise ValueError('生成候选与源登记不一致')
     tasks = data['tasks']
     ids = [t['id'] for t in tasks]
     if len(ids) != len(set(ids)):
@@ -219,6 +232,8 @@ def validate(data):
                 raise ValueError('分镜相邻依赖或媒体状态不实')
             if not all(shot.get(k) for k in ('beat', 'camera', 'action', 'sound', 'end_state')):
                 raise ValueError('分镜缺因果、运镜或声音')
+            if not all(shot.get(k) for k in ('performance', 'blocking_continuity', 'cut_cue')):
+                raise ValueError('前三集逐镜表演、接续或切点缺失')
             totals[shot['scene_id']] += shot['end_frame'] - cursor
             cursor = shot['end_frame']
             previous = [shot['id']]
@@ -268,8 +283,10 @@ def validate(data):
     for t in tasks:
         visit(t['id'])
         master = next((m for m in data['selected_masters'] if t['id'] in m['task_ids']), None)
+        candidate = next((m for m in data['generated_assets'] if t['id'] == m['task_id']), None)
         if (t['actual_file'], t['media_status'], t['selected_master_id']) != (
-                master['path'] if master else None, 'selected' if master else 'not_generated', master['id'] if master else None):
+                master['path'] if master else candidate['path'] if candidate else None,
+                'selected' if master else candidate['status'] if candidate else 'not_generated', master['id'] if master else candidate['id'] if candidate and candidate['status'] == 'selected' else None):
             raise ValueError('任务媒体必须对应已登记母版；不能冒充实际媒体')
         if not t['scene_ids'] or not set(t['scene_ids']) <= set(data['scene_ids']):
             raise ValueError('场次失配：' + t['id'])
@@ -293,7 +310,7 @@ def validate(data):
 
 def validate_visual_source(cfg):
     fields = ('studio_background_en', 'portrait_light_en', 'grooming_en',
-              'identity_en', 'hair_en', 'costume_en', 'checks')
+              'identity_en', 'hair_en', 'costume_en', 'body_proportion_en', 'checks')
     ids = [c['id'] for c in cfg['characters']]
     if len(ids) != len(set(ids)):
         raise ValueError('重复人物视觉源编号')
@@ -360,8 +377,9 @@ def build_data():
         elif framing == 'detail':
             subject = 'Detail crop of the same selected costume. '
             grooming = ''
+        proportions = c['body_proportion_en'] + ' ' if 'full-length' in view.lower() or framing == 'back' else ''
         return (subject + f"{costume or c['costume_en']}. {view}. "
-                + grooming + f"{background or c['studio_background_en']}. {c['portrait_light_en']}. "
+                + grooming + proportions + f"{background or c['studio_background_en']}. {c['portrait_light_en']}. "
                 'One subject, one frame. ' + cfg['style_en'])
 
     for c in cfg['characters']:
@@ -480,19 +498,21 @@ def build_data():
     pending = load_pending_masters()
     matched = load_matched_references()
     bind_masters(tasks, masters)
+    generated = load_generated(tasks)
+    support_paths = {s['path'] for m in generated for s in m.get('supporting_assets', [])}
     paths = {p for t in tasks for p in t['source_paths']} | {
         '索引/数据/episodes.json', '索引/数据/发行前三集.json', '资产/生产准备/前三集-v1.9/视觉任务源.json',
         '资产/生产准备/前三集-v1.9/补充任务源.json', '工具/前三集生产准备.py',
-        '资产/媒体/母版登记.json', '索引/数据/characters.json', '索引/数据/locations.json'} | {m['path'] for m in masters} | {m['original_path'] for m in masters if m.get('original_path')} | {m['path'] for m in pending} | {m['path'] for m in matched}
+        '资产/媒体/母版登记.json', '工具/母版匹配.py', '索引/数据/characters.json', '索引/数据/locations.json'} | {m['path'] for m in masters} | {m['original_path'] for m in masters if m.get('original_path')} | {m['path'] for m in pending} | {m['path'] for m in matched} | {m['path'] for m in generated}
     data = dict(format='jingshi-production-working-draft', canonical=False, revision='v1.9',
-                baseline_commit=cfg['baseline_commit'], media_status='partially_selected', selected_masters=masters, pending_master_candidates=pending, matched_asset_references=matched,
+                baseline_commit=cfg['baseline_commit'], media_status='partially_selected', selected_masters=masters, pending_master_candidates=pending, matched_asset_references=matched, generated_assets=generated,
                 model=cfg['model'], manual_preflight_required=True,
                 scene_ids=[s['id'] for s in scenes], visible_asset_ids=visible,
                 release_plan=release, scene_budgets={s['id']: s['duration_estimate_seconds'] for s in scenes},
                 scene_release_map={s['id']: s.get('release_episode_id') for s in scenes},
                 first_wave_instances=first_wave, assault_waves=eps[0]['scenes'][0]['assault_waves'],
                 retired_tasks=extra.get('retired_tasks', []),
-                source_sha256={p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(paths)}, tasks=tasks)
+                source_sha256={p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(paths | support_paths)}, tasks=tasks)
     validate(data)
     return data
 
@@ -514,6 +534,11 @@ def render_release(release):
         for shot in ep['shots']:
             window = f"{stamp(shot['start_frame'])}–{stamp(shot['end_frame'])} / [{shot['start_frame']},{shot['end_frame']})"
             text += f"| {shot['id']}／{shot['scene_id']} | {window} | {shot['beat']} | {shot['camera']} | {shot['action']} | {shot['sound']} | {shot['end_state']} |\n"
+        detailed = [s for s in ep['shots'] if s.get('performance')]
+        if detailed:
+            text += '\n### 逐镜表演与接续执行\n\n以下为导演工作稿；切点是动作触发条件，未替代试读计时，父镜号和预算保持。\n\n| 镜号 | 表演与关系变化 | 调度／道具接续 | 切镜触发 |\n|---|---|---|---|\n'
+            for s in detailed:
+                text += f"| {s['id']} | {s['performance']} | {s['blocking_continuity']} | {s['cut_cue']} |\n"
     text += '\n## 验收与减法顺序\n\n先用当前对白和静帧／占位板验证占时，再录可替换的临时声音；不宣称已经有录音。每镜检查空间、接触结果、视线、衣伤、道具归属、声音先后。超时优先压空景、重复反应和走路过渡；不删十人退出、韩许换手、黄撤令、原顾清醒回家、今顾选择开门、旧票用途差异。若仍超出约3分钟，提出新的分集边界供复核，不能默默加速成片。\n'
     return text
 
@@ -523,7 +548,7 @@ def render(data):
     mj = [t for t in tasks if t['method'] == 'MJ']
     ordered = sorted(mj, key=lambda t: (not bool(t['first_batch']), t['first_batch'] or 999, t['id']))
     selected_count = sum(t['media_status'] == 'selected' for t in tasks)
-    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；{len(FACE_CAST)}张独立身份脸、C60一个遮脸轮廓、另有第一波十个遮面群演实例、16场。已有{selected_count}项使用用户选定母版，其余{len(tasks)-selected_count}项未完成；全库母版登记见[媒体库](../../媒体/README.md)。'
+    counts = f'{len(tasks)}项交接任务：{len(mj)}项MJ探索、{len(tasks)-len(mj)}项非MJ任务；{len(FACE_CAST)}张独立身份脸、C60一个遮脸轮廓、另有第一波十个遮面群演实例、16场。已有{selected_count}项已绑定身份母版，其余{len(tasks)-selected_count}项未完成；全库母版登记见[媒体库](../../媒体/README.md)。'
     current = [t for t in tasks if t['release_scope'] == 'current_first_three']
     counts += f" 这是前三发行集与后续门口预备的合计；当前前三集关联{len(current)}项，后续专用{len(tasks)-len(current)}项。前三发行集11场、180／195／180秒，详[逐镜节奏](前三集节奏与分镜.md)。"
     if data['matched_asset_references']:
@@ -543,7 +568,9 @@ def render(data):
         prompts += '来源：' + ' · '.join(f'[{Path(p).stem}](<{link(p)}>)' for p in t['source_paths']) + '\n\n'
         prompts += f"```text\n{t['projection']}\n```\n\n验收：{t['acceptance']}。\n\n"
         if t['media_status'] == 'selected':
-            prompts += f"状态：用户已选[肖像母版](<{link(t['actual_file'])}>)，复用本图；以上文字为原任务方向，无需重新海选。\n"
+            prompts += f"状态：已绑定[本任务母版](<{link(t['actual_file'])}>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。\n"
+        elif t['media_status'] == 'generated_candidate':
+            prompts += f"状态：已用内置imagegen生成[实际候选](<{link(t['actual_file'])}>)，尚待衣装复核；并非MJ执行结果，实际工具和提示词见媒体登记。\n"
         else:
             prompts += f"状态：尚未生成；拟存文件名 `{t['planned_filename']}`，实际文件为空。\n"
         if t['input_references']:
@@ -556,6 +583,8 @@ def render(data):
     overview += '\n## 停用编号\n\n' + '\n'.join(f"- {r['id']}：{r['reason']}" for r in data['retired_tasks']) + '\n'
     out = {'生产任务.json': json.dumps(data, ensure_ascii=False, indent=2) + '\n',
            '资产任务清单.md': overview, 'MJ提示词.md': prompts,
+           '../../媒体/母版自动适配编号.md': render_mapping(data),
+           '前三集实际资产缺口.md': render_missing(data),
            '前三集节奏与分镜.md': render_release(data['release_plan'])}
     buf = io.StringIO(newline='')
     writer = csv.writer(buf)

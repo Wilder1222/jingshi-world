@@ -1,0 +1,512 @@
+{
+  "schema": 1,
+  "date": "2026-09-10",
+  "scope": "独立服装候选，不替代C/S/P、MB任务或角色现行衣装；按完整套装计件",
+  "generator": "image_gen.imagegen",
+  "assets": [
+    {
+      "id": "WARD-001",
+      "name": "月白青瓷绣边衣裙",
+      "source_image": 2,
+      "source_position": "单排左1",
+      "use": "女装·会客／室内",
+      "try_on": "宁清晏后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-001.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: the LEFTMOST of six women: ivory embroidered long outer robe, celadon cross-collar inner tunic with long teal vertical panels, cream full skirt. Preserve fine botanical embroidery and restrained bead edging, reduce heavy pearl ropes to a fine fabric piping. Opaque silk lining.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "珠缘未完全简化，裙摆略触地，限会客礼衣候选。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/2-照片-2.jpg",
+      "source_sha256": "46051f9536dbd0969abf02dcd6e37ce9af0a6ea1b224c5034f182bdb0e2e22d9",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "2d4bf4a4d9e9bc6fa066fb3425f18c9aff76f68db73a29cae077ab2546e22cbe"
+    },
+    {
+      "id": "WARD-002",
+      "name": "月白宽袖青玉衣裙",
+      "source_image": 2,
+      "source_position": "单排左3",
+      "use": "女装·冬日室内",
+      "try_on": "宁清晏后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-002.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: THIRD woman from left of six: full-length ivory open outer coat with rounded ample sleeves over muted teal bodice and teal skirt. Clearly constructed collar, discreet woven textures and cotton lining, no neck brooch or royal jewelry.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "领口有立起外领结构，冬日仅室内候选，外出需闭合保暖层。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/2-照片-2.jpg",
+      "source_sha256": "46051f9536dbd0969abf02dcd6e37ce9af0a6ea1b224c5034f182bdb0e2e22d9",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "a28538489fabfcedf11568e3a3ea9cd55f6ca82437e470b99bb8a44f41b0f441"
+    },
+    {
+      "id": "WARD-003",
+      "name": "月白花锦石榴礼衣",
+      "source_image": 2,
+      "source_position": "单排左6",
+      "use": "女装·正式礼装",
+      "try_on": "未绑定人物",
+      "status": "generated_candidate",
+      "image": "WARD-003.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: SIXTH / RIGHTMOST woman: luxurious ivory botanical brocade long outer robe over deep pomegranate red crossed inner collar and narrow red vertical front edging, pale floral lower skirt. Retain restrained botanical embroidery, shorten dragging train to floor length. No crown, no rank insignia or imperial motifs.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "无冠饰，后侧少量落地衣尾，限正式礼装，不指认婚服或皇室身份。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/2-照片-2.jpg",
+      "source_sha256": "46051f9536dbd0969abf02dcd6e37ce9af0a6ea1b224c5034f182bdb0e2e22d9",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "18ef5054036b1252a709fdff5b70cfe0fbc31643898254f7b6f27d14a7540954"
+    },
+    {
+      "id": "WARD-004",
+      "name": "浅黛月白长衫裙",
+      "source_image": 3,
+      "source_position": "单排左1",
+      "use": "女装·暖季／室内",
+      "try_on": "宁清晏后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-004.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: FIRST / LEFTMOST of seven women: desaturated blue-teal open long robe over opaque ivory high-waisted flowing dress with fine botanical hem embroidery. Preserve narrow decorative vertical edge, restrained luxury and opaque layers, no train.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "轻罗外层与不透内裙，限暖季／室内，冬日不得直接套用。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/3-照片-3.jpg",
+      "source_sha256": "a97cffc4e4768a6fd36ba138b4840da72e9752e8a7996c687b94b0067f119cf0",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "18ddadaa58097b8be15058ac3e50a40c357af1015a5f7ec931d41f583bde0e92"
+    },
+    {
+      "id": "WARD-005",
+      "name": "烟蓝暖杏夹衣裙",
+      "source_image": 4,
+      "source_position": "单排左4",
+      "use": "女装·冬日外出",
+      "try_on": "沈蘅后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-005.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: FOURTH person from left of ten: woman wearing slate-blue open long coat with manageable gathered sleeves over warm apricot and ivory crossed-collar dress. Add concealed light cotton lining, weighty hem, finely woven silk-wool surface, practical cuffs and modest waist tie.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "衬层可见；腰带较长，理货行走需固定，保暖需实作验证。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/4-照片-4.jpg",
+      "source_sha256": "51dd243ebf653574b1821ec12fa95e62c68f11201d3762571e9951cf07fb51ac",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "ffe321391cc02fc522a774f3d88a6851bb48a8ccd3fe5afe58fccc33260d028f"
+    },
+    {
+      "id": "WARD-006",
+      "name": "深青束腰交领衣裙",
+      "source_image": 4,
+      "source_position": "单排左10",
+      "use": "女装·日常任事",
+      "try_on": "沈蘅后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-006.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: TENTH / RIGHTMOST person: woman in deep teal wrapped long robe-dress, ivory crossed inner collar, narrow dark teal belt and restrained pale vertical edging. Sleeves moderately loose but securable at wrists, opaque lined skirt, tailored mobility, understated silk texture.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "实际袖口偏宽，任事前需收袖试装，不按窄袖动作服验收。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/4-照片-4.jpg",
+      "source_sha256": "51dd243ebf653574b1821ec12fa95e62c68f11201d3762571e9951cf07fb51ac",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "1d2d1097aef8523701af89d835583e4ff85e17ab2e00b6e8cb764d6d01147264"
+    },
+    {
+      "id": "WARD-007",
+      "name": "暖杏短袄青绿褶裙",
+      "source_image": 5,
+      "source_position": "单排左5",
+      "use": "女装·日常／冬日",
+      "try_on": "殷照夜或沈蘅后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-007.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: FIFTH person from left of thirteen: woman in warm apricot short outer jacket, ivory crossed inner collar, muted green pleated full-length skirt with restrained ivory and apricot hem bands. Preserve cheerful soft palette, tiny floral embroidery, lightly padded opaque lining, practical shorter sleeves over full-length inner sleeves.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "短袄、褶裙与花枝绣保留；内袖仍宽，提物动作需束袖。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/5-照片-5.jpg",
+      "source_sha256": "691111da8c4e0073269f10c526a9ff653445537011e7715668838044f3e71501",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "241559aa945a5457f3882049242dbdbf47e5e0e9750ded6ee8b722f9939f955c"
+    },
+    {
+      "id": "WARD-008",
+      "name": "灰绿素锦直身袍",
+      "source_image": 1,
+      "source_position": "上排左2",
+      "use": "男装·日常",
+      "try_on": "成年人物后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-008.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: TOP ROW SECOND person from left: muted grey-green male long straight robe with cross collar, discreet small side closure, blackish grey lower garment, simple dark cloth shoes. Fine low-contrast silk-wool jacquard rather than rough burlap, practical wrist cuffs, warm opaque lining. No hat.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "灰绿直身、侧扣与暗色下层保留；较原图强化低反差织纹。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/1-照片-1.jpg",
+      "source_sha256": "7985914cb614b38a73b90221d7def04f7b6a666e9d93b737465cc68397ed88ce",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "daaff5b62282d793d1c0825c1799a752800588363569778132f7e4e6cf3c06a4"
+    },
+    {
+      "id": "WARD-009",
+      "name": "月白素绫宽袖袍",
+      "source_image": 4,
+      "source_position": "单排左1",
+      "use": "男装·室内会客",
+      "try_on": "成年人物后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-009.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: FIRST / LEFTMOST of ten people: man in ivory roomy full-length overlapping robe, soft layered crossed collar, pale taupe underlayer and broad but controlled sleeves, dark subdued cloth shoes. Refined matte silk twill with subtle woven pattern, opaque construction, floor-clearance hem. No crown.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "月白多层交领与宽袖会客外袍，不替代顾砚当前P14里衣。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/4-照片-4.jpg",
+      "source_sha256": "51dd243ebf653574b1821ec12fa95e62c68f11201d3762571e9951cf07fb51ac",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "694089bdf7d6f2459c939f84e42e79d700e2050b82e2b9fb6e39501cf13db67b"
+    },
+    {
+      "id": "WARD-010",
+      "name": "米白墨青叠层长衣",
+      "source_image": 4,
+      "source_position": "单排左8",
+      "use": "男装·冬日会客",
+      "try_on": "中老年人物后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-010.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: EIGHTH person from left of ten: older man in cream long open outer robe with charcoal long inner vest/front panels over muted green inner robe, narrow belt, pale lower layers and dark cloth shoes. Retain layered vertical panel architecture, refined silk-wool, light cotton lining. Natural mature torso allowance; no hunched body caricature, no crown.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "米白、墨色长襟与灰绿分层；中老年试装按肩背腹围调整，不默认驼背。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/4-照片-4.jpg",
+      "source_sha256": "51dd243ebf653574b1821ec12fa95e62c68f11201d3762571e9951cf07fb51ac",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "c180323bc9cf02a1660efd5700473d7da2c320497b3893003b4a0ca09e9278ba"
+    },
+    {
+      "id": "WARD-011",
+      "name": "赭红交领长袍",
+      "source_image": 5,
+      "source_position": "单排左4",
+      "use": "男装·日常会客",
+      "try_on": "成年人物后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-011.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: FOURTH person from left of thirteen: man wearing subdued russet red crossed-collar long robe, ivory inner collar and cuffs, cream pleated lower layer, slim tied waist belt, dark cloth shoes. Rich but matte fine silk-wool with low contrast woven textures, opaque light winter lining, controlled sleeve volume.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "赭红交领与白内袖保留，日常会客候选，不自动赋予官阶。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/5-照片-5.jpg",
+      "source_sha256": "691111da8c4e0073269f10c526a9ff653445537011e7715668838044f3e71501",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "40aaa1fd1086d882670f5eccceaff91b3cbd0af881421187128272488ca2725d"
+    },
+    {
+      "id": "WARD-012",
+      "name": "深靛织锦缘礼袍",
+      "source_image": 5,
+      "source_position": "单排左10",
+      "use": "男装·正式会客",
+      "try_on": "顾砚等后续试装，需另核体型",
+      "status": "generated_candidate",
+      "image": "WARD-012.png",
+      "prompt": "Use case: product-mockup. Create ONE standalone complete ancient Chinese fantasy COSTUME ENSEMBLE asset, derived from the specified outfit in this reference sheet. The supplied image is clothing reference only. Isolate the chosen outfit and reconstruct clear garment construction, not a cropped photograph. Front view, invisible ghost mannequin product photography: volumetric shoulders, sleeves, torso and lower layers, empty neck opening, NO human face, head, hair, skin, hands, visible dummy or stand. Relaxed sleeves angled a little away from torso. Natural adult shoulder/waist/torso/leg proportions, no elongated fashion legs or impossibly tiny waist. Entire ensemble from collar to hem and paired simple period shoes in view with generous margins, single centered ensemble, portrait 2:3. Neutral pale grey seamless studio background, soft neutral lighting, crisp readable silk/twill/brocade texture, restrained luxurious craft, accurate opaque lining and credible gravity. No collage, no second outfit, no text, logos, watermark, weapons, jewelry or floating scarves. Specific reference and garment: TENTH person from left of thirteen: man in deep navy long formal open outer robe with narrow muted bronze botanical brocade vertical bands, ivory inner robe with wide sleeves and pale lower skirt-like hem. Preserve elegant layered construction and dark waist sash. Restrained antique-gold trim only, no crown, rank badge, dragon motifs or armor.",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "正面衣装概念候选，非角色定妆或裁剪验收",
+        "summary": "深靛与古铜绣边礼袍，宽袖限正式会客，不作为当前行旅或护甲。",
+        "remaining": [
+          "年龄与头身比例试装",
+          "背面裁片固定",
+          "袖口裙摆动作测试",
+          "实作材质季节适配"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/5-照片-5.jpg",
+      "source_sha256": "691111da8c4e0073269f10c526a9ff653445537011e7715668838044f3e71501",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "d0894ee56108de223af882fd78bc1b3b05ad6fbb8e3402be0bd2443224df1733"
+    },
+    {
+      "id": "WARD-013",
+      "name": "月白云纱叠绸裙",
+      "source_image": 2,
+      "source_position": "单排左4",
+      "use": "女装·暖季／室内礼仪",
+      "try_on": "宁清晏后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-013.png",
+      "prompt": "Create ONE standalone full costume ensemble asset inspired by the specified outfit in the supplied reference sheet, with a slightly more xianxia cultivated-elegant aesthetic. Clothing reference only, no source faces. Invisible ghost mannequin, NO human head, face, hands, skin, visible dummy or stand. Front view from empty collar opening to full hem and matching simple shoes, generous margin, natural adult shoulder waist torso proportions. A gentle breeze lifts only outer sleeve edges and attached draping panels; fabric remains sewn and gravity-believable. Clearly show translucent silk gauze OUTER layers over fully opaque silk/satin inner clothing, refined soft sheen not plastic glitter, exquisite restrained botanical embroidery. Neutral pale grey studio, soft neutral lighting, crisp fabric texture. One outfit per portrait2:3 image, no collage, labels, text, watermark, crown, jewelry, weapons, armor, luminous spell effects or scenery. FOURTH of six women, ivory airy robe. Reimagine ivory silk gauze outer robe with broad flowing double-layer sleeves and layered moon-white silk charmeuse inner long dress, modest crossed opaque collar, soft ivory satin waist tie, fine barely visible silver-white cloud-and-orchid embroidery near hem. Airy layers distinctly sheer at sleeve ends, full lining on torso and skirt. No bridal veil or long train.",
+      "style": "轻纱绸缎／略偏仙侠",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "独立衣装正面概念候选",
+        "summary": "月白透纱与实色绸缎分层清楚，云兰细绣及流动宽袖；衣摆接地，礼仪或室内采用。",
+        "remaining": [
+          "人物年龄体型与头身试装",
+          "宽袖衣摆动作及背面结构",
+          "季节场景与实作材质"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/2-照片-2.jpg",
+      "source_sha256": "46051f9536dbd0969abf02dcd6e37ce9af0a6ea1b224c5034f182bdb0e2e22d9",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "281c49124b208470bb381607fdb4d1007fd57cfb39fd6f990b06dae44aaa15ba"
+    },
+    {
+      "id": "WARD-014",
+      "name": "淡藕流绡衣裙",
+      "source_image": 3,
+      "source_position": "单排左4",
+      "use": "女装·暖季／闲暇",
+      "try_on": "殷照夜后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-014.png",
+      "prompt": "Create ONE standalone full costume ensemble asset inspired by the specified outfit in the supplied reference sheet, with a slightly more xianxia cultivated-elegant aesthetic. Clothing reference only, no source faces. Invisible ghost mannequin, NO human head, face, hands, skin, visible dummy or stand. Front view from empty collar opening to full hem and matching simple shoes, generous margin, natural adult shoulder waist torso proportions. A gentle breeze lifts only outer sleeve edges and attached draping panels; fabric remains sewn and gravity-believable. Clearly show translucent silk gauze OUTER layers over fully opaque silk/satin inner clothing, refined soft sheen not plastic glitter, exquisite restrained botanical embroidery. Neutral pale grey studio, soft neutral lighting, crisp fabric texture. One outfit per portrait2:3 image, no collage, labels, text, watermark, crown, jewelry, weapons, armor, luminous spell effects or scenery. FOURTH of seven women, pale pink translucent ensemble. Soft lotus-blush silk chiffon long outer robe, petal-like draping sleeves, warm ivory opaque crossed bodice, light pink flowing satin pleated skirt with subtle tonal gradient, narrow pale coral waist sash. Tiny fine floral embroidery, delicate light feeling. No rigid brocade overcoat, no trailing wedding train.",
+      "style": "轻纱绸缎／略偏仙侠",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "独立衣装正面概念候选",
+        "summary": "淡藕纱袖及轻粉缎裙清楚，实际色阶较均匀，花绣比极简方向丰富；侧袖接近画缘，动作需另核。",
+        "remaining": [
+          "人物年龄体型与头身试装",
+          "宽袖衣摆动作及背面结构",
+          "季节场景与实作材质"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/3-照片-3.jpg",
+      "source_sha256": "a97cffc4e4768a6fd36ba138b4840da72e9752e8a7996c687b94b0067f119cf0",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "419a3da79c0158a3daca6a03b188e5e59d8c3d760689f5ae2ccadca3c4ee9129"
+    },
+    {
+      "id": "WARD-015",
+      "name": "青玉轻罗绸裙",
+      "source_image": 4,
+      "source_position": "单排左6",
+      "use": "女装·暖季／礼仪",
+      "try_on": "宁清晏或殷照夜后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-015.png",
+      "prompt": "Create ONE standalone full costume ensemble asset inspired by the specified outfit in the supplied reference sheet, with a slightly more xianxia cultivated-elegant aesthetic. Clothing reference only, no source faces. Invisible ghost mannequin, NO human head, face, hands, skin, visible dummy or stand. Front view from empty collar opening to full hem and matching simple shoes, generous margin, natural adult shoulder waist torso proportions. A gentle breeze lifts only outer sleeve edges and attached draping panels; fabric remains sewn and gravity-believable. Clearly show translucent silk gauze OUTER layers over fully opaque silk/satin inner clothing, refined soft sheen not plastic glitter, exquisite restrained botanical embroidery. Neutral pale grey studio, soft neutral lighting, crisp fabric texture. One outfit per portrait2:3 image, no collage, labels, text, watermark, crown, jewelry, weapons, armor, luminous spell effects or scenery. SIXTH of ten people, pale-green gauze woman with deep teal skirt. Pale jade sheer silk-organza long outer robe, weightless layered wide sleeves, opaque ivory crossed inner blouse and fluid jade-to-deep-teal silk satin long skirt, restrained fine silver botanical hem embroidery, slim celadon sash. Refine naturally floating sleeve edges with gentle breeze; no bulky quilted coat.",
+      "style": "轻纱绸缎／略偏仙侠",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "独立衣装正面概念候选",
+        "summary": "青玉透罗罩层与深青裙有层次，花绣较丰富，裙料光泽柔和；适用礼仪，非窄袖行动服。",
+        "remaining": [
+          "人物年龄体型与头身试装",
+          "宽袖衣摆动作及背面结构",
+          "季节场景与实作材质"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/4-照片-4.jpg",
+      "source_sha256": "51dd243ebf653574b1821ec12fa95e62c68f11201d3762571e9951cf07fb51ac",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "6f381de694131678f6f4edca91a5ec6738189a15fca53cb3fd31a28e6b5653c6"
+    },
+    {
+      "id": "WARD-016",
+      "name": "暖杏披绡缎裙",
+      "source_image": 3,
+      "source_position": "单排左6",
+      "use": "女装·暖季／会客",
+      "try_on": "沈蘅后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-016.png",
+      "prompt": "Create ONE standalone full costume ensemble asset inspired by the specified outfit in the supplied reference sheet, with a slightly more xianxia cultivated-elegant aesthetic. Clothing reference only, no source faces. Invisible ghost mannequin, NO human head, face, hands, skin, visible dummy or stand. Front view from empty collar opening to full hem and matching simple shoes, generous margin, natural adult shoulder waist torso proportions. A gentle breeze lifts only outer sleeve edges and attached draping panels; fabric remains sewn and gravity-believable. Clearly show translucent silk gauze OUTER layers over fully opaque silk/satin inner clothing, refined soft sheen not plastic glitter, exquisite restrained botanical embroidery. Neutral pale grey studio, soft neutral lighting, crisp fabric texture. One outfit per portrait2:3 image, no collage, labels, text, watermark, crown, jewelry, weapons, armor, luminous spell effects or scenery. SIXTH of seven women, ivory draped robe. Warm apricot opaque silk satin long dress with modest crossed collar and soft celadon narrow waist belt, ivory fine-silk gauze open outer robe and attached softly draped long sleeves, tiny pale-gold leaf embroidery only at edges. Rich satin folds underneath contrast against gauze outer layer, no sleeveless modern vest, no detached floating scarf.",
+      "style": "轻纱绸缎／略偏仙侠",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "独立衣装正面概念候选",
+        "summary": "暖杏缎面褶光明显，米白罩纱与青玉束带清楚；领内出现小标签状细节，角色试装时去除。",
+        "remaining": [
+          "人物年龄体型与头身试装",
+          "宽袖衣摆动作及背面结构",
+          "季节场景与实作材质"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/3-照片-3.jpg",
+      "source_sha256": "a97cffc4e4768a6fd36ba138b4840da72e9752e8a7996c687b94b0067f119cf0",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "d38001c1562a4a69f64f057c4cd266530a1a705ffafc7232b2594d6eb9ef9848"
+    },
+    {
+      "id": "WARD-017",
+      "name": "烟青流云绸袍",
+      "source_image": 5,
+      "source_position": "单排左7",
+      "use": "男装·暖季／静修会客",
+      "try_on": "成年修炼者后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-017.png",
+      "prompt": "Create ONE standalone full costume ensemble asset inspired by the specified outfit in the supplied reference sheet, with a slightly more xianxia cultivated-elegant aesthetic. Clothing reference only, no source faces. Invisible ghost mannequin, NO human head, face, hands, skin, visible dummy or stand. Front view from empty collar opening to full hem and matching simple shoes, generous margin, natural adult shoulder waist torso proportions. A gentle breeze lifts only outer sleeve edges and attached draping panels; fabric remains sewn and gravity-believable. Clearly show translucent silk gauze OUTER layers over fully opaque silk/satin inner clothing, refined soft sheen not plastic glitter, exquisite restrained botanical embroidery. Neutral pale grey studio, soft neutral lighting, crisp fabric texture. One outfit per portrait2:3 image, no collage, labels, text, watermark, crown, jewelry, weapons, armor, luminous spell effects or scenery. SEVENTH of thirteen people, pale grey-blue male robe with cream cuffs. Men's smoky celadon flowing silk long robe, ivory opaque inner cross collar and silk-satin wide sleeves, subtle sheer smoky-blue gauze outer panels joined to shoulders, dark teal lower layer, restrained grey-blue waist sash. Natural adult male shoulder width and waist, elegant flowing silhouette, no tiny cinched waist or skirt train.",
+      "style": "轻纱绸缎／略偏仙侠",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "独立衣装正面概念候选",
+        "summary": "男式肩线、烟青纱罩和月白内袖清楚；较原图扩充竹叶绣，作为修炼者会客候选。",
+        "remaining": [
+          "人物年龄体型与头身试装",
+          "宽袖衣摆动作及背面结构",
+          "季节场景与实作材质"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/5-照片-5.jpg",
+      "source_sha256": "691111da8c4e0073269f10c526a9ff653445537011e7715668838044f3e71501",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "223b46c896fe04d3c83b9da229a398d5d3311f25cfa4b6c43f56a02d1912bd67"
+    },
+    {
+      "id": "WARD-018",
+      "name": "月白银灰轻缎袍",
+      "source_image": 4,
+      "source_position": "单排左1",
+      "use": "男装·室内／礼仪",
+      "try_on": "成年修炼者后续试装",
+      "status": "generated_candidate",
+      "image": "WARD-018.png",
+      "prompt": "Create ONE standalone full costume ensemble asset inspired by the specified outfit in the supplied reference sheet, with a slightly more xianxia cultivated-elegant aesthetic. Clothing reference only, no source faces. Invisible ghost mannequin, NO human head, face, hands, skin, visible dummy or stand. Front view from empty collar opening to full hem and matching simple shoes, generous margin, natural adult shoulder waist torso proportions. A gentle breeze lifts only outer sleeve edges and attached draping panels; fabric remains sewn and gravity-believable. Clearly show translucent silk gauze OUTER layers over fully opaque silk/satin inner clothing, refined soft sheen not plastic glitter, exquisite restrained botanical embroidery. Neutral pale grey studio, soft neutral lighting, crisp fabric texture. One outfit per portrait2:3 image, no collage, labels, text, watermark, crown, jewelry, weapons, armor, luminous spell effects or scenery. FIRST / leftmost of ten people, ivory male robe. Men's pearl-white silk satin crossed long robe with graceful broad sleeves, silver-grey inner lapels and lower layer, a translucent white silk gauze over-robe with faint tonal flowing-water weave, narrow moon-grey sash. Sophisticated male xianxia silhouette, crisp shoulders soft drape, flowing side panels above floor, no armor, no priest insignia.",
+      "style": "轻纱绸缎／略偏仙侠",
+      "review": {
+        "status": "passed_candidate_visual_review",
+        "scope": "独立衣装正面概念候选",
+        "summary": "月白缎袍、银灰内层与透纱侧摆清楚，竹叶纹为实际产物；自然肩腰，年龄随人物试装。",
+        "remaining": [
+          "人物年龄体型与头身试装",
+          "宽袖衣摆动作及背面结构",
+          "季节场景与实作材质"
+        ]
+      },
+      "source_path": "参考/用户媒体/服装群像/4-照片-4.jpg",
+      "source_sha256": "51dd243ebf653574b1821ec12fa95e62c68f11201d3762571e9951cf07fb51ac",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "sha256": "e100163fb08104a6482056743e1cc67e3e71e4e544d60bc455f6805751a75e06"
+    }
+  ]
+}

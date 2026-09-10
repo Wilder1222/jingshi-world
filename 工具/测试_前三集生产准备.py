@@ -14,38 +14,129 @@ spec.loader.exec_module(production)
 
 
 class ProductionTests(unittest.TestCase):
+    def test_individual_prop_support_integrity_and_task_boundary(self):
+        from 母版匹配 import validate_support
+        parent = next(m for m in self.data['generated_assets'] if m['task_id'] == 'MB-WEAPON-BLADE')
+        self.assertEqual({s['id'] for s in parent['supporting_assets']}, {'P21-C03', 'P21-C16', 'P21-C17', 'P21-C20', 'P21-C23'})
+        for item in parent['supporting_assets']:
+            self.assertIn(item['path'], self.data['source_sha256'])
+            validate_support(item, parent, set(), parent['supporting_assets'])
+            bad = copy.deepcopy(item)
+            bad['sha256'] = '0' * 64
+            with self.assertRaisesRegex(ValueError, '哈希'):
+                validate_support(bad, parent, set(), parent['supporting_assets'])
+            bad = copy.deepcopy(item)
+            bad['generation']['input_references'][0]['sha256'] = '0' * 64
+            with self.assertRaisesRegex(ValueError, '输入母版'):
+                validate_support(bad, parent, set(), parent['supporting_assets'])
+            with self.assertRaisesRegex(ValueError, '编号重复'):
+                validate_support(item, parent, {item['id']})
+        kit = next(t for t in self.data['tasks'] if t['id'] == 'POST-KIT')
+        self.assertNotEqual(kit['media_status'], 'selected')
+
     @classmethod
     def setUpClass(cls):
         cls.data = production.build_data()
 
+    def test_auto_assigned_portraits_reuse_user_media(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        for cid in ('C04', 'C16'):
+            face = tasks[f'MB-{cid}-FACE']
+            master = next(m for m in self.data['selected_masters'] if m['id'] == face['selected_master_id'])
+            self.assertEqual(master['selected_by'], 'assistant_under_user_auto_numbering_request')
+            self.assertEqual(face['actual_file'], master['path'])
+            self.assertIn(master['id'], {r['master_id'] for r in tasks[f'MB-{cid}-FULL']['input_references']})
+
+    def test_reviewed_generated_parent_unlocks_only_its_descendants(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        for cid in ('C01', 'C04', 'C16'):
+            self.assertEqual(tasks[f'MB-{cid}-FULL']['media_status'], 'selected')
+            back = tasks[f'MB-{cid}-FULL-BACK']
+            self.assertNotIn(f'MB-{cid}-FULL', back['unresolved_dependencies'])
+            self.assertIn(f'generated-{cid}-FULL', {r['master_id'] for r in back['input_references']})
+        self.assertIn('MB-S01-W1-01', tasks['POST-WAVES']['unresolved_dependencies'])
+
+    def test_full_body_age_and_proportions_do_not_leak_into_sets(self):
+        tasks = {t['id']: t for t in self.data['tasks']}
+        for cid in ('C01','C04','C16'):
+            for suffix in ('FULL','FULL-3Q','FULL-BACK'):
+                self.assertIn('head-to-body', tasks[f'MB-{cid}-{suffix}']['prompt_en'])
+        self.assertIn('do not automatically hunch', tasks['MB-C04-FULL']['prompt_en'])
+        self.assertNotIn('head-to-body', tasks['MB-ENV-S04']['prompt_en'])
+
+    def test_episode_three_performance_continuity_and_cut_cues(self):
+        shots = self.data['release_plan']['episodes'][2]['shots']
+        self.assertEqual(len(shots), 22)
+        self.assertIn('右侧', shots[17]['blocking_continuity'])
+        self.assertIn('门始终未开', shots[-1]['blocking_continuity'])
+        bad = copy.deepcopy(self.data)
+        del bad['release_plan']['episodes'][2]['shots'][0]['performance']
+        with self.assertRaisesRegex(ValueError, '前三集逐镜'):
+            production.validate(bad)
+
+    def test_all_shots_have_executable_story_continuity_notes(self):
+        shots = [s for e in self.data['release_plan']['episodes'] for s in e['shots']]
+        self.assertEqual(len(shots), 71)
+        for key in ('performance', 'blocking_continuity', 'cut_cue'):
+            self.assertTrue(all(s[key] for s in shots))
+        first = self.data['release_plan']['episodes'][0]['shots']
+        self.assertIn('许扶顾右侧', first[6]['blocking_continuity'])
+        self.assertIn('第二波只在末人离开后', first[12]['blocking_continuity'])
+        second = self.data['release_plan']['episodes'][1]['shots']
+        self.assertIn('不暗示意识更替', second[5]['blocking_continuity'])
+        self.assertIn('只合门不落闩', second[-1]['blocking_continuity'])
+
     def test_matched_references_are_tracked_without_selecting_tasks(self):
         refs = self.data['matched_asset_references']
-        self.assertEqual(len(refs), 17)
-        self.assertEqual([m['asset_ids'][0] for m in refs[:9]], ['P19', 'S06', 'C03', 'C16', 'C04', 'C06', 'C17', 'C20', 'C23'])
+        self.assertEqual(len(refs), 11)
+        self.assertEqual([m['asset_ids'][0] for m in refs[:6]], ['P19', 'S06', 'C06', 'C11', 'C07', 'C58'])
         keys = {m['id'] for m in refs}
         for m in refs:
             self.assertEqual(self.data['source_sha256'][m['path']], m['sha256'])
         for task in self.data['tasks']:
             self.assertNotIn(task['selected_master_id'], keys)
             self.assertFalse(keys & {m['master_id'] for m in task['input_references']})
-        self.assertEqual(refs[2]['status'], 'candidate_reference')
+        self.assertEqual(refs[4]['status'], 'candidate_reference')
         self.assertEqual(refs[1]['candidate_subarea'], 'S06-K')
 
     def test_counts_and_nonmedia_status(self):
         tasks = self.data['tasks']
         self.assertEqual(len(tasks), 178)
         self.assertEqual(sum(t['method'] == 'MJ' for t in tasks), 162)
-        selected = [t for t in tasks if t['actual_file'] is not None]
-        self.assertEqual([t['id'] for t in selected], ['MB-C01-FACE'])
+        selected = [t for t in tasks if t['media_status'] == 'selected']
+        self.assertEqual({t['id'] for t in selected}, {'MB-C01-FACE', 'MB-C04-FACE', 'MB-C16-FACE', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-C01-FULL', 'MB-C01-FULL-3Q', 'MB-C04-FULL-3Q', 'MB-C16-FULL-3Q', 'MB-C04-COSTUME-DETAIL', 'MB-C17-FACE', 'MB-C17-FULL', 'MB-C20-FACE', 'MB-C20-FULL', 'MB-C03-FACE', 'MB-C03-FULL', 'MB-C23-FACE', 'MB-C23-FULL', 'MB-P20-BASE', 'MB-WEAPON-BLADE', 'MB-WEAPON-BOW', 'MB-WEAPON-SHIELD'})
         self.assertEqual(selected[0]['media_status'], 'selected')
-        self.assertTrue(all(t['media_status'] == 'not_generated' for t in tasks if t not in selected))
+        candidates = {'MB-C01-FULL-BACK', 'MB-C16-FULL-BACK', 'MB-C04-FULL-BACK', 'MB-C01-COSTUME-DETAIL', 'MB-C16-COSTUME-DETAIL', 'MB-S01-W1-01', 'MB-S01-W1-05'}
+        self.assertEqual({t['id'] for t in tasks if t['media_status'] == 'generated_candidate'}, candidates)
+        self.assertTrue(all(t['media_status'] == 'not_generated' for t in tasks if t not in selected and t['id'] not in candidates))
         self.assertEqual(len(self.data['scene_ids']), 16)
+
+    def test_generated_candidate_is_real_but_does_not_unlock_children(self):
+        by_id = {t['id']: t for t in self.data['tasks']}
+        candidate = next(m for m in self.data['generated_assets'] if m['task_id'] == 'MB-S01-W1-01')
+        self.assertEqual(self.data['source_sha256'][candidate['path']], candidate['sha256'])
+        self.assertIsNone(by_id['MB-S01-W1-01']['selected_master_id'])
+        self.assertIn('MB-S01-W1-01', by_id['POST-WAVES']['unresolved_dependencies'])
+        bad = copy.deepcopy(self.data)
+        bad['generated_assets'][0]['sha256'] = 'fake'
+        with self.assertRaises(ValueError):
+            production.validate(bad)
+
+    def test_mapping_and_missing_report_cover_current_sources(self):
+        rendered = production.render(self.data)
+        report = rendered['../../媒体/母版自动适配编号.md']
+        for row in self.data['selected_masters'] + self.data['pending_master_candidates'] + self.data['matched_asset_references']:
+            self.assertIn(row['id'], report)
+        missing = rendered['前三集实际资产缺口.md']
+        for task in self.data['tasks']:
+            if task['release_scope'] == 'current_first_three' and task['media_status'] != 'selected':
+                self.assertIn('| ' + task['id'] + ' |', missing)
 
     def test_masked_candidates_do_not_count_as_selected_or_seven_identities(self):
         candidates = self.data['pending_master_candidates']
         self.assertEqual(len(candidates), 7)
         self.assertEqual([m['candidate_asset_ids'] for m in candidates], [['C57'], ['C57'], ['C58'], ['C58'], ['C59'], ['C06'], ['C07']])
-        self.assertEqual(len(self.data['selected_masters']), 21)
+        self.assertEqual(len(self.data['selected_masters']), 27)
         ids = {m['id'] for m in candidates}
         for t in self.data['tasks']:
             self.assertFalse(ids & {ref['master_id'] for ref in t['input_references']})
@@ -62,15 +153,16 @@ class ProductionTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, '校验'):
                 production.load_pending_masters()
 
-    def test_ordinary_group_references_keep_instances_unassigned(self):
+    def test_ordinary_group_references_bind_distinct_instances(self):
         group = [m for m in self.data['selected_masters'] if m['scope'] == 'ordinary_assassin_group']
         self.assertEqual(len(group), 5)
         self.assertEqual([m['framing'] for m in group], ['full_body', 'feet_cropped', 'feet_cropped', 'full_body', 'full_body'])
         ids = {m['id'] for m in group}
         for t in self.data['tasks']:
             refs = ids & {ref['master_id'] for ref in t['input_references']}
-            self.assertEqual(refs, ids if t['id'] == 'POST-WAVES' else set())
-        self.assertTrue(all(m['instance_id'] is None and not m['task_ids'] for m in group))
+            self.assertEqual(refs, {m['id'] for m in group if t['id'] in m['reference_task_ids']})
+        self.assertEqual([m['instance_id'] for m in group], ['S01-W1-04','S01-W1-05','S01-W1-01','S01-W1-08','S01-W1-09'])
+        self.assertTrue(all(not m['task_ids'] for m in group))
 
     def test_ordinary_group_rejects_implicit_cast_or_task_binding(self):
         original_read = production.read
@@ -109,15 +201,16 @@ class ProductionTests(unittest.TestCase):
         self.assertEqual(masters['portrait-C28']['task_ids'], [])
         self.assertFalse(any(set(t['asset_ids']) & {'C27', 'C28'} for t in self.data['tasks']))
 
-    def test_portrait_does_not_complete_clothing(self):
+    def test_portrait_and_reviewed_clothing_have_separate_bindings(self):
         tasks = {t['id']: t for t in self.data['tasks']}
         full = tasks['MB-C01-FULL']
         self.assertEqual(full['input_references'][0]['master_id'], 'portrait-C01')
-        self.assertEqual(full['status'], 'ready_for_exploration')
-        self.assertIsNone(full['actual_file'])
+        self.assertEqual(full['status'], 'selected_generated_asset')
+        self.assertEqual(full['selected_master_id'], 'generated-C01-FULL')
+        self.assertEqual(full['actual_file'], '资产/媒体/C01/C01-全身候选.png')
         back = tasks['MB-C01-FULL-BACK']
-        self.assertIn('MB-C01-FULL', back['unresolved_dependencies'])
-        self.assertEqual(back['status'], 'awaiting_parent_selection')
+        self.assertNotIn('MB-C01-FULL', back['unresolved_dependencies'])
+        self.assertEqual(back['status'], 'awaiting_candidate_review')
 
     def test_portrait_hash_and_path_rejected(self):
         original_read = production.read
@@ -172,7 +265,7 @@ class ProductionTests(unittest.TestCase):
             self.assertTrue(tasks[tid]['unresolved_dependencies'])
 
     def test_edited_architecture_keeps_original_and_separate_layout(self):
-        edited = [m for m in self.data['selected_masters'] if m.get('source_kind') == 'user_attachment_edited']
+        edited = [m for m in self.data['selected_masters'] if m.get('source_kind') == 'user_attachment_edited' and m['scope'] == 'architecture_visual']
         self.assertEqual(len(edited), 5)
         self.assertEqual(len({m['original_path'] for m in edited}), 5)
         for m in edited:

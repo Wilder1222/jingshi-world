@@ -858,7 +858,7 @@
       ],
       "group_key": "S01-W1",
       "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
-      "instance_id": null,
+      "instance_id": "S01-W1-04",
       "path": "资产/媒体/S01/普通刺客/普通刺客-01.jpg",
       "sha256": "5328160a67c91c88966cb83dd5e9a1ffa804d61c31cc24fe1b0c4697e39aff94",
       "source_filename": "1-照片-1.jpg",
@@ -869,7 +869,8 @@
       "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
       "task_ids": [],
       "reference_task_ids": [
-        "POST-WAVES"
+        "POST-WAVES",
+        "MB-S01-W1-04"
       ],
       "framing": "full_body",
       "visual_notes": "黑灰几何暗纹衣身、斜交革质领片与扣件、肩缘及腕部缠布、长分片衣摆、宽黑腰封；双手双脚完整。",
@@ -881,15 +882,20 @@
         "各自可见衣色、衣型、腰封和袖部特征"
       ],
       "unverified": [
-        "第一波十个稳定实例中的具体分配",
-        "设定身高体型、现行衣缘与腰封要求",
-        "靴底补全（图2／3）或更多视角",
+        "更多视角与背面结构",
+        "与既定身高体型目标的尺度核对",
         "兵器、雨态与动作连续性"
       ],
-      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "derivation_rule": "自动适配S01-W1-04，仅该第一波实例使用本图衣装和蒙面母形；不得复制给其余实例或第二波具名刺客。保持该实例原体型目标与境界，可见衣型以本母版为准，未见部位按派生结果复核。侧背、腰间入鞘刀、雨态和动作仍需派生核验；本图不自动完成剧情实例任务。",
       "width": 853,
       "height": 1280,
-      "format": "JPEG"
+      "format": "JPEG",
+      "instance_assignment": {
+        "assigned_by": "assistant_under_user_auto_numbering_request",
+        "assigned_on": "2026-09-10",
+        "basis": "肩片与长臂轮廓适合高身宽背实例；采用黑灰几何暗纹、斜交革领和分片衣摆",
+        "boundary": "分配为虚构制作实例，不从单张图片断言实际身高；原体型目标与境界不变，可见衣装采用母版。"
+      }
     },
     {
       "id": "ordinary-assassin-02",
@@ -902,7 +908,7 @@
       ],
       "group_key": "S01-W1",
       "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
-      "instance_id": null,
+      "instance_id": "S01-W1-05",
       "path": "资产/媒体/S01/普通刺客/普通刺客-02.jpg",
       "sha256": "57523ca6c4f74880677b01017a51ec7722db93c73e07af0a8ebd2c06c0ea943e",
       "source_filename": "2-照片-2.jpg",
@@ -913,7 +919,8 @@
       "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
       "task_ids": [],
       "reference_task_ids": [
-        "POST-WAVES"
+        "POST-WAVES",
+        "MB-S01-W1-05"
       ],
       "framing": "feet_cropped",
       "visual_notes": "灰褐短外衣、灰蓝交领、深色宽腰带，侧垂长头巾与宽松裤；靴底被画面底缘裁切。",
@@ -925,15 +932,20 @@
         "各自可见衣色、衣型、腰封和袖部特征"
       ],
       "unverified": [
-        "第一波十个稳定实例中的具体分配",
-        "设定身高体型、现行衣缘与腰封要求",
-        "靴底补全（图2／3）或更多视角",
+        "原图靴底裁切已另有全身补图候选，尚未完成剧情状态验收",
+        "与既定身高体型目标的尺度核对",
         "兵器、雨态与动作连续性"
       ],
-      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "derivation_rule": "自动适配S01-W1-05，仅该第一波实例使用本图衣装和蒙面母形；不得复制给其余实例或第二波具名刺客。保持该实例原体型目标与境界，可见衣型以本母版为准，未见部位按派生结果复核。先补全靴底；侧背、腰间入鞘刀、雨态和动作仍需派生核验；本图不自动完成剧情实例任务。",
       "width": 853,
       "height": 1280,
-      "format": "JPEG"
+      "format": "JPEG",
+      "instance_assignment": {
+        "assigned_by": "assistant_under_user_auto_numbering_request",
+        "assigned_on": "2026-09-10",
+        "basis": "短外衣与较修长躯干适合中等修长实例；采用灰褐外衣与灰蓝交领",
+        "boundary": "分配为虚构制作实例，不从单张图片断言实际身高；原体型目标与境界不变，可见衣装采用母版。"
+      }
     },
     {
       "id": "ordinary-assassin-03",
@@ -946,7 +958,7 @@
       ],
       "group_key": "S01-W1",
       "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
-      "instance_id": null,
+      "instance_id": "S01-W1-01",
       "path": "资产/媒体/S01/普通刺客/普通刺客-03.jpg",
       "sha256": "e3329145de207f31361dd32adaab69a06aa51cc6a4dab3d089a30a7477e6ba6d",
       "source_filename": "3-照片-3.jpg",
@@ -957,7 +969,8 @@
       "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
       "task_ids": [],
       "reference_task_ids": [
-        "POST-WAVES"
+        "POST-WAVES",
+        "MB-S01-W1-01"
       ],
       "framing": "feet_cropped",
       "visual_notes": "灰青／墨绿织纹外衣、浅灰宽交领、交叠深绿腰带、不对称深色前臂衣片；双脚下缘被裁切。",
@@ -969,15 +982,20 @@
         "各自可见衣色、衣型、腰封和袖部特征"
       ],
       "unverified": [
-        "第一波十个稳定实例中的具体分配",
-        "设定身高体型、现行衣缘与腰封要求",
-        "靴底补全（图2／3）或更多视角",
+        "原图靴底裁切已另有全身补图候选，尚未完成剧情状态验收",
+        "与既定身高体型目标的尺度核对",
         "兵器、雨态与动作连续性"
       ],
-      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "derivation_rule": "自动适配S01-W1-01，仅该第一波实例使用本图衣装和蒙面母形；不得复制给其余实例或第二波具名刺客。保持该实例原体型目标与境界，可见衣型以本母版为准，未见部位按派生结果复核。先补全靴底；侧背、腰间入鞘刀、雨态和动作仍需派生核验；本图不自动完成剧情实例任务。",
       "width": 853,
       "height": 1280,
-      "format": "JPEG"
+      "format": "JPEG",
+      "instance_assignment": {
+        "assigned_by": "assistant_under_user_auto_numbering_request",
+        "assigned_on": "2026-09-10",
+        "basis": "窄肩与长直躯干适合高瘦长躯实例；采用灰青织纹和浅灰宽交领",
+        "boundary": "分配为虚构制作实例，不从单张图片断言实际身高；原体型目标与境界不变，可见衣装采用母版。"
+      }
     },
     {
       "id": "ordinary-assassin-04",
@@ -990,7 +1008,7 @@
       ],
       "group_key": "S01-W1",
       "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
-      "instance_id": null,
+      "instance_id": "S01-W1-08",
       "path": "资产/媒体/S01/普通刺客/普通刺客-04.jpg",
       "sha256": "b9405ce6d68860fc9c9d6597bd7d6d1c7bc224c039548de91909191db3c3541e",
       "source_filename": "4-照片-4.jpg",
@@ -1001,7 +1019,8 @@
       "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
       "task_ids": [],
       "reference_task_ids": [
-        "POST-WAVES"
+        "POST-WAVES",
+        "MB-S01-W1-08"
       ],
       "framing": "full_body",
       "visual_notes": "灰蓝长衣、深色交领、窄额带、打结腰带与侧垂头巾；双手双脚完整。",
@@ -1013,15 +1032,20 @@
         "各自可见衣色、衣型、腰封和袖部特征"
       ],
       "unverified": [
-        "第一波十个稳定实例中的具体分配",
-        "设定身高体型、现行衣缘与腰封要求",
-        "靴底补全（图2／3）或更多视角",
+        "更多视角与背面结构",
+        "与既定身高体型目标的尺度核对",
         "兵器、雨态与动作连续性"
       ],
-      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "derivation_rule": "自动适配S01-W1-08，仅该第一波实例使用本图衣装和蒙面母形；不得复制给其余实例或第二波具名刺客。保持该实例原体型目标与境界，可见衣型以本母版为准，未见部位按派生结果复核。侧背、腰间入鞘刀、雨态和动作仍需派生核验；本图不自动完成剧情实例任务。",
       "width": 853,
       "height": 1280,
-      "format": "JPEG"
+      "format": "JPEG",
+      "instance_assignment": {
+        "assigned_by": "assistant_under_user_auto_numbering_request",
+        "assigned_on": "2026-09-10",
+        "basis": "长腿窄腰和长衣适合高身窄腰实例；采用灰蓝长衣与打结腰带",
+        "boundary": "分配为虚构制作实例，不从单张图片断言实际身高；原体型目标与境界不变，可见衣装采用母版。"
+      }
     },
     {
       "id": "ordinary-assassin-05",
@@ -1034,7 +1058,7 @@
       ],
       "group_key": "S01-W1",
       "group_assignment_basis": "用户明确指定普通刺客；项目语境归入第一波普通蒙面组",
-      "instance_id": null,
+      "instance_id": "S01-W1-09",
       "path": "资产/媒体/S01/普通刺客/普通刺客-05.jpg",
       "sha256": "bbee8695692c4f04215a29584f333bf8e9f7f6eecb71ea237cf34d7a4d60e8d0",
       "source_filename": "5-照片-5.jpg",
@@ -1045,7 +1069,8 @@
       "selection_basis": "用户提供五张蒙面人模并明确称为几个普通刺客；选为普通组造型来源，未指定十个实例中的具体序号",
       "task_ids": [],
       "reference_task_ids": [
-        "POST-WAVES"
+        "POST-WAVES",
+        "MB-S01-W1-09"
       ],
       "framing": "full_body",
       "visual_notes": "黑灰长衣身、褐色外袖和领缘、蓝灰内领、整齐宽黑腰带及深色护臂；双手双脚完整。",
@@ -1057,15 +1082,318 @@
         "各自可见衣色、衣型、腰封和袖部特征"
       ],
       "unverified": [
-        "第一波十个稳定实例中的具体分配",
-        "设定身高体型、现行衣缘与腰封要求",
-        "靴底补全（图2／3）或更多视角",
+        "更多视角与背面结构",
+        "与既定身高体型目标的尺度核对",
         "兵器、雨态与动作连续性"
       ],
-      "derivation_rule": "仅作第一波普通蒙面组的独立造型母版，不关联C06／C07／C57—C59等具名身份，不与上一批半身图自动拼接。媒体序号不是S01-W1实例号；先核对十个实例的体型和衣装后分配，保持十人总数，不能把五张图复制成十个身体。图2／3先补完整靴底；侧背、兵器、雨态另派生。",
+      "derivation_rule": "自动适配S01-W1-09，仅该第一波实例使用本图衣装和蒙面母形；不得复制给其余实例或第二波具名刺客。保持该实例原体型目标与境界，可见衣型以本母版为准，未见部位按派生结果复核。侧背、腰间入鞘刀、雨态和动作仍需派生核验；本图不自动完成剧情实例任务。",
       "width": 853,
       "height": 1280,
-      "format": "JPEG"
+      "format": "JPEG",
+      "instance_assignment": {
+        "assigned_by": "assistant_under_user_auto_numbering_request",
+        "assigned_on": "2026-09-10",
+        "basis": "肩腰较匀称适合中等匀实体型；采用黑灰衣身、褐袖与宽黑腰封",
+        "boundary": "分配为虚构制作实例，不从单张图片断言实际身高；原体型目标与境界不变，可见衣装采用母版。"
+      }
+    },
+    {
+      "id": "asset-match-C16-04",
+      "asset_ids": [
+        "C16"
+      ],
+      "candidate_subarea": null,
+      "name": "杜长庚",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C16-参考-04.jpg",
+      "sha256": "6f27bc23b7077a25f3426f0ddbff8c53735c26c8f75986653251b788e7e616d1",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\4-照片-4.jpg",
+      "source_filename": "4-照片-4.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "灰鬓、短须、栗褐暗纹袍和深褐围领",
+      "unverified": [
+        "半身不能验证体型及全套服装"
+      ],
+      "task_ids": [
+        "MB-C16-FACE"
+      ],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG",
+      "visual_key": "face-C16",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_auto_numbering_request",
+      "selection_basis": "用户要求母版自动适配并据此生成；助手逐图复核后选用于C16的身份母版。灰鬓、短须、栗褐暗纹袍和深褐围领",
+      "locks": [
+        "母版可见脸形、眉眼、胡须与灰鬓",
+        "可见内领与外衣配色"
+      ],
+      "derivation_rule": "使用本原图作为唯一身份图像引用，保留脸、灰鬓和胡须；未见全身体量、衣装下半部及背面为待验证派生。",
+      "visual_notes": "灰鬓、短须、栗褐暗纹袍和深褐围领"
+    },
+    {
+      "id": "asset-match-C04-05",
+      "asset_ids": [
+        "C04"
+      ],
+      "candidate_subarea": null,
+      "name": "顾伯",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C04-参考-05.jpg",
+      "sha256": "ddefee1ce9999ea13fc5cb008b1780007ccdb0575fbb8842634747c449446bc7",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\5-照片-5.jpg",
+      "source_filename": "5-照片-5.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "年长、灰白短须、茶褐外袍与浅茶领",
+      "unverified": [
+        "半身不能验证全套服装与动态"
+      ],
+      "task_ids": [
+        "MB-C04-FACE"
+      ],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG",
+      "visual_key": "face-C04",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_auto_numbering_request",
+      "selection_basis": "用户要求母版自动适配并据此生成；助手逐图复核后选用于C04的身份母版。年长、灰白短须、茶褐外袍与浅茶领",
+      "locks": [
+        "母版可见脸形、眉眼、胡须与灰鬓",
+        "可见内领与外衣配色"
+      ],
+      "derivation_rule": "使用本原图作为唯一身份图像引用，保留脸、灰鬓和胡须；未见全身体量、衣装下半部及背面为待验证派生。",
+      "visual_notes": "年长、灰白短须、茶褐外袍与浅茶领"
+    },
+    {
+      "id": "asset-match-C17-07",
+      "asset_ids": [
+        "C17"
+      ],
+      "candidate_subarea": null,
+      "name": "石照川",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "confidence": "high",
+      "path": "资产/媒体/资产匹配/C17-参考-07.jpg",
+      "sha256": "2b0015829812b2c5b778bb454e4682b037265c0e3e3e7b6cd0dcc5584a792ff3",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\7-照片-7.jpg",
+      "source_filename": "7-照片-7.jpg",
+      "source_kind": "user_attachment",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "方阔面部、深靛蓝外衣与石灰蓝内领",
+      "unverified": [
+        "土绿侧层及全身体型未显示"
+      ],
+      "task_ids": [
+        "MB-C17-FACE"
+      ],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 853,
+      "height": 1280,
+      "format": "JPEG",
+      "visual_key": "face-C17",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_auto_numbering_request",
+      "selection_basis": "按用户自动适编号授权逐图复核：方阔眉骨下颌、浓眉、短髭及深靛叠领符合38岁石照川身份方向；肖像不承担全身体型验收。",
+      "locks": [
+        "原图眉眼鼻口、方阔脸形与短髭",
+        "黑发束髻、深靛与石灰蓝叠领"
+      ],
+      "derivation_rule": "以原图作为唯一身份引用；宽肩匀实体量及下半衣装按C17设定派生，保持自然头身，不巨人化。",
+      "visual_notes": "原图可见脸部小色点按肌理保留，不解释为新伤；深靛外衣、石灰蓝内领。"
+    },
+    {
+      "id": "asset-match-C20-08",
+      "asset_ids": [
+        "C20"
+      ],
+      "candidate_subarea": null,
+      "name": "崔望野",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "confidence": "high",
+      "path": "资产/媒体/C20/C20-身份母版.png",
+      "sha256": "b580782f785047fca485e0befe464c18bbade5983f44001719e09935d5710fd1",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\8-照片-8.jpg",
+      "source_filename": "8-照片-8.jpg",
+      "source_kind": "user_attachment_edited",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "瘦长面部、灰青衣、短深灰肩披",
+      "unverified": [
+        "全身与剧情状态由独立任务验收"
+      ],
+      "task_ids": [
+        "MB-C20-FACE"
+      ],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "original_path": "参考/用户媒体/C20-肖像原始参考.jpg",
+      "original_sha256": "ca42de668ea1e59f0f058047dae747de12e633d32c7660c7491c8d5428b2ea5b",
+      "visual_key": "face-C20",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_auto_numbering_request",
+      "selection_basis": "用户授权自动适编号：原图面部身份适配C20，修除疑似伤斑并正头；逐图核对眉眼鼻口、小痣、短须及34岁肌理后选用。",
+      "locks": [
+        "修后无伤面部、小痣、短须及眉眼轮廓",
+        "黑发束髻与短肩披方向"
+      ],
+      "derivation_rule": "使用修后身份母版派生无伤34岁体态，竹青中层与细织衣料按服装系统补全。",
+      "visual_notes": "小痣保留，原参考疑似伤斑不进入剧情。",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompts": [
+          "Precisely edit this fictional 34-year-old Chinese man's portrait to make an UNINJURED frontal identity master. Preserve the SAME individual: long narrow facial structure, brows, eyes, nose, lips, subtle stubble, small cheek mole, natural pores, black period tied hair and adult age. Remove ONLY the large purple-red bruise-like discoloration on image LEFT cheek and scattered red scrape-like marks; restore natural matching skin texture without beauty smoothing. Face looking straight at camera with level head and both eyes equally visible; straighten slight head tilt, keep shoulders relaxed. Keep existing grey-teal crossed clothing and short dark shoulder covering, do not redesign costume or add ornaments. Neutral grey studio with soft neutral balanced lighting. Head and entire hair knot inside frame with margin, chest-up portrait, one adult, no text, no wounds, no blood, no props. Preserve identity and natural age, not younger model."
+        ],
+        "input_sha256": "ca42de668ea1e59f0f058047dae747de12e633d32c7660c7491c8d5428b2ea5b"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "summary": "同源眉眼鼻口、小痣、短须与年龄可辨；头正、无伤斑，非磨皮青年化。"
+      }
+    },
+    {
+      "id": "asset-match-C03-03",
+      "asset_ids": [
+        "C03"
+      ],
+      "candidate_subarea": null,
+      "name": "韩青",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "confidence": "reviewed_after_edit",
+      "path": "资产/媒体/C03/C03-身份母版.png",
+      "sha256": "0628d0378ce3a108df1a9886e5d0533ad8fe01aee4c3c283004602f2822a2ee1",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\3-照片-3.jpg",
+      "source_filename": "3-照片-3.jpg",
+      "source_kind": "user_attachment_edited",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "年轻男性、灰青交领与行旅旧衣",
+      "unverified": [
+        "肖像上缘发髻略裁；完整发式见全身",
+        "侧背、内甲和剧情状态独立验收"
+      ],
+      "task_ids": [
+        "MB-C03-FACE"
+      ],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "original_path": "参考/用户媒体/C03-肖像原始参考.jpg",
+      "original_sha256": "c3d439c1fb881335598ca9f08bf71854d39c0555d62d8cef69e6dbbd416e9f5e",
+      "visual_key": "face-C03",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_auto_numbering_request",
+      "selection_basis": "原图修除与25岁无须设定冲突的胡须、伤污和破损衣装；眉眼鼻口及骨相逐图核对，修后采用为韩青正脸身份。",
+      "locks": [
+        "无须25岁眉眼鼻口与自然肤色",
+        "灰青束髻及灰青玄蓝茶白叠领"
+      ],
+      "derivation_rule": "以修后身份图为脸部唯一引用，头顶完整发髻和全身体态由全身任务固定。",
+      "visual_notes": "正脸无须无伤，肖像上缘略裁发髻，不用于完整发式验收。",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompts": [
+          "Edit this portrait into a clean uninjured costume identity master of SAME fictional Chinese man Han Qing, age25. Preserve exact recognizable eyes, brows, nose, lips, face bones and healthy tan skin. Remove moustache, beard and jaw stubble to clean shaven without changing jaw shape; remove bruise-like cheek spots and dirt while preserving pores and natural skin. Neatly tie black hair into simple grey-teal cloth-bound topknot, loose temple strands allowed but clear both eyes. Level straight front-facing head, both eyes equally visible. Replace damaged frayed outer clothing and exposed leather with well-maintained refined mid-value grey-teal dense matte silk-wool crossed robe, subtle same-color angular water-ripple jacquard, dark navy inner lapel and narrow tea-white silk inner collar edge. No gold metallic decoration, armor, shoulder cape or general's regalia. Natural 25-year-old adult, compact strong face, not child, not aged soldier. Chest-up portrait with entire topknot in frame and margin, neutral grey seamless studio and soft neutral balanced lighting, no text or collage. One man."
+        ],
+        "input_sha256": "c3d439c1fb881335598ca9f08bf71854d39c0555d62d8cef69e6dbbd416e9f5e"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "summary": "保留原图身份骨相，清除胡须和伤污；灰青完整衣领替代破损衣料。"
+      }
+    },
+    {
+      "id": "asset-match-C23-09",
+      "asset_ids": [
+        "C23"
+      ],
+      "candidate_subarea": null,
+      "name": "许照邻",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "confidence": "reviewed_after_edit",
+      "path": "资产/媒体/C23/C23-身份母版.png",
+      "sha256": "846859d6cddadcc6cb51677235b5ac48a47264e1f8474af4932c1b89b2fe2226",
+      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\9-照片-9.jpg",
+      "source_filename": "9-照片-9.jpg",
+      "source_kind": "user_attachment_edited",
+      "registered_on": "2026-09-10",
+      "matched_by": "assistant_visual_comparison",
+      "matching_basis": "年轻偏瘦男性、青蓝交领与灰色衣层",
+      "unverified": [
+        "侧背与剧情状态独立验收"
+      ],
+      "task_ids": [
+        "MB-C23-FACE"
+      ],
+      "reference_task_ids": [],
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "original_path": "参考/用户媒体/C23-肖像原始参考.jpg",
+      "original_sha256": "515fa678d059bd12a4fbcfac7821f28dd08ee63ab01f7a6640de9f6d62d7de76",
+      "visual_key": "face-C23",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_auto_numbering_request",
+      "selection_basis": "按自动适编号授权修除原参考伤污及旧化衣料，逐图保留窄脸、眉眼和短须；采用为32岁许照邻身份。",
+      "locks": [
+        "窄脸眉眼鼻口及短须",
+        "深青格纹、青瓷灰领、蓝黑襟缘"
+      ],
+      "derivation_rule": "使用修后身份母版，身体和方口行囊按独立任务验证。",
+      "visual_notes": "无伤无污，束髻完整；32岁成人肌理。",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompts": [
+          "Edit supplied portrait into uninjured frontal identity master of the SAME fictional Chinese man Xu Zhaolin, age32. Preserve exact narrow facial bone structure, eyes brows nose lips and subtle short moustache/chin stubble. Remove bruise/scrape-like red marks and dirt from BOTH cheeks, restore natural adult skin pores without beauty smoothing. Keep natural mature32-year-old expression, not teenage or old. Level head facing directly to camera. Tie existing black hair neatly in a modest dark cloth-bound topknot; loose strands clear both eyes. Entire topknot within frame with generous top margin. Replace brown ragged rough outer clothes with refined dark deep-teal dense matte silk-wool crossed tunic, quiet same-color grid-bend jacquard, celadon-grey cotton inner collar and blue-black lapel edging. No armor, leather plates, cape, gold motifs or royal accessories. Neutral grey studio and soft neutral balanced light, chest-up with face dominating, identity from original only. One person one portrait2:3 image, no wounds blood dirt weapons bags text or collage."
+        ],
+        "input_sha256": "515fa678d059bd12a4fbcfac7821f28dd08ee63ab01f7a6640de9f6d62d7de76"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "summary": "窄脸、眉眼和短须同源，疑似伤污清除；深青衣领符合现行方向。"
+      }
     }
   ],
   "pending_masters": [
@@ -1377,96 +1705,6 @@
       "format": "JPEG"
     },
     {
-      "id": "asset-match-C03-03",
-      "asset_ids": [
-        "C03"
-      ],
-      "candidate_subarea": null,
-      "name": "韩青",
-      "scope": "matched_asset_reference",
-      "status": "candidate_reference",
-      "confidence": "low",
-      "path": "资产/媒体/资产匹配/C03-参考-03.jpg",
-      "sha256": "c3d439c1fb881335598ca9f08bf71854d39c0555d62d8cef69e6dbbd416e9f5e",
-      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\3-照片-3.jpg",
-      "source_filename": "3-照片-3.jpg",
-      "source_kind": "user_attachment",
-      "registered_on": "2026-09-10",
-      "matched_by": "assistant_visual_comparison",
-      "matching_basis": "年轻男性、灰青交领与行旅旧衣",
-      "unverified": [
-        "可见胡须与设定的无须冲突；破损装饰外衣亦不完全符合丝毛衣装，保留候选"
-      ],
-      "task_ids": [],
-      "reference_task_ids": [],
-      "model": null,
-      "seed": null,
-      "prompt": null,
-      "width": 853,
-      "height": 1280,
-      "format": "JPEG"
-    },
-    {
-      "id": "asset-match-C16-04",
-      "asset_ids": [
-        "C16"
-      ],
-      "candidate_subarea": null,
-      "name": "杜长庚",
-      "scope": "matched_asset_reference",
-      "status": "matched_reference",
-      "confidence": "high",
-      "path": "资产/媒体/资产匹配/C16-参考-04.jpg",
-      "sha256": "6f27bc23b7077a25f3426f0ddbff8c53735c26c8f75986653251b788e7e616d1",
-      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\4-照片-4.jpg",
-      "source_filename": "4-照片-4.jpg",
-      "source_kind": "user_attachment",
-      "registered_on": "2026-09-10",
-      "matched_by": "assistant_visual_comparison",
-      "matching_basis": "灰鬓、短须、栗褐暗纹袍和深褐围领",
-      "unverified": [
-        "半身不能验证体型及全套服装"
-      ],
-      "task_ids": [],
-      "reference_task_ids": [],
-      "model": null,
-      "seed": null,
-      "prompt": null,
-      "width": 853,
-      "height": 1280,
-      "format": "JPEG"
-    },
-    {
-      "id": "asset-match-C04-05",
-      "asset_ids": [
-        "C04"
-      ],
-      "candidate_subarea": null,
-      "name": "顾伯",
-      "scope": "matched_asset_reference",
-      "status": "matched_reference",
-      "confidence": "high",
-      "path": "资产/媒体/资产匹配/C04-参考-05.jpg",
-      "sha256": "ddefee1ce9999ea13fc5cb008b1780007ccdb0575fbb8842634747c449446bc7",
-      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\5-照片-5.jpg",
-      "source_filename": "5-照片-5.jpg",
-      "source_kind": "user_attachment",
-      "registered_on": "2026-09-10",
-      "matched_by": "assistant_visual_comparison",
-      "matching_basis": "年长、灰白短须、茶褐外袍与浅茶领",
-      "unverified": [
-        "半身不能验证全套服装与动态"
-      ],
-      "task_ids": [],
-      "reference_task_ids": [],
-      "model": null,
-      "seed": null,
-      "prompt": null,
-      "width": 853,
-      "height": 1280,
-      "format": "JPEG"
-    },
-    {
       "id": "asset-match-C06-06",
       "asset_ids": [
         "C06"
@@ -1486,96 +1724,6 @@
       "matching_basis": "墨黑外衣、深炭暗纹交领、束发与短须",
       "unverified": [
         "不能据此确认与既有蒙面候选同一张脸；伤污不写入剧情"
-      ],
-      "task_ids": [],
-      "reference_task_ids": [],
-      "model": null,
-      "seed": null,
-      "prompt": null,
-      "width": 853,
-      "height": 1280,
-      "format": "JPEG"
-    },
-    {
-      "id": "asset-match-C17-07",
-      "asset_ids": [
-        "C17"
-      ],
-      "candidate_subarea": null,
-      "name": "石照川",
-      "scope": "matched_asset_reference",
-      "status": "matched_reference",
-      "confidence": "high",
-      "path": "资产/媒体/资产匹配/C17-参考-07.jpg",
-      "sha256": "2b0015829812b2c5b778bb454e4682b037265c0e3e3e7b6cd0dcc5584a792ff3",
-      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\7-照片-7.jpg",
-      "source_filename": "7-照片-7.jpg",
-      "source_kind": "user_attachment",
-      "registered_on": "2026-09-10",
-      "matched_by": "assistant_visual_comparison",
-      "matching_basis": "方阔面部、深靛蓝外衣与石灰蓝内领",
-      "unverified": [
-        "土绿侧层及全身体型未显示"
-      ],
-      "task_ids": [],
-      "reference_task_ids": [],
-      "model": null,
-      "seed": null,
-      "prompt": null,
-      "width": 853,
-      "height": 1280,
-      "format": "JPEG"
-    },
-    {
-      "id": "asset-match-C20-08",
-      "asset_ids": [
-        "C20"
-      ],
-      "candidate_subarea": null,
-      "name": "崔望野",
-      "scope": "matched_asset_reference",
-      "status": "matched_reference",
-      "confidence": "high",
-      "path": "资产/媒体/资产匹配/C20-参考-08.jpg",
-      "sha256": "ca42de668ea1e59f0f058047dae747de12e633d32c7660c7491c8d5428b2ea5b",
-      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\8-照片-8.jpg",
-      "source_filename": "8-照片-8.jpg",
-      "source_kind": "user_attachment",
-      "registered_on": "2026-09-10",
-      "matched_by": "assistant_visual_comparison",
-      "matching_basis": "瘦长面部、灰青衣、短深灰肩披",
-      "unverified": [
-        "面颊色斑仅记录视觉，不新增受伤状态；内层竹青未充分显示"
-      ],
-      "task_ids": [],
-      "reference_task_ids": [],
-      "model": null,
-      "seed": null,
-      "prompt": null,
-      "width": 853,
-      "height": 1280,
-      "format": "JPEG"
-    },
-    {
-      "id": "asset-match-C23-09",
-      "asset_ids": [
-        "C23"
-      ],
-      "candidate_subarea": null,
-      "name": "许照邻",
-      "scope": "matched_asset_reference",
-      "status": "candidate_reference",
-      "confidence": "medium",
-      "path": "资产/媒体/资产匹配/C23-参考-09.jpg",
-      "sha256": "515fa678d059bd12a4fbcfac7821f28dd08ee63ab01f7a6640de9f6d62d7de76",
-      "source_path": "C:\\Users\\34839\\.codex\\codex-remote-attachments\\01a08699-2d1d-7392-9fb4-561c3cf3c770\\1CAF700C-2E20-454F-90EA-A00872E45F07\\9-照片-9.jpg",
-      "source_filename": "9-照片-9.jpg",
-      "source_kind": "user_attachment",
-      "registered_on": "2026-09-10",
-      "matched_by": "assistant_visual_comparison",
-      "matching_basis": "年轻偏瘦男性、青蓝交领与灰色衣层",
-      "unverified": [
-        "外衣偏灰褐、明显旧化，与深蓝绿丝毛设定有差异；伤污不新增剧情"
       ],
       "task_ids": [],
       "reference_task_ids": [],
@@ -1833,6 +1981,1027 @@
       "width": 853,
       "height": 1280,
       "format": "JPEG"
+    }
+  ],
+  "generated_assets": [
+    {
+      "id": "generated-C01-FULL",
+      "task_id": "MB-C01-FULL",
+      "asset_ids": [
+        "C01",
+        "C02"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C01/C01-全身候选.png",
+      "sha256": "dcd6f817787bcbf175ae72263b781e77b2bdfaf9d6efb06b5d0962320f4db547",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Edit image 1 (full-body costume candidate). Image 2 is the authoritative facial identity portrait and visible upper-costume reference. Preserve the SAME fictional 24-year-old Chinese man, face, hair and dark sculpted hair ornament, smoky-grey crossed inner collar, ink-teal/black fabric and restrained dark-gold cloud motif, waist sash and existing dark clasp. Make only a costume-tailoring repair: taper both lower sleeves to neat close-fitting wrist cuffs with both hands fully visible, and reduce the heavy flared skirt volume into practical straight split travel-robe panels falling to upper/mid calf, with dark fitted trousers and the same boots visible. Keep the shoulders fitted, no added armor or weapons. Preserve natural head-to-body proportions and believable young-adult lean athletic anatomy: do not shrink the head, elongate the legs or narrow the waist to fashion-model extremes; hair ornament is not part of anatomical head height. Neutral standing pose, arms relaxed down, head and boot soles fully visible, neutral studio perspective near torso height, same neutral soft lighting and background. No cape, long train, modern fasteners, new jewelry, rain, facial wound, blood, text or collage. Keep existing likeness and material quality. Output one 2:3 full-length photo.",
+        "input_references": [
+          {
+            "master_id": "portrait-C01",
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308"
+          }
+        ],
+        "edit_target": {
+          "path_at_execution": "资产/媒体/C01/C01-全身候选.png",
+          "sha256_at_execution": "0c1e13dc7d8d078bc137508634a3c1ed1a79af992f4897483aa7805beec81e39",
+          "retention": "replaced_in_place_under_project_current_only_rule"
+        }
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C01／C02共用正面无甲干衣全身母版，仅本任务",
+        "summary": "实际修图后袖口收至腕部、衣摆改直分片；保留已选脸、发饰、灰内领与暗金云纹，头脚双手完整，无甲无刃无脸伤。当前腰封、窄袖与下装固定供侧背派生。",
+        "proportion_review": "按24岁修长青年体格复看，目测无明显小头、拉长腰胯或夸张腿长；发饰不计解剖头长。静帧目测不是精准人体测量。",
+        "remaining": [
+          "背面、四分之三和细节属独立任务，未完成",
+          "雨湿、左肩伤及动作未验收"
+        ]
+      },
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10"
+    },
+    {
+      "id": "generated-S01-W1-05",
+      "task_id": "MB-S01-W1-05",
+      "asset_ids": [
+        "S01"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/S01/普通刺客/S01-W1-05-全身候选.png",
+      "sha256": "499957045cd667ecf6c652d77997321a41200f2e254e4484ec18aae1e4aa2ef5",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Edit the supplied fictional masked adult Chinese period costume reference by extending the canvas downward and slightly outward so both boots, toes, heels and entire soles are fully visible with a small floor margin. Preserve the existing head, eyes, wrapped black headcloth and face covering, body proportions, pose, ash-brown short layered jacket, blue-gray crossed lapel, broad dark waist wrap, hands, trousers, existing boots and fabric textures. This is the same individual and the same costume, not a redesign. Match the neutral studio floor and soft light seamlessly. One full-body standing person only. No weapon, added props, text, labels, collage, scars, rain or action. Keep the entire top of the head visible. Only complete the clipped lower boot area and extend matching background.",
+        "input_references": [
+          {
+            "master_id": "ordinary-assassin-02",
+            "path": "资产/媒体/S01/普通刺客/普通刺客-02.jpg",
+            "sha256": "57523ca6c4f74880677b01017a51ec7722db93c73e07af0a8ebd2c06c0ea943e"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_framing_only",
+        "summary": "已查看实际补图，头脚与靴底完整，蒙面、主要衣型及配色保持可辨；修图细节不等于逐像素不变。",
+        "remaining": [
+          "雨湿与腰间入鞘刀未派生",
+          "身高比例与其余九人同尺度核验",
+          "背面、动作和林道整合未完成"
+        ]
+      }
+    },
+    {
+      "id": "generated-S01-W1-01",
+      "task_id": "MB-S01-W1-01",
+      "asset_ids": [
+        "S01"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/S01/普通刺客/S01-W1-01-全身候选.png",
+      "sha256": "ab130eb84f84aa1153b5f3267a90cb077fe658177ce3596d09dcb0ecb902d5d8",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Edit the supplied fictional masked adult Chinese period costume reference by extending the canvas downward so both boots, toes, heels and entire soles are fully visible with a small floor margin. Preserve the existing head, eyes, dark teal wrapped headcloth and face covering, slender body proportions, pose, dark gray-teal textured jacket, broad pale-gray crossed inner lapel, layered deep-green sash, asymmetrical dark forearm panels, hands, trousers, existing boots and fabric textures. This is the same individual and same costume, not a redesign. Match the neutral studio floor and soft light seamlessly. One full-body standing person only, with the entire top of the head visible. No weapon, added props, text, labels, collage, scars, rain or action. Only complete the clipped lower boot area and extend matching background.",
+        "input_references": [
+          {
+            "master_id": "ordinary-assassin-03",
+            "path": "资产/媒体/S01/普通刺客/普通刺客-03.jpg",
+            "sha256": "e3329145de207f31361dd32adaab69a06aa51cc6a4dab3d089a30a7477e6ba6d"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_framing_only",
+        "summary": "已查看实际补图，头脚与靴底完整，蒙面、主要衣型及配色保持可辨；修图细节不等于逐像素不变。",
+        "remaining": [
+          "雨湿与腰间入鞘刀未派生",
+          "身高比例与其余九人同尺度核验",
+          "背面、动作和林道整合未完成"
+        ]
+      }
+    },
+    {
+      "id": "generated-C16-FULL",
+      "task_id": "MB-C16-FULL",
+      "asset_ids": [
+        "C16"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C16/C16-全身候选.png",
+      "sha256": "799587e9a8d900b35af197d0f38baa3b0b4ac9aa776210e06ed2126a2e0bd0ac",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a front-facing full-length standing costume photograph of the SAME fictional Chinese period character in the supplied portrait, Du Changgeng C16, age 43. Preserve his exact face, grey at temples, short moustache and close stubble, steady expression, long black period hair tied back, dark brown short scarf and the visible chestnut/black-brown fine woven jacket with restrained bronze angular pattern. Extend the unseen body as a broad-shouldered sturdy adult, practical martial travel outfit with fitted narrow sleeves and secured cuffs, refined broad dark-brown layered waist sash with one small aged-bronze clasp, functional split hem ending below knees, dark fitted trousers and sturdy period boots. No extravagant wide robe, no dangling chains. Keep rich dense silk-wool texture and the existing subdued palette, not shabby cloth. This is a DRY unarmored wardrobe base: no armor, blade, weapon, horse, rain, blood, new injury or props. Hands empty naturally down at sides fully visible. Entire tied hair to both boot soles visible with margin. One subject one frame, 2:3 portrait. Neutral light-gray studio background, soft broad light and neutral white balance, detailed natural skin, no beauty smoothing. The reference defines identity and visible upper clothing; unseen waist and lower clothing are a production design extension to be reviewed. No text, labels or collage.",
+        "input_references": [
+          {
+            "master_id": "asset-match-C16-04",
+            "path": "资产/媒体/资产匹配/C16-参考-04.jpg",
+            "sha256": "6f27bc23b7077a25f3426f0ddbff8c53735c26c8f75986653251b788e7e616d1"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "正面无甲干衣全身母版，仅本任务",
+        "summary": "逐图复核：身份沿已绑定肖像，头脚与双手完整，正面站立；顾伯茶褐层领、窄腰封与可收袖，杜长庚栗褐暗纹、褐围巾、收袖与宽腰封；无甲无刃、无新增伤势。锁定当前正面可见腰封、下装和纹样，供其他视角派生。",
+        "remaining": [
+          "背面、四分之三和细节属独立任务，未完成",
+          "雨湿、动作及人景组合未验收"
+        ],
+        "proportion_review": "2026-09-10按用户新增要求复看：全身目测未见明显小头、拉长腰胯或夸张腿长；头肩、手臂与整体体量协调。年龄分别沿64岁／43岁角色表现，未以年龄制造驼背；这是定妆静帧目测，非精准人体测量，侧背仍须同比例复核。"
+      },
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10"
+    },
+    {
+      "id": "generated-C04-FULL",
+      "task_id": "MB-C04-FULL",
+      "asset_ids": [
+        "C04"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C04/C04-全身候选.png",
+      "sha256": "9f4dd831b17a8b421bf377ea2dacc17ee9a71db862ba243d295658777f096692",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a front-facing full-length standing costume photograph of the SAME fictional Chinese period character in the supplied portrait, Gu Bo C04, age 64. Preserve his exact face, grey-white short neatly trimmed moustache and beard, grey brows, hair tied back in a modest period knot, calm expression, tea-brown finely woven outer robe, warm pale-tea crossed lapels and muted warm-grey inner collar visible in the supplied reference. Extend the unseen body as an older man with relaxed shoulders but upright, not stooped, practical modestly slender build. Refined household steward's long robe in dense soft silk-wool and fine low-contrast dark-gold jacquard, modest narrow dark-brown waist sash without showy metal buckle, neatly tailored sleeves that taper into narrow manageable cuffs suitable for serving warm water, simple dark period cloth shoes. No oversized sage sleeves, official badges, armor, weapons, walking cane, jewelry, cups or other props. Garment is well cared for, no patches or tears. Empty hands naturally relaxed at both sides entirely visible. Entire tied hair to both shoe soles visible with margin. Neutral pale gray studio background, broad soft directional light, neutral white balance and realistic aging skin. One person one frame, portrait 2:3, no text or collage. The supplied portrait defines identity and the visible upper garment; unseen waist and lower costume are a proposed production extension, preserve all upper details.",
+        "input_references": [
+          {
+            "master_id": "asset-match-C04-05",
+            "path": "资产/媒体/资产匹配/C04-参考-05.jpg",
+            "sha256": "ddefee1ce9999ea13fc5cb008b1780007ccdb0575fbb8842634747c449446bc7"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "正面无甲干衣全身母版，仅本任务",
+        "summary": "逐图复核：身份沿已绑定肖像，头脚与双手完整，正面站立；顾伯茶褐层领、窄腰封与可收袖，杜长庚栗褐暗纹、褐围巾、收袖与宽腰封；无甲无刃、无新增伤势。锁定当前正面可见腰封、下装和纹样，供其他视角派生。",
+        "remaining": [
+          "背面、四分之三和细节属独立任务，未完成",
+          "雨湿、动作及人景组合未验收"
+        ],
+        "proportion_review": "2026-09-10按用户新增要求复看：全身目测未见明显小头、拉长腰胯或夸张腿长；头肩、手臂与整体体量协调。年龄分别沿64岁／43岁角色表现，未以年龄制造驼背；这是定妆静帧目测，非精准人体测量，侧背仍须同比例复核。"
+      },
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10"
+    },
+    {
+      "id": "generated-C16-FULL-BACK",
+      "task_id": "MB-C16-FULL-BACK",
+      "asset_ids": [
+        "C16"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/C16/C16-背面候选.png",
+      "sha256": "4ad275684d1a85905d55871d5c6ba50781ad8e7b306fe37e1fc410d17c2f6ba4",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Produce the REAR full-length view of the same fictional period male costume in the supplied selected front full-body image. This is Du Changgeng C16, age 43, same broad-shouldered sturdy adult, long tied-back dark hair with grey temples, short dark-brown scarf, chestnut and black-brown dense silk-wool patterned jacket, layered broad dark-brown waist sash, fitted wrapped cuffs, dark trousers, same brown period boots. Turn the whole person 180 degrees so his back faces the camera, head looking straight away, no face visible, both hands relaxed beside the hips. Preserve exact garment color, material, silhouette, hem length below knees, scarf thickness, cuff wrapping, trousers and boot shape from the selected front. Extend the angular bronze tonal motif consistently across the back without a new large emblem. A plain practical center-back construction with no cape, train, weapon, armor or new ornament. Sash fastening remains at the front so do not put the front buckle on the back. One full body, head and both soles within frame with margins. Same neutral studio background and soft neutral light, dry clothes, no injury, no text, collage or extra view. Unseen rear seam design is a proposed continuation to review, not a new costume.",
+        "input_references": [
+          {
+            "master_id": "generated-C16-FULL",
+            "path": "资产/媒体/C16/C16-全身候选.png",
+            "sha256": "799587e9a8d900b35af197d0f38baa3b0b4ac9aa776210e06ed2126a2e0bd0ac"
+          }
+        ]
+      },
+      "review": {
+        "status": "rear_candidate_reviewed",
+        "summary": "后脑至双靴完整，脸朝后，前腰扣未移到后背；褐围巾、腰封、收袖和下摆与正面同族。",
+        "remaining": [
+          "后背纹样与前片需细节连续性复核",
+          "正背头肩、腰线和腿长需同尺度比较；不能靠衣摆相似就认定人体比例一致",
+          "后髻与后领的新增结构待固定"
+        ]
+      }
+    },
+    {
+      "id": "generated-C01-FULL-BACK",
+      "task_id": "MB-C01-FULL-BACK",
+      "asset_ids": [
+        "C01",
+        "C02"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/C01/C01-背面候选.png",
+      "sha256": "0d2ef4fa2c288a2abae5f7b1cee7c55ad3ce1de3f2801651659e9d2a54de5dba",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create one REAR full-length costume photograph of the same fictional 24-year-old Chinese man and the exact selected travel outfit in the supplied front view. Turn the entire figure 180 degrees, looking straight away so no face is visible. Preserve the same natural young-adult lean build, anatomical head size, shoulder width, waist level, torso and leg proportions; do not elongate legs or shrink the head. Hair ornament height is not anatomical head height. Keep the same tied long black hair and dark sculpted topknot ornament; no modern short haircut. Preserve ink-teal black finely woven silk-wool fabric, subdued dark-gold cloud embroidery, fitted narrow wrists, layered dark waist sash and straight split robe panels ending at the same calf level, same fitted dark trousers and black boots. Back seam and cloud pattern are a restrained consistent continuation, no new large emblem or cape. The buckle and hanging fittings are on the FRONT and should not be duplicated on the back. Arms relaxed at sides, both hands visible, head and both boot soles framed with margin. Same neutral studio background and soft neutral light, torso-height perspective, one subject one frame 2:3. No armor, weapons, rain, blood, injury, labels or collage.",
+        "input_references": [
+          {
+            "master_id": "generated-C01-FULL",
+            "path": "资产/媒体/C01/C01-全身候选.png",
+            "sha256": "dcd6f817787bcbf175ae72263b781e77b2bdfaf9d6efb06b5d0962320f4db547"
+          }
+        ]
+      },
+      "review": {
+        "status": "rear_candidate_reviewed",
+        "summary": "后脑至双靴完整，脸朝后，前扣及挂件未移到后背；暗金云纹、窄袖、腰线和直分片衣长与修后正面基本接续。",
+        "remaining": [
+          "后发长度、背缝与云纹连续性待固定",
+          "正背同尺度头肩及腰腿比例仍需比较",
+          "背部衣料及动作独立核验"
+        ]
+      }
+    },
+    {
+      "id": "generated-C04-FULL-3Q",
+      "task_id": "MB-C04-FULL-3Q",
+      "asset_ids": [
+        "C04"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/C04/C04-四分之三全身.png",
+      "sha256": "084bd6c5d527f9a1cd7725ee707573f2f44ce91f2f40be2641f1e28d404374c5",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Turn the SAME fictional 64-year-old Chinese household steward in the supplied selected front full-body costume into a front THREE-QUARTER full-length standing view, body and face turned approximately 35 degrees toward image left. Preserve exact identity, grey-white short beard and brows, grey tied period hair, natural mature older body with relaxed but upright shoulders, realistic head-to-body proportion, hands and neck appropriate to age. No automatic hunch, tiny head, long model legs, or youthful muscular torso. Keep precisely the same tea-brown fine dark-gold jacquard robe, crossed pale-tea and muted-grey inner collars, broad dark lapel borders, narrow simple brown sash tied at front, manageable cuffs, full long hem and dark cloth shoes. Reveal overlap and waist-sash thickness without redesigning or adding ornaments. Both empty hands relaxed beside body visible; top of hair and both shoe soles framed with margin. One subject one frame, same pale-grey studio background and soft neutral light, torso-height camera without perspective exaggeration. Dry unarmored base, no props, weapons, cane, blood, rain, text or collage. Preserve original garment length and body scale.",
+        "input_references": [
+          {
+            "master_id": "generated-C04-FULL",
+            "path": "资产/媒体/C04/C04-全身候选.png",
+            "sha256": "9f4dd831b17a8b421bf377ea2dacc17ee9a71db862ba243d295658777f096692"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C04四分之三全身无甲干衣，仅本视角任务",
+        "orientation": "身体朝画面左侧的四分之三，脸略回向镜头",
+        "summary": "逐图对照正面：身份、年龄、衣领叠层、腰封与袖型保持可辨，头脚及双手完整，无甲无刃无新增伤。身体朝画面左侧的四分之三，脸略回向镜头。",
+        "proportion_review": "自然头身、腰线、衣长与角色体格目测协调，未见明显长腿小头；未作精准人体测量。",
+        "remaining": [
+          "背面及衣料细节仍按独立任务验收",
+          "雨态、伤态与动态镜头未验证"
+        ]
+      }
+    },
+    {
+      "id": "generated-C16-FULL-3Q",
+      "task_id": "MB-C16-FULL-3Q",
+      "asset_ids": [
+        "C16"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/C16/C16-四分之三全身.png",
+      "sha256": "2e3b9c48782ed7e2628d156b07388401b310a99877a3039129a7fad8fa12b723",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a front THREE-QUARTER full-length standing view of the SAME fictional 43-year-old Chinese man Du Changgeng in the selected front reference, turned roughly 35 degrees toward image left. Preserve exact identity, grey temples, short moustache and stubble, tied period hair, sturdy broad shoulders and mature torso and hands. Preserve natural head-to-body scale, waist level, arm reach and leg length from the reference; no tiny head, long model legs or teenager build. Keep the exact dark-brown short scarf, chestnut/black-brown fine bronze-patterned silk-wool travel jacket, narrow wrapped cuffs, layered wide dark-brown sash with small aged-bronze front clasp, below-knee split hem, dark trousers and brown boots. Show the lapel overlap and sash thickness at this angle without redesigning the outfit. Empty hands naturally beside body and visible. Head and both boot soles inside frame with margins. Same neutral grey studio, soft neutral light and torso-height perspective. One adult, one frame 2:3, dry unarmored base, no weapons, blood, rain, props, text or collage.",
+        "input_references": [
+          {
+            "master_id": "generated-C16-FULL",
+            "path": "资产/媒体/C16/C16-全身候选.png",
+            "sha256": "799587e9a8d900b35af197d0f38baa3b0b4ac9aa776210e06ed2126a2e0bd0ac"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C16四分之三全身无甲干衣，仅本视角任务",
+        "orientation": "身体朝画面左侧的四分之三，脸略回向镜头",
+        "summary": "逐图对照正面：身份、年龄、衣领叠层、腰封与袖型保持可辨，头脚及双手完整，无甲无刃无新增伤。身体朝画面左侧的四分之三，脸略回向镜头。",
+        "proportion_review": "自然头身、腰线、衣长与角色体格目测协调，未见明显长腿小头；未作精准人体测量。",
+        "remaining": [
+          "背面及衣料细节仍按独立任务验收",
+          "雨态、伤态与动态镜头未验证"
+        ]
+      }
+    },
+    {
+      "id": "generated-C01-FULL-3Q",
+      "task_id": "MB-C01-FULL-3Q",
+      "asset_ids": [
+        "C01",
+        "C02"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/C01/C01-四分之三全身.png",
+      "sha256": "678fe1a66fffc92a3c178a9376c227f25028093f9364f7fa0b3b408e6ade6776",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a front THREE-QUARTER full-length costume photograph of the SAME fictional 24-year-old Chinese man Gu Yan in the supplied selected front view, body turned about 35 degrees toward image left, face in compatible three-quarter orientation. Preserve the exact face and dark sculpted topknot ornament, long tied black hair, smoky-gray layered inner collar, crossed dark lapels, ink-teal/black dense fine silk-wool and restrained dark-gold cloud embroidery. Preserve the newly fitted narrow wrist cuffs, straight split travel-robe panels ending at calf level, layered dark waist sash, same front clasp and hanging small fittings, fitted trousers and black boots. No return to wide sleeve openings or flared floor-length skirt. Keep the same natural young-adult lean athletic build, anatomical head size, waist position, torso and leg length; avoid tiny head, stretched legs or exaggerated model proportions. Topknot ornament does not count as head height. Show garment overlap and sash depth, both empty hands relaxed and visible at sides. Entire head and boot soles with margins. One subject one frame 2:3, same neutral-grey studio and soft neutral light, torso-height perspective. Dry unarmored costume, no weapon, rain, wound, blood, props, text or collage.",
+        "input_references": [
+          {
+            "master_id": "generated-C01-FULL",
+            "path": "资产/媒体/C01/C01-全身候选.png",
+            "sha256": "dcd6f817787bcbf175ae72263b781e77b2bdfaf9d6efb06b5d0962320f4db547"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C01四分之三全身无甲干衣，仅本视角任务",
+        "orientation": "实际身体朝画面右侧的四分之三，方向与提示词不同；任务未限定左右，此图按实际右向调用",
+        "summary": "逐图对照正面：身份、年龄、衣领叠层、腰封与袖型保持可辨，头脚及双手完整，无甲无刃无新增伤。实际身体朝画面右侧的四分之三，方向与提示词不同；任务未限定左右，此图按实际右向调用。",
+        "proportion_review": "自然头身、腰线、衣长与角色体格目测协调，未见明显长腿小头；未作精准人体测量。",
+        "remaining": [
+          "背面及衣料细节仍按独立任务验收",
+          "雨态、伤态与动态镜头未验证"
+        ]
+      }
+    },
+    {
+      "id": "generated-C04-FULL-BACK",
+      "task_id": "MB-C04-FULL-BACK",
+      "asset_ids": [
+        "C04"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/C04/C04-背面候选.png",
+      "sha256": "b6747490025dee88be757f019b029f09088f737ca42e1f7d6ccdb84faf0b70f9",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create the REAR full-length costume view of the SAME fictional 64-year-old Chinese steward Gu Bo in the supplied selected front reference. Turn the entire person away 180 degrees with head straight away, no face visible. Preserve grey period hair gathered into a modest small knot, natural mature older build, relaxed upright shoulders without a hunch, same anatomical head scale, torso length, waist level, arm reach and leg length. Do not shrink the head, lengthen legs or make an older person frail by default. Preserve the identical tea-brown fine dark-gold jacquard long robe, dark lapel fabric continuing naturally around the neck, narrow plain brown waist sash, manageable cuffs, long hem and dark cloth shoes. Rear fabric is a continuous understated version of the same motif, practical center back seam, no large emblem, no cape. Front sash knot remains in front and is not duplicated at back. Hands empty and relaxed beside body visible, entire top of hair and both shoe soles within frame with margin. Same pale grey neutral studio background, soft neutral light, torso-height camera without distortion. One person one frame, 2:3, dry unarmored outfit, no cane, weapons, injury, rain, text or collage.",
+        "input_references": [
+          {
+            "master_id": "generated-C04-FULL",
+            "path": "资产/媒体/C04/C04-全身候选.png",
+            "sha256": "9f4dd831b17a8b421bf377ea2dacc17ee9a71db862ba243d295658777f096692"
+          }
+        ]
+      },
+      "review": {
+        "status": "continuity_review_pending",
+        "scope": "本视角无甲干衣静态衣装",
+        "summary": "背面头脚完整，灰小髻、茶褐衣料、背缝与腰带连续；未见背面重复前结。后发和纹样连续仍待与侧背联核。",
+        "remaining": [
+          "角色侧背与细节连续核验",
+          "雨伤和动态尚未验收"
+        ]
+      }
+    },
+    {
+      "id": "generated-C04-COSTUME-DETAIL",
+      "task_id": "MB-C04-COSTUME-DETAIL",
+      "asset_ids": [
+        "C04"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C04/C04-衣装细节.png",
+      "sha256": "09775f2bd598cebe02164b6a47da572e442cf2e1c0cbc07df5550e01835b4867",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create one photorealistic costume continuity DETAIL photograph derived strictly from the supplied selected full-body image of fictional 64-year-old steward Gu Bo. Frame only from base of neck to upper thighs, include complete collar, crossing inner lapels, both outside vertical lapel bands and the entire waist sash with its side knot and hanging end. No face or head, no montage, no text. Preserve exact tea-brown subdued dark gold woven botanical/cloud jacquard, plain dark brown long outer lapel edging with double fine stitching, warm tan crossed inner lapel over grey inner collar, narrow plain brown wrapped sash tied at wearer's LEFT side (image RIGHT), same garment overlap. Pattern density and scale stay as reference, no new emblems, jewelry, clasps, silk shine or embroidery motifs. Mature natural torso not cinched fashion waist. Straight frontal camera, soft neutral light, neutral grey studio, sharp fabric fibers and real seams. Dry clean unarmored clothing, no props, no hands over sash. Portrait 2:3, a single close view, not a full body.",
+        "input_references": [
+          {
+            "master_id": "generated-C04-FULL",
+            "path": "资产/媒体/C04/C04-全身候选.png",
+            "sha256": "9f4dd831b17a8b421bf377ea2dacc17ee9a71db862ba243d295658777f096692"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "本视角无甲干衣静态衣装",
+        "summary": "对照现行正面，灰内领、暖褐叠襟、深褐长襟双线、左腰侧结（画面右）、褐袖缘及织纹保持可辨；颈手有成熟肌理，腰围自然。通过本张衣装细节静态任务。",
+        "remaining": [
+          "角色侧背与细节连续核验",
+          "雨伤和动态尚未验收"
+        ]
+      },
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10"
+    },
+    {
+      "id": "generated-C01-COSTUME-DETAIL",
+      "task_id": "MB-C01-COSTUME-DETAIL",
+      "asset_ids": [
+        "C01",
+        "C02"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/C01/C01-衣装细节.png",
+      "sha256": "859ab9499464f347ce6cb3a66345a3c7f86eaae44f64e38138269ba3015dc758",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a single costume continuity close-up photograph strictly from supplied selected Gu Yan full-body reference. Frame base of neck through upper thighs, collar, lapel overlap, entire waist sash and hanging metal fittings all clear. Keep same ink-teal black woven geometric ground, sparse muted dark-gold outlined cloud embroidery, smoky grey layered inner collar, crossed dark lapels with thin warm brown piping, broad layered black belt with EXACT same central openwork aged-metal floral clasp and TWO ring hanging fitting on image RIGHT, keep same narrow black patterned wrist cuffs. Preserve garment pattern placement and overlap from reference, enlarge with fine fabric fibers not new motifs. Natural lean 24-year-old male torso, no cinched waist or body redesign. No face required, no armor, wounds, rain, weapon, props, text, montage or additional panels. One frontal portrait 2:3 crop, neutral grey studio and neutral soft light, dry outfit, crisp seams, restrained metal finish.",
+        "input_references": [
+          {
+            "master_id": "generated-C01-FULL",
+            "path": "资产/媒体/C01/C01-全身候选.png",
+            "sha256": "dcd6f817787bcbf175ae72263b781e77b2bdfaf9d6efb06b5d0962320f4db547"
+          }
+        ]
+      },
+      "review": {
+        "status": "continuity_review_pending",
+        "scope": "本视角无甲干衣静态衣装",
+        "summary": "叠领、双环和窄袖保留，但金属扣轮廓与云纹局部重新描绘；近景跨镜连续待修，不作为已选细节。",
+        "remaining": [
+          "角色侧背与细节连续核验",
+          "雨伤和动态尚未验收"
+        ]
+      }
+    },
+    {
+      "id": "generated-C16-COSTUME-DETAIL",
+      "task_id": "MB-C16-COSTUME-DETAIL",
+      "asset_ids": [
+        "C16"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/C16/C16-衣装细节.png",
+      "sha256": "81be943536a09589fd7a0fcb9f8083f09608c122b83f2fffc7c449cafae4ff75",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create ONE costume continuity close-up photograph using supplied selected full-body Du Changgeng reference. Frontal crop from base of neck through upper thighs including complete dark brown short scarf wrapped at neck and crossing onto chest, crossed chestnut/black patterned lapels, entire layered plain dark-brown cloth sash with small rectangular aged bronze geometric clasp on image RIGHT and short hanging cloth end, and both narrow wrapped forearm cuffs. Preserve exact clothing and orientation from reference, its dense subdued copper-brown woven irregular geometric motif and black-brown silk-wool ground, matte fibers, plain dark-brown bound seam. No new design, no extra necklaces or metal ornaments, no wide sleeves, no long scarf tails. Maintain broad sturdy mature 43-year-old male torso with natural waist. Single continuous close-up not montage, no text, no face needed, no weapons, armor, injuries, rain or props. Neutral grey studio and soft neutral light; sharp believable fabric construction. Portrait 2:3.",
+        "input_references": [
+          {
+            "master_id": "generated-C16-FULL",
+            "path": "资产/媒体/C16/C16-全身候选.png",
+            "sha256": "799587e9a8d900b35af197d0f38baa3b0b4ac9aa776210e06ed2126a2e0bd0ac"
+          }
+        ]
+      },
+      "review": {
+        "status": "continuity_review_pending",
+        "scope": "本视角无甲干衣静态衣装",
+        "summary": "短围巾、叠襟、宽腰封和缠袖保留，铜扣内纹重新描绘且腰带尾略长；细节连续待修，不作已选。",
+        "remaining": [
+          "角色侧背与细节连续核验",
+          "雨伤和动态尚未验收"
+        ]
+      }
+    },
+    {
+      "id": "generated-C17-FULL",
+      "task_id": "MB-C17-FULL",
+      "asset_ids": [
+        "C17"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/C17/C17-全身候选.png",
+      "sha256": "6c46adf0d9f9caac1766b2bdab4072fc8c2d548b996381222b36541c466146d5",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Precisely edit ONLY garment surfaces and outer sleeve shape in this full-body image. Preserve pixel-consistent face, hair, head size, adult body proportions, pose, hands, legs, shoes, camera and neutral background. Replace coarse burlap-like flecked texture on dark indigo OUTER robe with refined dense matte silk-wool, clean fine weave and elegant very subtle same-color broken-ridge angular jacquard pattern, no glitter or bright embroidery. Preserve same indigo value, all existing lapel arrangement and dark blue sash side knot. Narrow the outer sleeves so they taper continuously toward existing wrapped wrist cuffs instead of ending as wide open elbow sleeves. Keep slate-blue inner collar fabric, add only a discreet muted earth-teal side seam panel at each hip in the already present side layer. No armor or accessories. Maintain exact existing hem length, dark trousers and boots. Retain believable wearable tailored structure, not glossy satin, not ragged rough cotton. One full body frame, no text or collage.",
+        "initial_prompt": "Create a full-length frontal costume identity photograph of the SAME fictional Chinese man Shi Zhaochuan, 38, in the supplied portrait. Preserve exactly his broad square facial structure, strong straight brows, eyes, nose, lips, subtle short moustache and chin stubble, natural small facial skin marks and black hair tied into a modest period knot. Preserve the dark indigo outer garment and slate-blue crossed inner collar appearance. Extend into a complete refined dark-indigo silk-wool travel robe with low-contrast broken-ridge woven geometric texture, muted earth-teal side layers, slate-grey cotton inner collar, dark ink-blue broad plain wrapped waist sash; fitted practical wrist cuffs, below-knee split hem, dark trousers, plain dark period boots. No new insignia, crowns, gold cloud designs, giant armor or weapons. Broad sturdy shoulders and substantial natural torso, balanced adult head-to-body scale and realistic legs: not a giant, not tiny head or stretched fashion proportions. Mature 38-year-old skin and hands, no premature elderly look. Empty hands relaxed fully visible alongside body, feet slightly apart, upright calm stance. Head including tied hair and both boot soles entirely within frame with margins. Neutral grey seamless studio, soft neutral light, camera near torso level. One person, portrait 2:3, dry clean unarmored base outfit, no shield, sword, rain, blood, wounds, text or collage.",
+        "edit_target": {
+          "path": "资产/媒体/C17/C17-全身候选.png",
+          "sha256": "9f418e1489fe13890fa299a364df2147a5644ad9fe6b02549531211c1b8f4bde",
+          "scope": "修图执行前输入，已原地替换"
+        },
+        "input_references": [
+          {
+            "master_id": "asset-match-C17-07",
+            "path": "资产/媒体/资产匹配/C17-参考-07.jpg",
+            "sha256": "2b0015829812b2c5b778bb454e4682b037265c0e3e3e7b6cd0dcc5584a792ff3"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C17正面全身无甲干衣",
+        "summary": "对照肖像保留方阔面部、眉眼与短髭，头脚双手完整；修后深靛细织折脊纹、收袖、墨蓝腰封和侧层清楚，无甲无刃无新增伤。",
+        "proportion_review": "38岁匀实宽肩，头身与四肢目测自然，无巨人化或小头长腿；未做精确人体测量。",
+        "remaining": [
+          "侧背及细节连续性",
+          "内甲、兵器、雨态与动作另任务验收"
+        ]
+      }
+    },
+    {
+      "id": "generated-C20-FULL",
+      "task_id": "MB-C20-FULL",
+      "asset_ids": [
+        "C20"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/C20/C20-全身候选.png",
+      "sha256": "f6497b85ee4e648be6ee697a586a8421f1c9fa085c1c284b497ca819d4e4c21c",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Edit only clothing color/material details of this full-length fictional Cui Wangye image, preserving EXACT face, hair, mole, body proportions, pose, hands, shoes, garment silhouette, sash knot position and studio background. On grey-teal robe reduce the pale feather/plant lines to very low-contrast same-color woven feather texture: no bright cream embroidery. Give fabric fine dense matte silk-wool finish, remove coarse speckled burlap texture. Introduce a narrow muted bamboo-green MIDDLE layer visibly at crossed collar between smoky-blue innermost collar and grey-teal robe, plus discreet bamboo-green side panels at hem. Keep short charcoal shoulder cape same length above elbows, change surface to refined short-pile wool, NOT long fur. Keep fitted wrapped cuffs and all existing seams, no weapons, armor, accessories, wounds, text, or layout changes. Full-body framing and mature 34-year-old identity unchanged.",
+        "initial_prompt": "Extend the SAME fictional 34-year-old Chinese man Cui Wangye in the supplied selected portrait to a full-length frontal studio costume image. Exact same narrow long face, eyes, eyebrows, nose, lips, small mole on image left cheek, subtle stubble, black hair tied into modest period topknot; no cheek bruising or scratches. Natural lean long-bodied adult, realistic head-to-body scale, not tiny head, elongated fashion legs, giant or teenage build. Entire head and both boot soles inside frame with generous margins; both empty hands relaxed beside body and visible. Clothing: refined grey-teal dense matte silk-wool travel robe with quiet same-color sparse feather-like woven pattern, muted bamboo-green middle layer, smoky blue inner collar, narrow charcoal wrapped waist sash, fitted wrist cuffs, split below-knee hem, dark grey trousers, plain dark period boots. Retain dark shoulder covering as a SHORT charcoal close-pile wool shoulder cape ending at upper arms, never trailing below elbows, leaving arms free. Replace coarse loose weave with fine high-quality cloth, not glossy satin or embroidery overload. Face and hair solely from reference. Camera at torso level, neutral grey studio and soft neutral balanced light. Dry unarmored base, no bow, quiver, sword, bags, gloves, armor, wounds, blood, rain, text or collage. One full-body person, portrait 2:3.",
+        "edit_target": {
+          "path": "资产/媒体/C20/C20-全身候选.png",
+          "sha256": "42804b7b3020b8d204c147d7fbbe4cbc7e1a74b3fa7e9c811e95c682004aea7e",
+          "scope": "修图执行前输入，已原地替换"
+        },
+        "input_references": [
+          {
+            "master_id": "asset-match-C20-08",
+            "path": "资产/媒体/C20/C20-身份母版.png",
+            "sha256": "b580782f785047fca485e0befe464c18bbade5983f44001719e09935d5710fd1"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C20正面全身无甲干衣",
+        "summary": "脸、小痣与发式同源，无伤；灰青细织低反差羽纹、竹青中层、烟蓝领和短肩披清楚，双手及头脚完整，无甲无武器。",
+        "proportion_review": "瘦长成人体量、34岁肌理，头身目测协调；未作精确测量。",
+        "remaining": [
+          "侧背与细节连续",
+          "甲、弓包箭袋及雨态动作独立验收"
+        ]
+      }
+    },
+    {
+      "id": "generated-C03-FULL",
+      "task_id": "MB-C03-FULL",
+      "asset_ids": [
+        "C03"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/C03/C03-全身候选.png",
+      "sha256": "b53a19f5f83b618f7af281aa74c95bfd942aec4ff59223da8aea2658ab6d0f28",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Generate full-length frontal standing costume photograph of SAME fictional 25-year-old Chinese man Han Qing in supplied clean-shaven portrait. Preserve exact facial identity, adult eyes brows nose lips jaw, no beard or wounds. Same black tied hair in grey-teal cloth-bound modest topknot, move loose strands clear of both eyes. ENTIRE topknot plus 8 percent headroom, both dark boot soles and floor margin in frame. Natural compact athletic adult body, sturdy shoulders and arms but not giant or teenager, realistic anatomical head-to-body proportion with normal legs, no tiny head or exaggerated fashion elongation. Preserve grey-teal crossed robe with dark navy underlapels, narrow tea-white inner collar, fine matte silk-wool and same low-contrast angular water-flow woven motif. Extend to fitted practical wrist sleeves, layered navy cloth waist sash with ONE small dark-silver rectangular fastener, split straight robe panels ending just below knees, navy cotton trousers and dark simple period boots. No cloak or shoulder cape. Dry unarmored base, no visible leather armor, weapons, bags, medals, blood, rain or new accessories. Empty hands fully visible relaxed at sides. Neutral grey studio, soft neutral balanced light, torso-height camera, one person one portrait2:3 frame, no text or montage.",
+        "input_references": [
+          {
+            "master_id": "asset-match-C03-03",
+            "path": "资产/媒体/C03/C03-身份母版.png",
+            "sha256": "0628d0378ce3a108df1a9886e5d0533ad8fe01aee4c3c283004602f2822a2ee1"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C03正面全身无甲干衣",
+        "summary": "身份、无须年轻成人体量与灰青束髻保持；头脚双手完整，灰青水纹、玄蓝腰封和茶白领可辨，无甲无武器无伤。",
+        "proportion_review": "25岁结实成人肩臂，头身与四肢目测自然；不作精确人体测量结论。",
+        "remaining": [
+          "袖口与扶人、拔刀动作适配",
+          "侧背、细节与雨态内甲独立验收"
+        ]
+      }
+    },
+    {
+      "id": "generated-C23-FULL",
+      "task_id": "MB-C23-FULL",
+      "asset_ids": [
+        "C23"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/C23/C23-全身候选.png",
+      "sha256": "fae0909a083af87b9feaa7fb723b30cd021ff46ffd101ca9815a3ca118504891",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Extend SAME fictional 32-year-old Chinese man Xu Zhaolin in supplied identity portrait into full-length FRONT studio costume view. Exact same narrow face, eyebrows eyes nose lips, subtle short moustache and chin stubble, black hair in dark cloth-bound modest topknot, no cheek wounds. Natural lean proportionate adult with capable shoulders and arms, 32-year-old hands and skin, no teenage body, giant proportions, tiny head or stretched legs. Whole topknot and both soles within portrait2:3 frame with margins. Preserve dark deep-teal fine dense matte silk-wool robe with subtle blue-black grid-bend woven motif, celadon-grey cotton inner collar, blue-black bound crossed lapels. Extend into fitted narrow sleeves tapering to practical wrist cuffs, blue-black layered plain waist sash with a single small understated dark-metal rectangular fastener, straight split below-knee hem, dark trousers and simple dark cloth/leather period boots. Restrained well-maintained fine craft, no coarse burlap or glossy satin. Both hands empty relaxed visible at sides. No bag yet, no weapons, armor, cape, crown, wounds, rain, text or collage. Neutral grey studio soft balanced neutral light at torso-height camera. One dry unarmored person.",
+        "input_references": [
+          {
+            "master_id": "asset-match-C23-09",
+            "path": "资产/媒体/C23/C23-身份母版.png",
+            "sha256": "846859d6cddadcc6cb51677235b5ac48a47264e1f8474af4932c1b89b2fe2226"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C23正面全身无甲干衣",
+        "summary": "窄脸短须同源，头脚双手完整；深青格纹、青瓷灰领、蓝黑腰封与收袖可辨，无伤无甲无器物。",
+        "proportion_review": "32岁匀长成人，肩臂有体量，头身四肢目测自然，非精确测量。",
+        "remaining": [
+          "方口行囊与扶人动作",
+          "侧背内甲兵器雨态另核"
+        ]
+      }
+    },
+    {
+      "id": "generated-P20-BASE",
+      "task_id": "MB-P20-BASE",
+      "asset_ids": [
+        "P20"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/P20/P20-内甲母形.png",
+      "sha256": "c70d14ae55401eb6edc937b662a2b98731162a63eb47d59a824ec2f877054dfa",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Single standalone film costume prop asset: original ancient Chinese fantasy short lightweight INNER leather armor vest, removed from wearer and shown on an invisible support. This is a theatrical costume visual, no instructions or performance claims. Front three-quarter product photograph, all of object in frame. Matte deep brown to black-brown supple leather surface, thin softly padded layered look, short fitted torso ending at natural waist, flexible understated shoulders, small flat overlapping protective-looking panels, fine bound edges, discreet concealed side straps with only two small plain loops visible. Low bulk designed to be hidden beneath opaque tailored robe. No large external breastplate, no long armored skirt, no shoulder pauldrons, no spikes, no studs, no giant metal buckles, no rank emblems, no glowing copper plates, no attached weapons. Slight everyday wear at edges but well-maintained elegant craft, not distressed ragged leather or glossy biker vest. Empty neckline and armholes, no person, skin, mannequin, stand, outer robe or other props. Neutral pale grey seamless studio, soft neutral light, crisp material grain. One object one frame, portrait2:3, no montage, no labels, no text, no dimensions, no diagrams.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "MB-P20-BASE独立道具视觉母形",
+        "summary": "短身乌褐哑光皮面、细包边、软肩及两处低凸侧扣可辨，无外披长甲裙、徽章或铜片。通过独立母形视觉任务；五人体量适配未完成。",
+        "remaining": [
+          "个体适配与携行状态",
+          "背面尺寸和人物组合",
+          "实物与动作专业审阅"
+        ]
+      }
+    },
+    {
+      "id": "generated-WEAPON-SHIELD",
+      "task_id": "MB-WEAPON-SHIELD",
+      "asset_ids": [
+        "C17",
+        "P21"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/P21/P21-短盾母形.png",
+      "sha256": "c03a33843420f44438570b7d14e604b231dfe5126c9e14db9cef6a4782648971",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Single original ancient Chinese fantasy film prop asset, a small compact SHIELD with a narrow rounded-rectangle silhouette, curved corners, matte dark brown leather-covered wooden core appearance and fine dark bound edge. Front three-quarter product view that reveals a little side thickness, no person. Understated maintained travel equipment, short shield for one adult forearm, no oversized tower shield, no circular viking boss, no giant metal plate, spikes, blades, emblems, runes, gold or glowing effects. Fine leather grain, subtle wood at a tiny edge only, minor normal wear not battle damage. Entire object in frame on neutral pale grey seamless studio with soft neutral light, one object, no weapons alongside, no text, dimensions, instructions, diagrams or collage. Visual theatrical concept only, not fabrication specifications. Portrait2:3.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "MB-WEAPON-SHIELD独立道具视觉母形",
+        "summary": "单面圆角窄盾、皮覆木边与轻微磨耗可辨，无金属盾脐或标记。尺寸、背面持握及场后擦痕另核。",
+        "remaining": [
+          "个体适配与携行状态",
+          "背面尺寸和人物组合",
+          "实物与动作专业审阅"
+        ]
+      }
+    },
+    {
+      "id": "generated-WEAPON-BOW",
+      "task_id": "MB-WEAPON-BOW",
+      "asset_ids": [
+        "C20",
+        "P21"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/P21/P21-裹弓闭口箭囊.png",
+      "sha256": "720cc06f6b71db219dbfd2a0d62a0dd41a5b75cac12f83aa9d9b0dac2b246c5c",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Original ancient Chinese fantasy cinematic prop product photograph: ONE short traditional curved bow COMPLETELY enclosed in a fitted dark muted grey-brown cloth rain wrap, its compact curved silhouette readable through the fabric, two simple tied fabric closures. Beside it ONE slim traditional closed fabric/leather arrow bag with closed flap and simple carrying strap, no arrows exposed. Same understated period travelling kit, fine maintained textile and dark brown leather bindings, no modern zippers nylon plastic compound bow cams optics metal cases or futuristic parts. Entire two-piece kit neatly arranged diagonally on neutral pale grey seamless surface in one frame, soft neutral light, no human, horse, weapon operation, text, labels, dimensions or instructional diagram. No unwrapped second bow or duplicate bags, no ornate gold insignia. Visual film prop concept only, no fabrication specifications. Landscape3:2 composition, clear space around each object.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "MB-WEAPON-BOW独立道具视觉母形",
+        "summary": "一件完整包裹弓与一件闭口箭囊，布结和传统肩带可辨，无现代弓组件或露箭；鞍侧固定另核。",
+        "remaining": [
+          "个体适配与携行状态",
+          "背面尺寸和人物组合",
+          "实物与动作专业审阅"
+        ]
+      }
+    },
+    {
+      "id": "generated-WEAPON-BLADE",
+      "task_id": "MB-WEAPON-BLADE",
+      "asset_ids": [
+        "C01",
+        "C03",
+        "C16",
+        "P21",
+        "C17",
+        "C20",
+        "C23"
+      ],
+      "status": "selected",
+      "selected_by": "assistant_visual_review",
+      "selected_on": "2026-09-10",
+      "path": "资产/媒体/P21/P21-刀鞘母形.png",
+      "sha256": "ab8db9b48972408d31fb788826635ad5f69b37081a4fc08ef85d5cf9fc7b6fc1",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "A standalone original ancient Chinese fantasy travelling saber and matching scabbard film-prop visual asset. ONE modest single-edged gently curved dao blade laid beside its ONE matching dark wood/leather sheath, both whole objects visible, arranged parallel diagonally on pale neutral grey studio surface. Simple compact dark iron guard, dark brown wrapped grip, plain small rounded pommel, restrained worn dark-iron fittings on scabbard, no gold, gemstones, emblems, engraved words, magical glow or oversized fantasy blade. Well-maintained ordinary retired soldier equipment, no blood, damage, chipped blade or operational scene. Realistic soft studio light and material texture, visual concept only, no fabrication dimensions, assembly steps, diagrams, measurements, hands or person. Do not include extra swords, knives, bow or shields. Landscape3:2, clean negative space, no text or collage.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "MB-WEAPON-BLADE独立道具视觉母形",
+        "summary": "一刀一鞘、普通暗铁木皮外观，无神兵铭记。只作刀族母形，杜环首、石短刀及其余腰刀仍需个体派生，顾砚刀不归P21。",
+        "remaining": [
+          "个体适配与携行状态",
+          "背面尺寸和人物组合",
+          "实物与动作专业审阅",
+          "按现行仙侠武器规范复核母形材质与其他个体款；旧写实母形仅供结构参考"
+        ]
+      },
+      "supporting_assets": [
+        {
+          "id": "P21-C16",
+          "path": "资产/媒体/P21/P21-C16-环首刀.png",
+          "sha256": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Redesign this ring-pommel saber and matching sheath as a restrained xianxia Chinese fantasy drama military weapon for Du Changgeng. Preserve ONE moderately curved single edged saber with a visibly open circular ring pommel and ONE matching sheath; full objects parallel diagonals, neutral pale grey studio landscape. Make silhouette elegant and intentionally designed: clean sweeping blade spine, long refined silver-grey blade planes with a subtle smoky blue central finish, restrained flowing cloud-line engraving near the blade root only; sculpted compact dark iron cloud-curve guard, refined open ring, tightly braided dark chestnut grip, smooth lacquered dark wood sheath with slim sculpted gunmetal cloud-contour fittings. Remove crude corrosion, heavy scratches, dirty raw wood and archaeological realism. Premium stylized Chinese cultivation fantasy prop, readable solid material, tasteful controlled specular highlights, more beautiful than a real utilitarian saber, restrained fantasy military craftsmanship. No glow, floating parts, oversized spikes, gold jewel piles, runes, faction emblems, blood, text, person or manufacturing instructions.",
+            "input_references": [
+              {
+                "master_id": "generated-WEAPON-BLADE",
+                "path": "资产/媒体/P21/P21-刀鞘母形.png",
+                "sha256": "ab8db9b48972408d31fb788826635ad5f69b37081a4fc08ef85d5cf9fc7b6fc1"
+              }
+            ],
+            "initial_prompt": "Derive ONE individual film prop variant from supplied selected saber-family reference for fictional Du Changgeng. Preserve family of plain modest ancient Chinese single-edged travelling saber and matching dark wood/leather scabbard, understated old dark-iron fittings, no emblems. KEY CHANGE: replace solid rounded pommel with a clearly OPEN plain circular ring pommel integral to the grip end, no tassel. Dark chestnut-brown tightly wrapped grip, restrained ordinary service wear. One saber unsheathed laid next to its one matching sheath, both completely in frame parallel diagonally, neutral grey studio same product lighting. Blade should be restrained and moderately curved, not enormous fantasy blade. No additional weapons, gold, inscriptions, blood, people, dimensions, fabrication instructions, text or collage. Landscape3:2. This is visual theatrical concept art, not manufacturing specification.",
+            "edit_target": {
+              "path": "资产/媒体/P21/P21-C16-环首刀.png",
+              "sha256": "d58a686ab0bf1b6066c9177801f198b65c65d428577f6cd4706353718728136c",
+              "scope": "用户要求武器略偏仙侠；原地改造环首刀材质和纹样"
+            }
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "个体兵器外观候选",
+            "summary": "开孔环首、烟青银灰刃面、卷云护手与细雕鞘饰，原地改为克制仙侠军刀；纹样比极简方向丰富，按角色佩置再核。",
+            "remaining": [
+              "人物比例与佩置",
+              "收鞘与取器接续",
+              "实物与动作专业审阅"
+            ]
+          }
+        },
+        {
+          "id": "P21-C17",
+          "path": "资产/媒体/P21/P21-C17-短刀.png",
+          "sha256": "c894334d8018e532cbb1f947a26e1347edde8820c937c9a99037f311b81d8d5a",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Edit this exact short knife and its sheath into a restrained Chinese xianxia drama prop. Preserve compact SHORT single edged blade about twice grip length, black wrapped single-hand grip, solid pommel and matching short sheath, full neutral grey landscape arrangement. Replace coarse scratches and corrosion with clean satin silver-grey blade planes, smoky slate central tone and a small fine broken-ridge motif at root. Sculpt a compact rounded angular dark-silver guard and faceted solid pommel, smooth charcoal lacquered wood sheath with modest ridge-contour metal fittings. Refined sturdy fantasy craft, clearly SHORT knife, not a full saber; no additional weapons, people, text, glowing effects, gold gems, blood or manufacturing specification.",
+            "input_references": [
+              {
+                "master_id": "generated-WEAPON-BLADE",
+                "path": "资产/媒体/P21/P21-刀鞘母形.png",
+                "sha256": "ab8db9b48972408d31fb788826635ad5f69b37081a4fc08ef85d5cf9fc7b6fc1"
+              }
+            ],
+            "initial_prompt": "Create ONE standalone visual theatrical prop variant for Shi Zhaochuan from the supplied saber reference, which establishes only material family and neutral studio treatment. Change to a distinctly SHORT single edged knife with a compact gently curved blade, its visible blade only about twice its single-hand grip length; do not reproduce the long saber. Plain charcoal leather wrapped grip, small dark iron guard and simple solid dark iron pommel, no ring, no ornament. One matching short dark wood and leather sheath beside it, proportionate to the short blade. Both whole objects lie parallel diagonally on pale neutral grey, generous margins, landscape 3:2, realistic high end film prop concept photograph. A single knife and its sheath only, no person, shield, extra weapons, lettering, dimensions, blood, magical effect or manufacturing detail. Restrained ordinary service wear, no gold or identifiers.",
+            "edit_target": {
+              "path": "资产/媒体/P21/P21-C17-短刀.png",
+              "sha256": "ad3d896afdc20a8dc615361fd84399d11bc185bf3e7676716b51bcb47ca537a3",
+              "scope": "原地调整仙侠材质与护手纹样"
+            }
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "个体兵器外观候选",
+            "summary": "石照川短刀：黑柄、岩棱柄首、银灰短刃与凝练脊纹；鞘面仍有较强旧化，后续佩置需复核。",
+            "remaining": [
+              "人物比例与佩置",
+              "收鞘与取器接续",
+              "实物与动作专业审阅"
+            ]
+          }
+        },
+        {
+          "id": "P21-C03",
+          "path": "资产/媒体/P21/P21-C03-腰刀.png",
+          "sha256": "87a67b4506f2b34b12ecbe386186f6b8b584363b659669a3c73f26478964193c",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Create a single individual saber-and-sheath asset for Han Qing in a restrained premium Chinese xianxia drama. Supplied ring-pommel saber is material and style reference only. Distinguish Han's weapon: slender gently curved silver-grey single edged blade with smoky teal center, very restrained flowing water-line motif at root, compact swept water-curve guard, dark navy braided one-hand grip, SOLID tapered oval pommel (no ring), smooth midnight blue lacquered sheath with understated silver-grey flowing water fittings. Elegant purposeful refined silhouette, restrained fantasy artistry, maintained materials with no coarse rust or heavy damage. Exactly ONE complete saber unsheathed beside ONE matching sheath, diagonally parallel, neutral grey seamless studio, landscape 3:2, generous margins, no human, text, emblems, magic glow, extra props or manufacturing instructions.",
+            "input_references": [
+              {
+                "master_id": "P21-C16",
+                "path": "资产/媒体/P21/P21-C16-环首刀.png",
+                "sha256": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "个体兵器外观候选",
+            "summary": "韩青：深蓝水纹、实心水滴状柄首与水曲护手。",
+            "remaining": [
+              "人物比例与佩置",
+              "收鞘与取器接续",
+              "实物与动作专业审阅"
+            ]
+          }
+        },
+        {
+          "id": "P21-C20",
+          "path": "资产/媒体/P21/P21-C20-腰刀.png",
+          "sha256": "c229c2ebd936ffb8f7cd0cfddc321f12bdf87095514072ec6a903ba47b87a902",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Create one individual saber and matching sheath for Cui Wangye in a premium restrained xianxia Chinese drama. Supplied saber is only family style/material reference. Distinctive version: straighter narrow single edged blade with slight graceful upsweep at tip, fine silver-grey blade with soft blue-grey planar core; elongated folded-leaf guard, slate grey tightly braided single hand grip, small solid faceted tapering pommel NO RING, grey-green lacquered sheath, slim leaf-ridge dark silver fittings. Sparse bamboo-leaf incision near blade root instead of curling cloud decoration. Slim quiet elegant silhouette, refined fantasy design, no heavy corrosion or damage. ONE entire saber unsheathed beside its ONE entire matching sheath parallel diagonal layout, neutral grey studio, landscape 3:2, generous margins. No other weapons, bow, people, symbols, letters, glow, blood or manufacturing detail.",
+            "input_references": [
+              {
+                "master_id": "P21-C16",
+                "path": "资产/媒体/P21/P21-C16-环首刀.png",
+                "sha256": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "个体兵器外观候选",
+            "summary": "崔望野：灰绿竹叶纹、折叶护手与棱形柄首。",
+            "remaining": [
+              "人物比例与佩置",
+              "收鞘与取器接续",
+              "实物与动作专业审阅"
+            ]
+          }
+        },
+        {
+          "id": "P21-C23",
+          "path": "资产/媒体/P21/P21-C23-腰刀.png",
+          "sha256": "6c72cf9799af4cc88cf0bd671911f7b24a70f9648d2699c6c3d1a0380f24d3bf",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Create ONE individual saber and sheath for Xu Zhaolin, premium restrained Chinese xianxia film prop. Input is material-family reference only. Make a distinct sturdy understated design: moderately curved single edged silver-grey saber, broad quiet blade planes with narrow smoky teal inset-looking finish near spine, ONLY small interlocking angular stepped-line ornament near root (no characters). Compact squared softened-corner guard with restrained stepped contours, black braided single-hand grip, solid flat faceted pommel no ring. Deep petrol teal lacquered sheath with compact geometric dark silver fittings. Refined fantasy silhouette and excellent craft; neither archaeological rust nor ornate royal jewelry. One complete unsheathed saber and ONE matching complete sheath parallel diagonals on neutral pale grey studio, landscape 3:2, full view generous margins. No people, additional objects, glow, blood, text, symbols or manufacturing instructions.",
+            "input_references": [
+              {
+                "master_id": "P21-C16",
+                "path": "资产/媒体/P21/P21-C16-环首刀.png",
+                "sha256": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "个体兵器外观候选",
+            "summary": "许照邻：深青几何折线、方形护手与平棱柄首。",
+            "remaining": [
+              "人物比例与佩置",
+              "收鞘与取器接续",
+              "实物与动作专业审阅"
+            ]
+          }
+        }
+      ]
     }
   ]
 }

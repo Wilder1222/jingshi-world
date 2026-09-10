@@ -314,7 +314,7 @@
       ],
       "phase": "B",
       "parent": null,
-      "body_en": "One plain sheathed period travel blade with a modest dark handle, restrained worn metal fittings and a cloth-wrapped grip, isolated side view under diffuse light, fictional film prop design.",
+      "body_en": "One plain sheathed period travel blade with a modest dark handle, restrained worn metal fittings and a cloth-wrapped grip, isolated side view under diffuse light, fictional film prop design. Restrained xianxia fantasy drama craftsmanship: elegant designed contours, refined silver-gray and smoky-blue metal planes, subtle sculpted cloud-line fittings and maintained lacquered wood where applicable. Avoid archaeological realism, heavy corrosion and crude surface damage. Preserve the assigned weapon type and role; no added magical power or self-emission.",
       "checks": "仅母形提案；不自动分给所有五卒，不加神兵纹章或现实制作参数；五卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 C01旅刀只共用外观族，不属于五卒P21；杜环首、石短刀和其余腰刀在个体映射中区分。",
       "ratio": "4:3"
     },
@@ -327,7 +327,7 @@
       ],
       "phase": "B",
       "parent": null,
-      "body_en": "One simple short traditional bow wrapped in dark rain-protection cloth beside one closed cloth arrow pouch, curved silhouette still readable under the tied covering, isolated object study, diffuse light, no drawn bow, no loose arrow, no hands.",
+      "body_en": "One simple short traditional bow wrapped in dark rain-protection cloth beside one closed cloth arrow pouch, curved silhouette still readable under the tied covering, isolated object study, diffuse light, no drawn bow, no loose arrow, no hands. Restrained xianxia fantasy drama craftsmanship: elegant designed contours, refined silver-gray and smoky-blue metal planes, subtle sculpted cloud-line fittings and maintained lacquered wood where applicable. Avoid archaeological realism, heavy corrosion and crude surface damage. Preserve the assigned weapon type and role; no added magical power or self-emission.",
       "checks": "开篇防雨包裹，非现代复合弓；军中重械不凭空出现；五卒个体归属须经POST-KIT锁定，1-3后收入西厢器物区，非神兵。 弓包本场留鞍侧，崔改腰刀，不新增放箭镜头；封口箭袋不得变成现代箭匣。",
       "ratio": "4:3"
     },
@@ -380,7 +380,7 @@
       ],
       "phase": "B",
       "parent": null,
-      "body_en": "One plain period blade film prop beside its dark undecorated sheath, modest straight silhouette, restrained worn metal and simple cloth grip, isolated horizontal object study in soft diffuse light, no emblem, no supernatural glow.",
+      "body_en": "One plain period blade film prop beside its dark undecorated sheath, modest straight silhouette, restrained worn metal and simple cloth grip, isolated horizontal object study in soft diffuse light, no emblem, no supernatural glow. Restrained xianxia fantasy drama craftsmanship: elegant designed contours, refined silver-gray and smoky-blue metal planes, subtle sculpted cloud-line fittings and maintained lacquered wood where applicable. Avoid archaeological realism, heavy corrosion and crude surface damage. Preserve the assigned weapon type and role; no added magical power or self-emission.",
       "checks": "普通虚构影视道具母形；五名持有者分别登记使用件，不把五人合成一把漂浮武器；神秘人的器物未定，不共用此编号",
       "ratio": "16:9"
     },
@@ -393,7 +393,7 @@
       ],
       "phase": "B",
       "parent": null,
-      "body_en": "One modest wooden short shield film prop with a matte dark-brown leather facing, softened corners, plain cloth edging and subtle old wear, isolated three-quarter object study on neutral gray, no emblem, no giant tower shield, no metal mirror polish.",
+      "body_en": "One modest wooden short shield film prop with a matte dark-brown leather facing, softened corners, plain cloth edging and subtle old wear, isolated three-quarter object study on neutral gray, no emblem, no giant tower shield, no metal mirror polish. Restrained xianxia fantasy drama craftsmanship: elegant designed contours, refined silver-gray and smoky-blue metal planes, subtle sculpted cloud-line fittings and maintained lacquered wood where applicable. Avoid archaeological realism, heavy corrosion and crude surface damage. Preserve the assigned weapon type and role; no added magical power or self-emission.",
       "checks": "仅映射C17石照川，不扩成两面盾；旧盾不是无敌盾，场后擦痕与持盾手一致。",
       "ratio": "4:3"
     },
@@ -881,12 +881,14 @@
       "id": "S01-W1-01",
       "name": "第一波01｜高瘦长躯",
       "body_en": "tall lean build, long narrow torso, slim shoulders",
-      "costume_en": "charcoal jacket, narrow slate collar and a flat black waist sash",
+      "costume_en": "dark gray-teal textured jacket, broad pale-gray crossed inner lapel, layered deep-green sash and asymmetrical dark forearm panels",
       "rank": "有限行息",
       "face_status": "concealed_no_identity_master",
       "scene_ids": [
         "GJ-EP01-SC01"
-      ]
+      ],
+      "master_id": "ordinary-assassin-03",
+      "assignment_basis": "窄肩与长直躯干适合高瘦长躯实例；采用灰青织纹和浅灰宽交领"
     },
     {
       "id": "S01-W1-02",
@@ -914,23 +916,27 @@
       "id": "S01-W1-04",
       "name": "第一波04｜高身宽背",
       "body_en": "tall broad-backed build, long arms, heavy upper body",
-      "costume_en": "blue-black jacket, dark square quilted shoulder edging",
+      "costume_en": "charcoal-black geometric woven split jacket, diagonal dark leather lapel strips with small buckles, structured shoulder tabs, wrapped wrists and a broad flat black sash",
       "rank": "成熟炼身",
       "face_status": "concealed_no_identity_master",
       "scene_ids": [
         "GJ-EP01-SC01"
-      ]
+      ],
+      "master_id": "ordinary-assassin-01",
+      "assignment_basis": "肩片与长臂轮廓适合高身宽背实例；采用黑灰几何暗纹、斜交革领和分片衣摆"
     },
     {
       "id": "S01-W1-05",
       "name": "第一波05｜中等修长",
       "body_en": "medium-height slender build, narrow hips, upright posture",
-      "costume_en": "ash-brown jacket, narrow ink-gray lapel edging",
+      "costume_en": "ash-brown short layered jacket, blue-gray crossed inner collar, broad dark waist wrap and side-hanging head cloth",
       "rank": "成熟炼身",
       "face_status": "concealed_no_identity_master",
       "scene_ids": [
         "GJ-EP01-SC01"
-      ]
+      ],
+      "master_id": "ordinary-assassin-02",
+      "assignment_basis": "短外衣与较修长躯干适合中等修长实例；采用灰褐外衣与灰蓝交领"
     },
     {
       "id": "S01-W1-06",
@@ -958,23 +964,27 @@
       "id": "S01-W1-08",
       "name": "第一波08｜高身窄腰",
       "body_en": "tall long-legged build, slim waist, slightly sloping shoulders",
-      "costume_en": "black-gray jacket, narrow blue-gray collar band",
+      "costume_en": "slate-blue long split jacket, dark narrow crossed lapels, low knotted cloth sash and narrow muted forehead band beneath the head wrap",
       "rank": "成熟炼身",
       "face_status": "concealed_no_identity_master",
       "scene_ids": [
         "GJ-EP01-SC01"
-      ]
+      ],
+      "master_id": "ordinary-assassin-04",
+      "assignment_basis": "长腿窄腰和长衣适合高身窄腰实例；采用灰蓝长衣与打结腰带"
     },
     {
       "id": "S01-W1-09",
       "name": "第一波09｜中等匀实体型",
       "body_en": "medium-height balanced sturdy build, straight shoulders, proportionate legs",
-      "costume_en": "dark gray-brown jacket, broad black waist sash with a low cloth knot",
+      "costume_en": "black-gray long split jacket body, muted brown upper sleeves and lapel trim, blue-gray inner collar, broad flat black sash and dark forearm sleeves",
       "rank": "成熟炼身",
       "face_status": "concealed_no_identity_master",
       "scene_ids": [
         "GJ-EP01-SC01"
-      ]
+      ],
+      "master_id": "ordinary-assassin-05",
+      "assignment_basis": "肩腰较匀称适合中等匀实体型；采用黑灰衣身、褐袖与宽黑腰封"
     },
     {
       "id": "S01-W1-10",
