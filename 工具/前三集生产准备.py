@@ -18,6 +18,7 @@ CORE = {'C01', 'C03', 'C04', 'C06', 'C12', 'C14', 'C16'}
 ASSASSINS = {'C06', 'C07', 'C57', 'C58', 'C59'}
 FIRST_CAST = ({f'C{i:02}' for i in range(1, 24)} | {'C57', 'C58', 'C59', 'C60'}) - {'C18', 'C19', 'C21', 'C22'}
 FACE_CAST = FIRST_CAST - {'C02', 'C05', 'C60'}
+CREATION_RULE_SOURCES = ('剧集/剧情结构与推进.md', '资产/制作约定.md')
 
 
 def read(path):
@@ -509,7 +510,7 @@ def build_data():
     bind_masters(tasks, masters)
     generated = load_generated(tasks)
     support_paths = {s['path'] for m in generated for s in m.get('supporting_assets', [])}
-    paths = {p for t in tasks for p in t['source_paths']} | {
+    paths = set(CREATION_RULE_SOURCES) | {p for t in tasks for p in t['source_paths']} | {
         '索引/数据/episodes.json', '索引/数据/发行前三集.json', '资产/生产准备/前三集-v1.9/视觉任务源.json',
         '资产/生产准备/前三集-v1.9/补充任务源.json', '工具/前三集生产准备.py',
         '资产/媒体/母版登记.json', '工具/母版匹配.py', '索引/数据/characters.json', '索引/数据/locations.json'} | {m['path'] for m in masters} | {m['original_path'] for m in masters if m.get('original_path')} | {m['path'] for m in pending} | {m['path'] for m in matched} | {m['path'] for m in generated}
@@ -528,8 +529,8 @@ def build_data():
 
 def render_release(release):
     text = '# 前三发行集：节奏、运镜与逐镜交接\n\n'
-    text += '创作执行：[用典与侧面烘托](../../../剧集/剧情结构与推进.md#allusion-and-atmosphere)。用典适量、核对出处并符合人物见识与世界内流传依据；季节、天气、环境、场景、人物、穿着、事件与声场等均可推进剧情、表达情绪，变化须有前后状态与因果，落入可见动作、声音入口及镜末变化。沿用车灯晃动、退廊留灯、尝粥后叩门等既有节拍，不强塞诗句或增加重复空景，保持父镜号与时长预算。\n\n'
-    text += '继续选材与执行：[短剧情节方法](../../../剧集/剧情结构与推进.md#short-drama-enrichment) · [AIGC镜头执行卡与五组推演](../../../剧集/前三集重写与生产交接-v1.9.md#aigc-story-to-shot)。先定观看目的与入镜状态，再分写人物、摄影机、环境和声音的变化，落到可接续的结果与切点；一个父镜可按需要拆分生成，子镜取用时长仍归原预算。起始图、动作过程、首尾接续与关键接触分别核验，文字计划不代表动态通过。\n\n'
+    text += '所有剧情与分镜按需执行[全剧创作规则](../../../剧集/剧情结构与推进.md#global-creation-policy)与[全剧AIGC制作规则及执行卡](../../制作约定.md#aigc-story-to-shot)。用典、侧面烘托、情节丰富、声画表达与生成交接方法已全部采纳，按场景目标和制作需要使用，不设手法配额。\n\n'
+    text += '具体应用见[前三集五组执行说明](../../../剧集/前三集重写与生产交接-v1.9.md#aigc-story-to-shot)。每镜落实观看目的、入镜状态、人物／摄影机／环境／声音变化、出镜结果与切点；一个父镜可按需要拆分生成，子镜取用时长仍归原预算。起始图、动作过程、首尾接续与关键接触分别核验，文字计划不代表动态通过。\n\n'
     text += release['planning_unit'] + '\n\n'
     text += '本页由[发行分镜源](../../../索引/数据/发行前三集.json)生成；剧情与动作系统见[制作交接](../../../剧集/前三集重写与生产交接-v1.9.md)。原场次编号不变。24/1 fps仅为剪辑工作假设，16:9，帧窗左闭右开；71镜均为文字计划，未试读、未生成、未进行动作安全验收。片名与尾签画内叠加且已经计时，不另加片头片尾或上一集回顾。\n\n'
     text += '相邻切镜优先接动作完成或视线落点；跨场省略明确保留前后状态。林道以车旁同侧轴线为基准，书房以案—窗—门局部三角为基准；具体焦段是视角意向，机位尺寸与最终格式待母版和预演复核。\n'

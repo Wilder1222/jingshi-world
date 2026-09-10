@@ -3861,6 +3861,382 @@
           "五人合息短光与三人极淡反应分别制作，不赋予离体成阵功能"
         ]
       }
+    },
+    {
+      "id": "generated-C01-DRY",
+      "task_id": "MB-C01-DRY",
+      "asset_ids": [
+        "C01",
+        "C02",
+        "P14"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C01/C01-浅灰干衣全身.png",
+      "sha256": "86df788f3bd5b24dc5415b2d0692c3a4988723dbbd45752326302e9beeb97186",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "initial_prompt": "Create one full-body frontal costume continuity portrait of the SAME fictional 24-year-old Gu Yan. IMAGE1 is exact FACE identity, IMAGE2 is exact pale grey INNER ROBE fabric and collar binding reference, IMAGE3 is same person's full-body proportions reference ONLY, remove all dark travel clothing and metal accessories. Preserve same facial bones eyes brows lips uninjured clean face and lean adult head/body ratio, normal limbs and legs, no tiny head fashion elongation. Wear simple opaque fine pale-grey cotton cross-collar inner robe to mid calf with smoky-grey silk-twill edging exactly matching IMAGE2, plain cloth waist tie, loose sleeves, pale-grey trousers and plain soft charcoal cloth indoor shoes. Hair in neat modest period topknot secured by PLAIN dark wood pin, no ornate silver crest. Own LEFT shoulder (image RIGHT) has clean linen bandaging UNDER robe, only a small strip visibly peeks at left shoulder collar opening; no wrap on right shoulder, no exposed wound, no blood and no chest exposure. Left sleeve looser over dressing, left arm rests unladen gently alongside body; right arm naturally relaxed, both hands visible. Calm tired recovering expression, no grimace or collapsed posture, no arm sling unless specified (none). Entire topknot and both soles inside generous margins. Medium stone-green-grey studio background, neutral white balance, soft realistic portrait light like supplied face photo, realistic young adult skin texture, premium period-drama consistency, no text collage furniture weapons or armor.",
+        "prompt": "Precisely edit ONLY the small collar/shoulder area on IMAGE RIGHT, the man's anatomical LEFT shoulder. Keep exact face, hair, full body proportions, stance, hands, robe texture and color, shoes, lighting and framing unchanged. Replace the tiny skin-colored triangular gap at the outer edge of his LEFT collar near shoulder with a clearly recognizable narrow strip of off-white linen bandaging: two overlapping clean cloth layers resting against shoulder underneath grey robe, subtle linen edge, opaque, no bare skin gap or dark hole. Only about two finger widths of dressing visible between grey collar and grey shoulder cloth. Bandage remains at anatomical LEFT shoulder, NOT right and not around neck. Do not add sling, blood, wounds, long loose ribbon, jewelry, embroidery or extra clothing. All other pixels conceptually unchanged.",
+        "edit_target": {
+          "path": "资产/媒体/C01/C01-浅灰干衣全身.png",
+          "sha256": "a02dafc3c9a1a62fad6df6f519b4cbd44c12361bc77e925ffdde0991c216d6f6",
+          "scope": "左肩领缘明确包扎布层，消除皮肤缺口错觉"
+        },
+        "input_references": [
+          {
+            "master_id": "portrait-C01",
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308"
+          },
+          {
+            "master_id": "generated-P14-BASE",
+            "path": "资产/媒体/P14/P14-浅灰干衣母形.png",
+            "sha256": "6cc51e53e0eecba2398dbc7fda37b81b314685cb799ad1514b30d4925f8f68b5"
+          },
+          {
+            "master_id": "generated-C01-FULL",
+            "path": "资产/媒体/C01/C01-全身候选.png",
+            "sha256": "dcd6f817787bcbf175ae72263b781e77b2bdfaf9d6efb06b5d0962320f4db547"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C01与C02同体浅灰干衣正面静态衣伤基准",
+        "summary": "面容同源、24岁体量与头身目测自然，头脚双手完整；浅灰棉衣与烟灰包边沿P14，左肩领缘有包扎，脸部无伤、左手空置。",
+        "remaining": [
+          "左肩包扎内部结构及侧背一致性",
+          "坐卧与抬臂布料变形、左臂不承重的表演核对",
+          "室内光态、近景领口与手部细节"
+        ]
+      }
+    },
+    {
+      "id": "generated-P10-BASE",
+      "task_id": "MB-P10-BASE",
+      "asset_ids": [
+        "P10"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P10/P10-布药箱母形.png",
+      "sha256": "43aa81253dcc25d4f2c520b78134c1c9e393d7eb124818a4211268279f4d7e44",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One standalone closed cloth-wrapped wooden medicine box used by an elderly household caretaker in a refined ancient Chinese period drama. Modest portable rectangular dark warm-brown wooden box, simple joinery and closed fitted wooden lid, warm-grey fine densely woven cotton cloth folded around lower sides and over top tied in one practical neat cloth knot; a little wood visible at edges, careful maintained old stitching, refined ordinary household object not luxury chest. No metal latches, drawer labels, letters, medicine bottles, herbs, supernatural motifs, magical glow, jewels or weapons. Warm neutral grey seamless tabletop background, soft neutral side lighting, realistic fine cloth fibers and wood grain consistent with high-end live-action drama, square image, entire box and cloth knot visible with generous margins. No person hands or text. Closed compartments cannot be seen, interior layout to be separately designed.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P10静态道具外观母形",
+        "summary": "暖灰布包、完整木盒与顶结清楚，闭合状态无现代标签或额外器物。",
+        "remaining": [
+          "与人物手持的实际体量",
+          "开盖与使用动作连续性",
+          "室内摆位、光态及配套照料道具"
+        ]
+      }
+    },
+    {
+      "id": "generated-P15-BASE",
+      "task_id": "MB-P15-BASE",
+      "asset_ids": [
+        "P15"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P15/P15-糖罐与木勺.png",
+      "sha256": "923740e1156ca6b755a44d5497421980d898f24ce5a2a31d616f24112e9d01ff",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create ONE small ordinary household glazed sugar jar with lid placed beside it and ONE simple wooden spoon on neutral warm-gray tabletop. Refined ancient Chinese period drama everyday care prop, realistic ceramic craftsmanship and fine natural textures. Small squat round jar, warm off-white muted grey glaze with restrained variation, plain rounded lip, no handles or writing. Mouth open, a small amount of pale off-white granular sugar visible inside, no overflowing heap. Matching simple ceramic lid with low knob lying next to jar, spoon lying separately with full wooden handle and bowl visible. Entire three components within generous margins, physically grounded contact shadows, soft neutral side light with controlled glaze highlights, no golden haze. Modest maintained object used by elderly caretaker, not antique ruin or luxury ritual vessel. No inscription, logos, magical motif, tea pot spout, second jar, hands, cloth packaging, flowers or other objects. Single square product asset image, no text.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P15静态道具外观母形",
+        "summary": "素釉小罐、分离罐盖与单把木勺完整，糖粒在罐口内可见，无刻字或异相。",
+        "remaining": [
+          "与人物手持的实际体量",
+          "开盖与使用动作连续性",
+          "室内摆位、光态及配套照料道具"
+        ]
+      }
+    },
+    {
+      "id": "generated-P10-BOWL",
+      "task_id": "MB-P10-BOWL",
+      "asset_ids": [
+        "P10"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P10/P10-热粥碗.png",
+      "sha256": "b41aa3d4bf4d3c6958c476f19359530c8d396d75e69b6717db36996dffc75ab8",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create one standalone small warm-gray glazed ceramic rice-porridge bowl for the same ancient Chinese household as reference image. Reference is ONLY for ceramic workmanship, gentle glaze variation, neutral tabletop and soft side-light photography; do not copy jar shape or include the jar lid spoon. A simple open rounded bowl with low foot and modest smooth lip, bowl wider than tall, comfortably handheld adult portion. Inside plain soft white rice porridge with visible swollen rice grains in slightly translucent rice liquid, a faint thin wisp of steam, no toppings, herbs, sugar heap or magical mist. Entire bowl visible, near-front elevated three-quarter product view, warm-grey seamless background, realistic premium period-drama textures, soft controlled reflections, no chips ruin or ornament, no modern markings, hands text extra objects. Square composition generous margins. Only bowl and porridge, no spoon.",
+        "input_references": [
+          {
+            "master_id": "generated-P15-BASE",
+            "path": "资产/媒体/P15/P15-糖罐与木勺.png",
+            "sha256": "923740e1156ca6b755a44d5497421980d898f24ce5a2a31d616f24112e9d01ff"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P10照料道具单件静态母形",
+        "summary": "素釉敞口碗、白粥米粒及少量热气清楚，无额外配料。",
+        "remaining": [
+          "手持与勺碗实际尺寸关系",
+          "端递、饮食使用与液面变化",
+          "室内光态、摆位和接触阴影"
+        ]
+      }
+    },
+    {
+      "id": "generated-P10-WATER",
+      "task_id": "MB-P10-WATER",
+      "asset_ids": [
+        "P10"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P10/P10-温水杯.png",
+      "sha256": "025b12543e67fbb8ddc461ded24af3f5f192057f2632095c1609b10a8fbc5c57",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create ONE standalone straight-sided plain brown glazed ceramic cup containing clear warm water, everyday ancient Chinese household care vessel. Use supplied reference only for realistic ceramic workmanship, fine material detail, restrained glaze reflections and neutral tabletop lighting; no sugar jar, spoon, lid or white bowl. Modest cylindrical handleless drinking cup with gently rounded lip, low stable base, warm muted chestnut brown satin glaze slightly darker near foot, subtle hand-thrown irregularity but well maintained, no cracks or decorative carving. Water level below rim, clear transparent meniscus and quiet small soft highlight, no tea leaves, dark tea, porridge or steam cloud. Whole cup visible in slightly elevated three-quarter view on warm grey seamless tabletop, square product photograph with generous margins, soft diffuse side light, natural shadows, refined period-drama realism. No human hands text logo saucer or extra objects.",
+        "input_references": [
+          {
+            "master_id": "generated-P15-BASE",
+            "path": "资产/媒体/P15/P15-糖罐与木勺.png",
+            "sha256": "923740e1156ca6b755a44d5497421980d898f24ce5a2a31d616f24112e9d01ff"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P10照料道具单件静态母形",
+        "summary": "棕釉直壁无柄杯、低于杯缘的清水与水面反光清楚，无茶叶或附属器物。",
+        "remaining": [
+          "手持与勺碗实际尺寸关系",
+          "端递、饮食使用与液面变化",
+          "室内光态、摆位和接触阴影"
+        ]
+      }
+    },
+    {
+      "id": "generated-P03-BASE",
+      "task_id": "MB-P03-BASE",
+      "asset_ids": [
+        "P03"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P03/P03-军引空底.png",
+      "sha256": "9dbb9a0e325ee897cee78cb679797aa993b9770763e592b0d8ee3f2f08b81165",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One standalone blank ancient Chinese paper travel document prop, viewed directly from above for later compositing of verified text. Single off-white handmade dense paper sheet, opened flat with two subtle old fold lines, modest rectangular landscape shape, fine visible paper fibers, gently imperfect hand-cut edges. Lower RIGHT corner has a small softly feathered pale grey-brown dried water stain, local and restrained; central 80 percent is clear even-toned blank paper suitable for typesetting. No letters, glyphs, seals, stamps, ruling, drawings or invented handwriting. Not a scroll, no rods, no ribbons, no burned edge or tears, no second sheet. Entire document with generous margins on plain medium neutral grey matte surface under even diffuse overhead light, minimal soft contact shadow and no perspective distortion. Refined realistic period drama prop photograph, maintained everyday military travel paper not archaeological parchment, square asset image. No hand or other objects.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P03无字文书材质底图",
+        "summary": "展开纸面、折痕和右下局部水渍清楚；中央留白，无生成文字印章。",
+        "remaining": [
+          "正式字段、文字及证物内容依文书源排版",
+          "手持尺寸、折叠展开与收纳动作",
+          "水渍与可读内容的连续性"
+        ]
+      }
+    },
+    {
+      "id": "generated-P04-BASE",
+      "task_id": "MB-P04-BASE",
+      "asset_ids": [
+        "P04"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P04/P04-旧票与布套空底.png",
+      "sha256": "30b6a1037b4e950d1a45626f527d324ff1f2f58c697cfa875fa36d9f52ee765b",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One small plain brown cloth document sleeve with three folded blank pale yellowed paper slips arranged beside its open mouth, ancient Chinese military supply paperwork prop asset. Top-down flat composition, full sleeve and all paper edges visible. Sleeve is soft dense fine chestnut-brown cotton with neat binding, simple flat pouch shape and short overlapping flap, maintained old seam stitching, no modern buckle or zipper. Paper slips narrow rectangular, individual old fold creases, gentle warm age tone and fine fibers, blank clear visible surfaces for verified lettering later. Different from money pouch: flat open document sleeve, not gathered drawstring bag, no coins. Modest everyday item with refined realistic material rendering, neutral medium-grey cloth ground, even diffuse top light and minimal contact shadows. No writing, seals, printed rules, characters, numbers, logos, hands, weapons, ink tools, map or extra objects. No dramatic aging or torn unreadable parchment. Single square product photograph, generous margins. Shows visual bundle only, precise number of story records still determined by document source.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P04无字文书材质底图",
+        "summary": "褐色平口布套与三叠留白旧票分开可见，布边及纸折痕清楚。",
+        "remaining": [
+          "正式字段、文字及证物内容依文书源排版",
+          "手持尺寸、折叠展开与收纳动作",
+          "图中三叠仅材质陈列，不锁剧情票据张数"
+        ]
+      }
+    },
+    {
+      "id": "generated-P06-BASE",
+      "task_id": "MB-P06-BASE",
+      "asset_ids": [
+        "P06"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P06/P06-领条空底.png",
+      "sha256": "878d2aee1a7361ffc4da48b096e7d105d1bb399c90513888eda15c55e4785e44",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Single narrow vertical off-white handmade paper receipt slip for ancient Chinese period drama, plain blank paper ready for later verified hand-lettering. Long slim rectangle approximately 1:2.5, laid fully flat straight and square to camera, complete gently uneven hand-cut edges, subtle dense fibers and very slight handling creases, well preserved everyday paper not ancient ruin. Clear even-tone lower two thirds for later recipient and return-location text; no printed boxes, rules, handwriting, stamps, seals, glyphs, fold blocking text or extra sheet. Soft neutral diffuse overhead illumination on medium grey matte tabletop with minimal contact shadow. Premium realistic prop texture consistent with refined period drama, no warm haze or stains, no hands or objects. Square image spacious margins around single vertical slip, no text anywhere.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P06无字文书材质底图",
+        "summary": "窄长米白纸条，完整纸边与留字区域清晰。",
+        "remaining": [
+          "正式文字与字段依文书源单独排版核验",
+          "实物尺寸、折叠及手持动作待核验"
+        ]
+      }
+    },
+    {
+      "id": "generated-P07-BASE",
+      "task_id": "MB-P07-BASE",
+      "asset_ids": [
+        "P07"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P07/P07-租单空底.png",
+      "sha256": "0b1a4a946b0c0f0c28947f54dc01ca1be4eefac3b38b21092ee7d2345dea5286",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One small blank warm-tan paper rental slip for an ancient Chinese drama evidence prop. Single rectangular paper landscape 4:3 shape, unfolded flat with ONE visible horizontal fold crease at midpoint, a subtle folded-over sliver at one lower edge, natural fine paper fibers, maintained softly handled edges without tears or water damage. Warm tan clearly distinguishable from an off-white narrow receipt. Entire sheet available for later verified date pickup place return place deposit lettering; reserve generous clean empty upper and lower areas, but DO NOT draw printed blocks rules text seals stamps glyphs numbers or handwriting. Top-down perpendicular view, plain medium neutral-grey matte surface and even diffuse light, minimal contact shadow, full sheet inside margins, square asset image. Refined realistic period drama material rendering, not a scroll, no stick, ink, hand, second sheet or other objects.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P07无字文书材质底图",
+        "summary": "暖褐横幅纸片，中央横折痕明确，与领条外形可区分。",
+        "remaining": [
+          "正式文字与字段依文书源单独排版核验",
+          "实物尺寸、折叠及手持动作待核验"
+        ]
+      }
+    },
+    {
+      "id": "generated-C01-PROFILE",
+      "task_id": "MB-C01-PROFILE",
+      "asset_ids": [
+        "C01",
+        "C02"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C01/C01-侧脸.png",
+      "sha256": "d388fd8ab680b8f347527cfd3e453cfa19cb87aea9b801ed005485597e580509",
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "initial_prompt": "Edit the supplied identity portrait into a strict 90-degree side-profile head-and-shoulders production reference of the EXACT SAME fictional 24-year-old Chinese man, facing image LEFT, eyes looking straight ahead horizontally, neutral relaxed expression. Rotate the person, do not invent a new actor. Preserve his long oval facial proportions, straight nose, natural lips and defined chin, eye/brow character, clean-shaven age-24 complexion, ear anatomy plausibly continuous with original. Keep EXACT existing black half-up hair, dark sculpted crown ornament and loose fine temple strands, same ink-teal robe with subdued fine dark-gold cloud motifs, smoky-grey layered inner collar and narrow red-brown lining. Include the entire topknot/crown with generous headroom and both shoulder contours at lower crop. Single profile only, no front view, no collage. Plain medium-light neutral grey studio background, same realistic premium period-drama skin and cloth texture, soft neutral directional light readable on cheek and ear, no golden bloom, no blue grading, no makeup change, no scars wounds blood weapons accessories text. Anatomically natural head-to-shoulder ratio, not fashion elongation. Vertical 3:4 composition.",
+        "prompt": "Correct the generated portrait (image 1) using original identity (image 2). Produce a STRICT anatomical 90-degree LEFT-facing profile: far eye, far eyebrow, far cheek and far nostril must be fully occluded; only ONE eye visible. Nose tip, upper lip, lower lip and chin form the clear single left-facing profile outline. Keep identity unchanged, same crown, hair, robe/collar and grey lighting. Pull camera back significantly so ALL of the tall hair topknot sits completely within frame with at least 10 percent empty grey margin ABOVE the highest hair; no cropped crown or hair, full upper shoulders. No redesign, no facial hair, no injuries, no extra accessory, no text. Portrait 3:4. Technical orthogonal side-profile reference, subject looking level to image left, absolutely not three-quarter.",
+        "input_references": [
+          {
+            "master_id": "portrait-C01",
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308"
+          }
+        ],
+        "edit_target": {
+          "path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-84544957-714a-4f8b-bb68-de3b04709e77.png",
+          "sha256": "d530699d39bc48315c97e33691b652cde407bad7d70960575a7d54d7e00811e3",
+          "scope": "纠正侧脸角度和发髻裁切"
+        }
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C01／C02共用身份侧脸静态图",
+        "summary": "面朝画面左侧，仅一眼可见；鼻唇下颌轮廓清楚，整髻冠饰留在画内，墨青暗金云纹与烟灰领延续原肖像。",
+        "remaining": [
+          "反侧耳部及动态转头连续性另验",
+          "不抵扣表情、雨态和左肩伤态任务"
+        ]
+      }
     }
   ],
   "model": "8.2",
@@ -5650,10 +6026,11 @@
     }
   ],
   "source_sha256": {
-    "剧集/01-归京/GJ-EP01-归京.md": "99dcf0b3027e97520be4fb6d3c78f7b9d28bca85166552eabc0da6d78e0c4933",
-    "剧集/01-归京/GJ-EP02-先过今夜.md": "8c8b99eb7514ff588e0766bb5e80310c8397ca3795830242c524e3ef63e8d322",
-    "剧集/01-归京/GJ-EP03-门外的人.md": "1a77713d830bb2eac806b15d3402a6e036be06b8b8fbf847fc16c85f6a7c4bb3",
-    "剧集/前三集重写与生产交接-v1.9.md": "5814d7584f35cc89d669573d6023f358ad9f511653062d2fa06dd597619a29c2",
+    "剧集/01-归京/GJ-EP01-归京.md": "9ef776007f2543acea2cb7611babc2943260e32000055568e635c8dbf291e705",
+    "剧集/01-归京/GJ-EP02-先过今夜.md": "c9e75e38db096a479f88d37f2c8b92184cfaae7649949b7d2ccfd589d26c0d52",
+    "剧集/01-归京/GJ-EP03-门外的人.md": "37c7bc88447219c2272af7beaf03f41cac64cf5e4d4f43ad534755287594e6d2",
+    "剧集/前三集重写与生产交接-v1.9.md": "491089cee82f94e88a525b6849049350f991f91ca98295726460f88d21f028d8",
+    "剧集/剧情结构与推进.md": "358f16425665a4dacb623a987275c50d41817cc39b47afd882486ca876fe8524",
     "参考/用户媒体/C03-肖像原始参考.jpg": "c3d439c1fb881335598ca9f08bf71854d39c0555d62d8cef69e6dbbd416e9f5e",
     "参考/用户媒体/C20-肖像原始参考.jpg": "ca42de668ea1e59f0f058047dae747de12e633d32c7660c7491c8d5428b2ea5b",
     "参考/用户媒体/C23-肖像原始参考.jpg": "515fa678d059bd12a4fbcfac7821f28dd08ee63ab01f7a6640de9f6d62d7de76",
@@ -5664,12 +6041,13 @@
     "参考/用户媒体/顾府建筑补充/穿院连廊-用户原图.jpg": "6d34d81cd9126f554544d75c8ec793ea834e6fea3e7793750143aca319348ca7",
     "参考/用户媒体/顾府建筑补充/院门-用户原图.jpg": "1b45e377c74e7984201af7c3bdc6dc5a987804cceea87effba9e70cc39f80dc8",
     "参考/第一集视觉讨论-采用边界.md": "dae421d8319b27ed56641c5bf3178960a59067e055ac5da46b022c6fa17759c1",
-    "工具/前三集生产准备.py": "84f58c61a6de27bdcbf1c33aae1724a09845b52455b82476ccf1ac67003be85c",
+    "工具/前三集生产准备.py": "e1e0ae6cc71593c0253e3a93b790aacf86120f62193a55c0262b50ad9e73fcda",
     "工具/母版匹配.py": "79315af80cd05228ee47dfe91e26e3bcd1d208bf2a3a362510e90eb58a81e4a6",
     "索引/数据/characters.json": "cd0c24db2d43f33cb225c7d1816dc6b38d3e90dd3adb4b0b02cf6a40f520a5b7",
-    "索引/数据/episodes.json": "f8061e4c9567ea37a59376e66cf3f7535ece99201c66624a8c2a76335cc4d820",
+    "索引/数据/episodes.json": "ea33204616d66abaa2f1e06e64f299dbca68f9769ba797bad9108aed8fbf359f",
     "索引/数据/locations.json": "af7913c87b7ff13ed6d8c22ca946f391e067856507d1c57d13c8a92567501095",
     "索引/数据/发行前三集.json": "6186207826a963be3fc4249be1d456a4cfdda7be9baf8af96ff0b3caa955ef64",
+    "资产/制作约定.md": "37b65dfd969d7e1be6e607316e2b754574e27a6e4b72992a841f0031a50279a5",
     "资产/场景/S01-春泽桥前竹木密林道.md": "9b5dc1ae349b654190085b6984d6b9ae9fa12f036b89b92f43e717cd14fb2316",
     "资产/场景/S02-南街汤摊与顾府外街口.md": "6b2c4cfda3efebad3cdd0f3c2a6c8e300a60934e35e63b7d5e350e970791d006",
     "资产/场景/S03-顾府门院前厅与西厢.md": "32548afec6067728b46f67e6d7b93621e1b3ac1723dc058cb3831a6aaa1bf9eb",
@@ -5677,8 +6055,10 @@
     "资产/场景/S05-卧房.md": "054f5ac8aeaf84d76bf05b5ace91168e77c3a8ef5e71d5793f9ebb24eb5ef5aa",
     "资产/场景/S06-后院与外库门口.md": "dbb9e0dae11f004e25695cd212465da6cd809b35815c6a8569a8a92173492b14",
     "资产/场景/S07-现代岩壁局部.md": "827e228aaca9d9446bab87538bad619e2690a7c6088691484775852c639f026b",
+    "资产/媒体/C01/C01-侧脸.png": "d388fd8ab680b8f347527cfd3e453cfa19cb87aea9b801ed005485597e580509",
     "资产/媒体/C01/C01-全身候选.png": "dcd6f817787bcbf175ae72263b781e77b2bdfaf9d6efb06b5d0962320f4db547",
     "资产/媒体/C01/C01-四分之三全身.png": "678fe1a66fffc92a3c178a9376c227f25028093f9364f7fa0b3b408e6ade6776",
+    "资产/媒体/C01/C01-浅灰干衣全身.png": "86df788f3bd5b24dc5415b2d0692c3a4988723dbbd45752326302e9beeb97186",
     "资产/媒体/C01/C01-肖像母版.jpg": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308",
     "资产/媒体/C01/C01-背面候选.png": "0d2ef4fa2c288a2abae5f7b1cee7c55ad3ce1de3f2801651659e9d2a54de5dba",
     "资产/媒体/C01/C01-衣装细节.png": "859ab9499464f347ce6cb3a66345a3c7f86eaae44f64e38138269ba3015dc758",
@@ -5710,7 +6090,15 @@
     "资产/媒体/P01/P01-四马绑定候选.png": "f1f58df0d5e408efaee81130d3e2b0593c3d775c9258d7f25a464b02f4f66701",
     "资产/媒体/P01/P01-车体候选.png": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a",
     "资产/媒体/P02/P02-软口行囊.png": "804d470fc048ba955ad83f2e2ace135a0bb96388ca85552d9aa3cbf4a5f676e8",
+    "资产/媒体/P03/P03-军引空底.png": "9dbb9a0e325ee897cee78cb679797aa993b9770763e592b0d8ee3f2f08b81165",
+    "资产/媒体/P04/P04-旧票与布套空底.png": "30b6a1037b4e950d1a45626f527d324ff1f2f58c697cfa875fa36d9f52ee765b",
+    "资产/媒体/P06/P06-领条空底.png": "878d2aee1a7361ffc4da48b096e7d105d1bb399c90513888eda15c55e4785e44",
+    "资产/媒体/P07/P07-租单空底.png": "0b1a4a946b0c0f0c28947f54dc01ca1be4eefac3b38b21092ee7d2345dea5286",
+    "资产/媒体/P10/P10-布药箱母形.png": "43aa81253dcc25d4f2c520b78134c1c9e393d7eb124818a4211268279f4d7e44",
+    "资产/媒体/P10/P10-温水杯.png": "025b12543e67fbb8ddc461ded24af3f5f192057f2632095c1609b10a8fbc5c57",
+    "资产/媒体/P10/P10-热粥碗.png": "b41aa3d4bf4d3c6958c476f19359530c8d396d75e69b6717db36996dffc75ab8",
     "资产/媒体/P14/P14-浅灰干衣母形.png": "6cc51e53e0eecba2398dbc7fda37b81b314685cb799ad1514b30d4925f8f68b5",
+    "资产/媒体/P15/P15-糖罐与木勺.png": "923740e1156ca6b755a44d5497421980d898f24ce5a2a31d616f24112e9d01ff",
     "资产/媒体/P16/P16-阵甲铜片母形.png": "9bd3b2dee48d72ac4db08970cb98883ca3512660c6379810319b77463da54235",
     "资产/媒体/P19/P19-H01.png": "1e543f480bff32638e70f57bb8db85be750d46b98f79dbe5d98de02de7b51dfc",
     "资产/媒体/P19/P19-H02.png": "dc012cb3a4c65b6d899c9fd6ff34db7bef4959d4096bab47297aa8095c75f60a",
@@ -5753,7 +6141,7 @@
     "资产/媒体/待核对/刺客/刺客人模-05.jpg": "593f512d0d6f100eaf8c86e6a3f6dead00acce85d6acb6cf037183a340251df9",
     "资产/媒体/待核对/刺客/刺客人模-06.jpg": "0cefc9df4c1e7ccad5f618237f3fa4d92f6bad9f3c169e07ad32fd53258c9c5d",
     "资产/媒体/待核对/刺客/刺客人模-07.jpg": "93bd0478561b3b4360b5e99fafb1e5f6b9a5e11bb35179a2794b40e3bd235b1d",
-    "资产/媒体/母版登记.json": "329c056d616b97e1ac828b75b15f17348614c498835f38e54ebaa2fe8883fe87",
+    "资产/媒体/母版登记.json": "b79aa7ac5c3686e02bbdd7d416bc7a3b642755101726a0017456f4945b3803e8",
     "资产/媒体/资产匹配/C04-参考-05.jpg": "ddefee1ce9999ea13fc5cb008b1780007ccdb0575fbb8842634747c449446bc7",
     "资产/媒体/资产匹配/C06-参考-06.jpg": "2a2c552894c4d30b4581b71ebc022079f6658d205f6eaff8a59391a2bc134879",
     "资产/媒体/资产匹配/C07-参考-11.jpg": "e5292f7ac0f1ec547a13431be690ed0749137d735626a043f2377c291bf6549b",
@@ -5773,8 +6161,8 @@
     "资产/生产准备/前三集-v1.9/补充任务源.json": "f3206c0e77d0633bbc6186eec8e93d3e8faab5621aaccad43e681615db28bd17",
     "资产/生产准备/前三集-v1.9/视觉任务源.json": "63d3d5eb098e6cbbadb11b24e30011c0e2acd4eb3ad92df3bb0021e3f838b76a",
     "资产/美术风格与造型总则.md": "12133a8e0dade8a8055f645b7c9b2b4d2fa190cdfa6882b2ae6c319af206d3c1",
-    "资产/角色/C01-顾砚（原顾）.md": "40e5e4e866e85725ad4990485beed40c5ff49886ec1f85d45d884ad748d00b70",
-    "资产/角色/C02-陈渡（今顾）.md": "c13bc97252da545b1ed207ca059761ab107be5ed0d557a779f141188802b453b",
+    "资产/角色/C01-顾砚（原顾）.md": "f49de188c148151fae5db8798b5641d92d9a8f585012c06c7ef54ebae4437341",
+    "资产/角色/C02-陈渡（今顾）.md": "031e6b51b75d8e4c4017f7fe34cfcfcc1844352544a76563e300589f5272e201",
     "资产/角色/C03-韩青.md": "ae1783b0e568bd8438b284e25c7908eddb737c7761aa63d8941e9a7da45f7831",
     "资产/角色/C04-顾伯.md": "1c96757f7e33417ad300c8a4838aa37d0d7227ed033a5bd2668b4d67ad6d78bb",
     "资产/角色/C05-杨舟.md": "edbd39c42b52665d110ddf7ec266bce33ba15cfbf02fabcf15d45826ecc494f0",
@@ -5799,17 +6187,17 @@
     "资产/角色服装系统.md": "64ad61c87ef444215808b42ba905140ed0fd12780160176a324e6051ce3ded6e",
     "资产/道具/P01-四驾封闭豪华马车.md": "fbfc78fc3998337bda69c4f47ea8beb309b2a3b9f7c47748edd268956b46bb13",
     "资产/道具/P02-顾砚私人小行囊.md": "8a529493c5adedfe48e7aae9fe5dbd677069b7c127e3be34c6b14138c75d0816",
-    "资产/道具/P03-原顾军引.md": "439843e3aa1d75be74bcd05ed3d9b3c0c4333677f062204d5ae187e0fa84dfe2",
-    "资产/道具/P04-北路旧票与褐色小布套.md": "cad069eb0f39fe979fc7b62f4f47b04b543c464d8923de5a365a524b766d476b",
-    "资产/道具/P06-王寿手写领条.md": "233de33bc7d78bc994a69606164c155269d186632d9f44fa3bdb2b2fd99767fd",
-    "资产/道具/P07-王寿租车凭条.md": "1282361217dd156d7367b7d9e3438b43ebdd2dde267496f4c3dbfba6d6df02d1",
+    "资产/道具/P03-原顾军引.md": "fa034738b5ceb76204b194b22acedf4379ce946a8ebc5d87ce490afd6a3fae51",
+    "资产/道具/P04-北路旧票与褐色小布套.md": "6db110b50fbfbc46f576248cf5924112246508689b7eaffd576a2a9379589c9e",
+    "资产/道具/P06-王寿手写领条.md": "a724c8fe4317a6b0ac3c05b32e469b11aa11b0dc0daa275559d3ffdddd5af979",
+    "资产/道具/P07-王寿租车凭条.md": "5d7991318eb0aef2ebff4a817068eee86d90a00accf21723cc79fc21de867653",
     "资产/道具/P08-东巡所收件记载.md": "5ff2c928fa592b379c8e4179f669f0f39ad41fe5486a4cf4f525ff1eda2ca718",
     "资产/道具/P09-碎杯与瓷片.md": "de21b74a9cf36fc452a14d72adbac234e3328e5c65ba0bc7c538555d782d9273",
-    "资产/道具/P10-顾伯布药箱粥与温水.md": "84d0e6787c8de9d50abca7e876b0d7aa2023d8771c82b829daa7b2ff6fd8070d",
+    "资产/道具/P10-顾伯布药箱粥与温水.md": "9c0545c786a061b1feb359233a1d9974666f709d05d2de712775d94248654d5d",
     "资产/道具/P11-王寿短刃.md": "1b82c731e61426584db73b3602bda3fac382a0be695df9900db20aa805d090f2",
     "资产/道具/P12-现代局部衣袖与绳具.md": "32da9f1662060184a2a1cf1d85e7273fd37b9899101601871d0d7eb1ec1a2394",
-    "资产/道具/P14-顾伯所备干衣.md": "3d449556c1dee920312577aef9f79686a4c4b0b44c3797cc1ef571b3c6bc1485",
-    "资产/道具/P15-小糖罐糖与粥勺.md": "8747e50195451107965347d8cc1b3bb72883ef205928da22fa0f074e79570347",
+    "资产/道具/P14-顾伯所备干衣.md": "b91f3a2ac029b987d2f209c497d24c1039602d4b180da38b83d62c51019ddd82",
+    "资产/道具/P15-小糖罐糖与粥勺.md": "e41c63780d0eaf143455ec73748a11ff0ed36d833a93ac00f93c55019dc0afd7",
     "资产/道具/P16-五片退制阵甲铜片.md": "040722231bb35ef311318f6605a3dca143c4991c2cb7979d42aa5b583e3c2846",
     "资产/道具/P17-五人各自退籍路凭.md": "b889ddd8a4175d02506cbbd0c6dcd32b712f2eef8e1e3f2396b8d5eff80fe84b",
     "资产/道具/P18-共同饭钱袋与小账.md": "152e93c7599bc72127180523cee9c820b7d9c9b78447f3e95fbedcc990c894f1",
@@ -6216,9 +6604,9 @@
       "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots. clean left profile head-and-shoulders portrait, full topknot included with headroom, neutral relaxed expression. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium-light neutral gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/C01/C01-侧脸.png",
       "planned_filename": "MB-C01-PROFILE__v01__candidate.png",
       "input_references": [
         {
@@ -6235,7 +6623,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-C01-PROFILE",
       "unresolved_dependencies": []
     },
     {
@@ -10286,9 +10674,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One folded off-white travel document with a softly water-stained lower corner, visible paper fibers and a reserved clear area for lettering, top-down view under even diffuse light, plain background, no writing. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P03/P03-军引空底.png",
       "planned_filename": "MB-P03-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -10296,7 +10684,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P03-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -10331,9 +10719,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One small brown cloth sleeve with several folded yellowed paper slips resting beside its opening, neat old creases, understated everyday military supply paperwork, top-down view on neutral cloth under diffuse light, blank surfaces for later lettering. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P04/P04-旧票与布套空底.png",
       "planned_filename": "MB-P04-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -10341,7 +10729,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P04-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -10374,15 +10762,15 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One narrow plain off-white paper slip laid flat, gently uneven handmade edges, a large clear lower area for later recipient and return-location lettering, top-down evenly lit object photograph, no writing. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P06/P06-领条空底.png",
       "planned_filename": "MB-P06-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
       "release_episode_ids": [],
       "release_scope": "followup_reserve",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P06-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -10413,15 +10801,15 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One small folded warm-tan rental paper with a visible horizontal crease, blank reserved blocks for a date, pickup place, return place and deposit, top-down flat object view, diffuse light. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P07/P07-租单空底.png",
       "planned_filename": "MB-P07-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
       "release_episode_ids": [],
       "release_scope": "followup_reserve",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P07-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -10533,9 +10921,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One modest cloth-wrapped wooden medicine box with plain compartments closed, warm-gray cotton wrap, careful old stitching, neutral tabletop object view, soft side lighting. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P10/P10-布药箱母形.png",
       "planned_filename": "MB-P10-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -10544,7 +10932,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P10-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -10692,9 +11080,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One small plain glazed sugar jar with its lid beside it and a simple wooden spoon, pale granular sugar just visible at the mouth, warm-gray background, soft object lighting. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P15/P15-糖罐与木勺.png",
       "planned_filename": "MB-P15-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -10702,7 +11090,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P15-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -11073,9 +11461,9 @@
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. dry pale-gray inner robe with smoky-gray edging, plain layered cross-collar, bandaging at his own left shoulder, injury-side sleeve worn loose, natural upright resting pose, no weapon in hand, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe. Single full-length standing costume continuity study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Natural individualized adult head-to-body proportions, anatomically plausible shoulder width, torso, arm reach and leg length; no tiny head, elongated fashion-model legs or stretched waist. Keep camera near mid-torso height and avoid strong high/low-angle or wide-angle distortion for the costume sheet. Young adult build with character-specific muscle and shoulder proportions, not a childlike oversized head or an exaggerated heroic mannequin. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/C01/C01-浅灰干衣全身.png",
       "planned_filename": "MB-C01-DRY__v01__candidate.png",
       "input_references": [
         {
@@ -11098,7 +11486,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-C01-DRY",
       "unresolved_dependencies": []
     },
     {
@@ -11265,7 +11653,7 @@
       "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. dry pale-gray cross-collar inner robe, loose left shoulder wrapping, lips parting slightly before he holds back a question, eyes alert and unsure, head-and-shoulders portrait, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe. Head-and-shoulders performance study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "awaiting_parent_selection",
+      "status": "ready_for_exploration",
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "MB-C02-FEAR__v01__candidate.png",
@@ -11275,6 +11663,13 @@
           "path": "资产/媒体/C01/C01-肖像母版.jpg",
           "sha256": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308",
           "purpose": "portrait_identity"
+        },
+        {
+          "master_id": "generated-C01-DRY",
+          "path": "资产/媒体/C01/C01-浅灰干衣全身.png",
+          "sha256": "86df788f3bd5b24dc5415b2d0692c3a4988723dbbd45752326302e9beeb97186",
+          "purpose": "selected_generated_asset",
+          "constraints": "C01与C02同体浅灰干衣正面静态衣伤基准"
         },
         {
           "master_id": "generated-C01-FULL",
@@ -11291,9 +11686,7 @@
       ],
       "release_scope": "current_first_three",
       "selected_master_id": null,
-      "unresolved_dependencies": [
-        "MB-C01-DRY"
-      ]
+      "unresolved_dependencies": []
     },
     {
       "id": "MB-C02-FOCUS",
@@ -11326,7 +11719,7 @@
       "provider_tail": "--ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build. long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. dry pale-gray cross-collar inner robe, left sleeve loose, calm direct gaze with a slight tightening at the mouth, head-and-shoulders portrait, opaque fine cotton inner robe with subtle silk-twill bound collar edging, no travel outer robe. Head-and-shoulders performance study. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup, uninjured face without scars, cuts or blood; any story injury remains at his own left shoulder. Low-information medium stone-green gray studio backdrop, faint tonal gradient, clear separation from pale-gray clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 3:4 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "awaiting_parent_selection",
+      "status": "ready_for_exploration",
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "MB-C02-FOCUS__v01__candidate.png",
@@ -11336,6 +11729,13 @@
           "path": "资产/媒体/C01/C01-肖像母版.jpg",
           "sha256": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308",
           "purpose": "portrait_identity"
+        },
+        {
+          "master_id": "generated-C01-DRY",
+          "path": "资产/媒体/C01/C01-浅灰干衣全身.png",
+          "sha256": "86df788f3bd5b24dc5415b2d0692c3a4988723dbbd45752326302e9beeb97186",
+          "purpose": "selected_generated_asset",
+          "constraints": "C01与C02同体浅灰干衣正面静态衣伤基准"
         },
         {
           "master_id": "generated-C01-FULL",
@@ -11349,9 +11749,7 @@
       "release_episode_ids": [],
       "release_scope": "followup_reserve",
       "selected_master_id": null,
-      "unresolved_dependencies": [
-        "MB-C01-DRY"
-      ]
+      "unresolved_dependencies": []
     },
     {
       "id": "MB-C57-RAIN",
@@ -12506,9 +12904,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One plain warm-gray ceramic bowl containing softly steaming rice porridge, simple everyday vessel, tabletop object view, diffuse side light and subtle glaze reflections. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P10/P10-热粥碗.png",
       "planned_filename": "MB-P10-BOWL__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -12517,7 +12915,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P10-BOWL",
       "unresolved_dependencies": []
     },
     {
@@ -12551,9 +12949,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One straight-sided plain brown ceramic water cup with warm water, modest daily vessel, neutral object view, diffuse side light. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P10/P10-温水杯.png",
       "planned_filename": "MB-P10-WATER__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -12562,7 +12960,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P10-WATER",
       "unresolved_dependencies": []
     },
     {
@@ -15044,7 +15442,36 @@
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "POST-TEXT-DOCS__v01__working",
-      "input_references": [],
+      "input_references": [
+        {
+          "master_id": "generated-P03-BASE",
+          "path": "资产/媒体/P03/P03-军引空底.png",
+          "sha256": "9dbb9a0e325ee897cee78cb679797aa993b9770763e592b0d8ee3f2f08b81165",
+          "purpose": "selected_generated_asset",
+          "constraints": "P03无字文书材质底图"
+        },
+        {
+          "master_id": "generated-P04-BASE",
+          "path": "资产/媒体/P04/P04-旧票与布套空底.png",
+          "sha256": "30b6a1037b4e950d1a45626f527d324ff1f2f58c697cfa875fa36d9f52ee765b",
+          "purpose": "selected_generated_asset",
+          "constraints": "P04无字文书材质底图"
+        },
+        {
+          "master_id": "generated-P06-BASE",
+          "path": "资产/媒体/P06/P06-领条空底.png",
+          "sha256": "878d2aee1a7361ffc4da48b096e7d105d1bb399c90513888eda15c55e4785e44",
+          "purpose": "selected_generated_asset",
+          "constraints": "P06无字文书材质底图"
+        },
+        {
+          "master_id": "generated-P07-BASE",
+          "path": "资产/媒体/P07/P07-租单空底.png",
+          "sha256": "0b1a4a946b0c0f0c28947f54dc01ca1be4eefac3b38b21092ee7d2345dea5286",
+          "purpose": "selected_generated_asset",
+          "constraints": "P07无字文书材质底图"
+        }
+      ],
       "reference_slot": "executor: selected parent master, rights checked",
       "release_episode_ids": [
         "GJ-R03"
@@ -15052,10 +15479,6 @@
       "release_scope": "current_first_three",
       "selected_master_id": null,
       "unresolved_dependencies": [
-        "MB-P03-BASE",
-        "MB-P04-BASE",
-        "MB-P06-BASE",
-        "MB-P07-BASE",
         "MB-P08-BASE",
         "MB-P17-BASE"
       ]
@@ -15143,7 +15566,36 @@
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "POST-P06-STATE__v01__working",
-      "input_references": [],
+      "input_references": [
+        {
+          "master_id": "generated-P03-BASE",
+          "path": "资产/媒体/P03/P03-军引空底.png",
+          "sha256": "9dbb9a0e325ee897cee78cb679797aa993b9770763e592b0d8ee3f2f08b81165",
+          "purpose": "selected_generated_asset",
+          "constraints": "P03无字文书材质底图"
+        },
+        {
+          "master_id": "generated-P04-BASE",
+          "path": "资产/媒体/P04/P04-旧票与布套空底.png",
+          "sha256": "30b6a1037b4e950d1a45626f527d324ff1f2f58c697cfa875fa36d9f52ee765b",
+          "purpose": "selected_generated_asset",
+          "constraints": "P04无字文书材质底图"
+        },
+        {
+          "master_id": "generated-P06-BASE",
+          "path": "资产/媒体/P06/P06-领条空底.png",
+          "sha256": "878d2aee1a7361ffc4da48b096e7d105d1bb399c90513888eda15c55e4785e44",
+          "purpose": "selected_generated_asset",
+          "constraints": "P06无字文书材质底图"
+        },
+        {
+          "master_id": "generated-P07-BASE",
+          "path": "资产/媒体/P07/P07-租单空底.png",
+          "sha256": "0b1a4a946b0c0f0c28947f54dc01ca1be4eefac3b38b21092ee7d2345dea5286",
+          "purpose": "selected_generated_asset",
+          "constraints": "P07无字文书材质底图"
+        }
+      ],
       "reference_slot": "executor: selected parent master, rights checked",
       "release_episode_ids": [],
       "release_scope": "followup_reserve",
@@ -15607,6 +16059,13 @@
           "constraints": "图像类型判断为正院／前厅外院中轴视角，匹配现有S03-COURT制作项作为视觉输入。对面建筑暂按厅堂视觉理解，不凭小匾字确定名称；南北朝向、门廊身份和全景对应位置待平面核对。 白花树种无法仅据此图可靠确定，制作仍按冬梅与常绿的季节要求核对。保留原图；夜态与多机位另派生，不能解除POST-PLAN-COURT前置。"
         },
         {
+          "master_id": "generated-C01-DRY",
+          "path": "资产/媒体/C01/C01-浅灰干衣全身.png",
+          "sha256": "86df788f3bd5b24dc5415b2d0692c3a4988723dbbd45752326302e9beeb97186",
+          "purpose": "selected_generated_asset",
+          "constraints": "C01与C02同体浅灰干衣正面静态衣伤基准"
+        },
+        {
           "master_id": "generated-C01-FULL",
           "path": "资产/媒体/C01/C01-全身候选.png",
           "sha256": "dcd6f817787bcbf175ae72263b781e77b2bdfaf9d6efb06b5d0962320f4db547",
@@ -15644,7 +16103,6 @@
       "release_scope": "current_first_three",
       "selected_master_id": null,
       "unresolved_dependencies": [
-        "MB-C01-DRY",
         "MB-ENV-S04",
         "MB-ENV-S03-COURT"
       ]

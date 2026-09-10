@@ -15,6 +15,25 @@ spec.loader.exec_module(production)
 
 
 class ProductionTests(unittest.TestCase):
+    def test_global_creation_rules_invalidate_production_fingerprint(self):
+        original_read = Path.read_bytes
+        for source_name in production.CREATION_RULE_SOURCES:
+            with self.subTest(source=source_name):
+                rule_path = ROOT / source_name
+                rule_bytes = original_read(rule_path)
+                self.assertEqual(self.data['source_sha256'][source_name], hashlib.sha256(rule_bytes).hexdigest())
+
+                def changed_rule_bytes(path):
+                    if path.resolve() == rule_path.resolve():
+                        return rule_bytes + b'\n<!-- changed creation requirement -->\n'
+                    return original_read(path)
+
+                with patch.object(Path, 'read_bytes', changed_rule_bytes):
+                    changed = production.build_data()
+                self.assertNotEqual(changed['source_sha256'][source_name], self.data['source_sha256'][source_name])
+                self.assertEqual(changed['release_plan'], self.data['release_plan'])
+                self.assertEqual(changed['tasks'], self.data['tasks'])
+
     def test_return_convoy_corners_and_rear_luggage(self):
         shots = {s['id']: s for e in self.data['release_plan']['episodes'] for s in e['shots']}
         layout = shots['GJ-R01-SH002']['blocking_continuity']
@@ -125,7 +144,7 @@ class ProductionTests(unittest.TestCase):
         self.assertEqual(len(tasks), 178)
         self.assertEqual(sum(t['method'] == 'MJ' for t in tasks), 162)
         selected = [t for t in tasks if t['media_status'] == 'selected']
-        self.assertEqual({t['id'] for t in selected}, {'MB-P14-BASE', 'MB-P16-BASE', 'MB-C01-FACE', 'MB-C04-FACE', 'MB-C16-FACE', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-C01-FULL', 'MB-C01-FULL-3Q', 'MB-C04-FULL-3Q', 'MB-C16-FULL-3Q', 'MB-C04-COSTUME-DETAIL', 'MB-C17-FACE', 'MB-C17-FULL', 'MB-C20-FACE', 'MB-C20-FULL', 'MB-C03-FACE', 'MB-C03-FULL', 'MB-C03-FULL-3Q', 'MB-C23-FACE', 'MB-C23-FULL', 'MB-P20-BASE', 'MB-WEAPON-BLADE', 'MB-WEAPON-BOW', 'MB-WEAPON-SHIELD', 'MB-P02-BASE', 'MB-BAG-C23', 'MB-P01-BASE', 'MB-P19-BASE'})
+        self.assertEqual({t['id'] for t in selected}, {'MB-C01-PROFILE', 'MB-P06-BASE', 'MB-P07-BASE', 'MB-P03-BASE', 'MB-P04-BASE', 'MB-P10-BOWL', 'MB-P10-WATER', 'MB-P10-BASE', 'MB-P15-BASE', 'MB-C01-DRY', 'MB-P14-BASE', 'MB-P16-BASE', 'MB-C01-FACE', 'MB-C04-FACE', 'MB-C16-FACE', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-C01-FULL', 'MB-C01-FULL-3Q', 'MB-C04-FULL-3Q', 'MB-C16-FULL-3Q', 'MB-C04-COSTUME-DETAIL', 'MB-C17-FACE', 'MB-C17-FULL', 'MB-C20-FACE', 'MB-C20-FULL', 'MB-C03-FACE', 'MB-C03-FULL', 'MB-C03-FULL-3Q', 'MB-C23-FACE', 'MB-C23-FULL', 'MB-P20-BASE', 'MB-WEAPON-BLADE', 'MB-WEAPON-BOW', 'MB-WEAPON-SHIELD', 'MB-P02-BASE', 'MB-BAG-C23', 'MB-P01-BASE', 'MB-P19-BASE'})
         self.assertEqual(selected[0]['media_status'], 'selected')
         candidates = {'MB-C60-SILHOUETTE', 'MB-P01-HORSE', 'MB-P01-CABIN', 'MB-C03-FULL-BACK', 'MB-C01-FULL-BACK', 'MB-C16-FULL-BACK', 'MB-C04-FULL-BACK', 'MB-C01-COSTUME-DETAIL', 'MB-C16-COSTUME-DETAIL', 'MB-S01-W1-01', 'MB-S01-W1-05'}
         self.assertEqual({t['id'] for t in tasks if t['media_status'] == 'generated_candidate'}, candidates)

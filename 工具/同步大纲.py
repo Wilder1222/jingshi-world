@@ -5,6 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
+CREATION_NOTICE = '全篇所有剧情单元、台本与分镜统一执行[全剧创作规则](../剧情结构与推进.md#global-creation-policy)与[AIGC制作规则](../../资产/制作约定.md#aigc-story-to-shot)。相关建议已全部采纳，写作、修订和审核时按场景需要采用，不要求每场套齐手法；具体落点维护于大纲、台本与分镜源。\n\n'
+
 
 def write(path, text):
     path.write_text(text, encoding="utf-8", newline="\n")
@@ -28,6 +30,7 @@ def main():
         raise ValueError("归京表必须有连续36个工作集；源格式或集数已变更，请先复核")
     outputs = {}
     intro = "# 《归京》剧集目录\n\n编号前缀：**GJ-EP**。36个工作单元，前3单元已有完整台本，其余33单元为大纲。前三发行集映射GJ-R01＝原1-1、GJ-R02＝原1-2—1-6、GJ-R03＝原2-1—2-5；180／195／180秒。原门口单元GJ-EP03为后续待拆，不按旧号发第3集。此目录从[全剧大纲](../全剧大纲.md)同步，当前感情线按v0.6；前三发行集约3分钟，后续发行总数与拆分未锁。\n\n[返回剧集目录](../README.md) · [前三集制作约定](../前三集制作约定.md)\n\n## 逐集索引\n\n| 编号／入口 | 标题 | 状态 | 日期／时段 |\n|---|---|---|---|\n"
+    intro = intro.replace('## 逐集索引', CREATION_NOTICE + '## 逐集索引', 1)
     body = "\n## 第04至36集分集大纲摘录\n\n以下为大纲原有行动与关系后果，非完整对白台本；统一修改入口为全剧大纲。\n"
     for number, title, date, action, result in rows:
         key = f"GJ-EP{number:02}"
@@ -45,6 +48,7 @@ def main():
         if [int(m[1]) for m in matches] != list(range(1, 13)):
             raise ValueError(f"{name}必须有连续12个剧情单元；请核对源格式")
         intro = f"# 《{name}》剧情单元目录\n\n编号前缀：**{prefix}-U**。现有12个剧情单元，可继续拆集，**不等于12个已锁定发行集**。以下从全剧大纲同步，当前感情线按v0.6，未扩写成完整台本。\n\n[返回剧集目录](../README.md) · [全剧大纲](../全剧大纲.md)\n\n## 单元索引\n\n| 编号 | 单元标题 | 状态 | 时间与地点 |\n|---|---|---|---|\n"
+        intro = intro.replace('## 单元索引', CREATION_NOTICE + '## 单元索引', 1)
         body = "\n## 已有单元大纲摘录\n\n以下保留大纲单元原文，按编号与人物可检索；修改全剧大纲后可重新同步。\n"
         for i, match in enumerate(matches):
             number, title, time = match.groups()

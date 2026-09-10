@@ -438,7 +438,7 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 验收：C01换衣后与C02同一母版；左臂不作承重；膝碰痛不擅添可见开放伤；脸部无疤、擦伤与血污；肩伤与既定包扎不删除。
 
-状态：尚未生成；拟存文件名 `MB-C01-DRY__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/C01/C01-浅灰干衣全身.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity） · [generated-C01-FULL](<../../媒体/C01/C01-全身候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
@@ -476,7 +476,7 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 验收：同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；只改视角，耳鼻下颌与选脸同源。
 
-状态：尚未生成；拟存文件名 `MB-C01-PROFILE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/C01/C01-侧脸.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
@@ -560,9 +560,7 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C02-FEAR__v01__candidate.png`，实际文件为空。
 
-母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity） · [generated-C01-FULL](<../../媒体/C01/C01-全身候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
-
-尚缺前置：MB-C01-DRY。
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity） · [generated-C01-DRY](<../../媒体/C01/C01-浅灰干衣全身.png>)（selected_generated_asset） · [generated-C01-FULL](<../../媒体/C01/C01-全身候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 <a id="mb-c02-focus"></a>
 
@@ -582,9 +580,7 @@ Single fictional Chinese man, age 24, a long oval face, defined cheekbones, thic
 
 状态：尚未生成；拟存文件名 `MB-C02-FOCUS__v01__candidate.png`，实际文件为空。
 
-母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity） · [generated-C01-FULL](<../../媒体/C01/C01-全身候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
-
-尚缺前置：MB-C01-DRY。
+母版图像引用：[portrait-C01](<../../媒体/C01/C01-肖像母版.jpg>)（portrait_identity） · [generated-C01-DRY](<../../媒体/C01/C01-浅灰干衣全身.png>)（selected_generated_asset） · [generated-C01-FULL](<../../媒体/C01/C01-全身候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 <a id="mb-c03-armor"></a>
 
@@ -2544,7 +2540,7 @@ One folded off-white travel document with a softly water-stained lower corner, v
 
 验收：正字另贴顾砚；雨损角不吞姓名，军引不与退籍路凭共版。
 
-状态：尚未生成；拟存文件名 `MB-P03-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P03/P03-军引空底.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p04-base"></a>
 
@@ -2562,7 +2558,7 @@ One small brown cloth sleeve with several folded yellowed paper slips resting be
 
 验收：先定套与票的比例；闭合/打开派生不得变成新证物或秘籍。
 
-状态：尚未生成；拟存文件名 `MB-P04-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P04/P04-旧票与布套空底.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p06-base"></a>
 
@@ -2580,7 +2576,7 @@ One narrow plain off-white paper slip laid flat, gently uneven handmade edges, a
 
 验收：必须保留收件人空白；无车行印、无官府大印，文字后制。
 
-状态：尚未生成；拟存文件名 `MB-P06-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P06/P06-领条空底.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p07-base"></a>
 
@@ -2598,7 +2594,7 @@ One small folded warm-tan rental paper with a visible horizontal crease, blank r
 
 验收：与E1a纸形色阶、折痕可区分；不能写梁朔或共用徽记。
 
-状态：尚未生成；拟存文件名 `MB-P07-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P07/P07-租单空底.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p08-base"></a>
 
@@ -2652,7 +2648,7 @@ One modest cloth-wrapped wooden medicine box with plain compartments closed, war
 
 验收：顾伯照护物，普通无神医符纹；张济诊具另在摆设项。
 
-状态：尚未生成；拟存文件名 `MB-P10-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P10/P10-布药箱母形.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p10-bowl"></a>
 
@@ -2670,7 +2666,7 @@ One plain warm-gray ceramic bowl containing softly steaming rice porridge, simpl
 
 验收：冷热改变蒸汽，不改变碗；不能复制书房碎杯。
 
-状态：尚未生成；拟存文件名 `MB-P10-BOWL__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P10/P10-热粥碗.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p10-water"></a>
 
@@ -2688,7 +2684,7 @@ One straight-sided plain brown ceramic water cup with warm water, modest daily v
 
 验收：与P09 pale圆口杯母形不同；顾伯留右手边。
 
-状态：尚未生成；拟存文件名 `MB-P10-WATER__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P10/P10-温水杯.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p11-base"></a>
 
@@ -2760,7 +2756,7 @@ One small plain glazed sugar jar with its lid beside it and a simple wooden spoo
 
 验收：与厨房盐罐位置区分，药杯/碎杯不共用；三集形制连续。
 
-状态：尚未生成；拟存文件名 `MB-P15-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P15/P15-糖罐与木勺.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p16-base"></a>
 
