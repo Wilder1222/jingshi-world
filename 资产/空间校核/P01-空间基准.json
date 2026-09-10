@@ -1,0 +1,70 @@
+{
+  "units": "m",
+  "status": "blocking_proposal_not_engineering",
+  "cabin_x": [
+    0.9,
+    3.9
+  ],
+  "cabin_width": 1.8,
+  "floor_z": 1.05,
+  "roof_z": 2.7,
+  "driver_x": [
+    0.1,
+    0.85
+  ],
+  "rear_rack_x": [
+    4.0,
+    4.75
+  ],
+  "door_x": [
+    1.5,
+    2.3
+  ],
+  "door_top_z": 2.55,
+  "hinge": "rear_vertical_jamb",
+  "step_x": [
+    1.45,
+    2.35
+  ],
+  "step_z": 0.55,
+  "step_depth": 0.32,
+  "axles_x": [
+    0.4,
+    3.35
+  ],
+  "wheel_radii": [
+    0.55,
+    0.65
+  ],
+  "rear_bench_x": [
+    3.25,
+    3.8
+  ],
+  "front_partition_x": 0.9,
+  "moving_front_axle": "visual pivot placeholder; turning sweep unverified",
+  "convoy": {
+    "front_left": "C16 / H01",
+    "front_right": "C17 / H02",
+    "rear_left": "C20 / H05",
+    "rear_right": "C23 / H08",
+    "driver": "C03",
+    "passenger": "C01",
+    "draft_horses": 4
+  },
+  "checks": {
+    "step_below_floor": true,
+    "step_clear_front_wheel_side_projection": true,
+    "step_clear_rear_wheel_side_projection": true,
+    "door_before_rear_seat": true,
+    "luggage_behind_cabin": true,
+    "driver_outside_front_partition": true
+  },
+  "unverified": [
+    "人物坐姿与扶行实测",
+    "轴架与载荷",
+    "前轮转向扫掠",
+    "四马并列挽具",
+    "轮旁人马动态间距",
+    "门阶实作"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "format": "jingshi-blender-previs",
   "blender_version": "5.2.1 LTS",
-  "source_sha256": "9aef54570526980a5f36a157d0ed401901b5a50a638e031ce16e2f5c2b7b0b9c",
+  "source_sha256": "6186207826a963be3fc4249be1d456a4cfdda7be9baf8af96ff0b3caa955ef64",
   "shots": [
     {
       "id": "GJ-R02-SH016",
@@ -136,5 +136,25 @@
   ],
   "total_frames": 1032,
   "ai_generation_status": "not_submitted_account_access_required",
-  "master_sha256": "a067baca0585dca695ed8ea3d91e68478c3878fcc69a1b4e8afd4626e4830b3c"
+  "master_sha256": "05dec4f791385e7d5d7f9e6c4b2a3651b266118d7dc5690823598baead0e1188",
+  "forest_render_binding": {
+    "GJ-R01-SH002": {
+      "status": "rendered_and_pack_checked",
+      "master_sha256": "05dec4f791385e7d5d7f9e6c4b2a3651b266118d7dc5690823598baead0e1188",
+      "shot_sha256": "6ad4171c4eed701bb7a857bd4f7215f875c4533b4e931e0e3df1b5704d9c7420",
+      "video_sha256": "67e4a4b79032850f0052962ed429dba244a56e9c269493ca338cdf4202b1f66a",
+      "frame_count": 168,
+      "frame_sequence_sha256": "d2272498e03e445fb25d3ad2305f8a63215de781f36047dca29a6094f2e5fb72",
+      "scope": "技术预演重渲染；未验收正式人物和动作"
+    },
+    "GJ-R01-SH021": {
+      "status": "rendered_and_pack_checked",
+      "master_sha256": "05dec4f791385e7d5d7f9e6c4b2a3651b266118d7dc5690823598baead0e1188",
+      "shot_sha256": "f01ddf54fd9ad2db2df7f7e1be3d4a0feedd4908e9d1f06744602e0423625c42",
+      "video_sha256": "503100834229ffaab3a9b3787f069e73ad6b96f075635fbaf866057afc31c5f4",
+      "frame_count": 144,
+      "frame_sequence_sha256": "801185d30b793d9b2e2e336f2e86684f07b8163fbf1aea0d8f7cabbee0f5daef",
+      "scope": "技术预演重渲染；未验收正式人物和动作"
+    }
+  }
 }

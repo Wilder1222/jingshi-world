@@ -2,7 +2,7 @@
   "source_shot_id": "GJ-R02-SH016",
   "source_scene_id": "GJ-EP01-SC05",
   "source_video": "资产/三维预演/视频/GJ-R02-SH016.mp4",
-  "source_video_sha256": "264dbfb17442e8a8946771eb661e03fe86f52debfcbd413a70cb659b387ae1db",
+  "source_video_sha256": "f7d3a490e8cbb8c7eaa8248353a665c86173af7e3005edd2178e83cda70194bf",
   "camera_track": "资产/三维预演/相机/GJ-R02-SH016.json",
   "duration_seconds": 10.0,
   "source_fps": [

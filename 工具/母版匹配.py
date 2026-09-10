@@ -29,6 +29,11 @@ def load_generated(tasks):
             raise ValueError('生成选版缺任务验收范围或执行者')
         masters = {m['id']: m for m in registry['masters'] + rows if m.get('status') == 'selected'}
         for ref in row['generation']['input_references']:
+            if ref.get('purpose') == 'registered_style_reference':
+                source = next((m for m in registry.get('matched_references', []) if m['id'] == ref['master_id']), None)
+                if not source or ref['path'] != source['path'] or ref['sha256'] != source['sha256']:
+                    raise ValueError('生成输入风格参考失配')
+                continue
             if ref['master_id'] not in masters or ref['sha256'] != masters[ref['master_id']]['sha256']:
                 raise ValueError('生成候选输入母版失配')
         task = by_id[row['task_id']]

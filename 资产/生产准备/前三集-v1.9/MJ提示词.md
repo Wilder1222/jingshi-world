@@ -120,7 +120,7 @@ Single fictional Chinese man, age 25, a compact face broader through the cheeks,
 
 验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
-状态：尚未生成；拟存文件名 `MB-C03-FULL-3Q__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/C03/C03-四分之三全身.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 母版图像引用：[asset-match-C03-03](<../../媒体/C03/C03-身份母版.png>)（portrait_identity） · [generated-C03-FULL](<../../媒体/C03/C03-全身候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
@@ -140,7 +140,7 @@ Rear view of the same selected costumed person. black hair in a compact topknot 
 
 验收：比顾砚脸短宽，灰青窄袖；成熟炼身，不是少年将军；中明度灰青丝毛、玄蓝棉里、茶白绸领边；折水织纹和局部刺绣分开。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸；同一套已选FULL只改视角或裁幅，不换暗纹、腰封、背部发式；非战斗、不临时加兵器或内甲。
 
-状态：尚未生成；拟存文件名 `MB-C03-FULL-BACK__v01__candidate.png`，实际文件为空。
+状态：已用内置imagegen生成[实际候选](<../../媒体/C03/C03-背面候选.png>)，尚待衣装复核；并非MJ执行结果，实际工具和提示词见媒体登记。
 
 母版图像引用：[asset-match-C03-03](<../../媒体/C03/C03-身份母版.png>)（portrait_identity） · [generated-C03-FULL](<../../媒体/C03/C03-全身候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
@@ -420,7 +420,7 @@ One square-mouthed structured blue-cloth travel satchel with a fitted cover flap
 
 验收：与P02软口小行囊必须一眼区分；非新P号。
 
-状态：尚未生成；拟存文件名 `MB-BAG-C23__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/C23/C23-方口行囊.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-c01-dry"></a>
 
@@ -1362,7 +1362,7 @@ One fictional Chinese man, age 43, a rectangular-square face, broad jaw, low str
 
 状态：尚未生成；拟存文件名 `MB-C16-MOUNTED__v01__candidate.png`，实际文件为空。
 
-母版图像引用：[asset-match-C16-04](<../../媒体/资产匹配/C16-参考-04.jpg>)（portrait_identity） · [generated-C16-FULL](<../../媒体/C16/C16-全身候选.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+母版图像引用：[asset-match-C16-04](<../../媒体/资产匹配/C16-参考-04.jpg>)（portrait_identity） · [generated-C16-FULL](<../../媒体/C16/C16-全身候选.png>)（selected_generated_asset） · [generated-P19-BASE](<../../媒体/P19/P19-骑乘马母形.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 尚缺前置：MB-C16-ARMOR、POST-HORSES。
 
@@ -1506,7 +1506,7 @@ One fictional Chinese man, age 38, a square face, broad flat brow ridge, open ey
 
 状态：尚未生成；拟存文件名 `MB-C17-MOUNTED__v01__candidate.png`，实际文件为空。
 
-母版图像引用：[asset-match-C17-07](<../../媒体/资产匹配/C17-参考-07.jpg>)（portrait_identity） · [generated-C17-FULL](<../../媒体/C17/C17-全身候选.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+母版图像引用：[asset-match-C17-07](<../../媒体/资产匹配/C17-参考-07.jpg>)（portrait_identity） · [generated-C17-FULL](<../../媒体/C17/C17-全身候选.png>)（selected_generated_asset） · [generated-P19-BASE](<../../媒体/P19/P19-骑乘马母形.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 尚缺前置：MB-C17-ARMOR、POST-HORSES。
 
@@ -1610,7 +1610,7 @@ One fictional Chinese man, age 34, a narrow face with flat cheekbone planes, fin
 
 状态：尚未生成；拟存文件名 `MB-C20-MOUNTED__v01__candidate.png`，实际文件为空。
 
-母版图像引用：[asset-match-C20-08](<../../媒体/C20/C20-身份母版.png>)（portrait_identity） · [generated-C20-FULL](<../../媒体/C20/C20-全身候选.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+母版图像引用：[asset-match-C20-08](<../../媒体/C20/C20-身份母版.png>)（portrait_identity） · [generated-C20-FULL](<../../媒体/C20/C20-全身候选.png>)（selected_generated_asset） · [generated-P19-BASE](<../../媒体/P19/P19-骑乘马母形.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 尚缺前置：MB-C20-ARMOR、POST-HORSES。
 
@@ -1714,7 +1714,7 @@ One fictional Chinese man, age 32, a narrow face, defined brows, concentrated ey
 
 状态：尚未生成；拟存文件名 `MB-C23-MOUNTED__v01__candidate.png`，实际文件为空。
 
-母版图像引用：[asset-match-C23-09](<../../媒体/C23/C23-身份母版.png>)（portrait_identity） · [generated-C23-FULL](<../../媒体/C23/C23-全身候选.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+母版图像引用：[asset-match-C23-09](<../../媒体/C23/C23-身份母版.png>)（portrait_identity） · [generated-C23-FULL](<../../媒体/C23/C23-全身候选.png>)（selected_generated_asset） · [generated-P19-BASE](<../../媒体/P19/P19-骑乘马母形.png>)（selected_generated_asset） · [generated-P20-BASE](<../../媒体/P20/P20-内甲母形.png>)（selected_generated_asset） · [generated-WEAPON-BLADE](<../../媒体/P21/P21-刀鞘母形.png>)（selected_generated_asset） · [generated-WEAPON-BOW](<../../媒体/P21/P21-裹弓闭口箭囊.png>)（selected_generated_asset） · [generated-WEAPON-SHIELD](<../../媒体/P21/P21-短盾母形.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 尚缺前置：MB-C23-ARMOR、POST-HORSES。
 
@@ -1930,7 +1930,7 @@ One partially visible adult figure behind a large woodland tree in dense bamboo 
 
 验收：仅探索灰袖、树干遮挡与林侧位置；性别年龄脸和境界未锁，不借温宁殷母版；不计刺客人数。出手在第二波最后一击，不计任一波刺客；第一波已退林。。
 
-状态：尚未生成；拟存文件名 `MB-C60-SILHOUETTE__v01__candidate.png`，实际文件为空。
+状态：已用内置imagegen生成[实际候选](<../../媒体/C60/C60-树后灰袖候选.png>)，尚待衣装复核；并非MJ执行结果，实际工具和提示词见媒体登记。
 
 尚缺前置：MB-ENV-S01、POST-PLAN-FOREST。
 
@@ -2441,12 +2441,12 @@ Edit the selected empty set master. Bright clear winter morning after rain, damp
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [P01-四驾封闭豪华马车](<../../道具/P01-四驾封闭豪华马车.md>)
 
 ```text
-One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy. A clearly attached luggage rack behind the cabin carries a compact grouped load of cloth travel bags, including a soft drawstring bag and a structured square-mouth satchel; rear luggage does not obstruct wheels or the right passenger door. No separate luggage cart. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：四马并列牵引的封闭豪华车，固定四轮、实体顶、右侧铰接门及踏阶、独立外驾座；精雕深漆与克制鎏铜，不改成露天敞棚或帝王龙辇。车厢不透明，车灯不自动照穿侧壁；与已选四匹牵引马合成时核验数量及比例。空车探索尚未生成；结构、驾乘与动物安全须专业审阅。。
 
-状态：尚未生成；拟存文件名 `MB-P01-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P01/P01-车体候选.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p01-cabin"></a>
 
@@ -2459,14 +2459,14 @@ One stately luxurious enclosed Chinese period carriage, four-wheel wooden body w
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [P01-四驾封闭豪华马车](<../../道具/P01-四驾封闭豪华马车.md>)
 
 ```text
-Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler and a small bag. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler; luggage is carried on the exterior rear rack. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
-验收：沿BASE同一车体；内座、实体隔板、右门及踏阶方位固定。封闭不是密封无门，锦垫不塞满通路；P02位于座旁，韩在外驾座不能隔墙扶包；不新增隐室或机关。。
+验收：沿BASE同一车体；内座、实体隔板、右门及踏阶方位固定。封闭不是密封无门，锦垫不塞满通路；P02位于车尾行李架，韩在外驾座不能隔墙扶包；不新增隐室或机关。。
 
-状态：尚未生成；拟存文件名 `MB-P01-CABIN__v01__candidate.png`，实际文件为空。
+状态：已用内置imagegen生成[实际候选](<../../媒体/P01/P01-内饰候选.png>)，尚待衣装复核；并非MJ执行结果，实际工具和提示词见媒体登记。
 
-尚缺前置：MB-P01-BASE。
+母版图像引用：[generated-P01-BASE](<../../媒体/P01/P01-车体候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 <a id="mb-p01-horse"></a>
 
@@ -2484,9 +2484,9 @@ Exactly four ordinary adult brown draft horses abreast in a single row, four sep
 
 验收：恰好四匹棕色牵引马并列，连P19四匹坐骑全队八马；不借坐骑补数，不添加车夫。四马与已选封闭豪华车同框，车门、踏阶、外驾座及前行灯可定位；不可改成两马、前后两排或敞棚。此为静态视觉计划，不是挽具装配或动物安全认证。。
 
-状态：尚未生成；拟存文件名 `MB-P01-HORSE__v01__candidate.png`，实际文件为空。
+状态：已用内置imagegen生成[实际候选](<../../媒体/P01/P01-四马绑定候选.png>)，尚待衣装复核；并非MJ执行结果，实际工具和提示词见媒体登记。
 
-尚缺前置：MB-P01-BASE。
+母版图像引用：[generated-P01-BASE](<../../媒体/P01/P01-车体候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
 
 <a id="mb-p01-rain-stop"></a>
 
@@ -2506,7 +2506,9 @@ The selected enclosed luxurious four-wheel carriage standing immobilized beside 
 
 状态：尚未生成；拟存文件名 `MB-P01-RAIN-STOP__v01__candidate.png`，实际文件为空。
 
-尚缺前置：MB-P01-BASE、POST-PLAN-FOREST。
+母版图像引用：[generated-P01-BASE](<../../媒体/P01/P01-车体候选.png>)（selected_generated_asset）。按各引用用途锁身份或建筑造型；仍须满足服装与空间前置。
+
+尚缺前置：POST-PLAN-FOREST。
 
 <a id="mb-p02-base"></a>
 
@@ -2524,7 +2526,7 @@ One small soft-mouthed dark cloth travel bag, tied opening, worn dense cotton, m
 
 验收：软口和小体量，不用许照邻方口包；军引、布套、零钱可容纳。
 
-状态：尚未生成；拟存文件名 `MB-P02-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P02/P02-软口行囊.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p03-base"></a>
 
@@ -2740,7 +2742,7 @@ One folded pale-gray cross-collar inner robe made of dense soft cotton, smoky-gr
 
 验收：穿上后的原顾今顾共版；不增华服或第二套脸。
 
-状态：尚未生成；拟存文件名 `MB-P14-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P14/P14-浅灰干衣母形.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p15-base"></a>
 
@@ -2776,7 +2778,7 @@ One small worn copper-colored fictional training plate with restrained engraved 
 
 验收：一片母形、无悬浮；五人的旧磨痕后期做个体变体，不让新图增加法力。
 
-状态：尚未生成；拟存文件名 `MB-P16-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P16/P16-阵甲铜片母形.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p17-base"></a>
 
@@ -2843,12 +2845,12 @@ One small plain dark-gray drawstring coin pouch, modest weight sagging at the bo
 来源：[GJ-EP01-归京](<../../../剧集/01-归京/GJ-EP01-归京.md>) · [前三集重写与生产交接-v1.9](<../../../剧集/前三集重写与生产交接-v1.9.md>) · [第一集视觉讨论-采用边界](<../../../参考/第一集视觉讨论-采用边界.md>) · [美术风格与造型总则](<../../美术风格与造型总则.md>) · [P19-护送队坐骑与鞍具](<../../道具/P19-护送队坐骑与鞍具.md>)
 
 ```text
-One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor. --ar 4:3 --v 8.2 --raw --s 75 --c 0
+One ordinary adult bay riding horse with black mane and tail, simple period travel saddle without luggage or saddle bags; convoy luggage remains on the rear carriage rack, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor. --ar 4:3 --v 8.2 --raw --s 75 --c 0
 ```
 
 验收：单匹普通骑乘马母形；后制分别锁定H01、H02、H05、H08四匹，保持各自骑手映射；不是P01四驾牵引马，不新加韩青坐骑。。
 
-状态：尚未生成；拟存文件名 `MB-P19-BASE__v01__candidate.png`，实际文件为空。
+状态：已绑定[本任务母版](<../../媒体/P19/P19-骑乘马母形.png>)，复用本图；指定、自动适配或逐图验收依据见媒体登记，以上文字无需重新海选。
 
 <a id="mb-p20-base"></a>
 

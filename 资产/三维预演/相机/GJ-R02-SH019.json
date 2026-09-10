@@ -35,7 +35,10 @@
       "GJ-R02-SH018"
     ],
     "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
-    "media_status": "not_generated"
+    "media_status": "not_generated",
+    "performance": "决定回门后动作比逃窗时更谨慎；不演成突然完全信任，只选择可行援助。",
+    "blocking_continuity": "扶案站起后再向门闩移动，保留伤肩限制；不新增另一条逃路或暗门。",
+    "cut_cue": "身体到门前、右手接近闩，切开门动作。"
   },
   "blend_file": "资产/三维预演/镜头/GJ-R02-SH019.blend",
   "status": "built_previs_not_final_character_or_scene_master",

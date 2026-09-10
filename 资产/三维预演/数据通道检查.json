@@ -106,7 +106,7 @@
         "ViewLayer.CryptoObject02.g",
         "ViewLayer.CryptoObject02.r"
       ],
-      "bytes": 3601533
+      "bytes": 3331942
     },
     {
       "shot": "GJ-R01-SH021",
@@ -133,7 +133,7 @@
         "ViewLayer.CryptoObject02.g",
         "ViewLayer.CryptoObject02.r"
       ],
-      "bytes": 4561221
+      "bytes": 4539283
     }
   ],
   "scope": "All EXR part headers include Depth, Normal and CryptoObject; numeric pixel semantics not independently decoded"

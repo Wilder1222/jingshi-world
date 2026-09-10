@@ -1398,6 +1398,67 @@
         "status": "passed_visual_review",
         "summary": "窄脸、眉眼和短须同源，疑似伤污清除；深青衣领符合现行方向。"
       }
+    },
+    {
+      "asset_ids": [
+        "C25"
+      ],
+      "name": "沈蘅肖像",
+      "path": "资产/媒体/C25/C25-肖像母版.png",
+      "sha256": "7d30c8bfb2b48f26672085d85538070442d97fb14bfcb2278a118d75251e0c80",
+      "original_path": "参考/用户媒体/统一风格补充/C25-用户原图.jpg",
+      "original_sha256": "68902609b666485e008baf880e2181327571cecb34f9fe942f38b43fa79e44a7",
+      "source_filename": "3-照片-3.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "9AE5CD32-D041-4BA6-B796-8DB3689C67E2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "task_ids": [],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Edit IMAGE1 Shen Heng portrait to match SAME production's MAIN HERO portrait IMAGE2 in realistic skin detail, optical sharpness, restrained highlights and fine ancient Chinese fabric workmanship. IMAGE2 is ONLY technical style reference: do NOT copy male face, hairstyle, expression or dark costume. Preserve IMAGE1 young adult woman's exact facial identity: eyes, gentle oval face, brows nose lips and age 20, natural feminine proportions, no child or aged face. Preserve portrait pose and half-up elegant black hair with silver floral ornament, reduce excess dangling ornaments to modest short pearl strands while keeping recognizable hair arrangement. Replace strong golden backlight, overexposed haze, bloom and heavy soft focus with neutral soft studio light, real subtle skin pores and light makeup, natural rose-bean lips, clear brown eyes without doll gloss. Simple muted warm-grey studio background separated from clothing. Refine robe to warm ivory/moon-white fine silk with low-contrast small floral jacquard, warm apricot edging and inner layer, tiny muted peacock-teal accent at chest; silk satin and sheer gauze scarf with opaque lining remain elegant and wearable, limited sheen no glitter. Hair and hands natural no floating strands everywhere. Premium cinematic period fantasy aesthetic with restrained xianxia grace consistent with hero, not bridal queen or deity. One waist-up portrait, keep head ornament inside frame, portrait 2:3, no text."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/C01/C01-肖像母版.jpg"
+        ],
+        "style_reference_sha256": {
+          "资产/媒体/C01/C01-肖像母版.jpg": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308"
+        },
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-54d6cee6-b236-4dae-95ed-d1ccef4d04d7.png"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "observed_result": [
+          "保留原图五官与20岁气质，中性肤质及暖杏月白绸纱清楚"
+        ],
+        "limits": "视觉风格通过；未显示角度、精确尺度与剧情镜头另核。"
+      },
+      "id": "portrait-C25",
+      "visual_key": "face-C25",
+      "scope": "portrait_identity",
+      "status": "selected",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_style_edit_request",
+      "selection_basis": "用户指定沈蘅肖像，按主角统一视觉后入库；人物面容保留本人，不复制主角五官。",
+      "visual_notes": "20岁，柔和鹅蛋脸、杏眼，黑发半束高髻、银花与短珠饰；暖杏月白绸纱、胸前小面积孔雀青。",
+      "locks": [
+        "五官比例与20岁面容",
+        "真实肤质与可见妆发",
+        "暖杏月白绸纱材质"
+      ],
+      "unverified": [
+        "发髻顶部略贴裁边，完整发饰需全身视角补齐",
+        "全身头身比例及侧背",
+        "日常经营收袖衣套与动态"
+      ],
+      "derivation_rule": "以修后PNG作为身份引用，原图保留追溯；肖像衣套不替代全部日常服装，不增加前三集出场。"
     }
   ],
   "pending_master_candidates": [
@@ -1985,6 +2046,118 @@
       "width": 853,
       "height": 1280,
       "format": "JPEG"
+    },
+    {
+      "asset_ids": [
+        "C60"
+      ],
+      "name": "神秘人侧影",
+      "path": "资产/媒体/资产匹配/C60-神秘人侧影.png",
+      "sha256": "0d894d725d5ee6a3627d136289428915cbc0a39803b14a840fae9481d5ffdcf1",
+      "original_path": "参考/用户媒体/统一风格补充/C60-用户原图.jpg",
+      "original_sha256": "94b47597170b50ad74f4b9ba8834a8cd7c25dfd08d830d2d6622e50e1962f795",
+      "source_filename": "1-照片-1.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "9AE5CD32-D041-4BA6-B796-8DB3689C67E2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "task_ids": [],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Unify IMAGE1 mysterious adult side-profile reference with the cinematic ancient Chinese fantasy drama realism of IMAGE2 MAIN HERO. IMAGE2 is ONLY a reference for photographic realism, believable skin and fine textile rendering, never copy its face, costume, jewelry or identity. Preserve IMAGE1 person's own profile shape, bowed head, black half-tied long hair and graceful adult proportions. Refine coarse shiny black garment to dense matte charcoal-grey silk-wool with plain crossed collar and an unpatterned dark grey outer sleeve; restrained elegant period workmanship, no emblem armor jewelry or weapon. Night portrait: soft desaturated cool ambient side-rim, deep naturally occluded eye region with damp loose hair, subdued nose and lips, skin not luminous or plastic. Reduce heavy cyan wash while retaining clear night atmosphere, no warm glamour flare, no mystical aura. Keep the side-profile composition and shoulder/sleeve framing, muted out-of-focus dark woodland background, no lantern. This is a mysterious person's SIDE silhouette appearance reference; do not turn into full frontal identity portrait. No text."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/C01/C01-肖像母版.jpg"
+        ],
+        "style_reference_sha256": {
+          "资产/媒体/C01/C01-肖像母版.jpg": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308"
+        },
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-d55ebcb5-eeb2-48b4-9d0f-25adf78dadbd.png"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "observed_result": [
+          "保留独立侧貌，压低青蓝偏色、无纹深灰衣料与低调夜光"
+        ],
+        "limits": "视觉风格通过；未显示角度、精确尺度与剧情镜头另核。"
+      },
+      "id": "asset-match-C60-style-01",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "candidate_subarea": null,
+      "registered_on": "2026-09-10",
+      "matched_by": "user_assignment_and_assistant_style_review",
+      "matching_basis": "用户依附件次序指定；以C01肖像摄影与材质精度统一修图。",
+      "reference_task_ids": [],
+      "unverified": [
+        "此为用户指定侧影造型参考，首集树后遮脸镜头另制",
+        "未锁真名、性别、具体年龄、归属和境界",
+        "全身与灰袖收回动作未生成"
+      ]
+    },
+    {
+      "asset_ids": [
+        "S01"
+      ],
+      "name": "夜林光色",
+      "path": "资产/媒体/资产匹配/S01-夜林光色.png",
+      "sha256": "fe72ae11148d39982023e240537eeb5e5c281cf493288c12b7a9e33ec9af27fd",
+      "original_path": "参考/用户媒体/统一风格补充/S01-用户原图.jpg",
+      "original_sha256": "aff6e205967bd51ce8e2ee69090d6c59d0ad6539e48a076b5effc2dec1f3191d",
+      "source_filename": "2-照片-2.jpg",
+      "source_kind": "user_attachment_edited",
+      "source_batch": "9AE5CD32-D041-4BA6-B796-8DB3689C67E2",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "model": null,
+      "seed": null,
+      "prompt": null,
+      "task_ids": [],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "mode": "edit",
+        "prompts": [
+          "Edit IMAGE1 into a production night forest environment for same Chinese period fantasy drama as IMAGE2. IMAGE2 ONLY defines photographic realism, restrained contrast and material detail, no person should appear. Preserve wet bamboo plus tall mixed trees, deep receding road and rain atmosphere of IMAGE1. REMOVE ALL fixed lanterns, lamp posts, warm orange pools and every distant building or roof: this is isolated forest before ChunZe bridge, no inn or settlement. Night illumination solely soft desaturated cool ambient through canopy gaps, no glowing blue fog or theatrical spotlight. Wet earth and puddles reflect dim sky naturally, layered dark foliage readable, fine realistic rain. Broaden the road substantially into a national-road passing area with continuous compacted-earth surface, firm shoulders and drainage edges, bamboo densely confined to both outer edges; wide open central ground occupies most lower half of image, no narrow corridor, no modern paving or lane markings. This is mood and surface reference, exact eight-carriage-width layout requires separate scaled plan. Empty scene without people horses carriage weapons text. Landscape16:9, premium cinematic VFX plate with fine natural texture, balanced highlights, same world as main hero."
+        ],
+        "style_reference_paths": [
+          "资产/媒体/C01/C01-肖像母版.jpg"
+        ],
+        "style_reference_sha256": {
+          "资产/媒体/C01/C01-肖像母版.jpg": "69aa42efe952e91074ddefe3419df6f3a057bbfe375cfd562bfb119a62bed308"
+        },
+        "output_origin_path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-90874fb1-0f37-4b40-ae78-971a70f50211.png"
+      },
+      "style_review": {
+        "status": "passed_visual_review",
+        "reviewer": "assistant",
+        "observed_result": [
+          "去除固定灯与建筑，冷夜环境光、雨水和竹木材质统一"
+        ],
+        "limits": "视觉风格通过；未显示角度、精确尺度与剧情镜头另核。"
+      },
+      "id": "asset-match-S01-style-01",
+      "scope": "matched_asset_reference",
+      "status": "matched_reference",
+      "confidence": "high",
+      "candidate_subarea": null,
+      "registered_on": "2026-09-10",
+      "matched_by": "user_assignment_and_assistant_style_review",
+      "matching_basis": "用户依附件次序指定；以C01肖像摄影与材质精度统一修图。",
+      "reference_task_ids": [],
+      "unverified": [
+        "精确八车并行宽度与车马尺度未量测",
+        "官道转弯、受阻区、林侧高树与来退路须平面落位",
+        "空景光色不代替MB-ENV-S01及POST-PLAN-FOREST验收"
+      ]
     }
   ],
   "generated_assets": [
@@ -2567,7 +2740,40 @@
           "侧背及细节连续性",
           "内甲、兵器、雨态与动作另任务验收"
         ]
-      }
+      },
+      "supporting_assets": [
+        {
+          "id": "C17-FULL-3Q",
+          "path": "资产/媒体/C17/C17-四分之三全身.png",
+          "sha256": "35ba778df8db1e408815d73bd6482dfb42c22c6165013be03f1fbdd15941caaa",
+          "width": 1024,
+          "height": 1536,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Create ONE full-body three-quarter FRONT view of the SAME fictional Shi Zhaochuan from supplied selected front fullbody. Rotate entire body about 35 degrees toward IMAGE LEFT, face follows body with both eyes still readable. Preserve 38-year-old broad square face, thick eyebrows, short moustache chin stubble, modest tied black hair and broad sturdy adult build. Natural unchanged head/body ratio, no tiny head long legs or premature aging. Exact same dark indigo fine silk-wool robe with subtle broken ridge woven texture, slate blue inner crossed collar, dark indigo long lapel edges, broad navy wrapped sash with knot on WEARER'S LEFT hip (image right in original), fitted wrapped cuffs, muted earth-teal side layer, same below-knee hem trousers dark boots. Empty hands relaxed alongside body, both visible, no hands behind back. Keep crossed lapel direction and sash knot on same anatomical side after rotation. Clothing dry, no armor weapon rain wounds or new accessories. Full topknot to both boot soles with margins, same neutral studio light background, 2:3 portrait. One person one view no text.",
+            "input_references": [
+              {
+                "master_id": "generated-C17-FULL",
+                "path": "资产/媒体/C17/C17-全身候选.png",
+                "sha256": "6c46adf0d9f9caac1766b2bdab4072fc8c2d548b996381222b36541c466146d5"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "无甲干衣侧前补充视角",
+            "summary": "年龄体量、头身目测自然，衣襟腰结及头脚双手完整；沿正面母版派生。",
+            "remaining": [
+              "背面结构与精确尺度",
+              "衣甲佩置、雨态及动态连续性"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "generated-C20-FULL",
@@ -2612,7 +2818,40 @@
           "侧背与细节连续",
           "甲、弓包箭袋及雨态动作独立验收"
         ]
-      }
+      },
+      "supporting_assets": [
+        {
+          "id": "C20-FULL-3Q",
+          "path": "资产/媒体/C20/C20-四分之三全身.png",
+          "sha256": "a4aeb7e8cb79fa3a2f47807058330dd2cf33e3d6afa60d4c3eaca4995abfe5dc",
+          "width": 1024,
+          "height": 1536,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Generate a single full-body three-quarter FRONT view of SAME fictional 34-year-old Cui Wangye in supplied selected full-body photo. Turn body 35 degrees toward IMAGE RIGHT, face in same direction with both eyes readable. Exact same narrow long adult face and small mole on his RIGHT cheek (image LEFT in frontal reference), dark tied topknot, subtle stubble, lean natural adult physique, no teenage smoothness or older wrinkles, no tiny head or stretched legs. Keep same grey-teal silk-wool robe with subtle same-color feather woven texture, bamboo-green middle collar and side layer, smoky blue innermost crossed collar, charcoal narrow long lapels and waist sash, knot on WEARER'S RIGHT hip (image LEFT in frontal reference). Preserve SHORT charcoal wool shoulder cape ending at upper arms above elbows; never extend to long cloak. Fitted wrapped wrists, original below-knee hem trousers and dark grey boots. Empty hands visible at sides, arms slightly separated, no weapon bag armor rain wounds or new ornament. Same neutral studio soft light and natural camera height. Whole topknot head hands both feet with margins, 2:3 portrait one figure no text.",
+            "input_references": [
+              {
+                "master_id": "generated-C20-FULL",
+                "path": "资产/媒体/C20/C20-全身候选.png",
+                "sha256": "f6497b85ee4e648be6ee697a586a8421f1c9fa085c1c284b497ca819d4e4c21c"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "无甲干衣侧前补充视角",
+            "summary": "年龄体量、头身目测自然，衣襟腰结及头脚双手完整；沿正面母版派生。",
+            "remaining": [
+              "背面结构与精确尺度",
+              "衣甲佩置、雨态及动态连续性"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "generated-C03-FULL",
@@ -3006,6 +3245,622 @@
           }
         }
       ]
+    },
+    {
+      "id": "generated-C03-FULL-3Q",
+      "task_id": "MB-C03-FULL-3Q",
+      "asset_ids": [
+        "C03"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C03/C03-四分之三全身.png",
+      "sha256": "6e9cc0d5ab239f1310dc973b797d4196597b57e15428e67b79ffabe2182f8e99",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Edit this exact selected full-body Han Qing costume portrait into a THREE QUARTER full body view, the entire man rotated about 35 degrees toward viewer LEFT, face following torso. Preserve the same clean shaven 25-year-old man, face and natural head-to-body proportions, strong natural shoulders, SAME gray-cyan water ripple jacquard coat, navy cross collar and white inner collar edge, narrow inner cuffs under moderately open outer cuffs, navy wrapped sash with its single rectangular dark silver clasp on HIS LEFT waist (viewer right in original) and hanging sash tails on that same anatomical side. Exact same garment length, pattern density and black boots, same tied bun and grey-blue hair band, no new jewelry, armor or weapon. Both hands relaxed visible and both feet on ground, complete bun to boot soles with margins, neutral grey studio, matched neutral lighting. Do not stretch legs, shrink head, change age, add beard, wounds or extra garment layers. One subject portrait 2:3.",
+        "input_references": [
+          {
+            "master_id": "generated-C03-FULL",
+            "path": "资产/媒体/C03/C03-全身候选.png",
+            "sha256": "b53a19f5f83b618f7af281aa74c95bfd942aec4ff59223da8aea2658ab6d0f28"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C03无甲干衣四分之三全身",
+        "summary": "左转四分之三全身；清须青年脸、自然25岁体态、水纹衣料及左前腰扣一致，双手双脚完整。",
+        "remaining": [
+          "侧背发式及裁片连续性",
+          "佩甲佩刀与动作",
+          "剧情湿态"
+        ]
+      },
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10"
+    },
+    {
+      "id": "generated-C03-FULL-BACK",
+      "task_id": "MB-C03-FULL-BACK",
+      "asset_ids": [
+        "C03"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/C03/C03-背面候选.png",
+      "sha256": "55dfd782b985f8a2884a4b8a09ab50e5c83c291778333418c554be9298bd87f1",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Generate straight REAR full body view of exactly the selected Han Qing in this costume reference. The same clean shaven 25 year old man's body turned completely away, no face visible. Preserve anatomical natural adult proportions, compact grey-blue cloth tied bun, hair secured up with only the existing narrow cloth tie tails behind neck, no loose long cape of hair. Same grey-cyan water-ripple jacquard knee-to-calf coat, navy waist sash wrapping smoothly around rear with NO buckle or knot at center back: its rectangular clasp and long tails stay on HIS LEFT/front waist, not duplicated behind. Rear coat with a fine center back seam and practical restrained lower rear vent, same small scale continuous water-ripple fabric, same sleeve length and navy fitted inner cuffs, same black trousers and boots. Both relaxed hands and feet visible, entire bun to soles with generous margins. No armor, weapon, bag, embroidery emblem or new decoration. Neutral grey studio, matched light and scale, portrait 2:3. Keep adult shoulder width, torso and leg length; no tiny head, stretched legs or age change.",
+        "input_references": [
+          {
+            "master_id": "generated-C03-FULL",
+            "path": "资产/媒体/C03/C03-全身候选.png",
+            "sha256": "b53a19f5f83b618f7af281aa74c95bfd942aec4ff59223da8aea2658ab6d0f28"
+          }
+        ]
+      },
+      "review": {
+        "status": "continuity_review_pending",
+        "scope": "C03背面候选",
+        "summary": "背面完整，腰封无重复扣饰，水纹背缝可读；后颈双布带为背部补全，需与侧后发式及裁片连续性复核。",
+        "remaining": [
+          "侧背发式及裁片连续性",
+          "佩甲佩刀与动作",
+          "剧情湿态"
+        ]
+      }
+    },
+    {
+      "id": "generated-P02-BASE",
+      "task_id": "MB-P02-BASE",
+      "asset_ids": [
+        "P02"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P02/P02-软口行囊.png",
+      "sha256": "804d470fc048ba955ad83f2e2ace135a0bb96388ca85552d9aa3cbf4a5f676e8",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One standalone small soft-mouthed private travel bag for Gu Yan, ancient Chinese high-end period drama prop P02. Dark charcoal blue densely woven cotton, softly rounded modest pouch-like travel bag with a visibly gathered drawstring mouth tied closed by simple cloth cords, neat seams, lightly maintained wear not ragged; modest bulge suggesting folded papers and a few personal belongings, opaque closed contents. Soft base resting naturally on surface, a simple short cloth carrying loop. Crucially NO rectangular rigid mouth, NO box shape, NO flap, NO modern zipper or plastic hardware. Quiet well-crafted period object, no emblem or lettering, three-quarter product view, whole bag with margins against warm grey seamless ground and backdrop, soft side light, neutral colour, square composition. One bag only, no loose papers, coins, weapons, person or extra props.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P02软口行囊独立外观母形",
+        "summary": "软口抽绳、圆弧袋身与短布提带清楚；闭合不透内容物，与方口包轮廓不同。",
+        "remaining": [
+          "人物持拿与实际体量",
+          "开口装载及内部容量",
+          "雨态挂鞍与搬运连续性"
+        ]
+      }
+    },
+    {
+      "id": "generated-BAG-C23",
+      "task_id": "MB-BAG-C23",
+      "asset_ids": [
+        "C23"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/C23/C23-方口行囊.png",
+      "sha256": "cc342a3c2439984743f9edd865cfda055fd4cb197c7751665fb4953b850bc7f7",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One standalone ancient Chinese travel satchel belonging to Xu Zhaolin, high-end fictional period drama prop. Clearly RECTANGULAR structured upright blue-cloth satchel with a flat rectangular mouth concealed under fitted squared cover flap, flat base and straight side edges. Deep indigo densely woven cloth, fine neat seam binding, two simple cloth ties fastening flap closed, one broad cloth carrying strap neatly looped beside it, subtle tidy edge mending, maintained not ragged. It must be unmistakably a square-mouthed structured travel bag, not a drawstring pouch, not a modern leather briefcase. No zippers, buckles, plastic, logos, inscriptions or military insignia. Whole single bag and its attached strap in view, three-quarter angle on warm grey seamless studio ground, soft neutral side lighting, realistic cloth material with refined drama production quality, generous margins, square composition. Closed opaque contents. No person or separate objects.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C23方口行囊独立外观母形",
+        "summary": "方形挺括包体、翻盖双布扣与宽布带清楚；与P02软口小行囊可辨，实际开口和装载另核。",
+        "remaining": [
+          "人物持拿与实际体量",
+          "开口装载及内部容量",
+          "雨态挂鞍与搬运连续性"
+        ]
+      }
+    },
+    {
+      "id": "generated-P01-BASE",
+      "task_id": "MB-P01-BASE",
+      "asset_ids": [
+        "P01"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P01/P01-车体候选.png",
+      "sha256": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a",
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "initial_prompt": "Create ONE stately refined Chinese fantasy period drama enclosed carriage exterior asset, no people or horses. Full entire vehicle including front draw pole visible, landscape 4:3 spacious neutral grey studio product view from vehicle RIGHT side three-quarter, with front pointing toward image LEFT and rear toward image RIGHT so both external front driver bench and rear luggage rack are readable. Exactly FOUR wooden spoked wheels on two axles: two near-side fully visible, far-side wheels partially visible with coherent perspective. Opaque enclosed passenger cabin, elegant solid curved roof, deep ebony-brown lacquer with narrow dark vermilion trim, subtle geometric Chinese wood carving, restrained antique bronze corner fittings, no dragon or phoenix royal imagery. Closed hinged passenger door centered on right wall, small shuttered lattice window with opaque inner curtain, low boarding step below door. One external single-driver bench at FRONT outside solid cabin wall, ONE small enclosed lantern at front. Attached rear luggage platform BEHIND cabin carries compact cloth travel luggage: a small charcoal drawstring bag, an indigo rectangular flap satchel, and a few neat bound cloth bundles. No roof luggage, no second luggage cart. Driver bench and luggage rack at opposite ends, rear luggage not blocking side passenger door or wheels. Front central draw pole suggests four horse abreast compatibility but no horses/harness anatomy diagram. Beautiful expensive maintained lacquer craftsmanship, plausible solid structure and tasteful fantasy-drama elegance, not European coach, no glass panorama, no giant throne palace, no magic glow, no construction diagrams or text.",
+        "prompt": "Edit IMAGE 1 carriage only, preserve its exact cabin, curved roof, single front lantern, external driver bench at image LEFT, right side passenger door and step, FOUR wheels and attached rear luggage platform at image RIGHT. Widen framing significantly with neutral grey empty margins until ENTIRE front draw pole tip and rear rack are fully visible, no clipping, vehicle occupies at most 80 percent frame width. Correct rear luggage identity using IMAGE 2 as the small charcoal soft drawstring bag and IMAGE 3 as the indigo structured square flap bag with TWO CLOTH tie fastenings and broad cloth strap. Replace the previous metal-clasp briefcase with this exact cloth bag design, reduced to plausible compact luggage size; both bags sitting on rear rack behind cabin, no bags beside driver or on roof. Other modest cloth bundles may remain, but remove bright ornate brocade trunk. Keep four coherent spoked wheels, closed opaque cabin, exact neutral studio lighting and materials. One carriage only, no humans, no horses, no text, no new decorative elements. Landscape 4:3.",
+        "edit_target": {
+          "path": "资产/媒体/P01/P01-车体候选.png",
+          "sha256": "e7c3eb3ad9873fe1b70082ee80e01d56ce82332b198fc67cfbd24f3d4e5347e6",
+          "scope": "扩构图保车辕完整，按已选行囊修正车尾包具"
+        },
+        "input_references": [
+          {
+            "master_id": "generated-P02-BASE",
+            "path": "资产/媒体/P02/P02-软口行囊.png",
+            "sha256": "804d470fc048ba955ad83f2e2ace135a0bb96388ca85552d9aa3cbf4a5f676e8"
+          },
+          {
+            "master_id": "generated-BAG-C23",
+            "path": "资产/媒体/C23/C23-方口行囊.png",
+            "sha256": "cc342a3c2439984743f9edd865cfda055fd4cb197c7751665fb4953b850bc7f7"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P01无人无马车体外观母形",
+        "summary": "实体弧顶封闭厢、四轮、前驾座、右门踏阶、单灯及车尾行李架可辨；车辕完整，方口包双布扣与软口包分开。",
+        "remaining": [
+          "四马并列牵引与车体比例",
+          "四角骑手及车尾行李间距",
+          "门阶开合、内饰与背侧结构",
+          "行囊近景材质连续性",
+          "驾乘与动物专业审阅"
+        ]
+      }
+    },
+    {
+      "id": "generated-P01-CABIN",
+      "task_id": "MB-P01-CABIN",
+      "asset_ids": [
+        "P01"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/P01/P01-内饰候选.png",
+      "sha256": "8030c2cfbb41057a4cb0a29201fdcb7a7429f6e2c82b8d6ed968a9f92a5259aa",
+      "width": 1448,
+      "height": 1086,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "initial_prompt": "Derive the INTERIOR of this exact enclosed Chinese carriage. Reference establishes ebony-brown wood, narrow vermilion trim, discreet bronze geometric fittings, curved solid roof and right-side single passenger door. Single coherent realistic interior photograph from front LEFT inner corner looking diagonally towards rear RIGHT, enough of solid FRONT partition visible at foreground left to show no passage to external driver. REAR passenger bench across back wall at image left/center depth, indigo low-contrast brocade cushion and warm ivory padded backrest, compact single injured-traveler scale. RIGHT side door toward image right is open OUTWARD, matching narrow rectangular lattice upper door panel and carved lower panel, bronze hinges toward rear edge; through doorway see threshold and the SAME external low step and small patch of neutral grey ground, no scene. Opaque walls and curved timber ceiling, small shuttered lattice window with opaque curtains, restrained luxury. Keep clear short floor passage from bench to side door, no luggage in cabin, no extra doors, tables, inner lamps, beds or huge hall, no people, no horses, no cutaway or transparent wall. Soft cool daylight only through door/window, neutral colour, high-end set continuity study landscape4:3.",
+        "prompt": "Precise localized correction to this carriage interior photograph. Remove the short vertical black post directly below the bottom corner of the open door leaf, around image x1188 y850, that wrongly connects the door leaf to the wooden step. Replace that post with plain light grey background so there is an unmistakable continuous AIR GAP beneath the entire door leaf. The open door is supported ONLY by its two existing vertical side-jamb hinges. The separate exterior step remains below the threshold and is supported from the fixed carriage chassis underneath, never from the door. Do not change any other part: same door position, ring handle, carvings, hinges, step board size, bench, pillows, woodwork, windows, camera and lighting. No new hardware, no text.",
+        "edit_target": {
+          "path": "资产/媒体/P01/P01-内饰候选.png",
+          "sha256": "847ef9fd79a2f0dfb5721cdba8aed3a7f1813ed843f184f1c98b3376c0e62bf4",
+          "scope": "去除门扇下端与踏阶的错误连接，保留内饰"
+        },
+        "input_references": [
+          {
+            "master_id": "generated-P01-BASE",
+            "path": "资产/媒体/P01/P01-车体候选.png",
+            "sha256": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a"
+          }
+        ],
+        "edit_executions": [
+          {
+            "prompt": "Edit only the exterior boarding step visible through the open side door in this carriage interior. Preserve entire interior, bench cushions, exact woodwork, roof, door, hinges, lighting and camera. The current visible platform incorrectly looks flush with cabin floor. Make a clearly separate small narrow rectangular wooden boarding step OUTSIDE the doorway, distinctly LOWER than cabin threshold, with two short dark bronze supports descending from underside of threshold; grey ground visibly further below. Keep an obvious vertical drop from inner floor threshold to outer step, and no long ramp or platform extension, no extra stairs. Open door outward unaffected. Do not enlarge interior or change any patterns, no people or text.",
+            "edit_target": {
+              "path": "资产/媒体/P01/P01-内饰候选.png",
+              "sha256": "c2814c886db97edef302dc41db5d755aa9d5e5192854e8e81f264965ae24f551",
+              "scope": "修正踏阶与厢内地板高差"
+            }
+          }
+        ]
+      },
+      "review": {
+        "status": "continuity_review_pending",
+        "scope": "P01内饰与右门候选",
+        "summary": "门扇下端错误支撑已去除，门与外踏阶有清楚空隙；深漆朱边、锦垫与无行李内饰保持。门窗间距、座位尺度和前隔板关系尚未通过，仍为候选。",
+        "remaining": [
+          "按空间提案校对门铰接方向及踏阶固定位置",
+          "对照外观的门窗间距及座位尺度",
+          "前隔板与驾座空间",
+          "上下车动作与夜间光态"
+        ]
+      }
+    },
+    {
+      "id": "generated-P19-BASE",
+      "task_id": "MB-P19-BASE",
+      "asset_ids": [
+        "P19"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P19/P19-骑乘马母形.png",
+      "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a single ordinary adult bay riding horse with a refined ancient Chinese period travel saddle, using supplied user photo only as horse coat and general travel-saddle style reference, not assigning it to any named horse yet. Quiet standing full SIDE view facing LEFT, four natural legs individually readable with slight near/far offset, black mane and tail, dark bay coat, natural adult horse anatomy, normal head and body, no fantasy animal features. Simple dark leather period saddle with visible cloth saddle pad, restrained well-maintained fittings, no modern sporty tack, no armor or cart harness. IMPORTANT remove the reference's rear side bag and any luggage: returning convoy luggage is carried on carriage rear rack, so this baseline riding horse has NO saddlebags, bundles, quiver, shield or weapons. Neatly visible stirrups, reins and tack for visual concept only, no diagrams or riding instructions. Entire ears, hooves and tail fully within generous margins on neutral grey studio ground with soft diffuse light, landscape3:2, premium drama asset reference, no rider, second horse, text or markings.",
+        "input_references": [
+          {
+            "master_id": "asset-match-P19-01",
+            "path": "资产/媒体/资产匹配/P19-参考-01.jpg",
+            "sha256": "487e171b1ee8449526b829260c1fe0627e52e294ae8cb32e7699902f004d8fbe",
+            "purpose": "registered_style_reference"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P19单匹无行李骑乘马外观母形",
+        "summary": "成年骝马、黑鬃尾、完整四肢与旅鞍可读，鞍侧无行李；仅为外观基准，不锁定H01/H02/H05/H08个体。",
+        "remaining": [
+          "四匹个体毛色斑记与稳定子号",
+          "左右鞍具和真实适配",
+          "骑手年龄体型对应的人马比例",
+          "四角护送动态及动物专业审阅"
+        ]
+      },
+      "supporting_assets": [
+        {
+          "id": "P19-H01",
+          "path": "资产/媒体/P19/P19-H01.png",
+          "sha256": "1e543f480bff32638e70f57bb8db85be750d46b98f79dbe5d98de02de7b51dfc",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Derive ONE distinct ordinary adult riding horse H01 for Du Changgeng from the supplied selected horse-family reference. Dark rich bay coat, black mane tail and lower legs, one SMALL WHITE STAR centered high on forehead, no long blaze or white socks. Slightly sturdy adult build, natural horse anatomy, four legs individually visible. Preserve simple maintained dark leather ancient Chinese travel saddle and tan-grey cloth pad family, no luggage, no weapon, no rider or cart harness. Quiet standing left facing side view with head slightly turned toward camera so small forehead star is readable, entire ears hooves tail in frame generous margins. Neutral grey studio, landscape3:2, diffuse light, realistic premium period drama horse asset. No lettering, markings other than natural small star, no fantasy animal or armor.",
+            "input_references": [
+              {
+                "master_id": "generated-P19-BASE",
+                "path": "资产/媒体/P19/P19-骑乘马母形.png",
+                "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "单匹干态外观候选",
+            "summary": "杜长庚：深骝与小白额星清楚，旅鞍同族。",
+            "remaining": [
+              "正脸斑记与左右鞍具",
+              "雨态与弃车后行李",
+              "对应骑手体量及四角组合",
+              "动物与鞍具专业审阅"
+            ]
+          }
+        },
+        {
+          "id": "P19-H02",
+          "path": "资产/媒体/P19/P19-H02.png",
+          "sha256": "dc012cb3a4c65b6d899c9fd6ff34db7bef4959d4096bab47297aa8095c75f60a",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Derive ONE ordinary adult horse H02 for Shi Zhaochuan. Use supplied horse only as general anatomy and saddle-family reference. Make a distinctive BLACK-BAY horse: near-black deep seal brown body with very subtle warmer brown at muzzle and flank, black mane tail legs, NO WHITE facial marking or white socks. Slightly compact sturdy adult body with strong neck, natural anatomy not oversized warhorse. Same simple maintained dark period Chinese travel saddle and plain charcoal-grey cloth pad, no luggage, no rider, no weapons, no cart harness. Full left facing side standing view with all four feet separated enough to read, entire ears to hooves and tail with margins. Quiet neutral grey studio, soft diffuse lighting retaining detail in black coat, landscape3:2, no text or fantasy traits.",
+            "input_references": [
+              {
+                "master_id": "generated-P19-BASE",
+                "path": "资产/媒体/P19/P19-骑乘马母形.png",
+                "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "单匹干态外观候选",
+            "summary": "石照川：黑骝无白面斑，深色细节可辨。",
+            "remaining": [
+              "正脸斑记与左右鞍具",
+              "雨态与弃车后行李",
+              "对应骑手体量及四角组合",
+              "动物与鞍具专业审阅"
+            ]
+          }
+        },
+        {
+          "id": "P19-H05",
+          "path": "资产/媒体/P19/P19-H05.png",
+          "sha256": "dd01ef4cfa584bfb0c742d275ecd94632e66da773575977fa956c0f74b32dcfb",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Edit IMAGE1 horse H05, preserve the same dark brown horse, quiet standing pose, anatomy, mane tail, neutral background and full framing. Two precise corrections: (1) add a clearly readable SMALL narrow vertical white forehead spot, about a fingernail in apparent size on horse forehead, not a blaze, centered between eyes and brow strap, no other white markings. (2) replace ONLY saddle with the exact plain ancient Chinese travel saddle shown in IMAGE2: high raised front and rear curved saddle arches, rectangular dark leather flap, simple suspended stirrup, no western horn, same pad footprint. Retain muted grey-green cloth pad. EMPTY saddle, absolutely NO HUMAN RIDER or people, no luggage, weapons or cart. One complete horse only, landscape3:2.",
+            "input_references": [
+              {
+                "master_id": "generated-P19-BASE",
+                "path": "资产/媒体/P19/P19-骑乘马母形.png",
+                "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b"
+              }
+            ],
+            "initial_prompt": "One individual ordinary adult riding horse H05 for Cui Wangye, derived from supplied general horse and saddle family. Distinguish with cool dark chocolate brown coat, black mane and tail, ONE very small narrow vertical WHITE DOT high in middle forehead, much smaller than a broad star and not a long blaze; no white socks. Natural lean adult horse, slightly finer neck and face than a stocky horse, four legs clear. Simple same period dark leather travel saddle, muted grey-green plain cloth pad, no luggage, rider, weapon or carriage harness. Full left-facing side with head slightly angled to viewer to reveal tiny mark, complete ears hooves tail, quiet neutral grey studio, landscape3:2, diffuse light, no text or fantasy powers.",
+            "edit_target": {
+              "path": "资产/媒体/P19/P19-H05.png",
+              "sha256": "8329684d3cbe45750505e96d09f24075bec9fdfd3992e4657035aa0609708066",
+              "scope": "按母形恢复前后鞍桥并明确额部细白斑"
+            },
+            "edit_executions": [
+              {
+                "prompt": "CORRECT THIS HORSE ASSET: remove the entire human rider completely, leaving the saddle EMPTY and fully visible with both stirrup leathers hanging naturally. ONE HORSE ONLY, zero people. Change coat from reddish bay to cool dark chocolate brown, retain black mane tail and very small white forehead dot. Muted grey-green saddle pad, same simple dark leather travel saddle. Preserve full horse natural anatomy, standing side view, all four feet, neutral background. No rider, no person, no luggage, no weapon. This is a horse-only identity sheet, landscape3:2.",
+                "edit_target": {
+                  "path": "资产/媒体/P19/P19-H05.png",
+                  "sha256": "2acdbb3114c57d2a2c787c9d5f328cecbc8e0f7a901473dca7880cc58c8227ba",
+                  "scope": "移除误加骑手，修正毛色"
+                }
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "单匹干态外观候选",
+            "summary": "崔望野：深棕、细窄白额斑和抬起的前后鞍桥可辨；干态单图通过候选复核，额斑正面形状与左右鞍具仍需补核。",
+            "remaining": [
+              "正脸斑记与左右鞍具",
+              "雨态与弃车后行李",
+              "对应骑手体量及四角组合",
+              "动物与鞍具专业审阅"
+            ]
+          }
+        },
+        {
+          "id": "P19-H08",
+          "path": "资产/媒体/P19/P19-H08.png",
+          "sha256": "d640006505e56f24a5d5aa7daef2de572f27360b7a37178cd7d80bf5cccbb48a",
+          "width": 1536,
+          "height": 1024,
+          "status": "visual_candidate",
+          "generated_on": "2026-09-10",
+          "generation": {
+            "tool": "image_gen.imagegen",
+            "model": null,
+            "seed": null,
+            "prompt": "Horse-only individual asset H08. ONE ordinary adult GREY-BROWN riding horse, warm taupe brown coat distinctly less red than bay, dark charcoal mane and tail, naturally PALE TAN muzzle around nose, no white forehead star and no white socks. Same simple high front-and-back period travel saddle and plain muted grey cloth saddle pad as reference, do not add western saddle horn. NO HUMAN RIDER, NO PEOPLE, no luggage, cart harness, weapons or armor. Entire horse standing left-facing side, natural adult horse proportions, all four legs visible, whole ears hooves tail with generous margins. Neutral grey studio soft diffuse light landscape3:2. Supplied image is the saddle family and anatomy reference. No text, brands, fantasy features or extra horses.",
+            "input_references": [
+              {
+                "master_id": "generated-P19-BASE",
+                "path": "资产/媒体/P19/P19-骑乘马母形.png",
+                "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b"
+              }
+            ]
+          },
+          "review": {
+            "status": "passed_candidate_visual_review",
+            "scope": "单匹干态外观候选",
+            "summary": "许照邻：灰棕与浅鼻端清楚，旅鞍同族。",
+            "remaining": [
+              "正脸斑记与左右鞍具",
+              "雨态与弃车后行李",
+              "对应骑手体量及四角组合",
+              "动物与鞍具专业审阅"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "generated-P01-HORSE",
+      "task_id": "MB-P01-HORSE",
+      "asset_ids": [
+        "P01"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/P01/P01-四马绑定候选.png",
+      "sha256": "f1f58df0d5e408efaee81130d3e2b0593c3d775c9258d7f25a464b02f4f66701",
+      "width": 1619,
+      "height": 971,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "initial_prompt": "Create ONE full four-horse-abreast carriage asset from the supplied carriage reference. Exactly FOUR ordinary adult bay draft horses in ONE transverse row, shoulder to shoulder with safe clear gaps, four independently readable heads and bodies, NO tandem pairs. Camera elevated front-right three-quarter wide view showing the four heads across foreground and carriage behind; enough elevation to distinguish four bodies and harness connections. Natural horse proportions, black manes and tails, subtle individual brown coat differences, restrained dark travel harness, no riding saddles. Central draw pole between the middle pair, coherent traces running toward a transverse attachment beneath the front driver platform; visualize connections clearly without tangled loose ropes. Preserve referenced ebony-brown enclosed FOUR-wheel carriage, curved solid roof, narrow vermilion trim, right door, low step, empty front single-driver bench, one front lantern and attached REAR luggage rack with tied-down cloth baggage. Entire team and vehicle visible with generous margins on neutral grey ground, diffuse daylight, landscape wide composition. No people, no escort riding horses, no extra cart, no text, no magic glow. This is a visual continuity candidate, not an engineering diagram.",
+        "prompt": "Edit only the navy blue rectangular bag on the far-right rear luggage rack of IMAGE1, using IMAGE2 as the precise bag reference. Replace the bag's two gold/brass clasp pieces with two navy cloth tie knots matching IMAGE2. Preserve bag size and placement. Do NOT alter the black drawstring bag immediately to its left: preserve its rounded gathered mouth and drawstring knot. Do NOT change the brown vertical luggage securing straps. All horses, all leather harness, front driver bench, wheels, step, body and entire rest of image must remain unchanged. This is a tiny local bag-fastener correction, not a redesign. No text.",
+        "edit_target": {
+          "path": "资产/媒体/P01/P01-四马绑定候选.png",
+          "sha256": "066120bc414d2cdacbc3805778add300818185a22ecb9fa6558776de4e6dff1a",
+          "scope": "恢复蓝色行囊双布扣"
+        },
+        "input_references": [
+          {
+            "master_id": "generated-P01-BASE",
+            "path": "资产/媒体/P01/P01-车体候选.png",
+            "sha256": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a"
+          },
+          {
+            "master_id": "generated-BAG-C23",
+            "path": "资产/媒体/C23/C23-方口行囊.png",
+            "sha256": "cc342a3c2439984743f9edd865cfda055fd4cb197c7751665fb4953b850bc7f7"
+          }
+        ],
+        "edit_executions": [
+          {
+            "prompt": "Edit the supplied four-abreast carriage image. Preserve EXACTLY four horses, their poses and natural anatomy, whole carriage design and framing. REMOVE the entire rigid wooden horizontal BAR in FRONT of the four horse chests, including its gold brackets; there must be no rigid bar across their chests. Each horse instead retains an individual padded curved leather breast collar and independent dark leather traces running rearward along its body toward attachment UNDER the FRONT of the carriage behind the horses. Keep the forward chest silhouettes clean and separate, no ropes connecting one horse's mouth to another's chest. Central draw pole lies longitudinally BETWEEN the middle two horses, not transversely across fronts. Add two discreet dark straps securing rear luggage down to rack. No other changes, no people, no additional animals or wheels, no text. Wide full-body asset photograph.",
+            "edit_target": {
+              "path": "资产/媒体/P01/P01-四马绑定候选.png",
+              "sha256": "dd0550d40e3aa840bc4cd6973c461b404851e3813010860e6dd0609a4f6193d8",
+              "scope": "移除四马胸前错误横杆，补车尾行李固定带"
+            }
+          },
+          {
+            "prompt": "Make ONE extremely localized edit to IMAGE1. Preserve every other pixel conceptually: all four horses, carriage, bags, shadows and framing unchanged. Repair ONLY the short loose trace beside the nearest horse: its loose endpoint is approximately at image pixel (995,615) in this 1619x971 image. Redirect this strap upward behind that horse's hindquarter to the FRONT edge of the wooden driver's platform at approximately (970,453). That endpoint is LEFT of the front wheel, directly beneath the driver's bench, and ABOVE the horse's rump. Use a narrow flexible dark leather strap, a visible modest bronze eyelet at the platform front edge, realistic occlusion behind the horse. There must be NO diagonal bar or strap across the face of the front wheel, NO attachment near the passenger door or boarding step, NO connection to wheel hub rim or spokes. Remove the old loose stub. Do NOT change any luggage, bags, harness elsewhere, horse colors, leg positions, carriage structure or camera. No new objects, text or people.",
+            "edit_target": {
+              "path": "资产/媒体/P01/P01-四马绑定候选.png",
+              "sha256": "5ec8f4b8c5684e6419e07a4a5f6f0d53f8d6b8a22d95de51da31d1bbcb521885",
+              "scope": "局部修正近侧挽带终点"
+            }
+          }
+        ]
+      },
+      "review": {
+        "status": "continuity_review_pending",
+        "scope": "四马并列与车体同框候选",
+        "summary": "四头四体可数，近侧悬空挽带已改接向驾座前缘，蓝色行囊恢复双布扣；中央车辕及被遮挡连接仍未核实，保留候选。",
+        "remaining": [
+          "中央车辕在中间两马之间的位置与车端连接需侧俯视核对",
+          "挽带走向、张力与各马完整连接需侧俯视复核，局部修图不构成结构验收",
+          "远侧车轮、轴架及转向扫掠未验证",
+          "四角护送坐骑与人物尺度、夜雨状态未合成"
+        ]
+      }
+    },
+    {
+      "id": "generated-C60-SILHOUETTE",
+      "task_id": "MB-C60-SILHOUETTE",
+      "asset_ids": [
+        "C60",
+        "S01"
+      ],
+      "status": "generated_candidate",
+      "path": "资产/媒体/C60/C60-树后灰袖候选.png",
+      "sha256": "04850bf140e58410f5f58a6bbf68c965d3ceaae36f9479f87af5a15fa16075cc",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create one cinematic close-medium insert for ancient Chinese fantasy drama. Use IMAGE1 ONLY as reference for the mysterious person's plain charcoal-grey silk-wool sleeve material and adult shoulder silhouette, IMAGE2 for matching cool rainy bamboo woodland environment and subdued photographic contrast. COMPOSITION: a thick wet woodland tree trunk dominates CENTER-RIGHT, fully occluding the person's entire head, face, neck and torso. Only a narrow section of dark grey upper sleeve and bent forearm sleeve emerges to the LEFT of trunk, the sleeve tip is turning inward as if withdrawing behind bark. NO bare skin, NO fingers, NO eye nose mouth ear or hair silhouette anywhere visible. A small dark cloth fold beside trunk implies one adult behind it, no full person posing. Dense bamboo and mixed tree depth behind, wet leaves and fine rain, desaturated soft cool ambient through canopy, faint edge separation enough to read grey cloth against wet bark. No lantern buildings carriage horse assassin or weapon, no magic effects, no glowing fog or aura. Calm restrained precise insert, not action blast. Preserve same photorealistic fabric and bark detail as references, no text. Landscape16:9.",
+        "input_references": [
+          {
+            "master_id": "asset-match-C60-style-01",
+            "path": "资产/媒体/资产匹配/C60-神秘人侧影.png",
+            "sha256": "0d894d725d5ee6a3627d136289428915cbc0a39803b14a840fae9481d5ffdcf1",
+            "purpose": "registered_style_reference"
+          },
+          {
+            "master_id": "asset-match-S01-style-01",
+            "path": "资产/媒体/资产匹配/S01-夜林光色.png",
+            "sha256": "fe72ae11148d39982023e240537eeb5e5c281cf493288c12b7a9e33ec9af27fd",
+            "purpose": "registered_style_reference"
+          }
+        ]
+      },
+      "review": {
+        "status": "continuity_review_pending",
+        "scope": "首集树后灰袖遮挡构图",
+        "summary": "树干完整遮住面孔与裸手，只有深灰袖褶与局部肩形；雨竹冷夜光沿用户参考，无武器或标志。",
+        "remaining": [
+          "MB-ENV-S01与POST-PLAN-FOREST尚未验收，林侧高树位置及机位待锁",
+          "袖口伸出至收回的动作前后帧与剪辑接点未完成",
+          "当前单帧局部露衣较多，实际镜头裁幅和袖口可读性需动态核对"
+        ]
+      }
+    },
+    {
+      "id": "generated-P14-BASE",
+      "task_id": "MB-P14-BASE",
+      "asset_ids": [
+        "P14"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P14/P14-浅灰干衣母形.png",
+      "sha256": "6cc51e53e0eecba2398dbc7fda37b81b314685cb799ad1514b30d4925f8f68b5",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One standalone folded ancient Chinese pale-gray cross-collar INNER robe, P14 dry clothing prepared for recovering young adult Gu Yan. Premium live-action period drama prop photography consistent with refined realistic project costume materials. Dense fine soft opaque cotton, pale cool gray, narrow smoky-gray silk-twill bound collar edges, precise plain seams and modest internal cloth ties. Fold neatly on a neutral medium stone-grey matte tabletop with the upper crossed collar and one loose sleeve cuff visibly arranged on top, enough garment thickness to read opaque cotton, soft matte natural folds. It is simple comfortable recovery innerwear, not a travel outer robe, not thick brocade, no embroidery, symbols, armor, belt buckle, modern buttons or zipper. Clean dry fabric, no blood or bandage attached to garment, no person or mannequin. Single garment isolated, top-down slight oblique product view, diffuse neutral balanced lighting, square format generous margins, no text.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P14单件静态外观母形",
+        "summary": "浅灰不透棉衣、烟灰包边、交领布系带与宽松袖口可辨，无绣纹或行旅配件。",
+        "remaining": [
+          "展开版型与伤侧宽松袖口实测",
+          "顾砚24岁穿着、左肩包扎及换衣连续性"
+        ]
+      }
+    },
+    {
+      "id": "generated-P16-BASE",
+      "task_id": "MB-P16-BASE",
+      "asset_ids": [
+        "P16"
+      ],
+      "status": "selected",
+      "path": "资产/媒体/P16/P16-阵甲铜片母形.png",
+      "sha256": "9bd3b2dee48d72ac4db08970cb98883ca3512660c6379810319b77463da54235",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "selected_on": "2026-09-10",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create ONE small fictional retired formation-armor copper plate P16 for a refined Chinese period cultivation drama. Single palm-sized thin copper-colored plaque, softly elongated rounded rectangular shieldlike outline, one modest integral attachment loop at top, gentle curved corners, shallow precisely engraved channels with elegant restrained flowing geometry suggesting breath regulation; no lettering, numbers, military rank, command seal or readable runes. Warm aged copper with maintained satin-metal surface, subtle controlled edge wear and low dark patina in grooves, no green corrosion or archaeological ruin. Restrained xianxia design sophistication without jewelry gemstones, giant wing guards, skulls, spikes, electric circuits or overt supernatural aura. Neutral inactive UNLIT object, no glow anywhere: plate does not form a magic array when detached, no blood activation. Entire single plate including loop visible, near-front three-quarter slight oblique product view on dark slate-grey plain background, soft side/raking light readable shallow relief and thin edge, premium live-action prop photography, square format generous empty margin, no other objects, no hand or person, no text. This locks only one generic visual shape; five owner-specific plates and breath-response VFX are separate.",
+        "input_references": []
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "P16单件静态外观母形",
+        "summary": "单片铜色薄牌、顶部挂孔与浅刻曲线可辨，静态无自发光；轻仙侠造型与日常维护痕迹并存。",
+        "remaining": [
+          "实物掌心尺寸、厚度与背面",
+          "五人个体编号及内甲固定位置",
+          "五人合息短光与三人极淡反应分别制作，不赋予离体成阵功能"
+        ]
+      }
     }
   ],
   "model": "8.2",
@@ -3130,7 +3985,7 @@
             "scene_id": "GJ-EP01-SC01",
             "beat": "地理",
             "camera": "全景／路中侧偏正交看右侧会车区；28–35mm意向，短侧移后停",
-            "action": "交代封闭四驾、四匹骑乘马、同侧竹木与前方转弯；不需八辆实车",
+            "action": "交代韩驾车、四卒骑马分护车厢四角、车尾集中行李；四匹牵引马另列，前方转弯",
             "sound": "雨叶、八马错蹄、罩灯轻碰；题名画内叠字",
             "end_state": "知道只有一条宽路，战斗仍局限车旁",
             "start_frame": 120,
@@ -3141,7 +3996,7 @@
             "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
             "media_status": "not_generated",
             "performance": "韩先判断车况，四骑响应停下；原顾不隔车壁参与外部眼神交流。",
-            "blocking_continuity": "四匹牵引马与四匹坐骑分组明确；车辆靠同侧林缘，桥在转弯后不入画。",
+            "blocking_continuity": "按行进方向，杜长庚左前、石照川右前、崔望野左后、许照邻右后，各骑一匹分护车厢四角；韩青在前驾座，行李集中于车厢后部行李架；四匹牵引马在车前另计。车与林缘保留右门出口；反打不换四角。",
             "cut_cue": "短侧移停稳，观众读清队伍与近林关系后切厢内。"
           },
           {
@@ -3149,7 +4004,7 @@
             "scene_id": "GJ-EP01-SC01",
             "beat": "伤者",
             "camera": "厢内中近景／50mm意向，保持门窗方向；固定",
-            "action": "原顾右手护左肩，P02在座旁；实体前壁把韩隔在外面",
+            "action": "原顾右手护左肩，厢内座旁无行囊；P02在车尾行李架",
             "sound": "厢顶雨密、衣料轻擦；无伤情旁白",
             "end_state": "他有旧伤，不能当第六名健全阵员",
             "start_frame": 288,
@@ -3160,7 +4015,7 @@
             "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
             "media_status": "not_generated",
             "performance": "原顾压住疼痛而非失去意识，目光仍能判断；右手护左肩是已有经验的自保。",
-            "blocking_continuity": "P02位于座旁；韩在实体前壁之外，不能隔墙扶人、接包或对视。",
+            "blocking_continuity": "韩在实体前壁之外，不能隔墙扶人或对视；P02在车尾，与厢内伤者分镜呈现。",
             "cut_cue": "顾听见外部动静，视线转向右门，接队伍下马。"
           },
           {
@@ -3179,7 +4034,7 @@
             "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
             "media_status": "not_generated",
             "performance": "杜看同行者，石确认盾，崔处理坐骑，许靠向取包位置，各人有不同任务。",
-            "blocking_continuity": "四骑各自下马，韩自外驾座落地；不要把剪接当成第五匹骑乘马出现。",
+            "blocking_continuity": "四骑从各自四角停位下马，韩自前驾座落地；许由右后角接车尾取包，石从右前角接右门护人，杜与崔从各自位置转地面护阵，保留马匹避让空间。",
             "cut_cue": "最后一个落地动作形成下一步进入车旁空间的方向。"
           },
           {
@@ -3559,7 +4414,7 @@
             "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
             "media_status": "not_generated",
             "performance": "韩的注意回到顾，许确认交接后才想起包；疲惫仍在，动作不突然轻快。",
-            "blocking_continuity": "韩收刀→接稳顾右侧→许松手→取P02置H08；石收盾，四卒各牵一骑，四驾留车旁。",
+            "blocking_continuity": "韩收刀→接稳顾右侧→许松手→取P02置H08；石收盾，四卒各牵一骑，四驾留车旁。 其余车尾行李分移四匹坐骑后再离场，不遗留未交代的整堆行李。",
             "cut_cue": "顾和包均有明确承接者、四骑开始离场后，才让巡灯进入。"
           },
           {
@@ -4795,26 +5650,27 @@
     }
   ],
   "source_sha256": {
-    "剧集/01-归京/GJ-EP01-归京.md": "a82aeecd8f9f4e154c2c26dab4fbc155b532e4ae46287cc8a1f9dc8cec226da4",
+    "剧集/01-归京/GJ-EP01-归京.md": "99dcf0b3027e97520be4fb6d3c78f7b9d28bca85166552eabc0da6d78e0c4933",
     "剧集/01-归京/GJ-EP02-先过今夜.md": "8c8b99eb7514ff588e0766bb5e80310c8397ca3795830242c524e3ef63e8d322",
     "剧集/01-归京/GJ-EP03-门外的人.md": "1a77713d830bb2eac806b15d3402a6e036be06b8b8fbf847fc16c85f6a7c4bb3",
-    "剧集/前三集重写与生产交接-v1.9.md": "dc4f214a1281494994717a662c43f7920b1b4171ee1f826cb23706239de6a3c0",
+    "剧集/前三集重写与生产交接-v1.9.md": "5814d7584f35cc89d669573d6023f358ad9f511653062d2fa06dd597619a29c2",
     "参考/用户媒体/C03-肖像原始参考.jpg": "c3d439c1fb881335598ca9f08bf71854d39c0555d62d8cef69e6dbbd416e9f5e",
     "参考/用户媒体/C20-肖像原始参考.jpg": "ca42de668ea1e59f0f058047dae747de12e633d32c7660c7491c8d5428b2ea5b",
     "参考/用户媒体/C23-肖像原始参考.jpg": "515fa678d059bd12a4fbcfac7821f28dd08ee63ab01f7a6640de9f6d62d7de76",
+    "参考/用户媒体/统一风格补充/C25-用户原图.jpg": "68902609b666485e008baf880e2181327571cecb34f9fe942f38b43fa79e44a7",
     "参考/用户媒体/顾府建筑补充/中轴庭院-用户原图.jpg": "5d3aa63dc6d39d104201a125d4a638d85f92fb0e58800b963116d7433ecca06e",
     "参考/用户媒体/顾府建筑补充/会客厅-用户原图.jpg": "5ce503bbec6824ab3ef6fce55011ec41debfd6e269a2567c2b169a3e5a4e9e5b",
     "参考/用户媒体/顾府建筑补充/厢房庭院-用户原图.jpg": "8fabf85cf18c5f83119725e89c6fe3b84fe230a4fac19764798aa679d58deb27",
     "参考/用户媒体/顾府建筑补充/穿院连廊-用户原图.jpg": "6d34d81cd9126f554544d75c8ec793ea834e6fea3e7793750143aca319348ca7",
     "参考/用户媒体/顾府建筑补充/院门-用户原图.jpg": "1b45e377c74e7984201af7c3bdc6dc5a987804cceea87effba9e70cc39f80dc8",
     "参考/第一集视觉讨论-采用边界.md": "dae421d8319b27ed56641c5bf3178960a59067e055ac5da46b022c6fa17759c1",
-    "工具/前三集生产准备.py": "a59f6ff6bbe0ee50349cdbd7524568492c5665547b6406942cb0949844cac097",
-    "工具/母版匹配.py": "3661880aa4a906fb070d0808e2916e56fb42fcba9d8bd1f0109c480c8a9f513b",
-    "索引/数据/characters.json": "735587ac236e6211ad916a4a19259b225b038c8383c1e2100ce1286dc4937a33",
-    "索引/数据/episodes.json": "01769d7dcde781d5a7cb0c7075f3e1759923ec59563ccba7780fd19caf7fd0fe",
+    "工具/前三集生产准备.py": "84f58c61a6de27bdcbf1c33aae1724a09845b52455b82476ccf1ac67003be85c",
+    "工具/母版匹配.py": "79315af80cd05228ee47dfe91e26e3bcd1d208bf2a3a362510e90eb58a81e4a6",
+    "索引/数据/characters.json": "cd0c24db2d43f33cb225c7d1816dc6b38d3e90dd3adb4b0b02cf6a40f520a5b7",
+    "索引/数据/episodes.json": "f8061e4c9567ea37a59376e66cf3f7535ece99201c66624a8c2a76335cc4d820",
     "索引/数据/locations.json": "af7913c87b7ff13ed6d8c22ca946f391e067856507d1c57d13c8a92567501095",
-    "索引/数据/发行前三集.json": "35d0807cb6d632f1cc5d956b89bcc48d39760bb472ebf84baae29f0574d0c931",
-    "资产/场景/S01-春泽桥前竹木密林道.md": "fb278f7b98e1c5daaeae9dcfc1b3786c7d90e6eca77d8c62028d458ed6b7bf22",
+    "索引/数据/发行前三集.json": "6186207826a963be3fc4249be1d456a4cfdda7be9baf8af96ff0b3caa955ef64",
+    "资产/场景/S01-春泽桥前竹木密林道.md": "9b5dc1ae349b654190085b6984d6b9ae9fa12f036b89b92f43e717cd14fb2316",
     "资产/场景/S02-南街汤摊与顾府外街口.md": "6b2c4cfda3efebad3cdd0f3c2a6c8e300a60934e35e63b7d5e350e970791d006",
     "资产/场景/S03-顾府门院前厅与西厢.md": "32548afec6067728b46f67e6d7b93621e1b3ac1723dc058cb3831a6aaa1bf9eb",
     "资产/场景/S04-书房.md": "4c87a6515566153b393f0f7f0617e5ad31e08905f3433463e37d5dd937c18abe",
@@ -4827,6 +5683,8 @@
     "资产/媒体/C01/C01-背面候选.png": "0d2ef4fa2c288a2abae5f7b1cee7c55ad3ce1de3f2801651659e9d2a54de5dba",
     "资产/媒体/C01/C01-衣装细节.png": "859ab9499464f347ce6cb3a66345a3c7f86eaae44f64e38138269ba3015dc758",
     "资产/媒体/C03/C03-全身候选.png": "b53a19f5f83b618f7af281aa74c95bfd942aec4ff59223da8aea2658ab6d0f28",
+    "资产/媒体/C03/C03-四分之三全身.png": "6e9cc0d5ab239f1310dc973b797d4196597b57e15428e67b79ffabe2182f8e99",
+    "资产/媒体/C03/C03-背面候选.png": "55dfd782b985f8a2884a4b8a09ab50e5c83c291778333418c554be9298bd87f1",
     "资产/媒体/C03/C03-身份母版.png": "0628d0378ce3a108df1a9886e5d0533ad8fe01aee4c3c283004602f2822a2ee1",
     "资产/媒体/C04/C04-全身候选.png": "9f4dd831b17a8b421bf377ea2dacc17ee9a71db862ba243d295658777f096692",
     "资产/媒体/C04/C04-四分之三全身.png": "084bd6c5d527f9a1cd7725ee707573f2f44ce91f2f40be2641f1e28d404374c5",
@@ -4837,12 +5695,28 @@
     "资产/媒体/C16/C16-背面候选.png": "4ad275684d1a85905d55871d5c6ba50781ad8e7b306fe37e1fc410d17c2f6ba4",
     "资产/媒体/C16/C16-衣装细节.png": "81be943536a09589fd7a0fcb9f8083f09608c122b83f2fffc7c449cafae4ff75",
     "资产/媒体/C17/C17-全身候选.png": "6c46adf0d9f9caac1766b2bdab4072fc8c2d548b996381222b36541c466146d5",
+    "资产/媒体/C17/C17-四分之三全身.png": "35ba778df8db1e408815d73bd6482dfb42c22c6165013be03f1fbdd15941caaa",
     "资产/媒体/C20/C20-全身候选.png": "f6497b85ee4e648be6ee697a586a8421f1c9fa085c1c284b497ca819d4e4c21c",
+    "资产/媒体/C20/C20-四分之三全身.png": "a4aeb7e8cb79fa3a2f47807058330dd2cf33e3d6afa60d4c3eaca4995abfe5dc",
     "资产/媒体/C20/C20-身份母版.png": "b580782f785047fca485e0befe464c18bbade5983f44001719e09935d5710fd1",
     "资产/媒体/C23/C23-全身候选.png": "fae0909a083af87b9feaa7fb723b30cd021ff46ffd101ca9815a3ca118504891",
+    "资产/媒体/C23/C23-方口行囊.png": "cc342a3c2439984743f9edd865cfda055fd4cb197c7751665fb4953b850bc7f7",
     "资产/媒体/C23/C23-身份母版.png": "846859d6cddadcc6cb51677235b5ac48a47264e1f8474af4932c1b89b2fe2226",
+    "资产/媒体/C25/C25-肖像母版.png": "7d30c8bfb2b48f26672085d85538070442d97fb14bfcb2278a118d75251e0c80",
     "资产/媒体/C27/C27-肖像母版.jpg": "4c509ea3201741640956d7626455e5dfa130fd95837fb04bdc1d2aaa6d075a6d",
     "资产/媒体/C28/C28-肖像母版.jpg": "331643a7552b7ec353322bec25ff477294788f2dce4c26222e349de9193334cb",
+    "资产/媒体/C60/C60-树后灰袖候选.png": "04850bf140e58410f5f58a6bbf68c965d3ceaae36f9479f87af5a15fa16075cc",
+    "资产/媒体/P01/P01-内饰候选.png": "8030c2cfbb41057a4cb0a29201fdcb7a7429f6e2c82b8d6ed968a9f92a5259aa",
+    "资产/媒体/P01/P01-四马绑定候选.png": "f1f58df0d5e408efaee81130d3e2b0593c3d775c9258d7f25a464b02f4f66701",
+    "资产/媒体/P01/P01-车体候选.png": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a",
+    "资产/媒体/P02/P02-软口行囊.png": "804d470fc048ba955ad83f2e2ace135a0bb96388ca85552d9aa3cbf4a5f676e8",
+    "资产/媒体/P14/P14-浅灰干衣母形.png": "6cc51e53e0eecba2398dbc7fda37b81b314685cb799ad1514b30d4925f8f68b5",
+    "资产/媒体/P16/P16-阵甲铜片母形.png": "9bd3b2dee48d72ac4db08970cb98883ca3512660c6379810319b77463da54235",
+    "资产/媒体/P19/P19-H01.png": "1e543f480bff32638e70f57bb8db85be750d46b98f79dbe5d98de02de7b51dfc",
+    "资产/媒体/P19/P19-H02.png": "dc012cb3a4c65b6d899c9fd6ff34db7bef4959d4096bab47297aa8095c75f60a",
+    "资产/媒体/P19/P19-H05.png": "dd01ef4cfa584bfb0c742d275ecd94632e66da773575977fa956c0f74b32dcfb",
+    "资产/媒体/P19/P19-H08.png": "d640006505e56f24a5d5aa7daef2de572f27360b7a37178cd7d80bf5cccbb48a",
+    "资产/媒体/P19/P19-骑乘马母形.png": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b",
     "资产/媒体/P20/P20-内甲母形.png": "c70d14ae55401eb6edc937b662a2b98731162a63eb47d59a824ec2f877054dfa",
     "资产/媒体/P21/P21-C03-腰刀.png": "87a67b4506f2b34b12ecbe386186f6b8b584363b659669a3c73f26478964193c",
     "资产/媒体/P21/P21-C16-环首刀.png": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491",
@@ -4879,7 +5753,7 @@
     "资产/媒体/待核对/刺客/刺客人模-05.jpg": "593f512d0d6f100eaf8c86e6a3f6dead00acce85d6acb6cf037183a340251df9",
     "资产/媒体/待核对/刺客/刺客人模-06.jpg": "0cefc9df4c1e7ccad5f618237f3fa4d92f6bad9f3c169e07ad32fd53258c9c5d",
     "资产/媒体/待核对/刺客/刺客人模-07.jpg": "93bd0478561b3b4360b5e99fafb1e5f6b9a5e11bb35179a2794b40e3bd235b1d",
-    "资产/媒体/母版登记.json": "408e3ae755141548e4f79f61bae6b08ca4f5fd89232286abc918d0c772cade29",
+    "资产/媒体/母版登记.json": "329c056d616b97e1ac828b75b15f17348614c498835f38e54ebaa2fe8883fe87",
     "资产/媒体/资产匹配/C04-参考-05.jpg": "ddefee1ce9999ea13fc5cb008b1780007ccdb0575fbb8842634747c449446bc7",
     "资产/媒体/资产匹配/C06-参考-06.jpg": "2a2c552894c4d30b4581b71ebc022079f6658d205f6eaff8a59391a2bc134879",
     "资产/媒体/资产匹配/C07-参考-11.jpg": "e5292f7ac0f1ec547a13431be690ed0749137d735626a043f2377c291bf6549b",
@@ -4892,14 +5766,16 @@
     "资产/媒体/资产匹配/C57-参考-16.jpg": "e355ab3c3ffd2d40a2b13987d2bedd2eb74e3ef79841c1cc10315f3a9396d95a",
     "资产/媒体/资产匹配/C58-参考-12.jpg": "4f1d2d63d1877a1d8737ccd5ebb3c0768e064e3cbbba766e17b270789d74ab1a",
     "资产/媒体/资产匹配/C59-参考-17.jpg": "6328a1b794aba468e13b0d3fff0cac69ddf5b15815528036469c13553b1a12c2",
+    "资产/媒体/资产匹配/C60-神秘人侧影.png": "0d894d725d5ee6a3627d136289428915cbc0a39803b14a840fae9481d5ffdcf1",
     "资产/媒体/资产匹配/P19-参考-01.jpg": "487e171b1ee8449526b829260c1fe0627e52e294ae8cb32e7699902f004d8fbe",
+    "资产/媒体/资产匹配/S01-夜林光色.png": "fe72ae11148d39982023e240537eeb5e5c281cf493288c12b7a9e33ec9af27fd",
     "资产/媒体/资产匹配/S06-参考-02.jpg": "74c51860769c4e77eb714295018120c9f6455ca70d49f465797b3d2a94c85c73",
-    "资产/生产准备/前三集-v1.9/补充任务源.json": "9479eb971cbc33e9733a093665758b5bb9edef7ac5dfa88d4ad2d9b2f5ac8e9f",
-    "资产/生产准备/前三集-v1.9/视觉任务源.json": "0a03a561a12e83c37eb492c4c1eb703b5513a0ca20222b4d98d117dc3feed06b",
-    "资产/美术风格与造型总则.md": "7938fc39ab7ddca71dc797b6e4bac09e95712007df768dcdcdcff8289837ed7a",
+    "资产/生产准备/前三集-v1.9/补充任务源.json": "f3206c0e77d0633bbc6186eec8e93d3e8faab5621aaccad43e681615db28bd17",
+    "资产/生产准备/前三集-v1.9/视觉任务源.json": "63d3d5eb098e6cbbadb11b24e30011c0e2acd4eb3ad92df3bb0021e3f838b76a",
+    "资产/美术风格与造型总则.md": "12133a8e0dade8a8055f645b7c9b2b4d2fa190cdfa6882b2ae6c319af206d3c1",
     "资产/角色/C01-顾砚（原顾）.md": "40e5e4e866e85725ad4990485beed40c5ff49886ec1f85d45d884ad748d00b70",
     "资产/角色/C02-陈渡（今顾）.md": "c13bc97252da545b1ed207ca059761ab107be5ed0d557a779f141188802b453b",
-    "资产/角色/C03-韩青.md": "a9bb90532252677d01a055097d46193bedb9366a6ff92696d2214024c7d0e7ba",
+    "资产/角色/C03-韩青.md": "ae1783b0e568bd8438b284e25c7908eddb737c7761aa63d8941e9a7da45f7831",
     "资产/角色/C04-顾伯.md": "1c96757f7e33417ad300c8a4838aa37d0d7227ed033a5bd2668b4d67ad6d78bb",
     "资产/角色/C05-杨舟.md": "edbd39c42b52665d110ddf7ec266bce33ba15cfbf02fabcf15d45826ecc494f0",
     "资产/角色/C06-黄祁.md": "c52efe3cf9bc0f0da46db425ee84c82fcba1b3ed79393cfd6489aa70769a0d22",
@@ -4915,14 +5791,14 @@
     "资产/角色/C16-杜长庚.md": "e548825136000c46d2ca751252ae88ce2a9d310b919fcea8a18e2bfff02be31c",
     "资产/角色/C17-石照川.md": "b5cbaee68b5c0f88937dde4647a05fd3a14a1e251492d77886fb2ff0fffe60dd",
     "资产/角色/C20-崔望野.md": "5bbc7f59d339cee4e8efece1a93f761979f5138339cb2aad86012c90514e34b9",
-    "资产/角色/C23-许照邻.md": "9b0047bd6775d4deead448a46f2ea37e896779d6e39548b73315bb82c3b833a5",
+    "资产/角色/C23-许照邻.md": "79bb9ce8211267ff5fe616ae8a14f3c3ae0a6d907b335487f60a64f62e427a79",
     "资产/角色/C57-灰领刺客.md": "f03a22306d908c4f4669a7f90e828ed8fccbb6105eb810d0ca2deb4c6df408ce",
     "资产/角色/C58-褐袖刺客.md": "7bb44e59cf93755f4be7f5dae4cc4964faf0d68e59be599513572a036fa71ea8",
     "资产/角色/C59-窄额带刺客.md": "0e45dd1e7d119217679223966a6c80836ddb732c8f851d1a1f4ff1f9f7ec87b5",
-    "资产/角色/C60-林侧神秘人.md": "54b7c498d6b40f03e25c807ec9c08280cfe52ebbb1849e1e788462ecdbb52ebe",
+    "资产/角色/C60-林侧神秘人.md": "052a217cad975d9ade5bfbf04e3bcdd58f0191b8e14f2f927a97acea3bc4c4d5",
     "资产/角色服装系统.md": "64ad61c87ef444215808b42ba905140ed0fd12780160176a324e6051ce3ded6e",
-    "资产/道具/P01-四驾封闭豪华马车.md": "975a16bb441c2fdd41bb638d774ab06c07127d23c7f14d934a08286619506513",
-    "资产/道具/P02-顾砚私人小行囊.md": "f6ae2f6f12382a992ae1e6ff03bfce893e024e2aa0f011a5fdcade9dc92a74c2",
+    "资产/道具/P01-四驾封闭豪华马车.md": "fbfc78fc3998337bda69c4f47ea8beb309b2a3b9f7c47748edd268956b46bb13",
+    "资产/道具/P02-顾砚私人小行囊.md": "8a529493c5adedfe48e7aae9fe5dbd677069b7c127e3be34c6b14138c75d0816",
     "资产/道具/P03-原顾军引.md": "439843e3aa1d75be74bcd05ed3d9b3c0c4333677f062204d5ae187e0fa84dfe2",
     "资产/道具/P04-北路旧票与褐色小布套.md": "cad069eb0f39fe979fc7b62f4f47b04b543c464d8923de5a365a524b766d476b",
     "资产/道具/P06-王寿手写领条.md": "233de33bc7d78bc994a69606164c155269d186632d9f44fa3bdb2b2fd99767fd",
@@ -4932,12 +5808,12 @@
     "资产/道具/P10-顾伯布药箱粥与温水.md": "84d0e6787c8de9d50abca7e876b0d7aa2023d8771c82b829daa7b2ff6fd8070d",
     "资产/道具/P11-王寿短刃.md": "1b82c731e61426584db73b3602bda3fac382a0be695df9900db20aa805d090f2",
     "资产/道具/P12-现代局部衣袖与绳具.md": "32da9f1662060184a2a1cf1d85e7273fd37b9899101601871d0d7eb1ec1a2394",
-    "资产/道具/P14-顾伯所备干衣.md": "b5363fe02b1193f45483dff3e8b383bec5c18c5eca1cce0ecec412c7b266b793",
+    "资产/道具/P14-顾伯所备干衣.md": "3d449556c1dee920312577aef9f79686a4c4b0b44c3797cc1ef571b3c6bc1485",
     "资产/道具/P15-小糖罐糖与粥勺.md": "8747e50195451107965347d8cc1b3bb72883ef205928da22fa0f074e79570347",
-    "资产/道具/P16-五片退制阵甲铜片.md": "7c6e135c7fd9e77acf19a0cdeb47d784df693eba3b752b57f537f6459db4b2f0",
+    "资产/道具/P16-五片退制阵甲铜片.md": "040722231bb35ef311318f6605a3dca143c4991c2cb7979d42aa5b583e3c2846",
     "资产/道具/P17-五人各自退籍路凭.md": "b889ddd8a4175d02506cbbd0c6dcd32b712f2eef8e1e3f2396b8d5eff80fe84b",
     "资产/道具/P18-共同饭钱袋与小账.md": "152e93c7599bc72127180523cee9c820b7d9c9b78447f3e95fbedcc990c894f1",
-    "资产/道具/P19-护送队坐骑与鞍具.md": "9dd0251671585c5661fcdeed80175acfdb2b65b14258d84679c436d2328e4200",
+    "资产/道具/P19-护送队坐骑与鞍具.md": "132c4bd608f3743106826edd065260e5d4f8e840d8e520ca5c92191a18fa94c4",
     "资产/道具/P20-五卒轻皮甲.md": "83fa8875e39fe43592f72515ca661e731c4d7473698a5852dc3b091f714f1a9b",
     "资产/道具/P21-五卒携行兵器.md": "b61a64240cde04c80cfc43894229d624f466a4ab6d726764086ef4cc1bdb80cb"
   },
@@ -5588,9 +6464,9 @@
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "Single fictional Chinese man, age 25, a compact face broader through the cheeks, open almond eyes, straight brows, rounded nose tip, clean square jaw, sun-tanned warm skin, clean-shaven, strong shoulders and forearms. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Three-quarter full-length standing view, relaxed arms at the sides, both hands and feet visible, layered lapels and waist sash thickness readable. Natural skin texture and age detail, unretouched-looking pores and brows, no glossy beauty makeup. Natural individualized adult head-to-body proportions, anatomically plausible shoulder width, torso, arm reach and leg length; no tiny head, elongated fashion-model legs or stretched waist. Keep camera near mid-torso height and avoid strong high/low-angle or wide-angle distortion for the costume sheet. Young adult build with character-specific muscle and shoulder proportions, not a childlike oversized head or an exaggerated heroic mannequin. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/C03/C03-四分之三全身.png",
       "planned_filename": "MB-C03-FULL-3Q__v01__candidate.png",
       "input_references": [
         {
@@ -5614,7 +6490,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-C03-FULL-3Q",
       "unresolved_dependencies": []
     },
     {
@@ -5658,9 +6534,9 @@
       "provider_tail": "--ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "Rear view of the same selected costumed person. black hair in a compact topknot tied with gray-blue cloth, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut. medium-value gray-cyan silk-wool outer jacket with a navy cotton inner layer and a tea-white silk collar edge, ink-silver water-fold tone-on-tone jacquard and embroidery, layered navy waist sash with a small dark-silver clasp, tailored narrow sleeves, fitted shoulders and a crisp waist, substantial silk-wool fabric with densely worked tonal embroidery and finely bound layered lapels, restrained fabric luster, practical split hem, plain bound hair and fitted period boots. Straight rear full-length standing view, head facing away, both arms relaxed at the sides, feet visible, rear hair binding and the back seam and split hem clearly readable. Natural individualized adult head-to-body proportions, anatomically plausible shoulder width, torso, arm reach and leg length; no tiny head, elongated fashion-model legs or stretched waist. Keep camera near mid-torso height and avoid strong high/low-angle or wide-angle distortion for the costume sheet. Young adult build with character-specific muscle and shoulder proportions, not a childlike oversized head or an exaggerated heroic mannequin. Low-information muted stone gray studio backdrop, faint tonal gradient, clear separation from the clothing, no scenery or furniture. Broad directional soft studio light, neutral white balance, readable shadow detail, controlled highlights, no golden backlight or dreamy glow. One subject, one frame. Live-action period production photography, readable material texture, physically plausible folds and reflections, distinct material colors. --ar 2:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "awaiting_candidate_review",
+      "media_status": "generated_candidate",
+      "actual_file": "资产/媒体/C03/C03-背面候选.png",
       "planned_filename": "MB-C03-FULL-BACK__v01__candidate.png",
       "input_references": [
         {
@@ -9321,13 +10197,13 @@
       ],
       "depends_on": [],
       "acceptance": "四马并列牵引的封闭豪华车，固定四轮、实体顶、右侧铰接门及踏阶、独立外驾座；精雕深漆与克制鎏铜，不改成露天敞棚或帝王龙辇。车厢不透明，车灯不自动照穿侧壁；与已选四匹牵引马合成时核验数量及比例。空车探索尚未生成；结构、驾乘与动物安全须专业审阅。",
-      "prompt_en": "One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy.",
+      "prompt_en": "One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy. A clearly attached luggage rack behind the cabin carries a compact grouped load of cloth travel bags, including a soft drawstring bag and a structured square-mouth satchel; rear luggage does not obstruct wheels or the right passenger door. No separate luggage cart.",
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy. A clearly attached luggage rack behind the cabin carries a compact grouped load of cloth travel bags, including a soft drawstring bag and a structured square-mouth satchel; rear luggage does not obstruct wheels or the right passenger door. No separate luggage cart. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P01/P01-车体候选.png",
       "planned_filename": "MB-P01-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -9335,7 +10211,7 @@
         "GJ-R01"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P01-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -9369,9 +10245,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One small soft-mouthed dark cloth travel bag, tied opening, worn dense cotton, modest bulge from folded papers and personal belongings, three-quarter object view on warm-gray ground, soft side light revealing seams. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P02/P02-软口行囊.png",
       "planned_filename": "MB-P02-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -9381,7 +10257,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P02-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -9775,9 +10651,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One folded pale-gray cross-collar inner robe made of dense soft cotton, smoky-gray edging, precise plain seams, neutral tabletop view under diffuse light, no embroidery or jewellery. Opaque fine cotton cloth with smoky-gray silk-twill bound collar edging, soft matte folds; no travel outer robe. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P14/P14-浅灰干衣母形.png",
       "planned_filename": "MB-P14-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -9785,7 +10661,7 @@
         "GJ-R02"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P14-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -9857,9 +10733,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One small worn copper-colored fictional training plate with restrained engraved channels, a plain attachment loop and edge wear, dark neutral background, raking side light showing shallow relief, unlit metal. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P16/P16-阵甲铜片母形.png",
       "planned_filename": "MB-P16-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -9867,7 +10743,7 @@
         "GJ-R01"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P16-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -9974,13 +10850,13 @@
       ],
       "depends_on": [],
       "acceptance": "单匹普通骑乘马母形；后制分别锁定H01、H02、H05、H08四匹，保持各自骑手映射；不是P01四驾牵引马，不新加韩青坐骑。",
-      "prompt_en": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor.",
+      "prompt_en": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle without luggage or saddle bags; convoy luggage remains on the rear carriage rack, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor.",
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle without luggage or saddle bags; convoy luggage remains on the rear carriage rack, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/P19/P19-骑乘马母形.png",
       "planned_filename": "MB-P19-BASE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -9989,7 +10865,7 @@
         "GJ-R02"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-P19-BASE",
       "unresolved_dependencies": []
     },
     {
@@ -11584,9 +12460,9 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "One square-mouthed structured blue-cloth travel satchel with a fitted cover flap, carefully tied bindings and visible edge repairs, neutral object study with soft side light. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "ready_for_exploration",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "selected_generated_asset",
+      "media_status": "selected",
+      "actual_file": "资产/媒体/C23/C23-方口行囊.png",
       "planned_filename": "MB-BAG-C23__v01__candidate.png",
       "input_references": [],
       "reference_slot": "none",
@@ -11596,7 +12472,7 @@
         "GJ-R03"
       ],
       "release_scope": "current_first_three",
-      "selected_master_id": null,
+      "selected_master_id": "generated-BAG-C23",
       "unresolved_dependencies": []
     },
     {
@@ -12029,20 +12905,26 @@
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "projection": "Exactly four ordinary adult brown draft horses abreast in a single row, four separate heads and four distinct bodies, natural individual differences, coordinated dark travel harness with restrained bronze-colored fittings, attached in front of the selected stately enclosed four-wheel carriage. Preserve the selected solid roof, right-side door, ebony-brown lacquer, discreet carved trim and front driver bench, no driver and no passengers. Full team and carriage visible in a calm three-quarter front-side continuity study on broad level ground, diffuse daylight, no other horses, no tandem pairs, no magical features. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "awaiting_parent_selection",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "awaiting_candidate_review",
+      "media_status": "generated_candidate",
+      "actual_file": "资产/媒体/P01/P01-四马绑定候选.png",
       "planned_filename": "MB-P01-HORSE__v01__candidate.png",
-      "input_references": [],
+      "input_references": [
+        {
+          "master_id": "generated-P01-BASE",
+          "path": "资产/媒体/P01/P01-车体候选.png",
+          "sha256": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a",
+          "purpose": "selected_generated_asset",
+          "constraints": "P01无人无马车体外观母形"
+        }
+      ],
       "reference_slot": "executor: selected parent master, rights checked",
       "release_episode_ids": [
         "GJ-R01"
       ],
       "release_scope": "current_first_three",
       "selected_master_id": null,
-      "unresolved_dependencies": [
-        "MB-P01-BASE"
-      ]
+      "unresolved_dependencies": []
     },
     {
       "id": "MB-WEAPON-BLADE",
@@ -12278,9 +13160,9 @@
       "provider_tail": "--ar 16:9 --v 8.2 --raw --s 75 --c 0",
       "projection": "One partially visible adult figure behind a large woodland tree in dense bamboo beside a wet road at night, a plain dark-gray sleeve extending just beyond the trunk, the rest of the body concealed, face and bare hands fully occluded, no visible weapon or insignia, cool ambient light through canopy gaps, restrained fabric texture, single quiet frame. --ar 16:9 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "awaiting_parent_selection",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "awaiting_candidate_review",
+      "media_status": "generated_candidate",
+      "actual_file": "资产/媒体/C60/C60-树后灰袖候选.png",
       "planned_filename": "MB-C60-SILHOUETTE__v01__candidate.png",
       "input_references": [],
       "reference_slot": "executor: selected parent master, rights checked",
@@ -12418,25 +13300,31 @@
       "depends_on": [
         "MB-P01-BASE"
       ],
-      "acceptance": "沿BASE同一车体；内座、实体隔板、右门及踏阶方位固定。封闭不是密封无门，锦垫不塞满通路；P02位于座旁，韩在外驾座不能隔墙扶包；不新增隐室或机关。",
-      "prompt_en": "Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler and a small bag. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow.",
+      "acceptance": "沿BASE同一车体；内座、实体隔板、右门及踏阶方位固定。封闭不是密封无门，锦垫不塞满通路；P02位于车尾行李架，韩在外驾座不能隔墙扶包；不新增隐室或机关。",
+      "prompt_en": "Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler; luggage is carried on the exterior rear rack. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow.",
       "provider_tail": "--ar 4:3 --v 8.2 --raw --s 75 --c 0",
-      "projection": "Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler and a small bag. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
+      "projection": "Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler; luggage is carried on the exterior rear rack. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow. --ar 4:3 --v 8.2 --raw --s 75 --c 0",
       "manual_preflight_required": true,
-      "status": "awaiting_parent_selection",
-      "media_status": "not_generated",
-      "actual_file": null,
+      "status": "awaiting_candidate_review",
+      "media_status": "generated_candidate",
+      "actual_file": "资产/媒体/P01/P01-内饰候选.png",
       "planned_filename": "MB-P01-CABIN__v01__candidate.png",
-      "input_references": [],
+      "input_references": [
+        {
+          "master_id": "generated-P01-BASE",
+          "path": "资产/媒体/P01/P01-车体候选.png",
+          "sha256": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a",
+          "purpose": "selected_generated_asset",
+          "constraints": "P01无人无马车体外观母形"
+        }
+      ],
       "reference_slot": "executor: selected parent master, rights checked",
       "release_episode_ids": [
         "GJ-R01"
       ],
       "release_scope": "current_first_three",
       "selected_master_id": null,
-      "unresolved_dependencies": [
-        "MB-P01-BASE"
-      ]
+      "unresolved_dependencies": []
     },
     {
       "id": "MB-P01-RAIN-STOP",
@@ -12473,7 +13361,15 @@
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "MB-P01-RAIN-STOP__v01__candidate.png",
-      "input_references": [],
+      "input_references": [
+        {
+          "master_id": "generated-P01-BASE",
+          "path": "资产/媒体/P01/P01-车体候选.png",
+          "sha256": "0990904e6c3c7cc27fe87b614405522ac4ae4b17793840bfb5e62ffbab50512a",
+          "purpose": "selected_generated_asset",
+          "constraints": "P01无人无马车体外观母形"
+        }
+      ],
       "reference_slot": "executor: selected parent master, rights checked",
       "release_episode_ids": [
         "GJ-R01"
@@ -12481,7 +13377,6 @@
       "release_scope": "current_first_three",
       "selected_master_id": null,
       "unresolved_dependencies": [
-        "MB-P01-BASE",
         "POST-PLAN-FOREST"
       ]
     },
@@ -13040,6 +13935,13 @@
           "constraints": "正面无甲干衣全身母版，仅本任务"
         },
         {
+          "master_id": "generated-P19-BASE",
+          "path": "资产/媒体/P19/P19-骑乘马母形.png",
+          "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b",
+          "purpose": "selected_generated_asset",
+          "constraints": "P19单匹无行李骑乘马外观母形"
+        },
+        {
           "master_id": "generated-P20-BASE",
           "path": "资产/媒体/P20/P20-内甲母形.png",
           "sha256": "c70d14ae55401eb6edc937b662a2b98731162a63eb47d59a824ec2f877054dfa",
@@ -13132,6 +14034,13 @@
           "sha256": "6c46adf0d9f9caac1766b2bdab4072fc8c2d548b996381222b36541c466146d5",
           "purpose": "selected_generated_asset",
           "constraints": "C17正面全身无甲干衣"
+        },
+        {
+          "master_id": "generated-P19-BASE",
+          "path": "资产/媒体/P19/P19-骑乘马母形.png",
+          "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b",
+          "purpose": "selected_generated_asset",
+          "constraints": "P19单匹无行李骑乘马外观母形"
         },
         {
           "master_id": "generated-P20-BASE",
@@ -13228,6 +14137,13 @@
           "constraints": "C20正面全身无甲干衣"
         },
         {
+          "master_id": "generated-P19-BASE",
+          "path": "资产/媒体/P19/P19-骑乘马母形.png",
+          "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b",
+          "purpose": "selected_generated_asset",
+          "constraints": "P19单匹无行李骑乘马外观母形"
+        },
+        {
           "master_id": "generated-P20-BASE",
           "path": "资产/媒体/P20/P20-内甲母形.png",
           "sha256": "c70d14ae55401eb6edc937b662a2b98731162a63eb47d59a824ec2f877054dfa",
@@ -13320,6 +14236,13 @@
           "sha256": "fae0909a083af87b9feaa7fb723b30cd021ff46ffd101ca9815a3ca118504891",
           "purpose": "selected_generated_asset",
           "constraints": "C23正面全身无甲干衣"
+        },
+        {
+          "master_id": "generated-P19-BASE",
+          "path": "资产/媒体/P19/P19-骑乘马母形.png",
+          "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b",
+          "purpose": "selected_generated_asset",
+          "constraints": "P19单匹无行李骑乘马外观母形"
         },
         {
           "master_id": "generated-P20-BASE",
@@ -14282,11 +15205,19 @@
       "provider_tail": "",
       "projection": "",
       "manual_preflight_required": true,
-      "status": "awaiting_parent_selection",
+      "status": "ready_for_exploration",
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "POST-P16-NINE__v01__working",
-      "input_references": [],
+      "input_references": [
+        {
+          "master_id": "generated-P16-BASE",
+          "path": "资产/媒体/P16/P16-阵甲铜片母形.png",
+          "sha256": "9bd3b2dee48d72ac4db08970cb98883ca3512660c6379810319b77463da54235",
+          "purpose": "selected_generated_asset",
+          "constraints": "P16单件静态外观母形"
+        }
+      ],
       "reference_slot": "executor: selected parent master, rights checked",
       "release_episode_ids": [
         "GJ-R01",
@@ -14295,9 +15226,7 @@
       ],
       "release_scope": "current_first_three",
       "selected_master_id": null,
-      "unresolved_dependencies": [
-        "MB-P16-BASE"
-      ]
+      "unresolved_dependencies": []
     },
     {
       "id": "POST-ENSEMBLE",
@@ -14534,6 +15463,13 @@
       "actual_file": null,
       "planned_filename": "POST-FX-COPPER__v01__working",
       "input_references": [
+        {
+          "master_id": "generated-P16-BASE",
+          "path": "资产/媒体/P16/P16-阵甲铜片母形.png",
+          "sha256": "9bd3b2dee48d72ac4db08970cb98883ca3512660c6379810319b77463da54235",
+          "purpose": "selected_generated_asset",
+          "constraints": "P16单件静态外观母形"
+        },
         {
           "master_id": "generated-P20-BASE",
           "path": "资产/媒体/P20/P20-内甲母形.png",
@@ -15096,16 +16032,24 @@
       "depends_on": [
         "MB-P19-BASE"
       ],
-      "acceptance": "四匹骑乘马H01杜、H02石、H05崔、H08许的毛色、斑记、旅鞍、雨湿与侧行李映射；H03/H04/H06/H07停用且不复用。 验收：不复制一匹为四个身份；不与P01四驾混用；韩只驾车。尚未生成个体或骑乘图，外部执行前须专业动物与结构审阅。",
+      "acceptance": "四匹骑乘马H01杜、H02石、H05崔、H08许的毛色、斑记、旅鞍、雨湿与弃车后鞍侧行李映射；归京行进时行李在车尾；H03/H04/H06/H07停用且不复用。 验收：不复制一匹为四个身份；不与P01四驾混用；韩只驾车。四匹干态个体候选已生成，H05额斑与鞍桥已修正，四匹通过单图候选复核；骑乘图尚未生成，外部执行前须专业动物与结构审阅。",
       "prompt_en": "",
       "provider_tail": "",
       "projection": "",
       "manual_preflight_required": true,
-      "status": "awaiting_parent_selection",
+      "status": "ready_for_exploration",
       "media_status": "not_generated",
       "actual_file": null,
       "planned_filename": "POST-HORSES__v01__working",
-      "input_references": [],
+      "input_references": [
+        {
+          "master_id": "generated-P19-BASE",
+          "path": "资产/媒体/P19/P19-骑乘马母形.png",
+          "sha256": "5038c5e7a379f90c23530a2885e257d86bf8424904ba98de1d896c91200d8c9b",
+          "purpose": "selected_generated_asset",
+          "constraints": "P19单匹无行李骑乘马外观母形"
+        }
+      ],
       "reference_slot": "executor: selected parent master, rights checked",
       "release_episode_ids": [
         "GJ-R01",
@@ -15114,9 +16058,7 @@
       ],
       "release_scope": "current_first_three",
       "selected_master_id": null,
-      "unresolved_dependencies": [
-        "MB-P19-BASE"
-      ]
+      "unresolved_dependencies": []
     },
     {
       "id": "POST-KIT",

@@ -1,6 +1,7 @@
 """制作清单的结构回归；不冒充视觉质量或台词计时测试。"""
 import copy
 import importlib.util
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -14,6 +15,14 @@ spec.loader.exec_module(production)
 
 
 class ProductionTests(unittest.TestCase):
+    def test_return_convoy_corners_and_rear_luggage(self):
+        shots = {s['id']: s for e in self.data['release_plan']['episodes'] for s in e['shots']}
+        layout = shots['GJ-R01-SH002']['blocking_continuity']
+        for detail in ('杜长庚左前', '石照川右前', '崔望野左后', '许照邻右后', '韩青在前驾座', '车厢后部行李架'):
+            self.assertIn(detail, layout)
+        self.assertIn('P02在车尾', shots['GJ-R01-SH003']['blocking_continuity'])
+        self.assertIn('右后角接车尾取包', shots['GJ-R01-SH004']['blocking_continuity'])
+
     def test_individual_prop_support_integrity_and_task_boundary(self):
         from 母版匹配 import validate_support
         parent = next(m for m in self.data['generated_assets'] if m['task_id'] == 'MB-WEAPON-BLADE')
@@ -88,7 +97,7 @@ class ProductionTests(unittest.TestCase):
 
     def test_matched_references_are_tracked_without_selecting_tasks(self):
         refs = self.data['matched_asset_references']
-        self.assertEqual(len(refs), 11)
+        self.assertEqual(len(refs), 13)
         self.assertEqual([m['asset_ids'][0] for m in refs[:6]], ['P19', 'S06', 'C06', 'C11', 'C07', 'C58'])
         keys = {m['id'] for m in refs}
         for m in refs:
@@ -99,14 +108,26 @@ class ProductionTests(unittest.TestCase):
         self.assertEqual(refs[4]['status'], 'candidate_reference')
         self.assertEqual(refs[1]['candidate_subarea'], 'S06-K')
 
+    def test_user_style_edits_preserve_sources_and_scope(self):
+        refs = {m['id']: m for m in self.data['matched_asset_references']}
+        masters = {m['id']: m for m in self.data['selected_masters']}
+        for row in [masters['portrait-C25'], refs['asset-match-C60-style-01'], refs['asset-match-S01-style-01']]:
+            self.assertEqual(row['source_kind'], 'user_attachment_edited')
+            self.assertNotEqual(row['sha256'], row['original_sha256'])
+            self.assertEqual(hashlib.sha256((production.ROOT / row['original_path']).read_bytes()).hexdigest(), row['original_sha256'])
+            self.assertEqual(row['generation']['style_reference_paths'], ['资产/媒体/C01/C01-肖像母版.jpg'])
+            self.assertTrue(row['generation']['prompts'])
+            self.assertEqual(row['task_ids'], [])
+        self.assertFalse(any('C25' in t['asset_ids'] for t in self.data['tasks']))
+
     def test_counts_and_nonmedia_status(self):
         tasks = self.data['tasks']
         self.assertEqual(len(tasks), 178)
         self.assertEqual(sum(t['method'] == 'MJ' for t in tasks), 162)
         selected = [t for t in tasks if t['media_status'] == 'selected']
-        self.assertEqual({t['id'] for t in selected}, {'MB-C01-FACE', 'MB-C04-FACE', 'MB-C16-FACE', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-C01-FULL', 'MB-C01-FULL-3Q', 'MB-C04-FULL-3Q', 'MB-C16-FULL-3Q', 'MB-C04-COSTUME-DETAIL', 'MB-C17-FACE', 'MB-C17-FULL', 'MB-C20-FACE', 'MB-C20-FULL', 'MB-C03-FACE', 'MB-C03-FULL', 'MB-C23-FACE', 'MB-C23-FULL', 'MB-P20-BASE', 'MB-WEAPON-BLADE', 'MB-WEAPON-BOW', 'MB-WEAPON-SHIELD'})
+        self.assertEqual({t['id'] for t in selected}, {'MB-P14-BASE', 'MB-P16-BASE', 'MB-C01-FACE', 'MB-C04-FACE', 'MB-C16-FACE', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-C01-FULL', 'MB-C01-FULL-3Q', 'MB-C04-FULL-3Q', 'MB-C16-FULL-3Q', 'MB-C04-COSTUME-DETAIL', 'MB-C17-FACE', 'MB-C17-FULL', 'MB-C20-FACE', 'MB-C20-FULL', 'MB-C03-FACE', 'MB-C03-FULL', 'MB-C03-FULL-3Q', 'MB-C23-FACE', 'MB-C23-FULL', 'MB-P20-BASE', 'MB-WEAPON-BLADE', 'MB-WEAPON-BOW', 'MB-WEAPON-SHIELD', 'MB-P02-BASE', 'MB-BAG-C23', 'MB-P01-BASE', 'MB-P19-BASE'})
         self.assertEqual(selected[0]['media_status'], 'selected')
-        candidates = {'MB-C01-FULL-BACK', 'MB-C16-FULL-BACK', 'MB-C04-FULL-BACK', 'MB-C01-COSTUME-DETAIL', 'MB-C16-COSTUME-DETAIL', 'MB-S01-W1-01', 'MB-S01-W1-05'}
+        candidates = {'MB-C60-SILHOUETTE', 'MB-P01-HORSE', 'MB-P01-CABIN', 'MB-C03-FULL-BACK', 'MB-C01-FULL-BACK', 'MB-C16-FULL-BACK', 'MB-C04-FULL-BACK', 'MB-C01-COSTUME-DETAIL', 'MB-C16-COSTUME-DETAIL', 'MB-S01-W1-01', 'MB-S01-W1-05'}
         self.assertEqual({t['id'] for t in tasks if t['media_status'] == 'generated_candidate'}, candidates)
         self.assertTrue(all(t['media_status'] == 'not_generated' for t in tasks if t not in selected and t['id'] not in candidates))
         self.assertEqual(len(self.data['scene_ids']), 16)
@@ -136,7 +157,7 @@ class ProductionTests(unittest.TestCase):
         candidates = self.data['pending_master_candidates']
         self.assertEqual(len(candidates), 7)
         self.assertEqual([m['candidate_asset_ids'] for m in candidates], [['C57'], ['C57'], ['C58'], ['C58'], ['C59'], ['C06'], ['C07']])
-        self.assertEqual(len(self.data['selected_masters']), 27)
+        self.assertEqual(len(self.data['selected_masters']), 28)
         ids = {m['id'] for m in candidates}
         for t in self.data['tasks']:
             self.assertFalse(ids & {ref['master_id'] for ref in t['input_references']})

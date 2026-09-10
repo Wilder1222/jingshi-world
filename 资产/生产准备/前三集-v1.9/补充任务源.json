@@ -406,8 +406,8 @@
       "phase": "B",
       "parent": "MB-P01-BASE",
       "ratio": "4:3",
-      "body_en": "Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler and a small bag. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow.",
-      "checks": "沿BASE同一车体；内座、实体隔板、右门及踏阶方位固定。封闭不是密封无门，锦垫不塞满通路；P02位于座旁，韩在外驾座不能隔墙扶包；不新增隐室或机关。"
+      "body_en": "Interior of the selected enclosed Chinese period carriage, empty fitted rear passenger bench in deep indigo patterned brocade, warm ivory padded backrest, finely joined dark lacquered wood, small shuttered windows with opaque silk curtains, right-side hinged door open toward the outside with the same low boarding step visible. Front wall separates the passenger cabin from the external driver bench, compact intimate scale for an injured adult traveler; luggage is carried on the exterior rear rack. Refined luxurious details and discreet wear, soft cool ambient light from the open door, no people, no giant hall, no glass panorama, no magical glow.",
+      "checks": "沿BASE同一车体；内座、实体隔板、右门及踏阶方位固定。封闭不是密封无门，锦垫不塞满通路；P02位于车尾行李架，韩在外驾座不能隔墙扶包；不新增隐室或机关。"
     },
     {
       "key": "P01-RAIN-STOP",
@@ -625,8 +625,8 @@
         "C20",
         "C23"
       ],
-      "deliverable": "四匹骑乘马H01杜、H02石、H05崔、H08许的毛色、斑记、旅鞍、雨湿与侧行李映射；H03/H04/H06/H07停用且不复用。",
-      "acceptance": "不复制一匹为四个身份；不与P01四驾混用；韩只驾车。尚未生成个体或骑乘图，外部执行前须专业动物与结构审阅。"
+      "deliverable": "四匹骑乘马H01杜、H02石、H05崔、H08许的毛色、斑记、旅鞍、雨湿与弃车后鞍侧行李映射；归京行进时行李在车尾；H03/H04/H06/H07停用且不复用。",
+      "acceptance": "不复制一匹为四个身份；不与P01四驾混用；韩只驾车。四匹干态个体候选已生成，H05额斑与鞍桥已修正，四匹通过单图候选复核；骑乘图尚未生成，外部执行前须专业动物与结构审阅。"
     },
     {
       "key": "KIT",

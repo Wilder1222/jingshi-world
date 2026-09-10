@@ -1,7 +1,7 @@
 {
   "shot_id": "GJ-R02-SH019",
   "input_video": "资产/三维预演/生成输入/GJ-R02-SH019/background.mp4",
-  "input_sha256": "7a2afc5f07fb02857b5e07fa7a344034e743d45c8ee66756093e97b2ccac6e08",
+  "input_sha256": "f7aa0106a988cf800a6c269e5241a46ac87ea39371b160d8c3c5fb3bb1c1b922",
   "role": "first video preservation benchmark, no character binding required",
   "duration_seconds": 10,
   "fps": [

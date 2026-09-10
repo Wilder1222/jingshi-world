@@ -35,7 +35,10 @@
       "GJ-R02-SH015"
     ],
     "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
-    "media_status": "not_generated"
+    "media_status": "not_generated",
+    "performance": "今顾先估量落差再试柜面，动作带判断而非莽撞冲窗。",
+    "blocking_continuity": "沿案至窗下矮柜，保持案窗门局部三角；柜不突然升高，也不新增第二扇逃生窗。",
+    "cut_cue": "试探接触已建立、重心准备转移时接失败。"
   },
   "blend_file": "资产/三维预演/镜头/GJ-R02-SH016.blend",
   "status": "built_previs_not_final_character_or_scene_master",

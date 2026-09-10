@@ -10,6 +10,7 @@ import hashlib
 import json
 import math
 import random
+import time
 import sys
 from pathlib import Path
 
@@ -26,6 +27,11 @@ SHOTS = ['GJ-R02-SH016', 'GJ-R02-SH017', 'GJ-R02-SH019',
 MAT = {}
 COL = None
 ANCHORS = {}
+# Facing +Y: left is -X; role-specific corner locations remain shared by horses and riders.
+ESCORT_CORNERS = [('C16','H01',8.0,3.0),('C17','H02',14.4,3.0),('C20','H05',8.0,.3),('C23','H08',14.4,.3)]
+DRAFT_ROW = [(9.1,6.3),(10.5,6.3),(11.9,6.3),(13.3,6.3)]
+PACKAGE_WIDTH = 5.0
+ROAD_WIDTH = 8*PACKAGE_WIDTH + 7*.3
 
 
 def dump(path, data):
@@ -452,7 +458,8 @@ def horse(name,x,y,mat='Horse'):
     for xx in (-.26,.26):
         for yy in (-.57,.6):
             objects.append(beam(name+'_Leg',(x+xx,y+yy,.05),(x+xx,y+yy,1.25),.065,mat))
-    objects.append(cube(name+'_Saddle',(x,y,1.80),(.60,.6,.15),'Wood',.04))
+    if 'Hitch' not in name:
+        objects.append(cube(name+'_Saddle',(x,y,1.80),(.60,.6,.15),'Wood',.04))
     for o in objects: o.parent=root
     return root
 
@@ -461,8 +468,8 @@ def build_forest():
     global COL
     COL=collection('FOREST_S01')
     cube('S01_ForestGround',(0,15,-.34),(90,140,.25),'Earth')
-    cube('S01_Road',(0,12,-.17),(37,95,.30),'Earth')
-    for x in (-19.3,19.3):
+    cube('S01_Road',(0,12,-.17),(ROAD_WIDTH,95,.30),'Earth')
+    for x in (-ROAD_WIDTH/2-.8,ROAD_WIDTH/2+.8):
         cube('S01_Shoulder',(x,12,-.04),(1.6,95,.12),'Earth')
         cube('S01_Ditch',(x+(1 if x>0 else -1),12,-.10),(.3,95,.05),'Water')
     for x in (10.7,12.3):
@@ -470,7 +477,7 @@ def build_forest():
     rng=random.Random(189)
     for side in (-1,1):
         for i in range(68):
-            x=side*rng.uniform(18.6,29); y=rng.uniform(-27,45)
+            x=side*rng.uniform(ROAD_WIDTH/2+.2,33); y=rng.uniform(-27,45)
             h=rng.uniform(5,10)
             if side==1 and 7<y<14 and x<20: continue
             cyl('S01_Bamboo',(x,y,h/2),rng.uniform(.065,.12),h,'Bamboo',8)
@@ -478,13 +485,13 @@ def build_forest():
                 cyl('S01_BambooNode',(x,y,z),.13,.065,'Bamboo',8)
             ball('S01_Leaves',(x,y,h*.8),(rng.uniform(.6,1.1),1.1,1.7),'Leaf',1)
         for i in range(20):
-            x=side*rng.uniform(20,33);y=rng.uniform(-30,50);h=rng.uniform(8,13)
+            x=side*rng.uniform(ROAD_WIDTH/2+1.5,36);y=rng.uniform(-30,50);h=rng.uniform(8,13)
             beam('S01_Tree',(x,y,0),(x+.5,y,h),rng.uniform(.3,.5))
             ball('S01_Canopy',(x,y,h),(3,3,2.5),'Leaf',1)
     # Hero obstruction tree and second bamboo layer: conceal face/hands, not a teleport.
-    cyl('S01_C60_HeroTree',(19.4,8.4,4),.62,8,'Wood',18)
-    cyl('S01_C60_BambooA',(18.65,8.05,3),.15,6,'Bamboo',10)
-    cyl('S01_C60_BambooB',(19.0,7.65,3),.13,6,'Bamboo',10)
+    cyl('S01_C60_HeroTree',(22.0,8.4,4),.62,8,'Wood',18)
+    cyl('S01_C60_BambooA',(21.25,8.05,3),.15,6,'Bamboo',10)
+    cyl('S01_C60_BambooB',(21.6,7.65,3),.13,6,'Bamboo',10)
     # Carriage local X east, forward +Y; right door at +X.
     cube('P01_Chassis',(11.2,2,.90),(2.25,3.9,.24),'Wood',.035)
     cube('P01_CabinFloor',(11.2,1.7,1.15),(2.25,3.05,.18),'Wood')
@@ -505,20 +512,22 @@ def build_forest():
             wheel.rotation_euler.y=math.pi/2
             hub=cyl('P01_WheelHub',(x,y,.73),.13,.23,'Copper',12)
             hub.rotation_euler.y=math.pi/2
-    for x in (10.4,12.0):
-        beam('P01_HarnessShaft',(x,3.5,.9),(x,8.8,.9),.055)
-    for i,(x,y) in enumerate([(10.2,5.1),(12.2,5.1),(10.2,7.8),(12.2,7.8)]):
+    beam('P01_CentralPole',(11.2,3.5,.9),(11.2,7.4,.9),.055)
+    for i,(x,y) in enumerate(DRAFT_ROW):
         horse('P01_HitchHorse_'+str(i+1),x,y)
-    for i,(x,y) in enumerate([(14.8,-3),(14.8,-6),(14.8,-9),(14.8,-12)]):
-        horse('P19_RidingHorse_'+str(i+1),x,y)
-    # The eight full package proxies exist only as non-rendering measurement boxes.
+    for i,(cid,hid,x,y) in enumerate(ESCORT_CORNERS):
+        h=horse('P19_RidingHorse_'+str(i+1),x,y)
+        h['horse_id']=hid;h['rider_id']=cid
+    cube('P01_RearLuggageRack',(11.2,-.65,1.05),(1.8,.8,.16),'Wood')
+    cube('P01_P02_Bag',(10.8,-.65,1.4),(.4,.35,.55),'GuardProxy')
+    cube('P01_C23_Bag',(11.45,-.65,1.4),(.48,.32,.55),'GuardProxy')
     for i in range(8):
-        o=anchor('S01_EightLaneEnvelope_'+str(i+1),(-16.1+i*4.6,25,0))
-        o.empty_display_type='CUBE';o.scale=(2.15,5.5,1.5)
-        o['full_width_m']=4.3; o['spacing_m']=.3
+        o=anchor('S01_EightLaneEnvelope_'+str(i+1),(-ROAD_WIDTH/2+PACKAGE_WIDTH/2+i*(PACKAGE_WIDTH+.3),25,0))
+        o.empty_display_type='CUBE';o.scale=(PACKAGE_WIDTH/2,5.5,1.5)
+        o['full_width_m']=PACKAGE_WIDTH; o['spacing_m']=.3
     anchor('S01_RoadWidth',(0,25,0))
     anchor('S01_RightDoorAnchor',(12.5,1.8,1.1))
-    anchor('S01_C60FaceAnchor',(19.55,9.1,1.7))
+    anchor('S01_C60FaceAnchor',(22.15,9.1,1.7))
     anchor('S01_ExitForward',(11.2,32,0))
     # Bridge remains an offscreen layout anchor beyond the bend, never visible geometry here.
     anchor('S01_BridgeBeyondBend',(30,70,0))
@@ -608,7 +617,7 @@ def build_master():
                        'scale':1,'rotation_deg':0,'note':'城市图为示意尺度，不据此重算行程'},
         anchors=ANCHORS,
         road={'width_m':37,'package_width_m':4.3,'gap_m':.3,
-              'minimum_eight_packages_m':8*4.3+7*.3,'status':'proxy_dimensions_pending_art_review'},
+              'minimum_eight_packages_m':8*PACKAGE_WIDTH+7*.3,'status':'proxy_dimensions_pending_art_review'},
         library_sha256=hashlib.sha256(MASTER.read_bytes()).hexdigest()))
 
 
@@ -730,8 +739,9 @@ def configure_shot(shot_id):
             # Same six companions; C01 is inside the solid cabin, riders mounted.
             _,parts=puppet('C01_InCabin',(11.2,1.65,1.2),'GuProxy');pose(parts,1,.4,0)
             _,parts=puppet('C03_Driver',(11.2,3.8,.9),'GuardProxy');pose(parts,1,.4,.3)
-            for i,y in enumerate((-3,-6,-9,-12)):
-                rider,parts=puppet('C_Rider_'+str(i+1),(14.8,y,1.35),'GuardProxy')
+            for i,(cid,hid,x,y) in enumerate(ESCORT_CORNERS):
+                rider,parts=puppet('C_Rider_'+str(i+1),(x,y,1.35),'GuardProxy')
+                rider['character_id']=cid; rider['horse_id']=hid
                 pose(parts,1,.4,0)
                 for side,sign in [('L',-1),('R',1)]:
                     knee=(sign*.50,-.15,.2);foot=(sign*.55,-.2,-.3)
@@ -739,15 +749,15 @@ def configure_shot(shot_id):
                     limb_pose(parts[side+'leg'],foot,knee,1,.065)
                     keyed(parts[side+'foot'],1,p=(sign*.55,-.2,-.34))
         else:
-            cam=camera('CAM_'+shot_id,(14.9,3.0,1.7),(19.2,8.7,1.5),52)
+            cam=camera('CAM_'+shot_id,(14.9,3.0,1.7),(21.8,8.7,1.5),52)
             actor,parts=puppet('C06_Blocking',(17.7,6.0,0),'EnemyProxy')
             actor.rotation_euler.z=-.6
             # Only sleeve is modeled in this shot; face/hands have no mesh to leak.
-            sleeve=cube('C60_VisibleGreySleeve',(18.9,8.65,1.1),(.22,.47,.45),'GreySleeve',.06)
-            for f,p in [(1,(18.9,8.65,1.1)),(80,(18.9,8.65,1.1)),(126,(19.35,8.85,1.1)),(n,(19.35,8.85,1.1))]:
+            sleeve=cube('C60_VisibleGreySleeve',(21.5,8.65,1.1),(.22,.47,.45),'GreySleeve',.06)
+            for f,p in [(1,(21.5,8.65,1.1)),(80,(21.5,8.65,1.1)),(126,(21.95,8.85,1.1)),(n,(21.95,8.85,1.1))]:
                 keyed(sleeve,f,p=p)
             focus=bpy.data.objects.new('FocusTarget',None);COL.objects.link(focus)
-            for f,p in [(1,(17.7,6,1.4)),(45,(17.7,6,1.4)),(105,(19.2,8.6,1.1)),(n,(19.2,8.6,1.1))]:
+            for f,p in [(1,(17.7,6,1.4)),(45,(17.7,6,1.4)),(105,(21.8,8.6,1.1)),(n,(21.8,8.6,1.1))]:
                 keyed(focus,f,p=p)
             cam.data.dof.use_dof=True;cam.data.dof.focus_object=focus;cam.data.dof.aperture_fstop=4.0
     # Freeze start state before saving.
@@ -797,6 +807,18 @@ def export_camera(scene,source,path):
     return {k:v for k,v in output.items() if k not in ('frames','source')}
 
 
+def render_still_retry():
+    # Windows may transiently lock an overwritten preview while it is indexed.
+    for attempt in range(3):
+        try:
+            bpy.ops.render.render(write_still=True)
+            return
+        except RuntimeError as exc:
+            if 'cannot save' not in str(exc) or attempt == 2:
+                raise
+            time.sleep(.5)
+
+
 def render_stills():
     global COL
     bpy.ops.wm.open_mainfile(filepath=str(MASTER))
@@ -808,7 +830,7 @@ def render_stills():
         s.render.engine='BLENDER_WORKBENCH'
         s.render.resolution_x,s.render.resolution_y=1440,810
         s.render.filepath=str(OUT/'预览'/f'{label}.png')
-        bpy.ops.render.render(write_still=True)
+        render_still_retry()
     s=bpy.data.scenes['MANOR_DAY'];bpy.context.window.scene=s
     COL=collection('SURVEY_ONLY')
     for o in s.objects:
@@ -817,7 +839,7 @@ def render_stills():
     for label,x,y in [('S03',0,9),('S03-W',-18,10),('S04',14,23),('S05',-14,23),('S06',0,33),('S06-K',17,33),('S02',0,-7)]:
         text3d('PLAN_'+label,label,(x,y,5),1.15,'Accent')
     s.render.filepath=str(OUT/'预览'/'顾府俯视剖面.png')
-    bpy.ops.render.render(write_still=True)
+    render_still_retry()
     for sid in SHOTS:
         bpy.ops.wm.open_mainfile(filepath=str(OUT/'镜头'/f'{sid}.blend'))
         s=bpy.context.scene
@@ -826,11 +848,13 @@ def render_stills():
             s.eevee.taa_render_samples=64
             s.render.resolution_x,s.render.resolution_y=960,540
             s.render.filepath=str(OUT/'关键帧'/sid/f'{phase}.png')
-            bpy.ops.render.render(write_still=True)
+            render_still_retry()
 
 
-def render_inputs():
-    for sid in SHOTS:
+def render_inputs(shot=None):
+    if shot is not None and shot not in SHOTS:
+        raise ValueError('Unknown shot: '+shot)
+    for sid in ([shot] if shot else SHOTS):
         bpy.ops.wm.open_mainfile(filepath=str(OUT/'镜头'/f'{sid}.blend'))
         s=bpy.context.scene;s.render.engine='BLENDER_EEVEE';s.eevee.taa_render_samples=64
         for o in s.objects:
@@ -839,7 +863,7 @@ def render_inputs():
         for phase,f in [('start',1),('middle',(s.frame_end+1)//2),('end',s.frame_end)]:
             s.frame_set(f);s.render.image_settings.file_format='PNG'
             s.render.filepath=str(OUT/'生成输入'/sid/f'background_{phase}.png')
-            bpy.ops.render.render(write_still=True)
+            render_still_retry()
         s.frame_set(1)
         vl=s.view_layers[0];vl.use_pass_z=True;vl.use_pass_normal=True
         vl.use_pass_cryptomatte_object=True
@@ -847,7 +871,7 @@ def render_inputs():
         s.render.image_settings.file_format='OPEN_EXR_MULTILAYER'
         s.render.image_settings.color_depth='32'
         s.render.filepath=str(OUT/'生成输入'/sid/'background_data.exr')
-        bpy.ops.render.render(write_still=True)
+        render_still_retry()
 
 
 def render_shot(sid,engine='BLENDER_WORKBENCH',background=False):
@@ -873,10 +897,15 @@ def audit():
     checks={
         'guest_beds_exactly_five':sum(bool(o.get('bed')) for o in manor.objects if o.name.startswith('S03W_'))==5,
         'bedroom_bed_separate':sum(bool(o.get('bed')) for o in manor.objects if o.name.startswith('S05_'))==1,
+        'draft_row_abreast':len({round(o.matrix_world.translation.y,3) for o in forest.objects if o.name.startswith('P01_HitchHorse_') and o.name.endswith('_Body')})==1,
         'four_hitch_horses':sum(o.get('proxy_type')=='horse' for o in forest.objects if o.name.startswith('P01_'))==4,
         'four_riding_horses':sum(o.get('proxy_type')=='horse' for o in forest.objects if o.name.startswith('P19_'))==4,
-        'road_accommodates_eight_packages':forest.objects['S01_Road'].dimensions.x >= 8*4.3+7*.3,
-        'package_proxy_contains_actual_carriage':4.3>=measured_package_width,
+        'escort_horses_at_role_corners':all((forest.objects['P19_RidingHorse_'+str(i+1)+'_Body'].matrix_world.translation-Vector((x,y,1.25))).length < 1e-4 for i,(_,_,x,y) in enumerate(ESCORT_CORNERS)),
+        'escort_horse_role_bindings':all(forest.objects['P19_RidingHorse_'+str(i+1)].get('horse_id')==hid and forest.objects['P19_RidingHorse_'+str(i+1)].get('rider_id')==cid for i,(cid,hid,_,_) in enumerate(ESCORT_CORNERS)),
+        'luggage_behind_cabin':all(forest.objects[n].location.y < forest.objects['P01_CabinBack'].location.y for n in ['P01_RearLuggageRack','P01_P02_Bag','P01_C23_Bag']),
+        'draft_horses_without_riding_saddles':not any(o.name.startswith('P01_HitchHorse_') and '_Saddle' in o.name for o in forest.objects),
+        'road_accommodates_eight_packages':forest.objects['S01_Road'].dimensions.x + 1e-5 >= 8*PACKAGE_WIDTH+7*.3,
+        'package_proxy_contains_actual_carriage':PACKAGE_WIDTH>=measured_package_width,
         'street_and_manor_share_scene':all(n in manor.objects for n in ['S02_Street','S03_GateLeaf','S04_Desk','S06K_Door']),
         'no_central_pond_geometry':not any('Pond' in o.name for o in manor.objects),
         'study_window_faces_courtyard':abs(manor.objects['S04_WindowAnchor'].location.y-19)<.001,
@@ -920,7 +949,7 @@ def main():
              'total_frames':sum(r['local_frame_end_inclusive'] for r in rows),
              'ai_generation_status':'not_submitted_account_access_required'})
     elif a.command=='stills':render_stills()
-    elif a.command=='inputs':render_inputs()
+    elif a.command=='inputs':render_inputs(a.shot)
     elif a.command=='audit':audit()
     elif a.command=='background':render_shot(a.shot,a.engine,True)
     elif a.shot=='all':

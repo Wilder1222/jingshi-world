@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="1230" viewBox="0 0 1260 1230">
+<rect width="1260" height="1230" fill="#f6f3ec"/>
+<style>text{font-family:Microsoft YaHei,sans-serif;fill:#24333b;font-size:17px}.title{font-size:26px;font-weight:bold}.small{font-size:14px}.line{stroke:#344951;stroke-width:2;fill:none}</style>
+<text x="45" y="45" class="title">P01 马车空间基准｜同坐标俯视 + 右侧视</text>
+<text x="45" y="76" class="">暂定虚拟尺度，用于统一镜头和资产；不是实车制造、承载或驾乘验收。</text>
+<text x="45" y="112" class="">行进方向 ←　前在左 / 后在右；车辆右侧位于俯视图下方。</text>
+<text x="45" y="150" class="title">01 俯视｜去顶示意，实际车厢保持不透明</text>
+<rect x="454.0" y="205" width="480" height="288.0" fill="#dce4e3" stroke="#344951" stroke-width="2"/>
+<rect x="326.0" y="245" width="120.0" height="208" fill="#d6c2a5" stroke="#344951" stroke-width="2"/>
+<rect x="830.0" y="220" width="88.0" height="258" fill="#929dad" stroke="#344951" stroke-width="2"/>
+<rect x="950" y="220" width="120.0" height="258" fill="#d6c2a5" stroke="#344951" stroke-width="2"/>
+<line x1="374.0" y1="187" x2="374.0" y2="511" stroke="#6b7377" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="331.0" y="178" width="86" height="18" fill="#626b70" stroke="#344951" stroke-width="2"/>
+<rect x="331.0" y="501" width="86" height="18" fill="#626b70" stroke="#344951" stroke-width="2"/>
+<line x1="846.0" y1="187" x2="846.0" y2="511" stroke="#6b7377" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="803.0" y="178" width="86" height="18" fill="#626b70" stroke="#344951" stroke-width="2"/>
+<rect x="803.0" y="501" width="86" height="18" fill="#626b70" stroke="#344951" stroke-width="2"/>
+<line x1="70.0" y1="349" x2="326.0" y2="349" stroke="#344951" stroke-width="3"/>
+<text x="78.0" y="335" class="small">牵引连接待核</text>
+<text x="332.4" y="335" class="small">韩青</text>
+<text x="330.8" y="358" class="small">前驾座</text>
+<text x="470.0" y="295" class="small">实体前隔板</text>
+<text x="758.0" y="390" class="small">后座 →</text>
+<text x="958.0" y="317" class="small">P02</text>
+<text x="958.0" y="348" class="small">C23包</text>
+<text x="958.0" y="379" class="small">车尾行李</text>
+<rect x="542.0" y="493" width="144.0" height="51.2" fill="#e5c98f" stroke="#344951" stroke-width="2"/>
+<line x1="550.0" y1="493" x2="678.0" y2="493" stroke="#b24639" stroke-width="3" stroke-dasharray="7 5"/>
+<line x1="678.0" y1="493" x2="678.0" y2="621.0" stroke="#b24639" stroke-width="3"/>
+<path d="M 550.0 493 A 128 128 0 0 0 678.0 621" fill="none" stroke="#b24639" stroke-dasharray="6 5"/>
+<text x="694.0" y="570" class="small">右门后缘竖铰链；门扇向外开</text>
+<text x="470.0" y="570" class="small">踏阶独立固定</text>
+<text x="45" y="652" class="title">02 右侧视｜与俯视共用前后坐标</text>
+<line x1="45" y1="1130" x2="1200" y2="1130" stroke="#adb3ad" stroke-width="3"/>
+<rect x="454.0" y="698.0" width="480" height="264.0" fill="#dce4e3" stroke="#344951" stroke-width="2"/>
+<rect x="326.0" y="930.0" width="120.0" height="24" fill="#d6c2a5" stroke="#344951" stroke-width="2"/>
+<rect x="950" y="962.0" width="120.0" height="12" fill="#d6c2a5" stroke="#344951" stroke-width="2"/>
+<ellipse cx="374.0" cy="1042.0" rx="88.0" ry="88.0" fill="#bbc2c0" stroke="#344951" stroke-width="3"/>
+<line x1="286.0" y1="1042.0" x2="462.0" y2="1042.0" stroke="#344951" stroke-width="3"/>
+<ellipse cx="846.0" cy="1026.0" rx="104.0" ry="104.0" fill="#bbc2c0" stroke="#344951" stroke-width="3"/>
+<line x1="742.0" y1="1026.0" x2="950.0" y2="1026.0" stroke="#344951" stroke-width="3"/>
+<rect x="550.0" y="722.0" width="128.0" height="239.99999999999997" fill="#f6f3ec" stroke="#344951" stroke-width="2"/>
+<rect x="542.0" y="1042.0" width="144.0" height="8" fill="#e5c98f" stroke="#344951" stroke-width="2"/>
+<line x1="546.8" y1="962.0" x2="546.8" y2="1042.0" stroke="#80684b" stroke-width="3"/>
+<line x1="681.2" y1="962.0" x2="681.2" y2="1042.0" stroke="#80684b" stroke-width="3"/>
+<text x="551.6" y="826.0" class="small">右侧门</text>
+<text x="710.0" y="949.2" class="small">地板 1.05 m</text>
+<text x="702.0" y="1050.0" class="small">踏阶 0.55 m</text>
+<text x="953.1999999999999" y="906.0" class="small">后架</text>
+<text x="45" y="1175" class="small">双视图统一 160 px/m；暂定镜头空间提案，需人物、马匹及实作复核。</text>
+</svg>

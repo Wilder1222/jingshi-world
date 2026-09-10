@@ -2,8 +2,13 @@
   "checks": {
     "guest_beds_exactly_five": true,
     "bedroom_bed_separate": true,
+    "draft_row_abreast": true,
     "four_hitch_horses": true,
     "four_riding_horses": true,
+    "escort_horses_at_role_corners": true,
+    "escort_horse_role_bindings": true,
+    "luggage_behind_cabin": true,
+    "draft_horses_without_riding_saddles": true,
     "road_accommodates_eight_packages": true,
     "package_proxy_contains_actual_carriage": true,
     "street_and_manor_share_scene": true,
@@ -31,11 +36,11 @@
   "passed": true,
   "mesh_counts": {
     "CITY_RELATION_ONLY": 322,
-    "FOREST_DAY_SURVEY": 863,
+    "FOREST_DAY_SURVEY": 861,
     "MANOR_DAY": 1927,
     "MODERN_LOCAL": 14
   },
-  "measured_carriage_full_width_m": 4.22499942779541,
+  "measured_carriage_full_width_m": 4.960000038146973,
   "coverage": "Structural counts, local camera clearance rays and file/timebase bindings only.",
   "not_verified": [
     "final character anatomy",

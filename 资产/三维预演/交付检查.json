@@ -5,7 +5,7 @@
       "id": "GJ-R02-SH016",
       "role": "Blender material and blocking previs, not final AI video",
       "file": "资产/三维预演/视频/GJ-R02-SH016.mp4",
-      "sha256": "264dbfb17442e8a8946771eb661e03fe86f52debfcbd413a70cb659b387ae1db",
+      "sha256": "f7d3a490e8cbb8c7eaa8248353a665c86173af7e3005edd2178e83cda70194bf",
       "fps": [
         24,
         1
@@ -21,7 +21,7 @@
       "id": "GJ-R02-SH017",
       "role": "Blender material and blocking previs, not final AI video",
       "file": "资产/三维预演/视频/GJ-R02-SH017.mp4",
-      "sha256": "9c0bf0e8b7cdeba3d268ea2c235b560b9dfabdae21da9bbdfaf6ecc63beb1d56",
+      "sha256": "dc1d467836f8c564aa36101c68aee93ef68b50ecf8b786fabfc41aff03255f2d",
       "fps": [
         24,
         1
@@ -37,7 +37,7 @@
       "id": "GJ-R02-SH019",
       "role": "Blender material and blocking previs, not final AI video",
       "file": "资产/三维预演/视频/GJ-R02-SH019.mp4",
-      "sha256": "3ad10a6e7f3ceb621a026aadf301d5bd756ad06d7f5ebbee329f1c2c8fab8652",
+      "sha256": "5f8ea2e62adfb573b483ed4cbe3f8c198b1b0dff52a3f3200a7c72e65798eff3",
       "fps": [
         24,
         1
@@ -53,7 +53,7 @@
       "id": "GJ-R01-SH002",
       "role": "Blender material and blocking previs, not final AI video",
       "file": "资产/三维预演/视频/GJ-R01-SH002.mp4",
-      "sha256": "45651572aa32bf53762fd055229ea2378891c867511a9305c593a68e1e3b69fb",
+      "sha256": "67e4a4b79032850f0052962ed429dba244a56e9c269493ca338cdf4202b1f66a",
       "fps": [
         24,
         1
@@ -69,7 +69,7 @@
       "id": "GJ-R01-SH021",
       "role": "Blender material and blocking previs, not final AI video",
       "file": "资产/三维预演/视频/GJ-R01-SH021.mp4",
-      "sha256": "2af5b42ad33b683c5b901e7aeaf6bd8f96c17daaf9fecd5929d4898165afcf6c",
+      "sha256": "503100834229ffaab3a9b3787f069e73ad6b96f075635fbaf866057afc31c5f4",
       "fps": [
         24,
         1
@@ -84,7 +84,7 @@
   ],
   "combined": {
     "file": "资产/三维预演/视频/五镜技术预演合集.mp4",
-    "sha256": "8f51e2b25ab2bd1f7e105a0f5687f07495f0e2b45add8f84c1e1973ccb58fff4",
+    "sha256": "b605abad8ffc1d7791590737ca1ec8cfac39ab662d9bcc98131dd7b51ba3b1df",
     "decoded_frames": 1032,
     "decoded_duration_seconds": 43.0,
     "decode_errors": ""

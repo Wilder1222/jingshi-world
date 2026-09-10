@@ -35,7 +35,10 @@
       "GJ-R02-SH016"
     ],
     "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
-    "media_status": "not_generated"
+    "media_status": "not_generated",
+    "performance": "肩痛导致主动收回，碰膝后先稳住自己；不是失足摔落或新增严重腿伤。",
+    "blocking_continuity": "右侧支撑与左肩受限的结果可辨；膝碰柜角后靠柜坐下，不穿过柜体、不加血口。",
+    "cut_cue": "坐稳再吸气，痛后的停顿留给下一句自嘲。"
   },
   "blend_file": "资产/三维预演/镜头/GJ-R02-SH017.blend",
   "status": "built_previs_not_final_character_or_scene_master",

@@ -170,7 +170,7 @@ def load_pending_masters():
 def load_matched_references():
     registry = read(ROOT / '资产/媒体/母版登记.json')
     refs = registry.get('matched_references', [])
-    valid = {c['id'] for c in read(ROOT / '索引/数据/characters.json')} | {'P19', 'S06'}
+    valid = {c['id'] for c in read(ROOT / '索引/数据/characters.json')} | {'P19'} | {s['id'] for s in read(ROOT / '索引/数据/locations.json')}
     seen = {m['id'] for m in registry['masters'] + registry.get('pending_masters', [])}
     for m in refs:
         if m['id'] in seen or m['scope'] != 'matched_asset_reference':
@@ -187,6 +187,15 @@ def load_matched_references():
             raise ValueError('匹配参考缺失或越界')
         if hashlib.sha256(path.read_bytes()).hexdigest() != m['sha256']:
             raise ValueError('匹配参考校验不符')
+        if m.get('source_kind') == 'user_attachment_edited':
+            original = (ROOT / m['original_path']).resolve()
+            if not original.is_relative_to((ROOT / '参考/用户媒体').resolve()) or not original.is_file():
+                raise ValueError('匹配修图原始参考缺失或越界')
+            if hashlib.sha256(original.read_bytes()).hexdigest() != m['original_sha256'] or m['original_sha256'] == m['sha256']:
+                raise ValueError('匹配修图原始参考校验不符')
+            if m.get('generation', {}).get('tool') != 'image_gen.imagegen' or not m['generation'].get('prompts') or m.get('style_review', {}).get('status') != 'passed_visual_review':
+                raise ValueError('匹配修图缺执行记录或视觉复核')
+
     return refs
 
 
@@ -265,6 +274,9 @@ def validate(data):
                       for suffix in ('FULL','FULL-3Q','FULL-BACK','COSTUME-DETAIL')]
     if [t['id'] for t in sorted((t for t in tasks if t['first_batch']), key=lambda t:t['first_batch'])] != expected_first:
         raise ValueError('首批五人服装视角失配，不是五卒合照或肖像批次')
+    mystery = [t for t in tasks if t['method'] == 'MJ' and 'C60' in t['asset_ids']]
+    if len(mystery) != 1 or mystery[0]['id'] != 'MB-C60-SILHOUETTE':
+        raise ValueError('C60仅允许遮脸轮廓任务，不能自动制作身份脸')
     seen, active = set(), set()
 
     def visit(key):
@@ -300,9 +312,6 @@ def validate(data):
     faces = {t['asset_ids'][0] for t in tasks if t['id'].endswith('-FACE')}
     if faces != FACE_CAST:
         raise ValueError('必须20张独立身份脸，C01/C02同脸、C05仅声、C60遮脸')
-    mystery = [t for t in tasks if t['method'] == 'MJ' and 'C60' in t['asset_ids']]
-    if len(mystery) != 1 or mystery[0]['id'] != 'MB-C60-SILHOUETTE':
-        raise ValueError('C60仅允许遮脸轮廓任务，不能自动制作身份脸')
     coverage = {a for t in tasks if t['method'] == 'MJ' for a in t['asset_ids']}
     if not set(data['visible_asset_ids']) <= coverage:
         raise ValueError('可见资产未覆盖：' + str(set(data['visible_asset_ids']) - coverage))
@@ -519,6 +528,8 @@ def build_data():
 
 def render_release(release):
     text = '# 前三发行集：节奏、运镜与逐镜交接\n\n'
+    text += '创作执行：[用典与侧面烘托](../../../剧集/剧情结构与推进.md#allusion-and-atmosphere)。用典适量、核对出处并符合人物见识与世界内流传依据；季节、天气、环境、场景、人物、穿着、事件与声场等均可推进剧情、表达情绪，变化须有前后状态与因果，落入可见动作、声音入口及镜末变化。沿用车灯晃动、退廊留灯、尝粥后叩门等既有节拍，不强塞诗句或增加重复空景，保持父镜号与时长预算。\n\n'
+    text += '继续选材与执行：[短剧情节方法](../../../剧集/剧情结构与推进.md#short-drama-enrichment) · [AIGC镜头执行卡与五组推演](../../../剧集/前三集重写与生产交接-v1.9.md#aigc-story-to-shot)。先定观看目的与入镜状态，再分写人物、摄影机、环境和声音的变化，落到可接续的结果与切点；一个父镜可按需要拆分生成，子镜取用时长仍归原预算。起始图、动作过程、首尾接续与关键接触分别核验，文字计划不代表动态通过。\n\n'
     text += release['planning_unit'] + '\n\n'
     text += '本页由[发行分镜源](../../../索引/数据/发行前三集.json)生成；剧情与动作系统见[制作交接](../../../剧集/前三集重写与生产交接-v1.9.md)。原场次编号不变。24/1 fps仅为剪辑工作假设，16:9，帧窗左闭右开；71镜均为文字计划，未试读、未生成、未进行动作安全验收。片名与尾签画内叠加且已经计时，不另加片头片尾或上一集回顾。\n\n'
     text += '相邻切镜优先接动作完成或视线落点；跨场省略明确保留前后状态。林道以车旁同侧轴线为基准，书房以案—窗—门局部三角为基准；具体焦段是视角意向，机位尺寸与最终格式待母版和预演复核。\n'

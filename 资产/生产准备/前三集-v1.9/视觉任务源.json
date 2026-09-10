@@ -491,7 +491,7 @@
       "id": "P01",
       "name": "四驾封闭精致豪华马车｜空车母版",
       "first_batch": 0,
-      "body_en": "One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy.",
+      "body_en": "One stately luxurious enclosed Chinese period carriage, four-wheel wooden body with an elegant solid curved roof, deep ebony-brown lacquer, restrained dark vermilion trim, finely carved geometric window frames, opaque silk-lined privacy curtains behind small shuttered windows, discreet aged gilt-bronze fittings, refined joinery and subtle maintained wear. A closed hinged right-side passenger door with a low boarding step, an external front driver bench clearly separated from the enclosed passenger cabin. A visible central draw pole and balanced harness attachment appearance designed for a four-horse team abreast. One small enclosed travel lantern fixed at the front. Full unobstructed three-quarter right-side object view, neutral ground and soft studio light, no horses, no people, no royal dragons, no magical glow, no open canopy. A clearly attached luggage rack behind the cabin carries a compact grouped load of cloth travel bags, including a soft drawstring bag and a structured square-mouth satchel; rear luggage does not obstruct wheels or the right passenger door. No separate luggage cart.",
       "checks": "四马并列牵引的封闭豪华车，固定四轮、实体顶、右侧铰接门及踏阶、独立外驾座；精雕深漆与克制鎏铜，不改成露天敞棚或帝王龙辇。车厢不透明，车灯不自动照穿侧壁；与已选四匹牵引马合成时核验数量及比例。空车探索尚未生成；结构、驾乘与动物安全须专业审阅。",
       "ratio": "4:3"
     },
@@ -618,7 +618,7 @@
     {
       "id": "P19",
       "name": "普通骑乘马与旅鞍母形",
-      "body_en": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle and restrained cloth saddle bags, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor.",
+      "body_en": "One ordinary adult bay riding horse with black mane and tail, simple period travel saddle without luggage or saddle bags; convoy luggage remains on the rear carriage rack, standing quietly on level ground, full side view, natural proportions, neutral background and diffuse light, no rider, no cart harness, no armor.",
       "ratio": "4:3",
       "first_batch": 0,
       "checks": "单匹普通骑乘马母形；后制分别锁定H01、H02、H05、H08四匹，保持各自骑手映射；不是P01四驾牵引马，不新加韩青坐骑。"
