@@ -1,0 +1,101 @@
+{
+  "shots": [
+    {
+      "shot_id": "GJ-R02-SH001",
+      "kind": "start_frame",
+      "status": "candidate",
+      "path": "资产/媒体/镜头/GJ-R02-SH001-起始候选.png",
+      "sha256": "4e77cb79232944954c25c37b0eaa5e4354b4a284a8e414fdb64f0e678a9518a9",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "mode": "background_style_edit",
+        "prompt": "Edit image1 only its SET/BACKGROUND to match image2's South Street architectural visual style. Preserve the two foreground men EXACTLY: identical faces, closed eyes of man on right, hair ornaments, age, expressions, all costume weave and clasps, left shoulder small tear at screen right, seated support posture, screen-left man's supporting hand under the bent elbow and other arm behind the back, all fingers, legs boots and entire foreground framing. Replace distant all-dark timber alley with broad capital street of white plaster walls framed in dark reddish timber, layered two-three-story grey tiled eaves; match the cream cloth awnings and soft warm neutral materials in image2. Near wall behind seated man is now lower dark timber panels with a visible cream plaster section above, structurally plausible. The noodle stall belongs farther along this same right-hand pavement beyond these men, largely offscreen; do not force an entire stall into background left or move men. Keep late night gentle rain, restrained warm oil-lantern light and blue-grey night ambient, reduce excessive reflective wet road glare. No new people horses magic injuries weapons or text. This is precise background art-direction edit, not a new pose or costume design.",
+        "input_references": [
+          {
+            "kind": "edit_target",
+            "sha256": "8e0f9d5a12f55db609c1a1cb41f416907a4db0a626cf7dfe77fc6b81ebb4e6c3",
+            "execution_path": "D:\\projects\\jingshi-world\\资产\\媒体\\镜头\\GJ-R02-SH001-起始候选.png",
+            "retention": "执行时的输入内容由哈希标识；项目同路径已原地更新，不保留旧帧副本"
+          },
+          {
+            "master_id": "generated-ENV-S02",
+            "path": "资产/媒体/S02/S02-南街汤摊夜景.png",
+            "sha256": "f39538c942059fb82a5b7792510c0713f1490a2b1dcfc784aad740eaf983cb1c"
+          }
+        ]
+      },
+      "review": {
+        "passed": [
+          "人物面容、原顾闭眼靠坐与旅衣保持，左肩衣伤及双靴支撑可见",
+          "韩在原顾右侧，掌心已从前臂外侧上移到屈肘下方，双手分属可辨",
+          "白墙深木、灰瓦楼阁与开阔商街背景按当前S02风格更新"
+        ],
+        "remaining": [
+          "韩青另一手被遮挡，扶背落点待验证",
+          "静态托护不证明起身、承重、抓袖与步行连续成立",
+          "场景反打与汤摊相对位置待多视角核对",
+          "未生成动作、声音或视频"
+        ],
+        "reviewed_on": "2026-09-11",
+        "scope": "南街风格与静态托护候选；未验收动态与场景反打"
+      },
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11"
+    },
+    {
+      "shot_id": "GJ-R02-SH002",
+      "kind": "ensemble_reference",
+      "status": "candidate",
+      "path": "资产/媒体/镜头/GJ-R02-SH002-汤摊人物关系候选.png",
+      "sha256": "b3eb90dc5565652c81435b1ce4c492d955cd1e86229ca5c41e20b38464737d3d",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "mode": "reference_generation",
+        "prompt": "Generate a photorealistic 16:9 Chinese period drama ensemble blocking reference, using the supplied image as architectural, material and night lighting reference. Move the camera closer to the RIGHT-HAND soup stall, preserve its beige canopy posts, wooden counter, pot, white plaster and reddish dark timber buildings, with the open wet street visible on LEFT. Add a modest narrow wooden dining table at the OUTER END of the counter under the canopy, out of the street traffic lane; table is close enough to the counter's open end for the proprietor to serve a bowl with a normal reach, without reaching across the hot pot. Clearly show table edge and supporting legs. Exactly THREE different ordinary adult Chinese men, no soldiers or hero or horses. Sun,49, broad face, smile lines and short beard, chestnut cotton short robe beige-gray apron, stands behind the counter near its open end holding one ladle over pot rim, pausing and glancing toward the offscreen street. A full steaming bowl already sits on the counter close to dining table. Zhou,36, sturdy laborer broad forehead thick eyebrows rounder jaw, faded ochre cotton short robe light brown collar, sits at the near table holding his own almost-empty ceramic bowl just above table with both hands, glance toward Sun. Ding,39, slim angular rectangular face, gray-green cotton short robe smoke-brown collar, sits ADJACENT to Zhou on the SAME side, hands at rest, close enough to lightly touch his arm later but not yet touching. Distinct grounded period cloth-tied hairstyles, natural faces, no fashionable jewelry. Keep all three faces, Zhou's bowl and the separate full bowl readable, hand ownership clear. This is the still BEFORE anyone rises or serves; no repeated figures or simultaneous stages of action. Medium-wide eye-level candid composition showing the practical counter-to-table relationship and room beside seated diners. Gentle cool night rain outside canopy, restrained warm lamps, soft steam that does not cover faces. Maintain ordinary supper and concern, not conspiracy. No text, diagrams, captions, watermark, split panels or invented magical effects.",
+        "input_references": [
+          {
+            "path": "资产/媒体/S02/S02-南街汤摊夜景.png",
+            "sha256": "f39538c942059fb82a5b7792510c0713f1490a2b1dcfc784aad740eaf983cb1c",
+            "kind": "architecture_and_lighting_reference"
+          }
+        ],
+        "edit_chain": [
+          {
+            "tool": "image_gen.imagegen",
+            "input_sha256": "bea842e4f6e417b752f306ecb9b6939ac5ba0c53e6a2758f7a21173c497a5437",
+            "execution_path": "C:/Users/34839/.codex/generated_images/01a08a6e-819b-7af3-8d2e-1fa5eb7cd6e0/exec-edcfb657-20f6-4d23-ab50-f65e63f541be.png",
+            "prompt": "Make a surgical local edit to this image. Change ONLY the head orientation, eyes and facial expression of the standing soup proprietor on image RIGHT, holding the ladle. Preserve his exact 49-year-old identity, face shape, beard, hairstyle, clothes, body, arms and ladle position. Turn his head and eyes toward image LEFT, looking past the two seated diners toward a person at adult standing eye height on the street just outside the left edge of frame. He has paused with a quiet uncertain recognition: closed mouth, smile relaxed away, attentive gentle brows, no shock or sinister expression. He is NOT looking at the diners, not looking right, and not looking into camera. Everything else must remain unchanged: two seated men and their faces, hands, gaze and body positions, all bowls and ladle, steam, counter, table legs, stools, canopy, buildings, wet road, lighting, framing and image size. Do not add the offscreen person, soldiers, horses, text or any other object. This is one frame before the seated customer follows the proprietor's new gaze.",
+            "output_sha256": "b3eb90dc5565652c81435b1ce4c492d955cd1e86229ca5c41e20b38464737d3d"
+          }
+        ]
+      },
+      "review": {
+        "passed": [
+          "三个人物区分与周丁相邻座位可辨",
+          "桌面与支撑、周持旧碗和柜台备碗的落点可辨",
+          "右侧汤摊与左侧街面的美术方向可辨",
+          "孙头与视线转向左侧街面，闭口收笑；周丁仍朝孙，形成随后循视线的起点"
+        ],
+        "remaining": [
+          "孙向左的视线已修，实际护送者站高与经过位置仍待合景核接",
+          "端碗可及距离、轻按和起坐尚无动态验证",
+          "桌位与全街通行带及SH001靠坐点尚需空间核对",
+          "C08、C09、C10仅同框候选，不构成已选人物身份母版",
+          "顾韩与四卒四马未合入"
+        ],
+        "reviewed_on": "2026-09-11",
+        "scope": "三人同框与桌柜构图候选"
+      },
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11"
+    }
+  ]
+}

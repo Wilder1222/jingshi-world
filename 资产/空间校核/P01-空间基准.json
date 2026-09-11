@@ -6,6 +6,17 @@
     3.9
   ],
   "cabin_width": 1.8,
+  "travel_envelope": {
+    "status": "awaiting_full_draft_geometry",
+    "units": "m",
+    "four_abreast_draft_outer_width": null,
+    "wheel_outer_width": null,
+    "lateral_motion_allowance_each_side": null,
+    "full_train_length": null,
+    "definition": "完整行车包络E=max(四马并列挽具外缘宽,车轮外缘宽)+2*单侧动态余量；车厢宽不是E",
+    "road_parallel_envelopes_min": 8,
+    "verification": "未知值不能按0处理；道路照片无标尺，尚不能核验八列完整包络。右门开启及车旁动作区另加，不含在直行宽度内。"
+  },
   "floor_z": 1.05,
   "roof_z": 2.7,
   "driver_x": [

@@ -22,6 +22,8 @@ def read(path):
 
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.is_file() and path.read_bytes() == text.encode("utf-8"):
+        return
     path.write_text(text, encoding="utf-8", newline="\n")
 
 

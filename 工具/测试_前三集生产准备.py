@@ -15,6 +15,51 @@ spec.loader.exec_module(production)
 
 
 class ProductionTests(unittest.TestCase):
+    def test_required_coverage_does_not_infer_missing_views(self):
+        data = copy.deepcopy(self.data)
+        report = production.render_missing(data)
+        coverage = report.split('## 主要人物与重点场景必要项覆盖')[1].split('## 新增必要包')[0]
+        c04 = next(line for line in coverage.splitlines() if line.startswith('| C04 '))
+        self.assertIn('缺：未登记交付', c04)
+        self.assertIn('C04-表情九宫格.png', c04)
+        self.assertNotIn('C04-侧脸.png', c04)
+        s02 = next(line for line in coverage.splitlines() if line.startswith('| S02 '))
+        self.assertEqual(s02.count('缺：未登记交付'), 2)
+        self.assertNotIn('同机位空底.png', s02)
+        c01 = next(line for line in coverage.splitlines() if line.startswith('| C01 '))
+        self.assertIn('C01-表情九宫格.png', c01)
+        self.assertIn('C02-表情九宫格.png', c01)
+        data['necessary_asset_packages'] = [p for p in data['necessary_asset_packages'] if p['id'] != 'C01-FULL-SIDE']
+        changed = production.render_missing(data)
+        c01 = next(line for line in changed.splitlines() if line.startswith('| C01 '))
+        self.assertIn('缺：未登记交付', c01)
+        self.assertNotIn('四分之三', c01)
+
+    def test_court_horse_labels_match_current_convoy(self):
+        plan = json.loads((ROOT / '资产/空间校核/P01-空间基准.json').read_text(encoding='utf-8'))
+        convoy = plan['convoy']
+        horses = {convoy[k].split(' / ')[1] for k in ('front_left', 'front_right', 'rear_left', 'rear_right')}
+        self.assertEqual(horses, {'H01', 'H02', 'H05', 'H08'})
+        diagram = (ROOT / '资产/空间校核/顾府二维关系.svg').read_text(encoding='utf-8')
+        self.assertEqual(set(re.findall(r'\bH\d{2}\b', diagram)), horses)
+        self.assertIsNone(plan['travel_envelope']['four_abreast_draft_outer_width'])
+        self.assertIn('资产/空间校核/P01-空间基准.json', self.data['source_sha256'])
+
+    def test_missing_report_keeps_necessary_candidates_separate(self):
+        data = copy.deepcopy(self.data)
+        report = production.render_missing(data)
+        self.assertIn('新增必要包与分镜候选', report)
+        self.assertIn('尚未通过的核心参考', report)
+        for item in data['necessary_asset_packages']:
+            self.assertIn('[' + item['id'] + ']', report)
+        task_states = [(t['id'], t['media_status']) for t in data['tasks']]
+        data['necessary_asset_packages'] = []
+        empty = production.render_missing(data)
+        self.assertIn('必要包登记共0项', empty)
+        self.assertEqual(task_states, [(t['id'], t['media_status']) for t in data['tasks']])
+        self.assertEqual(report.split('由生产任务和实际媒体登记生成：')[1].split('\n')[0],
+                         empty.split('由生产任务和实际媒体登记生成：')[1].split('\n')[0])
+
     def test_global_creation_rules_invalidate_production_fingerprint(self):
         original_read = Path.read_bytes
         for source_name in production.CREATION_RULE_SOURCES:
@@ -109,14 +154,45 @@ class ProductionTests(unittest.TestCase):
             self.assertTrue(all(s[key] for s in shots))
         first = self.data['release_plan']['episodes'][0]['shots']
         self.assertIn('许扶顾右侧', first[6]['blocking_continuity'])
-        self.assertIn('第二波只在末人离开后', first[12]['blocking_continuity'])
+        self.assertIn('第二波只在末人离开后', first[11]['blocking_continuity'])
         second = self.data['release_plan']['episodes'][1]['shots']
         self.assertIn('不暗示意识更替', second[5]['blocking_continuity'])
         self.assertIn('只合门不落闩', second[-1]['blocking_continuity'])
 
+    def test_combat_contract_rejects_wrong_sequence_and_duel_roles(self):
+        mutations = [
+            lambda e: e['shots'][7].update(combat_phase='formation_four_and_duel'),
+            lambda e: e['shots'][15].update(combat_phase='elite_individual_pressure'),
+            lambda e: e['shots'][11].pop('combat_phase'),
+            lambda e: e['combat_contract'].update(blocked_opponents=['C06', 'C57', 'C58', 'C59']),
+            lambda e: e['combat_contract'].update(formation_members=production.VETS + ['C01']),
+            lambda e: e['combat_contract'].update(duel_participants=['C01', 'C07']),
+            lambda e: e['combat_contract'].update(held_during_duel=True),
+            lambda e: e['combat_contract'].update(hero_in_formation=True),
+            lambda e: e['combat_contract'].update(first_wave_resolution='planned_handover'),
+        ]
+        for mutate in mutations:
+            with self.subTest(mutation=mutate):
+                data = copy.deepcopy(self.data)
+                mutate(data['release_plan']['episodes'][0])
+                with self.assertRaisesRegex(ValueError, '林战'):
+                    production.validate(data)
+
+    def test_first_wave_handovers_precede_full_team_combat(self):
+        shots = self.data['release_plan']['episodes'][0]['shots']
+        self.assertIn('二人此镜不参加', shots[4]['blocking_continuity'])
+        self.assertIn('顾靠车自行站稳', shots[6]['action'])
+        self.assertIn('许再拔刀入战', shots[6]['action'])
+        self.assertIn('第一波十人', shots[10]['action'])
+        self.assertIn('最后一人退净', shots[10]['action'])
+        self.assertIn('五名高手', shots[11]['action'])
+        self.assertIn('五卒仍捉对接敌', shots[12]['action'])
+        self.assertIn('杜令合', shots[14]['action'])
+        self.assertIn('原顾与黄祁留在阵旁独斗', shots[14]['action'])
+
     def test_matched_references_are_tracked_without_selecting_tasks(self):
         refs = self.data['matched_asset_references']
-        self.assertEqual(len(refs), 13)
+        self.assertEqual(len(refs), 18)
         self.assertEqual([m['asset_ids'][0] for m in refs[:6]], ['P19', 'S06', 'C06', 'C11', 'C07', 'C58'])
         keys = {m['id'] for m in refs}
         for m in refs:
@@ -134,19 +210,34 @@ class ProductionTests(unittest.TestCase):
             self.assertEqual(row['source_kind'], 'user_attachment_edited')
             self.assertNotEqual(row['sha256'], row['original_sha256'])
             self.assertEqual(hashlib.sha256((production.ROOT / row['original_path']).read_bytes()).hexdigest(), row['original_sha256'])
-            self.assertEqual(row['generation']['style_reference_paths'], ['资产/媒体/C01/C01-肖像母版.jpg'])
+            self.assertEqual(row['generation']['style_reference_paths'], ['参考/用户媒体/C01-肖像原始参考.jpg'])
+            self.assertEqual(row['current_style_anchor']['sha256'], masters['portrait-C01']['sha256'])
+            for path, digest in row['generation']['style_reference_sha256'].items():
+                self.assertEqual(hashlib.sha256((production.ROOT / path).read_bytes()).hexdigest(), digest)
+                self.assertNotEqual(digest, masters['portrait-C01']['sha256'])
             self.assertTrue(row['generation']['prompts'])
             self.assertEqual(row['task_ids'], [])
         self.assertFalse(any('C25' in t['asset_ids'] for t in self.data['tasks']))
+
+    def test_replaced_hero_keeps_execution_provenance_and_rejects_stale_anchor(self):
+        registry = production.read(production.ROOT / '资产/媒体/母版登记.json')
+        sources = production.validate_media_provenance(production.ROOT, registry)
+        self.assertIn('参考/用户媒体/C01-肖像原始参考.jpg', sources)
+        self.assertIn('资产/媒体/C01/C01-严格侧面全身.png', sources)
+        row = next(r for r in registry['generated_assets'] if r['id'] == 'generated-C06-FACE')
+        row['current_style_anchor']['sha256'] = row['generation']['execution_style_references'][0]['sha256']
+        with self.assertRaisesRegex(ValueError, '当前视觉锚点已失效'):
+            production.validate_media_provenance(production.ROOT, registry)
 
     def test_counts_and_nonmedia_status(self):
         tasks = self.data['tasks']
         self.assertEqual(len(tasks), 178)
         self.assertEqual(sum(t['method'] == 'MJ' for t in tasks), 162)
         selected = [t for t in tasks if t['media_status'] == 'selected']
-        self.assertEqual({t['id'] for t in selected}, {'MB-C01-PROFILE', 'MB-P06-BASE', 'MB-P07-BASE', 'MB-P03-BASE', 'MB-P04-BASE', 'MB-P10-BOWL', 'MB-P10-WATER', 'MB-P10-BASE', 'MB-P15-BASE', 'MB-C01-DRY', 'MB-P14-BASE', 'MB-P16-BASE', 'MB-C01-FACE', 'MB-C04-FACE', 'MB-C16-FACE', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-C01-FULL', 'MB-C01-FULL-3Q', 'MB-C04-FULL-3Q', 'MB-C16-FULL-3Q', 'MB-C04-COSTUME-DETAIL', 'MB-C17-FACE', 'MB-C17-FULL', 'MB-C20-FACE', 'MB-C20-FULL', 'MB-C03-FACE', 'MB-C03-FULL', 'MB-C03-FULL-3Q', 'MB-C23-FACE', 'MB-C23-FULL', 'MB-P20-BASE', 'MB-WEAPON-BLADE', 'MB-WEAPON-BOW', 'MB-WEAPON-SHIELD', 'MB-P02-BASE', 'MB-BAG-C23', 'MB-P01-BASE', 'MB-P19-BASE'})
+        self.assertEqual({t['id'] for t in selected}, {'MB-ENV-S02', 'MB-C06-FULL', 'MB-C06-FACE', 'MB-P12-BASE', 'MB-P17-BASE', 'MB-P18-POUCH', 'MB-P18-BASE', 'MB-P09-BASE', 'MB-C16-FULL-BACK', 'MB-C04-FULL-BACK', 'MB-C03-FULL-BACK', 'MB-C01-FULL-BACK', 'MB-C16-THREEQUARTER', 'MB-C16-PROFILE', 'MB-C04-THREEQUARTER', 'MB-C04-PROFILE', 'MB-C03-THREEQUARTER', 'MB-C01-THREEQUARTER', 'MB-C03-PROFILE', 'MB-C01-PROFILE', 'MB-P06-BASE', 'MB-P07-BASE', 'MB-P03-BASE', 'MB-P04-BASE', 'MB-P10-BOWL', 'MB-P10-WATER', 'MB-P10-BASE', 'MB-P15-BASE', 'MB-C01-DRY', 'MB-P14-BASE', 'MB-P16-BASE', 'MB-C01-FACE', 'MB-C04-FACE', 'MB-C16-FACE', 'MB-C04-FULL', 'MB-C16-FULL', 'MB-C01-FULL', 'MB-C01-FULL-3Q', 'MB-C04-FULL-3Q', 'MB-C16-FULL-3Q', 'MB-C04-COSTUME-DETAIL', 'MB-C17-FACE', 'MB-C17-FULL', 'MB-C20-FACE', 'MB-C20-FULL', 'MB-C03-FACE', 'MB-C03-FULL', 'MB-C03-FULL-3Q', 'MB-C23-FACE', 'MB-C23-FULL', 'MB-P20-BASE', 'MB-WEAPON-BLADE', 'MB-WEAPON-BOW', 'MB-WEAPON-SHIELD', 'MB-P02-BASE', 'MB-BAG-C23', 'MB-P01-BASE', 'MB-P19-BASE'})
         self.assertEqual(selected[0]['media_status'], 'selected')
-        candidates = {'MB-C60-SILHOUETTE', 'MB-P01-HORSE', 'MB-P01-CABIN', 'MB-C03-FULL-BACK', 'MB-C01-FULL-BACK', 'MB-C16-FULL-BACK', 'MB-C04-FULL-BACK', 'MB-C01-COSTUME-DETAIL', 'MB-C16-COSTUME-DETAIL', 'MB-S01-W1-01', 'MB-S01-W1-05'}
+        candidates = {'POST-P09-BROKEN', 'MB-C60-SILHOUETTE', 'MB-P01-HORSE', 'MB-P01-CABIN', 'MB-C01-COSTUME-DETAIL', 'MB-C16-COSTUME-DETAIL', 'MB-S01-W1-01', 'MB-S01-W1-05'}
+        candidates.update({'MB-ENV-S01', 'MB-ENV-S04', 'MB-ENV-S05', 'MB-ENV-S03-HALL', 'MB-ENV-S03-COURT'})
         self.assertEqual({t['id'] for t in tasks if t['media_status'] == 'generated_candidate'}, candidates)
         self.assertTrue(all(t['media_status'] == 'not_generated' for t in tasks if t not in selected and t['id'] not in candidates))
         self.assertEqual(len(self.data['scene_ids']), 16)
@@ -228,6 +319,68 @@ class ProductionTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     production.load_pending_masters()
 
+    def test_dialogue_references_cover_script_once_and_reject_missing_or_repeated_lines(self):
+        release = self.data['release_plan']
+        resolved = production.resolve_dialogue(release)
+        rescue = resolved['GJ-R02-SH022']
+        self.assertEqual([row['speaker'] for row in rescue], ['今顾', '韩青', '今顾', '韩青'])
+        self.assertEqual(sum(row['characters'] for row in rescue), 30)
+        self.assertEqual(resolved['GJ-R03-SH012'][0]['text'], '开门的先问。')
+        self.assertEqual(resolved['GJ-R03-SH013'][0]['text'], '夜里收得晚的，回头来。')
+        self.assertNotIn('跨集省略的接续状态', {r['speaker'] for rows in resolved.values() for r in rows})
+        for mutation in ('missing', 'duplicate', 'overflow', 'reorder'):
+            with self.subTest(mutation=mutation):
+                changed = copy.deepcopy(release)
+                refs = changed['episodes'][1]['shots'][21]['dialogue_refs']
+                if mutation == 'missing':
+                    refs.pop()
+                elif mutation == 'duplicate':
+                    refs.append(copy.deepcopy(refs[-1]))
+                elif mutation == 'overflow':
+                    refs[0]['turn'] = 999
+                else:
+                    refs.reverse()
+                with self.assertRaisesRegex(ValueError, '对白'):
+                    production.resolve_dialogue(changed)
+
+    def test_dialogue_export_reads_current_script_without_copying_it_into_shot_source(self):
+        import 对白节奏核对 as dialogue
+        original = Path.read_text
+        def revised(path, *args, **kwargs):
+            value = original(path, *args, **kwargs)
+            if path.name == 'GJ-EP01-归京.md':
+                value = value.replace('认得他们？', '见过他们？')
+            return value
+        with patch.object(Path, 'read_text', revised):
+            current = dialogue.resolve_dialogue(self.data['release_plan'])
+        self.assertEqual(current['GJ-R02-SH022'][0]['text'], '见过他们？')
+        rendered = dialogue.render_dialogue(self.data['release_plan']['episodes'][1], current)
+        self.assertIn('见过他们？', rendered)
+        self.assertNotIn('认得他们？', rendered)
+
+    def test_2d_blocking_rejects_extra_enemy_and_hero_inside_formation(self):
+        release = self.data['release_plan']
+        plan = production.validate_blocking(release)
+        self.assertEqual([len(p['actors']) for p in plan['panels']], [16, 6, 11, 11, 12, 6])
+        for mutation in ('extra', 'inside', 'early_formation', 'wrong_exit', 'bad_shot', 'uncleared'):
+            with self.subTest(mutation=mutation):
+                changed = copy.deepcopy(release)
+                panels = {p['key']: p for p in changed['episodes'][0]['blocking_plan']['panels']}
+                if mutation == 'extra':
+                    panels['pressed']['actors'].append(dict(id='S01-W1-01', x=900, y=200))
+                elif mutation == 'inside':
+                    next(a for a in panels['formation']['actors'] if a['id'] == 'C01').update(x=660, y=400)
+                elif mutation == 'early_formation':
+                    panels['pressed']['formation'] = True
+                elif mutation == 'wrong_exit':
+                    panels['support']['second_wave_offstage'] = 4
+                elif mutation == 'uncleared':
+                    panels['cleared']['actors'].append(dict(id='C06', x=900, y=200))
+                else:
+                    panels['formation']['shot_ids'] = ['GJ-R03-SH001']
+                with self.assertRaisesRegex(ValueError, '二维走位'):
+                    production.validate_blocking(changed)
+
     def test_current_face_count_in_entry_points(self):
         for filename in ['README.md', '讨论状态.md', '索引/核验记录.md']:
             content = (ROOT / filename).read_text(encoding='utf-8')
@@ -250,7 +403,7 @@ class ProductionTests(unittest.TestCase):
         self.assertEqual(full['actual_file'], '资产/媒体/C01/C01-全身候选.png')
         back = tasks['MB-C01-FULL-BACK']
         self.assertNotIn('MB-C01-FULL', back['unresolved_dependencies'])
-        self.assertEqual(back['status'], 'awaiting_candidate_review')
+        self.assertEqual(back['status'], 'selected_generated_asset')
 
     def test_portrait_hash_and_path_rejected(self):
         original_read = production.read
@@ -277,7 +430,22 @@ class ProductionTests(unittest.TestCase):
             self.assertEqual(m['task_ids'], [])
             self.assertEqual(m['spatial_status'], 'not_verified')
         tasks = {t['id']: t for t in self.data['tasks']}
-        for tid in ['MB-ENV-S04', 'MB-ENV-S05', 'MB-ENV-S03-HALL', 'MB-ENV-S03-CORRIDOR']:
+        study = tasks['MB-ENV-S04']
+        self.assertEqual(study['media_status'], 'generated_candidate')
+        self.assertIsNotNone(study['actual_file'])
+        self.assertIsNone(study['selected_master_id'])
+        self.assertIn('POST-PLAN-COURT', study['unresolved_dependencies'])
+        bedroom = tasks['MB-ENV-S05']
+        self.assertEqual(bedroom['media_status'], 'generated_candidate')
+        self.assertIsNotNone(bedroom['actual_file'])
+        self.assertIsNone(bedroom['selected_master_id'])
+        self.assertIn('POST-PLAN-COURT', bedroom['unresolved_dependencies'])
+        hall = tasks['MB-ENV-S03-HALL']
+        self.assertEqual(hall['media_status'], 'generated_candidate')
+        self.assertIsNotNone(hall['actual_file'])
+        self.assertIsNone(hall['selected_master_id'])
+        self.assertIn('POST-PLAN-COURT', hall['unresolved_dependencies'])
+        for tid in ['MB-ENV-S03-CORRIDOR']:
             self.assertIsNone(tasks[tid]['actual_file'])
             self.assertIn('POST-PLAN-COURT', tasks[tid]['unresolved_dependencies'])
             self.assertEqual(tasks[tid]['status'], 'awaiting_parent_selection')
@@ -301,7 +469,12 @@ class ProductionTests(unittest.TestCase):
             refs = {r['master_id'] for r in tasks[tid]['input_references']}
             self.assertIn('architecture-S03-COURT', refs)
             self.assertNotIn('architecture-S03-GARDEN', refs)
-            self.assertIsNone(tasks[tid]['actual_file'])
+            if tid == 'MB-ENV-S03-COURT':
+                self.assertIsNotNone(tasks[tid]['actual_file'])
+                self.assertEqual(tasks[tid]['media_status'], 'generated_candidate')
+                self.assertIsNone(tasks[tid]['selected_master_id'])
+            else:
+                self.assertIsNone(tasks[tid]['actual_file'])
             self.assertTrue(tasks[tid]['unresolved_dependencies'])
 
     def test_edited_architecture_keeps_original_and_separate_layout(self):
@@ -361,7 +534,7 @@ class ProductionTests(unittest.TestCase):
     def test_script_budgets_and_cast(self):
         episodes = json.loads((ROOT / '索引/数据/episodes.json').read_text(encoding='utf-8'))[:3]
         self.assertEqual([len(e['scenes']) for e in episodes], [6, 5, 5])
-        self.assertEqual([e['duration_estimate_seconds'] for e in episodes], [375, 180, 285])
+        self.assertEqual([e['duration_estimate_seconds'] for e in episodes], [375, 180, 180])
         for e in episodes:
             text = (ROOT / e['path']).read_text(encoding='utf-8')
             budgets = [int(x) for x in re.findall(r'^### .*?节奏预算(\d+)秒', text, re.M)]
@@ -438,8 +611,9 @@ class ProductionTests(unittest.TestCase):
         scene = script.split('### 1-1', 1)[1].split('### 1-2', 1)[0]
         self.assertLess(scene.index('林侧一声'), scene.index('**黄祁：**撤。'))
         self.assertLess(scene.index('**黄祁：**撤。'), scene.index('移动的巡灯'))
-        self.assertIn('却没有赢下交锋', scene)
-        for old in ('反击擦破黄祁', '罗顺接住他', '两名刺客', '右上臂'):
+        self.assertIn('五卒打退第一波，结阵拦住第二波四名高手', scene)
+        self.assertIn('原顾独斗头领败下', scene)
+        for old in ('反击擦破黄祁', '罗顺接住他', '右上臂'):
             self.assertNotIn(old, scene)
 
     def test_mystery_is_faceless_and_retreat_has_no_wound(self):
@@ -504,7 +678,7 @@ class ProductionTests(unittest.TestCase):
             self.assertIn('MB-P01-BASE', tasks[key]['depends_on'])
         self.assertIn('POST-PLAN-FOREST', tasks['MB-P01-RAIN-STOP']['depends_on'])
         script=(ROOT/'剧集/01-归京/GJ-EP01-归京.md').read_text(encoding='utf-8')
-        self.assertLess(script.index('打开右侧车门'), script.index('黄祁来得太快'))
+        self.assertLess(script.index('打开右侧车门'), script.index('黄祁不跟五卒缠斗'))
         for phrase in ('四匹棕马并列拉车', '六个人、八匹马', '车轮已损', '报出遇袭处和留场车马的位置'):
             self.assertIn(phrase, script)
         card=(ROOT/'资产/道具/P01-四驾封闭豪华马车.md').read_text(encoding='utf-8')
@@ -526,7 +700,7 @@ class ProductionTests(unittest.TestCase):
         eps = json.loads((ROOT/'索引/数据/episodes.json').read_text(encoding='utf-8'))[:3]
         for i, scene in enumerate(s for e in eps for s in e['scenes']):
             self.assertEqual('P20' in scene['prop_ids'], i < 3)
-            self.assertEqual('P21' in scene['prop_ids'], i < 3)
+            self.assertEqual('P21' in scene['prop_ids'], i < 3 or scene['id'] == 'GJ-EP02-SC04')
 
     def test_personal_weapons_and_handovers(self):
         tasks = {t['id']: t for t in self.data['tasks']}
@@ -540,7 +714,7 @@ class ProductionTests(unittest.TestCase):
         self.assertIn('closed', tasks['MB-WEAPON-BOW']['prompt_en'])
         self.assertIn('POST-KIT', tasks['MB-C20-ARMOR']['depends_on'])
         script=(ROOT/'剧集/01-归京/GJ-EP01-归京.md').read_text(encoding='utf-8')
-        for phrase in ('韩才腾手用刀', '原顾此时还由许扶着', '从许手里接回原顾', '五副轻皮内甲陆续取下', '之后都是卸甲便衣'):
+        for phrase in ('韩才腾手用刀', '许看他确已站稳，才退回同伴身边拔刀', '从许手里接回原顾', '五副轻皮内甲陆续取下', '之后都是卸甲便衣'):
             self.assertIn(phrase, script)
         self.assertIn('不穿透皮甲', tasks['POST-FX-COPPER']['acceptance'])
 
@@ -617,7 +791,7 @@ class ProductionTests(unittest.TestCase):
             self.assertIn(phrase,tasks['MB-ENV-S01']['prompt_en'])
         self.assertIn('至少八辆',tasks['POST-PLAN-FOREST']['acceptance'])
         script=(ROOT/'剧集/01-归京/GJ-EP01-归京.md').read_text(encoding='utf-8')
-        for phrase in ('八辆马车并行','没有横越整幅官道','六个人、八匹马'):
+        for phrase in ('八辆马车并行','不横越整条宽官道','六个人、八匹马'):
             self.assertIn(phrase,script)
         world=(ROOT/'设定/世界观与终局.md').read_text(encoding='utf-8')
         for phrase in ('现银和人手始终有限','爵位、食邑和军权已经失去'):
@@ -656,13 +830,47 @@ class ProductionTests(unittest.TestCase):
         for a,b in [('十个不同体量的身影形成第一波','第一波十人依次退入侧后林隙'),
                     ('第一波十人依次退入侧后林隙','第二波恰好五人'),
                     ('第二波恰好五人','左肩衣料再添一道擦破'),
-                    ('左肩衣料再添一道擦破','林侧一声极短的金铁轻鸣')]:
+                    ('左肩衣料再添一道擦破','林侧一声清越剑鸣')]:
             self.assertLess(scene.index(a),scene.index(b))
         self.assertIn('不能重新以满状态接战',scene)
-        self.assertIn('两拨。先十个，后五个',script)
+        self.assertIn('第一波已经退净，不返回战团',scene)
+        self.assertIn('第二波恰好五人',scene)
         script3=(ROOT/'剧集/01-归京/GJ-EP03-门外的人.md').read_text(encoding='utf-8')
-        self.assertIn('两拨人要杀我',script3)
+        self.assertIn('先去车行核。别跟林道那辆混。',script3)
+        self.assertIn('没有使两起行动自动并案',script3)
 
+
+    def test_xianxia_climax_and_recovery_preserve_causality(self):
+        first, second, third = self.data['release_plan']['episodes']
+        shots = {s['id']: s for e in (first, second, third) for s in e['shots']}
+        self.assertLessEqual(shots['GJ-R01-SH001']['end_frame'], 5 * 24)
+        self.assertIn('短芒', shots['GJ-R01-SH001']['action'])
+        for sid, phrase in [('GJ-R01-SH015', '护罩'), ('GJ-R01-SH019', '护体真气'),
+                            ('GJ-R01-SH021', '五道虚影'), ('GJ-R01-SH025', '合眼'),
+                            ('GJ-R02-SH001', '睁眼能回应才扶起')]:
+            self.assertIn(phrase, shots[sid]['action'])
+        self.assertIn('客观全景', shots['GJ-R01-SH021']['action'])
+        self.assertIn('无新血伤', shots['GJ-R01-SH022']['action'])
+        self.assertIn('不拥有林中主观记忆', shots['GJ-R02-SH022']['blocking_continuity'])
+        # Retimed scene totals must agree with the authored scene ledger, not only episode totals.
+        totals = {}
+        for e in (first, second, third):
+            for shot in e['shots']:
+                sid = shot['scene_id']
+                totals[sid] = totals.get(sid, 0) + shot['end_frame'] - shot['start_frame']
+        ledger = json.loads((ROOT/'索引/数据/episodes.json').read_text(encoding='utf-8'))
+        for ep in ledger:
+            for scene in ep.get('scenes', []):
+                if scene['id'] in totals:
+                    self.assertEqual(totals[scene['id']], scene['duration_estimate_seconds'] * 24)
+        script = (ROOT/'剧集/01-归京/GJ-EP01-归京.md').read_text(encoding='utf-8')
+        first_scene = script.split('### 1-1', 1)[1].split('<a id="rel02">', 1)[0]
+        self.assertLess(first_scene.index('气膜先散'), first_scene.index('林侧一声清越剑鸣'))
+        self.assertLess(first_scene.index('剑气化形'), first_scene.index('**黄祁：**撤。'))
+        self.assertLess(first_scene.index('**黄祁：**撤。'), first_scene.index('彻底昏厥'))
+        tasks = {t['id']: t for t in self.data['tasks']}
+        self.assertIn('客观全景证明退敌', tasks['POST-FX-COPPER']['acceptance'])
+        self.assertIn('伤疲昏厥不等于返府意识更替', tasks['POST-ACTION']['acceptance'])
 
     def test_release_split_preserves_stable_scene_ids(self):
         releases = self.data['release_plan']['episodes']
@@ -683,6 +891,55 @@ class ProductionTests(unittest.TestCase):
         shots[1]['id'] = shots[0]['id']
         with self.assertRaisesRegex(ValueError, '分镜编号'):
             production.validate(data)
+
+    def test_forest_subshots_cover_parent_windows_and_export(self):
+        release = self.data['release_plan']
+        parents = [s for e in release['episodes'] for s in e['shots'] if 'subshots' in s]
+        self.assertEqual({s['id'] for s in parents},
+                         {f'GJ-R01-SH{n:03}' for n in (8, 15, 17, 18, 19, 20, 21, 22)})
+        self.assertEqual(sum(len(s['subshots']) for s in parents), 19)
+        rendered = production.render_release(release)
+        for parent in parents:
+            children = parent['subshots']
+            self.assertEqual(children[0]['start_frame'], parent['start_frame'])
+            self.assertEqual(children[-1]['end_frame'], parent['end_frame'])
+            self.assertEqual(sum(c['end_frame'] - c['start_frame'] for c in children),
+                             parent['end_frame'] - parent['start_frame'])
+            for child in children:
+                self.assertIn(child['id'], rendered)
+                for key in ('state_in', 'action', 'camera', 'environment', 'sound', 'state_out', 'cut_cue'):
+                    self.assertIn(child[key], rendered)
+        climax = next(s for s in parents if s['id'] == 'GJ-R01-SH021')
+        self.assertEqual([c['viewpoint'] for c in climax['subshots']],
+                         ['subjective', 'objective', 'objective'])
+        self.assertEqual(climax['subshots'][0]['subjective_owner'], 'C01')
+        self.assertIn('五名刺客均退开', climax['subshots'][1]['state_out'])
+
+    def test_invalid_subshot_windows_ownership_and_media_rejected(self):
+        mutations = {
+            'gap': lambda p: p['subshots'][1].update(start_frame=p['subshots'][1]['start_frame'] + 1),
+            'overlap': lambda p: p['subshots'][1].update(start_frame=p['subshots'][1]['start_frame'] - 1),
+            'overflow': lambda p: p['subshots'][-1].update(end_frame=p['end_frame'] + 1),
+            'unfilled': lambda p: p['subshots'][-1].update(end_frame=p['end_frame'] - 1),
+            'fraction': lambda p: p['subshots'][0].update(start_frame=float(p['start_frame'])),
+            'duplicate': lambda p: p['subshots'][1].update(id=p['subshots'][0]['id']),
+            'foreign_parent': lambda p: p['subshots'][0].update(parent_id='GJ-R02-SH001'),
+            'foreign_id': lambda p: p['subshots'][0].update(id='GJ-R02-SH001-A'),
+            'missing_link': lambda p: p['subshots'][1].update(depends_on=[]),
+            'claimed_media': lambda p: p['subshots'][0].update(media_status='generated'),
+            'wrong_memory': lambda p: p['subshots'][0].update(subjective_owner='C02'),
+            'empty_track': lambda p: p['subshots'][0].update(environment=''),
+            'invalid_view': lambda p: p['subshots'][0].update(viewpoint='omniscient'),
+            'empty_list': lambda p: p.update(subshots=[]),
+        }
+        for label, mutate in mutations.items():
+            with self.subTest(case=label):
+                data = copy.deepcopy(self.data)
+                parent = next(s for s in data['release_plan']['episodes'][0]['shots']
+                              if s['id'] == 'GJ-R01-SH021')
+                mutate(parent)
+                with self.assertRaises(ValueError):
+                    production.validate(data)
 
     def test_release_scope_and_scene_metadata_rejected(self):
         data = copy.deepcopy(self.data)
@@ -815,7 +1072,11 @@ class ProductionTests(unittest.TestCase):
                 self.assertIn(phrase, tasks[f'MB-{cid}-{suffix}']['prompt_en'])
         self.assertIn('cotton padding layer', tasks['MB-C04-COSTUME-DETAIL']['prompt_en'])
         self.assertIn('silk-twill', tasks['MB-P14-BASE']['prompt_en'])
-        self.assertIn('woven brocade panels', tasks['MB-C01-RAIN-POST']['prompt_en'])
+        for suffix in ('FULL', 'COSTUME-DETAIL', 'RAIN-PRE', 'RAIN-POST'):
+            prompt = tasks[f'MB-C01-{suffix}']['prompt_en']
+            self.assertIn('mountain and cloud landscape weave', prompt)
+            self.assertIn('two matching antique silver cloud chest clasps', prompt)
+            self.assertNotIn('dark-gold flowing geometric', prompt)
 
     def test_portrait_language_does_not_pollute_empty_assets(self):
         for task in self.data['tasks']:

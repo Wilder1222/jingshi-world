@@ -6,10 +6,16 @@ import hashlib
 import io
 import json
 import os
+import tempfile
+from itertools import groupby
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from 母版匹配 import load_generated, render_mapping, render_missing
+from 母版匹配 import load_generated, render_mapping, render_missing, validate_media_provenance
+from 平台制作分工 import bind_routes, render_routes
+from 必要资产包 import load_packages
+from 对白节奏核对 import resolve_dialogue, render_dialogue
+from 林战二维走位 import validate_blocking, render_blocking
 
 ROOT = Path(__file__).resolve().parents[1]
 PACK = ROOT / '资产/生产准备/前三集-v1.9'
@@ -200,6 +206,67 @@ def load_matched_references():
     return refs
 
 
+def validate_subshots(shot, used_ids):
+    """子镜是父镜内的剪辑取用窗口，不是追加时长或已生成媒体。"""
+    if 'subshots' not in shot:
+        return
+    children = shot['subshots']
+    if not isinstance(children, list) or not children:
+        raise ValueError('子镜列表不可为空')
+    cursor, previous = shot['start_frame'], []
+    for child in children:
+        if not isinstance(child, dict):
+            raise ValueError('子镜须为对象')
+        cid = child.get('id')
+        if not isinstance(cid, str) or not cid.startswith(shot['id'] + '-') or cid in used_ids:
+            raise ValueError('子镜编号重复或不属于父镜')
+        used_ids.add(cid)
+        if child.get('parent_id') != shot['id']:
+            raise ValueError('子镜父引用失配')
+        if (not all(type(child.get(k)) is int for k in ('start_frame', 'end_frame'))
+                or child['start_frame'] != cursor
+                or child['end_frame'] <= cursor or child['end_frame'] > shot['end_frame']):
+            raise ValueError('子镜帧窗重叠、空隙或越出父镜')
+        if child.get('depends_on') != previous or child.get('media_status') != 'not_generated':
+            raise ValueError('子镜相邻依赖或媒体状态不实')
+        if child.get('viewpoint') not in ('objective', 'subjective'):
+            raise ValueError('子镜缺明确观察视角')
+        owner = child.get('subjective_owner')
+        if ((child['viewpoint'] == 'subjective' and owner != 'C01')
+                or (child['viewpoint'] == 'objective' and owner is not None)):
+            raise ValueError('林战主观所见只能属于原顾，客观镜不绑定意识')
+        if not all(isinstance(child.get(k), str) and child[k].strip() for k in
+                   ('purpose', 'state_in', 'action', 'camera', 'environment', 'sound', 'state_out', 'cut_cue')):
+            raise ValueError('子镜缺动作、声画轨或首尾接续')
+        cursor, previous = child['end_frame'], [cid]
+    if cursor != shot['end_frame']:
+        raise ValueError('子镜未覆盖完整父镜预算')
+
+
+def validate_combat_contract(delivery):
+    """校验首集的胜负顺序与结阵／独斗分工，防止导出时回退到旧编排。"""
+    phases = [s.get('combat_phase') for s in delivery['shots']]
+    sequence = [phase for phase, _ in groupby(phases)]
+    expected = ['ambush', 'individual_first_wave', 'first_wave_retreat',
+                'elite_individual_pressure', 'formation_four_and_duel',
+                'collapse', 'rescue', 'withdrawal']
+    if sequence != expected:
+        raise ValueError('林战阶段须依次捉对、打退、高手施压、结阵独斗、倒下救场')
+    contract = delivery.get('combat_contract', {})
+    groups = {'formation_members': set(VETS),
+              'blocked_opponents': ASSASSINS - {'C06'},
+              'duel_participants': {'C01', 'C06'}}
+    for key, members in groups.items():
+        actual = contract.get(key)
+        if not isinstance(actual, list) or len(actual) != len(members) or set(actual) != members:
+            raise ValueError('林战分工须五卒结阵拦四、原顾与头领独斗')
+    if (contract.get('first_wave_resolution') != 'repelled_by_escorts'
+            or contract.get('hero_in_formation') is not False
+            or contract.get('held_during_duel') is not False
+            or contract.get('rescuer') != 'C60'):
+        raise ValueError('林战胜负或独斗护持约束失配')
+
+
 def validate(data):
     if data['selected_masters'] != load_masters():
         raise ValueError('生产母版与选用源登记不一致')
@@ -222,6 +289,7 @@ def validate(data):
         raise ValueError('前三发行集须180／195／180秒')
     expected_scenes = [[f'GJ-EP01-SC01'], [f'GJ-EP01-SC{i:02}' for i in range(2, 7)], [f'GJ-EP02-SC{i:02}' for i in range(1, 6)]]
     shot_ids = set()
+    subshot_ids = set()
     for delivery, expected in zip(deliveries, expected_scenes):
         if delivery['scene_ids'] != expected:
             raise ValueError('发行场次映射失配或后续门口戏提前')
@@ -244,11 +312,15 @@ def validate(data):
                 raise ValueError('分镜缺因果、运镜或声音')
             if not all(shot.get(k) for k in ('performance', 'blocking_continuity', 'cut_cue')):
                 raise ValueError('前三集逐镜表演、接续或切点缺失')
+            validate_subshots(shot, subshot_ids)
             totals[shot['scene_id']] += shot['end_frame'] - cursor
             cursor = shot['end_frame']
             previous = [shot['id']]
         if cursor != delivery['duration_seconds'] * 24 or any(total != data['scene_budgets'][sid] * 24 for sid, total in totals.items()):
             raise ValueError('分镜与场次／发行时长不一致')
+    validate_combat_contract(deliveries[0])
+    resolve_dialogue(release)
+    validate_blocking(release)
     if 'POST-RHYTHM3' not in by_id:
         raise ValueError('缺前三发行集节奏验收')
     for task in tasks:
@@ -503,17 +575,20 @@ def build_data():
         if t['category'] == '空间' and any(a.startswith(('S03', 'S04', 'S05', 'S06')) for a in t['asset_ids']):
             t['depends_on'].append('POST-PLAN-COURT')
             t['status'] = 'awaiting_parent_selection'
+    bind_routes(tasks, PACK / "平台制作分工源.json")
     visible = sorted({a for s in scenes for a in s['character_ids'] + s['location_ids'] + s['prop_ids']})
     masters = load_masters()
     pending = load_pending_masters()
     matched = load_matched_references()
     bind_masters(tasks, masters)
     generated = load_generated(tasks)
+    necessary_packages, package_paths = load_packages(ROOT)
+    package_paths |= validate_media_provenance(ROOT, read(ROOT / '资产/媒体/母版登记.json'))
     support_paths = {s['path'] for m in generated for s in m.get('supporting_assets', [])}
     paths = set(CREATION_RULE_SOURCES) | {p for t in tasks for p in t['source_paths']} | {
-        '索引/数据/episodes.json', '索引/数据/发行前三集.json', '资产/生产准备/前三集-v1.9/视觉任务源.json',
-        '资产/生产准备/前三集-v1.9/补充任务源.json', '工具/前三集生产准备.py',
-        '资产/媒体/母版登记.json', '工具/母版匹配.py', '索引/数据/characters.json', '索引/数据/locations.json'} | {m['path'] for m in masters} | {m['original_path'] for m in masters if m.get('original_path')} | {m['path'] for m in pending} | {m['path'] for m in matched} | {m['path'] for m in generated}
+        '索引/数据/episodes.json', '索引/数据/发行前三集.json', '资产/空间校核/顾府二维关系.svg', '资产/空间校核/P01-空间基准.json', '资产/生产准备/前三集-v1.9/视觉任务源.json',
+        '资产/生产准备/前三集-v1.9/补充任务源.json', '工具/前三集生产准备.py', '工具/对白节奏核对.py', '工具/林战二维走位.py',
+        '资产/媒体/母版登记.json', '工具/母版匹配.py', '工具/平台制作分工.py', '资产/生产准备/前三集-v1.9/平台制作分工源.json', '索引/数据/characters.json', '索引/数据/locations.json'} | {m['path'] for m in masters} | {m['original_path'] for m in masters if m.get('original_path')} | {m['path'] for m in pending} | {m['path'] for m in matched} | {m['path'] for m in generated}
     data = dict(format='jingshi-production-working-draft', canonical=False, revision='v1.9',
                 baseline_commit=cfg['baseline_commit'], media_status='partially_selected', selected_masters=masters, pending_master_candidates=pending, matched_asset_references=matched, generated_assets=generated,
                 model=cfg['model'], manual_preflight_required=True,
@@ -522,12 +597,14 @@ def build_data():
                 scene_release_map={s['id']: s.get('release_episode_id') for s in scenes},
                 first_wave_instances=first_wave, assault_waves=eps[0]['scenes'][0]['assault_waves'],
                 retired_tasks=extra.get('retired_tasks', []),
-                source_sha256={p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(paths | support_paths)}, tasks=tasks)
+                necessary_asset_packages=necessary_packages,
+                source_sha256={p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in sorted(paths | support_paths | package_paths)}, tasks=tasks)
     validate(data)
     return data
 
 
 def render_release(release):
+    dialogue = resolve_dialogue(release)
     text = '# 前三发行集：节奏、运镜与逐镜交接\n\n'
     text += '所有剧情与分镜按需执行[全剧创作规则](../../../剧集/剧情结构与推进.md#global-creation-policy)与[全剧AIGC制作规则及执行卡](../../制作约定.md#aigc-story-to-shot)。用典、侧面烘托、情节丰富、声画表达与生成交接方法已全部采纳，按场景目标和制作需要使用，不设手法配额。\n\n'
     text += '具体应用见[前三集五组执行说明](../../../剧集/前三集重写与生产交接-v1.9.md#aigc-story-to-shot)。每镜落实观看目的、入镜状态、人物／摄影机／环境／声音变化、出镜结果与切点；一个父镜可按需要拆分生成，子镜取用时长仍归原预算。起始图、动作过程、首尾接续与关键接触分别核验，文字计划不代表动态通过。\n\n'
@@ -551,6 +628,16 @@ def render_release(release):
             text += '\n### 逐镜表演与接续执行\n\n以下为导演工作稿；切点是动作触发条件，未替代试读计时，父镜号和预算保持。\n\n| 镜号 | 表演与关系变化 | 调度／道具接续 | 切镜触发 |\n|---|---|---|---|\n'
             for s in detailed:
                 text += f"| {s['id']} | {s['performance']} | {s['blocking_continuity']} | {s['cut_cue']} |\n"
+        text += render_dialogue(ep, dialogue)
+        split = [s for s in ep['shots'] if s.get('subshots')]
+        if split:
+            text += '\n### 已细化的子镜取用计划\n\n子镜使用发行绝对帧、左闭右开区间，完整分配所属父镜预算，不额外增加时长。首尾是待制作状态，不是已有输入帧；提供方生成时长、把手帧与实际可用片段仍待核验。父镜声轨连续，跨子镜的同一声效不重复触发。\n'
+            for parent in split:
+                text += f"\n#### {parent['id']}｜{parent['beat']}\n\n"
+                for child in parent['subshots']:
+                    view = '原顾主观' if child['viewpoint'] == 'subjective' else '客观'
+                    text += f"- **{child['id']}** · {stamp(child['start_frame'])}–{stamp(child['end_frame'])} · [{child['start_frame']},{child['end_frame']}) · {view}：{child['purpose']}\n"
+                    text += f"  - 首态：{child['state_in']}\n  - 人物／招式：{child['action']}\n  - 摄影机：{child['camera']}\n  - 环境／光：{child['environment']}\n  - 声音：{child['sound']}\n  - 尾态：{child['state_out']}\n  - 切点：{child['cut_cue']}\n"
     text += '\n## 验收与减法顺序\n\n先用当前对白和静帧／占位板验证占时，再录可替换的临时声音；不宣称已经有录音。每镜检查空间、接触结果、视线、衣伤、道具归属、声音先后。超时优先压空景、重复反应和走路过渡；不删十人退出、韩许换手、黄撤令、原顾清醒回家、今顾选择开门、旧票用途差异。若仍超出约3分钟，提出新的分集边界供复核，不能默默加速成片。\n'
     return text
 
@@ -567,7 +654,7 @@ def render(data):
         counts += f" 另有{len(data['matched_asset_references'])}张混合资产匹配参考已登记，置信度与冲突见[媒体登记](../../媒体/README.md)，不计已选任务。"
     if data['pending_master_candidates']:
         counts += f" 另有{len(data['pending_master_candidates'])}张蒙面半身参考待核对身份，未绑定FACE、全身或第一波实例；详[媒体登记](../../媒体/README.md)。"
-    overview = '# 前三集资产任务清单 v1.9\n\n' + counts + '\n\n[使用说明](README.md) · [英文提示词](MJ提示词.md) · [文书与后制](文书后制与非MJ任务.md)\n\n优先级A/B/C是探索批次，不是成片可删等级。首批1—20为顾砚、韩青、杜长庚、顾伯、黄祁各四项服装母版，不是护送队名单；已有身份选图可先登记复用，未提供不算通过。带依赖任务须先验收前置，不能按行序盲跑。\n\n| 任务 | 名称／类别 | 批次／首批序 | 资产 | 场次 | 前置 | 验收 |\n|---|---|---|---|---|---|---|\n'
+    overview = '# 前三集资产任务清单 v1.9\n\n先看[视频平台制作分工](视频平台制作分工.md)：原任务总数不是必需独立资产数。按镜头选用核心母版、按需派生及提示词执行。\n\n' + counts + '\n\n[使用说明](README.md) · [英文提示词](MJ提示词.md) · [文书与后制](文书后制与非MJ任务.md)\n\n优先级A/B/C是探索批次，不是成片可删等级。首批1—20为顾砚、韩青、杜长庚、顾伯、黄祁各四项服装母版，不是护送队名单；已有身份选图可先登记复用，未提供不算通过。带依赖任务须先验收前置，不能按行序盲跑。\n\n| 任务 | 名称／类别 | 批次／首批序 | 资产 | 场次 | 前置 | 验收 |\n|---|---|---|---|---|---|---|\n'
     prompts = '# MJ母版探索提示词 v1.9\n\n以下是执行前待检查的文字投影，不是已经批准的母版。模型V8.2；使用前按[README](README.md)检查账户设置，基线关闭Personalization并清除遗留引用。派生项正文须配合已选父母版输入，不能仅靠文字重抽。不得把父任务编号当作图片链接。\n\n首批20项服装图置前；其余按ID排列便于检索，实际按依赖执行。每框仅一张图。既有THREEQUARTER仍为侧脸，不与新增FULL-3Q混同。\n'
     for t in tasks:
         target = 'MJ提示词.md#' + t['id'].lower() if t['method'] == 'MJ' else '文书后制与非MJ任务.md'
@@ -597,7 +684,9 @@ def render(data):
            '资产任务清单.md': overview, 'MJ提示词.md': prompts,
            '../../媒体/母版自动适配编号.md': render_mapping(data),
            '前三集实际资产缺口.md': render_missing(data),
-           '前三集节奏与分镜.md': render_release(data['release_plan'])}
+           '视频平台制作分工.md': render_routes(data),
+           '前三集节奏与分镜.md': render_release(data['release_plan']),
+           '林战二维走位.html': render_blocking(data['release_plan'])}
     buf = io.StringIO(newline='')
     writer = csv.writer(buf)
     writer.writerow(['任务ID', '名称', '工序', '批次', '首批序', '资产ID', '场次', '前置任务', '验收条件', '英文提示词', '状态', '拟定文件名', '发行集', '制作范围', '实际文件', '母版图像引用', '尚缺前置'])
@@ -616,6 +705,20 @@ def render(data):
     return out
 
 
+def write_generated(path, payload):
+    """完整写入后替换派生件，避免Windows读者占用时先截断现有文件。"""
+    if path.exists() and path.read_bytes() == payload:
+        return
+    with tempfile.NamedTemporaryFile(dir=path.parent, prefix='.build-', delete=False) as stream:
+        stream.write(payload)
+        temporary = Path(stream.name)
+    try:
+        os.replace(temporary, path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=('build', 'check'))
@@ -626,7 +729,7 @@ def main():
     for name, value in outputs.items():
         path = PACK / name
         if args.command == 'build':
-            path.write_bytes(value.encode('utf-8'))
+            write_generated(path, value.encode('utf-8'))
         elif not path.exists() or path.read_bytes() != value.encode('utf-8'):
             stale.append(name)
     if stale:

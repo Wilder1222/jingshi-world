@@ -1,0 +1,732 @@
+{
+  "format": "jingshi-motion-study",
+  "role": "independent technical study, not final shot replacement",
+  "source_sha256": "36df4887530fb94a2cf6790bad5caa77664d9681cfaab52e04d60b077cc07a96",
+  "source_parents": [
+    {
+      "id": "GJ-R01-SH021",
+      "scene_id": "GJ-EP01-SC01",
+      "beat": "分剑化形",
+      "camera": "组合覆盖：主观近景见分剑→同侧客观全景确认退敌；两段各只保留一项运动",
+      "action": "灰袖旁一道剑影分作总计五道虚影轮廓，由剑脊至剑尖凝成透雨剑形；客观全景见接触处刃气先散、五刺客继而收势退步，五剑沿来敌侧弧势在护送者外侧收住；退敌后接黄稳住、护体气膜短显与停住再进的反应，撤令留下一父镜",
+      "sound": "一声剑鸣延展成有起落的乐句，退敌处保留衣步声",
+      "end_state": "一次出招改变战局，剑形透雨无实体剑落地",
+      "start_frame": 3600,
+      "end_frame": 3840,
+      "depends_on": [
+        "GJ-R01-SH020"
+      ],
+      "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+      "media_status": "not_generated",
+      "performance": "从该镜动作中的承受、判断和回应表现关系；一次出招改变战局，剑形透雨无实体剑落地。",
+      "blocking_continuity": "最初剑影计入五道总数，五剑与五敌保持各自连续位置，先接触散刃气再退步；剑形停在护送者外侧，不穿顾许、阵罩或马匹。",
+      "cut_cue": "在“一次出招改变战局，剑形透雨无实体剑落地”可被看清后切出；所有拆分取用时长归本父镜。",
+      "subshots": [
+        {
+          "id": "GJ-R01-SH021-A",
+          "parent_id": "GJ-R01-SH021",
+          "start_frame": 3600,
+          "end_frame": 3672,
+          "depends_on": [],
+          "media_status": "not_generated",
+          "viewpoint": "subjective",
+          "subjective_owner": "C01",
+          "purpose": "给分剑形态一个可辨的起点",
+          "state_in": "一道剑影在灰袖近侧，原顾仍半睁眼",
+          "action": "一道剑影沿同一弧势分作总计五道虚影轮廓，随后由剑脊至剑尖凝出透雨剑形；原先一道计入总数",
+          "camera": "主观中景固定，不同时推进、旋转或连续变焦",
+          "environment": "五剑分开后保留间距与树干参照，剑身仍透见背景雨线；灰袖仍遮脸",
+          "sound": "同一清越剑鸣展开，不能做五次重新出招声",
+          "state_out": "五道剑形全部可数，尚未消隐",
+          "cut_cue": "第五道形成立稳时切客观全景"
+        },
+        {
+          "id": "GJ-R01-SH021-B",
+          "parent_id": "GJ-R01-SH021",
+          "start_frame": 3672,
+          "end_frame": 3768,
+          "depends_on": [
+            "GJ-R01-SH021-A"
+          ],
+          "media_status": "not_generated",
+          "viewpoint": "objective",
+          "subjective_owner": null,
+          "purpose": "证实退敌真实发生且避开同伴",
+          "state_in": "五剑已成，五名第二波刺客仍近林续压；第一波已退",
+          "action": "五道剑形沿同一来敌侧弧势推进，接触处刃气先散；五刺客随即收势退步，剑形在护送者外侧收住",
+          "camera": "回同侧客观全景固定，车门、顾许、五敌与高树可找回",
+          "environment": "湿竹叶沿剑弧翻卷，行经近处雨幕分层、远处降雨继续；马匹与车体未被扫中",
+          "sound": "客观雨声恢复空间，刃气散声后能听见敌方收步",
+          "state_out": "五名刺客均退开且能自行行动；剑形仍在、没有落地实剑",
+          "cut_cue": "五个身体退出原进攻位置后切反应，不能闪白代替结果"
+        },
+        {
+          "id": "GJ-R01-SH021-C",
+          "parent_id": "GJ-R01-SH021",
+          "start_frame": 3768,
+          "end_frame": 3840,
+          "depends_on": [
+            "GJ-R01-SH021-B"
+          ],
+          "media_status": "not_generated",
+          "viewpoint": "objective",
+          "subjective_owner": null,
+          "purpose": "把惊天一招落到对手的选择",
+          "state_in": "敌方退势已成立，黄持刃站稳",
+          "action": "黄想再进却停住；肩外薄层护体气膜短显，目光转向树后",
+          "camera": "黄中近景固定，留一侧灰袖方向的视线余量",
+          "environment": "剑光仍在近处但开始收束，场地不毁坏",
+          "sound": "剑鸣减弱，黄的换气进入前景，暂不说撤",
+          "state_out": "黄已放弃立即再攻，等待撤令；无新增血伤",
+          "cut_cue": "黄视线定在树后，接SH022收势与撤令"
+        }
+      ]
+    },
+    {
+      "id": "GJ-R01-SH022",
+      "scene_id": "GJ-EP01-SC01",
+      "beat": "收势撤令",
+      "camera": "组合覆盖：同侧中远景确认五剑消隐与护罩收拢→黄中近景读撤令，各段固定",
+      "action": "五剑由外向内消隐，依次为外侧一对、内侧一对、中央一道；五卒继续护顾，归旌外缘随接续收拢；黄收回上镜已短显的护体气膜，望树后灰袖后令撤，无新血伤",
+      "sound": "雨声恢复，黄“撤”；巡灯声仍未到",
+      "end_state": "撤因神秘剑招，非巡防赶到；无人被凭空震飞",
+      "start_frame": 3840,
+      "end_frame": 3960,
+      "depends_on": [
+        "GJ-R01-SH021"
+      ],
+      "transition_in": "同轴动作／声音因果切接，场景转换按动作栏与声栏",
+      "media_status": "not_generated",
+      "performance": "从该镜动作中的承受、判断和回应表现关系；撤因神秘剑招，非巡防赶到；无人被凭空震飞。",
+      "blocking_continuity": "五剑按外侧一对、内侧一对、中央一道收尽，五卒保持护持、石盾浅擦痕不消失；黄的贴体气膜接上镜收回，撤令留在第二子镜。",
+      "cut_cue": "在“撤因神秘剑招，非巡防赶到；无人被凭空震飞”可被看清后切出；所有拆分取用时长归本父镜。",
+      "subshots": [
+        {
+          "id": "GJ-R01-SH022-A",
+          "parent_id": "GJ-R01-SH022",
+          "start_frame": 3840,
+          "end_frame": 3888,
+          "depends_on": [],
+          "media_status": "not_generated",
+          "viewpoint": "objective",
+          "subjective_owner": null,
+          "purpose": "显示神秘人控制出招的结束",
+          "state_in": "五剑已逼退人，黄气膜短显，归旌负荷减轻",
+          "action": "五剑由外向内依次消隐：外侧一对、内侧一对、中央一道；归旌外缘沿五卒接续收拢，五卒仍护顾，石肩背稍缓、盾痕保留",
+          "camera": "同侧中远景固定，不追入林中",
+          "environment": "雨重新落回剑弧让出的空处；近衣反光随剑消退",
+          "sound": "剑鸣余音连上前镜，自然雨声回到基底",
+          "state_out": "剑形消失，无实体兵器掉落，五卒仍护顾",
+          "cut_cue": "最后剑形收尽后切黄撤令"
+        },
+        {
+          "id": "GJ-R01-SH022-B",
+          "parent_id": "GJ-R01-SH022",
+          "start_frame": 3888,
+          "end_frame": 3960,
+          "depends_on": [
+            "GJ-R01-SH022-A"
+          ],
+          "media_status": "not_generated",
+          "viewpoint": "objective",
+          "subjective_owner": null,
+          "purpose": "让撤退成为可听见的决定",
+          "state_in": "剑招已收，黄仍望高树、持刃戒备",
+          "action": "黄收回贴体气膜，发令撤；罗顺在侧方看见信号准备接人",
+          "camera": "黄中近景固定，视线不越轴；不插C60正脸",
+          "environment": "冷夜、车灯恢复基底，不出现巡灯",
+          "sound": "黄“撤”一次；无巡防脚步或来援号角",
+          "state_out": "第二波接到撤令，尚待SH023完成五人退出",
+          "cut_cue": "撤令落地接罗顺与同伴退出动作，不把剑消隐当敌人消失"
+        }
+      ]
+    }
+  ],
+  "master_sha256": "05dec4f791385e7d5d7f9e6c4b2a3651b266118d7dc5690823598baead0e1188",
+  "builder_sha256": "0c039a100640ae64bc864745ebb0793a059ff9d8966a88f0dd3f6d298758ac69",
+  "blend_sha256": "d9e698ad98832170a83f896176cb5b85c2f8efd9db508afdc38113aa8b2b2680",
+  "frames": 360,
+  "fps": 24,
+  "width": 960,
+  "height": 540,
+  "characters": [
+    "C01",
+    "C23",
+    "C03",
+    "C16",
+    "C17",
+    "C20",
+    "C58",
+    "C06",
+    "C59",
+    "C07",
+    "C57",
+    "C60"
+  ],
+  "sampled_shape_counts": [
+    {
+      "frame": 1,
+      "active_sword_shapes": 1,
+      "projected_shapes": [
+        {
+          "id": "C60_SwordShape_3",
+          "bounds": [
+            0.23865939676761627,
+            0.18672335147857666,
+            0.2933846414089203,
+            0.4782739281654358
+          ],
+          "all_in_front": true
+        }
+      ],
+      "camera": "POV_C01"
+    },
+    {
+      "frame": 65,
+      "active_sword_shapes": 5,
+      "projected_shapes": [
+        {
+          "id": "C60_SwordShape_1",
+          "bounds": [
+            0.8459709286689758,
+            0.2772561311721802,
+            0.9585245847702026,
+            0.7070803046226501
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_2",
+          "bounds": [
+            0.6356863379478455,
+            0.44271451234817505,
+            0.700410008430481,
+            0.7865555882453918
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_3",
+          "bounds": [
+            0.473812460899353,
+            0.4719066321849823,
+            0.5259398818016052,
+            0.7822827100753784
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_4",
+          "bounds": [
+            0.3259303569793701,
+            0.36888009309768677,
+            0.3803704082965851,
+            0.6842566728591919
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_5",
+          "bounds": [
+            0.16349108517169952,
+            0.1741773784160614,
+            0.23607304692268372,
+            0.5175980925559998
+          ],
+          "all_in_front": true
+        }
+      ],
+      "camera": "POV_C01"
+    },
+    {
+      "frame": 73,
+      "active_sword_shapes": 5,
+      "projected_shapes": [
+        {
+          "id": "C60_SwordShape_1",
+          "bounds": [
+            0.7068201899528503,
+            0.4960247278213501,
+            0.7375955581665039,
+            0.7639199495315552
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_2",
+          "bounds": [
+            0.6317349672317505,
+            0.6389868259429932,
+            0.6613475680351257,
+            0.8847832083702087
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_3",
+          "bounds": [
+            0.5704514384269714,
+            0.6990865468978882,
+            0.5985803604125977,
+            0.9211764931678772
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_4",
+          "bounds": [
+            0.5208507776260376,
+            0.6769441366195679,
+            0.547051191329956,
+            0.8736538887023926
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_5",
+          "bounds": [
+            0.4812771677970886,
+            0.6147601008415222,
+            0.5054620504379272,
+            0.788313627243042
+          ],
+          "all_in_front": true
+        }
+      ],
+      "camera": "OBJECTIVE_RETREAT"
+    },
+    {
+      "frame": 120,
+      "active_sword_shapes": 5,
+      "projected_shapes": [
+        {
+          "id": "C60_SwordShape_1",
+          "bounds": [
+            0.6201384663581848,
+            0.3104003965854645,
+            0.6466891169548035,
+            0.5942397713661194
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_2",
+          "bounds": [
+            0.4523901343345642,
+            0.35678935050964355,
+            0.48109379410743713,
+            0.6159356832504272
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_3",
+          "bounds": [
+            0.5858703255653381,
+            0.3956557810306549,
+            0.6139428019523621,
+            0.6344547867774963
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_4",
+          "bounds": [
+            0.5009285807609558,
+            0.423772394657135,
+            0.529072105884552,
+            0.6474682092666626
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_5",
+          "bounds": [
+            0.536283552646637,
+            0.46768829226493835,
+            0.5629129409790039,
+            0.6679597496986389
+          ],
+          "all_in_front": true
+        }
+      ],
+      "camera": "OBJECTIVE_RETREAT"
+    },
+    {
+      "frame": 168,
+      "active_sword_shapes": 5,
+      "projected_shapes": [
+        {
+          "id": "C60_SwordShape_1",
+          "bounds": [
+            0.6201384663581848,
+            0.3104003965854645,
+            0.6466891169548035,
+            0.5942397713661194
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_2",
+          "bounds": [
+            0.4523901343345642,
+            0.35678935050964355,
+            0.48109379410743713,
+            0.6159356832504272
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_3",
+          "bounds": [
+            0.5858703255653381,
+            0.3956557810306549,
+            0.6139428019523621,
+            0.6344547867774963
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_4",
+          "bounds": [
+            0.5009285807609558,
+            0.423772394657135,
+            0.529072105884552,
+            0.6474682092666626
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_5",
+          "bounds": [
+            0.536283552646637,
+            0.46768829226493835,
+            0.5629129409790039,
+            0.6679597496986389
+          ],
+          "all_in_front": true
+        }
+      ],
+      "camera": "OBJECTIVE_RETREAT"
+    },
+    {
+      "frame": 200,
+      "active_sword_shapes": 5,
+      "projected_shapes": [
+        {
+          "id": "C60_SwordShape_1",
+          "bounds": [
+            1.0547982454299927,
+            -5.961721897125244,
+            2.2155871391296387,
+            3.079378128051758
+          ],
+          "all_in_front": false
+        },
+        {
+          "id": "C60_SwordShape_2",
+          "bounds": [
+            -10.848999977111816,
+            -0.6080976128578186,
+            -3.8768346309661865,
+            13.124601364135742
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_3",
+          "bounds": [
+            -0.015558796934783459,
+            0.06923186033964157,
+            0.17937004566192627,
+            4.912217617034912
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_4",
+          "bounds": [
+            -0.5127827525138855,
+            0.39583712816238403,
+            -0.3670101463794708,
+            2.9242892265319824
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_5",
+          "bounds": [
+            0.19393226504325867,
+            0.5671489834785461,
+            0.3326531648635864,
+            2.0856118202209473
+          ],
+          "all_in_front": true
+        }
+      ],
+      "camera": "HUANG_REACTION"
+    },
+    {
+      "frame": 241,
+      "active_sword_shapes": 5,
+      "projected_shapes": [
+        {
+          "id": "C60_SwordShape_1",
+          "bounds": [
+            0.6201384663581848,
+            0.3104003965854645,
+            0.6466891169548035,
+            0.5942397713661194
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_2",
+          "bounds": [
+            0.4523901343345642,
+            0.35678935050964355,
+            0.48109379410743713,
+            0.6159356832504272
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_3",
+          "bounds": [
+            0.5858703255653381,
+            0.3956557810306549,
+            0.6139428019523621,
+            0.6344547867774963
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_4",
+          "bounds": [
+            0.5009285807609558,
+            0.423772394657135,
+            0.529072105884552,
+            0.6474682092666626
+          ],
+          "all_in_front": true
+        },
+        {
+          "id": "C60_SwordShape_5",
+          "bounds": [
+            0.536283552646637,
+            0.46768829226493835,
+            0.5629129409790039,
+            0.6679597496986389
+          ],
+          "all_in_front": true
+        }
+      ],
+      "camera": "OBJECTIVE_RETREAT"
+    },
+    {
+      "frame": 288,
+      "active_sword_shapes": 0,
+      "projected_shapes": [],
+      "camera": "OBJECTIVE_RETREAT"
+    },
+    {
+      "frame": 320,
+      "active_sword_shapes": 0,
+      "projected_shapes": [],
+      "camera": "HUANG_REACTION"
+    },
+    {
+      "frame": 360,
+      "active_sword_shapes": 0,
+      "projected_shapes": [],
+      "camera": "HUANG_REACTION"
+    }
+  ],
+  "action_events": [
+    {
+      "character_id": "C58",
+      "sword_shape": 1,
+      "contact_frame": 96,
+      "qi_clear_frame": 101,
+      "first_step_frame": 102,
+      "settled_frame": 150,
+      "foot_schedule": [
+        [
+          "L",
+          102,
+          118,
+          0,
+          0.7
+        ],
+        [
+          "R",
+          118,
+          138,
+          0,
+          1.2
+        ],
+        [
+          "L",
+          138,
+          150,
+          0.7,
+          1.2
+        ]
+      ],
+      "observed_first_lift_frame": 103
+    },
+    {
+      "character_id": "C06",
+      "sword_shape": 2,
+      "contact_frame": 100,
+      "qi_clear_frame": 105,
+      "first_step_frame": 106,
+      "settled_frame": 154,
+      "foot_schedule": [
+        [
+          "L",
+          106,
+          122,
+          0,
+          0.7
+        ],
+        [
+          "R",
+          122,
+          142,
+          0,
+          1.2
+        ],
+        [
+          "L",
+          142,
+          154,
+          0.7,
+          1.2
+        ]
+      ],
+      "observed_first_lift_frame": 107
+    },
+    {
+      "character_id": "C59",
+      "sword_shape": 3,
+      "contact_frame": 104,
+      "qi_clear_frame": 109,
+      "first_step_frame": 110,
+      "settled_frame": 158,
+      "foot_schedule": [
+        [
+          "L",
+          110,
+          126,
+          0,
+          0.7
+        ],
+        [
+          "R",
+          126,
+          146,
+          0,
+          1.2
+        ],
+        [
+          "L",
+          146,
+          158,
+          0.7,
+          1.2
+        ]
+      ],
+      "observed_first_lift_frame": 111
+    },
+    {
+      "character_id": "C07",
+      "sword_shape": 4,
+      "contact_frame": 108,
+      "qi_clear_frame": 113,
+      "first_step_frame": 114,
+      "settled_frame": 162,
+      "foot_schedule": [
+        [
+          "L",
+          114,
+          130,
+          0,
+          0.7
+        ],
+        [
+          "R",
+          130,
+          150,
+          0,
+          1.2
+        ],
+        [
+          "L",
+          150,
+          162,
+          0.7,
+          1.2
+        ]
+      ],
+      "observed_first_lift_frame": 115
+    },
+    {
+      "character_id": "C57",
+      "sword_shape": 5,
+      "contact_frame": 112,
+      "qi_clear_frame": 117,
+      "first_step_frame": 118,
+      "settled_frame": 166,
+      "foot_schedule": [
+        [
+          "L",
+          118,
+          134,
+          0,
+          0.7
+        ],
+        [
+          "R",
+          134,
+          154,
+          0,
+          1.2
+        ],
+        [
+          "L",
+          154,
+          166,
+          0.7,
+          1.2
+        ]
+      ],
+      "observed_first_lift_frame": 119
+    }
+  ],
+  "geometry_audit": {
+    "evaluated_frames": 360,
+    "max_sword_qi_contact_gap_m": 0.0,
+    "max_proxy_support_gap_m": 0.0,
+    "max_planted_foot_drift_m": 1.966049969490843e-06,
+    "scope": "proxy endpoints and planted feet only; excludes clothing, fingers, balance, collisions and final performance"
+  },
+  "limitations": [
+    "proxy stepping is not anatomically approved choreography",
+    "proxy support points do not validate fingers or clothing contact",
+    "wire arcs are not final shield material",
+    "no rain simulation or interactive light validation",
+    "no dialogue or final soundtrack",
+    "C60 sleeve only, no face or hands"
+  ],
+  "review_status": "awaiting_visual_review",
+  "video": null,
+  "workflow_status": "paused_optional_reference",
+  "current_story_applicable": false,
+  "pause_reason": "用户要求先不建模；现行先捉对打退首波、再结阵拦四、原顾阵外独斗，既有代理站位不适用。",
+  "reference_video": {
+    "file": "分剑化形-动作研究.mp4",
+    "sha256": "73d21c234b1fc8c08bc721baaaf5dcf3f04f37c008ff3e2bc07585e51e741635",
+    "role": "独立技术样片，未与当前工程渲染或现行剧情绑定"
+  }
+}

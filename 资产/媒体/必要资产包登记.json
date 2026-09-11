@@ -1,0 +1,1367 @@
+{
+  "items": [
+    {
+      "id": "C01-FULL-SIDE",
+      "asset_ids": [
+        "C01",
+        "C02"
+      ],
+      "kind": "full_body_side",
+      "status": "selected",
+      "path": "资产/媒体/C01/C01-严格侧面全身.png",
+      "sha256": "452ad408f10eac2de997867a07afc423c907a87a1937a967ccf0bb977c115579",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create strict anatomical 90 degree LEFT facing full-body turnaround of the exact man in reference. Head torso pelvis knees feet all face image LEFT; ONLY ONE eye visible. Arms rest naturally at sides, near hand visible far arm occluded. Preserve same face age24 lean adult proportion, crown jade center horizontal pin, half up long hair, exact charcoal mountain cloud silk robe and bluegrey draped lapel panels and chest clasp assembly visible in profile, dark plain fabric sash, narrow sleeves, lower calf hem, black trousers and boots. Side silhouette not threequarter, no torso twist, whole crown and both soles with generous margins. Same neutral bluegrey studio soft light, no injury weapons armor belt buckle. One view 2:3.",
+        "input_references": [
+          {
+            "master_id": "generated-C01-FULL",
+            "path": "资产/媒体/C01/C01-全身候选.png",
+            "sha256": "e7bd68ba48ff014136d3fa64e2e87fda24c54e47f27729a931c4c036cffc7d19"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "C01／C02严格侧面全身静态参考",
+        "summary": "已按新男主肖像重新生成；五官、24岁体量、蓝灰玉冠及山水云纹衣装同源，保留本视角的静态用途。",
+        "remaining": [
+          "局部纹样与饰件不能保证逐针一致，特写须绑定对应参考",
+          "动态转头、衣料运动及剧情光态另验"
+        ]
+      },
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-10",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_replacement_request"
+    },
+    {
+      "id": "C01-EXPRESSION-GRID",
+      "asset_ids": [
+        "C01"
+      ],
+      "kind": "expression_grid",
+      "status": "selected",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_replacement_request",
+      "path": "资产/媒体/C01/C01-表情九宫格.png",
+      "sha256": "d06d2f396f5e9f1ef26fb64b1c3ac0c36d0d5898c7b091baa0858a489d639933",
+      "width": 1254,
+      "height": 1254,
+      "panel_order": [
+        "中性",
+        "熟悉微笑",
+        "专注判断",
+        "疑惑关切",
+        "警觉",
+        "克制愤怒",
+        "压住惊惧",
+        "忍痛",
+        "疲惫悲伤"
+      ],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a square 3x3 acting expression sheet, nine equal panels thin grey gutters no text. EXACT SAME 24-year-old Chinese man as input portrait, unchanged face shape eyes nose lips jaw age skin texture black halfup hair jade metal crown, pale grey collar charcoal and bluegrey mountain silk clothing. Each cell frontal head and shoulders, same camera and soft neutral bluegrey studio light, show full crown with generous headroom. Change ONLY facial muscles, natural restrained liveaction drama. This is original Gu Yan familiar with his old companions. Order left-right top-bottom: 1 neutral calm; 2 slight warm recognition smile at trusted companion; 3 focused threat appraisal; 4 puzzled concern with knitted inner brows; 5 alert wary widened eyes lips slightly parted; 6 contained anger tightened jaw and firm lips no shouting; 7 fear controlled at sudden danger; 8 suppressing shoulder pain eyes partially squeezed brow furrow, no hand or injury visible; 9 exhausted sorrow heavy eyelids inner brow lift no tears. Clearly differentiated but subtle truthful acting, preserve same identity all9, no cartoon no wounds beard makeup costume variation. High resolution.",
+        "input_references": [
+          {
+            "master_id": "portrait-C01",
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "原顾九种克制表情静态对照",
+        "summary": "九格均为新男主同脸，眉眼口形区别可辨；仅用作本身份阶段的表演方向。",
+        "remaining": [
+          "单格分辨率不替代高清身份图",
+          "部分发髻贴裁边，完整发冠使用全身与侧脸图",
+          "剧情情境及动作才能说明原顾／今顾意识区别",
+          "旅衣仅为统一比较条件，室内剧情仍沿浅灰干衣"
+        ]
+      },
+      "format": "PNG",
+      "generated_on": "2026-09-10"
+    },
+    {
+      "id": "C02-EXPRESSION-GRID",
+      "asset_ids": [
+        "C02"
+      ],
+      "kind": "expression_grid",
+      "status": "selected",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_replacement_request",
+      "path": "资产/媒体/C02/C02-表情九宫格.png",
+      "sha256": "318a43f1cb099e8b4c87e50c2697cc20a88bd5c2e9631be120c6eaed565bdbed",
+      "width": 1254,
+      "height": 1254,
+      "panel_order": [
+        "初醒陌生",
+        "观察",
+        "怀疑核实",
+        "压住恐惧",
+        "发现疼痛",
+        "谨慎求助",
+        "试着接受帮助",
+        "定神发问",
+        "疲惫清醒"
+      ],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Square 3x3 expression sheet exactly9 equal panels plain grey gutters NO text labels. Exactly same24-year-old Chinese man as portrait input: same facial bones eyes nose lips jaw black halfup hair jade-centered antique metal crown and charcoal bluegrey mountain robe, same pale grey collar. Never different actor. This is Chen Du in Gu Yan's UNCHANGED body, confused unfamiliarity rather than old familiarity; robe is comparison wardrobe only. Fixed frontal head-shoulders neutral soft studio lighting bluegrey backdrop and same scale in all9, reserve space above hair. Acting changes only eyebrows eyes mouth, subtle liveaction truthful expressions. Row1:1 newly awake unfamiliar place mild disorientation parted lips;2 carefully observing concentration no anger;3 skeptical checking a claim subtle brow lift doubtful mouth. Row2:4 holding fear inward widened eyes pressed lips;5 discovering shoulder pain slight wince compressed lips no hand wound;6 tentative sincere asking for help softened apprehensive gaze lips ready to speak. Row3:7 cautious uncertain acceptance tiny hesitant smile no familiar recognition;8 steadying himself to ask clearly attentive firm relaxed face;9 exhausted but clear-headed heavy eyelids still conscious. Same skin age clothing no tears blood scars beard makeup or glowing effects. Distinct readable subtle performance.",
+        "input_references": [
+          {
+            "master_id": "portrait-C01",
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "status": "passed_task_review",
+        "scope": "今顾同脸陌生、求助与定神表情静态对照",
+        "summary": "九格均为新男主同脸，眉眼口形区别可辨；仅用作本身份阶段的表演方向。",
+        "remaining": [
+          "单格分辨率不替代高清身份图",
+          "部分发髻贴裁边，完整发冠使用全身与侧脸图",
+          "剧情情境及动作才能说明原顾／今顾意识区别",
+          "旅衣仅为统一比较条件，室内剧情仍沿浅灰干衣"
+        ]
+      },
+      "format": "PNG",
+      "generated_on": "2026-09-10"
+    },
+    {
+      "id": "C03-FULL-SIDE",
+      "asset_ids": [
+        "C03"
+      ],
+      "kind": "full_body_side",
+      "status": "selected",
+      "selected_on": "2026-09-10",
+      "selected_by": "assistant_under_user_generation_request",
+      "path": "资产/媒体/C03/C03-严格侧面全身.png",
+      "sha256": "b97164baf3dfd0df37439caceb5a49d921b4f2a0b5d4f9e112bcc72057808956",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "prompt": "One strict 90-degree LEFT-FACING full-body profile turnaround of Han Qing, same Chinese adult man from the three references. Reference1 front fullbody locks body proportions and all garment construction; reference2 side face locks exact nose chin brow eyes ear profile; reference3 rear locks half-up hairstyle with long hair to lower scapula and two bluegrey ribbons ending above waist. Face torso hips knees and both toes all point image LEFT, only one eye visible, no frontal chest or three-quarter turn. Upright relaxed standing, near arm hanging naturally, far arm partly occluded, feet naturally aligned with small separation, full topknot and soles within margins. Same lean adult body, same natural head/body ratio and age as references. Grey-blue robe with fine silver-grey flowing water woven pattern, navy cross-collar and narrow white inner edge, navy wrapped broad sash, plain rear belt, rectangular dark-silver fastening and hanging fabric located toward anterior LEFT hip as in front reference, not duplicated on back. Outer hem at same below-knee height as front; navy trousers and plain black soft boots, no new cuff gauntlets. Plain blue-grey cloth bound bun with long back hair and two ribbon ends as rear reference; do not substitute all-up hair or ornamental crown. Same woven matte material, dry intact, no armor weapons injury rain or new jewelry. Neutral grey seamless studio floor/background, natural soft directional neutral light, level mid-torso camera, no perspective stretching, refined live-action period costume photography. One image portrait 2:3, no panels no text.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C03/C03-全身候选.png",
+            "sha256": "b53a19f5f83b618f7af281aa74c95bfd942aec4ff59223da8aea2658ab6d0f28"
+          },
+          {
+            "path": "资产/媒体/C03/C03-侧脸.png",
+            "sha256": "096ed106e81d42e9bb173c490bdeb105a329da67489923a7c52e2544cc548716"
+          },
+          {
+            "path": "资产/媒体/C03/C03-背面候选.png",
+            "sha256": "0c1f1c9b1ca512b2eafe54226f105537e4d1930b1b2ae4f3cd811e46c3afd013"
+          }
+        ]
+      },
+      "review": {
+        "scope": "韩青严格侧面全身静态造型参考",
+        "summary": "单眼侧脸、肩胯及双脚同向，头脚完整；布束半髻、肩胛下长发与双飘带，灰青水纹衣、深蓝腰封前侧扣垂带及软靴与既有视图对应。",
+        "remaining": [
+          "微纹非逐针对应，特写须绑定单独衣料细节",
+          "侧衩动态开合及扶人拔刀等接触动作尚待验证",
+          "不替代雨湿、内甲佩兵状态及表情九宫格"
+        ]
+      }
+    },
+    {
+      "id": "C03-XIANXIA",
+      "asset_ids": [
+        "C03"
+      ],
+      "kind": "wardrobe_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C03-XIANXIA.png",
+      "sha256": "ac3feb96c5580460db6198c7f0532afc63d4e4532abd3f6d5c4215090a90f4f0",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Wardrobe style adjustment. Image1 is Han Qing sole identity/body authority: preserve EXACT face, age25, broader shorter face than hero, sturdy lean shoulders, skin tone, cloth-bound halfup hair, pose and boots. Image2 is only shared silk craftsmanship/photographic quality reference, NEVER copy its face crown chest ornaments or mountain pattern. Refine Han's grey-blue travel robe into restrained xianxia costume: liquid silver-grey flowing WATER jacquard on fine dense silk-wool with silk surface sheen, navy inner lapels and sash, thin tea-white collar edge, tapered wrists, practical layered side splits and below-knee hem. Keep same one rectangular small dark-silver buckle on anatomical LEFT waist and attached dark hanging sash, no added jewelry. Subtle refined bluegrey draping side panels attached at waist, stop above boot ankle; opaque warm winter lining, no transparent torso. No robes flying in studio, no armor glow weapon. One frontal fullbody portrait 2:3 entire hair and feet with margins, natural adult head/body, grey soft neutral studio light. Beautiful restrained period fantasy, richer fine textile but recognizable same soldier.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C03/C03-全身候选.png",
+            "sha256": "b53a19f5f83b618f7af281aa74c95bfd942aec4ff59223da8aea2658ab6d0f28"
+          },
+          {
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "灰青水纹绸面、玄蓝腰封及层叠侧摆；面貌、布束发及收袖保留。",
+        "remaining": [
+          "同套正侧背已有候选，前扣侧位、发长、叠片和纹样一致性尚待整体复核；不拼接基础衣装侧背。",
+          "无甲干衣不替代雨湿、内甲佩兵和卸甲接续；扶人及拔刀等动态另验。"
+        ]
+      },
+      "wardrobe_set": "C03-XIANXIA",
+      "view": "front"
+    },
+    {
+      "id": "C16-XIANXIA",
+      "asset_ids": [
+        "C16"
+      ],
+      "kind": "wardrobe_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C16-XIANXIA.png",
+      "sha256": "5c0dda3178ce2957f82c2733076943f7f2882f3ccb3ca5617a792c4bfa834fec",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Refine IMAGE1 Du Changgeng's costume to restrained xianxia craftsmanship, image2 only silk/photographic quality. Preserve EXACT43-year-old face and grey temples moustache age lines, rugged broad adult shoulders, hair tie, standing front pose and natural head/body. Same dark chestnut and black travel robe, dark brown narrow scarf and wrapped cuffs, plain brown sash with ONE antique bronze small square clasp. Refine coarse dense busy pattern into finely woven sparse broken-mountain and layered ridge motifs of lowcontrast antique copper over dark silk-wool; satin edging and elegant longer straight side panels attached at waist over opaque warm lining, ends below knee not dragging. Sturdy grounded veteran not youthful fairy; keep trousers boots hands visible allhead/soles with margin. No hero crown copied, no new armor weapon jewelry glow, no transparency on torso. Soft neutral grey studio 2:3 fullbody. Distinct from grey-blue water-robed Han.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C16/C16-全身候选.png",
+            "sha256": "799587e9a8d900b35af197d0f38baa3b0b4ac9aa776210e06ed2126a2e0bd0ac"
+          },
+          {
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "玄褐丝毛绸面、古铜断山疏纹，保留灰鬓、围巾、宽肩与收腕。",
+        "remaining": [
+          "同套侧向已经修正胸前暴露、远侧手和腰扣方向；正侧背均为候选，整套纹样和造型连续性仍待复核。",
+          "前扣侧位、围巾后颈和发髻颜色需整体核对；内甲佩兵、雨湿与阵中动作另验。"
+        ]
+      },
+      "wardrobe_set": "C16-XIANXIA",
+      "view": "front"
+    },
+    {
+      "id": "C17-XIANXIA",
+      "asset_ids": [
+        "C17"
+      ],
+      "kind": "wardrobe_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C17-XIANXIA.png",
+      "sha256": "4e5f4b9329f87ff1d8935397c3a5ed5f60f5583ca12dbb4101b08e630e45d07a",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Refine IMAGE1 Shi Zhaochuan costume for restrained xianxia period world, image2 only photographic textile quality never identity. Preserve exact38year old broad square face dark short moustache and chin hair, muscular wide shoulders mature body age, black plain topknot, front neutral pose hands and black boots. Indigo navy outer robe, stone grey crossed inner layer with navy edging, dark blue fabric sash and wrapped cuffs. Change coarse scratchy weave to dense opaque fine silk-wool with silk satin lapel edges; sparse layered angular broken-ridge jacquard arranged vertically, quiet dark ink-silver fine lines. Two structured split robe side panels softly layered below knees, no train. Sturdy warrior silhouette with modest fantasy precision, not long flowing sleeves. No armor weapons jewels cape or magic. Fullhead to soles natural proportions grey studio neutral soft light portrait2:3.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C17/C17-全身候选.png",
+            "sha256": "6c46adf0d9f9caac1766b2bdab4072fc8c2d548b996381222b36541c466146d5"
+          },
+          {
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "深靛绸缘、疏金属色折脊衣纹；原38岁方脸宽肩保留，纹路部分偏山形需继续收敛。",
+        "remaining": [
+          "正面试装不替代已有人物身份母版；新衣装侧背和衣伤需同步后才能连续调用",
+          "袖摆、披片与兵器接触须在动作镜头复核，不能直接拼接旧衣装侧背"
+        ]
+      }
+    },
+    {
+      "id": "C20-XIANXIA",
+      "asset_ids": [
+        "C20"
+      ],
+      "kind": "wardrobe_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C20-XIANXIA.png",
+      "sha256": "475f4c345a3feb59e5d1761c5e83469ba35298e7b71db01b35c2ca7ca2dbbe64",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Adjust image1 Cui Wangye wardrobe to restrained xianxia; image2 material and photography ONLY. Preserve exact34-year-old face, subtle moustache, long lean body shoulders, black plain halfup hair, neutral front pose hands feet. Grey-green flowing robe with fine sparse FEATHER and bamboo-leaf jacquard, bamboo-green inner layer, charcoal narrow sash and wrapped cuffs, keep small darkgrey shoulder cape fastened at neck, not long cloak. Use dense opaque silk-wool with softly lustrous silk face, subtle silver-grey feather embroidery limited to lower lapel and shoulder, finer silk bound edges, supple two side drapes attached to waist descending no lower than lower calf. No cloud mountain hero motifs, crown copied, jewels, weapons armor magical glow. Fullbody head feet generous margins normal adult proportions, grey neutral soft studio2:3. Quiet slender silhouette distinct from bulky veterans, warm winter lining no transparent torso.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C20/C20-全身候选.png",
+            "sha256": "f6497b85ee4e648be6ee697a586a8421f1c9fa085c1c284b497ca819d4e4c21c"
+          },
+          {
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "灰青竹羽纹绸袍、竹绿内层与短披肩；长躯与细肩保留，银羽装饰比原案醒目。",
+        "remaining": [
+          "正面试装不替代已有人物身份母版；新衣装侧背和衣伤需同步后才能连续调用",
+          "袖摆、披片与兵器接触须在动作镜头复核，不能直接拼接旧衣装侧背"
+        ]
+      }
+    },
+    {
+      "id": "C23-XIANXIA",
+      "asset_ids": [
+        "C23"
+      ],
+      "kind": "wardrobe_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C23-XIANXIA.png",
+      "sha256": "e974caaac1fa7bfd37a9ada9f261d24fcef042c15b9b5cbe9215a33916b1918c",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Edit image1 Xu Zhaolin wardrobe into slight xianxia, using image2 ONLY fine textile and photo clarity standard. Preserve32year-old narrow angular face, moustache, skin age, exact black cloth topknot and adult lean sturdy body, neutral stance hands and boots. Deep petrol teal robe with blackblue trim and dark sash ONE small plain square buckle, pale celadon grey inner collar. Upgrade rough plaidlike material to dense silk-wool with refined lowcontrast interlocking narrow stepped geometric jacquard, smooth subtle silk sheen, narrow satin lapel edge. Add understated attached layered side panels opening at movement, knee/lowercalf length, geometric motif stays small not heroic mountain cloud or feathers. Opaque winter lining, gathered cuffs, functional everyday veteran clothes with graceful cut. No cape, crown, jewelry, weapons armor glow. Complete head and soles generous margins, natural age proportions, neutral grey soft studio, single frontal fullbody2:3.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C23/C23-全身候选.png",
+            "sha256": "fae0909a083af87b9feaa7fb723b30cd021ff46ffd101ca9815a3ca118504891"
+          },
+          {
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "深青几何提花、青瓷灰内领与层叠侧摆，32岁窄脸、方扣和收腕保留。",
+        "remaining": [
+          "正面试装不替代已有人物身份母版；新衣装侧背和衣伤需同步后才能连续调用",
+          "袖摆、披片与兵器接触须在动作镜头复核，不能直接拼接旧衣装侧背"
+        ]
+      }
+    },
+    {
+      "id": "C04-XIANXIA",
+      "asset_ids": [
+        "C04"
+      ],
+      "kind": "wardrobe_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C04-XIANXIA.png",
+      "sha256": "01e50f0cb26aef49d81c65a1c2a2e8eb57a19f4132ee888de175f8816b665434",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Image1 Gu Bo identity age64 and robe authority, image2 ONLY shared sophisticated silk/photo quality. Preserve exactly same elderly Chinese man's facial identity, grey-white hair eyebrows neatly trimmed beard, age lines and natural round-square face, existing modest topknot, body stature and front relaxed pose. Adjust tea-brown robe to quiet graceful restrained xianxia-world tailoring for elder household steward: warm-grey inner collar, tea-brown fine dense silk over light cotton padding, subdued old-gold small trailing cloud-leaf jacquard with breathing room, plain dark brown silk banded lapels and narrow soft sash. Elegant flowing straight long robe, sleeves modestly roomy but hands clearly visible for nursing tasks, no train, black cloth indoor shoes. Soft satin collar sheen not mirror gold, no large embroidery, no crown no weapons no magic no armor. Keep warm opaque winter layers and ageappropriate proportions; full head to feet studio2:3 grey neutral soft light. Do not turn elder into young immortal or copy hero face or ornaments.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C04/C04-全身候选.png",
+            "sha256": "9f4dd831b17a8b421bf377ea2dacc17ee9a71db862ba243d295658777f096692"
+          },
+          {
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "茶褐绸面云叶纹、暖灰内领与厚实垂摆，64岁须发、皱纹和体量保留。",
+        "remaining": [
+          "同套严格侧面与背面已生成候选，整体纹样、后髻和衣摆对应仍待复核，不等于整套选版。",
+          "身份沿原肖像，三张衣装图不替代高清身份图；护理与端碗动态接触尚待验证。"
+        ]
+      },
+      "wardrobe_set": "C04-XIANXIA",
+      "view": "front"
+    },
+    {
+      "id": "C06-XIANXIA",
+      "asset_ids": [
+        "C06"
+      ],
+      "kind": "wardrobe_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C06-XIANXIA.png",
+      "sha256": "465308f68e56033194efe5217ebc3b4d4fc0609f8f97ba600f772885cdb60c3d",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Refine IMAGE1 Huang Qi wardrobe for restrained xianxia world; image2 ONLY fine textile realism standard, never borrow face crown jewelry. Preserve EXACT34-year-old long angular face with neat short moustache and chin beard, black plain long halfup hair, lean strong adult proportions front stance full head and boots. Ink-black opaque travel robe, charcoal inner small geometric jacquard, narrow black collar and dark wrapped sash, tightly finished wrist cuffs. Upgrade fabric into matte fine silk-wool with subdued satin rolled lapel edge, dark-on-dark narrow interrupted diagonal seamlike geometric weaving; clean sculptural asymmetric overlapping lapel layers and two straight split skirt panels. Quiet sharp silhouette, only very subtle silver-grey stitches at seams, no large shiny embroidery, no faction insignia. Black garment reads as fine dense cloth, not leather or cheap wool. No cape armored shoulders exposed armor weapons glow or fantasy crown. Neutral smoky grey studio natural soft light, same skin texture age face, portrait2:3.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C06/C06-全身干衣.png",
+            "sha256": "e966398a05f1de41f565daa18f41ba7fc0f96ae85b268859ca5e93ddd70d895b"
+          },
+          {
+            "path": "资产/媒体/C01/C01-肖像母版.jpg",
+            "sha256": "064f425dc99dce23289f0578ad8e66c98e770dfeb7af5f5ffa95be56061f70c1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "墨黑叠襟与细斜线绸纹、收腕窄腰；保留黄祁34岁面貌和短须，不加门派标识。",
+        "remaining": [
+          "正面试装不替代已有人物身份母版；新衣装侧背和衣伤需同步后才能连续调用",
+          "袖摆、披片与兵器接触须在动作镜头复核，不能直接拼接旧衣装侧背"
+        ]
+      }
+    },
+    {
+      "id": "P21-SHIELD-XIANXIA",
+      "asset_ids": [
+        "P21",
+        "C17"
+      ],
+      "kind": "weapon_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/P21-SHIELD-XIANXIA.png",
+      "sha256": "04916855ff8a4247d0c19c44697a1045da4e2b65bd26d106fe4558f22b80dc09",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Visual film prop redesign, slight xianxia military craft. Keep image1 SHORT SHIELD same rounded rectangular silhouette, gently convex face and wooden core with leather skin, no metal tower shield. Remove crude scuffed dirtheavy look. Refine into charcoal blue-black well-maintained fine leather panel with subtle pressed lowrelief broken ridge contour pattern, slender darksilver rim corner pieces and restrained deep indigo lacquered wooden edge; small quiet central stepped ridge seam, NOT a glowing emblem. Image2 saber only defines refined gunmetal material family, don't place saber in image. Shield remains compact human forearm scale by visual proportion without measurements or diagrams. One shield frontthreequarter on grey studio, entire object with margin, believable thickness, limited soft highlight, no glow gems spikes symbols or lettering, no person extra objects. Portrait2:3.",
+        "input_references": [
+          {
+            "path": "资产/媒体/P21/P21-短盾母形.png",
+            "sha256": "c03a33843420f44438570b7d14e604b231dfe5126c9e14db9cef6a4782648971"
+          },
+          {
+            "path": "资产/媒体/P21/P21-C16-环首刀.png",
+            "sha256": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "木芯皮面短盾沿原轮廓，改靛黑皮面、墨银包角和浅棱纹；非自动法盾。",
+        "remaining": [
+          "仅道具设计候选，人物尺度、握持、佩置与收鞘仍待核对",
+          "不增加武器法器能力；未改写既有剧情归属"
+        ]
+      }
+    },
+    {
+      "id": "P21-KNIFE-XIANXIA",
+      "asset_ids": [
+        "P21",
+        "C17"
+      ],
+      "kind": "weapon_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/P21-KNIFE-XIANXIA.png",
+      "sha256": "75a6ab980eafc4c19df996c8e0d095c8db43b62cb18c8d4f6c63e7fc0b654488",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Targeted material refinement of exact SHORT KNIFE and ONE matching sheath in reference for Shi Zhaochuan. Preserve compact gently curved blade only about twice onehand grip length, solid faceted rock-ridge pommel, small dark-silver guard, black braided grip, existing subtle blade-root ridge ornament, matching SHORT black sheath. Remove rough woodgrain cracks and heavy tarnish from sheath, replace with smooth softly reflective midnight-indigo lacquer and fine grain only. Blade clean satin silver-grey with smoky slate center planes, sculpted simple metal fittings with restrained angular ridge contour, reduce excess curling ornaments. Refined slight xianxia military film prop, real weight and controlled reflection. One knife one sheath arranged parallel diagonals fully visible on palegrey studio landscape3:2; no glow gems emblems rust damage people text or measurements.",
+        "input_references": [
+          {
+            "path": "资产/媒体/P21/P21-C17-短刀.png",
+            "sha256": "c894334d8018e532cbb1f947a26e1347edde8820c937c9a99037f311b81d8d5a"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "石照川短刀保留短刃与岩棱柄首，刀鞘改靛黑漆面，局部细裂纹仍可见。",
+        "remaining": [
+          "仅道具设计候选，人物尺度、握持、佩置与收鞘仍待核对",
+          "不增加武器法器能力；未改写既有剧情归属"
+        ]
+      }
+    },
+    {
+      "id": "C06-BLADE-XIANXIA",
+      "asset_ids": [
+        "C06"
+      ],
+      "kind": "weapon_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C06-BLADE-XIANXIA.png",
+      "sha256": "97371c44511d1e07a3aac263404669031992bed68d8da8305e77d89ea279ee4c",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Design one refined understated xianxia film-prop BLADE and matching sheath for Huang Qi. Image1 is his clothing color/material identity ONLY no human included; image2 is general metal craft reference, do NOT copy ring pommel. Single-edged long narrow gently curved blade with angular clean tip, quiet smoke-silver double planes, slender narrow darkiron winglike swept guard, solid flattened diamond pommel, black silk cord grip, black lacquered narrow sheath with tiny charcoal-silver diagonal ridge fittings, one sparse broken diagonal line at blade root. Elegant deliberate silhouette, dangerous quiet precision rather than ornate hero treasure, not crude rusty historical replica. No named faction icon, writing, jewels, spikes, glow or floating parts; no claim this is magic artifact. Exactlyone unsheathed blade and its single sheath parallel diagonals full objects with margin palegrey studio landscape3:2, no person, no measurements.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C06/C06-全身干衣.png",
+            "sha256": "e966398a05f1de41f565daa18f41ba7fc0f96ae85b268859ca5e93ddd70d895b"
+          },
+          {
+            "path": "资产/媒体/P21/P21-C16-环首刀.png",
+            "sha256": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "冷银窄刃、黑漆窄鞘、菱形柄首；护手偏尖、根部黑线似裂口，保持设计候选待收敛。",
+        "remaining": [
+          "仅道具设计候选，人物尺度、握持、佩置与收鞘仍待核对",
+          "不增加武器法器能力；未改写既有剧情归属"
+        ]
+      }
+    },
+    {
+      "id": "FX-BODY-QI",
+      "asset_ids": [
+        "C06"
+      ],
+      "kind": "fx_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/FX-BODY-QI.png",
+      "sha256": "3e99d81e1f3c14e26d4cf8b6806c0d7033bde3238c2d2bf6ad236e1017066ff1",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create film VFX style reference for BRIEF CLOSE-FITTING PROTECTIVE QI membrane in restrained Chinese xianxia. Reference man is Huang Qi same exact mature34 face plain tied hair black robe; preserve his identity and clothes. Single waistup threequarter standing neutral portrait on dark desaturated bluegrey empty rainy background. A nearly transparent smoke-silver thin curved membrane hugs ONLY the outer right shoulder and upper chest following body contours just a few cm outside garment. Surface has faint directional fine filament ripples and subtle refractive rain displacement, ONE brief localized brighter curved edge near shoulder, readable real black cloth through it, localized soft cool reflected light on adjacent cloth only. No spherical bubble, full halo, sci-fi hexagons, symbols, lightning, fire, gold armor, blood, weapon or invincible pose. Not a permanent aura. Face natural unobscured, dark environment stays dark, high texture clarity. One static appearance test, not action tutorial, landscape3:2.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C06/C06-全身干衣.png",
+            "sha256": "e966398a05f1de41f565daa18f41ba7fc0f96ae85b268859ca5e93ddd70d895b"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "贴肩薄膜、局部丝状流纹与弱冷光，衣物可透见；不作恒常护体光环。",
+        "remaining": [
+          "仅有背景的静态外观参考，非透明合成素材或成片",
+          "时序、遮挡、人物受力与环境交互尚未通过，POST-FX-COPPER仍未完成"
+        ]
+      }
+    },
+    {
+      "id": "FX-BLADE-QI",
+      "asset_ids": [
+        "C01",
+        "C06",
+        "C16",
+        "C20"
+      ],
+      "kind": "fx_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/FX-BLADE-QI.png",
+      "sha256": "431dc8dbda612206b57009b18789eee1462d18731aea08f01f7f9874d23bc14c",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "A two-panel horizontal film VFX look-development comparison of Chinese cultivation BLADE QI, no text. Reference image ONLY gives metal blade material, preserve a simple blade segment at lowerleft of each equal panel, not full weapon layout. Both panels same dark slate-blue falling-rain background, realistic metallic sword edge along rising left-to-right diagonal. LEFT panel: short very thin smoke-silver pale-cyan luminous arc CLINGS DIRECTLY to the blade cutting edge, follows its curve, hairline core and soft narrow fringe, no separated projectile, nearby few droplets deflected only. RIGHT panel: one compact tapered smoke-silver curved energy arc sits clearly SEPARATED a small distance beyond the blade edge, distinct visible dark rainy AIR GAP between metal and arc, arc traveling only along blade forward direction, not enormous crescent moon. Restrained physically integrated local reflection on steel and rain, far background stays dark. One blade edge plus ONE energy arc per panel, no person hand explosion lightning rune particleswarm or text. Film compositing reference sheet landscape3:2, precise readable difference attached versus detached.",
+        "input_references": [
+          {
+            "path": "资产/媒体/P21/P21-C16-环首刀.png",
+            "sha256": "eed7a71578ee781176e63ec782405b42da8269c0e4b6d54da420b1f8ccfd6491"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "双格区分贴刃短芒与离锋短弧，右格刃气间雨线可见；光晕偏强，实镜应压低。",
+        "remaining": [
+          "仅有背景的静态外观参考，非透明合成素材或成片",
+          "时序、遮挡、人物受力与环境交互尚未通过，POST-FX-COPPER仍未完成"
+        ]
+      }
+    },
+    {
+      "id": "FX-GUIJING",
+      "asset_ids": [
+        "P16",
+        "C03",
+        "C16",
+        "C17",
+        "C20",
+        "C23"
+      ],
+      "kind": "fx_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/FX-GUIJING.png",
+      "sha256": "d450f4363185965c0357ba2d3b741cb452a37f6973535cdb7505f386a4df340a",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Repair only the magical shield material in this look-development image, preserve forest and camera. REMOVE every gold solid arch rib, metallic junction and rigid geometric canopy structure. Shield should be insubstantial soft QI with irregularly flickering feather-thin pale-cyan edges and very faint old-gold hairline flow INSIDE membranes, never metal strips. Shape a PARTIAL CURVED WALL of exactly FIVE side-by-side broad translucent arc-shaped panels like five gently overlapping upright bowed silk membranes, leave top and rear OPEN, no dome or tent. A shallow curved row across small middle patch of road, countfive panels by visible soft overlapping edges: left outer,left inner,center,right inner,right outer. No vertical rigid poles, no ground standing stones. Read rain and trees through panels with only weak refraction, a little directional inward dent on leftinner panel and fine angular flow toward center. Restrained very weak local wetground reflection; background dark natural rain uninterrupted beyond it. No people objects letters magic symbols. This is isolated effect study with no operator/location binding, not final story shot. Same landscape16:9.",
+        "input_references": [
+          {
+            "path": "资产/媒体/资产匹配/S01-夜林光色.png",
+            "sha256": "fe72ae11148d39982023e240537eeb5e5c281cf493288c12b7a9e33ec9af27fd"
+          }
+        ],
+        "initial_prompt": "Film VFX material look-development reference only, no narrative frame: local PARTIAL protective shield canopy for five-person Gui Jing formation in rainy Chinese forest. Image1 exact rainy dark forest surface and low-saturation night lighting reference only, not fixed topology. In center occupy only small patch of road, leave most forest dark and open. ONE partial curved half-canopy built from EXACTLY FIVE connected translucent shallow cyan-gold curved membrane SEGMENTS, boundaries read as five broad interlocking arcs, no closed sphere no solid wall no hexagonal grid. Very thin restrained pale teal membranes with hairline muted gold tension seams, rain and trees clearly visible THROUGH shield. One localized ripple slight inward dent on front-left segment with short angular pressure lines propagating toward neighboring seams; subtle wet-ground reflection directly below, all rain elsewhere falling normally. No people horses carriage objects floating copper talismans or altar, no independent power source depicted: this is isolated effect material reference, operator positions supplied later by storyboard. No enormous dome covering road or forest, no whiteflash magic rune electricstorm or text. Landscape16:9, refined photoreal compositing, elegant slight xianxia transparency and directional pressure.",
+        "edit_target_at_execution": {
+          "path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-664eda2e-c95b-41ff-8d19-26e452582763.png",
+          "sha256": "98904cc8e76d9cef7529a9c49bbaf9b37cd8f7ba141487b6226738ae589802eb",
+          "retention": "只保留最终修图入库，初稿为工具缓存"
+        }
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "已改为柔薄青金弧面，五个相接区域和左侧受压可辨；空间体量、五人接续及动态仍待实镜核验。",
+        "remaining": [
+          "仅有背景的静态外观参考，非透明合成素材或成片",
+          "时序、遮挡、人物受力与环境交互尚未通过，POST-FX-COPPER仍未完成"
+        ]
+      }
+    },
+    {
+      "id": "FX-FIVE-SWORDS",
+      "asset_ids": [
+        "C60"
+      ],
+      "kind": "fx_style",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/FX-FIVE-SWORDS.png",
+      "sha256": "2fcaa3459899221d94619fa5e657e5a439859b6bf08792f977367bb42b51b9d7",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Standalone film VFX look reference: exactly FIVE translucent silver-cyan sword ENERGY FORMS suspended above a small patch of rainy dark forest road, no people. Use image1 for forest rain and dim night light, no geography claims. Count exactly5: one central straight elegant sword, one inner sword each side, one outer sword each side, all FIVE separate silhouettes with obvious dark spacing, slightly fanned in one shallow arc, tips all point upward-right at similar45degree incline, not radial explosion. Each shape is qi not metal: hairline cool-white edge, faint translucent flat blade plane and recognizable modest hilt silhouette formed of same transparent energy; rainlines and darktrees visible through blade, center spine a little brighter. Outer pair slightly softer than inner pair, center clearest. No sixth main sword, no physical weapon lying below, no duplicate afterimage trails. Small local rain disturbance around each edge, background rainfall continues, forest stays dark, modest cold light on nearby droplets, elegant precise restrained xianxia effect no solid blue glass, lightning gold runes particleswarm gigantic blades or text. Landscape16:9. This is static five-form appearance test, not actual action proof.",
+        "input_references": [
+          {
+            "path": "资产/媒体/资产匹配/S01-夜林光色.png",
+            "sha256": "fe72ae11148d39982023e240537eeb5e5c281cf493288c12b7a9e33ec9af27fd"
+          }
+        ]
+      },
+      "review": {
+        "scope": "轻仙侠视觉调整参考，未作为跨镜最终选版",
+        "summary": "五道银青透雨剑形，中央一道计入总数，内外两对清楚；静帧不证明分化及退敌运动。",
+        "remaining": [
+          "仅有背景的静态外观参考，非透明合成素材或成片",
+          "时序、遮挡、人物受力与环境交互尚未通过，POST-FX-COPPER仍未完成"
+        ]
+      }
+    },
+    {
+      "id": "S02-STALL-FRONT",
+      "asset_ids": [
+        "S02"
+      ],
+      "kind": "scene_view",
+      "status": "candidate",
+      "path": "资产/媒体/S02/S02-面摊操作近景.png",
+      "sha256": "50dacecc927c6fae21242fc1f1f5344c4f8a4d5dc15f653dace73bb1c4164745",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Precise set geometry repair of this exact empty noodle stall scene. Keep camera, cream canopy, lighting, cooking pot left, all principal architecture. At the RIGHT end of the main counter, remove the small projecting shelf holding a bowl, remove ALL crossbars and planks below it, and shift the small dining table about one stool width to image RIGHT. This must create a CLEAR adult-width open walking gap from the work aisle behind the counter to the street, with bare stone FLOOR visible continuously through the gap. The two table stools remain on the street-facing near side, neither stool inside this passage. Retain one old plain bowl at table far-left, and move the ready full soup bowl from the removed shelf onto the main counter's right corner above the ceramic jars. Reduce the large rear preparation block's width enough to reveal a narrow empty work aisle behind the main counter. No person. No new objects. Keep full table within image; slightly expand right framing if necessary, no scaling human objects. The cook must be able to stand in open end gap and put the prepared bowl on the adjacent table without passing through timber or reaching across stove. Natural photoreal set, no labels arrows text.",
+        "initial_prompt": "Derive a closer customer-facing view of the SAME noodle stall shown foreground right in reference, Chinese live-action capital South Street winter rainy night. Landscape 16:9, camera on the street facing the stall nearly straight on with a slight view of its RIGHT end. Preserve cream fabric canopy with four rough wooden posts and sagging folds, two warm enclosed oil lanterns, dark wooden plank counter, dark timber shop lattice and cream plaster behind. Preserve pot and bamboo steamers on viewer LEFT, preparation block and pale ceramic jars on RIGHT. Give the cook a clear narrow working aisle behind counter, NOT a wall filling the aisle. At the counter's RIGHT end, make a practical OPEN side access for cook; immediately adjacent to the opening place a small low plain wooden dining table with TWO stools on its street-facing side, angled just enough to show the gap between them. Table's cook-side edge close to side opening so a cook stepping to the open end can put a bowl down with ordinary arm reach WITHOUT leaning across the cooking counter or reaching over stove. Keep table off the central roadway, sheltered by canopy extension. Only ONE empty bowl at table back-left and open space at front-left for later served bowl, one prepared full soup bowl on counter RIGHT near the side opening; no other soup bowls on this dining table. Ladle rests visibly by cooking pot. Steam gentle, rain falling beyond shelter, pale white plaster and real warm wood textures readable, controlled small damp ground highlights without mirror reflections. Clean empty plate: no people no horses no writing or diagram labels. It is a practical shot setup derived from existing visual reference, new side opening and table are proposed staging not independently verified geography. Keep full table and stools visible and enough floor to evaluate access. No magical FX or extra stalls.",
+        "input_references": [
+          {
+            "path": "资产/媒体/S02/S02-南街汤摊夜景.png",
+            "sha256": "f39538c942059fb82a5b7792510c0713f1490a2b1dcfc784aad740eaf983cb1c",
+            "purpose": "initial_scene_reference"
+          }
+        ],
+        "edit_target_at_execution": {
+          "path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-950ef6f4-73ef-4baf-9874-a35acb17600d.png",
+          "sha256": "42edf0ca389cdec3f174ab2d786f26a980a92a788b3dfa48dda7c674159818d0",
+          "retention": "工具缓存，不纳入项目历史副本"
+        }
+      },
+      "review": {
+        "scope": "摊位材质与操作参考；非SH002合成空底",
+        "summary": "米色棚布、左锅右案与夜景同向；右端突出搁板移除，柜台与邻桌之间露出连续地面，双凳在桌前。",
+        "remaining": [
+          "新增邻桌及右端出入口是分镜设计，主宽景未显示这些细节，尚未形成同空间三视图",
+          "右前棚柱仍在通道边，孙由柜后转身至桌侧的净宽和热碗端持须合人验证",
+          "右侧桌缘接近画框，三人同框需重新核定取景；现图无人物",
+          "柜后走道纵深、炉灶安全距离与雨棚排水未核实，非实拍搭景施工图",
+          "备汤在右侧高案处，真人取碗及递放过程未验证"
+        ]
+      }
+    },
+    {
+      "id": "GJ-R02-SH002-TRIO-START",
+      "shot_id": "GJ-R02-SH002",
+      "asset_ids": [
+        "S02",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "kind": "shot_blocking",
+      "status": "candidate",
+      "path": "资产/媒体/镜头/GJ-R02-SH002-三人初态候选.png",
+      "sha256": "f8ffdf02ed1d3ce772dcb4e54180fa68d583480d3b3c901b8276f981dec6f1ce",
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Precise localized correction of this exact three-man noodle-stall blocking frame. Preserve all three exact faces, age, expressions, hair, clothes, hands, ladle, held bowl, table, canopy, background and camera. REMOVE the TWO empty round stools in the foreground in front of the seated men. Their actual seats must be ONE simple low backless wooden bench BEHIND the table underneath BOTH men's buttocks, its side end or leg visible next to their hips and knees proving support. Keep men seated at exactly same height and position, no floating, both feet grounded, no extra stools under table. Also make the SINGLE prepared soup bowl on the FRONT RIGHT corner of the main counter clearly contain plain hot broth with a little steam; keep its position just LEFT of the front canopy post at about table height, separate from jars. Change the OTHER raised small bowl of garnished food above/behind it into a shallow plate of chopped greens so it cannot be confused with the prepared soup. Zhou's held bowl remains the only bowl at the dining table. No other changes. Do not add people or move hands, no text.",
+        "initial_prompt": "Create a production blocking still for a live-action Chinese period drama. Image1 is the authoritative rainy-night noodle-stall SET. Images2,3,4 are distinct face references: Sun Fusheng49, Zhou Cheng36, Ding Mao39 respectively. Preserve recognizable bone structure, age and tied period hair, but REMOVE bruises dirt and scars from those portraits; everyone has clean natural skin and ordinary tired working-person dignity, not assassins. Exactly THREE men only, no hero or soldiers or horses. Keep cream cloth canopy, stove at left, preparation counter at right, open side aisle between counter and adjacent small dining table, two lanterns and white plaster/dark timber backdrop. Widen view slightly on right to fit both seated men and their table; retain waist-to-ground visibility where feasible. Sun sturdy49 short greying beard, warm chestnut neat cotton jacket pale-grey apron, stands BEHIND cookpot at LEFT holding one ladle in his right hand, ladle bowl above pot, neutral mid-service expression. Zhou36 strong shoulders broad forehead rounded jaw short stubble wears ochre-brown cotton robe light brown collar, sits on the stool closest to counter at the RIGHT dining table, BOTH hands holding ONE old plain ceramic soup bowl just above table, calm before reaction. Ding39 slimmer narrow rectangular face neat short beard in grey-green plain cotton robe smoky brown collar sits ADJACENT on the other stool to Zhou's RIGHT, close enough for one natural light touch on Zhou's adjacent arm later, but NOW hands rest separately relaxed on table/lap, not yet touching him. Angle their torsos partly toward camera so both faces clearly recognizable; stools remain grounded and not in open cook passage. Both look casually toward street off camera LEFT, without sinister stare. Remove the empty bowl previously on table because Zhou now holds that SAME bowl; no other bowls on dining table. One distinct prepared bowl of clear hot soup sits on counter RIGHT within Sun's later reach, not on ceramic jars; ordinary noodles/ingredients elsewhere remain set dressing. Keep a clear empty near table corner for serving it later. Empty cook side aisle fully unobstructed, right front canopy post does not cut across faces or arms. Realistic adult proportions, ordinary limb reach, no tiny heads. Winter layers opaque, refined natural cloth texture consistent with elegant restrained xianxia world but NO magic no gold brocade armor or jewels for commoners. Night lantern-lit steam, subdued wet ground highlights, no text labels borders. This is a three-person spatial/identity candidate for shot SH002 before stop-ladle and attempted rise; not final complete shot because passing escort is intentionally absent.",
+        "input_references": [
+          {
+            "path": "资产/媒体/S02/S02-面摊操作近景.png",
+            "sha256": "50dacecc927c6fae21242fc1f1f5344c4f8a4d5dc15f653dace73bb1c4164745"
+          },
+          {
+            "path": "资产/媒体/资产匹配/C08-参考-13.jpg",
+            "sha256": "c1732cf2fe4d23a1c6ed28592b8ac93d9bbe7fa4a9e0d453b76baafc25fe9c6c"
+          },
+          {
+            "path": "资产/媒体/资产匹配/C09-参考-14.jpg",
+            "sha256": "c5c5320bae90d16cdcc31db8e9f099f59af6de9b04af864d844001c365bdfce5"
+          },
+          {
+            "path": "资产/媒体/资产匹配/C10-参考-15.jpg",
+            "sha256": "62564d05d0d635c6162674d797b99f279b9b7022005df06f84da9f66f6a28d67"
+          }
+        ],
+        "edit_target_at_execution": {
+          "path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-1010031c-d3cd-4860-97f7-ec966cb9f028.png",
+          "sha256": "4bceb9a31dfa02eeb9c88e67c70ac53856c3ad4e24b50df732b378895c20ad3c",
+          "retention": "仅工具缓存；项目不保留旧姿态副本"
+        }
+      },
+      "review": {
+        "scope": "汤摊三人初态与坐席候选",
+        "summary": "孙持勺在左锅后；赭褐衣周成双手持旧碗，灰绿衣丁茂邻坐其右；多余前凳移除，桌后长凳及落脚可见。备汤指定柜台右前角低处汤碗，其他浅碟为食材。",
+        "remaining": [
+          "未包含顾韩经过及四卒四马，不是完整SH002首帧或通过的视频输入",
+          "SH002已有同机位长凳空底候选，须合成核验；较早双凳操作图仅作材质与操作参考，不作为本镜几何输入。",
+          "棚柱与柜后通道遮挡、孙到侧口取汤递放、7秒动作节奏仍待验证",
+          "人物原图的污痕未沿用；三张脸为匹配参考，尚未完成正式身份选版及跨镜复核"
+        ]
+      },
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "GJ-R02-SH002-ARM-CONTACT",
+      "shot_id": "GJ-R02-SH002",
+      "asset_ids": [
+        "S02",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "kind": "shot_blocking",
+      "status": "candidate",
+      "path": "资产/媒体/镜头/GJ-R02-SH002-按臂姿态候选.png",
+      "sha256": "0f47b80fe60851a58e934f54967ed602b6bd07757d3f97fa63d3c7bf07027c98",
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create the next key pose from this EXACT frame, preserving same three identities, faces, hair, costumes, entire set, camera lens framing, lanterns, table, bench and all background positions. This is a later moment in the same locked shot, not a montage. Zhou (ochre robe, seated left at table) has set his own bowl on the table at the far left corner nearest counter, clearly away from the empty near-left serving area. His hands now released from bowl; leaning forward slightly with hips just beginning to unload from bench, feet remain planted, not standing upright yet. Ding (grey green, seated right) gently rests his anatomical RIGHT hand (the arm nearest Zhou) on Zhou's anatomical LEFT forearm near elbow; palm from above, light relaxed fingers, no grabbing wrist, and looks toward Zhou with quiet concern. Distinct hands and believable elbows, no fused limbs. Ding's other hand stays on his own thigh. Sun behind counter has safely RESTED ladle on pot rim with handle pointing to cook; both his hands are empty. He has shifted one small step toward the counter RIGHT end, staying in the work aisle BEHIND counter and just LEFT of the front canopy post, now near the prepared soup bowl on the front-right counter corner; he must not pass through cabinet or post. No serving yet. Prepared soup bowl still on counter in same place. Keep no bowl in Zhou hands and exactly one bowl on dining table at far-left, blank near-left landing area. Preserve modest night steam and rain. No fourth person no text arrows borders. Keep figures ages49,36,39, clean faces. This is contact/key-pose verification only, not a claim of motion continuity.",
+        "input_references": [
+          {
+            "path": "资产/媒体/镜头/GJ-R02-SH002-三人初态候选.png",
+            "sha256": "f8ffdf02ed1d3ce772dcb4e54180fa68d583480d3b3c901b8276f981dec6f1ce"
+          }
+        ]
+      },
+      "review": {
+        "scope": "同机位周丁按臂静态接触参考",
+        "summary": "旧碗已放在桌面靠柜台一侧；丁右手轻按周左臂近肘处，双手分属可辨；孙已搁勺且移向右端，备汤尚在柜台。",
+        "remaining": [
+          "未包含顾韩经过及四卒四马，不是完整SH002首帧或通过的视频输入",
+          "SH002已有同机位长凳空底候选，须合成核验；较早双凳操作图仅作材质与操作参考，不作为本镜几何输入。",
+          "棚柱与柜后通道遮挡、孙到侧口取汤递放、7秒动作节奏仍待验证",
+          "人物原图的污痕未沿用；三张脸为匹配参考，尚未完成正式身份选版及跨镜复核",
+          "周仍坐于长凳，只有前倾趋势；实际离座、受触停住和坐回的连续运动尚未生成",
+          "接触落在近肘上臂，不能称已验证精确前臂托点；此处只要求轻按胳膊"
+        ]
+      },
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "C03-EXPRESSION-GRID",
+      "asset_ids": [
+        "C03"
+      ],
+      "kind": "expression_grid",
+      "status": "candidate",
+      "path": "资产/媒体/C03/C03-表情九宫格.png",
+      "sha256": "864b08d1ecc3c381b82a1027a06e2141505a20c1e40355af619697c392933d5b",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "panel_order": [
+        "平静专注",
+        "辨认熟人",
+        "克制担忧",
+        "轻声安抚",
+        "警觉侧视",
+        "承压坚定",
+        "短促发令",
+        "疲惫忍痛",
+        "危险后缓释"
+      ],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Make a precise 3 by 3 nine-panel ACTING EXPRESSION reference sheet of the EXACT same Han Qing man in the supplied identity portrait. Age25, slightly broad youthful adult face, straight brows, dark eyes, faint stubble, grey-blue cloth-bound topknot and loose long hair, unchanged natural skin tone. Same person in ALL nine panels, not nine actors; identical eye spacing jaw nose lip structure and same gray neutral studio lighting. Tight head and upper shoulders portraits all same scale, topknot not required within tight crop, no full body no hands no weapons no injuries. Retain same grey-blue inner collar from identity image; this sheet defines expressions only, NOT a new costume design. Read panels LEFT to RIGHT and TOP to BOTTOM: 1 neutral attentive calm with relaxed lips; 2 recognition of a familiar injured friend, focused eyes gently softening; 3 restrained worry, inner brows drawn upward, slight lips part; 4 quiet reassurance, small warm closed-lip smile and steady eyes; 5 vigilant alert toward slight camera-left, brows lowered without anger; 6 determined under pressure, firm jaw and steady frontal gaze; 7 urgent short command, mouth naturally open mid-syllable, not a scream; 8 tired controlled pain, slight wince and tense eyelids but eyes visible, no tears; 9 relief after immediate danger, exhaled softened eyes and slight parted lips, distinct from smiling4. Expressions visibly different but realistic and restrained, no comic exaggeration. No labels, letters or numbers, no fancy frames. Even straight thin neutral gutters separate exactly9 equal panels. Square overall sheet, high detail cinematic live-action photography, neutral white balance. Face must not morph into handsome protagonist from other references.",
+        "input_references": [
+          {
+            "path": "资产/媒体/C03/C03-身份母版.png",
+            "sha256": "0628d0378ce3a108df1a9886e5d0533ad8fe01aee4c3c283004602f2822a2ee1"
+          }
+        ],
+        "edit_chain": [
+          {
+            "tool": "image_gen.imagegen",
+            "prompt": "Edit ONLY panel 2, the TOP CENTER cell of this existing 3x3 acting reference sheet. Preserve exact same man's facial identity, facial proportions, hair, skin, clothing, lighting, camera framing, all gutters and other EIGHT cells unchanged. In top center panel make a clearly readable but restrained moment of recognizing a familiar injured companion: eyes suddenly focus with a modest widening, BOTH eyebrows rise a little without pinching together, lips part slightly in a small caught inhale, lower jaw relaxes. This is recognition and immediate attention, not blank neutrality, not worry/frowning, not a smile, not cartoon surprise. Keep head frontal and no new head turn or hands. Match natural photoreal skin texture, same age, same identity. Do not retouch any other panel, especially keep original top right concern and middle left reassurance unchanged. No text labels, no additional grid cells, no change of crop or aspect ratio.",
+            "input_sha256": "3e346a3598dea24ca25b4e025cc07c2ced634874c30352635702e1b0b04de7dd",
+            "output_sha256": "4a83db8aefacc43996bbd8545a6933942d567f90714b83123b76c3e348fc8b66"
+          },
+          {
+            "tool": "image_gen.imagegen",
+            "prompt": "Refine ONLY TOP CENTER panel 2 in the supplied nine-cell image. It is currently too startled. Reduce raised eyebrows and wide-open eyes substantially, to restrained attentive recognition of an old companion. Upper eyelids only SLIGHTLY higher than neutral panel1, no round staring eyes and no fear. Lower eyebrows nearly to neutral, retain tiny relaxed lift. Close mouth most of the way: lips very narrowly parted, no visible teeth or large dark gap, relaxed jaw matching panel1. Keep recognition perceptible but quiet, thoughtful natural adult acting, not shock. Preserve facial identity exactly. Keep all other eight panels unchanged, all hair/clothing/background/light/crops/gutters untouched. Same square 3x3 photoreal reference sheet without text.",
+            "input_sha256": "4a83db8aefacc43996bbd8545a6933942d567f90714b83123b76c3e348fc8b66",
+            "output_sha256": "864b08d1ecc3c381b82a1027a06e2141505a20c1e40355af619697c392933d5b",
+            "output_at_execution": "C:/Users/34839/.codex/generated_images/01a08a6e-819b-7af3-8d2e-1fa5eb7cd6e0/exec-23b1fc90-8b9e-4e62-91f0-d83a970efc54.png"
+          }
+        ]
+      },
+      "review": {
+        "scope": "韩青九格静态表演候选；不是服装母版或连续表演",
+        "summary": "已实际查看两次局部修图：第2格从接近中性改为眉眼略提、唇微启的辨认反应，并压低首次修图的受惊幅度；其余八格主要表演仍可辨，整体细节略有柔化。保留候选。",
+        "remaining": [
+          "第2格辨认与第9格缓释的差异仍需结合对手、视线和动作时机验证；不直接用静态张口替代认人过程",
+          "侧视屏幕方向随具体机位核定，不从此板反推场景左右",
+          "第8格忍痛仅作表演范围，不新增韩青剧情伤口",
+          "高分辨率特写须同时引用原肖像；九格小图不作为单独高清脸母版",
+          "本板不证明换装侧背一致、口型、情绪转换或视频动作完成",
+          "连续修图后皮肤与发丝细节略柔，高清近景继续引用身份母版，不从小格放大替代"
+        ]
+      }
+    },
+    {
+      "id": "S03-HALL-REVERSE",
+      "asset_ids": [
+        "S03"
+      ],
+      "kind": "scene_view",
+      "status": "candidate",
+      "path": "资产/媒体/S03/S03-前厅朝南反打候选.png",
+      "sha256": "2f308901297caff08dd5c2d34ba8dd6c5e413cbd12fae49150d32eadbea9425b",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Localized geometry repair on this exact reverse hall view. REMOVE the two tall open display cabinets immediately flanking the far central south doorway (one left one right). They belong to the north end behind camera and were incorrectly duplicated. Replace each with plain white plaster framed in matching dark structural wood; NO replacement shelf or new furniture. Preserve small portable table at far LEFT beside entrance exactly, do not remove it. Preserve near large desk and host chair, guest chairs, side portals, columns, ceiling, daylight and outside visible paving. Remove the newly added inkstone and paper from middle of foreground desk so its central work surface is empty as in initial forward plate; retain paired end groups of vases and bronze vessels. No other changes no people text or new doors. This is reverse-camera spatial consistency correction.",
+        "initial_prompt": "Generate the REVERSE camera view of the exact same Chinese reception hall in the reference. This must be a spatial camera turn, NOT a horizontal mirror or another forward view. In input camera looks from SOUTH entrance toward NORTH fixed desk and screen; now camera is near NORTH behind the desk and slightly to its WEST, looking SOUTH toward entrance. The large carved SCREEN from reference is BEHIND the camera and must NOT appear at far end. Show BACK of high-backed host chair close foreground-right and the SAME fixed large desk extending across LOWER FOREGROUND, its working side visible, no relocation of table. Beyond desk a broad EMPTY central stone aisle leads to one wide open SOUTH doorway under carved beam frame. Just outside doorway only short covered threshold and modest pale courtyard paving, no invented palace or extra courtyard geography. The SMALL portable table that was at entrance right (EAST) in reference must now be at far LEFT beside the south doorway, same square wood top and four slim joined legs, distinct from main desk. Match dark timber columns, carved brackets, white plaster, pale stone square tiles and original tall cabinet/side chair arrangement. East side passage to study is on LEFT of this reverse frame; west passage to bedroom on RIGHT. Keep both side openings unobstructed and architecturally modest, don't invent rooms visible beyond them. The two heavy guest chairs remain beside the main desk at its distant left/right corners; no new center stool. Preserve desk corner ceramic/bronze groups relative to desk; no repeated objects or second host chair. Bright neutral daylight comes from SOUTH doorway now BACKLIGHTING the room; shadows should extend toward camera, with soft ambient fill reading wood detail, white plaster neutral not amber. Eye level standard35mm lens, 16:9 empty environment reference, full readable room depth, no people text diagrams arrows magic or watermarks. Same room and furniture positions; unseen entrance design is proposed continuation of existing frame and requires review.",
+        "input_references": [
+          {
+            "path": "资产/媒体/S03/S03-前厅日景候选.png",
+            "sha256": "32a54072ad7f9a1d79fdf6033535755a60512dbc29894e9efcdb04eca643d728",
+            "purpose": "initial_forward_view"
+          }
+        ],
+        "edit_target_at_execution": {
+          "path": "C:\\Users\\34839\\.codex\\generated_images\\01a08725-58f5-7110-bc3f-0ce36f6fa168\\exec-f8d16a97-af06-4f16-9617-4b551694f08a.png",
+          "sha256": "220f9836dcbdb73f30c533ba152219bf213a7834e33c010f4cf71b67f52467be",
+          "retention": "工具缓存，不在工作区保留旧稿"
+        }
+      },
+      "review": {
+        "scope": "前厅由北朝南反打设计候选",
+        "summary": "主椅及固定大案在前景，小案位于南门旁画面远左；北端屏风退出画面，误复制的南门两旁高柜及新增纸砚已移除。",
+        "remaining": [
+          "此图只通过方向与关键物件的初步目视对应；开间、梁柱数量、桌背形制和座椅间距未逐项配准",
+          "南门外出现短廊、铺地和远墙，仅为新设计范围，未匹配S03外院母版及正门距离",
+          "东西侧开口在反打中左右互换，但仍未接出书房／卧房门外反打",
+          "小案远景细节与正向近景不完全可辨，搬运抓握及纸面工作高度另核",
+          "缺侧向及首夜光态，不能把正反两张当完整三视图或POST-PLAN-COURT验收"
+        ]
+      }
+    },
+    {
+      "id": "GJ-R02-SH002-SOUP-LANDING",
+      "asset_ids": [
+        "S02",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "kind": "shot_blocking",
+      "status": "candidate",
+      "path": "资产/媒体/镜头/GJ-R02-SH002-送汤末态候选.png",
+      "sha256": "20c7dde9bf45ee88b502480e2efb02852d90f83ccb553966c70be9e7241f79b6",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Precise continuity edit of the provided ancient Chinese noodle stall night scene. Produce a single cinematic 16:9 frame, SAME exact camera, framing, architecture, canopy, poles, counter, cooking pot, dining table and long bench. Preserve all three men's exact identities, age, clothes and body proportions. This is the next beat: the older brown-robed apron-wearing vendor has walked from behind the counter around its RIGHT SIDE END, using the narrow passage beside the central canopy pole, toward the LEFT end of the dining table. Show him standing naturally in that passage beside the seated ochre-robed customer's left side on screen. His apron and legs must be physically clear of solid counter wood and table legs, no impossible stretching. He has just put down the prepared soup bowl that previously stood on the FRONT RIGHT LOW CORNER of the counter. That exact bowl is now on the dining table in front of the ochre-robed customer, to the SCREEN RIGHT of the customer's original old bowl. Keep the old bowl unchanged at far LEFT end of the table as in input. Remove ONLY the transferred bowl from that precise front right counter corner; all other bowls/props remain unchanged. Vendor's right hand is just releasing the new bowl at table level, natural normal human arm length, other hand empty. His lips quietly say 'while warm', no written text. Ochre-robed customer is fully seated again and looks toward vendor; gray-green man has released the customer's arm, his right hand now resting on his own side of the table, no touching. Ladle remains resting safely on pot rim. Soft steam from both pot and new soup. Preserve rainy night warm lantern light and pale plaster/dark wood merchant street. No additional people, no guards, no horses, no extra bowls or furniture, no new entrances. Do not mirror the image, move the column, stretch the vendor, or move the table to solve reach. If column partially occludes vendor torso that is natural, but show the hand and bowl landing clearly. This is a static end-pose blocking reference, realistic slightly xianxia drama production still, no supernatural glow.",
+        "input_references": [
+          {
+            "path": "资产/媒体/镜头/GJ-R02-SH002-按臂姿态候选.png",
+            "sha256": "0f47b80fe60851a58e934f54967ed602b6bd07757d3f97fa63d3c7bf07027c98"
+          }
+        ]
+      },
+      "review": {
+        "scope": "SH002静态送汤末态与两碗接续候选",
+        "summary": "同机位保留柜台、棚柱、桌后长凳；旧碗在桌左，备汤从柜台右前低角移到周前，丁松手。孙实际以左手落碗。",
+        "remaining": [
+          "棚柱遮住孙躯干与部分腿部，侧口绕行净宽和碰撞尚待连续运动核验。",
+          "实际落碗手为孙左手，与生成提示词右手不同；取碗到落碗须统一左手。",
+          "缺顾韩经过、四卒四马及7秒连续表演，不计完整首帧或视频通过。",
+          "SH002已有同机位长凳空底候选，须合成核验；较早双凳操作图仅作材质与操作参考，不作为本镜几何输入。"
+        ]
+      }
+    },
+    {
+      "id": "GJ-R02-SH002-CLEAN-PLATE",
+      "asset_ids": [
+        "S02"
+      ],
+      "kind": "shot_clean_plate",
+      "status": "candidate",
+      "path": "资产/媒体/镜头/GJ-R02-SH002-同机位空底.png",
+      "sha256": "de72fd42dbae1fd0e09bea0b48112f64abe208c9537d5c27af090d8598a3c0b5",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Precise object removal edit. Create a clean background plate of this exact 16:9 cinematic ancient Chinese rainy-night noodle stall image. Remove exactly the three foreground men, all their clothing, bodies, hair, hands, shadows specific to their bodies, and the bowl held in the ochre customer's hands and the ladle held by the vendor. Reconstruct the naturally hidden surfaces of the EXISTING stall and dining furniture, without redesigning or changing perspective. On screen right, retain the existing dining table at identical pixel position and size, with ONE plain wooden backless LONG BENCH behind it where the two customers sat. Bench extends left to right parallel with table and sits on ground naturally, with no chair backs. Do NOT add stools in front of this dining table. Keep the separate existing bench in FRONT of the cooking counter on screen left, and the tiny far-left existing stool. Preserve exact central canopy pole, cream canopy folds, hanging lanterns, counter wood grain and edges, pot, stacked steamers, jars, cutting area, remaining bowls, all background windows and building details, camera, framing, light, rain and grade. The existing prepared soup bowl on FRONT RIGHT LOW CORNER of cooking counter must remain at same position. Dining tabletop should be empty because customer held his bowl; do not leave duplicate bowl. Ladle is absent for a clean plate, do not invent one on pot. No people, silhouettes, ghosts, horses, labels, text, watermarks. No moving pole or widening counter-to-table gap to make the set fit. Photographic material detail, natural scene matching, preserve original image dimensions and composition as closely as possible. This clean plate is for compositing the same shot, not an alternative scene design.",
+        "input_references": [
+          {
+            "path": "资产/媒体/镜头/GJ-R02-SH002-三人初态候选.png",
+            "sha256": "f8ffdf02ed1d3ce772dcb4e54180fa68d583480d3b3c901b8276f981dec6f1ce"
+          }
+        ]
+      },
+      "review": {
+        "scope": "SH002固定机位去人底图候选",
+        "summary": "从三人初态去人；保留棚柱、柜台、备汤及右侧桌后长凳，桌上不留周手持旧碗，孙手持勺随人移除。",
+        "remaining": [
+          "去人补出的木桶、窗墙局部和桌凳被遮面不是独立测量依据，需合成检查。",
+          "未做像素配准、动态雨汽连续性或人物抠像边缘验证，不能保证直接叠加无跳变。",
+          "柜台右端柱旁绕行净宽仍未验证；不计反打或三视图完成。"
+        ]
+      }
+    },
+    {
+      "id": "C04-EXPRESSION-GRID",
+      "asset_ids": [
+        "C04"
+      ],
+      "kind": "expression_grid",
+      "status": "candidate",
+      "path": "资产/媒体/C04/C04-表情九宫格.png",
+      "sha256": "b2c3b265c4c7955b33aa6fed2ebafb76221764125fd9c31193321f6292fd7ddb",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "panel_order": [
+        "平静留意",
+        "迎归担忧",
+        "专注照护",
+        "温和安抚",
+        "闻响警觉",
+        "察觉躲手",
+        "听见道谢",
+        "察觉口味变化",
+        "疲惫缓释"
+      ],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create a 3 by 3 expression contact sheet, exactly NINE equal portrait panels, of the SAME 64-year-old Chinese male family caretaker from the reference photo. Preserve exact identity: gently squared broad aged face, gray swept-back hair and small practical tied bun, gray eyebrows, short gray mustache and beard shape, forehead wrinkles, crow's feet, nasolabial folds, realistic neck age, brown/taupe/gray crossed collars. Do not rejuvenate, beautify, whiten hair completely or turn into a sage. Same fixed head-and-shoulders framing in all nine cells, full crown and small bun comfortably inside frame, same neutral blue-gray studio background, soft neutral lighting, natural photographic skin detail, no environment or props. No head rotations beyond a few degrees; expressions legible but restrained, dignified everyday caregiver. Read panels left to right, top to bottom: 1 calm attentive neutral, lips closed; 2 recognizes returning injured young master, brow lightly raised and concern in eyes, no smiling; 3 focused practical caregiving, gaze slightly lowered as assessing a bandage, lips gently pressed; 4 gently reassuring a frightened familiar person, softened eyes and very slight reassuring mouth, no broad grin; 5 hears a cup break, brief alert concern, raised inner brows and lips slightly parted, not horror; 6 notices the familiar young master pull away from his touch, momentary hurt and puzzlement, mouth closes, no accusation; 7 listens to an unfamiliar thank-you, pauses with small wondering look and softened brow, not omniscient; 8 notices changed taste when sugar is added, subtle surprise contained, then thoughtful eyes, not a scheming suspicious villain; 9 exhausted but relieved after patient settles, eased brow and quiet warm eyes, tiny mouth relaxation, no tears or grief ritual. These are separate static acting intentions, not a claim he knows transmigration, secret chamber, death or conspiracy. Keep all panels same clothing, pose scale, gray hairline and beard. Thin unobtrusive straight gutters, no text, numbers, captions, props, logos or watermark. High resolution balanced grid, realistic costume drama visual style matching reference.",
+        "input_references": [
+          {
+            "path": "资产/媒体/资产匹配/C04-参考-05.jpg",
+            "sha256": "ddefee1ce9999ea13fc5cb008b1780007ccdb0575fbb8842634747c449446bc7"
+          }
+        ]
+      },
+      "review": {
+        "scope": "顾伯九格静态照护表演候选",
+        "summary": "九格同脸、灰发短须与64岁年龄线可辨；克制安抚、闻响警觉与照护低视可区分，不新增知情。",
+        "remaining": [
+          "第7听见道谢与第8察觉口味变化仅有细微视线和眉眼差别，必须结合台本先后和对手表演，不靠单格说明事件。",
+          "格3有低头变化，格7略有侧倾；不是几何校准三视图。",
+          "单格不能替代高清身份肖像；皮肤细节与微小痣位置不保证逐像素一致。",
+          "不证明扶人、避瓷片、收糖罐的接触动作与口型已经通过；不是轻仙侠衣装三视图验收。"
+        ]
+      }
+    },
+    {
+      "id": "C04-XIANXIA-SIDE",
+      "asset_ids": [
+        "C04"
+      ],
+      "kind": "wardrobe_view",
+      "wardrobe_set": "C04-XIANXIA",
+      "view": "strict_left_profile",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C04-XIANXIA-SIDE.png",
+      "sha256": "9b424347eb25535c4b1a99533182f134ccc2f815f022c8465216b7fd45f68489",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create ONE strict full-body LEFT-FACING SIDE PROFILE of the identical 64-year-old Chinese male caretaker in the reference. Rotate entire man exactly 90 degrees toward image left: face, shoulders, torso, hips, feet all lateral, not three-quarter, no eye contact, one visible eye and near ear. Same height within frame, realistic elderly head-to-body proportions about 6.8 heads, modest belly and relaxed natural posture not hunchback, same gray hair small tied bun and short gray beard. Preserve EXACT new wardrobe from reference: taupe light-gray crossover collar, dark brown silk robe with large muted old-gold curling floral/cloud jacquard, wide plain dark-chocolate front facings with fine stitched edges, same straight cuff bands and thin gray inner cuff, plain dark-brown wrapped sash with the knot only at front/near front-side as reference, dark charcoal-brown under-robe a little longer than outer robe, black cloth round-toe low shoes with pale sole edge. Do not redesign material, embroidery scale, sleeve width, hem length or add accessories. At side view, establish simple continuous side seam, NO dramatic thigh slit, no dangling ribbons, no sword, no cape, no crown, no glow. Arms relaxed straight down, hands anatomically clear, far arm mostly occluded by near arm. Feet flat in a neutral parallel stance not walking. Entire bun to shoe sole visible with safe margins, medium-gray seamless studio background same soft neutral lighting and contact shadow, 2:3 portrait, finely photographed real fabric and aged skin. One figure, no inset, no text, no border.",
+        "input_references": [
+          {
+            "path": "资产/媒体/轻仙侠/C04-XIANXIA.png",
+            "sha256": "01e50f0cb26aef49d81c65a1c2a2e8eb57a19f4132ee888de175f8816b665434"
+          }
+        ]
+      },
+      "review": {
+        "scope": "顾伯轻仙侠棕绸衣装严格侧面全身静态候选",
+        "summary": "保持64岁灰发短须或后髻、成熟体量、深棕腰封、灰内领袖口、双层衣摆与布鞋；按轻仙侠正面派生，不沿用基础衣装纹样。",
+        "remaining": [
+          "纹样位置和重复尺度、后髻具体轮廓不能保证逐项完全对应，特写需单独绑定。",
+          "侧面新增简单侧缝、袖垂落与腰封遮挡关系属于可见设计，动态转身和扶人仍待验证。",
+          "本组未整体选为现行镜头衣装，不与基础正背图拼成已选包；护理伸手与端碗接触另验。"
+        ]
+      }
+    },
+    {
+      "id": "C04-XIANXIA-BACK",
+      "asset_ids": [
+        "C04"
+      ],
+      "kind": "wardrobe_view",
+      "wardrobe_set": "C04-XIANXIA",
+      "view": "back",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C04-XIANXIA-BACK.png",
+      "sha256": "cb9e66b6218de1e4c7e4fb591f73793d7df8255f4e75815f9e09e28186c5599e",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Generate ONE strict full-body BACK VIEW of the same 64-year-old Chinese caretaker wearing the same slightly xianxia brown silk wardrobe in the reference. Entire body faces directly away, exactly 180 degrees; no face or profile eye visible. Preserve same physique, height in frame, realistic elderly head-to-body ratio, gray swept-back hair in a small neat bun, no loose long hair. Lock clothing to reference: dark brown silk jacquard with large muted old-gold curling cloud/floral pattern, plain dark-chocolate collar back and wide cuff bands with thin light-gray inner cuff, plain wrapped dark brown sash continuous across back with NO rear knot, no rear tails. A simple central back seam runs down robe; outer hem above longer charcoal-brown under-robe, black low cloth shoes with pale sole edge. NO cape, shoulder mantle, ornament, pouch, weapon, crown, glow or extra layers. Natural straight standing neutral stance, both relaxed hands at sides visible below cuffs, feet flat, no movement. Slightly mature rounded torso, not youthful athletic or hunched caricature. Finely photographed aged hands and realistic silk sheen, same plain gray studio floor/background, soft neutral light, full bun and both soles with safe margins, vertical 2:3. The image is a matching wardrobe turnaround, not a new costume design. No text, panels or watermark.",
+        "input_references": [
+          {
+            "path": "资产/媒体/轻仙侠/C04-XIANXIA.png",
+            "sha256": "01e50f0cb26aef49d81c65a1c2a2e8eb57a19f4132ee888de175f8816b665434"
+          }
+        ]
+      },
+      "review": {
+        "scope": "顾伯轻仙侠棕绸衣装背面全身静态候选",
+        "summary": "保持64岁灰发短须或后髻、成熟体量、深棕腰封、灰内领袖口、双层衣摆与布鞋；按轻仙侠正面派生，不沿用基础衣装纹样。",
+        "remaining": [
+          "纹样位置和重复尺度、后髻具体轮廓不能保证逐项完全对应，特写需单独绑定。",
+          "背面后中缝与无结腰封可见；背部纹样细节为派生，转身和衣摆动态仍待验证。",
+          "本组未整体选为现行镜头衣装，不与基础正背图拼成已选包；护理伸手与端碗接触另验。"
+        ]
+      }
+    },
+    {
+      "id": "C03-XIANXIA-SIDE",
+      "asset_ids": [
+        "C03"
+      ],
+      "kind": "wardrobe_view",
+      "wardrobe_set": "C03-XIANXIA",
+      "view": "strict_left_profile",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C03-XIANXIA-SIDE.png",
+      "sha256": "cb129c7b1683ba33e69b7697c367b6145f83d76ae1c9a5a18a1b9d673ae69204",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "One strict full-body LEFT side profile turnaround of this exact 25-year-old Chinese male veteran, entire body rotated 90 degrees left, one visible eye, no eye contact or three-quarter torso. Preserve youthful mature face, clean shaven jaw, natural roughly seven-head body proportion, compact strong shoulders, not skinny teenager. Same half-up topknot wrapped in plain blue-gray cloth, remaining straight dark hair ending above waist, no new ornaments. EXACT outfit: blue-gray silver water-pattern silk cross-collar tunic with dark navy inner lapel and narrow white edge, navy close-fitting inner cuffs beneath straight outer sleeves, navy layered cloth waist sash with small rectangular silver buckle only on front, two front sash ends, patterned central knee-length skirt panels, plain blue-gray layered soft side panels to upper calf, dark navy trousers and dark wrinkled cloth calf boots. No cape, no armor, no weapons, no talismans, no extra jewelry, no glowing pattern. These are unarmored dry-clothes base views for the new outfit. Side panels hang naturally and don't expose thigh, no flutter or wind. Neutral standing, arms down, both boots flat, no stride. Preserve matching gray studio background, soft neutral lighting, full topknot to soles with margins, 2:3 portrait. Consistent natural cloth and skin, no text or extra figure.",
+        "input_references": [
+          {
+            "path": "资产/媒体/轻仙侠/C03-XIANXIA.png",
+            "sha256": "ac3feb96c5580460db6198c7f0532afc63d4e4532abd3f6d5c4215090a90f4f0"
+          }
+        ]
+      },
+      "review": {
+        "scope": "韩青轻仙侠无甲干衣严格侧面全身静态候选",
+        "summary": "保持25岁体量、灰青束髻、玄蓝腰封、折水纹与素色侧叠片、玄蓝裤及布靴；背腰不复制前扣。",
+        "remaining": [
+          "侧面前扣偏向可见侧、远侧手露出与肩线是否严格90度须整体复核。",
+          "侧背叠片褶数、长度和折水纹不能逐像素一致，尚未验收整套跨镜造型。",
+          "无甲干衣不替代归途内甲、佩兵与雨湿状态；驾车、扶右肘、拔刀及卸甲动作待验证。"
+        ]
+      }
+    },
+    {
+      "id": "C03-XIANXIA-BACK",
+      "asset_ids": [
+        "C03"
+      ],
+      "kind": "wardrobe_view",
+      "wardrobe_set": "C03-XIANXIA",
+      "view": "back",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C03-XIANXIA-BACK.png",
+      "sha256": "3c4759cbf429ee5684fd685c884fddb6b009a2661086f20888c3d5351baae32b",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "ONE strict back full-body view of this identical 25-year-old Chinese veteran in this SAME new blue-gray silver water-pattern silk outfit. Rotate man exactly 180 degrees from reference, shoulders hips and feet square away; no face/profile. Same compact strong young adult physique, realistic seven-head proportions. Half-up dark hair high bun wrapped in plain blue-gray cloth, remaining hair ends clearly ABOVE waist sash, no added braids or hair jewelry. Preserve blue-gray silver flowing water jacquard tunic, dark navy inner cuffs visible under straight sleeves, navy cloth wrap sash continuous across back with NO silver buckle at back and NO rear sash tails (front-only hardware and tails), patterned central back skirt panel to knees with a modest center-back movement slit below seat, plain blue-gray soft layered side panels to upper calves, navy loose trousers, dark calf cloth boots. Keep front's panel heights and fabric weight, do not lengthen into a floor robe or add cape. No visible armor, weapon, bag, talisman, glowing patterns or injuries. Relaxed arms at sides, both hands visible, two flat feet in neutral stance, no movement or wind. Same gray seamless studio, neutral soft light, full bun to soles inside margins, 2:3 vertical, natural textile detail. One figure, no captions, no diagram, no border.",
+        "input_references": [
+          {
+            "path": "资产/媒体/轻仙侠/C03-XIANXIA.png",
+            "sha256": "ac3feb96c5580460db6198c7f0532afc63d4e4532abd3f6d5c4215090a90f4f0"
+          }
+        ]
+      },
+      "review": {
+        "scope": "韩青轻仙侠无甲干衣背面全身静态候选",
+        "summary": "保持25岁体量、灰青束髻、玄蓝腰封、折水纹与素色侧叠片、玄蓝裤及布靴；背腰不复制前扣。",
+        "remaining": [
+          "后中缝和适度活动衩为新衣背面设计，需与侧面衣片缝合关系复核；长发止于腰封上。",
+          "侧背叠片褶数、长度和折水纹不能逐像素一致，尚未验收整套跨镜造型。",
+          "无甲干衣不替代归途内甲、佩兵与雨湿状态；驾车、扶右肘、拔刀及卸甲动作待验证。"
+        ]
+      }
+    },
+    {
+      "id": "C16-XIANXIA-SIDE",
+      "asset_ids": [
+        "C16"
+      ],
+      "kind": "wardrobe_view",
+      "wardrobe_set": "C16-XIANXIA",
+      "view": "strict_left_profile_candidate",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C16-XIANXIA-SIDE.png",
+      "sha256": "5bf1c33eafc6c1be69bf7abb632a07226abac791d75c9aa573d8233e626de8d0",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Edit this exact full body image into a TRUE ORTHOGRAPHIC LEFT PROFILE clothing turnaround. Main problem to correct: torso currently three-quarter, front buckle facing camera, far hand visible. Rotate the torso and hips fully to profile, so sagittal plane is PARALLEL to image plane and both shoulder joints overlap in projection. We see the man's anatomical LEFT SIDE only. Face looks exactly screen left, only one eye; sternum/front center and bronze buckle lie on LEFTMOST outline of torso and buckle is seen EDGE-ON, not square toward camera. Shoulder, elbow, wrist, hip, knee and ankle align in a clean side silhouette. Right arm/hand fully occluded behind near LEFT arm, not sticking out in front of abdomen. Feet same direction screen left, near and far boots nearly overlap, no walking stride. Near hand relaxed at lateral thigh, not front. Preserve identical 43-year-old identity, gray temples, short beard, tied bun, short brown scarf, mountain-pattern brown silk uniform, wrapped forearm cuffs, front-only sash ends, below-hip side slit, trousers, boots, age/body proportions, background and light. Full body uncropped. Do not delete or relocate front buckle to hip: make it edge-on at anterior outline consistent with camera truly side-on. No three-quarter chest or front-facing waist plane, no second visible hand, no new garment details, no props, labels or text. This is a technical side-view correction of the SAME outfit and man.",
+        "input_references": [
+          {
+            "path": "资产/媒体/轻仙侠/C16-XIANXIA.png",
+            "sha256": "5c0dda3178ce2957f82c2733076943f7f2882f3ccb3ca5617a792c4bfa834fec",
+            "purpose": "initial_generation_source"
+          }
+        ],
+        "initial_prompt": "Same 43-year-old Chinese veteran leader as attached reference, compact broad-shouldered mature build, lightly gray temples, short mustache and short chin beard, small neatly tied bun. Same EXACT chestnut/dark umber dry unarmored uniform: low-contrast antique-copper mountain landscape jacquard, short plain dark-brown scarf tucked securely at collar, fitted wrapped dark-brown forearm cuffs, wide layered brown cloth sash with ONE small square antique bronze buckle at FRONT only and short front cloth tails; knee-length split lower tunic panels, dark brown roomy trousers, worn brown leather calf boots with thin crossing straps. No armor, shield, weapon, cloak, loose long hair, tall crown, glowing motif, added injury or new ornament. Realistic age and roughly seven-head proportions, neutral standing with relaxed hands at sides and flat parallel feet, no wind or movement. Entire bun and both soles visible, same gray studio and soft neutral light, vertical 2:3, one figure, no text or panels. Strict LEFT SIDE full body turnaround, exact 90 degree rotation of head shoulders torso hips and feet, one visible eye looking left, no three-quarter chest. Preserve collar overlap and front buckle position without moving buckle onto hip; back waist has no knot. Near arm naturally overlaps far arm, with enough hand detail to understand pose. Side seam and modest below-hip movement opening only, no thigh exposure; keep front-reference hem height and boot construction.",
+        "edit_target_at_execution": {
+          "path": "资产/媒体/轻仙侠/C16-XIANXIA-SIDE.png",
+          "sha256": "7c3035713f28a2ba5736267599a68386b75855cc8be2fb6a886974be7f5dc9f2",
+          "retention": "原位替换；旧图不保留为工作区历史副本"
+        }
+      },
+      "review": {
+        "scope": "杜长庚轻仙侠无甲干衣严格侧向静态候选",
+        "summary": "侧向修正后仅近侧手可见、腰扣为前缘窄侧面、肩胸侧轮廓和双靴方向一致；原三分之四胸面显露问题已改善。",
+        "remaining": [
+          "图像为目视侧向控制参考，不具备量测正投影精度；前扣厚度及位置仍需同套近景复核。",
+          "发髻棕灰比例与正面仍有差异；山纹、围巾折层和袖褶不能保证逐项完全对应。",
+          "无甲干衣不替代内甲佩兵和雨湿；持盾、拔刀、跨步结阵未验证。"
+        ]
+      }
+    },
+    {
+      "id": "C16-XIANXIA-BACK",
+      "asset_ids": [
+        "C16"
+      ],
+      "kind": "wardrobe_view",
+      "wardrobe_set": "C16-XIANXIA",
+      "view": "back",
+      "status": "candidate",
+      "path": "资产/媒体/轻仙侠/C16-XIANXIA-BACK.png",
+      "sha256": "0b5d3125dd63b3c0a2fb02e35a9a227c1fa97c8b8464b5c22441dddb7e11da1b",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Same 43-year-old Chinese veteran leader as attached reference, compact broad-shouldered mature build, lightly gray temples, short mustache and short chin beard, small neatly tied bun. Same EXACT chestnut/dark umber dry unarmored uniform: low-contrast antique-copper mountain landscape jacquard, short plain dark-brown scarf tucked securely at collar, fitted wrapped dark-brown forearm cuffs, wide layered brown cloth sash with ONE small square antique bronze buckle at FRONT only and short front cloth tails; knee-length split lower tunic panels, dark brown roomy trousers, worn brown leather calf boots with thin crossing straps. No armor, shield, weapon, cloak, loose long hair, tall crown, glowing motif, added injury or new ornament. Realistic age and roughly seven-head proportions, neutral standing with relaxed hands at sides and flat parallel feet, no wind or movement. Entire bun and both soles visible, same gray studio and soft neutral light, vertical 2:3, one figure, no text or panels. Strict BACK full-body turnaround exactly 180 degrees away. Shoulders hips and boots squared away, no face visible. Hair entirely tied in small practical bun, gray temples barely seen from rear, no long hanging hair. Scarf sits as a short folded band around back neck, ends tucked in FRONT and not draping down back. Simple back center seam down mountain-pattern tunic. Back sash is plain continuous cloth with NO metal buckle and no knot or loose tails. Modest below-seat center back movement slit, lower panel hem at same knee level as front, no cloak or newly long robe. Both hands visible outside side seams, no weapons or accessories.",
+        "input_references": [
+          {
+            "path": "资产/媒体/轻仙侠/C16-XIANXIA.png",
+            "sha256": "5c0dda3178ce2957f82c2733076943f7f2882f3ccb3ca5617a792c4bfa834fec"
+          }
+        ]
+      },
+      "review": {
+        "scope": "杜长庚轻仙侠无甲干衣背面静态候选",
+        "summary": "保持43岁成熟体量、束髻、短褐围巾、山纹栗棕绸衣、束腕和棕靴；后腰无前扣复制。",
+        "remaining": [
+          "后中缝和低活动衩属于派生结构；纹样尺度、围巾后颈折层与侧面缝合需整体核对。",
+          "发髻棕灰色比例与正面有差异，不能据此新增染发设定；纹样并非逐针一致。",
+          "无甲干衣未验证内甲佩盾刀、雨湿、跨步与结阵接触；不计完整人物包通过。"
+        ]
+      }
+    },
+    {
+      "id": "C16-EXPRESSION-GRID",
+      "asset_ids": [
+        "C16"
+      ],
+      "kind": "expression_grid",
+      "status": "candidate",
+      "path": "资产/媒体/C16/C16-表情九宫格.png",
+      "sha256": "5d2a2b695cad4d5ff0ea610ce58b53383585eb7208de2d195581fd31c190c2a6",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "generated_on": "2026-09-11",
+      "panel_order": [
+        "稳静留意",
+        "发现来势",
+        "判断对手",
+        "再接承压",
+        "短促令合",
+        "顾及同伴",
+        "未知介入",
+        "止追撤离",
+        "安顿缓释"
+      ],
+      "generation": {
+        "tool": "image_gen.imagegen",
+        "model": null,
+        "seed": null,
+        "prompt": "Create exactly NINE equal panels in a 3x3 expression reference sheet of this SAME 43-year-old Chinese retired veteran leader. Preserve reference identity precisely: lightly gray temples, swept back dark hair in small practical bun, moderately broad mature face, short mustache and chin beard, age lines, brown scarf tucked at neck, dark brown collar. Same head-and-shoulders portrait crop with entire bun inside safe margin in every cell, identical neutral blue-gray studio backdrop, same natural soft light, skin texture and clothing in every cell. Only restrained acting intention changes. Left to right top to bottom: 1 neutral steady attention with relaxed closed mouth; 2 detects approaching threat, eyes focus slightly to screen left and brow tightens, not surprise scream; 3 measures opponent and holds ground, narrowed evaluating eyes, jaw set but lips loose for breathing; 4 second wave pressure is harder than expected, furrowed brow, visibly strained eyes, mouth slightly parted for short exhale, no new injury or tears; 5 makes a concise one-syllable command 'he', mouth naturally open mid-short command, eyes directed and firm, not rage shout; 6 maintains team formation while glancing to an endangered comrade, inner brows lift with controlled concern, no panic; 7 notices intervention from unknown direction, brief startled alertness, slightly wider eyes, retains command focus, does not recognize mysterious rescuer; 8 stops pursuit and orders withdrawal with wounded comrade, resolute lips parted and firm focused eyes, no triumphant grin; 9 after reaching shelter, exhaustion eases into restrained gratitude, softened brow and tiny reassuring smile, no celebratory teeth. Distinct readable microexpressions at realistic cinematic intensity. No weapons, props, glowing eyes, effects, cuts, blood, additional characters, numbers, labels, text or watermark. This board does not add supernatural abilities or secret knowledge. Realistic costume drama photography, not illustration, no beauty retouching or de-aging.",
+        "input_references": [
+          {
+            "path": "资产/媒体/资产匹配/C16-参考-04.jpg",
+            "sha256": "6f27bc23b7077a25f3426f0ddbff8c53735c26c8f75986653251b788e7e616d1"
+          }
+        ]
+      },
+      "review": {
+        "scope": "杜长庚领阵与照应九格静态表演候选",
+        "summary": "灰鬓短须与43岁成熟体量一致；承压换气、短促发令、意外介入和安顿缓释有区分。",
+        "remaining": [
+          "部分发髻贴近上缘，高清特写继续引用原身份母版，不以小格替代妆发全形。",
+          "第3判断和第8止追的区别需动作和台词支持；第5张口不是已验证的“合”口型。",
+          "第2、6、7格侧视方向随实际镜头轴线核定，不把板内左右直接当林道地理。",
+          "无雨湿、伤势和动作接触；第7仅察觉介入，不表示识破救者身份或境界；不新增独立行息能力。"
+        ]
+      }
+    }
+  ]
+}

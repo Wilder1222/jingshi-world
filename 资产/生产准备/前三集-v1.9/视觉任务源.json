@@ -33,10 +33,10 @@
       "age": 24,
       "tier": "A",
       "first_batch": 0,
-      "identity_en": "a long oval face, defined cheekbones, thick straight brows, slender almond dark-brown eyes with shallow inner folds, straight nose, defined cupid's bow, slightly fuller lower lip, warm wheat skin, clean-shaven, tall lean athletic build",
-      "hair_en": "long black hair in one neat topknot with a plain dark wooden pin, period long hair with a few fine temple strands secured away from the eyes, no modern cropped haircut",
-      "costume_en": "ink-teal and blackened ink travel martial robe, dense matte silk-wool outer fabric with low-contrast woven brocade panels and small dark-gold flowing geometric embroidered accents, smoky-gray soft-sheen silk inner collar and opaque cotton lining, refined layered dark waist sash with small restrained metal fittings, fitted shoulders, narrow sleeves, practical split hem and fitted period boots",
-      "checks": "同脸覆盖C01／C02；24岁长鹅蛋脸、平直浓眉、暖麦肤；不随意识变脸；脸部无疤、擦伤与血污，左肩剧情伤另依状态；已有肖像待核验复用；外层密实丝毛，局部织锦；烟灰绸领与棉里；暗金仅细绣，不将织纹画成亮金印花。；低信息摄影棚背景与衣色分离，中性白平衡，古代束发、真实肌理，不用背景变更重抽脸",
+      "identity_en": "exact face of selected portrait-C01, a 24-year-old Chinese man with long oval face, dark almond eyes, straight brows and nose, defined natural lips and jaw, clean-shaven natural skin matching portrait, lean athletic adult build; C01 and C02 share unchanged body",
+      "hair_en": "black half-up long hair, blue-grey jade-centered antique metal crown with horizontal pin matching selected portrait-C01, natural fine temple strands, no modern haircut",
+      "costume_en": "charcoal and ink-grey silk travel robe with subtle misty mountain and cloud landscape weave, pale-grey crossed inner collar, charcoal lapels, long blue-grey draped outer lapel panels, two matching antique silver cloud chest clasps with pale-blue bead and grey tassel drops, plain dark fabric waist sash, natural fitted shoulders and narrow sleeves, lower-calf hem over dark trousers and plain wrapped black boots",
+      "checks": "同脸覆盖C01／C02；以新portrait-C01五官、肤色与24岁体量为准，不随意识变脸；蓝灰玉冠横簪、山水云纹绸衣、蓝灰披襟、双银胸扣珠穗与深色布腰封；正侧背沿新全身，细纹特写另核；脸部无伤，左肩剧情伤按状态；自然头身与中性摄影，换光不换脸。",
       "shares": [
         "C02"
       ],
@@ -370,8 +370,8 @@
         "S02"
       ],
       "first_batch": 0,
-      "body_en": "A broad capital street with layered handsome timber shopfronts, deep tiled eaves and refined carved facade details, a small covered everyday soup stall beside an unobstructed continuous walkway. Ordinary pot and bowls, practical stall lanterns, damp stone paving and cool rainy night beyond the awning. Rich urban architectural depth, maintained surfaces and natural working life, no palace gate, no royal procession, no identifiable people.",
-      "checks": "城景开阔精整，汤摊仍实用；不增加人物或改变顾府与同街西巷关系。",
+      "body_en": "Broad Chinese capital merchant avenue with readable white plaster panels framed in deep reddish timber, two and three story layered grey tiled eaves and urban depth, neutral warm stone paving and an open central traffic corridor. Modest noodle/soup stall on right pavement: cream cloth canopy tied to timber posts, worn wood counter, cookpot and bamboo steamer at customer-left, noodle board and ceramic jars at right, practical bowls and low stools. User daytime street references determine architectural style and material colors, not story time. For GJ-R02 preserve winter night drizzle, localized warm stove steam and amber practical lanterns, cool grey-blue ambient, restrained damp paving reflections; no cramped dark all-timber alley, giant palace gate or magical city effects. No identifiable people in the clean environment plate. Opposite views and exact geography remain to be checked.",
+      "checks": "用户指定五张街摊参考锁定白墙深木、开阔商街及米色布棚；白昼原图不更改夜雨台本；摊位朝向、顾韩行路、牵马通道与反打另验。",
       "state": "night",
       "ratio": "16:9"
     },

@@ -6,6 +6,28 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_media_provenance(root, registry):
+    """生成当时的原图与当前身份锚点分开核对，不把换版当成重新生成。"""
+    paths = set()
+    current = {m['path']: m['sha256'] for m in registry['masters']}
+    for row in registry['masters'] + registry.get('matched_references', []) + registry.get('generated_assets', []):
+        generation = row.get('generation', {})
+        refs = generation.get('execution_style_references', []) + generation.get('auxiliary_input_references', [])
+        refs += [dict(path=p, sha256=h) for p, h in generation.get('style_reference_sha256', {}).items()]
+        if row.get('current_style_anchor'):
+            anchor = row['current_style_anchor']
+            if current.get(anchor['path']) != anchor['sha256']:
+                raise ValueError('当前视觉锚点已失效')
+            refs.append(anchor)
+        for ref in refs:
+            target = (root / ref['path']).resolve()
+            allowed = any(target.is_relative_to((root / base).resolve()) for base in ('资产/媒体', '参考/用户媒体'))
+            if not allowed or not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest() != ref['sha256']:
+                raise ValueError('图像实际生成来源失配：' + ref['path'])
+            paths.add(ref['path'])
+    return paths
+
+
 def load_generated(tasks):
     registry = json.loads((ROOT / '资产/媒体/母版登记.json').read_text(encoding='utf-8'))
     rows = registry.get('generated_assets', [])
@@ -112,13 +134,90 @@ def render_mapping(data):
     return text
 
 
+def render_required_coverage(data):
+    """逐项列出必要包要求，包括尚无媒体登记的空槽；不从近似视角推断完成。"""
+    tasks = {t['id']: t for t in data['tasks']}
+    packages = {p['id']: p for p in data.get('necessary_asset_packages', [])}
+
+    def cell(key, package=False):
+        row = (packages if package else tasks).get(key)
+        if not row:
+            return '缺：未登记交付'
+        path = row.get('path') if package else row.get('actual_file')
+        if not path:
+            return '缺：未登记交付'
+        status = row.get('status') if package else row.get('media_status')
+        label = '已选静态' if status == 'selected' else '候选待验'
+        link = '../../媒体/' + Path(path).relative_to('资产/媒体').as_posix()
+        return f'[{label}]({link})'
+
+    text = '\n## 主要人物与重点场景必要项覆盖\n\n'
+    text += '按[必要资产设计](必要资产与分镜设计.md)逐项核对以下主要人物和六个重点场景，不因没有登记行就略过缺口。已选静态只说明单项验收；侧脸不抵严格侧面全身，四分之三不抵正侧背，日景不抵同空间夜景。此表不替代其他具名配角、遮面群体与逐镜状态的要求。\n\n'
+    text += '| 人物 | 身份肖像 | 基础正面全身 | 严格侧面全身 | 基础背面全身 | 表情九宫格 | 轻仙侠换装边界 |\n|---|---|---|---|---|---|---|\n'
+    people = [('C01', '顾砚／陈渡同身体'), ('C03', '韩青'), ('C04', '顾伯'),
+              ('C16', '杜长庚'), ('C17', '石照川'), ('C20', '崔望野'),
+              ('C23', '许照邻'), ('C06', '黄祁')]
+    for cid, name in people:
+        expression = cell(cid + '-EXPRESSION-GRID', True)
+        if cid == 'C01':
+            expression = '原顾：' + expression + '；今顾：' + cell('C02-EXPRESSION-GRID', True)
+        wardrobe = ('男主现行母版对应；室内干衣另按镜头绑定' if cid == 'C01' else
+                    '正：' + cell(cid + '-XIANXIA', True) + '；侧：' + cell(cid + '-XIANXIA-SIDE', True) +
+                    '；背：' + cell(cid + '-XIANXIA-BACK', True) + '；整套一致性另验，不与基础视图拼包')
+        values = [cid + ' ' + name, cell('MB-' + cid + '-FACE'), cell('MB-' + cid + '-FULL'),
+                  cell(cid + '-FULL-SIDE', True), cell('MB-' + cid + '-FULL-BACK'), expression, wardrobe]
+        text += '| ' + ' | '.join(values) + ' |\n'
+    text += '\n| 场景／子区 | 主视角 | 同空间反打 | 同空间侧向 | 未完成的整体核验 |\n|---|---|---|---|---|\n'
+    scenes = [('S01', '林道', 'S01-REVERSE', 'S01-SIDE', '完整车马包络、八马六人及两波站位'),
+              ('S02', '南街汤摊', 'S02-REVERSE', 'S02-SIDE', '同机位去人和人物姿态不抵反打／侧向；街面扶行与四骑通道'),
+              ('S03-COURT', '顾府外院', 'S03-COURT-REVERSE', 'S03-COURT-SIDE', '正门、西厢外四马、五床与通行邻接'),
+              ('S03-HALL', '前厅', 'S03-HALL-REVERSE', 'S03-HALL-SIDE', '大案、小案、照护位及东西开口对应；首夜光态'),
+              ('S04', '书房', 'S04-REVERSE', 'S04-SIDE', '案窗门、柜、镜杯灯和碎杯落区对应'),
+              ('S05', '卧房', 'S05-REVERSE', 'S05-SIDE', '床门关系、左肩照护与起身落脚；日夜光态')]
+    for sid, name, reverse, side, pending in scenes:
+        text += '| ' + ' | '.join([sid + ' ' + name, cell('MB-ENV-' + sid), cell(reverse, True),
+                                  cell(side, True), pending]) + ' |\n'
+    text += '\n空槽表示尚无绑定到该必要项的有效交付；不推断磁盘上任意相似图片已经满足要求。新媒体须按用途登记后再更新覆盖，建筑参考和单机位表演末态不能自动填入其他空间视角。\n'
+    return text
+
+
 def render_missing(data):
     tasks = [t for t in data['tasks'] if t['release_scope'] == 'current_first_three']
     selected = [t for t in tasks if t['media_status'] == 'selected']
     candidates = [t for t in tasks if t['media_status'] == 'generated_candidate']
-    text = '# 前三集实际资产缺口\n\n'
+    text = '# 前三集实际资产缺口\n\n先看[视频平台制作分工](视频平台制作分工.md)。以下是完整任务登记，未完成数不等于必须生成的独立图片数；按镜头补核心参考，其余按需或用提示词执行，实际验收仍保留。\n\n'
     text += f'由生产任务和实际媒体登记生成：前三集{len(tasks)}项，已选{len(selected)}项，已生成待复核{len(candidates)}项，未生成／未完成{len(tasks)-len(selected)-len(candidates)}项。后续专用任务不混入此数。\n\n'
     text += '[母版自动适配编号](../../媒体/母版自动适配编号.md) · [逐镜分镜](前三集节奏与分镜.md) · [剧情动作关系](../../../剧集/前三集重写与生产交接-v1.9.md)\n\n'
+    text += '## 按制作路线核对缺口\n\n'
+    text += '| 路线 | 已选任务 | 候选任务 | 未完成任务 | 执行含义 |\n|---|---|---|---|---|\n'
+    routes = [('core', '核心参考'), ('shot', '逐镜派生'), ('prompt', '提示词实现'), ('execution', '执行与验证')]
+    actual_routes = {t['production_route'] for t in tasks}
+    routes += [(r, r) for r in sorted(actual_routes - {r for r, _ in routes})]
+    for route, label in routes:
+        subset = [t for t in tasks if t['production_route'] == route]
+        if not subset:
+            continue
+        done = sum(t['media_status'] == 'selected' for t in subset)
+        review = sum(t['media_status'] == 'generated_candidate' for t in subset)
+        text += f'| {label} | {done} | {review} | {len(subset)-done-review} | 按登记验收；路线不代表已生成或自动通过 |\n'
+    text += '\n优先补尚缺的核心参考；逐镜派生随实际镜头执行，提示词与后期项仍需结果核验。不得按未完成行数机械生成同等数量的独立图片。\n\n'
+    core_missing = [t for t in tasks if t['production_route'] == 'core' and t['media_status'] != 'selected']
+    text += '### 尚未通过的核心参考\n\n'
+    for t in core_missing:
+        text += f"- {t['id']}：{t['name']}；{'、'.join(t['release_episode_ids'])}；{'已有候选，先复核' if t['media_status'] == 'generated_candidate' else '尚缺有效交付'}。\n"
+    if not core_missing:
+        text += '旧任务范围内核心参考已选；仍须核对下列必要包及逐镜输入。\n'
+    text += render_required_coverage(data)
+    packages = data.get('necessary_asset_packages', [])
+    accepted = sum(p['status'] == 'selected' for p in packages)
+    text += f'\n## 新增必要包与分镜候选\n\n必要包登记共{len(packages)}项，其中已选{accepted}项、候选{len(packages)-accepted}项。此数独立于旧任务，不相加为完成率；已选只覆盖各项静态验收范围，不等于整个人物包或镜头通过。\n\n'
+    text += '| 实际文件 | 类型 | 状态 | 验收范围 | 尚缺核对 |\n|---|---|---|---|---|\n'
+    for p in packages:
+        link = '../../媒体/' + Path(p['path']).relative_to('资产/媒体').as_posix()
+        scope = p['review'].get('scope', '待核')
+        pending = '；'.join(p['review'].get('remaining', [])) or '后续镜头与动态另验'
+        text += f"| [{p['id']}]({link}) | {p['kind']} | {'已选静态范围' if p['status'] == 'selected' else '候选'} | {scope} | {pending} |\n"
+    text += '\n未登记项目仍可能是缺口，不能因本表没有一行就视为完成。人物三视图和表情、场景主视角／反打／侧向的要求见[必要资产与分镜设计](必要资产与分镜设计.md)；镜头候选不能代替未完成的动态接触、对白、声音及逐镜占时验证。\n\n## 旧任务逐项验收缺口\n\n'
     text += '通过次序：身份与衣装 → 侧背与剧情状态；空间拓扑 → 空景与光态；道具底形 → 字版与流转；最后做人景、动作、声音和逐镜占时。五镜技术预演与书房美术候选另见三维预演登记，不能抵扣未验收任务。\n\n'
     text += '| 未完成任务 | 名称 | 发行集 | 当前状态 | 尚缺前置 | 验收要求 |\n|---|---|---|---|---|---|\n'
     for t in tasks:
